@@ -9,7 +9,7 @@ Built Oct 29, 2026 by 603 Interactive from the shop's own content only. No AI-ge
 
 ## Design concept (v2)
 
-Drawn parallax hero (Main Street storefront with a soft-serve cone sign, sun, clouds, hills) plus the **Soft-Serve Sundae Maker**: build a cone, waffle cone, dish, sundae, flurry, float or milkshake from the shop's real 26-flavor list and see it drawn. Cream, cherry red and pine green; Young Serif + Smooch Sans + Lora.
+Real-photo hero collage (the shop's own pizza, chicken sandwich and tenders, from its public Facebook page) with parallax, plus the **Soft-Serve Sundae Maker**: build a cone, waffle cone, dish, sundae, flurry, float or milkshake from the shop's real 26-flavor list and see it drawn. Cream, cherry red and pine green; Young Serif + Smooch Sans + Lora.
 
 ## What we found on the current site
 
@@ -21,7 +21,7 @@ Drawn parallax hero (Main Street storefront with a soft-serve cone sign, sun, cl
 
 ## What the new site does about it
 
-- No real food photos were available, so every illustration is drawn, none AI-generated.
+- Only the shop's real photos are used for food. The Sundae Maker drawings are the one illustrated element because no ice cream photos exist; send photos and we can swap them in.
 - Live open/closed from the posted hours (7 days, 10:30 AM to 9 PM), paged menu with search, catering inquiry form (Netlify Forms), DoorDash and online-order buttons, job link, mobile order bar.
 - The fake template specials and the empty Rewards page are left out instead of replaced with invented offers.
 - Search-engine basics: page title and description, Restaurant structured data, sitemap and robots.txt.
@@ -35,3 +35,4 @@ Drawn parallax hero (Main Street storefront with a soft-serve cone sign, sun, cl
 5. Ice cream prices are not on your site. Want them shown?
 6. Spelling fixes we made: “Brocoli”, “Oinion”, “Cheeseburge”, “Jalepeno”.
 7. Do flurries come on vanilla soft serve? We assumed yes for the sundae maker.
+8. Photos (pizza, chicken sandwich, tenders) come from your public Facebook page. OK to use them? Send any others you want featured, especially ice cream and the dining room.
