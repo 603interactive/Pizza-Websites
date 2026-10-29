@@ -1,4 +1,4 @@
-"""Charlestown House of Pizza: bespoke parlor site with the Soft-Serve Sundae Maker. usage: build_charlestown.py"""
+"""Charlestown House of Pizza: bespoke parlor site with the . usage: build_charlestown.py"""
 import json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))

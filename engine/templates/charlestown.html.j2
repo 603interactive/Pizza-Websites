@@ -10,11 +10,11 @@
 </head>
 <body>
 {% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
-<a class="skip" href="#sundae">Skip to the sundae maker</a>
+<a class="skip" href="#menu">Skip to the menu</a>
 <header class="top">
   <a class="brand" href="#top" aria-label="{{ name }} home"><span class="logo-chip"><img src="{{ img('logo.png') }}" width="87" height="39" alt="CHOP, Charlestown House of Pizza"></span></a>
   <span class="stat"><i class="dot"></i><span data-status>Checking hours…</span></span>
-  <nav aria-label="Main"><a href="#sundae">Sundae maker</a><a href="#menu">Menu</a><a href="#catering">Catering</a><a href="#visit">Visit</a></nav>
+  <nav aria-label="Main"><a href="#menu">Menu</a><a href="#catering">Catering</a><a href="#visit">Visit</a></nav>
   <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a>
 </header>
 <main id="top">
@@ -36,25 +36,6 @@
 </section>
 <div class="checks" aria-hidden="true"></div>
 
-<section class="sundae sec" id="sundae">
-  <div class="wrap">
-    <div class="sec-head"><p class="kicker">Only on this site</p><h2>The Soft-Serve <em>Sundae Maker.</em></h2><p class="lede">Twenty-six flavors is a lot to decide at the window. Build yours here from the shop’s real flavor list, then tell us at the counter.</p></div>
-    <div class="sm">
-      <div class="sm-stage">
-        <div class="sm-art" id="sm-art" role="img" aria-label="Preview of your creation"></div>
-        <p class="sm-name" id="sm-name" aria-live="polite"></p>
-        <div class="sm-act"><button type="button" class="btn btn-sm" id="sm-copy">Copy my order</button><button type="button" class="btn btn-ghost btn-sm" id="sm-rand">Surprise me</button></div>
-        <p class="fine" id="sm-hint">Order at the counter or call {{ loc.phone }}. Ice cream isn’t sold through online ordering.</p>
-      </div>
-      <div class="sm-ctl">
-        <fieldset><legend>1 · What are you in the mood for?</legend><div class="chips" id="sm-fmt"></div></fieldset>
-        <fieldset id="sm-fl"><legend id="sm-fl-leg">2 · Pick flavors</legend><div class="chips" id="sm-flv"></div></fieldset>
-        <fieldset id="sm-ex" hidden><legend id="sm-ex-leg">3 · Pick one</legend><div class="chips" id="sm-exv"></div></fieldset>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="menu sec" id="menu">
   <div class="wrap">
     <div class="sec-head"><p class="kicker">The menu</p><h2>Fresh dough. <em>Homemade sauce.</em></h2><p class="lede">Every item from the shop’s menu in one place. Tap a section or search.</p></div>
@@ -73,7 +54,7 @@
     </section>
     {% endfor %}
     <section class="m-panel" data-p="ice-cream" hidden>
-      <h3>Ice Cream</h3><p class="m-note">{{ icecream.note }} Cones, waffle cones, dishes, sundaes, flurries, floats and shakes. Build one in the sundae maker above.</p>
+      <h3>Ice Cream</h3><p class="m-note">{{ icecream.note }} Cones, waffle cones, dishes, sundaes, flurries, floats and shakes.</p>
       <div class="ic">
         <div class="card" data-t="ice cream cone dish flavors {{ icecream.scoops|join(' ')|lower }}"><b>Cone or dish flavors</b><span class="tags">{% for f in icecream.scoops %}<i>{{ f }}</i>{% endfor %}</span></div>
         <div class="card" data-t="ice cream flurries {{ icecream.flurries|join(' ')|lower }}"><b>Flurries</b><span class="tags">{% for f in icecream.flurries %}<i>{{ f }}</i>{% endfor %}</span></div>
@@ -116,7 +97,7 @@
 </main>
 <div class="checks" aria-hidden="true"></div>
 <footer class="foot"><div class="wrap"><span>© {{ year }} {{ name }}. Family owned, Charlestown NH.</span><span>203 Main St · {{ loc.phone }}</span></div></footer>
-<div class="dock"><a class="btn" href="{{ order_any }}" rel="noopener">Order</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call</a><a class="btn btn-ghost" href="#sundae">Sundae</a></div>
+<div class="dock"><a class="btn" href="{{ order_any }}" rel="noopener">Order</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call</a><a class="btn btn-ghost" href="#menu">Menu</a></div>
 <script>window.__HOURS__={{ hours_json }};window.__IC={{ ic_json }};</script>
 {% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
 </body>
