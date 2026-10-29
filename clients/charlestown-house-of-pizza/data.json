@@ -1,0 +1,1105 @@
+{
+ "slug": "charlestown-house-of-pizza",
+ "name": "Charlestown House of Pizza",
+ "short": "Charlestown House of Pizza",
+ "style": "parlor",
+ "domain": "https://charlestownnhpizza.com",
+ "tagline": "Family-owned pizza, ice cream, beer and wine on Main Street in Charlestown, NH.",
+ "seo_title": "Charlestown House of Pizza (CHOP) | Pizza, Soft Serve & Catering in Charlestown, NH",
+ "seo_desc": "Family-owned pizzeria for over 30 years at 203 Main St, Charlestown, NH. Homemade dough, subs, pasta, a 26-flavor soft serve counter, beer and wine. Open 7 days, 10:30 AM to 9 PM.",
+ "logo": {
+  "src": "logo.png",
+  "alt": "Charlestown House of Pizza"
+ },
+ "locations": [
+  {
+   "id": "charlestown",
+   "name": "Charlestown",
+   "street": "203 Main St",
+   "city": "Charlestown",
+   "region": "NH",
+   "postal": "03603",
+   "phone": "(603) 826-3700",
+   "tel": "+16038263700",
+   "hours": [
+    {
+     "days": "Every day",
+     "dow": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "10:30",
+     "close": "21:00"
+    }
+   ],
+   "order": "https://charlestownnhpizza.weborder.net/Items.aspx?store=3544",
+   "maps": "https://goo.gl/maps/wWVruBbsJUXScthx6",
+   "geo": [
+    43.2466,
+    -72.4259
+   ]
+  }
+ ],
+ "order_any": "https://charlestownnhpizza.weborder.net/Items.aspx?store=3544",
+ "delivery": "https://www.doordash.com/store/charlestown-house-of-pizza-charlestown-25116438/89810953/?event_type=autocomplete&pickup=false",
+ "links": {
+  "instagram": "https://www.instagram.com/chopizzanh/",
+  "facebook": "https://www.facebook.com/chopizzanh/",
+  "jobs": "https://docs.google.com/forms/d/1gtWPXa4OVS7nGJvQ3pqFFvJrENpweQnxKWQZmluw454/viewform"
+ },
+ "about": "Welcome to CHOP, your cherished family-owned pizzeria. For over 30 years, our passion for crafting mouthwatering pizzas and creating a welcoming atmosphere has been at the heart of the shop.",
+ "menu": [
+  {
+   "cat": "Pizza",
+   "note": "Our homemade dough is made fresh every day. Traditional toppings: pepperoni, hamburg, sausage, ham, broccoli, garlic, onion, green pepper, mushrooms, black olive, tomato, pineapple, spinach. *Gourmet toppings: feta, steak, eggplant, bacon, chicken.",
+   "items": [
+    {
+     "name": "Cheese",
+     "sizes": [
+      [
+       "Mini",
+       "$5.40"
+      ],
+      [
+       "Small",
+       "$8.20"
+      ],
+      [
+       "Large",
+       "$12.95"
+      ],
+      [
+       "Family",
+       "$15.50"
+      ]
+     ]
+    },
+    {
+     "name": "Traditional toppings",
+     "desc": "Per topping.",
+     "sizes": [
+      [
+       "Mini",
+       "$1.00"
+      ],
+      [
+       "Small",
+       "$1.50"
+      ],
+      [
+       "Large",
+       "$2.40"
+      ],
+      [
+       "Family",
+       "$3.00"
+      ]
+     ]
+    },
+    {
+     "name": "Gourmet toppings*",
+     "desc": "Per topping.",
+     "sizes": [
+      [
+       "Mini",
+       "$1.25"
+      ],
+      [
+       "Small",
+       "$2.10"
+      ],
+      [
+       "Large",
+       "$3.35"
+      ],
+      [
+       "Family",
+       "$4.45"
+      ]
+     ]
+    },
+    {
+     "name": "Extra cheese",
+     "sizes": [
+      [
+       "Mini",
+       "$1.25"
+      ],
+      [
+       "Small",
+       "$2.10"
+      ],
+      [
+       "Large",
+       "$3.35"
+      ],
+      [
+       "Family",
+       "$4.45"
+      ]
+     ]
+    },
+    {
+     "name": "Gluten-Free Cheese Pizza",
+     "sizes": [
+      [
+       "Family",
+       "$12.45"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Specialty Pizza",
+   "note": "Mini $9.80 · Small $12.95 · Large $19.30 · Family $25.25 for every specialty pie.",
+   "items": [
+    {
+     "name": "House Special",
+     "sizes": [
+      [
+       "Mini",
+       "$9.80"
+      ],
+      [
+       "Small",
+       "$12.95"
+      ],
+      [
+       "Large",
+       "$19.30"
+      ],
+      [
+       "Family",
+       "$25.25"
+      ]
+     ]
+    },
+    {
+     "name": "Meat Special",
+     "sizes": [
+      [
+       "Mini",
+       "$9.80"
+      ],
+      [
+       "Small",
+       "$12.95"
+      ],
+      [
+       "Large",
+       "$19.30"
+      ],
+      [
+       "Family",
+       "$25.25"
+      ]
+     ]
+    },
+    {
+     "name": "Veggie Special",
+     "sizes": [
+      [
+       "Mini",
+       "$9.80"
+      ],
+      [
+       "Small",
+       "$12.95"
+      ],
+      [
+       "Large",
+       "$19.30"
+      ],
+      [
+       "Family",
+       "$25.25"
+      ]
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Feta, tomato, garlic, spinach and olives.",
+     "sizes": [
+      [
+       "Mini",
+       "$9.80"
+      ],
+      [
+       "Small",
+       "$12.95"
+      ],
+      [
+       "Large",
+       "$19.30"
+      ],
+      [
+       "Family",
+       "$25.25"
+      ]
+     ]
+    },
+    {
+     "name": "BBQ Chicken",
+     "desc": "Chicken, BBQ sauce, tomato and red onion.",
+     "sizes": [
+      [
+       "Mini",
+       "$9.80"
+      ],
+      [
+       "Small",
+       "$12.95"
+      ],
+      [
+       "Large",
+       "$19.30"
+      ],
+      [
+       "Family",
+       "$25.25"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Chicken, hot sauce and ranch.",
+     "sizes": [
+      [
+       "Mini",
+       "$9.80"
+      ],
+      [
+       "Small",
+       "$12.95"
+      ],
+      [
+       "Large",
+       "$19.30"
+      ],
+      [
+       "Family",
+       "$25.25"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Ranch",
+     "desc": "Chicken, tomato, bacon and ranch. No sauce.",
+     "sizes": [
+      [
+       "Mini",
+       "$9.80"
+      ],
+      [
+       "Small",
+       "$12.95"
+      ],
+      [
+       "Large",
+       "$19.30"
+      ],
+      [
+       "Family",
+       "$25.25"
+      ]
+     ]
+    },
+    {
+     "name": "Philly Steak",
+     "desc": "Mushrooms, onions and green peppers.",
+     "sizes": [
+      [
+       "Mini",
+       "$9.80"
+      ],
+      [
+       "Small",
+       "$12.95"
+      ],
+      [
+       "Large",
+       "$19.30"
+      ],
+      [
+       "Family",
+       "$25.25"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "note": "Our fresh dough and homemade sauce.",
+   "items": [
+    {
+     "name": "Cheese Calzone",
+     "sizes": [
+      [
+       "Single",
+       "$7.85"
+      ],
+      [
+       "Double",
+       "$15.45"
+      ]
+     ]
+    },
+    {
+     "name": "Traditional toppings",
+     "sizes": [
+      [
+       "Single",
+       "$0.90"
+      ],
+      [
+       "Double",
+       "$1.60"
+      ]
+     ]
+    },
+    {
+     "name": "Gourmet toppings",
+     "sizes": [
+      [
+       "Single",
+       "$1.20"
+      ],
+      [
+       "Double",
+       "$2.25"
+      ]
+     ]
+    },
+    {
+     "name": "Extra cheese",
+     "sizes": [
+      [
+       "Single",
+       "$0.95"
+      ],
+      [
+       "Double",
+       "$1.90"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo or BBQ Chicken",
+     "sizes": [
+      [
+       "Single",
+       "$9.80"
+      ],
+      [
+       "Double",
+       "$19.30"
+      ]
+     ]
+    },
+    {
+     "name": "Philly Steak",
+     "sizes": [
+      [
+       "Single",
+       "$9.80"
+      ],
+      [
+       "Double",
+       "$19.30"
+      ]
+     ]
+    },
+    {
+     "name": "House Special",
+     "sizes": [
+      [
+       "Single",
+       "$9.80"
+      ],
+      [
+       "Double",
+       "$19.30"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Subs & Wraps",
+   "note": "Wraps are available in large only. Add a half order of fries for $2.45.",
+   "items": [
+    {
+     "name": "Ham",
+     "sizes": [
+      [
+       "Single",
+       "$8.45"
+      ],
+      [
+       "Large",
+       "$9.90"
+      ]
+     ]
+    },
+    {
+     "name": "Genoa",
+     "sizes": [
+      [
+       "Single",
+       "$8.45"
+      ],
+      [
+       "Large",
+       "$9.90"
+      ]
+     ]
+    },
+    {
+     "name": "Tuna",
+     "sizes": [
+      [
+       "Single",
+       "$8.10"
+      ],
+      [
+       "Large",
+       "$10.15"
+      ]
+     ]
+    },
+    {
+     "name": "Italian",
+     "sizes": [
+      [
+       "Single",
+       "$8.45"
+      ],
+      [
+       "Large",
+       "$9.90"
+      ]
+     ]
+    },
+    {
+     "name": "Turkey",
+     "sizes": [
+      [
+       "Single",
+       "$8.80"
+      ],
+      [
+       "Large",
+       "$10.15"
+      ]
+     ]
+    },
+    {
+     "name": "B.L.T.",
+     "sizes": [
+      [
+       "Single",
+       "$8.45"
+      ],
+      [
+       "Large",
+       "$10.95"
+      ]
+     ]
+    },
+    {
+     "name": "Seafood",
+     "sizes": [
+      [
+       "Single",
+       "$8.10"
+      ],
+      [
+       "Large",
+       "$10.15"
+      ]
+     ]
+    },
+    {
+     "name": "Crispy Chicken",
+     "sizes": [
+      [
+       "Single",
+       "$8.80"
+      ],
+      [
+       "Large",
+       "$10.15"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo & BBQ Chicken",
+     "sizes": [
+      [
+       "Single",
+       "$9.45"
+      ],
+      [
+       "Large",
+       "$10.95"
+      ]
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "sizes": [
+      [
+       "Single",
+       "$9.45"
+      ],
+      [
+       "Large",
+       "$10.95"
+      ]
+     ]
+    },
+    {
+     "name": "Veggie",
+     "sizes": [
+      [
+       "Single",
+       "$6.95"
+      ],
+      [
+       "Large",
+       "$8.25"
+      ]
+     ]
+    },
+    {
+     "name": "Special Sub",
+     "desc": "Turkey, ham and bacon.",
+     "sizes": [
+      [
+       "Single",
+       "$9.45"
+      ],
+      [
+       "Large",
+       "$10.95"
+      ]
+     ]
+    },
+    {
+     "name": "Pepperoni",
+     "desc": "Sauce and cheese.",
+     "sizes": [
+      [
+       "Single",
+       "$8.50"
+      ],
+      [
+       "Large",
+       "$9.90"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Parm",
+     "desc": "Sauce and cheese.",
+     "sizes": [
+      [
+       "Single",
+       "$8.80"
+      ],
+      [
+       "Large",
+       "$10.15"
+      ]
+     ]
+    },
+    {
+     "name": "Sausage",
+     "sizes": [
+      [
+       "Single",
+       "$8.50"
+      ],
+      [
+       "Large",
+       "$9.90"
+      ]
+     ]
+    },
+    {
+     "name": "Meatball",
+     "sizes": [
+      [
+       "Single",
+       "$8.50"
+      ],
+      [
+       "Large",
+       "$9.90"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Combo",
+     "desc": "Onion, pepper, mushroom.",
+     "sizes": [
+      [
+       "Single",
+       "$9.45"
+      ],
+      [
+       "Large",
+       "$10.95"
+      ]
+     ]
+    },
+    {
+     "name": "Steak Combo",
+     "desc": "Onion, pepper, mushroom.",
+     "sizes": [
+      [
+       "Single",
+       "$9.45"
+      ],
+      [
+       "Large",
+       "$10.95"
+      ]
+     ]
+    },
+    {
+     "name": "Grilled Chicken Wrap",
+     "desc": "Lettuce, tomato, onion, American cheese and house dressing.",
+     "sizes": [
+      [
+       "Large",
+       "$10.15"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "note": "Made fresh twice a day, every day. Dressings: Italian, French, house, low calorie, ranch, blue cheese.",
+   "items": [
+    {
+     "name": "Garden",
+     "sizes": [
+      [
+       "Small",
+       "$4.45"
+      ],
+      [
+       "Large",
+       "$6.25"
+      ]
+     ]
+    },
+    {
+     "name": "Chef",
+     "desc": "Turkey, ham and cheddar.",
+     "sizes": [
+      [
+       "Small",
+       "$6.85"
+      ],
+      [
+       "Large",
+       "$8.95"
+      ]
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "sizes": [
+      [
+       "Small",
+       "$6.85"
+      ],
+      [
+       "Large",
+       "$8.95"
+      ]
+     ]
+    },
+    {
+     "name": "Grilled Chicken & Feta",
+     "sizes": [
+      [
+       "Small",
+       "$7.10"
+      ],
+      [
+       "Large",
+       "$9.40"
+      ]
+     ]
+    },
+    {
+     "name": "Tuna",
+     "sizes": [
+      [
+       "Small",
+       "$6.45"
+      ],
+      [
+       "Large",
+       "$8.65"
+      ]
+     ]
+    },
+    {
+     "name": "Seafood",
+     "sizes": [
+      [
+       "Small",
+       "$6.85"
+      ],
+      [
+       "Large",
+       "$8.65"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "sizes": [
+      [
+       "Small",
+       "$6.35"
+      ],
+      [
+       "Large",
+       "$8.95"
+      ]
+     ]
+    },
+    {
+     "name": "BBQ Chicken",
+     "sizes": [
+      [
+       "Small",
+       "$6.85"
+      ],
+      [
+       "Large",
+       "$8.95"
+      ]
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Feta.",
+     "sizes": [
+      [
+       "Small",
+       "$5.90"
+      ],
+      [
+       "Large",
+       "$8.00"
+      ]
+     ]
+    },
+    {
+     "name": "Antipasta",
+     "desc": "Genoa, ham, salami and pepperoni.",
+     "sizes": [
+      [
+       "Small",
+       "$6.85"
+      ],
+      [
+       "Large",
+       "$8.95"
+      ]
+     ]
+    },
+    {
+     "name": "Crispy Chicken",
+     "sizes": [
+      [
+       "Small",
+       "$6.85"
+      ],
+      [
+       "Large",
+       "$8.95"
+      ]
+     ]
+    },
+    {
+     "name": "Turkey & Cheese",
+     "sizes": [
+      [
+       "Small",
+       "$5.90"
+      ],
+      [
+       "Large",
+       "$8.00"
+      ]
+     ]
+    },
+    {
+     "name": "Ham & Cheese",
+     "sizes": [
+      [
+       "Small",
+       "$5.90"
+      ],
+      [
+       "Large",
+       "$8.00"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Pasta",
+   "note": "Spaghetti or ziti, with garlic bread, our homemade meat sauce and cheese.",
+   "items": [
+    {
+     "name": "Meatball",
+     "price": "$9.95"
+    },
+    {
+     "name": "Sausage",
+     "price": "$9.95"
+    },
+    {
+     "name": "Mushroom",
+     "price": "$9.95"
+    },
+    {
+     "name": "House Special",
+     "desc": "Meatball, sausage and mushroom.",
+     "price": "$10.15"
+    },
+    {
+     "name": "Homemade Meat Sauce with Cheese",
+     "price": "$8.45"
+    },
+    {
+     "name": "Stuffed Shells",
+     "price": "$9.95"
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "price": "$12.45"
+    },
+    {
+     "name": "Homemade Meat Lasagna",
+     "price": "$9.95"
+    }
+   ]
+  },
+  {
+   "cat": "Grill & Seafood",
+   "note": "Served with fries. Swap in onion rings for $1.50.",
+   "items": [
+    {
+     "name": "Hamburger",
+     "desc": "6 oz with lettuce, tomato, onion, pickle and special sauce.",
+     "price": "$9.95"
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "6 oz.",
+     "price": "$9.95"
+    },
+    {
+     "name": "Chicken Sandwich",
+     "price": "$9.95"
+    },
+    {
+     "name": "Haddock Basket",
+     "price": "$10.95"
+    },
+    {
+     "name": "Fish Sandwich",
+     "desc": "Tartar sauce, cheese and lettuce.",
+     "price": "$9.95"
+    },
+    {
+     "name": "Chicken Tenders",
+     "price": "$10.95"
+    }
+   ]
+  },
+  {
+   "cat": "Sides",
+   "items": [
+    {
+     "name": "Wings",
+     "desc": "Plain, buffalo, BBQ or sweet & chili.",
+     "price": "$9.95"
+    },
+    {
+     "name": "Tenders",
+     "price": "$9.95"
+    },
+    {
+     "name": "French Fries",
+     "price": "$4.95"
+    },
+    {
+     "name": "Onion Rings",
+     "price": "$5.95"
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "price": "$8.95"
+    },
+    {
+     "name": "Jalapeño Poppers",
+     "price": "$8.95"
+    },
+    {
+     "name": "Garlic Bread with Cheese",
+     "price": "$4.50"
+    },
+    {
+     "name": "Cheesy Bread Sticks",
+     "sizes": [
+      [
+       "Small",
+       "$8.20"
+      ],
+      [
+       "Large",
+       "$12.95"
+      ],
+      [
+       "Family",
+       "$15.50"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Kids",
+   "note": "Ages 10 and under. Free drink with every kids meal.",
+   "items": [
+    {
+     "name": "Spaghetti or Ziti & Meatballs",
+     "price": "$6.45"
+    },
+    {
+     "name": "Chicken Fingers",
+     "price": "$6.95"
+    },
+    {
+     "name": "Mini Cheese Pizza",
+     "price": "$5.40"
+    },
+    {
+     "name": "Cheeseburger (plain)",
+     "price": "$7.25"
+    }
+   ]
+  },
+  {
+   "cat": "Drinks",
+   "note": "Beer & wine available. Ask about our Iced Fresco, homemade iced coffee.",
+   "items": [
+    {
+     "name": "Fountain Soda",
+     "price": "$2.50"
+    },
+    {
+     "name": "Coffee or Tea",
+     "price": "$1.95"
+    },
+    {
+     "name": "Bottled Water",
+     "price": "$2.25"
+    },
+    {
+     "name": "Bottled Soda",
+     "price": "$2.95"
+    }
+   ]
+  }
+ ],
+ "menu_note": "Prices from the shop’s website menu. Online ordering and DoorDash may show different prices.",
+ "icecream": {
+  "note": "Premium quality soft serve in 26 flavors.",
+  "scoops": [
+   "Vanilla",
+   "Chocolate",
+   "Twist",
+   "Banana",
+   "Black Cherry",
+   "Blackberry",
+   "Butter Pecan",
+   "Cheesecake",
+   "Cotton Candy",
+   "Peanut Butter",
+   "Pineapple",
+   "Strawberry",
+   "Creme De Menthe",
+   "Espresso",
+   "German Chocolate"
+  ],
+  "flurries": [
+   "M&M",
+   "Cookies & Cream",
+   "Reese’s Pieces",
+   "Peanut Butter Cup"
+  ],
+  "sundaes": [
+   "Hot Fudge",
+   "Strawberry",
+   "Peanut Butter"
+  ],
+  "floats": [
+   "Root Beer",
+   "Cola",
+   "Creamsicle"
+  ],
+  "shakes": [
+   "Banana",
+   "Blackberry",
+   "Blueberry",
+   "Butter Pecan",
+   "Cheesecake",
+   "Chocolate",
+   "Coffee",
+   "Cotton Candy",
+   "German Chocolate",
+   "Mocha",
+   "Peanut Butter",
+   "Pineapple",
+   "Strawberry",
+   "Vanilla"
+  ]
+ },
+ "catering": "Let us elevate your event with our delicious pizzas and hassle-free service. From small gatherings to corporate events, our diverse menu has something for everyone.",
+ "findings": [
+  "Specials & Coupons page is stock template filler (“Delicious Turkish Pide Pizza, up to 33.50% off”), unrelated to the shop.",
+  "The Rewards page is an empty “Coming Soon”.",
+  "The job-application link points to the Google Form editor URL (/edit), not the public form.",
+  "The home page is a grid of identical “Order Online” cards.",
+  "The shop’s best-kept asset, a 26-flavor soft-serve counter, is a single line of text."
+ ],
+ "questions": [
+  "Do you run real specials or coupons? The concept leaves the specials area out rather than invent offers.",
+  "Are Rewards still planned? The concept leaves them out.",
+  "Should the job link be the public Google Form (we used the same form ID with /viewform; please confirm)?",
+  "Where should catering inquiries go (email address)? The concept form is set up for Netlify Forms.",
+  "Ice cream prices are not on your site. Want them shown?",
+  "Spelling fixes we made: “Brocoli”, “Oinion”, “Cheeseburge”, “Jalepeno”.",
+  "Do flurries come on vanilla soft serve? We assumed yes for the sundae maker."
+ ]
+}

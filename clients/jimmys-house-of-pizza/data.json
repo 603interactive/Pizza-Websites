@@ -1,0 +1,58 @@
+{
+  "slug": "jimmys-house-of-pizza",
+  "name": "Jimmy's House of Pizza",
+  "short": "Jimmy's",
+  "domain": "https://jimmyshouseofpizza.com",
+  "seo_title": "Jimmy's House of Pizza | Handmade Pizza, Calzones & Subs on Kelley St, Manchester NH",
+  "seo_desc": "Family-owned pizzeria at 345 Kelley St, Manchester, NH. Fresh handmade pizza, calzones, steak subs, Italian dinners and salads. Order online, pay in store. Call (603) 669-3310.",
+  "tagline": "Family-owned on Kelley Street. Fresh, handmade pizza, calzones, grinders and pasta at a fair price.",
+  "about": [
+    "Family-owned and operated in Manchester, New Hampshire. We serve fresh, handmade pizza, calzones, grinders, pasta, and more, made with quality ingredients and recipes perfected over the years.",
+    "Whether you're dining in, picking up, or calling ahead, we're here to serve you a great meal at a fair price."
+  ],
+  "location": {
+    "street": "345 Kelley St", "city": "Manchester", "region": "NH", "postal": "03102",
+    "phone": "(603) 669-3310", "tel": "+16036693310",
+    "maps": "https://maps.google.com/?q=345+Kelley+St,+Manchester,+NH+03102",
+    "hours": [{"dow": [1,2,3,4], "open": "11:00", "close": "21:00"}, {"dow": [5,6], "open": "11:00", "close": "22:00"}],
+    "hours_note": "Closed Sundays."
+  },
+  "order": "https://jimmyshouseofpizza.com/onlineorders",
+  "order_note": "Order online, pay in store. Cash only.",
+  "tax_note": "All prices include 9% meals tax.",
+  "menu": [
+    {"cat": "Pizza", "sizes": ["Large 14\"", "Regular 10\""], "items": [
+      ["Plain", "$13.00", "$9.00"], ["Onions", "$16.00", "$12.00"], ["Peppers", "$16.00", "$12.00"], ["Hamburg", "$16.00", "$12.00"], ["Pepperoni", "$16.00", "$12.00"], ["Ham", "$16.00", "$12.00"], ["Mushroom", "$16.00", "$12.00"], ["Sausage", "$16.00", "$12.00"], ["Meatballs", "$16.00", "$12.00"], ["Bacon", "$16.00", "$12.00"], ["Gyro", "$16.00", "$12.00"], ["Ham & Pineapple", "$18.75", "$13.75"], ["2 Items", "$18.75", "$13.75"], ["3 Items", "$19.75", "$15.75"], ["Buffalo Chicken w/ Broccoli", "$23.00", "$18.75"], ["House Special", "$23.00", "$18.75"], ["Spinach & Feta", "$23.00", "$18.75"], ["Steak Special", "$23.00", "$18.75"], ["Meat Lovers", "$23.00", "$18.75"]]},
+    {"cat": "Calzones", "sizes": ["Large 14\"", "Regular 10\""], "items": [
+      ["Plain", "$16.75", "$13.00"], ["1 Item", "$18.75", "$15.75"], ["2 Items", "$22.00", "$17.75"], ["Chicken", "$23.00", "$18.75"], ["Spinach & Feta", "$23.00", "$18.75"], ["Meatball", "$23.00", "$18.75"], ["Ham & Pineapple", "$23.00", "$18.75"], ["Bacon or Gyro", "$23.00", "$18.75"], ["Chicken w/ Broccoli", "$25.00", "$19.75"], ["House Special", "$25.00", "$19.75"], ["Steak Special", "$25.00", "$19.75"], ["Meat Lovers", "$25.00", "$19.75"]]},
+    {"cat": "Steak Subs", "sizes": ["Large 12\"", "Regular 8\""], "items": [
+      ["Cheese Steak", "$13.75", "$11.75"], ["Pepper Steak", "$13.75", "$11.75"], ["Onion Steak", "$13.75", "$11.75"], ["Mushroom Steak", "$13.75", "$11.75"], ["2 Items", "$14.75", "$13.00"], ["3 Items", "$14.75", "$13.00"], ["Special Steak", "$14.75", "$13.00"]]},
+    {"cat": "Hot or Cold Subs", "sizes": ["Large 12\"", "Regular 8\""], "items": [
+      ["Meatballs", "$13.75", "$11.75"], ["Veal Parmesan", "$13.75", "$11.75"], ["Chicken Parmesan", "$13.75", "$11.75"], ["Sausage", "$13.75", "$11.75"], ["Ham & Cheese", "$13.75", "$11.75"], ["Vegetarian", "$13.75", "$11.75"], ["Roast Beef", "$13.75", "$11.75"], ["Salami", "$13.75", "$11.75"], ["Tuna", "$13.75", "$11.75"], ["Turkey", "$13.75", "$11.75"], ["Cheeseburger", "$13.75", "$11.75"], ["Sausage & Meatballs", "$14.75", "$12.75"], ["B.L.T.", "$13.75", "$11.75"], ["Combo Italian", "$14.75", "$12.75"], ["Lamb Grinder", "$14.75", null], ["Pastrami", "$13.75", "$11.75"], ["Gyros", "$13.75", null]]},
+    {"cat": "Dinners", "sizes": [], "items": [
+      ["Fried Chicken Fingers & Fries", "$13.75"], ["Buffalo Tenders & Fries", "$13.75"], ["Regular Wings & Fries", "$13.75"], ["Buffalo Wings, 6 pc", "$13.75"], ["Lamb Plate w/ Greek Salad & Fries", "$24.00"]]},
+    {"cat": "Italian Dishes", "note": "All spaghetti dinners come with garlic bread.", "sizes": [], "items": [
+      ["Spaghetti & Sauce", "$12.00"], ["Spaghetti w/ Meatballs", "$12.75"], ["Spaghetti w/ Sausage", "$12.75"], ["Spaghetti Combo", "$13.75"], ["Spaghetti w/ Chicken or Veal", "$13.75"]]},
+    {"cat": "Side Orders", "sizes": ["Large", "Small"], "items": [
+      ["Garlic Bread, plain", "$4.50", "$4.50"], ["Garlic Bread w/ Cheese", "$5.75", "$5.00"], ["French Fries", "$7.00", "$5.00"], ["Onion Rings", "$7.00", "$5.00"], ["Rice Pilaf", "$6.75", null], ["Greek Pita", "$9.75", null], ["Fried Mushrooms", "$9.75", null], ["Mozzarella Sticks", "$9.75", null], ["Chicken Wings", "$9.75", null], ["Jalapeño Poppers", "$9.75", null], ["Chicken Tenders", "$9.75", null], ["Buffalo Tenders", "$9.75", null], ["Fried Ravioli", "$9.75", null], ["Baklava", "$3.75", null]]},
+    {"cat": "Salads", "sizes": [], "items": [
+      ["Tossed Salad", "$9.00"], ["Greek Salad", "$12.00"], ["Chef's Salad", "$12.00"], ["Antipasto Salad", "$13.00"], ["Tuna Salad", "$12.00"], ["Turkey Salad", "$12.00"], ["Chicken Salad", "$12.00"], ["Buffalo Chicken Salad", "$12.00"], ["Grilled Chicken Salad", "$12.00"], ["Lamb or Steak Salad", "$13.00"]]},
+    {"cat": "Beverages", "sizes": [], "items": [
+      ["Coke, Diet Coke, Coke Zero, Sprite, Fresca", "$3.00"], ["Fanta Orange or Grape, Dr Pepper, Canada Dry", "$3.00"], ["Minute Maid Lemonade, Powerade, Powerade Zero", "$3.00"], ["Vitamin Water (Tropical Citrus, XXX, Dragon Fruit)", "$3.00"], ["Yoo-Hoo, Dasani Water", "$3.00"], ["Coke 2 Liter", "$4.00"]]}
+  ],
+  "findings": [
+    "The current site has one image in total (the cartoon mascot) and no food photos, so every section is text on flat color.",
+    "The menu is a plain price table split across nine tabs; nothing shows what the food looks like or what makes it Jimmy's.",
+    "Online ordering requires a phone-number sign-in before the menu even loads, and the site only says \"pay in store, cash only\" in one line of small caps.",
+    "No story, no photos of the shop or the family, no social links, and the hours appear three times in slightly different formats.",
+    "The mascot image is a photo of a screen (visible moiré) rather than the original file."
+  ],
+  "questions": [
+    "Can we photograph the shop? With no real food photos, the new design uses an illustrated pizza scene; a photo shoot (a dozen pies, the oven, the counter, the family) would let us swap in real images.",
+    "The mascot image looks like a photo of a screen. Do you have the original file?",
+    "Is 'cash only' still correct for online orders picked up in store? Do you take cards at the counter?",
+    "What is the story behind Jimmy's: when did it open, who runs it today?",
+    "Do you deliver, or pickup and dine-in only?",
+    "Any specials (lunch, Monday pizza night, family deals) we should feature?"
+  ]
+}

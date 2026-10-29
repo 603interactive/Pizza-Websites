@@ -1,0 +1,1076 @@
+{
+ "slug": "golden-acres-pizza-market",
+ "name": "Golden Acres Pizza Market",
+ "short": "Pizza Market",
+ "style": "greek-gold",
+ "brand_text": true,
+ "domain": "https://pizzamarketgoffstown.com",
+ "tagline": "Oversized portions with a Greek flair. Family-owned in Goffstown since 1998.",
+ "about": "Golden Acres Pizza Market has been a proud member of the Goffstown community serving delicious, hearty pizza since 1998.",
+ "seo_title": "Golden Acres Pizza Market | Oversized Pizza, Subs & Salads in Goffstown, NH",
+ "seo_desc": "Family-owned since 1998 at 670 Mast Road, Goffstown. Oversized pizza with a Greek flair, the famous Pouliano salad, subs, wraps, North Shore roast beef and dinners. Order online for pickup or delivery.",
+ "img_base": "https://pizzamarketgoffstown.com/wp-content/uploads/2020/09/",
+ "logo": {
+  "src": "https://pizzamarketgoffstown.com/wp-content/uploads/2020/09/cropped-Image-18.jpg",
+  "w": 240,
+  "h": 216,
+  "alt": "Golden Acres Pizza Market"
+ },
+ "hero": {
+  "img": "https://pizzamarketgoffstown.com/wp-content/uploads/2020/09/cached_image0-6.jpg",
+  "alt": "Half chicken broccoli feta, half meat lovers pizza",
+  "eyebrow": "670 Mast Road · Goffstown, NH · since 1998",
+  "headline": [
+   "Oversized.",
+   "Greek flair.",
+   "Since '98."
+  ],
+  "sub": "The biggest pizza this side of Athens, the famous Pouliano salad, subs, wraps and dinners. Family-owned by Sam and Sharon Galatas.",
+  "tag": "Pouliano Salad",
+  "tag_sub": "World-famous · $13.50",
+  "w": 1080,
+  "h": 810
+ },
+ "marquee": [
+  "Oversized pizza",
+  "The Pouliano",
+  "Greek salads",
+  "North Shore roast beef",
+  "Subs & wraps",
+  "Pasta dinners",
+  "Open 7 days",
+  "Delivery & pickup"
+ ],
+ "signatures": [
+  {
+   "name": "The Pouliano",
+   "img": "cached_image0-25.jpg",
+   "desc": "Garden salad with BBQ chicken tenders, melted mozzarella and our creamy ranch. Created by retired Goffstown Lt. Pierre Pouliot. People drive across New England for it.",
+   "price": "$13.50"
+  },
+  {
+   "name": "Oversized Pizza",
+   "img": "cached_image0-6.jpg",
+   "desc": "A 20-inch pie you have to see to believe. Half chicken broccoli feta, half meat lovers, or build your own.",
+   "price": "14\" from $11.99 · 20\" from $16.35"
+  },
+  {
+   "name": "Steak & Cheese",
+   "img": "cached_image0-29.jpg",
+   "desc": "Shaved steak and American on a sub roll, grilled to order.",
+   "price": "Sm $11.50 · Lg $14.00"
+  },
+  {
+   "name": "Chicken Kabob Salad",
+   "img": "cached_image0-28.jpg",
+   "desc": "Marinated chicken, feta and the works over fresh greens, with pita.",
+   "price": "$11.75"
+  },
+  {
+   "name": "Steak Tip Caesar",
+   "img": "cached_image0-10.jpg",
+   "desc": "Grilled steak tips over romaine, croutons and parmesan.",
+   "price": "$15.75"
+  },
+  {
+   "name": "Margherita",
+   "img": "cached_image0-17.jpg",
+   "desc": "Olive oil, sauce, cheese, fresh tomato and basil.",
+   "price": "14\" $16.50 · 20\" $20.75"
+  }
+ ],
+ "locations": [
+  {
+   "id": "goffstown",
+   "name": "Goffstown",
+   "street": "670 Mast Road",
+   "city": "Goffstown",
+   "region": "NH",
+   "postal": "03102",
+   "phone": "(603) 623-0899",
+   "tel": "+16036230899",
+   "hours": [
+    {
+     "days": "Sunday – Thursday",
+     "dow": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "open": "10:30",
+     "close": "20:00"
+    },
+    {
+     "days": "Friday – Saturday",
+     "dow": [
+      5,
+      6
+     ],
+     "open": "10:30",
+     "close": "21:00"
+    }
+   ],
+   "order": "https://order.foodtecsolutions.com/ordering/pizzamarket-goffstown/home",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Golden+Acres+Pizza+Market+670+Mast+Road+Goffstown+NH+03102",
+   "geo": [
+    42.99375,
+    -71.50712
+   ]
+  }
+ ],
+ "order_note": "Order online for pickup or delivery, or call the shop.",
+ "order_any": "https://order.foodtecsolutions.com/ordering/pizzamarket-goffstown/home",
+ "links": {
+  "instagram": "https://www.instagram.com/pizzamarketgtown/",
+  "facebook": "https://www.facebook.com/pages/category/Pizza-place/Golden-Acres-Pizza-Market-1722525367987430/"
+ },
+ "promo_cards": [],
+ "careers": {
+  "enabled": false
+ },
+ "about_block": {
+  "years": 27,
+  "years_label": "years on Mast Road",
+  "title": "Sam, Sharon and the whole Galatas family",
+  "paras": [
+   "Golden Acres Pizza Market has been a proud member of the Goffstown community serving hearty pizza since 1998. The restaurant is owned and operated by Serafim (Sam) and Sharon Galatas. Sam came to the U.S. to pursue the American Dream from a small village about four hours from Athens.",
+   "Over the years almost every member of the Galatas family has helped make Golden Acres a success. Some of our customers have been coming in regularly since the day we opened, and we sponsor many local sports teams. We hope to feed you for years to come."
+  ]
+ },
+ "menu_note": "Prices from the shop's online ordering menu. Final prices are shown when you order.",
+ "menu": [
+  {
+   "cat": "Pizza",
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "desc": "Pizza sauce and cheese. Add any topping.",
+     "sizes": [
+      [
+       "14\"",
+       "$11.99"
+      ],
+      [
+       "20\"",
+       "$16.35"
+      ]
+     ],
+     "img": "1597948412913.jpg"
+    },
+    {
+     "name": "Pizza Market Special",
+     "desc": "Genoa salami, pepperoni, ham, sausage, onion, green peppers, mushrooms and tomato.",
+     "sizes": [
+      [
+       "14\"",
+       "$18.75"
+      ],
+      [
+       "20\"",
+       "$25.65"
+      ]
+     ]
+    },
+    {
+     "name": "Meat Lovers",
+     "desc": "Meatballs, bacon, hamburger, Genoa salami, ham, pepperoni and sausage.",
+     "sizes": [
+      [
+       "14\"",
+       "$18.99"
+      ],
+      [
+       "20\"",
+       "$26.99"
+      ]
+     ],
+     "img": "cached_image0-12.jpg"
+    },
+    {
+     "name": "Vegetarian",
+     "desc": "Black olives, broccoli, tomato, mushrooms, green peppers and onion.",
+     "sizes": [
+      [
+       "14\"",
+       "$18.05"
+      ],
+      [
+       "20\"",
+       "$21.75"
+      ]
+     ]
+    },
+    {
+     "name": "Hot Honey Roni",
+     "desc": "Pizza sauce, cheese, hot honey and pepperoni.",
+     "sizes": [
+      [
+       "14\"",
+       "$17.99"
+      ],
+      [
+       "20\"",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "Sweet Ricotta Honey Roni",
+     "desc": "Pepperoni, hot honey, ricotta and basil.",
+     "sizes": [
+      [
+       "14\"",
+       "$19.99"
+      ],
+      [
+       "20\"",
+       "$24.99"
+      ]
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Feta, black olives, tomato and oregano.",
+     "sizes": [
+      [
+       "14\"",
+       "$16.50"
+      ],
+      [
+       "20\"",
+       "$20.75"
+      ]
+     ]
+    },
+    {
+     "name": "Margherita",
+     "desc": "Olive oil, pizza sauce, cheese, tomato and basil.",
+     "sizes": [
+      [
+       "14\"",
+       "$16.50"
+      ],
+      [
+       "20\"",
+       "$20.75"
+      ]
+     ],
+     "img": "cached_image0-17.jpg"
+    },
+    {
+     "name": "Hawaiian",
+     "desc": "Pineapple and ham.",
+     "sizes": [
+      [
+       "14\"",
+       "$16.50"
+      ],
+      [
+       "20\"",
+       "$20.75"
+      ]
+     ]
+    },
+    {
+     "name": "White",
+     "desc": "Olive oil, cheese, garlic, oregano and tomato.",
+     "sizes": [
+      [
+       "14\"",
+       "$16.50"
+      ],
+      [
+       "20\"",
+       "$20.75"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "desc": "Alfredo sauce, cheese, marinated chicken and broccoli.",
+     "sizes": [
+      [
+       "14\"",
+       "$17.99"
+      ],
+      [
+       "20\"",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Bacon Ranch",
+     "desc": "Ranch, cheese, bacon and marinated chicken.",
+     "sizes": [
+      [
+       "14\"",
+       "$18.45"
+      ],
+      [
+       "20\"",
+       "$22.25"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo & BBQ Chicken",
+     "desc": "Buffalo or BBQ sauce, cheese and chicken. Shown half and half.",
+     "sizes": [
+      [
+       "14\"",
+       "$16.50"
+      ],
+      [
+       "20\"",
+       "$21.75"
+      ]
+     ],
+     "img": "cached_image0-16.jpg"
+    },
+    {
+     "name": "Marinated Chicken",
+     "sizes": [
+      [
+       "14\"",
+       "$16.50"
+      ],
+      [
+       "20\"",
+       "$21.75"
+      ]
+     ]
+    },
+    {
+     "name": "Parmigiana",
+     "desc": "Pizza sauce, marinara and cheese.",
+     "sizes": [
+      [
+       "14\"",
+       "$17.99"
+      ],
+      [
+       "20\"",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken, Buffalo or BBQ Tender",
+     "desc": "Cheese and whole chicken tenders.",
+     "sizes": [
+      [
+       "14\"",
+       "$22.74"
+      ],
+      [
+       "20\"",
+       "$27.44"
+      ]
+     ]
+    },
+    {
+     "name": "Slices",
+     "desc": "Cheese $3.99 · Pepperoni $4.25 · Special $4.75 · Two cheese $6.25.",
+     "price": "from $3.99"
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "note": "Every pizza is also a calzone, same prices: 14\" or 20\".",
+   "items": [
+    {
+     "name": "Cheese Calzone",
+     "sizes": [
+      [
+       "14\"",
+       "$11.99"
+      ],
+      [
+       "20\"",
+       "$16.35"
+      ]
+     ]
+    },
+    {
+     "name": "Steak & Cheese Calzone",
+     "desc": "Shaved steak and cheese.",
+     "sizes": [
+      [
+       "14\"",
+       "$16.99"
+      ],
+      [
+       "20\"",
+       "$21.99"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken, Eggplant, Meatball or Veal Parm Calzone",
+     "desc": "Sauce inside, cheese, ricotta and marinara.",
+     "sizes": [
+      [
+       "14\"",
+       "$17.99"
+      ],
+      [
+       "20\"",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "Meat Lovers Calzone",
+     "sizes": [
+      [
+       "14\"",
+       "$18.99"
+      ],
+      [
+       "20\"",
+       "$26.99"
+      ]
+     ]
+    },
+    {
+     "name": "Pizza Market Special Calzone",
+     "sizes": [
+      [
+       "14\"",
+       "$18.75"
+      ],
+      [
+       "20\"",
+       "$25.65"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "note": "Every salad comes with pita bread.",
+   "items": [
+    {
+     "name": "The Pouliano",
+     "desc": "Mozzarella, BBQ tenders, lettuce, cherry tomato, red onion, green peppers, cucumbers and red cabbage. Our famous one.",
+     "price": "$13.50",
+     "img": "cached_image0-25.jpg"
+    },
+    {
+     "name": "Chicken Kabob",
+     "desc": "Marinated chicken and feta over the garden.",
+     "price": "$11.75",
+     "img": "cached_image0-28.jpg"
+    },
+    {
+     "name": "Buffalo Tender",
+     "desc": "Buffalo tenders over the garden.",
+     "price": "$13.25",
+     "img": "cached_image0-22.jpg"
+    },
+    {
+     "name": "Steak Tip Caesar",
+     "price": "$15.75",
+     "img": "cached_image0-10.jpg"
+    },
+    {
+     "name": "Caesar",
+     "desc": "Romaine, croutons, parmesan and Caesar.",
+     "price": "$7.99",
+     "img": "cached_image0-9.jpg"
+    },
+    {
+     "name": "Garden",
+     "desc": "Lettuce, cherry tomato, red onion, green peppers, cucumbers and red cabbage.",
+     "price": "$7.25",
+     "img": "1597948482080.jpg"
+    },
+    {
+     "name": "Greek",
+     "desc": "House Greek dressing, feta and Greek olives over the garden.",
+     "price": "$8.45"
+    },
+    {
+     "name": "Chicken Caesar",
+     "price": "$13.25"
+    },
+    {
+     "name": "Steak Tip Kabob",
+     "desc": "Steak tips and feta over the garden.",
+     "price": "$15.75",
+     "img": "cached_image0-11.jpg"
+    },
+    {
+     "name": "Chicken Tender, BBQ Tender",
+     "price": "$13.25"
+    },
+    {
+     "name": "Chef, Antipasto, Julienne or Tuna",
+     "price": "$9.35"
+    }
+   ]
+  },
+  {
+   "cat": "Hot Subs",
+   "items": [
+    {
+     "name": "Steak & Cheese",
+     "desc": "American cheese on a sub roll.",
+     "sizes": [
+      [
+       "Sm",
+       "$11.50"
+      ],
+      [
+       "Lg",
+       "$14.00"
+      ]
+     ],
+     "img": "cached_image0-29.jpg"
+    },
+    {
+     "name": "Steak Bomb",
+     "desc": "American, cooked onions, peppers, mushrooms and Genoa salami.",
+     "sizes": [
+      [
+       "Sm",
+       "$11.50"
+      ],
+      [
+       "Lg",
+       "$14.00"
+      ]
+     ],
+     "img": "cached_image0-21.jpg"
+    },
+    {
+     "name": "Steak Tip",
+     "sizes": [
+      [
+       "Sm",
+       "$12.99"
+      ],
+      [
+       "Lg",
+       "$15.99"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Kabob",
+     "desc": "Feta, lettuce, onion, tomato and Greek dressing.",
+     "sizes": [
+      [
+       "Sm",
+       "$11.49"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Bomb",
+     "desc": "American, Genoa salami, cooked mushrooms, peppers and onions.",
+     "sizes": [
+      [
+       "Sm",
+       "$11.50"
+      ],
+      [
+       "Lg",
+       "$14.00"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken, Meatball, Veal or Eggplant Parm",
+     "desc": "With marinara.",
+     "sizes": [
+      [
+       "Sm",
+       "$10.99"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken, Buffalo or BBQ Tender",
+     "sizes": [
+      [
+       "Sm",
+       "$10.99"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Grilled Buffalo, BBQ or Teriyaki Chicken",
+     "sizes": [
+      [
+       "Sm",
+       "$10.99"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Pastrami",
+     "sizes": [
+      [
+       "Sm",
+       "$10.99"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "sizes": [
+      [
+       "Sm",
+       "$10.99"
+      ],
+      [
+       "Lg",
+       "$13.49"
+      ]
+     ]
+    },
+    {
+     "name": "Marinated Chicken, Sausage or BLT",
+     "sizes": [
+      [
+       "Sm",
+       "$10.49"
+      ],
+      [
+       "Lg",
+       "$12.99"
+      ]
+     ]
+    },
+    {
+     "name": "Grilled Veggie",
+     "desc": "Provolone, cooked mushrooms, peppers, onions, broccoli and spinach.",
+     "sizes": [
+      [
+       "Sm",
+       "$9.99"
+      ],
+      [
+       "Lg",
+       "$11.99"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "North Shore Roast Beef",
+   "items": [
+    {
+     "name": "Junior Beef",
+     "desc": "On a junior roll.",
+     "price": "$9.99"
+    },
+    {
+     "name": "Regular Beef",
+     "desc": "On a sesame roll.",
+     "price": "$10.99"
+    },
+    {
+     "name": "Super Beef",
+     "desc": "On an onion roll.",
+     "price": "$11.99"
+    },
+    {
+     "name": "Greek Beef",
+     "desc": "Onion roll, feta, Greek dressing, lettuce, tomato and onion.",
+     "price": "$9.99"
+    },
+    {
+     "name": "North Shore Roast Beef Sub",
+     "sizes": [
+      [
+       "Sm",
+       "$9.99"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Cold Subs",
+   "items": [
+    {
+     "name": "Italian",
+     "desc": "Provolone, Genoa salami, cooked salami and mortadella.",
+     "sizes": [
+      [
+       "Sm",
+       "$8.99"
+      ],
+      [
+       "Lg",
+       "$11.49"
+      ]
+     ],
+     "img": "cached_image0-26.jpg"
+    },
+    {
+     "name": "Turkey & Ham",
+     "sizes": [
+      [
+       "Sm",
+       "$9.99"
+      ],
+      [
+       "Lg",
+       "$12.49"
+      ]
+     ],
+     "img": "cached_image0-23.jpg"
+    },
+    {
+     "name": "Special",
+     "desc": "Provolone, Genoa, cooked salami, mortadella, roast beef, ham and turkey.",
+     "sizes": [
+      [
+       "Sm",
+       "$11.99"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Ham & Cheese, Turkey, Roast Beef, Genoa Salami, American or Tuna",
+     "sizes": [
+      [
+       "Sm",
+       "$8.99"
+      ],
+      [
+       "Lg",
+       "$11.49"
+      ]
+     ],
+     "img": "cached_image0-24.jpg"
+    },
+    {
+     "name": "Vegetarian",
+     "sizes": [
+      [
+       "Sm",
+       "$8.99"
+      ],
+      [
+       "Lg",
+       "$10.99"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Wraps",
+   "items": [
+    {
+     "name": "Chicken Caesar Wrap",
+     "sizes": [
+      [
+       "Sm",
+       "$10.99"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ],
+     "img": "cached_image0-27.jpg"
+    },
+    {
+     "name": "Steak Tip Caesar Wrap",
+     "sizes": [
+      [
+       "Sm",
+       "$12.99"
+      ],
+      [
+       "Lg",
+       "$15.99"
+      ]
+     ]
+    },
+    {
+     "name": "Turkey, Roast Beef, Tuna or Chicken Club Wrap",
+     "desc": "Bacon, lettuce, tomato and mayo.",
+     "sizes": [
+      [
+       "Sm",
+       "$10.99"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo, BBQ or Teriyaki Chicken Wrap",
+     "sizes": [
+      [
+       "Sm",
+       "$10.99"
+      ],
+      [
+       "Lg",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Greek or Caesar Wrap",
+     "sizes": [
+      [
+       "Sm",
+       "$8.99"
+      ],
+      [
+       "Lg",
+       "$10.99"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Pastas & Dinners",
+   "note": "Pastas come with garlic bread.",
+   "items": [
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "price": "$13.99"
+    },
+    {
+     "name": "Steak Broccoli Alfredo",
+     "price": "$15.99"
+    },
+    {
+     "name": "Chicken, Meatball, Veal, Eggplant or Sausage Parmesan",
+     "price": "$13.99"
+    },
+    {
+     "name": "Ravioli",
+     "price": "$8.99"
+    },
+    {
+     "name": "Spaghetti or Ziti",
+     "price": "$8.00"
+    },
+    {
+     "name": "Chicken Tender Dinner",
+     "desc": "With fries and sweet & sour.",
+     "price": "$14.99",
+     "img": "1597948478598.jpg"
+    },
+    {
+     "name": "Buffalo or BBQ Tender Dinner",
+     "price": "$15.50"
+    },
+    {
+     "name": "Chicken, Buffalo or BBQ Wing Dinner",
+     "price": "$15.99"
+    },
+    {
+     "name": "Gyro Dinner",
+     "desc": "Onion, tomato and tzatziki.",
+     "price": "$9.99"
+    },
+    {
+     "name": "Hamburger / Cheeseburger Dinner",
+     "sizes": [
+      [
+       "Burger",
+       "$9.25"
+      ],
+      [
+       "Cheese",
+       "$10.25"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers & Sides",
+   "items": [
+    {
+     "name": "Mozzarella Sticks",
+     "desc": "With marinara.",
+     "price": "$10.50"
+    },
+    {
+     "name": "Fried Four Cheese Ravioli",
+     "price": "$8.99"
+    },
+    {
+     "name": "Buffalo Chicken Rangoons",
+     "price": "$13.99"
+    },
+    {
+     "name": "Broccoli Bites, Jalapeño Poppers or Mac & Cheese Bites",
+     "price": "$11.99"
+    },
+    {
+     "name": "Pizza Roll",
+     "desc": "Crispy egg roll filled with mozzarella and pizza sauce.",
+     "price": "$4.49"
+    },
+    {
+     "name": "Cheese Bread Sticks",
+     "sizes": [
+      [
+       "Plain",
+       "$7.75"
+      ],
+      [
+       "Cheese",
+       "$9.50"
+      ],
+      [
+       "Extra cheese",
+       "$10.50"
+      ]
+     ]
+    },
+    {
+     "name": "Garlic Bread",
+     "sizes": [
+      [
+       "Plain",
+       "$2.75"
+      ],
+      [
+       "Cheese",
+       "$3.99"
+      ]
+     ]
+    },
+    {
+     "name": "French Fries or Waffle Fries",
+     "price": "$5.75"
+    },
+    {
+     "name": "Onion Rings",
+     "price": "$5.99"
+    },
+    {
+     "name": "Chicken Wings or Tenders",
+     "sizes": [
+      [
+       "Plain",
+       "$12.99"
+      ],
+      [
+       "Buffalo / BBQ",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Clam Chowder or Chicken Noodle Soup",
+     "price": "$4.99"
+    }
+   ]
+  },
+  {
+   "cat": "Kids",
+   "items": [
+    {
+     "name": "Kids Chicken Tender, Hamburger or Cheeseburger",
+     "desc": "With fries.",
+     "price": "from $7.49"
+    },
+    {
+     "name": "Kids Spaghetti or Ravioli",
+     "desc": "Add a meatball for $1.",
+     "price": "from $5.99"
+    },
+    {
+     "name": "Mozzarella Sticks & Fries",
+     "price": "$7.99"
+    }
+   ]
+  },
+  {
+   "cat": "Desserts",
+   "items": [
+    {
+     "name": "Fried Dough",
+     "desc": "Butter, powdered sugar and cinnamon.",
+     "price": "$5.99"
+    },
+    {
+     "name": "Oreo Puff-Puff",
+     "desc": "Double-stuffed Oreos in flaky pastry, deep fried.",
+     "price": "$8.99"
+    },
+    {
+     "name": "Baklava",
+     "price": "$2.99"
+    },
+    {
+     "name": "Cheesecake, Chocolate Cake or Red Velvet",
+     "price": "$5.99"
+    },
+    {
+     "name": "Homemade Chocolate Chip Brownie",
+     "price": "$2.75"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "The Menu page shows raw page-builder code (\"[ux_banner height=…]\", \"[button text=\\\"Order now\\\"…]\") instead of a menu; the About page does the same.",
+  "Navigation has WordPress leftovers: a \"#75 (no title)\" link, \"Style\" and \"Uncategorized\" category links, and a \"Hello world!\" sample post.",
+  "The phone number shows unformatted as 6036230899, twice, in a strip of tiny header links.",
+  "The homepage still says \"family-owned for 24 years\"; the shop opened in 1998.",
+  "Footer reads \"Fast Food WordPress Theme By Buywptemplate\".",
+  "The menu page's Order Now button points at a Toast page while the header points at FoodTec; FoodTec is the live one.",
+  "The site has 50+ real photos of the food, the owner and the shop sitting unused in its media library."
+ ],
+ "questions": [
+  "Online ordering opens at 10:00 AM but the website says 10:30 AM. Which is right?",
+  "Is the Toast ordering link on the old menu page still active, or is FoodTec the only ordering system now?",
+  "The logo on the site is a 240px scan. Do you have the original artwork for the Golden Acres Pizza Market logo?",
+  "Can we use the photos of Sam in the About section? (He appears in six of the site's photos.)",
+  "Is there a delivery area or minimum to show?",
+  "Catering: the shop sponsors a lot of teams. Any team or party deals we should feature?"
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "map": {
+  "cached_image0.jpg": "p-c.webp",
+  "cached_image0-28.jpg": "p-c28.webp",
+  "cached_image0-22.jpg": "p-c22.webp",
+  "cached_image0-23.jpg": "p-c23.webp",
+  "cached_image0-6.jpg": "p-c6.webp",
+  "cached_image0-10.jpg": "p-c10.webp",
+  "cached_image0-9.jpg": "p-c9.webp",
+  "cached_image0-16.jpg": "p-c16.webp",
+  "cached_image0-29.jpg": "p-c29.webp",
+  "cached_image0-25.jpg": "p-c25.webp",
+  "cached_image0-12.jpg": "p-c12.webp",
+  "cached_image0-14.jpg": "p-c14.webp",
+  "cached_image0-17.jpg": "p-c17.webp",
+  "cached_image0-21.jpg": "p-c21.webp",
+  "cached_image0-24.jpg": "p-c24.webp",
+  "cached_image0-26.jpg": "p-c26.webp",
+  "cached_image0-27.jpg": "p-c27.webp",
+  "cached_image0-8.jpg": "p-c8.webp",
+  "cached_image0-11.jpg": "p-c11.webp",
+  "cached_image0-18.jpg": "p-c18.webp",
+  "1597948482080.jpg": "p-1597948482080.webp",
+  "1597948478598.jpg": "p-1597948478598.webp",
+  "1597948473615.jpg": "p-1597948473615.webp",
+  "1597948412913.jpg": "p-1597948412913.webp",
+  "cached_image0-20.jpg": "p-c20.webp",
+  "cached_image0-15.jpg": "p-c15.webp",
+  "Image-25.jpg": "storefront.jpg",
+  "cached_image0-1.jpg": "p-c1.webp",
+  "cached_image0-2.jpg": "p-c2.webp"
+ },
+ "excluded": {
+  "Mask-Group-*.jpg, arahova, village.jpg": "look like stock/theme images, not the shop's own",
+  "1598290*.jpg": "staff at the register during COVID (masks); kept out of the design, fine for About later if the owner wants"
+ }
+}

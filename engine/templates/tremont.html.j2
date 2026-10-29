@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#0E2A38">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#ladder">Skip to the points ladder</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="{{ name }} home"><img src="{{ img('logo.png') }}" width="64" height="40" alt=""><span><b>Tremont</b><i>House of Pizza · Claremont</i></span></a>
+  <nav aria-label="Main"><a href="#ladder">Points ladder</a><a href="#menu">Menu</a><a href="#boathouse">Boat House</a><a href="#story">Since 1978</a><a href="#visit">Visit</a></nav>
+  <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a>
+</header>
+<main id="top">
+
+<section class="hero" data-par>
+  <div class="hero-bg" data-depth=".18"><img src="{{ img('bar.jpg') }}" width="1600" height="1100" alt="The Boat House bar at Tremont House of Pizza: a bar shaped like the hull of a boat, with rope-wrapped beams and pendant lights" fetchpriority="high"></div>
+  <div class="hero-shade"></div>
+  <div class="hero-in wrap">
+    <div class="hero-logo" data-depth="-.06"><img src="{{ img('logo.png') }}" width="343" height="212" alt="Tremont House of Pizza"></div>
+    <p class="eyebrow">134 Pleasant Street · Claremont, NH</p>
+    <h1 data-depth="-.1"><span>Hometown pizza</span> <em>since 1978.</em> <span>Now with a bar shaped like a boat.</span></h1>
+    <p class="sub">Dough and sauce made in house, family run for decades, and a 12-tap bar called the Boat House.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order pickup or delivery</a><a class="btn btn-ghost" href="#ladder">Earn rewards on it</a></div>
+    <ul class="chips" aria-label="Quick facts"><li><b>Closed Sundays</b></li><li><span data-lunch>Lunch special 11 – 2:30, Mon – Fri</span></li><li>Bar seating from 3 PM</li></ul>
+  </div>
+</section>
+
+<section class="ladder sec" id="ladder">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>The Points Ladder. <em>Build an order, see what it buys.</em></h2><p class="lede">Every $1 you spend at Tremont earns 1 loyalty point. Tap items from the real menu and watch the ladder fill: soda, fries, a small cheese pizza, all the way to a large specialty pie.</p></div>
+    <div class="lad-grid">
+      <div class="lad-pick" aria-label="Choose items">
+        <div class="tabs" role="tablist" aria-label="Menu section" id="lp-tabs"></div>
+        <ul class="plist" id="lp-list"></ul>
+      </div>
+      <div class="lad-cart">
+        <h3>Your order</h3>
+        <ul class="cart" id="lp-cart" aria-live="polite"><li class="empty">Nothing yet. Pick a pizza, a grinder, anything.</li></ul>
+        <div class="tot"><span>Subtotal</span><b id="lp-total">$0.00</b></div>
+        <div class="pts"><b id="lp-pts">0</b><span>points earned</span></div>
+        <button type="button" class="btn btn-ghost btn-sm" id="lp-clear">Clear order</button>
+        <a class="btn" href="{{ order_any }}" rel="noopener">Place this order online</a>
+      </div>
+      <div class="lad-rungs" aria-label="Reward ladder">
+        <h3>Reward ladder</h3>
+        <p class="next" id="lp-next" aria-live="polite">Start with any item to climb.</p>
+        <ol class="rungs" id="lp-rungs"></ol>
+        <p class="fine">Points use the pre-tax subtotal. Rewards from the shop’s loyalty page, redeemable at any time. {{ loyalty.rule }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="lunch sec" id="lunch">
+  <div class="wrap lunch-in">
+    <div><p class="kicker">Weekday lunch</p><h2>{{ lunch.price }} <em>lunch special.</em></h2><p class="lede">{{ lunch.what }}</p><p class="when"><b>{{ lunch.when }}</b></p><p class="fine">{{ lunch.note }}</p></div>
+    <figure class="plaque"><img src="{{ img('lunch.jpg') }}" width="450" height="560" alt="Framed award: Voted #1 Best Lunch, Eagle Times Best of the Best 2020, Twin State Valley, finalist Best Pizza" loading="lazy"><figcaption>Voted #1 Best Lunch, Twin State Valley, 2020</figcaption></figure>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The menu</p><h2>Pizza, grinders, <em>pasta and more.</em></h2><p class="lede">Rebuilt from your printed menu so it reads on a phone. Search, jump, order.</p></div>
+    <div class="m-tools"><label class="sr" for="m-q">Search the menu</label><input id="m-q" type="search" placeholder="Search: pesto, wrap, lasagna…" autocomplete="off"><span id="m-count" class="m-count" aria-live="polite"></span></div>
+    <nav class="m-nav" aria-label="Menu sections">{% for c in menu %}<a href="#m-{{ slugify(c.cat) }}">{{ c.cat }}</a>{% endfor %}</nav>
+    {% for c in menu %}
+    <section class="m-cat" id="m-{{ slugify(c.cat) }}" data-cat>
+      <h3>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+      <ul class="m-list">
+      {% for it in c['items'] %}
+        <li class="m-it" data-t="{{ esc((c.cat ~ ' ' ~ it.name ~ ' ' ~ (it.desc or '')).lower()) }}">
+          <div class="m-main"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+          <div class="m-pr">{% if it.sizes %}{% for s in it.sizes %}<span><i>{{ s[0] }}</i>{{ s[1] }}</span>{% endfor %}{% else %}<span class="one">{{ it.price }}</span>{% endif %}</div>
+        </li>
+      {% endfor %}
+      </ul>
+    </section>
+    {% endfor %}
+    <p class="fine">{{ menu_note }}</p>
+    <p class="m-empty" id="m-empty" hidden>Nothing matches that. Try “chicken” or “pesto”.</p>
+  </div>
+</section>
+
+<section class="boat sec" id="boathouse" data-par>
+  <div class="boat-bg" data-depth=".14"><img src="{{ img('dr.jpg') }}" width="800" height="900" alt="" loading="lazy"></div>
+  <div class="boat-shade"></div>
+  <div class="wrap boat-in">
+    <div class="boat-copy">
+      <p class="kicker">The Boat House</p>
+      <h2>A {{ boathouse.seats }}-seat bar, <em>{{ boathouse.taps }} taps.</em></h2>
+      <ul class="bh-facts">{% for f in boathouse.facts %}<li>{{ f }}</li>{% endfor %}</ul>
+      <div class="bh-sched">{% for s in boathouse.sched %}<div><b>{{ s.d }}</b><span>{{ s.t }}</span></div>{% endfor %}</div>
+    </div>
+    <div class="boat-pics">
+      <figure><img src="{{ img('tap.jpg') }}" width="800" height="600" alt="Beer tap handles along the Boat House bar" loading="lazy"></figure>
+      <figure><img src="{{ img('cock.jpg') }}" width="665" height="600" alt="Collage of Boat House cocktails including the Rusty Anchor and the Watermelon Wave" loading="lazy"><figcaption>Cocktail of the month: past favorites include {{ boathouse.cocktails|join(' and ') }}.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="story sec" id="story">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Since {{ founded }}</p><h2>Locally owned, <em>family run, {{ years }} years.</em></h2><p class="lede">{{ about }}</p></div>
+    <div class="honors">{% for h in honors %}<div><b>{{ h.year }}</b><span><strong>{{ h.t }}</strong>{{ h.s }}</span></div>{% endfor %}</div>
+    <div class="comm">{% for c in community %}<article><h3>{{ c.t }}</h3><p>{{ c.s }}</p></article>{% endfor %}</div>
+    <div class="gal">
+      <figure><img src="{{ img('int.jpg') }}" width="800" height="600" alt="Inside Tremont House of Pizza: menu boards above the kitchen counter" loading="lazy"></figure>
+      <figure><img src="{{ img('patio.jpg') }}" width="800" height="600" alt="The storefront and patio on Pleasant Street with red geraniums" loading="lazy"></figure>
+      <figure><img src="{{ img('out.jpg') }}" width="800" height="533" alt="Patio seating under a blue umbrella on Pleasant Street" loading="lazy"></figure>
+      <figure><img src="{{ img('dr.jpg') }}" width="800" height="900" alt="The dining room with corrugated wainscot, booths and a black coffered ceiling" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="crew sec" id="crew">
+  <div class="wrap crew-in"><div><p class="kicker">Join the crew</p><h2>Counter help <em>wanted.</em></h2><p class="lede">{{ careers.text }}</p></div><a class="btn" href="{{ careers.link }}" rel="noopener">Apply today</a></div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap v-grid">
+    <div><p class="kicker">Visit</p><h2>134 Pleasant Street, <em>Claremont.</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <p class="fine">{{ closed_note }} Lunch special 11 AM – 2:30 PM weekdays. Bar seating from 3 PM weekdays and all day Saturday. Call for closing times.</p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Directions</a><a class="btn btn-ghost" href="{{ links.facebook }}" rel="noopener">Facebook</a></div>
+    </div>
+    <figure class="v-pic"><img src="{{ img('out.jpg') }}" width="800" height="533" alt="Patio seating on Pleasant Street" loading="lazy"></figure>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><span>© {{ year }} {{ name }}. Family run since {{ founded }}.</span><span>Menu items and prices subject to change.</span></div></footer>
+<div class="dock"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call</a><a class="btn btn-ghost" href="#ladder">Points</a></div>
+<script>window.__HOURS__=[];window.__ITEMS={{ items_json }};window.__REWARDS={{ rewards_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body>
+</html>

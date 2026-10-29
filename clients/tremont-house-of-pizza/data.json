@@ -1,0 +1,1366 @@
+{
+ "slug": "tremont-house-of-pizza",
+ "name": "Tremont House of Pizza",
+ "short": "Tremont House of Pizza",
+ "style": "boathouse",
+ "domain": "https://tremonthouseofpizza.com",
+ "tagline": "Hometown pizza since 1978 and the Boat House bar, in downtown Claremont, NH.",
+ "seo_title": "Tremont House of Pizza | Pizza, Grinders & the Boat House Bar in Claremont, NH",
+ "seo_desc": "Family-run pizza shop in Claremont, NH since 1978, plus the 13-seat Boat House bar with 12 taps. Pizza, grinders, pasta, loyalty points and online ordering for pickup or delivery.",
+ "logo": {
+  "src": "logo.png",
+  "alt": "Tremont House of Pizza"
+ },
+ "locations": [
+  {
+   "id": "claremont",
+   "name": "Claremont",
+   "street": "134 Pleasant Street",
+   "city": "Claremont",
+   "region": "NH",
+   "postal": "03743",
+   "phone": "(603) 542-8017",
+   "tel": "+16035428017",
+   "hours": [],
+   "order": "https://secure.microworks.com/tremont/",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Tremont+House+of+Pizza+134+Pleasant+Street+Claremont+NH+03743",
+   "geo": [
+    43.3768,
+    -72.3465
+   ]
+  }
+ ],
+ "order_any": "https://secure.microworks.com/tremont/",
+ "menu": [
+  {
+   "cat": "Pizza",
+   "note": "Personal 7\", small 10\", large 14\", family 18\" or a crustless Pizza Bowl. 10\" gluten-free cauliflower-crust pizza available for a $5 upcharge.",
+   "items": [
+    {
+     "name": "Cheese",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$5.70"
+      ],
+      [
+       "Small 10\"",
+       "$7.75"
+      ],
+      [
+       "Large 14\"",
+       "$12.75"
+      ],
+      [
+       "Family 18\"",
+       "$16.10"
+      ],
+      [
+       "Bowl",
+       "$4.15"
+      ]
+     ]
+    },
+    {
+     "name": "Additional toppings",
+     "desc": "Pepperoni, meatball, mushrooms, sausage, hamburg, ham, spinach, black olive, green peppers, pineapple, tomatoes, garlic, broccoli, onions, red onions, banana peppers.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$0.57"
+      ],
+      [
+       "Small 10\"",
+       "$1.40"
+      ],
+      [
+       "Large 14\"",
+       "$2.25"
+      ],
+      [
+       "Family 18\"",
+       "$2.85"
+      ],
+      [
+       "Bowl",
+       "$1.40"
+      ]
+     ]
+    },
+    {
+     "name": "Specialty toppings",
+     "desc": "Feta cheese, grilled or crispy chicken, shaved ribeye steak, bacon.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$1.05"
+      ],
+      [
+       "Small 10\"",
+       "$1.99"
+      ],
+      [
+       "Large 14\"",
+       "$3.10"
+      ],
+      [
+       "Family 18\"",
+       "$4.15"
+      ],
+      [
+       "Bowl",
+       "$1.90"
+      ]
+     ]
+    },
+    {
+     "name": "Extra cheese",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$1.10"
+      ],
+      [
+       "Small 10\"",
+       "$2.08"
+      ],
+      [
+       "Large 14\"",
+       "$3.10"
+      ],
+      [
+       "Family 18\"",
+       "$4.65"
+      ],
+      [
+       "Bowl",
+       "$2.08"
+      ]
+     ]
+    },
+    {
+     "name": "VegetaBall's Pesto",
+     "desc": "Locally made pesto, added to any pie.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$0.50"
+      ],
+      [
+       "Small 10\"",
+       "$1.05"
+      ],
+      [
+       "Large 14\"",
+       "$1.55"
+      ],
+      [
+       "Family 18\"",
+       "$2.08"
+      ],
+      [
+       "Bowl",
+       "$1.05"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Specialty Pizza",
+   "note": "Every specialty pie is also available as a calzone. Pizza Bowl is the crustless version.",
+   "items": [
+    {
+     "name": "BBQ Chicken",
+     "desc": "Grilled or crispy chicken, Sweet Baby Ray’s BBQ sauce, tomato, red onion.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$9.35"
+      ],
+      [
+       "Small 10\"",
+       "$14.25"
+      ],
+      [
+       "Large 14\"",
+       "$23.15"
+      ],
+      [
+       "Family 18\"",
+       "$29.10"
+      ],
+      [
+       "Bowl",
+       "$10.65"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Ranch",
+     "desc": "Grilled or crispy chicken, buttermilk ranch dressing, tomato, bacon.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$9.35"
+      ],
+      [
+       "Small 10\"",
+       "$14.25"
+      ],
+      [
+       "Large 14\"",
+       "$23.15"
+      ],
+      [
+       "Family 18\"",
+       "$29.10"
+      ],
+      [
+       "Bowl",
+       "$10.65"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Grilled or crispy chicken, Frank’s hot sauce, blue cheese dressing.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$8.30"
+      ],
+      [
+       "Small 10\"",
+       "$10.85"
+      ],
+      [
+       "Large 14\"",
+       "$18.45"
+      ],
+      [
+       "Family 18\"",
+       "$23.90"
+      ],
+      [
+       "Bowl",
+       "$7.25"
+      ]
+     ]
+    },
+    {
+     "name": "Veggie Special",
+     "desc": "Onions, green peppers, mushrooms, broccoli, tomato, spinach.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$9.35"
+      ],
+      [
+       "Small 10\"",
+       "$14.25"
+      ],
+      [
+       "Large 14\"",
+       "$23.15"
+      ],
+      [
+       "Family 18\"",
+       "$29.10"
+      ],
+      [
+       "Bowl",
+       "$10.65"
+      ]
+     ]
+    },
+    {
+     "name": "Meat Special",
+     "desc": "Pepperoni, sausage, hamburg, bacon, ham.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$9.35"
+      ],
+      [
+       "Small 10\"",
+       "$14.25"
+      ],
+      [
+       "Large 14\"",
+       "$23.15"
+      ],
+      [
+       "Family 18\"",
+       "$29.10"
+      ],
+      [
+       "Bowl",
+       "$10.65"
+      ]
+     ]
+    },
+    {
+     "name": "House Special",
+     "desc": "Pepperoni, sausage, hamburg, onion, green peppers, mushrooms.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$9.35"
+      ],
+      [
+       "Small 10\"",
+       "$14.25"
+      ],
+      [
+       "Large 14\"",
+       "$23.15"
+      ],
+      [
+       "Family 18\"",
+       "$29.10"
+      ],
+      [
+       "Bowl",
+       "$10.65"
+      ]
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Tomato sauce, feta, spinach, black olives, garlic.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$9.35"
+      ],
+      [
+       "Small 10\"",
+       "$14.25"
+      ],
+      [
+       "Large 14\"",
+       "$23.15"
+      ],
+      [
+       "Family 18\"",
+       "$29.10"
+      ],
+      [
+       "Bowl",
+       "$10.65"
+      ]
+     ]
+    },
+    {
+     "name": "Philly Cheese Steak",
+     "desc": "Steak, American cheese, onions, mushrooms, peppers and pizza cheese.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$9.35"
+      ],
+      [
+       "Small 10\"",
+       "$14.25"
+      ],
+      [
+       "Large 14\"",
+       "$23.15"
+      ],
+      [
+       "Family 18\"",
+       "$29.10"
+      ],
+      [
+       "Bowl",
+       "$10.65"
+      ]
+     ]
+    },
+    {
+     "name": "The Nick",
+     "desc": "VegetaBall’s pesto (locally made), chicken, spinach, tomatoes.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$9.85"
+      ],
+      [
+       "Small 10\"",
+       "$15.30"
+      ],
+      [
+       "Large 14\"",
+       "$24.20"
+      ],
+      [
+       "Family 18\"",
+       "$30.65"
+      ],
+      [
+       "Bowl",
+       "$11.70"
+      ]
+     ]
+    },
+    {
+     "name": "Captain Tso’s",
+     "desc": "Crispy chicken, broccoli, red onion and General Tso’s sauce.",
+     "sizes": [
+      [
+       "Personal 7\"",
+       "$9.85"
+      ],
+      [
+       "Small 10\"",
+       "$15.30"
+      ],
+      [
+       "Large 14\"",
+       "$24.20"
+      ],
+      [
+       "Family 18\"",
+       "$30.65"
+      ],
+      [
+       "Bowl",
+       "$11.70"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "items": [
+    {
+     "name": "Cheese Calzone",
+     "sizes": [
+      [
+       "Small",
+       "$8.30"
+      ],
+      [
+       "Large",
+       "$15.00"
+      ]
+     ]
+    },
+    {
+     "name": "Traditional toppings",
+     "sizes": [
+      [
+       "Small",
+       "$0.57"
+      ],
+      [
+       "Large",
+       "$1.15"
+      ]
+     ]
+    },
+    {
+     "name": "Specialty toppings",
+     "sizes": [
+      [
+       "Small",
+       "$1.65"
+      ],
+      [
+       "Large",
+       "$3.10"
+      ]
+     ]
+    },
+    {
+     "name": "Specialty Calzone",
+     "desc": "Any specialty pizza above, folded.",
+     "sizes": [
+      [
+       "Small",
+       "$11.00"
+      ],
+      [
+       "Large",
+       "$21.00"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Subs & Wraps",
+   "note": "Grinders come with cheese and mayonnaise unless noted. Wraps (white, wheat or gluten-free, +$2.05) are large only. *Grilled items: the grill closes 30 minutes before closing.",
+   "items": [
+    {
+     "name": "Caprese Wrap",
+     "desc": "Grilled chicken, shredded cheese, VegetaBall’s pesto, balsamic glaze, spinach, tomato.",
+     "sizes": [
+      [
+       "Large",
+       "$9.85"
+      ]
+     ]
+    },
+    {
+     "name": "Grilled Chicken Wrap",
+     "desc": "American cheese, lettuce, tomato, red onion, house dressing.",
+     "sizes": [
+      [
+       "Large",
+       "$9.85"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Salad",
+     "desc": "With cranberries.",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.60"
+      ],
+      [
+       "Large 10\"",
+       "$10.35"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Cutlet or Parmesan",
+     "desc": "With sauce.",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.30"
+      ],
+      [
+       "Large 10\"",
+       "$9.85"
+      ]
+     ]
+    },
+    {
+     "name": "Veggie",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$6.75"
+      ],
+      [
+       "Large 10\"",
+       "$7.80"
+      ]
+     ]
+    },
+    {
+     "name": "Italian",
+     "desc": "Ham, Genoa, cooked salami.",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.80"
+      ],
+      [
+       "Large 10\"",
+       "$10.35"
+      ]
+     ]
+    },
+    {
+     "name": "White Tuna",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.60"
+      ],
+      [
+       "Large 10\"",
+       "$9.85"
+      ]
+     ]
+    },
+    {
+     "name": "Turkey",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.60"
+      ],
+      [
+       "Large 10\"",
+       "$9.85"
+      ]
+     ]
+    },
+    {
+     "name": "Ham",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.60"
+      ],
+      [
+       "Large 10\"",
+       "$9.85"
+      ]
+     ]
+    },
+    {
+     "name": "Genoa Salami",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.60"
+      ],
+      [
+       "Large 10\"",
+       "$10.35"
+      ]
+     ]
+    },
+    {
+     "name": "Roast Beef",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$9.35"
+      ],
+      [
+       "Large 10\"",
+       "$10.70"
+      ]
+     ]
+    },
+    {
+     "name": "Special",
+     "desc": "Turkey, roast beef, bacon.",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$9.55"
+      ],
+      [
+       "Large 10\"",
+       "$10.90"
+      ]
+     ]
+    },
+    {
+     "name": "B.L.T.",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.80"
+      ],
+      [
+       "Large 10\"",
+       "$10.35"
+      ]
+     ]
+    },
+    {
+     "name": "Seafood",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$9.15"
+      ],
+      [
+       "Large 10\"",
+       "$10.35"
+      ]
+     ]
+    },
+    {
+     "name": "Meatball & Sausage",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$7.80"
+      ],
+      [
+       "Large 10\"",
+       "$9.35"
+      ]
+     ]
+    },
+    {
+     "name": "Sausage",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$7.80"
+      ],
+      [
+       "Large 10\"",
+       "$9.35"
+      ]
+     ]
+    },
+    {
+     "name": "Meatball",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$7.80"
+      ],
+      [
+       "Large 10\"",
+       "$9.35"
+      ]
+     ]
+    },
+    {
+     "name": "Pastrami*",
+     "desc": "Mustard, provolone.",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$9.65"
+      ],
+      [
+       "Large 10\"",
+       "$10.90"
+      ]
+     ]
+    },
+    {
+     "name": "Pepperoni",
+     "desc": "With sauce.",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.30"
+      ],
+      [
+       "Large 10\"",
+       "$9.75"
+      ]
+     ]
+    },
+    {
+     "name": "Cheeseburger*",
+     "desc": "American cheese.",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$9.65"
+      ],
+      [
+       "Large 10\"",
+       "$11.40"
+      ]
+     ]
+    },
+    {
+     "name": "Philly Ribeye Steak or Chicken*",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$8.60"
+      ],
+      [
+       "Large 10\"",
+       "$9.85"
+      ]
+     ]
+    },
+    {
+     "name": "Philly Combo*",
+     "desc": "Ribeye steak or chicken with mushrooms, onions, green peppers.",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$9.15"
+      ],
+      [
+       "Large 10\"",
+       "$10.35"
+      ]
+     ]
+    },
+    {
+     "name": "Extra cheese",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$1.50"
+      ],
+      [
+       "Large 10\"",
+       "$2.50"
+      ]
+     ]
+    },
+    {
+     "name": "Extra meat",
+     "sizes": [
+      [
+       "Small 8\"",
+       "$2.55"
+      ],
+      [
+       "Large 10\"",
+       "$4.00"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "The Grill",
+   "note": "*Grilled. The grill closes 30 minutes before closing.",
+   "items": [
+    {
+     "name": "Cheeseburger with Fries*",
+     "desc": "Fresh Angus 4 oz patty, American cheese, lettuce, tomato, onion, pickles, special sauce.",
+     "price": "$10.90"
+    },
+    {
+     "name": "Cheeseburger only*",
+     "price": "$8.90"
+    },
+    {
+     "name": "Fried or Grilled Chicken Burger with Fries*",
+     "desc": "American cheese, lettuce, tomato, red onion, pickles, mayo.",
+     "price": "$10.35"
+    },
+    {
+     "name": "Chicken Burger only",
+     "price": "$7.70"
+    },
+    {
+     "name": "Fishwich with Fries",
+     "desc": "Haddock on a bun with American cheese and a side of tartar sauce.",
+     "price": "$10.90"
+    },
+    {
+     "name": "Haddock Basket",
+     "desc": "With fries and coleslaw.",
+     "price": "$13.10"
+    },
+    {
+     "name": "Chicken Finger Basket",
+     "desc": "With fries and coleslaw.",
+     "price": "$14.00"
+    }
+   ]
+  },
+  {
+   "cat": "Pasta",
+   "note": "Served with homemade meat sauce, cheese and garlic bread. Meatless marinara on request.",
+   "items": [
+    {
+     "name": "Spaghetti or Ziti",
+     "desc": "With sauce.",
+     "price": "$7.35"
+    },
+    {
+     "name": "Spaghetti or Ziti with Sausage or Meatballs",
+     "price": "$8.30"
+    },
+    {
+     "name": "Spaghetti Special",
+     "desc": "Meatballs, mushrooms and sausage.",
+     "price": "$8.30"
+    },
+    {
+     "name": "Chicken Parmesan",
+     "price": "$8.80"
+    },
+    {
+     "name": "Homemade Lasagna",
+     "price": "$9.35"
+    },
+    {
+     "name": "Baked Manicotti",
+     "price": "$8.60"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "note": "Make it Pittsburgh style: fries on top.",
+   "items": [
+    {
+     "name": "Garden",
+     "sizes": [
+      [
+       "Small",
+       "$5.15"
+      ],
+      [
+       "Large",
+       "$7.25"
+      ]
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Feta cheese.",
+     "sizes": [
+      [
+       "Small",
+       "$6.75"
+      ],
+      [
+       "Large",
+       "$8.90"
+      ]
+     ]
+    },
+    {
+     "name": "Tuna",
+     "desc": "Solid white.",
+     "sizes": [
+      [
+       "Small",
+       "$6.75"
+      ],
+      [
+       "Large",
+       "$8.90"
+      ]
+     ]
+    },
+    {
+     "name": "Ham & Cheese",
+     "sizes": [
+      [
+       "Small",
+       "$7.25"
+      ],
+      [
+       "Large",
+       "$9.55"
+      ]
+     ]
+    },
+    {
+     "name": "Turkey & Cheese",
+     "sizes": [
+      [
+       "Small",
+       "$6.75"
+      ],
+      [
+       "Large",
+       "$8.90"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "sizes": [
+      [
+       "Small",
+       "$8.30"
+      ],
+      [
+       "Large",
+       "$10.49"
+      ]
+     ]
+    },
+    {
+     "name": "Chef’s",
+     "desc": "Cheese, ham, turkey, pepperoni.",
+     "sizes": [
+      [
+       "Small",
+       "$7.75"
+      ],
+      [
+       "Large",
+       "$10.00"
+      ]
+     ]
+    },
+    {
+     "name": "Seafood",
+     "sizes": [
+      [
+       "Small",
+       "$7.25"
+      ],
+      [
+       "Large",
+       "$9.85"
+      ]
+     ]
+    },
+    {
+     "name": "Cheese",
+     "sizes": [
+      [
+       "Small",
+       "$5.70"
+      ],
+      [
+       "Large",
+       "$7.70"
+      ]
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "sizes": [
+      [
+       "Small",
+       "$8.30"
+      ],
+      [
+       "Large",
+       "$10.49"
+      ]
+     ]
+    },
+    {
+     "name": "Antipasto",
+     "desc": "Ham, Genoa, cooked salami, provolone, pepperoni.",
+     "sizes": [
+      [
+       "Small",
+       "$7.75"
+      ],
+      [
+       "Large",
+       "$10.35"
+      ]
+     ]
+    },
+    {
+     "name": "Cranberry Chicken",
+     "desc": "All white chicken with mayo and Craisins.",
+     "sizes": [
+      [
+       "Small",
+       "$8.30"
+      ],
+      [
+       "Large",
+       "$10.49"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Sides",
+   "note": "Dips: house-made spaghetti sauce, house dressing, buttermilk ranch, Ken’s sweet and sour, Ken’s chunky blue cheese, honey mustard, Sweet Baby Ray’s BBQ, Frank’s Red Hot.",
+   "items": [
+    {
+     "name": "Meatball or Sausage with sauce",
+     "price": "$2.05"
+    },
+    {
+     "name": "Garlic Bread",
+     "sizes": [
+      [
+       "Small",
+       "$2.10"
+      ],
+      [
+       "Large",
+       "$3.10"
+      ]
+     ]
+    },
+    {
+     "name": "Garlic Bread with Cheese",
+     "sizes": [
+      [
+       "Small",
+       "$3.40"
+      ],
+      [
+       "Large",
+       "$5.15"
+      ]
+     ]
+    },
+    {
+     "name": "French Fries",
+     "price": "$5.99"
+    },
+    {
+     "name": "Pickle Fries",
+     "desc": "Battered pickles shaped like fries.",
+     "price": "$7.25"
+    },
+    {
+     "name": "Boat House Fries",
+     "desc": "Scoop fries seasoned with Claremont Spice Shop’s Golden Garlic Blend.",
+     "price": "$7.00"
+    },
+    {
+     "name": "Onion Rings",
+     "price": "$7.25"
+    },
+    {
+     "name": "Mozzarella Sticks (8)",
+     "price": "$8.80"
+    },
+    {
+     "name": "Buffalo Wings (8)",
+     "price": "$11.40"
+    },
+    {
+     "name": "Chicken Tenders (5)",
+     "price": "$11.95"
+    },
+    {
+     "name": "Fried Mushrooms",
+     "price": "$9.35"
+    },
+    {
+     "name": "Loaded Tater Kegs (8)",
+     "price": "$8.30"
+    },
+    {
+     "name": "Jalapeño Poppers (12)",
+     "price": "$8.80"
+    },
+    {
+     "name": "Cheesy Bread Sticks with Sauce",
+     "desc": "Gluten-free +$5.",
+     "price": "$8.30"
+    },
+    {
+     "name": "Smoked Gouda Mac Bites (12)",
+     "price": "$9.85"
+    },
+    {
+     "name": "Southwest Chicken Egg Rolls",
+     "sizes": [
+      [
+       "2 rolls",
+       "$6.45"
+      ],
+      [
+       "4 rolls",
+       "$12.90"
+      ]
+     ]
+    },
+    {
+     "name": "Cranberry Chicken Salad (8 oz)",
+     "price": "$6.20"
+    }
+   ]
+  },
+  {
+   "cat": "Kids",
+   "note": "Ages 10 and under. Meals include a drink and a cookie.",
+   "items": [
+    {
+     "name": "Chicken Fingers with Fries",
+     "price": "$9.35"
+    },
+    {
+     "name": "Personal Cheese Pizza",
+     "desc": "Extra toppings $0.57 each.",
+     "price": "$5.70"
+    },
+    {
+     "name": "Cheeseburger with Fries",
+     "desc": "4 oz.",
+     "price": "$7.75"
+    },
+    {
+     "name": "Spaghetti & Meatballs",
+     "price": "$5.70"
+    },
+    {
+     "name": "5\" Sub & Chips",
+     "desc": "Turkey, ham, tuna, meatball or BLT.",
+     "price": "$6.20"
+    },
+    {
+     "name": "Macaroni & Cheese",
+     "price": "$4.65"
+    },
+    {
+     "name": "Mac & Cheese with 2 Chicken Fingers",
+     "price": "$8.80"
+    }
+   ]
+  },
+  {
+   "cat": "Desserts",
+   "items": [
+    {
+     "name": "Jr. Whoopie Pie",
+     "price": "$3.35"
+    },
+    {
+     "name": "Chocolate Chip Cookie",
+     "price": "$3.35"
+    },
+    {
+     "name": "Baklava",
+     "price": "$5.20"
+    },
+    {
+     "name": "Chocolate Peanut Butter Mousse Landslide",
+     "price": "$9.25"
+    },
+    {
+     "name": "Lemon Italian Cream Cake",
+     "price": "$7.70"
+    },
+    {
+     "name": "Gluten-Free Strawberry Shortcake",
+     "price": "$7.25"
+    }
+   ]
+  }
+ ],
+ "menu_note": "Menu items and prices subject to change. Prices from the shop’s 2026 printed menu.",
+ "findings": [
+  "The menu is a folded-flyer JPEG that can’t be searched, linked or read on a phone. Rebuilt as real text.",
+  "Opening and closing hours are not published anywhere, only “closed Sundays” on the job form.",
+  "The Boat House page has no hours-at-a-glance and no menu link.",
+  "Specials page is still showing 2023 promos.",
+  "Loyalty rewards are a long text page; hard to see what a given order earns."
+ ],
+ "questions": [
+  "What are your closing times? Only “closed Sundays”, lunch 11–2:30 on weekdays and bar seating times were published, so the concept shows “to close”.",
+  "Is the $7.59 lunch special price from 2023 still current?",
+  "Your menu image lists an extra patty as $1.50 on the burger and $1.55 in the footer. Which is right?",
+  "Onion-ring substitution price was small print. Is it $3.10?",
+  "Should the online-order link be secure.microworks.com/tremont (the site’s link)?",
+  "May we reuse the photos from your site (bar, dining room, patio, storefront)?"
+ ],
+ "founded": 1978,
+ "about": "Tremont House of Pizza first opened in 1978. The business has been locally owned and family run since its opening. We make all of our dough and sauces right at our restaurant.",
+ "honors": [
+  {
+   "year": "2020",
+   "t": "Voted #1 Best Lunch",
+   "s": "Eagle Times Best of the Best, Twin State Valley. Finalist, Best Pizza."
+  },
+  {
+   "year": "NH",
+   "t": "Voted 5th Best Pizza in New Hampshire",
+   "s": "As listed on the shop’s own About page."
+  }
+ ],
+ "boathouse": {
+  "seats": 13,
+  "taps": 12,
+  "facts": [
+   "In 2024 the shop took over the entire building: more dine-in seating plus a 13-seat, full-service bar.",
+   "Named the Boat House for the bar’s unique shape and decor.",
+   "A 12-tap reverse draft system, plus wine, cans and bottled beer.",
+   "A cocktail of the month for the non-wine, non-beer crowd."
+  ],
+  "sched": [
+   {
+    "d": "Monday – Friday",
+    "t": "Bar seating opens at 3 PM and stays open to close."
+   },
+   {
+    "d": "Saturday",
+    "t": "Bar seating all day, 11 AM to close."
+   },
+   {
+    "d": "Any open hour",
+    "t": "Every drink on the menu is available whenever the shop is open."
+   }
+  ],
+  "cocktails": [
+   "The Rusty Anchor",
+   "Watermelon Wave"
+  ]
+ },
+ "lunch": {
+  "price": "$7.59",
+  "what": "8\" grinder of your choice, half order of French fries and a 16 oz fountain drink.",
+  "when": "11 AM – 2:30 PM, Monday through Friday. Not available for delivery.",
+  "note": "Price from the shop’s 2023 flyer; confirm it is current."
+ },
+ "loyalty": {
+  "rule": "Every $1 spent earns 1 point, whether you call, order online or dine in. Points are stored by phone number. Just calling the store enrolls you.",
+  "rewards": [
+   [
+    25,
+    "Fountain soda (not for delivery)"
+   ],
+   [
+    25,
+    "Whoopie pie"
+   ],
+   [
+    40,
+    "Any bottled drink (non-alcoholic)"
+   ],
+   [
+    60,
+    "Order of French fries"
+   ],
+   [
+    70,
+    "Any small salad"
+   ],
+   [
+    75,
+    "Any kid’s meal"
+   ],
+   [
+    100,
+    "Order of mozzarella sticks"
+   ],
+   [
+    100,
+    "Small cheese pizza"
+   ],
+   [
+    100,
+    "Any large salad"
+   ],
+   [
+    125,
+    "Any burger basket with French fries"
+   ],
+   [
+    150,
+    "Any large grinder or wrap"
+   ],
+   [
+    175,
+    "Large cheese pizza"
+   ],
+   [
+    250,
+    "Large specialty pizza"
+   ],
+   [
+    1000000,
+    "A new Porsche Cayenne GTS (the shop’s joke, kept as written)"
+   ]
+  ]
+ },
+ "community": [
+  {
+   "t": "The Nick",
+   "s": "A pesto, chicken, tomato and spinach pizza made at Tremont. In 2016, 20% of September sales went to CHAD for Team Nick. It was such a hit that it joined the menu. The pesto comes from VegetaBall’s in Claremont."
+  },
+  {
+   "t": "The Villager",
+   "s": "A one-month grinder special: 20% of sales were donated as gas cards for Norris Cotton Cancer Center patients. 127 were sold in October and $190.49 went to the NCCC."
+  }
+ ],
+ "careers": {
+  "enabled": true,
+  "text": "We are currently seeking counter help. Incentives include a Simple IRA retirement plan, discounted food, med bonus, PTO and cash tips.",
+  "link": "https://tremonthouseofpizza.com/employment/"
+ },
+ "closed_note": "Closed Sundays.",
+ "links": {
+  "facebook": "https://www.facebook.com/tremonthouseofpizza"
+ }
+}

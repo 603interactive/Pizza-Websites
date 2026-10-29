@@ -1,0 +1,100 @@
+{% if not fragment %}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+{% endif %}<title>{{ seo_title }}</title>
+{% if preview %}<meta name="claude:viewport-fit-sides" content="cover">{% endif %}
+<meta name="description" content="{{ seo_desc }}">
+<meta name="theme-color" content="#120905">
+{% if not preview %}<link rel="canonical" href="{{ domain }}/">
+<meta property="og:type" content="restaurant"><meta property="og:title" content="{{ seo_title }}"><meta property="og:description" content="{{ seo_desc }}"><meta property="og:url" content="{{ domain }}/">
+<link rel="icon" href="assets/img/mascot-face.webp">
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">{{ jsonld }}</script>
+{% else %}<style>{{ css }}</style>
+{% endif %}{% if not fragment %}</head>
+<body>{% endif %}
+<a class="skip" href="#menu">Skip to the menu</a>
+{% if preview %}<div class="concept"><div class="wrap"><strong>Design concept by 603 Interactive</strong><span>Not Jimmy's official website. The pizza scene is illustrated in code; no AI or stock food photos. Scroll slowly.</span></div></div>{% endif %}
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">Jimmy's<small>House of Pizza</small></span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span></button>
+    <nav class="nav" id="nav" aria-label="Main"><a href="#menu">Menu</a><a href="#visit">Hours & Location</a><a href="#about">About</a></nav>
+    <a class="btn small order-top" href="{{ order }}" target="_blank" rel="noopener">Order online</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="story" id="story" aria-label="How a Jimmy's pizza is made">
+  <div class="stage">
+    <canvas class="scene" id="scene" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="caps">
+      {% for c in stages %}<div class="cap{% if loop.first %} first{% endif %}{% if loop.last %} last{% endif %}" data-stage="{{ loop.index0 }}">
+        {% if loop.first %}<p class="eyebrow">345 Kelley St · Manchester, NH</p><h1 class="h1">Jimmy's<br>House<br>of Pizza</h1><p class="sub">{{ c.text }}</p>
+        <div class="cta"><a class="btn" href="{{ order }}" target="_blank" rel="noopener">Order online</a><a class="btn ghost" href="#menu">See the menu</a></div>
+        <p class="hint" aria-hidden="true"><span class="mouse"></span>Scroll to make a pizza</p>
+        {% else %}<p class="eyebrow">{{ c.eyebrow }}</p><h2 class="h2">{{ c.title }}</h2><p class="sub">{{ c.text }}</p>{% if loop.last %}<div class="cta"><a class="btn" href="{{ order }}" target="_blank" rel="noopener">Order online</a><a class="btn ghost" href="tel:{{ location.tel }}">Call {{ location.phone }}</a></div><p class="fine">{{ order_note }}</p>{% endif %}{% endif %}
+      </div>{% endfor %}
+    </div>
+    <ol class="steps" aria-hidden="true">{% for c in stages %}<li data-stage="{{ loop.index0 }}"><i></i><span>{{ c.step }}</span></li>{% endfor %}</ol>
+    <p class="status" data-status><i class="dot"></i><span>Checking hours…</span></p>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track">{% for _ in range(2) %}<ul>{% for m in ['Handmade pizza', 'Calzones', 'Steak subs', 'Grinders', 'Spaghetti dinners', 'Greek salads', 'Baklava', 'Order online · pay in store'] %}<li>{{ m }}</li>{% endfor %}</ul>{% endfor %}</div></div>
+
+<section class="paper sec" id="menu" aria-labelledby="menu-h">
+  <div class="wrap">
+    <div class="sec-head row">
+      <div><p class="eyebrow">Pizza · calzones · subs · dinners</p><h2 class="h2 dark" id="menu-h">The menu</h2><p class="lede">{{ tax_note }} {{ order_note }}</p></div>
+      <div class="menu-tools"><div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><label class="sr" for="menu-search">Search the menu</label><input id="menu-search" type="search" placeholder="Search the menu" autocomplete="off"></div><a class="btn small" href="{{ order }}" target="_blank" rel="noopener">Order</a></div>
+    </div>
+  </div>
+  <nav class="chips" aria-label="Menu sections"><ul>{% for c in menu %}<li><a href="#{{ c.id }}">{{ c.cat }}</a></li>{% endfor %}</ul></nav>
+  <div class="wrap menu-grid">
+    {% for c in menu %}<section class="cat" id="{{ c.id }}" aria-labelledby="{{ c.id }}-h" data-cat>
+      <div class="cat-h"><h3 id="{{ c.id }}-h">{{ c.cat }}</h3>{% if c.sizes %}<div class="sizes">{% for s in c.sizes %}<span>{{ s }}</span>{% endfor %}</div>{% endif %}</div>
+      {% if c.note %}<p class="cat-note">{{ c.note }}</p>{% endif %}
+      <ul class="rows{% if c.sizes|length == 2 %} two{% endif %}">{% for it in c['items'] %}<li data-item data-q="{{ it[0]|lower }}"><span class="nm">{{ it[0] }}</span>{% for pr in it[1:] %}<span class="pr">{{ pr if pr else '—' }}</span>{% endfor %}</li>{% endfor %}</ul>
+    </section>{% endfor %}
+    <p class="empty" id="menu-empty">Nothing matches that. Try “steak” or “calzone”.</p>
+  </div>
+</section>
+
+<section class="sec" id="visit" aria-labelledby="visit-h">
+  <div class="wrap visit">
+    <div class="rv"><p class="eyebrow">Kelley Street</p><h2 class="h2" id="visit-h">Come get a slice</h2><p class="lede">{{ order_note }} Dine in or pick up.</p>
+      <div class="loc" data-loc>
+        <p class="st"><i class="dot"></i><span data-status-text>Checking hours…</span></p>
+        <address>{{ location.street }}<br>{{ location.city }}, {{ location.region }} {{ location.postal }}</address>
+        <div class="phone"><b>{{ location.phone }}</b><button class="copy" type="button" data-copy="{{ location.phone }}">Copy number</button></div>
+        <div class="actions"><a class="btn small" href="{{ order }}" target="_blank" rel="noopener">Order online</a><a class="btn small ghost" href="tel:{{ location.tel }}">Call</a><a class="btn small ghost" href="{{ location.maps }}" target="_blank" rel="noopener">Directions</a></div>
+      </div>
+    </div>
+    <table class="hours rv"><caption class="sr">Hours</caption><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><td>{{ r.day }}</td><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+  </div>
+</section>
+
+<section class="sec" id="about" aria-labelledby="about-h" style="padding-top:0">
+  <div class="wrap about">
+    <div class="mascot rv"><img src="{{ mascot_src }}" alt="Jimmy's mascot: a pizzaiolo at the oven, from the shop's current site" width="900" height="905" loading="lazy"></div>
+    <div class="about-text rv"><p class="eyebrow">Family owned</p><h2 class="h2" id="about-h">A great meal at a fair price</h2>{% for p in about %}<p>{{ p }}</p>{% endfor %}</div>
+  </div>
+</section>
+</main>
+
+<footer class="foot"><div class="wrap">
+  <div><p class="brand-name foot-name">Jimmy's<small>House of Pizza</small></p><p class="legal">{{ tagline }}</p></div>
+  <div><h4>Find us</h4><p>{{ location.street }}<br>{{ location.city }}, {{ location.region }} {{ location.postal }}<br>{{ location.phone }}</p></div>
+  <div><h4>Hours</h4><p>Mon–Thu 11 AM – 9 PM<br>Fri–Sat 11 AM – 10 PM<br>Sunday closed</p></div>
+  <div><h4>More</h4><ul><li><a href="{{ order }}" target="_blank" rel="noopener">Order online</a></li><li><a href="{{ domain }}/privacy" target="_blank" rel="noopener">Privacy policy</a></li><li><a href="{{ domain }}/terms" target="_blank" rel="noopener">Terms of service</a></li><li><a href="{{ domain }}/sms-terms" target="_blank" rel="noopener">SMS terms</a></li></ul><p class="legal">© {{ year }} Jimmy's House of Pizza. {{ tax_note }} Site by 603 Interactive.</p></div>
+</div></footer>
+
+<div class="dock" aria-label="Quick actions"><a class="btn" href="{{ order }}" target="_blank" rel="noopener">Order</a><a class="btn ghost" href="tel:{{ location.tel }}">Call</a><a class="btn ghost" href="#visit">Find us</a></div>
+<script>window.SITE={{ site_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+{% if not fragment %}</body>
+</html>{% endif %}

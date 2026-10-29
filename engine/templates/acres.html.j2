@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#0A2A4A">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+<link rel="icon" href="{{ img('logo-icon.webp') }}">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#size">Skip to the size lab</a>
+<div class="util"><div class="wrap"><span class="u-stat"><i class="dot"></i><span data-status>Checking hours…</span></span><span class="u-r"><a href="tel:{{ loc.tel }}">{{ loc.phone }}</a><span>{{ loc.street }}, {{ loc.city }}</span></span></div></div>
+<header class="top">
+  <a class="brand" href="#top" aria-label="{{ name }} home"><img src="{{ img('logo-icon.webp') }}" width="52" height="49" alt=""><span><b>Golden Acres</b><i>Pizza Market · Goffstown</i></span></a>
+  <nav aria-label="Main"><a href="#size">Size lab</a><a href="#menu">Menu</a><a href="#pouliano">The Pouliano</a><a href="#family">Our story</a><a href="#visit">Visit</a></nav>
+  <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a>
+</header>
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">{{ hero.eyebrow }}</p>
+    <h1><span>Oversized.</span> <em>Greek flair.</em> <span>Since '98.</span></h1>
+    <p class="sub">{{ hero.sub }}</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order pickup or delivery</a><a class="btn btn-ghost" href="#size">See how big 20" is</a></div>
+  </div>
+  <div class="hero-art">
+    <div class="plate"><img src="{{ img('hero.jpg') }}" width="1080" height="810" alt="{{ hero.alt }}" fetchpriority="high"></div>
+    <div class="dim" aria-hidden="true"><span>20 inches</span></div>
+    <div class="coin" aria-hidden="true"><b>{{ years }}</b><span>years on<br>Mast Road</span></div>
+  </div>
+</section>
+<nav class="aisles" aria-label="Menu aisles"><div class="wrap">{% for c in menu %}<a href="#a-{{ slugify(c.cat) }}"><i>{{ loop.index }}</i>{{ c.cat }}</a>{% endfor %}</div></nav>
+
+<section class="size sec" id="size">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>Oversized, <em>by the numbers.</em></h2><p class="lede">Pick any pie on the menu. We draw the 14-inch and the 20-inch side by side at true proportion, then do the math on the shop's own prices.</p></div>
+    <div class="lab">
+      <div class="picker" role="radiogroup" aria-label="Choose a pizza" id="picker"></div>
+      <div class="stage" id="stage">
+        <div class="scale" id="scale">
+          <div class="col c14"><div class="disc-wrap"><div class="disc" id="d14"></div><div class="rec" id="rec" hidden><span>12" record</span></div></div><p class="lab-in"><b>14"</b> <span id="p14"></span></p></div>
+          <div class="col c20"><div class="disc-wrap"><div class="disc" id="d20"></div></div><p class="lab-in"><b>20"</b> <span id="p20"></span></p></div>
+        </div>
+        <p class="cap" id="cap"></p>
+        <label class="rectog"><input type="checkbox" id="rectog"> Compare with a 12-inch vinyl record</label>
+      </div>
+      <div class="facts">
+        <div class="fact"><p class="f-t">14" pie</p><p class="f-n"><b id="a14">0</b> <small>sq in</small></p><p class="f-c"><b id="c14">0</b>¢ <small>per square inch</small></p></div>
+        <div class="fact hot"><p class="f-t">20" pie</p><p class="f-n"><b id="a20">0</b> <small>sq in</small></p><p class="f-c"><b id="c20">0</b>¢ <small>per square inch</small></p></div>
+        <p class="verdict" id="verdict" aria-live="polite"></p>
+      </div>
+    </div>
+    <div class="board"><h3>Best value by the square inch <small>20" pies, cheapest first</small></h3><ol id="rank"></ol></div>
+    <p class="fine">Math uses the shop's online-ordering prices for each size (area = π × radius²). Prices may change; the final price is shown when you order.</p>
+  </div>
+</section>
+
+<section class="pou sec" id="pouliano">
+  <div class="wrap pou-grid">
+    <figure><img src="{{ img('p-c25.webp') }}" width="400" height="500" alt="The Pouliano salad with BBQ chicken tenders" loading="lazy"></figure>
+    <div><p class="kicker">The one people drive for</p><h2>The <em>Pouliano.</em></h2>
+      <p class="lede">{{ pouliano.desc }}</p><p class="price">{{ pouliano.price }}</p>
+      <a class="btn" href="{{ order_any }}" rel="noopener">Order the Pouliano</a></div>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Walk the aisles</p><h2>The <em>market</em> menu.</h2><p class="lede">{{ menu_note }}</p></div>
+    <label class="search"><span class="sr">Search the menu</span><input type="search" id="q" placeholder="Search: gyro, steak tip, baklava…" autocomplete="off"></label>
+    <div class="aisle-list" id="aisle-list">
+      {% for c in menu %}<section class="aisle" id="a-{{ slugify(c.cat) }}" data-cat="{{ slugify(c.cat) }}"><header><span class="sign"><i>Aisle</i><b>{{ loop.index }}</b></span><h3>{{ c.cat }}</h3></header>
+        {% if c.note %}<p class="a-note">{{ c.note }}</p>{% endif %}
+        <ul>{% for it in c['items'] %}<li data-t="{{ esc((it.name ~ ' ' ~ (it.desc or '')) | lower) }}">{% if it.thumb %}<img class="th" src="{{ it.thumb }}" width="64" height="64" alt="" loading="lazy">{% endif %}<div class="nm"><b>{{ it.name }}</b>{% if it.desc %}<small>{{ it.desc }}</small>{% endif %}</div><i class="lead"></i><span class="pr">{% if it.sizes %}{% for sz, pr in it.sizes %}<em>{{ sz }}</em> {{ pr }}{% if not loop.last %}<br>{% endif %}{% endfor %}{% else %}{{ it.price or '' }}{% endif %}</span></li>{% endfor %}</ul></section>{% endfor %}
+    </div>
+    <p class="none" id="none" hidden>Nothing on the menu matches that. Try another word, or call the shop.</p>
+  </div>
+</section>
+
+<section class="wall sec" aria-label="Photos from the counter">
+  <div class="wrap"><div class="sec-head"><p class="kicker">From the counter</p><h2>Straight from <em>our kitchen.</em></h2></div>
+    <div class="mason">{% for g in gallery %}<img src="{{ g }}" alt="" loading="lazy" width="400" height="500">{% endfor %}</div></div>
+</section>
+
+<section class="fam sec" id="family">
+  <div class="wrap fam-grid">
+    <div><p class="kicker">Family-owned</p><h2>{{ about_block.title }}</h2>{% for p in about_block.paras %}<p class="lede">{{ p }}</p>{% endfor %}</div>
+    <div class="years"><b data-count="{{ years }}">{{ years }}</b><span>years on Mast Road</span><img src="{{ img('storefront.jpg') }}" width="800" height="450" alt="The Golden Acres Pizza Market storefront on Mast Road" loading="lazy"></div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap v-grid">
+    <div><p class="kicker">Come hungry</p><h2>Visit the <em>market.</em></h2>
+      <address><b>{{ loc.street }}</b><br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}<br><a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></address>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+      <p class="fine">{{ order_note }}</p><p class="soc"><a href="{{ links.instagram }}" rel="noopener">Instagram</a> · <a href="{{ links.facebook }}" rel="noopener">Facebook</a></p></div>
+    <div class="hours"><p class="open-line"><i class="dot"></i><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for w in week %}<tr><th scope="row">{{ w.day }}</th><td>{{ w.text }}</td></tr>{% endfor %}</tbody></table></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><span>© {{ year }} {{ name }}, Goffstown NH</span><span>Family-owned since 1998 · We proudly sponsor local sports teams</span></div></footer>
+<div class="dock"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call</a><a class="btn btn-ghost" href="#size">Size lab</a></div>
+<script>window.__HOURS__={{ hours_json }};window.__PIES={{ pies_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

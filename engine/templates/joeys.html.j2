@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#0A0A0C">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+<link rel="icon" href="{{ img('logo-icon.webp') }}">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#stix">Skip to the Chick Stix builder</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="{{ name }} home"><img src="{{ img('logo-icon.webp') }}" width="44" height="44" alt=""><span>{{ name }}</span></a>
+  <nav aria-label="Main"><a href="#stix">Chick Stix</a><a href="#menu">Menu</a><a href="#family">Family night</a><a href="#visit">Visit</a></nav>
+  <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order on Slice</a>
+</header>
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">{{ hero.eyebrow }}</p>
+    <h1><span class="neon n-red">Hand tossed.</span> <span class="neon n-red">NY style.</span> <span class="neon n-yellow">Home of the Chick Stix</span></h1>
+    <p class="sub">{{ hero.sub }}</p>
+    <div class="cta"><a class="btn" href="#stix">Build your Chick Stix</a><a class="btn btn-ghost" href="{{ order_any }}" rel="noopener">Order on Slice</a></div>
+  </div>
+  <div class="hero-art">
+    <div class="open-sign" role="status" aria-live="polite"><b class="o-word">OPEN</b><span data-status>Checking hours…</span></div>
+    <figure class="pie-win"><img src="{{ img('hero.jpg') }}" width="1600" height="1200" alt="{{ hero.alt }}" fetchpriority="high"><figcaption>Hand-tossed cheese · 12" {{ menu[0]['items'][0]['sizes'][0][1] }} · 16" {{ menu[0]['items'][0]['sizes'][1][1] }}</figcaption></figure>
+    <div class="stamp" aria-hidden="true"><b>5</b><span>Chick Stix</span><b>${{ '%.2f' % stix[0][1] }}</b></div>
+  </div>
+</section>
+<div class="marq" aria-hidden="true"><div>{% for r in range(2) %}{% for w in marquee %}<span>{{ w }}</span><i>★</i>{% endfor %}{% endfor %}</div></div>
+
+<section class="lab sec" id="stix">
+  <div class="wrap">
+    <div class="sec-head rv"><p class="kicker">Only on this site</p><h2>The Chick Stix <span class="neon n-yellow">Builder</span></h2><p class="lede">Pick your count, plain or buffalo, and your dippers. Watch the tray fill up, then send your ticket straight to Slice or call it in.</p></div>
+    <div class="lab-grid">
+      <form class="steps" id="sb" onsubmit="return false">
+        <fieldset><legend><b>1</b> How many?</legend><div class="pills" id="f-count">
+          {% for n, p in stix %}<label><input type="radio" name="count" value="{{ n }}" data-price="{{ p }}" {% if n == 10 %}checked{% endif %}><span><strong>{{ n }} pc</strong><em>${{ '%.2f' % p }}</em></span></label>{% endfor %}
+        </div></fieldset>
+        <fieldset><legend><b>2</b> Plain or buffalo?</legend><div class="pills two" id="f-flavor">
+          <label><input type="radio" name="flavor" value="Plain" checked><span>Plain<em>golden crisp</em></span></label>
+          <label><input type="radio" name="flavor" value="Buffalo"><span>Buffalo<em>tossed hot</em></span></label>
+        </div></fieldset>
+        <fieldset><legend><b>3</b> Pick your dippers</legend><div class="chips" id="f-sauce">
+          {% for s in sauces %}<label><input type="checkbox" name="sauce" value="{{ s.name }}" data-c="{{ s.c }}"><span><i style="background:{{ s.c }}"></i>{{ s.name }}</span></label>{% endfor %}
+        </div></fieldset>
+        <fieldset><legend><b>4</b> Add Jo Jo potatoes?</legend><div class="pills" id="f-jojo">
+          <label><input type="radio" name="jojo" value="0" data-price="0" checked><span>No thanks</span></label>
+          {% for n, p in jojos %}<label><input type="radio" name="jojo" value="{{ n }}" data-price="{{ p }}"><span><strong>{{ n }}</strong><em>wedges · +${{ '%.2f' % p }}</em></span></label>{% endfor %}
+        </div></fieldset>
+      </form>
+      <div class="board">
+        <div class="tray-wrap"><svg id="tray" viewBox="0 0 560 350" role="img" aria-label="Preview of your Chick Stix tray"></svg></div>
+        <div class="ticket" aria-live="polite">
+          <p class="t-head">Your ticket <span>{{ short }} · Merrimack</span></p>
+          <ul id="t-lines"></ul>
+          <p class="t-total"><span>Total</span><b id="t-total">$0.00</b></p>
+          <p class="t-note">Printed-menu prices, tax not included. Slice may show different prices.</p>
+          <div class="t-btns"><a class="btn" id="t-order" href="{{ order_any }}" rel="noopener">Order on Slice</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call it in</a><button class="btn btn-ghost" type="button" id="t-copy">Copy ticket</button></div>
+        </div>
+      </div>
+    </div>
+    {% if crowd %}<p class="crowd rv"><b>Feeding a crowd?</b> Two 20-piece orders come to ${{ '%.2f' % crowd.two20 }}. The Tender Pack is ${{ '%.2f' % crowd.pack }} and brings 40 Chick Stix plus onion rings, fries, coleslaw and dipping sauces. <a href="#family">See the family dinners →</a></p>{% endif %}
+  </div>
+</section>
+
+<section class="pie sec" id="pies">
+  <div class="wrap pie-grid">
+    <figure class="rv"><img src="{{ img('hero.jpg') }}" width="1600" height="1200" alt="{{ hero.alt }}" loading="lazy"></figure>
+    <div class="rv"><p class="kicker">The pie</p><h2>New York style, <span class="neon n-red">hand tossed.</span></h2>
+      <p class="lede">The cheese pie everything else is built on, in a 12-inch small or a 16-inch large. Then the house specials.</p>
+      <ul class="specials">{% for p in menu[0]['items'] if p.sizes and p.name not in ('Cheese',) %}{% if loop.index <= 7 %}<li><span>{{ p.name }}</span><i></i><em>{% for sz, pr in p.sizes %}{{ pr }}{% if not loop.last %} · {% endif %}{% endfor %}</em></li>{% endif %}{% endfor %}</ul>
+      <p class="fine">{{ menu[0].note }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head rv"><p class="kicker">The full menu</p><h2>Pick a ticket.</h2><p class="lede">{{ menu_note }}</p></div>
+    <div class="m-tools"><label class="search"><span class="sr">Search the menu</span><input type="search" id="q" placeholder="Search: steak, ziti, cheesecake…" autocomplete="off"></label>
+      <div class="tabs" role="tablist" aria-label="Menu sections"><button type="button" class="on" data-cat="all">All</button>{% for c in menu %}<button type="button" data-cat="{{ slugify(c.cat) }}">{{ c.cat }}</button>{% endfor %}</div></div>
+    <div class="wall" id="wall">
+      {% for c in menu %}<article class="tk" data-cat="{{ slugify(c.cat) }}"><h3>{{ c.cat }}</h3>{% if c.note %}<p class="tk-note">{{ c.note }}</p>{% endif %}
+        <ul>{% for it in c['items'] %}<li data-t="{{ esc((it.name ~ ' ' ~ (it.desc or '')) | lower) }}"><div><b>{{ it.name }}</b>{% if it.desc %}<small>{{ it.desc }}</small>{% endif %}{% if it.flag %}<small class="flag">Online only on Slice</small>{% endif %}</div>
+          <span class="pr">{% if it.sizes %}{% for sz, pr in it.sizes %}<i>{{ sz }}</i> {{ pr }}{% if not loop.last %}<br>{% endif %}{% endfor %}{% else %}{{ it.price or '' }}{% endif %}</span></li>{% endfor %}</ul></article>{% endfor %}
+    </div>
+    <p class="none" id="none" hidden>Nothing on the menu matches that. Try another word, or call the shop.</p>
+  </div>
+</section>
+
+<section class="family sec" id="family">
+  <div class="wrap">
+    <div class="sec-head rv"><p class="kicker">Family night</p><h2>Feeds four. <span class="neon n-yellow">One price.</span></h2></div>
+    <div class="packs">{% for c in menu if c.cat == 'Family Dinners' %}{% for it in c['items'] %}<article class="pack rv"><b class="pp">{{ it.price }}</b><h3>{{ it.name }}</h3><p>{{ it.desc }}</p></article>{% endfor %}{% endfor %}</div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap v-grid">
+    <div class="rv"><p class="kicker">Come hungry</p><h2>Find Uncle Joey.</h2>
+      <address><b>{{ loc.street }}</b><br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}<br><a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></address>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order on Slice</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+      <p class="fine">{{ order_note }} <a href="{{ links.nashua }}" rel="noopener">Uncle Joey's Nashua →</a></p>
+      <p class="soc"><a href="{{ links.instagram }}" rel="noopener">Instagram</a> · <a href="{{ links.facebook }}" rel="noopener">Facebook</a></p></div>
+    <div class="hours rv"><p class="open-line"><b class="o-word">OPEN</b> <span data-status>Checking hours…</span></p>
+      <table><tbody>{% for w in week %}<tr><th scope="row">{{ w.day }}</th><td>{{ w.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">{{ loc.hours_note }}</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><span>© {{ year }} {{ name }}, Merrimack NH</span><span>Family-run. Hand tossed. Famous Chick Stix.</span></div></footer>
+<div class="dock"><a class="btn" href="{{ order_any }}" rel="noopener">Order</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call</a><a class="btn btn-ghost" href="#stix">Stix</a></div>
+<script>window.__HOURS__={{ hours_json }};window.__STIX={{ stix_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

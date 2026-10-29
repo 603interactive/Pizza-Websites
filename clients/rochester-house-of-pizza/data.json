@@ -1,0 +1,1031 @@
+{
+ "slug": "rochester-house-of-pizza",
+ "name": "Rochester House of Pizza",
+ "short": "Rochester House",
+ "domain": "https://www.rochesterhouseofpizza.net",
+ "tagline": "A small family pizza shop in East Rochester, serving quality food for over 35 years.",
+ "about": {
+  "years": 35,
+  "years_label": "years in food service",
+  "title": "A small family shop",
+  "paras": [
+   "We are a small family business that has been in food service for over 35 years. The love of food and our years in pizza restaurants taught us how to serve food quickly and, most importantly, make it good.",
+   "Come dine in our renovated space, pick up your lunch or dinner, or have it delivered."
+  ]
+ },
+ "seo_title": "Rochester House of Pizza | Pizza, Subs & Combo Deals in East Rochester, NH",
+ "seo_desc": "Family pizza shop at 105 Highland St (Shoreyville Plaza, Rt 202), East Rochester, NH. Pizza, calzones, grilled subs and combo deals. Dine in, pick up, delivery or order online.",
+ "theme": {
+  "accent": "#D9481F",
+  "accent_deep": "#9E2B12",
+  "cream": "#FBF1DF",
+  "gold": "#F2A93B",
+  "ink": "#17120E",
+  "basil": "#5E9B4E",
+  "check": false
+ },
+ "img_base": "https://static.wixstatic.com/media/",
+ "logo": {
+  "src": "https://rochesterhouse.foodtecsolutions.com/webfile?default=logo.gif&name=webLogo&hash=1759154538000",
+  "w": 720,
+  "h": 581,
+  "alt": "Rochester House of Pizza"
+ },
+ "hero": {
+  "img": "https://rochesterhouse.foodtecsolutions.com/webfile?name=Homepage&hash=1755518204000",
+  "img_mobile": "https://rochesterhouse.foodtecsolutions.com/webfile?name=Homepage&hash=1755518204000",
+  "alt": "Pizza on a wooden serving board",
+  "eyebrow": "East Rochester, NH · Shoreyville Plaza, Rt 202",
+  "headline": [
+   "Hot.",
+   "Fresh.",
+   "Family made."
+  ],
+  "sub": "Pizza, calzones, grilled subs and dinners from a small family shop with over 35 years in food service."
+ },
+ "marquee": [
+  "Pizza",
+  "Calzones",
+  "Grilled Subs",
+  "Cheesesteaks",
+  "Wings & Fingers",
+  "Salads",
+  "Pasta Dinners",
+  "Dine In · Pick Up · Delivery"
+ ],
+ "deals": [
+  {
+   "title": "Combo #1",
+   "what": "2 Large Cheese Pizzas",
+   "price": "$22",
+   "note": "Meals tax included"
+  },
+  {
+   "title": "Combo #2",
+   "what": "2 Large One-Topping Pizzas",
+   "price": "$26",
+   "note": "Meals tax included"
+  },
+  {
+   "title": "Combo #3",
+   "what": "1 Large One-Topping Pizza + French Fries or Onion Rings",
+   "price": "$18",
+   "note": "Meals tax included"
+  }
+ ],
+ "deals_note": "Combos are on the online ordering menu under Specials, so there's nothing to mention when you call. Not to be combined with other offers. Prices subject to change.",
+ "signatures": [
+  {
+   "name": "Pepperoni Pizza",
+   "img": "1c89c3_4379870f7551b18e806a355c00018487.jpg",
+   "desc": "Build it from our cheese pizza with any of 25 toppings, from pepperoni and sausage to feta, spinach and anchovies.",
+   "price": "Small $10.50 · Large $14.99"
+  },
+  {
+   "name": "Loaded",
+   "img": "1c89c3_eda6b539e0a44370d4fa9b1506ae1735.jpg",
+   "desc": "Black olives, mushroom, hamburger, ham, sausage, salami, peppers, onion and pepperoni.",
+   "price": "Small $16.94 · Large $24.25"
+  },
+  {
+   "name": "Steak & Cheese",
+   "img": "1c89c3_d0970a76f50a776c7648d4d92e57554f.jpg",
+   "desc": "Grilled to order with American cheese, plain or loaded with peppers, onions and mushrooms.",
+   "price": "from $12.50"
+  },
+  {
+   "name": "Calzones",
+   "img": "1c89c3_4c73011dcbbec59edf33cad88a55fa2f.jpg",
+   "desc": "Every specialty pizza, folded and baked. Sauce on the side.",
+   "price": "from $10.50"
+  },
+  {
+   "name": "Garden & Greek Salads",
+   "img": "1c89c3_f5468160f54e60183485583e43aa1d1e.jpg",
+   "desc": "Fresh salads with half a pita: garden, Greek, chicken kabob, antipasto and more.",
+   "price": "from $10.99"
+  },
+  {
+   "name": "Cold Subs",
+   "img": "1c89c3_5c80274b4cb73faf99fc92e1e3b509b9.jpg",
+   "desc": "Italian, ham, turkey, salami, BLT, tuna and more, piled on a sub roll or a wrap.",
+   "price": "from $12.00"
+  }
+ ],
+ "locations": [
+  {
+   "id": "east-rochester",
+   "name": "East Rochester",
+   "street": "105 Highland St",
+   "street2": "Shoreyville Plaza on Rt 202",
+   "city": "East Rochester",
+   "region": "NH",
+   "postal": "03868",
+   "phone": "(603) 335-6145",
+   "tel": "+16033356145",
+   "hours": [
+    {
+     "days": "Tuesday – Saturday",
+     "dow": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    }
+   ],
+   "hours_note": "Sunday & Monday: please call.",
+   "order": "https://rochesterhouse.foodtecsolutions.com/ordering",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Rochester+House+of+Pizza+105+Highland+St+Rochester+NH+03868",
+   "geo": [
+    43.32552,
+    -70.956
+   ]
+  }
+ ],
+ "order_note": "Dine in, pick up, or delivery. Delivery runs evenings from 4:30 PM (online delivery slots start later on weekdays).",
+ "order_any": "https://rochesterhouse.foodtecsolutions.com/ordering",
+ "links": {},
+ "promo_cards": [],
+ "careers": {
+  "enabled": false
+ },
+ "toppings": "Ricotta, Feta, Garlic, Onions, Peppers, Mushrooms, Tomatoes, Black Olives, Spinach, Broccoli, Eggplant, Pineapple, Banana Peppers, Jalapeño, Veal, Steak, Ham, Salami, Sausage, Hamburger, Bacon, Pepperoni, Grilled Chicken, Chicken Fingers, Anchovies",
+ "menu_note": "Prices from the shop's online ordering menu, before meals tax. Final prices are shown when you order.",
+ "menu": [
+  {
+   "cat": "Pizza",
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "desc": "Cheese and pizza sauce. Add any of our toppings.",
+     "sizes": [
+      [
+       "Small",
+       "$10.50"
+      ],
+      [
+       "Large",
+       "$14.99"
+      ],
+      [
+       "Gluten-free",
+       "$12.99"
+      ]
+     ],
+     "img": "1c89c3_943f3c1ec2d065670002d4d518aabb51.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Specialty Pizza",
+   "items": [
+    {
+     "name": "BBQ Chicken",
+     "desc": "BBQ sauce, cheese and BBQ chicken.",
+     "sizes": [
+      [
+       "Small",
+       "$15.94"
+      ],
+      [
+       "Large",
+       "$21.99"
+      ],
+      [
+       "Gluten-free",
+       "$17.94"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Buffalo sauce, cheese and buffalo chicken.",
+     "sizes": [
+      [
+       "Small",
+       "$15.94"
+      ],
+      [
+       "Large",
+       "$21.99"
+      ],
+      [
+       "Gluten-free",
+       "$17.94"
+      ]
+     ]
+    },
+    {
+     "name": "Vegetarian",
+     "desc": "Cheese, pizza sauce, tomato, black olives, mushroom, peppers and onion.",
+     "sizes": [
+      [
+       "Small",
+       "$15.94"
+      ],
+      [
+       "Large",
+       "$22.49"
+      ],
+      [
+       "Gluten-free",
+       "$17.94"
+      ]
+     ]
+    },
+    {
+     "name": "House Special",
+     "desc": "Cheese, pizza sauce, tomato, black olives, bacon, peppers and pepperoni.",
+     "sizes": [
+      [
+       "Small",
+       "$16.19"
+      ],
+      [
+       "Large",
+       "$23.49"
+      ],
+      [
+       "Gluten-free",
+       "$18.19"
+      ]
+     ]
+    },
+    {
+     "name": "Meat Lovers",
+     "desc": "Cheese, pizza sauce, hamburger, bacon, ham, sausage, salami and pepperoni.",
+     "sizes": [
+      [
+       "Small",
+       "$16.94"
+      ],
+      [
+       "Large",
+       "$24.25"
+      ],
+      [
+       "Gluten-free",
+       "$18.94"
+      ]
+     ]
+    },
+    {
+     "name": "Sausage Italian",
+     "desc": "Pizza sauce, cheese, sausage, onion and peppers.",
+     "sizes": [
+      [
+       "Small",
+       "$15.94"
+      ],
+      [
+       "Large",
+       "$21.99"
+      ],
+      [
+       "Gluten-free",
+       "$17.94"
+      ]
+     ]
+    },
+    {
+     "name": "Hawaiian",
+     "desc": "Cheese, pizza sauce, pineapple and ham.",
+     "sizes": [
+      [
+       "Small",
+       "$13.99"
+      ],
+      [
+       "Large",
+       "$18.99"
+      ],
+      [
+       "Gluten-free",
+       "$15.99"
+      ]
+     ]
+    },
+    {
+     "name": "Mediterranean",
+     "desc": "Pizza sauce, cheese, grilled chicken, spinach, tomato and feta.",
+     "sizes": [
+      [
+       "Small",
+       "$16.19"
+      ],
+      [
+       "Large",
+       "$23.49"
+      ],
+      [
+       "Gluten-free",
+       "$18.19"
+      ]
+     ]
+    },
+    {
+     "name": "Loaded",
+     "desc": "Cheese, pizza sauce, black olives, mushroom, hamburger, ham, sausage, salami, peppers, onion and pepperoni.",
+     "sizes": [
+      [
+       "Small",
+       "$16.94"
+      ],
+      [
+       "Large",
+       "$24.25"
+      ],
+      [
+       "Gluten-free",
+       "$18.94"
+      ]
+     ],
+     "img": "1c89c3_eda6b539e0a44370d4fa9b1506ae1735.jpg"
+    },
+    {
+     "name": "Greek",
+     "desc": "Cheese, pizza sauce, feta, tomato, Greek olives and spinach.",
+     "sizes": [
+      [
+       "Small",
+       "$16.19"
+      ],
+      [
+       "Large",
+       "$23.49"
+      ],
+      [
+       "Gluten-free",
+       "$18.19"
+      ]
+     ]
+    },
+    {
+     "name": "Mexican",
+     "desc": "Pizza sauce, cheese, hamburger, onion, peppers, black olives, tomato and jalapeño.",
+     "sizes": [
+      [
+       "Small",
+       "$16.19"
+      ],
+      [
+       "Large",
+       "$23.49"
+      ],
+      [
+       "Gluten-free",
+       "$18.19"
+      ]
+     ]
+    },
+    {
+     "name": "Steak American",
+     "desc": "Cheese, pizza sauce, mushroom, peppers, onion and steak.",
+     "sizes": [
+      [
+       "Small",
+       "$16.19"
+      ],
+      [
+       "Large",
+       "$23.49"
+      ],
+      [
+       "Gluten-free",
+       "$18.19"
+      ]
+     ]
+    },
+    {
+     "name": "Rodeo",
+     "desc": "Cheese, BBQ sauce, BBQ chicken, jalapeño, onion and bacon.",
+     "sizes": [
+      [
+       "Small",
+       "$16.94"
+      ],
+      [
+       "Large",
+       "$24.25"
+      ],
+      [
+       "Gluten-free",
+       "$18.94"
+      ]
+     ]
+    },
+    {
+     "name": "Ranchero",
+     "desc": "Cheese, pizza sauce, ranch, grilled chicken, onion, tomato, garlic and bacon.",
+     "sizes": [
+      [
+       "Small",
+       "$16.94"
+      ],
+      [
+       "Large",
+       "$24.25"
+      ],
+      [
+       "Gluten-free",
+       "$18.94"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Parm",
+     "desc": "Cheese, pizza sauce, chicken fingers and ricotta.",
+     "sizes": [
+      [
+       "Small",
+       "$15.94"
+      ],
+      [
+       "Large",
+       "$22.49"
+      ],
+      [
+       "Gluten-free",
+       "$17.94"
+      ]
+     ]
+    },
+    {
+     "name": "Pesto Special",
+     "desc": "Cheese, pesto, feta, tomato and garlic.",
+     "sizes": [
+      [
+       "Small",
+       "$16.19"
+      ],
+      [
+       "Large",
+       "$23.49"
+      ],
+      [
+       "Gluten-free",
+       "$18.19"
+      ]
+     ]
+    },
+    {
+     "name": "Pesto Mediterranean",
+     "desc": "Cheese, pesto, feta, tomato, spinach and grilled chicken.",
+     "sizes": [
+      [
+       "Small",
+       "$16.94"
+      ],
+      [
+       "Large",
+       "$24.25"
+      ],
+      [
+       "Gluten-free",
+       "$18.94"
+      ]
+     ]
+    },
+    {
+     "name": "Carbonara",
+     "desc": "Alfredo sauce, cheese, grilled chicken, bacon and ham.",
+     "sizes": [
+      [
+       "Small",
+       "$16.19"
+      ],
+      [
+       "Large",
+       "$23.49"
+      ],
+      [
+       "Gluten-free",
+       "$18.19"
+      ]
+     ]
+    },
+    {
+     "name": "Primavera",
+     "desc": "Alfredo sauce, cheese, grilled chicken and broccoli.",
+     "sizes": [
+      [
+       "Small",
+       "$16.19"
+      ],
+      [
+       "Large",
+       "$23.49"
+      ],
+      [
+       "Gluten-free",
+       "$18.19"
+      ]
+     ]
+    },
+    {
+     "name": "Steak Bomb",
+     "desc": "Pizza sauce, cheese, cooked salami, mortadella, steak, onion, peppers and mushroom.",
+     "sizes": [
+      [
+       "Small",
+       "$16.94"
+      ],
+      [
+       "Large",
+       "$24.25"
+      ],
+      [
+       "Gluten-free",
+       "$18.94"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "White Pizza",
+   "items": [
+    {
+     "name": "White",
+     "desc": "Cheese, garlic butter and garlic, marinara on the side.",
+     "sizes": [
+      [
+       "Small",
+       "$14.69"
+      ],
+      [
+       "Large",
+       "$19.00"
+      ],
+      [
+       "Gluten-free",
+       "$16.69"
+      ]
+     ]
+    },
+    {
+     "name": "White Delight",
+     "desc": "Cheese, garlic butter, chicken finger, tomato, broccoli and garlic, marinara on the side.",
+     "sizes": [
+      [
+       "Small",
+       "$15.94"
+      ],
+      [
+       "Large",
+       "$22.49"
+      ],
+      [
+       "Gluten-free",
+       "$17.94"
+      ]
+     ]
+    },
+    {
+     "name": "White Mediterranean",
+     "desc": "Cheese, garlic butter, garlic, feta, tomato, spinach and grilled chicken, marinara on the side.",
+     "sizes": [
+      [
+       "Small",
+       "$16.94"
+      ],
+      [
+       "Large",
+       "$24.25"
+      ],
+      [
+       "Gluten-free",
+       "$18.94"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "note": "Every specialty pizza is also available as a calzone, with sauce on the side.",
+   "items": [
+    {
+     "name": "Cheese Calzone",
+     "desc": "Mozzarella, sauce on the side.",
+     "price": "$10.50",
+     "img": "1c89c3_4c73011dcbbec59edf33cad88a55fa2f.jpg"
+    },
+    {
+     "name": "Hawaiian Calzone",
+     "price": "$13.99"
+    },
+    {
+     "name": "White Calzone",
+     "desc": "Mozzarella and garlic butter.",
+     "price": "$14.69"
+    },
+    {
+     "name": "Buffalo, BBQ, Veggie Delight, Sausage Italian, Chicken Parm or White Delight",
+     "price": "$15.94"
+    },
+    {
+     "name": "Greek, Carbonara, Primavera, Steak American, Mexican, Mediterranean, House Special or Pesto Special",
+     "price": "$16.19"
+    },
+    {
+     "name": "Meat Lovers, Steak Bomb, Ranchero, Rodeo, Loaded, Pesto Mediterranean or White Mediterranean",
+     "price": "$16.94"
+    }
+   ]
+  },
+  {
+   "cat": "Grilled Subs",
+   "items": [
+    {
+     "name": "Cheese Steak",
+     "desc": "American cheese on a sub roll.",
+     "price": "$12.50",
+     "img": "1c89c3_d0970a76f50a776c7648d4d92e57554f.jpg"
+    },
+    {
+     "name": "Pepper, Onion or Mushroom Cheesesteak",
+     "price": "$12.75"
+    },
+    {
+     "name": "Any Two: Pepper, Onion & Mushroom Cheesesteak",
+     "price": "$13.00"
+    },
+    {
+     "name": "Loaded Cheesesteak",
+     "desc": "American, mushrooms, onions and green peppers.",
+     "price": "$13.50"
+    },
+    {
+     "name": "Cheesesteak Bomb",
+     "desc": "American, onions, mushrooms, green peppers, mortadella and cooked salami.",
+     "price": "$13.99"
+    },
+    {
+     "name": "Chicken Stir Fry",
+     "desc": "Grilled chicken, mushrooms, onions and green peppers.",
+     "price": "$13.99"
+    },
+    {
+     "name": "Pastrami & Cheese",
+     "desc": "Provolone on a sub roll.",
+     "price": "$13.99"
+    },
+    {
+     "name": "Cheeseburger Sub",
+     "price": "$12.99"
+    },
+    {
+     "name": "Bacon Cheeseburger Sub",
+     "price": "$13.99"
+    },
+    {
+     "name": "Grilled Chicken Sub",
+     "price": "$12.50"
+    },
+    {
+     "name": "Gyro",
+     "desc": "Lettuce, tomato, onions and tzatziki on pita.",
+     "price": "$11.00"
+    },
+    {
+     "name": "Gyro Grilled Chicken",
+     "desc": "Lettuce, tomato, onions and tzatziki on pita.",
+     "price": "$11.00"
+    }
+   ]
+  },
+  {
+   "cat": "Subs",
+   "items": [
+    {
+     "name": "Italian",
+     "desc": "Provolone, cooked salami, Genoa salami, mortadella and hot ham.",
+     "price": "$13.25"
+    },
+    {
+     "name": "Ham, Turkey, Cooked Salami or Genoa Salami & Cheese",
+     "desc": "With provolone.",
+     "price": "$12.00",
+     "img": "1c89c3_5c80274b4cb73faf99fc92e1e3b509b9.jpg"
+    },
+    {
+     "name": "American",
+     "desc": "American cheese, cooked salami and ham.",
+     "price": "$12.00"
+    },
+    {
+     "name": "B L T",
+     "desc": "Lettuce, tomato and bacon.",
+     "price": "$12.00"
+    },
+    {
+     "name": "Veggie & Cheese",
+     "desc": "Provolone, lettuce, tomato, onions, pickles, green peppers, black olives and mushrooms.",
+     "price": "$12.00"
+    },
+    {
+     "name": "Chicken Fingers & Cheese",
+     "price": "$12.50"
+    },
+    {
+     "name": "Buffalo Finger",
+     "price": "$12.50"
+    },
+    {
+     "name": "Tuna",
+     "price": "$12.50"
+    },
+    {
+     "name": "Chicken Salad",
+     "price": "$12.50"
+    }
+   ]
+  },
+  {
+   "cat": "Hot Subs",
+   "items": [
+    {
+     "name": "Meatball, Sausage, Veal, Eggplant or Chicken Cutlet Parm",
+     "desc": "Toasted with provolone and marinara on a sub roll.",
+     "price": "$12.50",
+     "img": "1c89c3_9a111a59f2cdae3fb09ca04762e261d3.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Wraps",
+   "items": [
+    {
+     "name": "Italian Wrap",
+     "price": "$13.25"
+    },
+    {
+     "name": "Ham, Turkey, Salami, American, B L T or Veggie & Cheese Wrap",
+     "price": "$12.00"
+    },
+    {
+     "name": "Chicken Fingers, Grilled Chicken, Tuna or Chicken Salad Wrap",
+     "price": "$12.50"
+    },
+    {
+     "name": "Caesar Wraps",
+     "desc": "Chicken finger, buffalo finger, grilled chicken or buffalo grilled chicken with romaine, cheese, croutons and Caesar.",
+     "price": "$13.99"
+    }
+   ]
+  },
+  {
+   "cat": "Clubs",
+   "items": [
+    {
+     "name": "B L T, Ham or Turkey Club",
+     "desc": "Toasted with bacon, lettuce, tomato and mayo, served with French fries.",
+     "price": "$15.00"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "note": "Every salad comes with half a pita.",
+   "items": [
+    {
+     "name": "Garden",
+     "desc": "Lettuce, tomato, cucumbers and peppers.",
+     "price": "$10.99",
+     "img": "1c89c3_f5468160f54e60183485583e43aa1d1e.jpg"
+    },
+    {
+     "name": "Caesar",
+     "desc": "Romaine, cheese and croutons.",
+     "price": "$10.99"
+    },
+    {
+     "name": "Greek",
+     "desc": "Feta, lettuce, tomato, cucumbers, peppers, Greek olives and pepperoncini.",
+     "price": "$11.99"
+    },
+    {
+     "name": "Chicken Kabob",
+     "desc": "Grilled chicken and feta over garden salad.",
+     "price": "$12.99"
+    },
+    {
+     "name": "Antipasto",
+     "desc": "Ham, Genoa, pepperoni and provolone over garden salad.",
+     "price": "$12.99"
+    },
+    {
+     "name": "House",
+     "desc": "Turkey, ham and provolone over garden salad.",
+     "price": "$12.99"
+    },
+    {
+     "name": "Grilled Chicken, Chicken Finger or Buffalo Finger",
+     "price": "$12.99"
+    },
+    {
+     "name": "Tunafish or Chicken Salad",
+     "price": "$12.99"
+    },
+    {
+     "name": "Chicken Caesars",
+     "desc": "Chicken finger, buffalo finger, grilled chicken or buffalo grilled chicken.",
+     "price": "$12.99"
+    }
+   ]
+  },
+  {
+   "cat": "Pasta",
+   "note": "Served with marinara and garlic bread.",
+   "items": [
+    {
+     "name": "Spaghetti",
+     "price": "$9.99"
+    },
+    {
+     "name": "Ziti",
+     "price": "$9.99"
+    },
+    {
+     "name": "Ravioli",
+     "price": "$13.00",
+     "img": "1c89c3_b9db74ba174e7e9bf68f2f44eb623eb6.jpg"
+    },
+    {
+     "name": "Lasagna",
+     "price": "$14.50"
+    }
+   ]
+  },
+  {
+   "cat": "Dinners & Burgers",
+   "items": [
+    {
+     "name": "Chicken Wings, Chicken Fingers, Buffalo Wings or Buffalo Fingers Dinner",
+     "desc": "With French fries.",
+     "price": "$15.25"
+    },
+    {
+     "name": "Burger Dinner",
+     "desc": "With French fries.",
+     "price": "$12.25"
+    },
+    {
+     "name": "Cheeseburger Dinner",
+     "desc": "With French fries.",
+     "price": "$12.75"
+    },
+    {
+     "name": "Bacon Cheese Dinner",
+     "desc": "With French fries.",
+     "price": "$13.75"
+    },
+    {
+     "name": "Double Cheese Dinner",
+     "desc": "With French fries.",
+     "price": "$16.25"
+    },
+    {
+     "name": "Hamburger or Cheeseburger",
+     "price": "$10.00"
+    }
+   ]
+  },
+  {
+   "cat": "Kids Menu",
+   "items": [
+    {
+     "name": "Hamburger, Cheeseburger or Chicken Fingers",
+     "desc": "With French fries.",
+     "price": "$11.99"
+    }
+   ]
+  },
+  {
+   "cat": "Sides & Appetizers",
+   "items": [
+    {
+     "name": "French Fries",
+     "price": "$6.00",
+     "img": "1c89c3_76fba49596e94c49102684be5f877414.jpg"
+    },
+    {
+     "name": "Onion Rings",
+     "price": "$6.00",
+     "img": "1c89c3_0d2da57b1c6cf91d3c269616dd0c0c29.jpg"
+    },
+    {
+     "name": "Seasoned Fries",
+     "price": "$6.50"
+    },
+    {
+     "name": "Cheesy Fries",
+     "price": "$8.99"
+    },
+    {
+     "name": "Cheesy Jalapeño Fries",
+     "price": "$11.00"
+    },
+    {
+     "name": "Bacon Cheesy Fries",
+     "price": "$11.99"
+    },
+    {
+     "name": "Chicken Fingers, Buffalo Fingers, Chicken Wings or Buffalo Wings",
+     "price": "$12.75"
+    },
+    {
+     "name": "Mac & Cheese Bites",
+     "price": "$12.75"
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "desc": "With marinara.",
+     "price": "$11.00"
+    },
+    {
+     "name": "Jalapeño Poppers",
+     "desc": "With marinara.",
+     "price": "$11.00"
+    },
+    {
+     "name": "Fried Mushrooms",
+     "price": "$11.00"
+    },
+    {
+     "name": "Garlic Bread",
+     "price": "$4.00"
+    },
+    {
+     "name": "Garlic Bread with Cheese",
+     "desc": "With marinara.",
+     "price": "$5.00"
+    },
+    {
+     "name": "Small Salad",
+     "price": "$5.00"
+    },
+    {
+     "name": "Pita Bread",
+     "price": "$3.50"
+    }
+   ]
+  },
+  {
+   "cat": "Chips & Drinks",
+   "items": [
+    {
+     "name": "Chips",
+     "desc": "Plain or Doritos.",
+     "price": "$2.00"
+    },
+    {
+     "name": "20 oz Soda, Iced Tea or Lemonade",
+     "price": "$2.99"
+    },
+    {
+     "name": "2 Liter Soda",
+     "price": "$4.00"
+    },
+    {
+     "name": "12 oz Can",
+     "price": "$1.75"
+    },
+    {
+     "name": "Smart Water or Vitamin Water",
+     "price": "$3.25"
+    },
+    {
+     "name": "Powerade",
+     "price": "$3.00"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "As of Oct 27, 2026 the website shows a Wix \"This domain isn't connected to a site\" page at both rochesterhouseofpizza.net addresses: customers searching for the shop currently land on an error.",
+  "The archived site's Online Ordering button uses an insecure http:// link; the https:// ordering site works and is used here.",
+  "The three combo deals are already on the online ordering menu (Specials), but the old site told customers they had to mention the deal by phone.",
+  "The old site footer read \"© 2013\", its menu showed 10\"/16\" prices that differ from today's ordering menu, and its photos were small (most under 500px wide).",
+  "On a phone, the old site hid the menu, the Online Ordering button and the combo deals."
+ ],
+ "questions": [
+  "Is the shop open on Sundays and Mondays? Online ordering shows no times on those days.",
+  "Are the old website's 10\" and 16\" sizes the same as Small and Large in online ordering?",
+  "What are the delivery hours and area? Online ordering shows delivery from 4:30 PM on weekdays and all day Saturday.",
+  "About page says \"over 35 years\"; the ordering site says \"over 30 years\". Which should we use?",
+  "Can we have larger original photos of the food and the dining room? Most existing photos are under 500 px wide.",
+  "Do you want the domain reconnected to the new site (we'd need access to the domain account)?"
+ ],
+ "style": "roadside",
+ "fav_title": "Fresh from the oven",
+ "menu_eyebrow": "Pizza · calzones · subs · dinners",
+ "loc_eyebrow": "Shoreyville Plaza · Rt 202",
+ "loc_title": "Come on in",
+ "brand_text": true
+}

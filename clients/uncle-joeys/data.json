@@ -1,0 +1,751 @@
+{
+ "slug": "uncle-joeys",
+ "name": "Uncle Joey's",
+ "short": "Uncle Joey's",
+ "style": "blackout",
+ "domain": "https://www.unclejoeysnh.com",
+ "tagline": "A family-run restaurant in Merrimack serving New York style pizza and our famous Chick Stix.",
+ "about": "A family-run restaurant serving up New York style pizza, as well as our famous Chick Stix.",
+ "seo_title": "Uncle Joey's of Merrimack | NY-Style Pizza, Chick Stix & Family Dinners",
+ "seo_desc": "Family-run pizza shop at 733 Daniel Webster Hwy, Merrimack, NH. Hand-tossed New York style pizza, famous Chick Stix, calzones, subs and family dinners. Order online for delivery or pickup.",
+ "img_base": "https://static.wixstatic.com/media/",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/451d47_5f85f138df144bc7af952bf0b391a845~mv2.jpeg",
+  "w": 600,
+  "h": 600,
+  "alt": "Uncle Joey's"
+ },
+ "hero": {
+  "img": "https://static.wixstatic.com/media/451d47_095bc89f91a1492ab2ffdec44aec904f~mv2.png",
+  "alt": "A hand-tossed cheese pizza in the box",
+  "eyebrow": "733 Daniel Webster Hwy · Merrimack, NH",
+  "headline": [
+   "Hand tossed.",
+   "NY style.",
+   "Home of the Chick Stix"
+  ],
+  "sub": "Family-run pizza, our famous Chick Stix, calzones, subs and family dinners that feed four.",
+  "tag": "Chick Stix",
+  "tag_sub": "Plain or buffalo · 5 for $10.99",
+  "w": 1600,
+  "h": 1200
+ },
+ "marquee": [
+  "NY-style pizza",
+  "Famous Chick Stix",
+  "Calzones",
+  "Steak bombs",
+  "Jo Jo potatoes",
+  "Family dinners",
+  "Delivery & pickup",
+  "Merrimack"
+ ],
+ "signatures": [
+  {
+   "name": "Chick Stix",
+   "img": null,
+   "desc": "Our famous chicken tenders, plain or buffalo. 5, 10, 15 or 20 pieces, with sweet n' sour, BBQ, honey mustard, buffalo, garlic parm, ranch, blue cheese, teriyaki or tartar.",
+   "price": "from $10.99"
+  },
+  {
+   "name": "Hand-Tossed Cheese",
+   "img": "451d47_095bc89f91a1492ab2ffdec44aec904f~mv2.png",
+   "desc": "The New York style pie everything else is built on. Small 12-inch or large 16-inch.",
+   "price": "$11.99 · $15.99"
+  },
+  {
+   "name": "The Bee Sting",
+   "img": null,
+   "desc": "Spicy sausage, soppressata, chili-flake oil, basil and a honey drizzle.",
+   "price": "$20.99"
+  },
+  {
+   "name": "The Supremo",
+   "img": null,
+   "desc": "Pepperoni, sausage, bacon, hamburger, onions, peppers and mushrooms.",
+   "price": "$16.99 · $22.99"
+  },
+  {
+   "name": "Tender Pack",
+   "img": null,
+   "desc": "40 Chick Stix, onion rings, fries, coleslaw and dipping sauces. Feeds a family of four.",
+   "price": "$47.99"
+  },
+  {
+   "name": "Steak Bomb",
+   "img": null,
+   "desc": "Teriyaki drizzle, steak, American cheese, peppers, onions, mushrooms, salami and pepperoni on a 9-inch baked roll.",
+   "price": "$14.99"
+  }
+ ],
+ "locations": [
+  {
+   "id": "merrimack",
+   "name": "Merrimack",
+   "street": "733 Daniel Webster Hwy",
+   "city": "Merrimack",
+   "region": "NH",
+   "postal": "03054",
+   "phone": "(603) 424-5693",
+   "tel": "+16034245693",
+   "hours": [
+    {
+     "days": "Tuesday – Saturday",
+     "dow": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "20:00"
+    },
+    {
+     "days": "Sunday",
+     "dow": [
+      0
+     ],
+     "open": "11:00",
+     "close": "19:00"
+    }
+   ],
+   "hours_note": "Closed Mondays.",
+   "order": "https://slicelife.com/restaurants/nh/merrimack/03054/uncle-joey-s/menu",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Uncle+Joey%27s+733+Daniel+Webster+Hwy+Merrimack+NH+03054"
+  }
+ ],
+ "order_note": "Delivery and pickup through Slice. Looking for Nashua? That shop has its own site.",
+ "order_any": "https://slicelife.com/restaurants/nh/merrimack/03054/uncle-joey-s/menu",
+ "links": {
+  "instagram": "https://www.instagram.com/uncle.joeys.merrimack/",
+  "facebook": "https://www.facebook.com/unclejoeysnh/",
+  "nashua": "https://www.unclejoeysnashua.com/"
+ },
+ "promo_cards": [],
+ "careers": {
+  "enabled": false
+ },
+ "menu_note": "Prices from the shop's printed menu. Online ordering through Slice may show different prices.",
+ "menu": [
+  {
+   "cat": "Pizza",
+   "note": "Hand-tossed Italian pizza. Small 12\" or large 16\". Toppings $1.79/$2.79: pepperoni, sausage, onion, pepper, mushroom, bacon, ham, meatball, hamburger, pineapple, black olives, tomato, garlic, feta, jalapeños, ricotta, roasted red peppers. Gourmet toppings $2.99/$3.99: spinach, broccoli, grilled chicken, chicken tenders, buffalo tenders, steak.",
+   "items": [
+    {
+     "name": "Cheese",
+     "sizes": [
+      [
+       "Sm",
+       "$11.99"
+      ],
+      [
+       "Lg",
+       "$15.99"
+      ]
+     ],
+     "img": "451d47_095bc89f91a1492ab2ffdec44aec904f~mv2.png"
+    },
+    {
+     "name": "The Supremo",
+     "desc": "Pepperoni, sausage, bacon, hamburger, onions, peppers, mushrooms.",
+     "sizes": [
+      [
+       "Sm",
+       "$16.99"
+      ],
+      [
+       "Lg",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Uncle Joey",
+     "desc": "Roasted red peppers, meatballs, sausage.",
+     "sizes": [
+      [
+       "Sm",
+       "$15.99"
+      ],
+      [
+       "Lg",
+       "$21.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Spinach Pie",
+     "desc": "Fresh spinach, feta, ricotta, mozzarella.",
+     "sizes": [
+      [
+       "Sm",
+       "$15.99"
+      ],
+      [
+       "Lg",
+       "$21.99"
+      ]
+     ]
+    },
+    {
+     "name": "The White Pie",
+     "desc": "Ricotta, mozzarella, garlic.",
+     "sizes": [
+      [
+       "Sm",
+       "$15.99"
+      ],
+      [
+       "Lg",
+       "$21.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Veggie",
+     "desc": "Onions, peppers, mushrooms, fresh tomato and black olives.",
+     "sizes": [
+      [
+       "Sm",
+       "$15.99"
+      ],
+      [
+       "Lg",
+       "$21.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Mangia Meat",
+     "desc": "Sausage, pepperoni, bacon, hamburger, ham, salami.",
+     "sizes": [
+      [
+       "Sm",
+       "$16.99"
+      ],
+      [
+       "Lg",
+       "$23.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Kickin Chicken",
+     "desc": "Buffalo chicken with ranch and mozzarella.",
+     "sizes": [
+      [
+       "Sm",
+       "$16.99"
+      ],
+      [
+       "Lg",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Broccoli Chicken Alfredo",
+     "desc": "Broccoli, chicken, alfredo sauce, mozzarella.",
+     "sizes": [
+      [
+       "Sm",
+       "$17.99"
+      ],
+      [
+       "Lg",
+       "$23.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Barbeque CBR",
+     "desc": "BBQ base, chicken, bacon, ranch, mozzarella.",
+     "sizes": [
+      [
+       "Sm",
+       "$16.99"
+      ],
+      [
+       "Lg",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Steak n Cheese",
+     "desc": "No sauce, ribeye steak, mozzarella.",
+     "sizes": [
+      [
+       "Sm",
+       "$17.99"
+      ],
+      [
+       "Lg",
+       "$23.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Big Mac",
+     "desc": "Hamburger, onion, pickle, special sauce, mozzarella.",
+     "sizes": [
+      [
+       "Lg",
+       "$20.99"
+      ]
+     ],
+     "flag": "Online only; not on the printed menu."
+    },
+    {
+     "name": "The Bee Sting",
+     "desc": "Spicy sausage, soppressata, red chili flake oil, basil, honey drizzle.",
+     "sizes": [
+      [
+       "Lg",
+       "$20.99"
+      ]
+     ],
+     "flag": "Online only; not on the printed menu."
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "items": [
+    {
+     "name": "The Italian",
+     "desc": "No sauce. Pepperoni, hot ham, salami, cooked salami, cooked ham, provolone.",
+     "sizes": [
+      [
+       "Sm",
+       "$14.99"
+      ],
+      [
+       "Lg",
+       "$20.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Steak n Cheese",
+     "desc": "No sauce.",
+     "sizes": [
+      [
+       "Sm",
+       "$17.99"
+      ],
+      [
+       "Lg",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Spinach Pie",
+     "desc": "Fresh spinach, feta, ricotta, mozzarella.",
+     "sizes": [
+      [
+       "Sm",
+       "$15.99"
+      ],
+      [
+       "Lg",
+       "$20.99"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken or Meatball Parmesan",
+     "desc": "Your choice of meatball or chicken cutlet, ricotta, mozzarella.",
+     "sizes": [
+      [
+       "Sm",
+       "$16.99"
+      ],
+      [
+       "Lg",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "The Kickin Chicken",
+     "desc": "Buffalo chicken with ranch and mozzarella.",
+     "sizes": [
+      [
+       "Sm",
+       "$16.99"
+      ],
+      [
+       "Lg",
+       "$22.99"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Chick Stix",
+   "note": "Our famous tenders, plain or buffalo. Sauces: sweet n' sour, BBQ, honey mustard, buffalo, garlic parmesan, sweet heat, ranch, blue cheese, teriyaki, tartar.",
+   "items": [
+    {
+     "name": "Chick Stix",
+     "sizes": [
+      [
+       "5 pc",
+       "$10.99"
+      ],
+      [
+       "10 pc",
+       "$15.99"
+      ],
+      [
+       "15 pc",
+       "$20.99"
+      ],
+      [
+       "20 pc",
+       "$25.99"
+      ]
+     ]
+    },
+    {
+     "name": "Jo Jo Potatoes",
+     "desc": "Wedge potatoes.",
+     "sizes": [
+      [
+       "6",
+       "$8.99"
+      ],
+      [
+       "12",
+       "$10.99"
+      ],
+      [
+       "18",
+       "$14.99"
+      ],
+      [
+       "24",
+       "$17.99"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Wings & Bone-In Chicken",
+   "note": "Wing flavors: plain, buffalo, BBQ, garlic parmesan, sweet chili, teriyaki, honey mustard.",
+   "items": [
+    {
+     "name": "Wings",
+     "sizes": [
+      [
+       "8",
+       "$14.99"
+      ],
+      [
+       "12",
+       "$19.99"
+      ],
+      [
+       "18",
+       "$27.99"
+      ],
+      [
+       "24",
+       "$37.99"
+      ],
+      [
+       "36",
+       "$44.99"
+      ]
+     ]
+    },
+    {
+     "name": "Bone-In Chicken",
+     "sizes": [
+      [
+       "6",
+       "$17.99"
+      ],
+      [
+       "12",
+       "$26.99"
+      ],
+      [
+       "18",
+       "$35.99"
+      ],
+      [
+       "24",
+       "$44.99"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Subs",
+   "note": "9-inch baked sub or wrap.",
+   "items": [
+    {
+     "name": "Italian",
+     "desc": "Pepperoni, hot ham, salami, cooked salami, provolone.",
+     "price": "$11.99"
+    },
+    {
+     "name": "Homemade Roast Beef",
+     "price": "$13.99"
+    },
+    {
+     "name": "Homemade Tuna",
+     "price": "$11.99"
+    },
+    {
+     "name": "Chicken Parmesan",
+     "price": "$14.99"
+    },
+    {
+     "name": "Meatball Parmesan",
+     "price": "$13.99"
+    },
+    {
+     "name": "Steak n Cheese",
+     "price": "$12.99"
+    },
+    {
+     "name": "Special Steak n Cheese",
+     "desc": "Mushrooms, peppers, onions.",
+     "price": "$13.99"
+    },
+    {
+     "name": "Steak Bomb",
+     "desc": "Teriyaki drizzle, steak, American cheese, peppers, onions, mushrooms, salami, pepperoni.",
+     "price": "$14.99"
+    },
+    {
+     "name": "Chicken Bomb",
+     "desc": "Teriyaki drizzle, grilled chicken, American cheese, peppers, onions, mushrooms, salami, pepperoni.",
+     "price": "$14.99"
+    }
+   ]
+  },
+  {
+   "cat": "Roast Beef",
+   "note": "Served on a bulkie roll with James River BBQ sauce.",
+   "items": [
+    {
+     "name": "Super Beef",
+     "price": "$11.99"
+    },
+    {
+     "name": "Big Beef",
+     "price": "$10.99"
+    }
+   ]
+  },
+  {
+   "cat": "Wraps",
+   "items": [
+    {
+     "name": "Greek Salad Wrap",
+     "desc": "Lettuce, tomato, feta, onions, cucumbers.",
+     "price": "$10.99"
+    },
+    {
+     "name": "Grilled Chicken Caesar Wrap",
+     "price": "$13.99"
+    },
+    {
+     "name": "Chicken Tender Wrap",
+     "price": "$13.99"
+    },
+    {
+     "name": "Buffalo Tender Chicken Wrap",
+     "price": "$13.99"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "items": [
+    {
+     "name": "Garden or Caesar",
+     "price": "$10.99"
+    },
+    {
+     "name": "Greek Feta",
+     "price": "$12.99"
+    },
+    {
+     "name": "Tuna",
+     "price": "$13.99"
+    },
+    {
+     "name": "Chicken Caesar, Grilled Chicken, Buffalo Chicken or Crispy Chicken",
+     "price": "$14.99"
+    }
+   ]
+  },
+  {
+   "cat": "Chicken Dinners",
+   "note": "Served with your choice of French fries, spicy fries, onion rings or Jo Jo's, with coleslaw, roll and a dipping sauce.",
+   "items": [
+    {
+     "name": "Chick Stix Dinner",
+     "desc": "10 tenders.",
+     "price": "$17.99"
+    },
+    {
+     "name": "Buffalo Chick Stix Dinner",
+     "desc": "10 tenders.",
+     "price": "$17.99"
+    },
+    {
+     "name": "Fresh Wing Dinner",
+     "desc": "10 pieces.",
+     "price": "$17.99"
+    },
+    {
+     "name": "4 pc Bone-In Dinner",
+     "price": "$17.99"
+    }
+   ]
+  },
+  {
+   "cat": "Family Dinners",
+   "note": "Feeds a family of four.",
+   "items": [
+    {
+     "name": "Tender Pack",
+     "desc": "40 Chick Stix, onion rings, French fries, coleslaw and dipping sauces.",
+     "price": "$47.99"
+    },
+    {
+     "name": "Family Pack",
+     "desc": "16 pieces of bone-in chicken, onion rings, French fries, coleslaw.",
+     "price": "$47.99"
+    },
+    {
+     "name": "Combo Pack",
+     "desc": "20 Chick Stix, 8 pc bone-in chicken, onion rings, French fries, coleslaw and dipping sauces.",
+     "price": "$47.99"
+    },
+    {
+     "name": "Wing Pack",
+     "desc": "30 wings (any flavor), French fries, onion rings, coleslaw and dipping sauces.",
+     "price": "$47.99"
+    }
+   ]
+  },
+  {
+   "cat": "Pasta Dinners",
+   "note": "All pastas cooked with ziti and served with garlic bread. Add chicken or meatball $4.",
+   "items": [
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "price": "$17.99"
+    },
+    {
+     "name": "Chicken Parmesan",
+     "price": "$16.99"
+    },
+    {
+     "name": "Meatball Parmesan",
+     "price": "$15.99"
+    },
+    {
+     "name": "Baked Ziti",
+     "desc": "Marinara, ricotta, mozzarella.",
+     "price": "$12.99"
+    }
+   ]
+  },
+  {
+   "cat": "Sides & Kids",
+   "items": [
+    {
+     "name": "Bacon Cheddar Fries",
+     "price": "$11.99"
+    },
+    {
+     "name": "Mozzarella & Gravy Fries",
+     "price": "$11.99"
+    },
+    {
+     "name": "French Fries",
+     "desc": "Regular or spicy.",
+     "price": "$8.99"
+    },
+    {
+     "name": "Onion Rings",
+     "price": "$8.99"
+    },
+    {
+     "name": "Mozzarella Sticks (8)",
+     "price": "$10.99"
+    },
+    {
+     "name": "Cole Slaw",
+     "price": "$3.50"
+    },
+    {
+     "name": "Kids Chick Stix w/ Fries",
+     "price": "$8.99"
+    },
+    {
+     "name": "Kids Chicken Wing w/ Fries",
+     "price": "$8.99"
+    },
+    {
+     "name": "Kids Ziti & Meatballs",
+     "price": "$8.99"
+    }
+   ]
+  },
+  {
+   "cat": "Desserts",
+   "items": [
+    {
+     "name": "Fried Dough Bites",
+     "price": "$9.99"
+    },
+    {
+     "name": "Whoopie Pie",
+     "price": "$3.50"
+    },
+    {
+     "name": "NY Style Cheesecake",
+     "price": "$6.99"
+    },
+    {
+     "name": "NY Style Raspberry Cheesecake",
+     "price": "$6.99"
+    },
+    {
+     "name": "Double Chocolate Cake",
+     "price": "$7.99"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "The hero title \"Uncle Joey's of Merrimack\" is overlapped by the tagline, and a popup covers the page on load.",
+  "The menu is a single 3600px image of the printed menu, so it can't be read on a phone, searched or linked to.",
+  "The Order Online button carries copied Google Ads tracking parameters (utm_source=PaidGoogle, gclid=…).",
+  "Navigation has an empty first button; every nav item only scrolls the same page.",
+  "The hours block ends with a stray \"Closed\" line that doesn't name a day (it means Monday).",
+  "The only real photos on the site are the logo and one cheese pizza; Slice's item photos are stock catalog images, so we didn't use them."
+ ],
+ "questions": [
+  "Printed-menu prices are lower than Slice (Slice adds a markup: cheese pie $13.99 online vs $11.99/$15.99 in store). Should the website show in-store prices?",
+  "Two pizzas are on Slice but not the printed menu (The Big Mac, The Bee Sting). Are they current?",
+  "Can we photograph the shop? One real pie photo isn't enough for the site; a shoot of Chick Stix, the Supremo, a calzone and the family would carry the whole design.",
+  "Catering: the catering menu image shows half/full tray prices (Caesar $40/$60, Chick Stix $60/$94, etc.). Do you want a catering section with those?",
+  "Do you want the Nashua shop linked from this site, or kept fully separate?",
+  "Is the \"Closed\" line on the current site meant to be Monday?"
+ ],
+ "brand_text": true
+}

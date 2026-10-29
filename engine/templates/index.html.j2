@@ -1,0 +1,256 @@
+{%- macro icon(n) -%}
+{%- if n == 'arrow' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+{%- elif n == 'left' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg>
+{%- elif n == 'right' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+{%- elif n == 'phone' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>
+{%- elif n == 'pin' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.6"/></svg>
+{%- elif n == 'bag' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+{%- elif n == 'search' -%}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+{%- endif -%}
+{%- endmacro -%}
+{%- macro prices(it, solo_accent=False) -%}
+<div class="prices">{% if it.sizes %}{% for s in it.sizes %}<span class="pp"><small>{{ s[0] }}</small>{{ s[1] }}</span>{% endfor %}{% elif it.price %}<span class="pp{% if solo_accent %} solo{% endif %}">{{ it.price }}</span>{% endif %}</div>
+{%- endmacro -%}
+{%- macro order_btn(cls='btn', label='Order online') -%}
+{% if locations|length > 1 %}<button type="button" class="{{ cls }}" data-order>{{ icon('bag') }}{{ label }}</button>{% else %}<a class="{{ cls }}" href="{{ locations[0].order }}" target="_blank" rel="noopener">{{ icon('bag') }}{{ label }}</a>{% endif %}
+{%- endmacro -%}
+{% if not fragment %}<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+{% endif %}<title>{{ seo_title }}</title>
+{% if preview %}<meta name="claude:viewport-fit-sides" content="cover">{% endif %}
+<meta name="description" content="{{ seo_desc }}">
+<meta name="theme-color" content="{{ t.ink }}">
+{% if not preview %}<link rel="canonical" href="{{ domain }}/">
+<meta property="og:type" content="restaurant">
+<meta property="og:title" content="{{ seo_title }}">
+<meta property="og:description" content="{{ seo_desc }}">
+<meta property="og:url" content="{{ domain }}/">
+<meta property="og:image" content="{{ domain }}/{{ og_image }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="{{ favicon }}">
+<link rel="preload" as="image" href="{{ hero_src }}">
+<link rel="stylesheet" href="{{ css_href }}">
+<script type="application/ld+json">{{ jsonld }}</script>
+{% else %}<style>{{ css }}</style>
+{% endif %}{% if not fragment %}</head>
+<body>{% endif %}
+<a class="skip" href="#menu">Skip to the menu</a>
+{% if preview %}<div class="concept"><div class="wrap"><strong>Design concept by 603 Interactive</strong><span>Not {{ name }}'s official website. Order links open the shop's real online ordering.</span></div></div>{% endif %}
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="brand" href="#top" aria-label="{{ name }} home">{% if brand_text %}<img src="{{ icon_src }}" alt="" width="120" height="120"><span class="brand-name">{{ name }}</span>{% else %}<img src="{{ logo_src }}" alt="{{ name }}" width="{{ logo_w }}" height="{{ logo_h }}">{% endif %}</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span></button>
+    <nav class="nav" id="nav" aria-label="Main">
+      <a href="#favorites">Favorites</a>
+      {% if deals %}<a href="#deals">Deals</a>{% endif %}
+      <a href="#menu">Menu</a>
+      <a href="#locations">{{ 'Locations' if locations|length > 1 else 'Hours & Location' }}</a>
+      {% if promo_cards %}<a href="#extras">Catering</a>{% endif %}
+      {% if careers %}<a href="#careers">Jobs</a>{% endif %}
+      {% if about %}<a href="#about">About</a>{% endif %}
+    </nav>
+    {{ order_btn('btn small order-top', 'Order') }}
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" aria-labelledby="hero-h">
+{% if hero_layout == 'split' %}
+  <canvas class="hero-fx" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ hero.eyebrow }}</p>
+      <h1 class="hero-title" id="hero-h">{% for w in hero.headline %}<span class="ln{% if loop.last %} hot{% endif %}">{{ w }}</span>{% endfor %}</h1>
+      <p class="hero-sub">{{ hero.sub }}</p>
+      <div class="hero-cta">{{ order_btn() }}<a class="btn ghost" href="#menu">See the menu</a></div>
+      <ul class="status" data-status aria-label="Open now">{% for l in locations %}<li data-loc="{{ l.id }}"><i class="dot"></i><span>{{ l.name }}</span></li>{% endfor %}</ul>
+    </div>
+    <div class="hero-stage" data-parallax>
+      <div class="checker" aria-hidden="true"></div>
+      <div class="photo"><img src="{{ hero_src }}" alt="{{ hero.alt }}" width="{{ hero_w }}" height="{{ hero_h }}" data-par-img fetchpriority="high"></div>
+      <p class="tag">{{ hero.tag }}<small>{{ hero.tag_sub }}</small></p>
+    </div>
+  </div>
+{% else %}
+  <div class="hero-media" data-parallax><img src="{{ hero_src }}" alt="{{ hero.alt }}" width="{{ hero_w }}" height="{{ hero_h }}" data-par-img fetchpriority="high"></div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <canvas class="hero-fx" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="hero-copy">
+      <p class="eyebrow">{{ hero.eyebrow }}</p>
+      <h1 class="hero-title" id="hero-h">{% for w in hero.headline %}{% if loop.last %}<span class="ln script{% if not t.has_script %} plain{% endif %}">{{ w }}</span>{% else %}<span class="ln{% if loop.index == 1 %} hot{% endif %}">{{ w }}</span>{% endif %}{% endfor %}</h1>
+      <p class="hero-sub">{{ hero.sub }}</p>
+      <div class="hero-cta">{{ order_btn() }}{% if deals %}<a class="btn ghost" href="#deals">See the deals</a>{% else %}<a class="btn ghost" href="#menu">See the menu</a>{% endif %}</div>
+      <ul class="status" data-status aria-label="Open now">{% for l in locations %}<li data-loc="{{ l.id }}"><i class="dot"></i><span>{{ l.name }}</span></li>{% endfor %}</ul>
+    </div>
+  </div>
+{% endif %}
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track">{% for _ in range(2) %}<ul>{% for m in marquee %}<li>{{ m }}</li>{% endfor %}{% for m in marquee %}<li>{{ m }}</li>{% endfor %}</ul>{% endfor %}</div></div>
+
+<section class="sec fav" id="favorites" aria-labelledby="fav-h">
+  <div class="fav-pin">
+    <div class="wrap sec-head row">
+      <div class="sec-head" style="margin:0">
+        <p class="eyebrow">House favorites</p>
+        <h2 class="h2" id="fav-h">{{ fav_title }}</h2>
+      </div>
+      <div class="fav-nav"><button type="button" data-fav="-1" aria-label="Previous favorites">{{ icon('left') }}</button><button type="button" data-fav="1" aria-label="Next favorites">{{ icon('right') }}</button></div>
+    </div>
+    <ul class="fav-track">
+      {% for s in signatures %}<li class="card{% if not s.src %} nophoto{% endif %}">
+        <div class="ph">{% if s.src %}<img src="{{ s.src }}" alt="{{ s.name }}" loading="lazy" width="400" height="500">{% endif %}</div>
+        <div class="body"><h3>{{ s.name }}</h3><p>{{ s.desc }}</p><span class="price">{{ s.price }}</span></div>
+        <i class="glare" aria-hidden="true"></i>
+      </li>{% endfor %}
+    </ul>
+    <div class="wrap"><div class="fav-progress" aria-hidden="true"><i></i></div></div>
+  </div>
+</section>
+
+{% if deals %}
+<section class="sec" id="deals" aria-labelledby="deals-h" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head rv"><p class="eyebrow">Combo deals</p><h2 class="h2" id="deals-h">Feed the whole crew</h2></div>
+    <div class="deals">
+      {% for d in deals %}<article class="deal rv">
+        <p class="lbl">{{ d.title }}</p>
+        <h3 class="what">{{ d.what }}</h3>
+        <div class="amt"><span class="num"><sup>$</sup>{{ d.price|replace('$','') }}</span><span class="note">{{ d.note }}</span></div>
+        {{ order_btn('btn small', 'Order this deal') }}
+      </article>{% endfor %}
+    </div>
+    <p class="deal-foot">{{ deals_note }}</p>
+  </div>
+</section>
+{% endif %}
+
+<section class="paper sec" id="menu" aria-labelledby="menu-h">
+  <div class="wrap">
+    <div class="sec-head row">
+      <div class="sec-head" style="margin:0"><p class="eyebrow">{{ menu_eyebrow }}</p><h2 class="h2" id="menu-h">The menu</h2></div>
+      <div class="menu-tools">
+        <div class="search">{{ icon('search') }}<label class="sr" for="menu-search">Search the menu</label><input id="menu-search" type="search" placeholder="Search the menu" autocomplete="off"></div>
+        {{ order_btn('btn small', 'Order') }}
+      </div>
+    </div>
+  </div>
+  <nav class="chips" aria-label="Menu sections"><ul>{% for c in menu %}<li><a href="#{{ c.id }}">{{ c.cat }}</a></li>{% endfor %}</ul></nav>
+  <div class="wrap">
+    {% for c in menu %}
+    <section class="cat" id="{{ c.id }}" aria-labelledby="{{ c.id }}-h" data-cat>
+      <div class="cat-h"><h3 id="{{ c.id }}-h">{{ c.cat }}</h3><span class="count">{{ c['items']|length }} item{{ '' if c['items']|length == 1 else 's' }}</span></div>
+      {% if c.note %}<p class="cat-note">{{ c.note }}</p>{% endif %}
+      {% if c.toppings %}<ul class="tops" aria-label="Toppings">{% for tp in c.toppings %}<li>{{ tp }}</li>{% endfor %}</ul>{% endif %}
+      {% if c.tiles %}<div class="tiles">{% for it in c.tiles %}<article class="tile" data-item data-q="{{ (it.name ~ ' ' ~ (it.desc or ''))|lower }}">
+        <div class="ph"><img src="{{ it.src }}" alt="{{ it.name }}" loading="lazy" width="400" height="500"></div>
+        <div class="tb"><h4 class="it-name">{{ it.name }}</h4>{% if it.desc %}<p class="it-desc">{{ it.desc }}</p>{% endif %}{{ prices(it, True) }}</div>
+      </article>{% endfor %}</div>{% endif %}
+      {% if c.rows %}<ul class="rows">{% for it in c.rows %}<li class="mrow" data-item data-q="{{ (it.name ~ ' ' ~ (it.desc or ''))|lower }}"><h4 class="it-name">{{ it.name }}</h4>{{ prices(it) }}{% if it.desc %}<p class="it-desc">{{ it.desc }}</p>{% endif %}</li>{% endfor %}</ul>{% endif %}
+    </section>
+    {% endfor %}
+    <p class="empty" id="menu-empty">Nothing on the menu matches that. Try a different word, like “chicken” or “pesto”.</p>
+    <p class="menu-note">{{ menu_note }}</p>
+  </div>
+</section>
+
+<section class="sec" id="locations" aria-labelledby="loc-h">
+  <div class="wrap">
+    <div class="sec-head rv"><p class="eyebrow">{{ loc_eyebrow }}</p><h2 class="h2" id="loc-h">{{ loc_title }}</h2>{% if order_note %}<p class="lede">{{ order_note }}</p>{% endif %}</div>
+    <div class="locs">
+      {% for l in locations %}<article class="loc rv" data-loc="{{ l.id }}">
+        <div><h3>{{ l.name }}</h3><p class="st" data-status-text><i class="dot"></i><span>Checking hours…</span></p></div>
+        <address>{{ l.street }}{% if l.street2 %}<br>{{ l.street2 }}{% endif %}<br>{{ l.city }}, {{ l.region }} {{ l.postal }}</address>
+        <div class="phone"><b>{{ l.phone }}</b><button class="copy" type="button" data-copy="{{ l.phone }}">Copy number</button></div>
+        <table class="hours"><caption class="sr">{{ l.name }} hours</caption><tbody>{% for r in l.week %}<tr data-dow="{{ r.dow }}"><td>{{ r.day }}</td><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+        {% if l.hours_note %}<p class="hours-note">{{ l.hours_note }}</p>{% endif %}
+        <div class="loc-actions"><a class="btn small" href="{{ l.order }}" target="_blank" rel="noopener">{{ icon('bag') }}Order {{ l.name }}</a><a class="btn small ghost" href="tel:{{ l.tel }}">{{ icon('phone') }}Call</a><a class="btn small ghost" href="{{ l.maps }}" target="_blank" rel="noopener">{{ icon('pin') }}Directions</a></div>
+      </article>{% endfor %}
+    </div>
+  </div>
+</section>
+
+{% if promo_cards %}
+<section class="sec" id="extras" aria-label="Catering and gift cards" style="padding-top:0">
+  <div class="wrap promos">
+    {% for p in promo_cards %}<article class="promo rv"{% if p.anchor %} id="{{ p.anchor }}"{% endif %}>
+      <div class="pb"><p class="eyebrow">{{ p.eyebrow }}</p><h3>{{ p.title }}</h3><p>{{ p.text }}</p><div><a class="btn small" href="{{ p.href }}" target="_blank" rel="noopener">{{ p.cta }}{{ icon('arrow') }}</a></div></div>
+      <div class="ph">{% if p.src %}<img src="{{ p.src }}" alt="" loading="lazy" width="400" height="500">{% endif %}</div>
+    </article>{% endfor %}
+  </div>
+</section>
+{% endif %}
+
+{% if about %}
+<section class="sec" id="about" aria-labelledby="about-h" style="padding-top:0">
+  <div class="wrap about">
+    <p class="big-num rv" aria-hidden="true"><span data-count="{{ about.years }}">{{ about.years }}</span>+<small>{{ about.years_label }}</small></p>
+    <div class="about-text rv"><p class="eyebrow">About us</p><h2 class="h2" id="about-h">{{ about.title }}</h2>{% for para in about.paras %}<p>{{ para }}</p>{% endfor %}</div>
+  </div>
+</section>
+{% endif %}
+
+{% if careers %}
+<section class="sec" id="careers" aria-labelledby="jobs-h" style="padding-top:0">
+  <div class="wrap careers">
+    <div class="rv"><p class="eyebrow">Now hiring</p><h2 class="h2" id="jobs-h">{{ careers.headline }}</h2><p class="lede" style="margin-top:16px">{{ careers.text }}</p>
+      <ul class="roles" aria-label="Positions">{% for r in careers.positions %}<li>{{ r }}</li>{% endfor %}</ul></div>
+    <form class="form rv" name="job-application" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="company" id="job-form"{% if preview %} data-preview{% endif %}>
+      <input type="hidden" name="form-name" value="job-application">
+      <p class="sr"><label>Leave this empty: <input name="company" tabindex="-1" autocomplete="off"></label></p>
+      <div class="fgrid">
+        <div class="field"><label for="f-first">First name</label><input id="f-first" name="first_name" autocomplete="given-name" required></div>
+        <div class="field"><label for="f-last">Last name</label><input id="f-last" name="last_name" autocomplete="family-name" required></div>
+      </div>
+      <div class="fgrid">
+        <div class="field"><label for="f-email">Email</label><input id="f-email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" required></div>
+      </div>
+      <div class="fgrid">
+        <div class="field"><label for="f-loc">Which shop?</label><select id="f-loc" name="location" required><option value="">Choose a shop</option>{% for l in locations %}<option>{{ l.name }}</option>{% endfor %}{% if locations|length > 1 %}<option>Either</option>{% endif %}</select></div>
+        <div class="field"><label for="f-role">Position</label><select id="f-role" name="position" required><option value="">Choose a position</option>{% for r in careers.positions %}<option>{{ r }}</option>{% endfor %}</select></div>
+      </div>
+      <fieldset class="field"><legend>When can you work?</legend><div class="checks">{% for d in ['Weekday days','Weekday nights','Saturdays','Sundays'] %}<label><input type="checkbox" name="availability" value="{{ d }}" id="f-av-{{ loop.index }}">{{ d }}</label>{% endfor %}</div></fieldset>
+      <div class="fgrid">
+        <div class="field"><label for="f-start">Earliest start date <span class="opt">(optional)</span></label><input id="f-start" name="start_date" type="date"></div>
+        <div class="field"><label for="f-age">Are you 18 or older?</label><select id="f-age" name="over_18" required><option value="">Choose one</option><option>Yes</option><option>No</option></select></div>
+      </div>
+      <div class="field"><label for="f-exp">Restaurant experience <span class="opt">(optional)</span></label><textarea id="f-exp" name="experience" placeholder="Where you've worked and what you did. No experience is fine too."></textarea></div>
+      <p class="fine">Only the managers at {{ name }} see your application.</p>
+      <div><button class="btn" type="submit">Send application{{ icon('arrow') }}</button></div>
+      <p class="form-msg" id="form-msg" hidden></p>
+    </form>
+  </div>
+</section>
+{% endif %}
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div><img src="{{ logo_src }}" alt="{{ name }}" width="{{ logo_w }}" height="{{ logo_h }}" loading="lazy"><p class="legal">{{ about_short }}</p></div>
+    {% for l in locations %}<div><h4>{{ l.name }}</h4><p>{{ l.street }}<br>{{ l.city }}, {{ l.region }} {{ l.postal }}<br>{{ l.phone }}</p></div>{% endfor %}
+    <div><h4>More</h4><ul>{% if links.gift_cards %}<li><a href="{{ links.gift_cards }}" target="_blank" rel="noopener">Gift cards</a></li>{% endif %}{% if links.catering %}<li><a href="{{ links.catering }}" target="_blank" rel="noopener">Catering on ezCater</a></li>{% endif %}{% if links.instagram %}<li><a href="{{ links.instagram }}" target="_blank" rel="noopener">Instagram</a></li>{% endif %}{% if links.facebook %}<li><a href="{{ links.facebook }}" target="_blank" rel="noopener">Facebook</a></li>{% endif %}{% if links.nashua %}<li><a href="{{ links.nashua }}" target="_blank" rel="noopener">Uncle Joey's Nashua</a></li>{% endif %}<li><a href="{{ order_any }}" target="_blank" rel="noopener">Order online</a></li></ul>
+      <p class="legal">© {{ year }} {{ name }}. Site by 603 Interactive.</p></div>
+  </div>
+</footer>
+
+<div class="dock" aria-label="Quick actions">{{ order_btn('btn', 'Order') }}{% if locations|length > 1 %}<a class="btn ghost" href="#locations">{{ icon('phone') }}Call</a>{% else %}<a class="btn ghost" href="tel:{{ locations[0].tel }}">{{ icon('phone') }}Call</a>{% endif %}<a class="btn ghost" href="#locations">{{ icon('pin') }}Find us</a></div>
+
+{% if locations|length > 1 %}
+<div class="sheet" id="order-sheet" role="dialog" aria-modal="true" aria-labelledby="sheet-h" hidden>
+  <div class="sheet-card">
+    <button class="close" type="button" data-close>Close</button>
+    <h2 id="sheet-h">Pick your shop</h2>
+    {% for l in locations %}<a class="pick" href="{{ l.order }}" target="_blank" rel="noopener" data-loc="{{ l.id }}"><b>{{ l.name }}</b><span><i class="dot"></i><em data-status-short style="font-style:normal">{{ l.street }}</em></span>{{ icon('arrow') }}</a>{% endfor %}
+    <p class="fine">{{ order_note }}</p>
+  </div>
+</div>
+{% endif %}
+<script>window.SITE={{ site_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="{{ js_src }}" defer></script>{% endif %}
+{% if not fragment %}</body>
+</html>{% endif %}

@@ -1,0 +1,1344 @@
+{
+ "slug": "mickeys-ny-pizza",
+ "name": "Mickey's N.Y. Pizza",
+ "short": "Mickey's",
+ "domain": "https://www.mickeysnypizza.com",
+ "tagline": "Crispy NY-style pizza, Sicilian pies, subs, salads & wings, made from scratch.",
+ "about": "Family-owned pizzeria in Derry & Hudson, NH. Authentic NY-style pizza, Sicilian pies, subs, wings, tenders, and more, made from scratch.",
+ "seo_title": "Mickey's N.Y. Pizza | NY-Style & Sicilian Pizza in Hudson & Derry, NH",
+ "seo_desc": "Crispy NY-style pizza, Sicilian pies, subs, salads & wings, made from scratch. Family-owned pizzeria in Hudson & Derry, NH. Order online for pickup or delivery.",
+ "theme": {
+  "accent": "#E8432A",
+  "accent_deep": "#B8281A",
+  "cream": "#FFF3DE",
+  "gold": "#F6B33C",
+  "ink": "#120D0B",
+  "check": true
+ },
+ "img_base": "https://d2s742iet3d3t1.cloudfront.net/restaurants/restaurant-23711000000000000/menu/items/",
+ "logo": {
+  "src": "https://static.wixstatic.com/media/633ffd_1c30f029b1184f22b8e347a1ace68531~mv2.png/v1/fit/w_600,h_490,q_90/Mickeys%20Logo.png",
+  "w": 537,
+  "h": 438,
+  "alt": "Mickey's N.Y. Pizza"
+ },
+ "hero": {
+  "img": "https://static.wixstatic.com/media/633ffd_ba7c6176ebf74249a0bef8051b84bfeb~mv2.jpg/v1/fill/w_1800,h_1971,q_85,enc_auto/Vodka%20Pesto%20Sicilian.jpg",
+  "img_mobile": "https://static.wixstatic.com/media/633ffd_ba7c6176ebf74249a0bef8051b84bfeb~mv2.jpg/v1/fill/w_900,h_986,q_80,enc_auto/Vodka%20Pesto%20Sicilian.jpg",
+  "alt": "Vodka pesto Sicilian pizza in a tray",
+  "eyebrow": "Hudson & Derry, NH",
+  "headline": [
+   "Crispy.",
+   "Saucy.",
+   "New York."
+  ],
+  "sub": "NY-style pies, Sicilian trays, cheesesteaks, wings and subs, made from scratch at both shops.",
+  "tag": "Pesto, Roni & Vodka Sicilian",
+  "tag_sub": "On the menu · $30.99"
+ },
+ "spin": {
+  "img": "2/item-400000000324640882_1683605746.jpg",
+  "alt": "Margherita pizza",
+  "pos": "50% 50%"
+ },
+ "marquee": [
+  "NY-Style Pizza",
+  "Sicilian Trays",
+  "Cheesesteaks",
+  "Jumbo Tenders",
+  "Wings",
+  "Loaded Fries",
+  "Subs & Wraps",
+  "Made From Scratch"
+ ],
+ "signatures": [
+  {
+   "name": "Vodka Roni Sicilian",
+   "img": "5/item-400000027526239175_1683517528.jpg",
+   "desc": "Light, fluffy and crispy Sicilian with homemade vodka sauce, mozzarella, parmesan, pepperoni cups and chili hot honey.",
+   "price": "$28.99"
+  },
+  {
+   "name": "Loaded Bacon Cheeseburger Fries",
+   "img": "7/item-400000032394226107_1689622488.jpg",
+   "desc": "Bacon, hamburger and melted mozzarella over fries, topped with tomatoes, pickles, onions and special burger sauce.",
+   "price": "$17.99"
+  },
+  {
+   "name": "Nashville Hot Chicken Loaded Fries",
+   "img": "0/item-400000029073910390_1683256341.jpg",
+   "desc": "Fries, chicken fingers and bacon tossed in Nashville hot sauce with mozzarella, spicy mayo and pickles.",
+   "price": "$16.99"
+  },
+  {
+   "name": "Cheesesteak & Onions",
+   "img": "9/item-400000062888932159_1771534352.jpg",
+   "desc": "Shaved ribeye, Cooper Sharp American and white onions on a homemade seeded sourdough roll.",
+   "price": "$16.99"
+  },
+  {
+   "name": "Mama Mia",
+   "img": "2/item-400000000324640892_1683603349.jpg",
+   "desc": "A meat lover's favorite: pepperoni, sausage, bacon, hamburger, roasted red peppers, garlic and mild hots.",
+   "price": "12\" $14.99 · 18\" $22.95"
+  },
+  {
+   "name": "Jumbo Chicken Tenders",
+   "img": "1/item-400000000324609231_1683604930.jpg",
+   "desc": "Fresh, jumbo tenders, hand-breaded and fried to order with sweet n' sour or your choice of dip.",
+   "price": "from $12.99"
+  }
+ ],
+ "locations": [
+  {
+   "id": "hudson",
+   "name": "Hudson",
+   "street": "94 Lowell Road",
+   "city": "Hudson",
+   "region": "NH",
+   "postal": "03051",
+   "phone": "(603) 883-0444",
+   "tel": "+16038830444",
+   "hours": [
+    {
+     "days": "Monday – Saturday",
+     "dow": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "days": "Sunday",
+     "dow": [
+      0
+     ],
+     "open": "12:00",
+     "close": "20:00"
+    }
+   ],
+   "order": "https://order.toasttab.com/online/mickeys-ny-pizza",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Mickey%27s+NY+Pizza+94+Lowell+Road+Hudson+NH+03051"
+  },
+  {
+   "id": "derry",
+   "name": "Derry",
+   "street": "9 Crystal Ave",
+   "city": "Derry",
+   "region": "NH",
+   "postal": "03038",
+   "phone": "(603) 552-3503",
+   "tel": "+16035523503",
+   "hours": [
+    {
+     "days": "Monday – Saturday",
+     "dow": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "days": "Sunday",
+     "dow": [
+      0
+     ],
+     "open": "12:00",
+     "close": "20:00"
+    }
+   ],
+   "order": "https://order.toasttab.com/online/mickeys-ny-pizza-derry-nh-15-crystal-ave",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Mickey%27s+NY+Pizza+9+Crystal+Ave+Derry+NH+03038"
+  }
+ ],
+ "order_note": "Online ordering closes 30 minutes before the shop does.",
+ "order_any": "https://order.toasttab.com/online/locations/d6005cc5-b61d-4a6a-a153-ee07860500be/default",
+ "links": {
+  "gift_cards": "https://www.toasttab.com/mickeys-ny-pizza/giftcards",
+  "catering": "https://www.ezcater.com/catering/mickeys-ny-pizza-3",
+  "instagram": "https://www.instagram.com/mickeysnypizza",
+  "facebook": "https://www.facebook.com/MickeysNYPizza"
+ },
+ "promo_cards": [
+  {
+   "title": "Catering",
+   "text": "Half and full pans of salads, baked ziti, meatballs, chicken parm and tenders for the office or the party.",
+   "cta": "Order catering",
+   "href": "@catering",
+   "img": "2/item-400000000324654422_1683603784.jpg",
+   "anchor": "catering"
+  },
+  {
+   "title": "Gift Cards",
+   "text": "Give the gift of pizza. Mickey's gift cards are sold online.",
+   "cta": "Buy a gift card",
+   "href": "@gift_cards",
+   "img": "4/item-400000000380078204_1683307551.jpg"
+  }
+ ],
+ "careers": {
+  "enabled": true,
+  "headline": "Join the Mickey's crew",
+  "text": "Hiring at Hudson and Derry. Tell us about yourself and the shift you want, and a manager will reach out.",
+  "positions": [
+   "Pizza Maker",
+   "Line Cook / Fryer",
+   "Counter & Phones",
+   "Delivery Driver",
+   "Dishwasher",
+   "Shift Lead"
+  ]
+ },
+ "menu_note": "Prices as listed on mickeysnypizza.com. Final prices are shown when you order online.",
+ "menu": [
+  {
+   "cat": "New York Pizza",
+   "items": [
+    {
+     "name": "Build Your Own Cheese Pizza",
+     "sizes": [
+      [
+       "12\"",
+       "$10.99"
+      ],
+      [
+       "18\"",
+       "$16.99"
+      ]
+     ],
+     "img": "5/item-400000000324619375_1683518739.jpg"
+    },
+    {
+     "name": "12\" Gluten Friendly Pizza",
+     "desc": "12\" gluten friendly dough, tomato sauce and mozzarella cheese.",
+     "price": "$14.49"
+    }
+   ]
+  },
+  {
+   "cat": "Signature NY Pizzas",
+   "items": [
+    {
+     "name": "Pesto Blast",
+     "desc": "A blast of flavor! Pesto sauce, mozzarella, sun dried tomatoes, feta, fresh tomato, crushed red pepper & garlic.",
+     "price": "$14.95",
+     "img": "4/item-400000018084391354_1683603539.jpg"
+    },
+    {
+     "name": "Nashville HOT Chicken Pizza",
+     "desc": "Nashville hot sauce, fried chicken, crispy bacon, lettuce, pickles & a drizzle of spicy mayo!",
+     "sizes": [
+      [
+       "12\"",
+       "$14.99"
+      ],
+      [
+       "18\"",
+       "$23.49"
+      ]
+     ]
+    },
+    {
+     "name": "Chipotle Chicken Pizza",
+     "desc": "Creamy white sauce, melted mozzarella, crispy fried chicken, and smoky bacon, finished with a drizzle of house-made chipotle sauce and fresh cilantro.",
+     "sizes": [
+      [
+       "12\"",
+       "$14.99"
+      ],
+      [
+       "18\"",
+       "$23.99"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken, Bacon, Ranch Pizza",
+     "desc": "Chicken fingers, bacon, tomato, mozzarella & ranch dressing drizzle.",
+     "sizes": [
+      [
+       "12\"",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Loaded Potato Pizza",
+     "desc": "A garlic cream base with mashed potatoes, bacon, caramelized onions & jalapeño, then topped with a drizzle of ranch and cilantro.",
+     "sizes": [
+      [
+       "12\"",
+       "$14.99"
+      ],
+      [
+       "18\"",
+       "$22.95"
+      ]
+     ],
+     "img": "6/item-400000000324640876_1683605345.jpg"
+    },
+    {
+     "name": "Hawaiian Pizza",
+     "desc": "A perfect combination of sweet & spicy: tomato sauce, with mozzarella, ham & pineapple.",
+     "sizes": [
+      [
+       "12\"",
+       "$13.99"
+      ],
+      [
+       "18\"",
+       "$21.99"
+      ]
+     ]
+    },
+    {
+     "name": "Bacon Cheeseburger Pizza",
+     "desc": "Big Mac style: burger sauce, mozzarella, hamburger, tomato, onion, bacon, then topped with lettuce or arugula and pickles.",
+     "sizes": [
+      [
+       "12\"",
+       "$14.99"
+      ],
+      [
+       "18\"",
+       "$22.99"
+      ]
+     ],
+     "img": "0/item-400000000324640880_1618180486.jpg"
+    },
+    {
+     "name": "Margherita Pizza",
+     "desc": "An Italian O.G.: traditional tomato sauce with fresh mozzarella, basil, parmesan and a drizzle of extra virgin olive oil.",
+     "sizes": [
+      [
+       "12\"",
+       "$12.99"
+      ],
+      [
+       "18\"",
+       "$19.99"
+      ]
+     ],
+     "img": "2/item-400000000324640882_1683605746.jpg"
+    },
+    {
+     "name": "Buffalo Chicken Finger Pizza",
+     "sizes": [
+      [
+       "12\"",
+       "$13.99"
+      ],
+      [
+       "18\"",
+       "$21.99"
+      ]
+     ],
+     "img": "4/item-400000000324640884_1683517987.jpg"
+    },
+    {
+     "name": "Chicken Broccoli Alfredo Pizza",
+     "sizes": [
+      [
+       "12\"",
+       "$13.99"
+      ],
+      [
+       "18\"",
+       "$21.99"
+      ]
+     ],
+     "img": "6/item-400000000324640886_1683603095.jpg"
+    },
+    {
+     "name": "BBQ Chicken Pizza",
+     "desc": "Tangy BBQ sauce, mozzarella, grilled chicken & red onion topped with cilantro and scallions.",
+     "sizes": [
+      [
+       "12\"",
+       "$13.99"
+      ],
+      [
+       "18\"",
+       "$22.99"
+      ]
+     ],
+     "img": "8/item-400000000324640888_1618179066.jpg"
+    },
+    {
+     "name": "Maui Wowie Pizza",
+     "desc": "BBQ sauce, bacon, pineapple, chicken, red onions & mozzarella, topped with cilantro.",
+     "sizes": [
+      [
+       "12\"",
+       "$14.99"
+      ],
+      [
+       "18\"",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "Mama Mia Pizza",
+     "desc": "A meat lovers fav! Red sauce, mozzarella, fresh garlic, mild hots, pepperoni, hamburger, sausage, bacon & roasted red peppers.",
+     "sizes": [
+      [
+       "12\"",
+       "$14.99"
+      ],
+      [
+       "18\"",
+       "$22.95"
+      ]
+     ],
+     "img": "2/item-400000000324640892_1683603349.jpg"
+    },
+    {
+     "name": "Meatball Marinara Pizza",
+     "desc": "Tomato sauce, meatballs, mozzarella, ricotta, red onion and basil.",
+     "sizes": [
+      [
+       "12\"",
+       "$13.99"
+      ],
+      [
+       "18\"",
+       "$21.49"
+      ]
+     ]
+    },
+    {
+     "name": "Pesto Chicken Pizza",
+     "desc": "Homemade pesto, mozzarella, grilled chicken, roasted red peppers and red onion.",
+     "sizes": [
+      [
+       "12\"",
+       "$14.99"
+      ],
+      [
+       "18\"",
+       "$22.99"
+      ]
+     ]
+    },
+    {
+     "name": "Mixed Greens Pizza",
+     "desc": "A veggie pizza with spinach, green pepper, red onion, broccoli and mushroom, then topped with mozzarella.",
+     "sizes": [
+      [
+       "12\"",
+       "$12.99"
+      ],
+      [
+       "18\"",
+       "$21.99"
+      ]
+     ]
+    },
+    {
+     "name": "Toscana Pizza",
+     "sizes": [
+      [
+       "12\"",
+       "$14.99"
+      ]
+     ]
+    },
+    {
+     "name": "Ricotta Dream Pizza",
+     "desc": "Creamy white sauce topped with fresh spinach, tangy sun-dried tomatoes, mozzarella, garlic, and parmesan, finished with a sprinkle of red pepper flakes.",
+     "sizes": [
+      [
+       "12\"",
+       "$12.99"
+      ],
+      [
+       "18\"",
+       "$21.99"
+      ]
+     ],
+     "img": "6/item-400000056555038356_1754931055.jpg"
+    },
+    {
+     "name": "Saucy Chick Pizza",
+     "desc": "BBQ sauce, crispy fried chicken, savory bacon, melty mozzarella, and a bold drizzle of buffalo sauce!",
+     "sizes": [
+      [
+       "12\"",
+       "$13.99"
+      ],
+      [
+       "18\"",
+       "$23.99"
+      ]
+     ],
+     "img": "5/item-400000056555155665_1754931263.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Sicilian Pizza",
+   "items": [
+    {
+     "name": "Build Your Own Sicilian Pizza",
+     "desc": "Serves 4–6 people.",
+     "price": "$17.00"
+    },
+    {
+     "name": "Vodka Roni Sicilian",
+     "desc": "A light, fluffy & crispy Sicilian pizza topped with homemade vodka tomato sauce, mozzarella, parmesan, pepperoni cups and drizzled with a chili-infused hot honey.",
+     "price": "$28.99",
+     "img": "5/item-400000027526239175_1683517528.jpg"
+    },
+    {
+     "name": "The Boss Hog",
+     "desc": "A trifecta of pork deliciousness! Bacon, sausage and cup & char pepperoni on a bed of mozzarella, drizzled with habanero honey for a slightly sweet sting.",
+     "price": "$22.00",
+     "flag": "Listed at $22.00 and $27.00 on the current menu; $24.99 in online ordering."
+    },
+    {
+     "name": "Chicken Parm Sicilian",
+     "price": "$29.89",
+     "img": "7/item-400000017399926827_1644001453.jpg"
+    },
+    {
+     "name": "Tri-Pie (Vodka, Pesto, & Red Sauce)",
+     "price": "$23.99"
+    },
+    {
+     "name": "Pesto, Roni & Vodka Sauce Sicilian",
+     "price": "$30.99"
+    },
+    {
+     "name": "Margherita Sicilian Tray",
+     "price": "$17.00"
+    },
+    {
+     "name": "Pepperoni Sicilian Tray",
+     "price": "$20.00"
+    },
+    {
+     "name": "Supreme Sicilian Tray",
+     "price": "$22.00"
+    },
+    {
+     "name": "Hawaiian Sicilian Tray",
+     "price": "$20.00"
+    },
+    {
+     "name": "Bourbon BBQ Chicken Sicilian Tray",
+     "price": "$22.00"
+    },
+    {
+     "name": "Spinach, Tomato & Feta Sicilian Tray",
+     "price": "$20.00"
+    },
+    {
+     "name": "Chicken Pesto Sicilian Tray",
+     "price": "$22.00"
+    },
+    {
+     "name": "Beach Pizza",
+     "desc": "Bite into a taste of summer! Homemade sweet sauce and provolone cheese on our crispy pizza dough.",
+     "price": "$18.99",
+     "img": "4/item-400000010723980314_1683606782.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Starters",
+   "items": [
+    {
+     "name": "Monsterella – Jumbo Mozzarella Stick",
+     "desc": "The biggest mozzarella stick you've ever seen! Just about 12\" of thick cut mozzarella cheese, breaded and fried until molten. Served with marinara sauce.",
+     "price": "$8.99",
+     "img": "7/item-400000049379389107_1737436147.jpg"
+    },
+    {
+     "name": "Beef Tallow French Fries",
+     "price": "$6.25",
+     "img": "3/item-400000000324609203_1683604747.jpg"
+    },
+    {
+     "name": "Beef Tallow Spicy Fries",
+     "desc": "Golden, crispy fries hand tossed in our slightly spicy cajun seasoning.",
+     "price": "$6.75",
+     "img": "7/item-400000000324609207_1683255697.jpg"
+    },
+    {
+     "name": "Beef Tallow Truffle Parmesan Fries",
+     "desc": "Golden, crispy French fries hand tossed in truffle oil, oregano & parmesan cheese.",
+     "price": "$8.49"
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "desc": "Breaded mozzarella cheese sticks deep fried and served with a side of marinara sauce.",
+     "price": "$8.49",
+     "img": "1/item-400000000324609211_1683604599.jpg"
+    },
+    {
+     "name": "Onion Rings",
+     "price": "$5.99",
+     "img": "3/item-400000000324609213_1683591441.jpg"
+    },
+    {
+     "name": "Crispy Ravioli",
+     "desc": "Breaded cheese ravioli deep fried to a crispy golden brown, served with a side of marinara sauce.",
+     "price": "$7.49",
+     "img": "7/item-400000000324609227_1683604650.jpg"
+    },
+    {
+     "name": "Meatball Appetizer",
+     "desc": "Fresh cooked 3 meatballs in marinara sauce and topped with melted mozzarella cheese.",
+     "price": "$12.49"
+    },
+    {
+     "name": "Garlic Bread with Marinara",
+     "desc": "Toasted sub roll topped with olive oil, garlic, and Italian seasoning.",
+     "price": "$4.99"
+    },
+    {
+     "name": "Cheesy Garlic Bread",
+     "desc": "Toasted sub roll topped with olive oil, garlic, Italian seasoning and melted cheese.",
+     "price": "$5.99"
+    },
+    {
+     "name": "Side of Grilled Chicken",
+     "desc": "A side of our freshly marinated grilled chicken.",
+     "price": "$7.99"
+    },
+    {
+     "name": "Side of House-Marinated Steak Tips",
+     "desc": "Side of our marinated, grilled steak tips.",
+     "price": "$11.99",
+     "img": "3/item-400000001219161033_1683513646.jpg"
+    },
+    {
+     "name": "Rice Pilaf",
+     "desc": "Homemade rice pilaf.",
+     "price": "$4.99"
+    }
+   ]
+  },
+  {
+   "cat": "Jumbo Chicken Tenders",
+   "items": [
+    {
+     "name": "Jumbo Chicken Tenders",
+     "desc": "Fresh, jumbo chicken tenders, hand breaded and fried to order. Served with sweet n' sour or your choice of dipping sauce.",
+     "sizes": [
+      [
+       "4 pc",
+       "$12.99"
+      ],
+      [
+       "6 pc",
+       "$15.99"
+      ],
+      [
+       "10 pc",
+       "$23.99"
+      ]
+     ],
+     "img": "1/item-400000000324609231_1683604930.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Wings",
+   "items": [
+    {
+     "name": "10 Wings",
+     "desc": "Fresh chicken wings braised then deep fried to a golden brown, tossed with your choice of sauce.",
+     "price": "$14.99"
+    },
+    {
+     "name": "20 Wings",
+     "desc": "Jumbo sized, fresh party wings deep fried and tossed in your choice of sauce.",
+     "price": "$23.99"
+    }
+   ]
+  },
+  {
+   "cat": "Loaded Fries",
+   "items": [
+    {
+     "name": "Buffalo Chicken Loaded Fries",
+     "desc": "French fries, buffalo chicken tenders, bacon, melted mozzarella cheese & a blue cheese drizzle.",
+     "price": "$16.99",
+     "img": "0/item-400000029073926600_1683302024.jpg"
+    },
+    {
+     "name": "BBQ Chicken Bacon Loaded Fries",
+     "desc": "BBQ sauce, fried chicken, bacon, melted cheese, on a bed of French fries.",
+     "price": "$16.99"
+    },
+    {
+     "name": "Nashville Hot Chicken Loaded Fries",
+     "desc": "French fries, chicken fingers and bacon tossed in Nashville hot sauce, with melted mozzarella cheese, a spicy mayo drizzle & pickles.",
+     "price": "$16.99",
+     "img": "0/item-400000029073910390_1683256341.jpg"
+    },
+    {
+     "name": "Chicken Bacon Ranch Loaded Fries",
+     "desc": "French fries, chicken tenders, bacon, melted cheese & ranch drizzle.",
+     "price": "$16.99",
+     "img": "9/item-400000029097296439_1683303065.jpg"
+    },
+    {
+     "name": "Loaded Bacon Cheeseburger Fries",
+     "desc": "Bacon, hamburger, melted mozzarella cheese and topped with chopped tomatoes, pickles, onions and a special burger sauce!",
+     "price": "$17.99",
+     "img": "7/item-400000032394226107_1689622488.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Cheesesteaks",
+   "items": [
+    {
+     "name": "Cheesesteak & Onions on Seeded Roll",
+     "desc": "Shaved ribeye steak, Cooper Sharp American cheese & white onions on a homemade seeded sourdough sub roll.",
+     "price": "$16.99",
+     "img": "9/item-400000062888932159_1771534352.jpg"
+    },
+    {
+     "name": "Steak & Cheese (Non-Seeded Roll)",
+     "desc": "Shaved steak & Cooper Sharp American cheese on a sub roll with your choice of toppings.",
+     "price": "$15.99",
+     "img": "7/item-400000000324581937_1683254019.jpg"
+    },
+    {
+     "name": "Steak Bomb Sub",
+     "desc": "Shaved steak, Cooper Sharp American cheese, pepperoni, salami, grilled peppers, grilled onions, grilled mushrooms, on a sub roll.",
+     "price": "$16.99",
+     "img": "1/item-400000000324581941_1683254177.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Burgers & Chicken Sandwiches",
+   "items": [
+    {
+     "name": "Nashville Hot Chicken Sandwich",
+     "desc": "Fresh hand-breaded chicken tenders in Nashville hot sauce, on a toasted brioche bun with house mayo, lettuce and pickles.",
+     "price": "$12.99",
+     "img": "3/item-400000010074797973_1683513770.jpg"
+    },
+    {
+     "name": "Crispy Buffalo Chicken Sandwich",
+     "desc": "Fried buffalo chicken, lettuce, pickles & ranch on a brioche bun.",
+     "price": "$11.99",
+     "img": "7/item-400000034188740217_1695832633.jpg"
+    },
+    {
+     "name": "Crispy Chicken Sandwich",
+     "desc": "Fresh crispy chicken tenders, on a toasted brioche bun, with house mayo, lettuce and pickles.",
+     "price": "$11.99",
+     "img": "5/item-400000010074797975_1683513741.jpg"
+    },
+    {
+     "name": "Basic Burger",
+     "desc": "Fresh, juicy ground beef burger patty with lettuce, tomato, onion and pickle.",
+     "price": "$10.99",
+     "img": "2/item-400000016537295532_1682896199.jpg"
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "Fresh, juicy ground beef burger patty with American cheese, lettuce, tomato, onion & pickle.",
+     "price": "$11.49"
+    },
+    {
+     "name": "Bacon Cheeseburger",
+     "desc": "Fresh, juicy ground beef burger patty with bacon, American cheese, lettuce, tomato, onion, & pickles.",
+     "price": "$12.49"
+    },
+    {
+     "name": "Diablo Burger",
+     "desc": "Fresh, juicy ground beef burger patty with bacon, American cheese, jalapeño, hot sauce, lettuce, tomato & onion.",
+     "price": "$12.99",
+     "img": "4/item-400000016537343264_1683604796.jpg"
+    },
+    {
+     "name": "Burger Bomb",
+     "desc": "Fresh, juicy ground beef patty with bacon, pepperoni, salami, American cheese, grilled onions, peppers & mushrooms.",
+     "price": "$13.99"
+    },
+    {
+     "name": "Caprese Burger",
+     "desc": "Fresh, juicy ground beef patty with fresh mozzarella, tomato, pesto, lettuce & balsamic drizzle.",
+     "price": "$11.99"
+    },
+    {
+     "name": "Rosemary Chicken Sandwich",
+     "desc": "Marinated grilled chicken, with a rosemary aioli sauce, arugula, tomato and provolone cheese on a house made sandwich roll.",
+     "price": "$13.95"
+    },
+    {
+     "name": "Vodka Chicken Parm Sandwich",
+     "price": "$13.99",
+     "img": "7/item-400000037868120997_1705505631.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Hot Subs",
+   "items": [
+    {
+     "name": "Meatball Sub",
+     "desc": "Homemade meatballs, marinara sauce, toasted with provolone cheese, mozzarella cheese, olive oil, & parmesan.",
+     "price": "$12.49",
+     "img": "0/item-400000000324576320_1626566340.jpg"
+    },
+    {
+     "name": "Crispy Chicken Caesar Sub",
+     "desc": "Hand-breaded crispy chicken tenders mixed in our Caesar salad on a toasted sub roll.",
+     "price": "$13.95",
+     "img": "2/item-400000035251163262_1697487850.jpg"
+    },
+    {
+     "name": "Chicken Parmesan Sub",
+     "desc": "Hand-breaded chicken tenders, marinara sauce, toasted with provolone cheese, mozzarella cheese, olive oil, & parmesan.",
+     "price": "$12.99"
+    },
+    {
+     "name": "Neapolitan Chicken Sub",
+     "desc": "Prosciutto, fresh mozzarella, fried chicken tenders, roasted red peppers, oregano & oil.",
+     "price": "$13.99"
+    },
+    {
+     "name": "Chicken Caprese Sub",
+     "desc": "Hand-breaded chicken tenders, fresh mozzarella, basil, tomatoes, olive oil, balsamic glaze & oregano.",
+     "price": "$12.99"
+    },
+    {
+     "name": "Eggplant Parmesan Sub",
+     "desc": "Fried eggplant, marinara sauce, toasted with provolone cheese, mozzarella cheese topped with olive oil, oregano & parmesan.",
+     "price": "$10.99",
+     "img": "4/item-400000000324576334_1683515232.jpg"
+    },
+    {
+     "name": "Chicken Finger Sub",
+     "desc": "Fresh, hand breaded jumbo chicken tenders perfectly fried and on a sub roll with your choice of toppings.",
+     "price": "$11.99"
+    },
+    {
+     "name": "Buffalo Chicken Finger Sub",
+     "desc": "Hand-breaded chicken tenders fried and tossed in buffalo sauce in a sub roll with lettuce, tomatoes, and blue cheese.",
+     "price": "$11.99",
+     "img": "8/item-400000000324576338_1683516259.jpg"
+    },
+    {
+     "name": "Steak Tip Sub",
+     "desc": "Marinated and grilled steak tips, plain or with your choice of toppings, in a sub roll.",
+     "price": "$14.99"
+    },
+    {
+     "name": "Grilled Chicken Sub",
+     "desc": "Marinated grilled chicken tenders, with your choice of toppings in a sub roll.",
+     "price": "$11.99"
+    }
+   ]
+  },
+  {
+   "cat": "Chicken Philly",
+   "items": [
+    {
+     "name": "Chicken Philly Sub",
+     "desc": "Shaved grilled chicken & American cheese.",
+     "price": "$11.99"
+    },
+    {
+     "name": "Buffalo Chicken Philly Sub",
+     "desc": "Shaved grilled chicken with buffalo sauce, grilled onions and American cheese.",
+     "price": "$12.99"
+    },
+    {
+     "name": "Chicken Stir Fry Philly Sub",
+     "desc": "Shaved grilled chicken with grilled onions, mushrooms, green peppers and American cheese.",
+     "price": "$12.49"
+    },
+    {
+     "name": "BBQ Chicken Philly Sub",
+     "desc": "Shaved, grilled chicken with BBQ sauce, grilled onions and American cheese.",
+     "price": "$12.99"
+    },
+    {
+     "name": "Chicken Philly Bomb Sub",
+     "desc": "Shaved, marinated grilled chicken with pepperoni, salami, grilled onions, mushrooms, green peppers and American cheese.",
+     "price": "$13.99"
+    }
+   ]
+  },
+  {
+   "cat": "Cold Subs",
+   "items": [
+    {
+     "name": "Italian Sub",
+     "desc": "We use only the best, Boar's Head brand Italian cold cuts & provolone cheese with your choice of toppings on a sub roll.",
+     "price": "$12.99",
+     "img": "6/item-400000000324565286_1683518554.jpg"
+    },
+    {
+     "name": "Chopped Italian Sub",
+     "desc": "Chopped Italian meats (capicola, salami, mortadella, ham), provolone cheese, chopped lettuce, tomatoes, pickles, onions, banana peppers, Italian oil and oregano.",
+     "price": "$13.99",
+     "img": "7/item-400000042028862957_1717531388.png"
+    },
+    {
+     "name": "Caprese Sub",
+     "desc": "Fresh mozzarella, tomatoes, fresh basil, extra virgin olive oil & balsamic glaze on a 12\" sub roll.",
+     "price": "$10.99"
+    },
+    {
+     "name": "Parma Sub",
+     "price": "$12.99"
+    },
+    {
+     "name": "Ham & Cheese Sub",
+     "price": "$10.99"
+    },
+    {
+     "name": "Veggie Sub",
+     "price": "$9.99"
+    }
+   ]
+  },
+  {
+   "cat": "Wraps",
+   "items": [
+    {
+     "name": "The Emile Wrap",
+     "desc": "Crispy fried chicken, mozzarella sticks, lettuce, BBQ sauce, honey mustard & a ranch drizzle!",
+     "price": "$13.99",
+     "img": "7/item-400000036889918377_1702409478.jpg"
+    },
+    {
+     "name": "Buffalo Big Back Wrap",
+     "desc": "Crispy buffalo chicken tenders stuffed with mozzarella sticks, fries, bacon, and melty mozzarella, wrapped, grilled, and finished with a ranch drizzle.",
+     "price": "$15.99"
+    },
+    {
+     "name": "Grilled Chicken Caesar Wrap",
+     "desc": "Romaine lettuce, house-made croutons, parmesan cheese, Caesar dressing, grilled chicken on a white or wheat wrap.",
+     "price": "$12.99",
+     "img": "0/item-400000000324578900_1683908836.jpg"
+    },
+    {
+     "name": "Crispy Buffalo Chicken Wrap",
+     "desc": "Our crispy buffalo chicken tenders, romaine lettuce, tomatoes, and blue cheese dressing.",
+     "price": "$13.99"
+    },
+    {
+     "name": "Crispy Chicken Caesar Wrap",
+     "price": "$13.99"
+    },
+    {
+     "name": "Steak Tip Caesar Wrap",
+     "price": "$14.99",
+     "img": "4/item-400000036890574564_1702411049.jpg"
+    },
+    {
+     "name": "Mediterranean Chicken Wrap",
+     "desc": "Grilled chicken and our Greek salad (mixed veggies, feta, black olives and onions) with house dressing on a wrap!",
+     "price": "$13.99",
+     "img": "7/item-400000000324580167_1683255899.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "items": [
+    {
+     "name": "Garden Salad",
+     "price": "$9.99"
+    },
+    {
+     "name": "Caesar Salad",
+     "desc": "Chopped romaine lettuce, homemade croutons, parmesan cheese & a side of housemade Caesar dressing.",
+     "price": "$9.99"
+    },
+    {
+     "name": "Greek Salad",
+     "price": "$10.99"
+    },
+    {
+     "name": "Caprese Salad",
+     "desc": "Mozzarella cheese, basil, & tomatoes on a bed of fresh greens, drizzled with olive oil, balsamic glaze & oregano.",
+     "price": "$11.49",
+     "img": "6/item-400000000324616286_1683514981.jpg"
+    },
+    {
+     "name": "Grilled Chicken Salad",
+     "desc": "Marinated grilled chicken, on top of our garden salad & a side of your choice of dressing.",
+     "price": "$12.99"
+    },
+    {
+     "name": "Grilled Chicken Caesar Salad",
+     "desc": "Marinated grilled chicken, on top of our Caesar salad with a side of homemade Caesar dressing.",
+     "price": "$12.99"
+    },
+    {
+     "name": "Grilled Chicken Feta Salad",
+     "desc": "Greek salad with marinated grilled chicken on top and a side of housemade creamy Greek dressing.",
+     "price": "$13.99"
+    },
+    {
+     "name": "Chicken Finger Salad",
+     "desc": "Crispy, hand-breaded chicken tenders, on top of a garden salad & a side of your choice of dressing.",
+     "price": "$13.99"
+    },
+    {
+     "name": "Buffalo Chicken Finger Salad",
+     "desc": "Crispy, hand-breaded buffalo chicken tenders, on top of a garden salad with your choice of dressing on the side.",
+     "price": "$13.99",
+     "img": "4/item-400000000324616284_1683590237.jpg"
+    },
+    {
+     "name": "Crispy Chicken Caesar Salad",
+     "price": "$13.99"
+    },
+    {
+     "name": "Steak Tip Salad",
+     "desc": "Grilled marinated steak on top of our garden salad & your choice of dressing on the side.",
+     "price": "$16.99"
+    },
+    {
+     "name": "Steak Tip Caesar Salad",
+     "price": "$16.99"
+    }
+   ]
+  },
+  {
+   "cat": "Dinners",
+   "items": [
+    {
+     "name": "Chicken Finger Dinner",
+     "desc": "3 hand-breaded jumbo chicken tenders, French fries & sweet n' sour sauce.",
+     "price": "$14.99",
+     "img": "2/item-400000000324654422_1683603784.jpg"
+    },
+    {
+     "name": "Steak Tip Dinner",
+     "desc": "Marinated grilled sirloin tips with your choice of rice or French fries.",
+     "price": "$18.95",
+     "img": "4/item-400000000324654424_1683604276.jpg"
+    },
+    {
+     "name": "Grilled Chicken Stir-Fry Dinner",
+     "desc": "Grilled chicken, grilled mushrooms, onions & peppers served over your choice of rice or French fries.",
+     "price": "$14.99",
+     "img": "6/item-400000000324654426_1683605035.jpg"
+    },
+    {
+     "name": "Chicken Teriyaki Dinner",
+     "price": "$14.99"
+    },
+    {
+     "name": "Ziti with Sauce & Cheese",
+     "price": "$9.99"
+    },
+    {
+     "name": "Ziti with Meatballs & Cheese",
+     "price": "$13.99"
+    },
+    {
+     "name": "Chicken Parm with Ziti",
+     "price": "$15.99"
+    },
+    {
+     "name": "Eggplant Parm with Ziti",
+     "price": "$12.99"
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "items": [
+    {
+     "name": "Calzone",
+     "sizes": [
+      [
+       "12\"",
+       "$8.99"
+      ],
+      [
+       "16\"",
+       "$13.99"
+      ]
+     ]
+    },
+    {
+     "name": "Little Italy Calzone",
+     "desc": "Ham, capicola, salami, mozzarella, red onions, tomatoes, cherry peppers, provolone & Italian dressing.",
+     "sizes": [
+      [
+       "12\"",
+       "$12.99"
+      ]
+     ]
+    },
+    {
+     "name": "Steak & Cheese Calzone",
+     "sizes": [
+      [
+       "12\"",
+       "$12.99"
+      ],
+      [
+       "16\"",
+       "$16.99"
+      ]
+     ]
+    },
+    {
+     "name": "Spinach Tomato Feta Calzone",
+     "desc": "Spinach, tomato, feta, and mozzarella.",
+     "sizes": [
+      [
+       "12\"",
+       "$11.99"
+      ],
+      [
+       "16\"",
+       "$15.49"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Parmesan Calzone",
+     "desc": "Fried chicken, tomato sauce, basil, parmesan, mozzarella.",
+     "sizes": [
+      [
+       "12\"",
+       "$12.99"
+      ],
+      [
+       "16\"",
+       "$16.99"
+      ]
+     ]
+    },
+    {
+     "name": "Buffalo Chicken Calzone",
+     "desc": "Fried chicken, buffalo sauce, mozzarella & blue cheese.",
+     "sizes": [
+      [
+       "12\"",
+       "$12.99"
+      ],
+      [
+       "16\"",
+       "$16.49"
+      ]
+     ]
+    },
+    {
+     "name": "Steak Bomb Calzone",
+     "desc": "Shaved steak, pepperoni, peppers, onions, mushrooms, and mozzarella.",
+     "sizes": [
+      [
+       "12\"",
+       "$13.99"
+      ],
+      [
+       "16\"",
+       "$18.49"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Desserts",
+   "items": [
+    {
+     "name": "Tiramisu",
+     "desc": "Traditional coffee-flavored Italian dessert with cocoa powder on top!",
+     "price": "$5.99",
+     "img": "0/item-400000000380078200_1683604063.jpg"
+    },
+    {
+     "name": "Vanilla Tres Leches Cake",
+     "desc": "Homemade fluffy sponge cake soaked in three sweet milks for a rich, creamy finish!",
+     "price": "$5.99"
+    },
+    {
+     "name": "Chocolate Cake",
+     "desc": "3 layer chocolate cake.",
+     "price": "$4.99",
+     "img": "4/item-400000000380078044_1683257079.jpg"
+    },
+    {
+     "name": "Red Velvet Cake",
+     "price": "$4.99",
+     "img": "6/item-400000000380078046_1683301434.jpg"
+    },
+    {
+     "name": "Cheesecake",
+     "desc": "A classic slice of cheesecake.",
+     "price": "$3.99",
+     "img": "8/item-400000000380078048_1683306333.jpg"
+    },
+    {
+     "name": "Fudge Brownie",
+     "desc": "Freshly baked.",
+     "price": "$4.50",
+     "img": "4/item-400000000380078204_1683307551.jpg"
+    },
+    {
+     "name": "Oreo Cookie Brownie",
+     "price": "$5.99"
+    },
+    {
+     "name": "Chocolate Chip Cookie",
+     "desc": "Freshly baked.",
+     "price": "$3.99",
+     "img": "6/item-400000000380078206_1683256555.jpg"
+    }
+   ]
+  },
+  {
+   "cat": "Catering",
+   "items": [
+    {
+     "name": "Garden Salad",
+     "sizes": [
+      [
+       "Half pan",
+       "$50.00"
+      ],
+      [
+       "Full pan",
+       "$85.00"
+      ]
+     ]
+    },
+    {
+     "name": "Caesar Salad",
+     "sizes": [
+      [
+       "Half pan",
+       "$50.00"
+      ],
+      [
+       "Full pan",
+       "$75.00"
+      ]
+     ]
+    },
+    {
+     "name": "Greek Salad",
+     "sizes": [
+      [
+       "Half pan",
+       "$55.00"
+      ],
+      [
+       "Full pan",
+       "$85.00"
+      ]
+     ]
+    },
+    {
+     "name": "Baked Ziti with Sauce & Garlic Bread",
+     "sizes": [
+      [
+       "Half pan",
+       "$55.00"
+      ],
+      [
+       "Full pan",
+       "$80.00"
+      ]
+     ]
+    },
+    {
+     "name": "Meatballs & Garlic Bread",
+     "desc": "Full pan includes 45 meatballs.",
+     "sizes": [
+      [
+       "Half pan",
+       "$75.00"
+      ],
+      [
+       "Full pan",
+       "$100.00"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Fingers (24 pcs) & Fries",
+     "sizes": [
+      [
+       "Half pan",
+       "$75.00"
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Parmesan with Ziti & Garlic Bread",
+     "sizes": [
+      [
+       "Half pan",
+       "$80.00"
+      ],
+      [
+       "Full pan",
+       "$100.00"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Chips & Drinks",
+   "items": [
+    {
+     "name": "Large Chips",
+     "desc": "Plain, BBQ, or Sour Cream and Onion.",
+     "price": "$3.99"
+    },
+    {
+     "name": "20 oz Soda",
+     "price": "$2.75"
+    },
+    {
+     "name": "Gatorade",
+     "desc": "If we run out of one flavor, we will give you the other.",
+     "price": "$2.99"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "Footer reads \"© Crush Pizza\", another business's name.",
+  "Every Order Now button opens the same location picker; the Hudson and Derry ordering pages are never linked directly.",
+  "Join Our Team opens a \"Coming Soon\" page that still contains Wix sample text; there is no way to apply.",
+  "The homepage has no address, hours, phone number or description; the logo and one photo are the only content.",
+  "The menu page is text only, although 70+ of the shop's own food photos already exist in its online ordering menu."
+ ],
+ "questions": [
+  "Boss Hog Sicilian is listed twice on the current menu ($22.00 and $27.00) and at $24.99 in online ordering. Which price is right?",
+  "Several menu prices differ from online ordering (Hudson): Gluten Friendly 12\" $14.49 vs $12.49; Pesto Blast $14.95 vs $12.99; Steak Tip Salad $16.99 vs $15.99; Crispy Ravioli $7.49 vs $8.49; Beach Pizza $18.99 vs $20.99; Supreme and Chicken Pesto Sicilian $22.00 vs $24.00; Chicken Parm Sicilian $29.89 vs $22.99; several catering pans. Should the website show the online-ordering prices?",
+  "Online ordering lists the Derry shop as 9 Crystal Ave, but its web address says 15-crystal-ave. Confirm 9 Crystal Ave.",
+  "Where should job applications go (an email address for a manager)?",
+  "Do both shops deliver, and is there a delivery area or minimum to show?",
+  "Can we have the original photo files from your Toast menu and the Sicilian tray photo for the new site?"
+ ],
+ "style": "ny-street",
+ "fav_title": "Made from scratch",
+ "menu_eyebrow": "NY pizza · Sicilian · subs · wings",
+ "loc_eyebrow": "Two shops",
+ "loc_title": "Hudson & Derry"
+}
