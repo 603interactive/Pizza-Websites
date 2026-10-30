@@ -2,7 +2,7 @@
 import sys, json, asyncio, re
 from pathlib import Path
 from playwright.async_api import async_playwright
-ROOT = Path('/home/claude/pizza-sites')
+ROOT = Path(__file__).resolve().parent.parent
 CHECK_JS = re.search(r'CHECK_JS = r"""(.*?)"""', (ROOT / 'engine' / 'qa.py').read_text(), re.S).group(1).replace(".closest('.hero,.ticker,.concept,[hidden],.sr')", ".closest('[hidden],.sr,.ribbon,svg')")
 async def feat_joeys(pg, r):
     await pg.click('#f-count label:nth-child(4)'); await pg.click('#f-flavor label:nth-child(2)')
@@ -37,11 +37,28 @@ async def feat_charlestown(pg, r):
     await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-empty').hidden"); await pg.fill('#m-q', '')
     await pg.fill('#cf input[name=name]', 'Test'); await pg.fill('#cf input[name=phone]', '6035551212'); await pg.click('#cf button[type=submit]'); await pg.wait_for_timeout(200)
     r['formOk'] = await pg.evaluate("!document.querySelector('#cf-ok').hidden")
-FEATS = {'charlestown-house-of-pizza': feat_charlestown, 'uncle-joeys': feat_joeys, 'golden-acres-pizza-market': feat_acres, 'tremont-house-of-pizza': feat_tremont}
+async def feat_farmington(pg, r):
+    await pg.click('#st-size button:nth-child(1)')
+    for n in ('Pepperoni', 'Sausage'): await pg.click(f'#st-meat button[data-n="{n}"]')
+    r['med2'] = await pg.inner_text('#st-total'); r['tip'] = await pg.inner_text('#st-tip')
+    await pg.click('#st-size button:nth-child(2)'); r['lg2'] = await pg.inner_text('#st-total')
+    await pg.click('#st-specs .sp:nth-child(2) button'); r['loaded'] = await pg.evaluate("document.querySelectorAll('.tp[aria-pressed=true]').length"); r['tipMeat'] = await pg.inner_text('#st-tip')
+    await pg.click('#st-clear'); r['cleared'] = await pg.inner_text('#st-total')
+    await pg.click('#m-tabs button:nth-child(4)'); r['subs'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
+    await pg.fill('#m-q', 'gyro'); await pg.wait_for_timeout(150); r['gyro'] = await pg.inner_text('#m-count')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-empty').hidden"); await pg.fill('#m-q', '')
+async def feat_gilford(pg, r):
+    await pg.fill('#dd-sub', '40'); await pg.wait_for_timeout(100)
+    r['ours'] = await pg.inner_text('#dd-ours'); r['bar'] = await pg.inner_text('#dd-save')
+    await pg.fill('#dd-app', '9.5'); await pg.wait_for_timeout(100); r['save'] = await pg.inner_text('#dd-save'); r['verdict'] = await pg.inner_text('#dd-verdict')
+    await pg.click('#m-tabs button:nth-child(4)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
+    await pg.fill('#m-q', 'steak'); await pg.wait_for_timeout(150); r['steak'] = await pg.inner_text('#m-count')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-empty').hidden"); await pg.fill('#m-q', '')
+FEATS = {'farmington-house-of-pizza': feat_farmington, 'gilford-house-of-pizza': feat_gilford, 'charlestown-house-of-pizza': feat_charlestown, 'uncle-joeys': feat_joeys, 'golden-acres-pizza-market': feat_acres, 'tremont-house-of-pizza': feat_tremont}
 async def main(slug):
     feat = FEATS[slug]; res = {}
     async with async_playwright() as p:
-        b = await p.chromium.launch(executable_path='/opt/pw-browsers/chromium-1243/chrome-linux64/chrome')
+        b = await p.chromium.launch()
         for src, f in (('preview', ROOT / 'dist' / slug / 'preview.html'), ('site', ROOT / 'dist' / slug / 'site' / 'index.html')):
             for name, vp, mob in (('phone', {'width': 390, 'height': 844}, True), ('desktop', {'width': 1440, 'height': 900}, False)):
                 ctx = await b.new_context(viewport=vp, is_mobile=mob, has_touch=mob); pg = await ctx.new_page(); errs = []; failed = []

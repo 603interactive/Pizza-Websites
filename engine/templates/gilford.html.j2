@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#0B0B0B">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#desk">Skip to the Delivery Desk</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="{{ name }} home"><img src="{{ img('logo.jpg') }}" width="500" height="482" alt="Gilford House of Pizza, GHOP"></a>
+  <nav aria-label="Main"><a href="#desk">Delivery</a><a href="#specials">Specials</a><a href="#menu">Menu</a><a href="#visit">Hours</a></nav>
+  <a class="btn btn-sm" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a>
+</header>
+<main id="top">
+
+<section class="hero">
+  <div class="gk" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1>Hot from Rt&nbsp;11. <em>$4</em> to your door.</h1>
+      <p class="sub">A family-owned New England House of Pizza near Gilford Cinema 8, serving the Lakes Region since 2000. We pay our own drivers, so there are no app fees on top.</p>
+      <div class="cta"><a class="btn" href="tel:{{ loc.tel }}">Call to order</a><a class="btn btn-ghost" href="#desk">Do the delivery math</a></div>
+      <p class="mini">Delivery to Gilford and Laconia · Dine in · Take out</p>
+    </div>
+    <div class="seal" data-par><div class="seal-in" data-depth=".06"><img src="{{ img('logo.jpg') }}" width="500" height="482" alt="" fetchpriority="high"></div><span class="four" aria-hidden="true">$4<small>delivery</small></span></div>
+  </div>
+  <div class="belt ticker" aria-hidden="true">
+    <div class="row r1" data-slide="-.12">{% for c in menu %}<img src="{{ img(c.img) }}" width="900" height="506" alt="" loading="lazy">{% endfor %}</div>
+  </div>
+</section>
+
+<section class="desk sec" id="desk">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>The Delivery Desk. <em>See what the apps cost you.</em></h2>
+    <p class="lede">We deliver to Gilford and Laconia for a flat ${{ '%.0f' % delivery.fee }}, with our own drivers and no extra fees from services like DoorDash and Uber. Put in your order and your last app bill and see the difference.</p></div>
+    <div class="dd">
+      <form class="dd-in" onsubmit="return false">
+        <label for="dd-town">Delivering to</label>
+        <select id="dd-town"><option value="in">Gilford</option><option value="in">Laconia</option><option value="out">Somewhere else</option></select>
+        <label for="dd-sub">Your food order <small>(before tax)</small></label>
+        <div class="money"><span>$</span><input id="dd-sub" type="number" inputmode="decimal" min="0" step="0.01" value="30"></div>
+        <input class="range" id="dd-range" type="range" min="10" max="120" step="1" value="30" aria-label="Order size slider">
+        <label for="dd-app">What a delivery app added last time <small>(delivery + service fees)</small></label>
+        <div class="money"><span>$</span><input id="dd-app" type="number" inputmode="decimal" min="0" step="0.01" placeholder="e.g. 9.50"></div>
+      </form>
+      <div class="dd-out" aria-live="polite">
+        <div class="bill"><p class="bh">Gilford House of Pizza</p>
+          <dl><dt>Food</dt><dd id="dd-f">$30.00</dd><dt>NH meals tax (8.5%)</dt><dd id="dd-t">$2.55</dd><dt>Delivery, flat</dt><dd id="dd-d">$4.00</dd><dt>App or service fees</dt><dd>$0.00</dd></dl>
+          <p class="tot"><span>You pay</span><b id="dd-ours">$36.55</b></p></div>
+        <div class="vs"><p id="dd-verdict" class="verdict">Type what a delivery app charged you in fees, and we will show the difference.</p><p class="save"><span>Fees you keep</span><b id="dd-save">$0.00</b></p></div>
+        <a class="btn" href="tel:{{ loc.tel }}">Call {{ loc.phone }} to order</a>
+        <p class="fine">Delivery times are approximate, not guaranteed. Order early and please be patient. Tax rate and fee from the shop's current website.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="specials sec" id="specials">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Specials</p><h2>Good-deal <em>combos.</em></h2></div>
+    <ul class="sp">{% for s in specials %}<li><p class="p">{{ s.price }}</p><h3>{{ s.name }}</h3>{% if s.note %}<p class="n">{{ s.note }}</p>{% endif %}</li>{% endfor %}</ul>
+    <p class="fine">Add 8.5% NH meals tax to all prices. Prices subject to change without notice.</p>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The menu</p><h2>Pick a <em>section.</em></h2><p class="lede">Tap a photo, or search the whole menu.</p></div>
+    <div class="m-tools"><label class="sr" for="m-q">Search the menu</label><input id="m-q" type="search" placeholder="Search: gyro, steak, tiramisu…" autocomplete="off"><span id="m-count" class="sr" aria-live="polite"></span></div>
+    <div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" data-t="{{ slugify(c.cat) }}" aria-label="{{ c.cat }}" aria-selected="{{ 'true' if loop.first else 'false' }}"><img src="{{ img(c.img) }}" width="900" height="506" alt="" loading="lazy"></button>{% endfor %}</div>
+    {% for c in menu %}
+    <section class="m-panel" data-p="{{ slugify(c.cat) }}" {% if not loop.first %}hidden{% endif %}>
+      <h3>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+      <ul class="m-list">{% for it in c['items'] %}
+        <li data-s="{{ (it.name ~ ' ' ~ it.get('desc','')) | lower | e }}"><div class="m-t"><b>{{ it.name }}</b>{% if it.desc %}<small>{{ it.desc }}</small>{% endif %}</div><div class="m-pr">{% for p in it.prices %}<span>{% if c.head %}<i>{{ c.head[loop.index0] }}</i>{% endif %}{{ money(p) }}</span>{% endfor %}</div></li>{% endfor %}
+      </ul>
+    </section>{% endfor %}
+    <p id="m-empty" class="m-empty" hidden>Nothing on the menu matches that. Give us a call, we may still make it.</p>
+    <p class="fine">Add 8.5% NH meals tax to all prices. Prices subject to change without notice.</p>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Hours &amp; location</p><h2>Open every day, <em>all year.</em></h2></div>
+    <div class="v-grid">
+      <div class="season" data-season="winter"><p class="sn">Fall &amp; winter <small>Labor Day to Memorial Day weekend</small></p><span class="now" hidden>Now</span>
+        <ul>{% for r in winter %}<li data-dows="{{ r.dow|join(',') }}"><span>{{ r.label }}</span><b>{{ r.text }}</b></li>{% endfor %}</ul></div>
+      <div class="season" data-season="summer"><p class="sn">Spring &amp; summer <small>Memorial Day weekend to Labor Day</small></p><span class="now" hidden>Now</span>
+        <ul>{% for r in summer %}<li data-dows="{{ r.dow|join(',') }}"><span>{{ r.label }}</span><b>{{ r.text }}</b></li>{% endfor %}</ul></div>
+      <div class="find"><p class="kicker">Find us</p>
+        <p class="addr">9 Old Lake Shore Rd (Rt 11), Unit 4<br>Gilford, NH 03249</p><p class="near">Near Gilford Cinema 8, a short drive from Laconia and Weirs Beach.</p>
+        <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+        <div class="cta"><a class="btn" href="tel:{{ loc.tel }}">Call to order</a><a class="btn btn-light" href="{{ loc.maps }}" rel="noopener">Directions</a><a class="btn btn-light" href="{{ facebook }}" rel="noopener">Facebook</a></div></div>
+    </div>
+    <p class="story">Family owned and operated as a traditional New England “House of Pizza” since 2000. Under new management since May 2023, with new kitchen equipment and menu items, video menu boards, TVs and new point-of-sale systems.</p>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><span>© {{ year }} {{ name }} · 9 Old Lake Shore Rd, Gilford, NH</span><span>Menu items and prices subject to change.</span></div></footer>
+<div class="dock"><a class="btn" href="tel:{{ loc.tel }}">Call to order</a><a class="btn btn-light" href="#desk">$4 delivery</a></div>
+<script>
+(function(){var W={{ winter_json }},S={{ summer_json }};
+function ny(){var p=new Intl.DateTimeFormat('en-CA',{timeZone:'America/New_York',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()).split('-');return new Date(+p[0],+p[1]-1,+p[2]);}
+var t=ny(),y=t.getFullYear(),m=new Date(y,4,31);while(m.getDay()!==1)m.setDate(m.getDate()-1);var start=new Date(m);start.setDate(m.getDate()-2);
+var l=new Date(y,8,1);while(l.getDay()!==1)l.setDate(l.getDate()+1);
+var summer=t>=start&&t<l;window.__SEASON=summer?'summer':'winter';window.__HOURS__=summer?S:W;window.__DD={{ dd_json }};})();
+</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body>
+</html>

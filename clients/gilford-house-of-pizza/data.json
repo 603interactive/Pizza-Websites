@@ -1,0 +1,896 @@
+{
+ "slug": "gilford-house-of-pizza",
+ "name": "Gilford House of Pizza",
+ "short": "Gilford House of Pizza",
+ "domain": "https://gilfordhouseofpizza.com",
+ "tagline": "Family-owned House of Pizza in Gilford, NH since 2000. Pizza, subs, calzones, dinners and desserts, with $4 local delivery and no app fees.",
+ "seo_title": "Gilford House of Pizza (GHOP) | Pizza, Subs & $4 Local Delivery in Gilford, NH",
+ "seo_desc": "Gilford House of Pizza (GHOP), a family-owned New England House of Pizza near Gilford Cinema 8. Pizza, subs, calzones, pasta and dinners. $4 delivery to Gilford and Laconia, no app fees. Call (603) 528-7788.",
+ "locations": [
+  {
+   "id": "gilford",
+   "name": "Gilford",
+   "street": "9 Old Lake Shore Rd (Rt 11), Unit 4",
+   "city": "Gilford",
+   "region": "NH",
+   "postal": "03249",
+   "phone": "(603) 528-7788",
+   "tel": "+16035287788",
+   "hours": [
+    {
+     "dow": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "open": "11:00",
+     "close": "20:00"
+    },
+    {
+     "dow": [
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "dow": [
+      0
+     ],
+     "open": "12:00",
+     "close": "20:00"
+    }
+   ],
+   "hours_summer": [
+    {
+     "dow": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "dow": [
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "22:00"
+    },
+    {
+     "dow": [
+      0
+     ],
+     "open": "12:00",
+     "close": "21:00"
+    }
+   ],
+   "order": "tel:+16035287788",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Gilford+House+of+Pizza+9+Old+Lake+Shore+Rd+Gilford+NH+03249",
+   "geo": [
+    43.5594,
+    -71.4088
+   ]
+  }
+ ],
+ "order_any": "tel:+16035287788",
+ "facebook": "https://www.facebook.com/GilfordHouseOfPizza/",
+ "delivery": {
+  "fee": 4.0,
+  "zones": [
+   "Gilford",
+   "Laconia"
+  ],
+  "tax": 0.085
+ },
+ "specials": [
+  {
+   "name": "Two large cheese pizzas",
+   "price": "$21.99",
+   "note": ""
+  },
+  {
+   "name": "Two large one-topping pizzas",
+   "price": "$23.99",
+   "note": "Does not include premium toppings: anchovy, bacon, chicken, hamburger or steak."
+  },
+  {
+   "name": "Menu sub, fries and a can of soda",
+   "price": "Small $10.99 · Large $12.99",
+   "note": "Does not include extra cheese, meat, etc."
+  }
+ ],
+ "menu": [
+  {
+   "cat": "Pizza",
+   "img": "pizza.jpg",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Cheese",
+     "prices": [
+      10.99,
+      13.99
+     ]
+    },
+    {
+     "name": "White (garlic butter)",
+     "prices": [
+      10.99,
+      13.99
+     ]
+    },
+    {
+     "name": "Extra sauce",
+     "prices": [
+      1.0,
+      2.0
+     ]
+    },
+    {
+     "name": "Extra cheese",
+     "desc": "Pizza cheese, feta, provolone or swiss",
+     "prices": [
+      1.0,
+      2.0
+     ]
+    },
+    {
+     "name": "Fruit or vegetable toppings",
+     "desc": "Banana pepper, broccoli, eggplant, green pepper, jalapeño, mushroom, olive, onion, pickle, pineapple, spinach, tomato",
+     "prices": [
+      "$1.00 each",
+      "$2.00 each"
+     ]
+    },
+    {
+     "name": "Meat toppings",
+     "desc": "Ham, meatball, pepperoni, salami, sausage",
+     "prices": [
+      "$1.00 each",
+      "$2.00 each"
+     ]
+    },
+    {
+     "name": "Premium toppings",
+     "desc": "Anchovy, bacon, hamburger, chicken finger, grilled chicken, gyro, steak",
+     "prices": [
+      "$2.00 each",
+      "$4.00 each"
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Gourmet Pizza",
+   "img": "gourmet.jpg",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "BBQ Chicken",
+     "prices": [
+      15.99,
+      21.99
+     ]
+    },
+    {
+     "name": "Chicken Bacon Ranch",
+     "prices": [
+      15.99,
+      21.99
+     ]
+    },
+    {
+     "name": "Meat Lovers",
+     "desc": "Pepperoni, sausage, ham, hamburger, bacon",
+     "prices": [
+      15.99,
+      21.99
+     ]
+    },
+    {
+     "name": "Special",
+     "desc": "Pepperoni, sausage, onion, green pepper, mushroom",
+     "prices": [
+      15.99,
+      21.99
+     ]
+    },
+    {
+     "name": "Veggie Delight",
+     "desc": "Spinach, broccoli, onion, tomato, mushroom",
+     "prices": [
+      15.99,
+      21.99
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "prices": [
+      15.99,
+      21.99
+     ]
+    },
+    {
+     "name": "Greek Pizza",
+     "desc": "Spinach, feta, onion, tomato, olive",
+     "prices": [
+      15.99,
+      21.99
+     ]
+    },
+    {
+     "name": "Mexican",
+     "desc": "Chicken, onion, jalapeño, tomato, olive",
+     "prices": [
+      15.99,
+      21.99
+     ]
+    },
+    {
+     "name": "White Deluxe",
+     "desc": "White sauce, chicken, onion, broccoli, ham, tomato, bacon",
+     "prices": [
+      15.99,
+      21.99
+     ]
+    },
+    {
+     "name": "House Special",
+     "desc": "Pepperoni, sausage, onion, green pepper, mushroom, ham, bacon",
+     "prices": [
+      18.99,
+      27.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "img": "calzones.jpg",
+   "note": "Includes sauce and cheese only. Extra toppings are an extra cost: $3.25 small, $6.25 large; extra cheese $1.00 / $2.00.",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Ham, Sausage, Meatball, Italian, Pepperoni or Vegetable",
+     "prices": [
+      12.99,
+      17.99
+     ]
+    },
+    {
+     "name": "Buffalo Chicken, BBQ Chicken or Steak",
+     "prices": [
+      14.99,
+      20.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Hot & Cold Subs",
+   "img": "subs.jpg",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Tuna",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Ham & Cheese",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Genoa & Cheese",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Italian",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Veggie",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "BLT",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Spinach",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Roast Beef",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Triple Cold Cut",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Meatball",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Eggplant",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Veal Cutlet",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Chicken Finger",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Chicken Cutlet",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Gyro",
+     "desc": "One size",
+     "prices": [
+      8.25
+     ]
+    },
+    {
+     "name": "Sausage",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Chicken Stir Fry",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    },
+    {
+     "name": "Turkey",
+     "prices": [
+      9.5,
+      11.45
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Steak Subs",
+   "img": "steak.jpg",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Steak & Cheese",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    },
+    {
+     "name": "Pepper Steak",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    },
+    {
+     "name": "Onion Steak",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    },
+    {
+     "name": "Mushroom Steak",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    },
+    {
+     "name": "Steak Bomb",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    },
+    {
+     "name": "Steak Special",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    },
+    {
+     "name": "Pastrami",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Dinners",
+   "img": "dinners.jpg",
+   "note": "Served with salad and fries.",
+   "items": [
+    {
+     "name": "Grilled Chicken",
+     "prices": [
+      13.45
+     ]
+    },
+    {
+     "name": "Chicken Fingers",
+     "prices": [
+      13.45
+     ]
+    },
+    {
+     "name": "Wing Dings",
+     "prices": [
+      13.45
+     ]
+    },
+    {
+     "name": "Gyros Dinner",
+     "prices": [
+      13.45
+     ]
+    },
+    {
+     "name": "Chicken Gyros",
+     "prices": [
+      13.45
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "prices": [
+      12.45
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Pasta",
+   "img": "pasta.jpg",
+   "note": "Served with garlic bread and salad.",
+   "items": [
+    {
+     "name": "Spaghetti with Sauce",
+     "prices": [
+      10.5
+     ]
+    },
+    {
+     "name": "With Meatballs",
+     "prices": [
+      11.95
+     ]
+    },
+    {
+     "name": "With Chicken",
+     "prices": [
+      11.95
+     ]
+    },
+    {
+     "name": "With Veal",
+     "prices": [
+      11.95
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "img": "salads.jpg",
+   "note": "Served with Syrian bread. Dressings: balsamic, Greek, 1000 Island, parmesan, blue cheese, Italian, peppercorn, ranch, Caesar, oil & vinegar.",
+   "items": [
+    {
+     "name": "Garden",
+     "desc": "Cucumbers, green peppers, red onions, pepperoncini and tomato",
+     "prices": [
+      7.0
+     ]
+    },
+    {
+     "name": "Antipasto",
+     "desc": "Garden salad with ham, salami, turkey and provolone",
+     "prices": [
+      10.25
+     ]
+    },
+    {
+     "name": "Chef",
+     "desc": "Garden salad with ham, turkey, roast beef and American cheese",
+     "prices": [
+      10.25
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Garden salad with feta and olives",
+     "prices": [
+      10.25
+     ]
+    },
+    {
+     "name": "Caesar",
+     "desc": "Romaine with croutons and shaved parmesan",
+     "prices": [
+      10.25
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "prices": [
+      10.5
+     ]
+    },
+    {
+     "name": "Tuna",
+     "prices": [
+      10.5
+     ]
+    },
+    {
+     "name": "Greek or Caesar with Grilled Chicken or Tuna",
+     "prices": [
+      11.45
+     ]
+    },
+    {
+     "name": "Small side salad",
+     "prices": [
+      4.0
+     ]
+    },
+    {
+     "name": "Extra dressing",
+     "prices": [
+      1.0
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Side Orders",
+   "img": "sides.jpg",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Fries",
+     "prices": [
+      5.0,
+      6.45
+     ]
+    },
+    {
+     "name": "Onion Rings",
+     "prices": [
+      5.45,
+      7.45
+     ]
+    },
+    {
+     "name": "Chicken Fingers",
+     "prices": [
+      9.5,
+      13.45
+     ]
+    },
+    {
+     "name": "Buffalo Fingers",
+     "prices": [
+      9.95,
+      13.95
+     ]
+    },
+    {
+     "name": "BBQ Fingers",
+     "prices": [
+      9.95,
+      13.95
+     ]
+    },
+    {
+     "name": "Chicken Wings",
+     "prices": [
+      9.5,
+      13.45
+     ]
+    },
+    {
+     "name": "Buffalo Wings",
+     "prices": [
+      9.95,
+      13.95
+     ]
+    },
+    {
+     "name": "Fried Mushrooms",
+     "prices": [
+      9.5,
+      13.45
+     ]
+    },
+    {
+     "name": "Jalapeño Poppers",
+     "prices": [
+      9.5,
+      13.45
+     ]
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "prices": [
+      9.5,
+      13.45
+     ]
+    },
+    {
+     "name": "Cheese Bread Sticks",
+     "desc": "One size",
+     "prices": [
+      8.0
+     ]
+    },
+    {
+     "name": "Garlic Bread",
+     "desc": "One size",
+     "prices": [
+      4.0
+     ]
+    },
+    {
+     "name": "Garlic Bread with Cheese",
+     "desc": "One size",
+     "prices": [
+      5.0
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "One size",
+     "prices": [
+      5.0
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Desserts",
+   "img": "desserts.jpg",
+   "items": [
+    {
+     "name": "Baklava",
+     "prices": [
+      5.5
+     ]
+    },
+    {
+     "name": "Chocolate Mousse",
+     "prices": [
+      5.5
+     ]
+    },
+    {
+     "name": "Cheesecake",
+     "prices": [
+      5.5
+     ]
+    },
+    {
+     "name": "Turtle Cheesecake",
+     "prices": [
+      5.5
+     ]
+    },
+    {
+     "name": "Mississippi Mud Pie",
+     "prices": [
+      5.5
+     ]
+    },
+    {
+     "name": "Pumpkin Mousse Bar",
+     "prices": [
+      5.5
+     ]
+    },
+    {
+     "name": "Tiramisu",
+     "prices": [
+      5.5
+     ]
+    },
+    {
+     "name": "Whoopie Pies",
+     "desc": "Chocolate, chocolate chip, red velvet, maple and peanut butter",
+     "prices": [
+      3.0
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Drinks & Chips",
+   "img": "chips.jpg",
+   "items": [
+    {
+     "name": "Cans",
+     "prices": [
+      1.5
+     ]
+    },
+    {
+     "name": "20 oz. bottles",
+     "prices": [
+      2.5
+     ]
+    },
+    {
+     "name": "Powerade, juice, tea, milk",
+     "prices": [
+      3.0
+     ]
+    },
+    {
+     "name": "2 liter",
+     "prices": [
+      3.25
+     ]
+    },
+    {
+     "name": "Body Armor, Reign, Monster",
+     "prices": [
+      3.0
+     ]
+    },
+    {
+     "name": "Cape Cod or Kettle Brand chips",
+     "desc": "Small $2.29, large $5.29",
+     "prices": [
+      2.29
+     ]
+    },
+    {
+     "name": "Lay’s",
+     "prices": [
+      1.49
+     ]
+    },
+    {
+     "name": "Late July",
+     "prices": [
+      5.79
+     ]
+    },
+    {
+     "name": "Jack Link’s jerky",
+     "desc": "Small $2.49, large $8.87",
+     "prices": [
+      2.49
+     ]
+    },
+    {
+     "name": "Popcorn, pretzels and more",
+     "desc": "Hershey’s/Reese’s popcorn, OkeeDokee, Pirate Booty, Snyder’s, Hippeas and others in store",
+     "prices": [
+      "$1.49 and up"
+     ]
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "Site-builder template with leftovers: the header shows placeholder contact details \"555-555-5555\" and \"mymail@mailservice.com\" on every page.",
+  "The Menu page still has the template slider text (\"Breathtaking colors of our planet\", \"Faces of Humanity\", \"Sands of Time\", \"Beyond Boundaries\") and a row of unlabeled \"Button\" buttons.",
+  "Instagram and Yelp icons point to the generic instagram.com and yelp.com/biz/ pages instead of the shop's profiles; a WhatsApp link is wired to the landline.",
+  "No online ordering; \"L ike and Follow us\" typo in the footer; the address block repeats three times in the header; the Location page says \"Add your custom HTML here\" instead of a map.",
+  "The best content (flat $4 delivery with no DoorDash/Uber fees, specials, seasonal hours) is buried in plain text."
+ ],
+ "questions": [
+  "Is delivery still flat $4 to Gilford and Laconia only? Any minimum order, and what hours does delivery run? (The old site says times are approximate and not guaranteed.)",
+  "Do you want online ordering? There is none today, so every Order button calls (603) 528-7788. If you use or want a system (Toast, OrderCounter, Slice, etc.) send the link and we will wire it in.",
+  "Please confirm seasonal hours: fall/winter (Labor Day to Memorial Day weekend) Mon-Thu 11-8, Fri-Sat 11-9, Sun 12-8; spring/summer Mon-Thu 11-9, Fri-Sat 11-10, Sun 12-9.",
+  "Delivery fee comparison: the \"What did the app charge you?\" tool lets customers type their own app fee. Are you comfortable naming DoorDash and Uber, as your current site does?",
+  "Is tax 8.5% still correct? The calculator uses 8.5% (from the old site).",
+  "The photos on the current site are category tiles with the category name baked into the picture, and we do not know if they are your own photos. Can you send real photos of your food and the shop? The logo and tiles came from your current site.",
+  "What is your email address and your real Instagram and Yelp links? The old site shows placeholders.",
+  "The old chips list has stray prices ($10.00, $8) we could not match to an item; please check the drinks and chips prices."
+ ]
+}

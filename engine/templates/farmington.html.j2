@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#FFC21A">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#studio">Skip to the Pie Studio</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="{{ name }} home"><span class="mk">F</span><span><b>Farmington</b> <i>House of Pizza</i></span></a>
+  <nav aria-label="Main"><a href="#studio">Pie Studio</a><a href="#kitchen">Kitchen</a><a href="#menu">Menu</a><a href="#visit">Hours</a></nav>
+  <a class="btn btn-dark btn-sm" href="{{ order_any }}" rel="noopener">Order online</a>
+</header>
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1>Fresh, homemade <em>and fairly priced</em> on Main Street.</h1>
+      <p class="sub">Pizza, subs, calzones, gyros and house-made chicken tenders at 485 Main St, Farmington. Dine in, take out, or call us for delivery.</p>
+      <div class="cta"><a class="btn btn-dark" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-line" href="#studio">Price your own pie</a></div>
+      <p class="mini">Closed Mondays · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+    </div>
+    <div class="hero-pie" data-par>
+      <div class="plate" data-depth=".10"><img src="{{ img('pizza-whole.jpg') }}" width="704" height="666" alt="A whole house-special pizza with pepperoni, sausage, mushrooms and green peppers on a metal tray" fetchpriority="high"></div>
+      <img class="slice" data-depth="-.08" src="{{ img('pizza-slice.jpg') }}" width="1000" height="667" alt="A slice of Farmington House of Pizza's pizza, loaded with sausage, peppers and mushrooms" loading="lazy">
+      <span class="stamp" aria-hidden="true">Made<br>fresh<br>daily</span>
+    </div>
+  </div>
+  <div class="ticker" aria-hidden="true"><div><span>Pizza</span><span>Subs</span><span>Calzones</span><span>Gyros</span><span>Chicken tenders</span><span>Burgers</span><span>Baklava</span><span>Pasta dinners</span><span>Pizza</span><span>Subs</span><span>Calzones</span><span>Gyros</span><span>Chicken tenders</span><span>Burgers</span><span>Baklava</span><span>Pasta dinners</span></div></div>
+</section>
+
+<section class="studio sec" id="studio">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>The Pie Studio. <em>Build it, or buy it.</em></h2>
+    <p class="lede">Pick a size and toppings from your menu and watch the price. If one of our specialty pizzas gets you there for less, the Studio says so.</p></div>
+    <div class="st-grid">
+      <div class="st-ctl">
+        <div class="seg" role="radiogroup" aria-label="Size" id="st-size"></div>
+        <fieldset><legend>Vegetable toppings <small id="st-vp"></small></legend><div class="tops" id="st-veg"></div></fieldset>
+        <fieldset><legend>Meat toppings <small id="st-mp"></small></legend><div class="tops" id="st-meat"></div></fieldset>
+        <button type="button" class="btn btn-line btn-sm" id="st-clear">Clear toppings</button>
+      </div>
+      <aside class="ticket" aria-live="polite">
+        <p class="t-h">Your pie</p>
+        <ul id="st-lines"></ul>
+        <div class="t-tot"><span>Total <small>before 9% meals tax</small></span><b id="st-total">$0.00</b></div>
+        <div class="t-tip" id="st-tip" hidden></div>
+        <a class="btn" href="{{ order_any }}" rel="noopener">Order this online</a>
+        <p class="fine">Prices are from your menu: cheese pizza plus toppings. Add the toppings in the online order.</p>
+      </aside>
+    </div>
+    <div class="spec-row" id="st-specs"></div>
+  </div>
+</section>
+
+<section class="kitchen sec" id="kitchen">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">From the kitchen</p><h2>Real food, <em>real plates.</em></h2></div>
+    <ul class="shots">
+      <li class="s1"><img src="{{ img('tenders.jpg') }}" width="1000" height="666" alt="A plate of golden chicken tenders with french fries" loading="lazy"><p><b>Chicken tenders</b><span>100% made in-house, floured per order. Buckets for a crowd.</span></p></li>
+      <li class="s2"><img src="{{ img('club.jpg') }}" width="1000" height="666" alt="A turkey club sandwich with bacon, tomato and onion rings" loading="lazy"><p><b>Clubs</b><span>Turkey, BLT or ham, with fries.</span></p></li>
+      <li class="s3"><img src="{{ img('sub.jpg') }}" width="1000" height="666" alt="An Italian sub in a basket" loading="lazy"><p><b>Subs</b><span>24 kinds, small or large.</span></p></li>
+      <li class="s4"><img src="{{ img('salad.jpg') }}" width="1000" height="666" alt="An antipasto-style salad with rolled ham, shredded cheese and tomato" loading="lazy"><p><b>Salads</b><span>Greek, chef, antipasto and more.</span></p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The menu</p><h2>Everything, <em>readable.</em></h2><p class="lede">Rebuilt from your website menu so it fits a phone. Search or jump to a section.</p></div>
+    <div class="m-tools"><label class="sr" for="m-q">Search the menu</label><input id="m-q" type="search" placeholder="Search: gyro, steak, baklava…" autocomplete="off"><span id="m-count" class="sr" aria-live="polite"></span></div>
+    <div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" data-t="{{ slugify(c.cat) }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+    {% for c in menu %}
+    <section class="m-panel" data-p="{{ slugify(c.cat) }}" {% if not loop.first %}hidden{% endif %}>
+      <h3>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+      <ul class="m-list">{% for it in c['items'] %}
+        <li data-s="{{ (it.name ~ ' ' ~ it.get('desc','')) | lower | e }}"><div class="m-t"><b>{{ it.name }}</b>{% if it.desc %}<small>{{ it.desc }}</small>{% endif %}</div><div class="m-pr">{% for p in it.prices %}<span>{% if c.head %}<i>{{ c.head[loop.index0] }}</i>{% endif %}{{ money(p) }}</span>{% endfor %}</div></li>{% endfor %}
+      </ul>
+    </section>{% endfor %}
+    <p id="m-empty" class="m-empty" hidden>Nothing on the menu matches that. Call us, we may still make it.</p>
+    <p class="fine">{{ tax_note }}</p>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap v-grid">
+    <div class="v-card">
+      <p class="kicker">Hours</p><h2>Come hungry, <em>Tuesday to Sunday.</em></h2>
+      <ul class="hrs">{% for w in week %}<li data-dow="{{ w.dow }}"><span>{{ w.day }}</span><b>{{ w.text }}</b></li>{% endfor %}</ul>
+    </div>
+    <div class="v-card v-dark">
+      <p class="kicker">Find us</p>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <p class="fine">Delivery: call us after 4 PM. Dine in or take out any open hour.</p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-line2" href="{{ loc.maps }}" rel="noopener">Directions</a><a class="btn btn-line2" href="{{ facebook }}" rel="noopener">Facebook</a></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><span>© {{ year }} {{ name }} · 485 Main St, Farmington, NH</span><span>Menu items and prices subject to change.</span></div></footer>
+<div class="dock"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-line" href="tel:{{ loc.tel }}">Call</a><a class="btn btn-line" href="#studio">Build</a></div>
+<script>window.__HOURS__={{ hours_json }};window.__STUDIO={{ studio_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body>
+</html>

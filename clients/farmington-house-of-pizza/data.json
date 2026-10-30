@@ -1,0 +1,1053 @@
+{
+ "slug": "farmington-house-of-pizza",
+ "name": "Farmington House of Pizza",
+ "short": "Farmington House of Pizza",
+ "domain": "https://farmingtonhouseofpizza.com",
+ "tagline": "Fresh homemade pizza, subs, calzones and gyros at 485 Main St, Farmington, NH. Dine in, take out or delivery.",
+ "seo_title": "Farmington House of Pizza | Pizza, Subs, Calzones & Gyros in Farmington, NH",
+ "seo_desc": "Fresh homemade pizza, subs, calzones, burgers, gyros and house-made chicken tenders at 485 Main St, Farmington, NH. Build your pie with live prices, then order online or call (603) 755-9001.",
+ "locations": [
+  {
+   "id": "farmington",
+   "name": "Farmington",
+   "street": "485 Main St",
+   "city": "Farmington",
+   "region": "NH",
+   "postal": "03835",
+   "phone": "(603) 755-9001",
+   "tel": "+16037559001",
+   "hours": [
+    {
+     "dow": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "dow": [
+      0
+     ],
+     "open": "11:00",
+     "close": "20:00"
+    }
+   ],
+   "order": "https://farmingtonhop.ordering.ordercounter.com/Menu",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Farmington+House+of+Pizza+485+Main+St+Farmington+NH+03835",
+   "geo": [
+    43.3898,
+    -71.0645
+   ]
+  }
+ ],
+ "order_any": "https://farmingtonhop.ordering.ordercounter.com/Menu",
+ "facebook": "https://www.facebook.com/Farmington-House-of-Pizza-NH-1638425826390615/timeline",
+ "tax_note": "9% NH meals tax not included in listed prices. Prices subject to change without notice.",
+ "studio": {
+  "sizes": [
+   "Medium",
+   "Large"
+  ],
+  "cheese": [
+   7.95,
+   9.95
+  ],
+  "veg": {
+   "label": "Vegetable toppings",
+   "price": [
+    1.0,
+    1.5
+   ],
+   "items": [
+    "Onion",
+    "Pepper",
+    "Mushroom",
+    "Olives",
+    "Jalapeños",
+    "Broccoli",
+    "Pineapple"
+   ]
+  },
+  "meat": {
+   "label": "Meat toppings",
+   "price": [
+    1.5,
+    2.0
+   ],
+   "items": [
+    "Pepperoni",
+    "Sausage",
+    "Hamburger",
+    "Meatball",
+    "Bacon",
+    "Ham",
+    "Extra Cheese"
+   ]
+  },
+  "specials": [
+   {
+    "name": "Hawaiian",
+    "tops": [
+     "Ham",
+     "Pineapple"
+    ],
+    "price": [
+     9.95,
+     11.95
+    ]
+   },
+   {
+    "name": "Meat Lovers",
+    "tops": [
+     "Pepperoni",
+     "Sausage",
+     "Hamburger",
+     "Bacon"
+    ],
+    "price": [
+     13.5,
+     15.5
+    ]
+   },
+   {
+    "name": "House Special",
+    "tops": [
+     "Pepperoni",
+     "Sausage",
+     "Mushroom",
+     "Onion",
+     "Pepper",
+     "Hamburger"
+    ],
+    "price": [
+     13.5,
+     15.95
+    ]
+   }
+  ]
+ },
+ "menu": [
+  {
+   "cat": "Specialty Pizzas",
+   "head": [
+    "Medium",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Mediterranean",
+     "desc": "Onion, spinach, black olives, feta, fresh garlic, virgin olive oil",
+     "prices": [
+      12.5,
+      14.5
+     ]
+    },
+    {
+     "name": "Hawaiian",
+     "desc": "Ham & pineapple",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    },
+    {
+     "name": "Pizza Bianca",
+     "desc": "Mozzarella, cheddar, romano cheese & garlic",
+     "prices": [
+      9.95,
+      11.95
+     ]
+    },
+    {
+     "name": "Meat Lovers",
+     "desc": "Pepperoni, sausage, hamburg & bacon",
+     "prices": [
+      13.5,
+      15.5
+     ]
+    },
+    {
+     "name": "House Special",
+     "desc": "Pepperoni, sausage, mushrooms, onions, peppers & hamburg",
+     "prices": [
+      13.5,
+      15.95
+     ]
+    },
+    {
+     "name": "European Delight",
+     "desc": "Broccoli, spinach, tomatoes, over garlic and olive oil",
+     "prices": [
+      11.5,
+      13.5
+     ]
+    },
+    {
+     "name": "BBQ Grilled Chicken",
+     "desc": "Over BBQ sauce with blended cheeses",
+     "prices": [
+      11.95,
+      14.95
+     ]
+    },
+    {
+     "name": "Buffalo Grilled Chicken",
+     "desc": "Over Buffalo sauce with blended cheeses",
+     "prices": [
+      11.95,
+      14.95
+     ]
+    },
+    {
+     "name": "Athenian",
+     "desc": "Broccoli florets, tomatoes, feta over garlic and virgin olive oil",
+     "prices": [
+      11.5,
+      13.5
+     ]
+    },
+    {
+     "name": "Steak ’n Cheese",
+     "desc": "Fresh cut steak with cheese over virgin olive oil & garlic",
+     "prices": [
+      12.95,
+      15.5
+     ]
+    },
+    {
+     "name": "Vegetarian",
+     "desc": "Onions, peppers, mushrooms, tomatoes & olives",
+     "prices": [
+      10.5,
+      13.5
+     ]
+    },
+    {
+     "name": "Greek Pizza",
+     "desc": "Mozzarella, feta, olives, tomatoes over garlic & olive oil",
+     "prices": [
+      12.5,
+      14.5
+     ]
+    },
+    {
+     "name": "Gyros Pizza",
+     "desc": "Gyros, tomatoes, onions, side of tzatziki (cucumber sauce)",
+     "prices": [
+      12.5,
+      14.5
+     ]
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "desc": "Grilled chicken & broccoli over alfredo sauce",
+     "prices": [
+      12.5,
+      14.5
+     ]
+    },
+    {
+     "name": "BLT Pizza",
+     "desc": "Bacon, lettuce, tomatoes over chipotle sauce with feta",
+     "prices": [
+      12.5,
+      14.5
+     ]
+    },
+    {
+     "name": "Chicken Bacon Ranch",
+     "prices": [
+      14.95,
+      16.95
+     ]
+    },
+    {
+     "name": "Chicken Finger Pizza",
+     "prices": [
+      13.5,
+      15.5
+     ]
+    },
+    {
+     "name": "Fenway Pizza",
+     "desc": "Sausage, red peppers, caramelized onions, blended cheeses",
+     "prices": [
+      12.5,
+      14.5
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Traditional Pizzas",
+   "note": "Create your own: cheese pizza plus toppings. Use the Pie Studio above to price it.",
+   "head": [
+    "Medium",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Cheese",
+     "prices": [
+      7.95,
+      9.95
+     ]
+    },
+    {
+     "name": "Vegetable toppings",
+     "desc": "Onion, pepper, mushroom, olives, jalapeños, broccoli, pineapple",
+     "prices": [
+      "$1.00 each",
+      "$1.50 each"
+     ]
+    },
+    {
+     "name": "Meat toppings",
+     "desc": "Pepperoni, sausage, hamburger, meatball, bacon, ham, extra cheese",
+     "prices": [
+      "$1.50 each",
+      "$2.00 each"
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "items": [
+    {
+     "name": "Sauce & Cheese",
+     "prices": [
+      6.95
+     ]
+    },
+    {
+     "name": "Steak & Cheese",
+     "prices": [
+      8.95
+     ]
+    },
+    {
+     "name": "Meatball",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "Steak Bomb",
+     "prices": [
+      11.95
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "prices": [
+      8.95
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "prices": [
+      8.95
+     ]
+    },
+    {
+     "name": "BBQ Chicken",
+     "prices": [
+      8.95
+     ]
+    },
+    {
+     "name": "Broccoli & Chicken Alfredo",
+     "prices": [
+      10.95
+     ]
+    },
+    {
+     "name": "Meatlovers",
+     "prices": [
+      10.95
+     ]
+    },
+    {
+     "name": "Pastrami",
+     "prices": [
+      10.95
+     ]
+    },
+    {
+     "name": "Chicken Finger",
+     "prices": [
+      9.95
+     ]
+    },
+    {
+     "name": "North End",
+     "desc": "Italian deli meats, Provo cheese",
+     "prices": [
+      8.95
+     ]
+    },
+    {
+     "name": "Build your own",
+     "desc": "Starts at $6.95; vegetable toppings $1.00 each, meat toppings $1.50 each",
+     "prices": [
+      6.95
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Subs",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Italian",
+     "prices": [
+      5.5,
+      6.75
+     ]
+    },
+    {
+     "name": "Ham & Cheese",
+     "prices": [
+      5.5,
+      6.75
+     ]
+    },
+    {
+     "name": "Turkey",
+     "prices": [
+      5.5,
+      6.75
+     ]
+    },
+    {
+     "name": "Vegetarian",
+     "prices": [
+      5.5,
+      6.75
+     ]
+    },
+    {
+     "name": "Tuna",
+     "prices": [
+      5.5,
+      6.75
+     ]
+    },
+    {
+     "name": "Sausage",
+     "prices": [
+      5.5,
+      6.75
+     ]
+    },
+    {
+     "name": "Meatball",
+     "prices": [
+      5.5,
+      6.75
+     ]
+    },
+    {
+     "name": "BLT",
+     "prices": [
+      5.5,
+      6.75
+     ]
+    },
+    {
+     "name": "Eggplant",
+     "prices": [
+      5.5,
+      6.75
+     ]
+    },
+    {
+     "name": "Veal Parm",
+     "prices": [
+      6.75,
+      7.95
+     ]
+    },
+    {
+     "name": "Chicken Parm",
+     "prices": [
+      6.75,
+      7.95
+     ]
+    },
+    {
+     "name": "Pastrami",
+     "prices": [
+      6.95,
+      7.95
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "prices": [
+      6.55,
+      7.95
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "prices": [
+      6.55,
+      7.95
+     ]
+    },
+    {
+     "name": "Steak & Cheese",
+     "prices": [
+      6.25,
+      7.25
+     ]
+    },
+    {
+     "name": "Steak & Onion",
+     "prices": [
+      6.5,
+      7.95
+     ]
+    },
+    {
+     "name": "Steak & Pepper",
+     "prices": [
+      6.5,
+      7.95
+     ]
+    },
+    {
+     "name": "Steak & Mushroom",
+     "prices": [
+      6.5,
+      7.95
+     ]
+    },
+    {
+     "name": "Steak Bomb",
+     "prices": [
+      7.25,
+      8.5
+     ]
+    },
+    {
+     "name": "Chicken à la Greek",
+     "prices": [
+      6.75,
+      7.75
+     ]
+    },
+    {
+     "name": "Veal Cutlet",
+     "prices": [
+      6.75,
+      7.75
+     ]
+    },
+    {
+     "name": "Tiger Sub",
+     "prices": [
+      6.75,
+      7.75
+     ]
+    },
+    {
+     "name": "Buffalo Tender Sub",
+     "prices": [
+      6.55,
+      7.95
+     ]
+    },
+    {
+     "name": "Chicken Tender Sub",
+     "prices": [
+      6.55,
+      7.95
+     ]
+    }
+   ],
+   "note": "Extra cheese on any sub: 50¢ small, $1.00 large."
+  },
+  {
+   "cat": "Tenders",
+   "note": "Made in-house: premium chicken breast, floured and made per order. Ask about tenders for a crowd, sold by the bucket.",
+   "items": [
+    {
+     "name": "Chicken Tenders Plate",
+     "desc": "with French fries & cole slaw",
+     "prices": [
+      8.95
+     ]
+    },
+    {
+     "name": "Buffalo Tenders Plate",
+     "desc": "with French fries & cole slaw",
+     "prices": [
+      9.45
+     ]
+    },
+    {
+     "name": "Side of Chicken Tenders",
+     "desc": "about 8 pieces",
+     "prices": [
+      8.95
+     ]
+    },
+    {
+     "name": "Side of Buffalo Tenders",
+     "desc": "about 8 pieces",
+     "prices": [
+      9.45
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Burgers",
+   "note": "Half-pound, 8 oz. of 100% fresh Angus beef, with french fries (substitute onion rings for 99¢).",
+   "items": [
+    {
+     "name": "Classic Farmington Burger",
+     "desc": "$8.50 with cheese",
+     "prices": [
+      7.99
+     ]
+    },
+    {
+     "name": "BBQ Smokehouse Burger",
+     "desc": "Classic w/ bacon, BBQ sauce, cheese & onion rings",
+     "prices": [
+      9.25
+     ]
+    },
+    {
+     "name": "Mushroom, Onion & Pepper Jack Burger",
+     "desc": "Sautéed mushrooms, onions and melted pepper jack",
+     "prices": [
+      9.25
+     ]
+    },
+    {
+     "name": "Black and Blue Burger",
+     "desc": "Cajun spiced with creamy local bleu cheese",
+     "prices": [
+      9.25
+     ]
+    },
+    {
+     "name": "Greek Burger",
+     "desc": "Classic w/ tomato, grilled onion and feta",
+     "prices": [
+      9.25
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Sandwiches & Dogs",
+   "items": [
+    {
+     "name": "Turkey Club",
+     "desc": "with french fries, wheat or white",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "BLT Club",
+     "desc": "with french fries, wheat or white",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "Ham Club",
+     "desc": "with french fries, wheat or white",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "Gyros Sandwich",
+     "desc": "Beef and lamb in a pita with lettuce, tomatoes and tzatziki",
+     "prices": [
+      6.95
+     ]
+    },
+    {
+     "name": "Hot Dog with fries",
+     "prices": [
+      2.95
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Pasta Dinners",
+   "note": "All pasta dinners come with homemade garlic bread and your choice of spaghetti or ziti.",
+   "items": [
+    {
+     "name": "Pasta & Sauce",
+     "prices": [
+      6.95
+     ]
+    },
+    {
+     "name": "Baked Manicotti Parmesan",
+     "prices": [
+      6.95
+     ]
+    },
+    {
+     "name": "Chicken Cutlet Parmesan",
+     "prices": [
+      7.5
+     ]
+    },
+    {
+     "name": "Veal Cutlet Parmesan",
+     "prices": [
+      7.5
+     ]
+    },
+    {
+     "name": "Meatball & Pasta",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "Sausage & Pasta",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "Mushroom & Pasta",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "Eggplant Parmesan",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "Chicken & Broccoli Alfredo",
+     "prices": [
+      9.95
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Dinner Favorites",
+   "items": [
+    {
+     "name": "Lasagna",
+     "desc": "with salad & garlic bread",
+     "prices": [
+      9.95
+     ]
+    },
+    {
+     "name": "Spinach Pie",
+     "desc": "with Greek sausage and Greek salad",
+     "prices": [
+      9.95
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "desc": "with French fries",
+     "prices": [
+      8.5
+     ]
+    },
+    {
+     "name": "Gyros Plate",
+     "desc": "with French fries",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "Fish and Chips",
+     "desc": "Haddock with fries and cole slaw",
+     "prices": [
+      9.95
+     ]
+    },
+    {
+     "name": "Fish Sandwich",
+     "desc": "Haddock with fries and cole slaw",
+     "prices": [
+      7.95
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "items": [
+    {
+     "name": "Small Garden Salad",
+     "prices": [
+      2.5
+     ]
+    },
+    {
+     "name": "Large Garden Salad",
+     "prices": [
+      5.95
+     ]
+    },
+    {
+     "name": "Greek Salad",
+     "desc": "add chicken +$2.00",
+     "prices": [
+      6.95
+     ]
+    },
+    {
+     "name": "Chef Salad",
+     "prices": [
+      7.5
+     ]
+    },
+    {
+     "name": "Antipasto Salad",
+     "prices": [
+      7.5
+     ]
+    },
+    {
+     "name": "Grilled Chicken Salad",
+     "prices": [
+      7.95
+     ]
+    },
+    {
+     "name": "Garden Salad with Tuna",
+     "prices": [
+      6.95
+     ]
+    }
+   ],
+   "note": "House dressing unless you ask for ranch, Caesar, honey mustard, bleu cheese, creamy Italian or thousand island."
+  },
+  {
+   "cat": "Appetizers",
+   "items": [
+    {
+     "name": "French Fries",
+     "desc": "with cheese $3.95",
+     "prices": [
+      2.95
+     ]
+    },
+    {
+     "name": "Waffle Fries",
+     "desc": "with cheese $5.95; with cheese & bacon $6.95",
+     "prices": [
+      4.95
+     ]
+    },
+    {
+     "name": "Garlic Fries",
+     "prices": [
+      5.95
+     ]
+    },
+    {
+     "name": "Chicken Wings",
+     "desc": "BBQ, buffalo, garlic, parmesan or naked",
+     "prices": [
+      6.95
+     ]
+    },
+    {
+     "name": "Spinach Pie",
+     "prices": [
+      4.95
+     ]
+    },
+    {
+     "name": "Sweet Potato Fries",
+     "prices": [
+      4.95
+     ]
+    },
+    {
+     "name": "Onion Rings",
+     "prices": [
+      3.5
+     ]
+    },
+    {
+     "name": "Garlic Bread",
+     "desc": "with cheese $2.25",
+     "prices": [
+      1.95
+     ]
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "prices": [
+      5.95
+     ]
+    },
+    {
+     "name": "Jalapeño Poppers",
+     "prices": [
+      5.95
+     ]
+    },
+    {
+     "name": "Fried Mushrooms",
+     "prices": [
+      5.95
+     ]
+    },
+    {
+     "name": "Fried Pickles",
+     "prices": [
+      6.95
+     ]
+    },
+    {
+     "name": "Farmington Nachos",
+     "desc": "with melted cheese and salsa",
+     "prices": [
+      6.95
+     ]
+    },
+    {
+     "name": "Farmington Nachos Supreme",
+     "desc": "Onions, peppers, tomatoes, jalapeños, olives, cheese & salsa; add chicken or beef +$2.95",
+     "prices": [
+      8.95
+     ]
+    },
+    {
+     "name": "Mac & Cheese Bites",
+     "prices": [
+      6.95
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Dessert & Drinks",
+   "items": [
+    {
+     "name": "Baklava",
+     "prices": [
+      2.25
+     ]
+    },
+    {
+     "name": "Brownies",
+     "prices": [
+      2.0
+     ]
+    },
+    {
+     "name": "Whoopie Pies",
+     "prices": [
+      2.5
+     ]
+    },
+    {
+     "name": "Fountain drink",
+     "desc": "free refills",
+     "prices": [
+      1.99
+     ]
+    },
+    {
+     "name": "Coffee & Tea",
+     "desc": "free refills",
+     "prices": [
+      1.5
+     ]
+    },
+    {
+     "name": "20 oz. bottle",
+     "prices": [
+      1.99
+     ]
+    },
+    {
+     "name": "2 liter bottle",
+     "prices": [
+      2.5
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Kids",
+   "note": "All kids meals include a 16 oz. fountain drink.",
+   "items": [
+    {
+     "name": "Chicken Tenders and Fries",
+     "prices": [
+      6.95
+     ]
+    },
+    {
+     "name": "Grilled Cheese and Fries",
+     "prices": [
+      5.95
+     ]
+    },
+    {
+     "name": "Spaghetti or Ziti with Sauce and Garlic Bread",
+     "desc": "add meatballs $5.95, add chicken $6.95",
+     "prices": [
+      4.95
+     ]
+    },
+    {
+     "name": "Hot Dog and Fries",
+     "prices": [
+      4.95
+     ]
+    }
+   ]
+  }
+ ],
+ "photos": {
+  "hero": "pizza-whole.jpg"
+ },
+ "findings": [
+  "Old Community Communications template site; the homepage is almost entirely images (logo banner, background photo, \"welcome\" graphic) with the Order Online and Call Us buttons drawn into the banner as clickable image-map hotspots.",
+  "Viewport tag uses old, invalid syntax with user-scalable=0, which blocks pinch zoom on phones.",
+  "The plain http:// version returns a server error (HTTP 500) instead of redirecting to https.",
+  "The menu page is a long plain-text price table; the linked \"Download Menu\" PDF was last updated in May 2016.",
+  "Homepage still promotes an old eDiningExpress phone app (Google Play and iOS badges) next to a separate OrderCounter online ordering page."
+ ],
+ "questions": [
+  "The old banner says \"We Deliver! Call (603) 755-9001\" with tiny text we read as \"after 4pm\". Is delivery real, from what time, to which towns, and is there a fee or minimum? (We put \"Call after 4 PM\" on the site and need you to confirm.)",
+  "Please confirm hours: closed Monday, 11-9 Tuesday to Saturday, 11-8 Sunday (from the current Hours page). Any holiday or seasonal changes?",
+  "The menu says \"NEW! 100% made in-house\" chicken tenders and sells them by the bucket. What are bucket sizes and prices so we can list them?",
+  "Is the Farmington menu on OrderCounter the same price list as the website menu? We used the website prices and the new \"Build vs buy\" tool depends on them being current (topping prices, medium/large cheese).",
+  "The menu page shows 9% NH meals tax; Gilford sites show 8.5%. Please confirm the current rate to display.",
+  "Do you want to keep the eDiningExpress app? We left it off; the app badges point to a separate system from OrderCounter.",
+  "You have 7 photos of your own food on the old gallery page. Can you send newer ones (storefront, interior, owners, the tenders)? We have no photo of the shop or the people.",
+  "No logo file exists except a banner image with the shop name baked in, so we typeset the name. Do you have a clean logo file?"
+ ]
+}
