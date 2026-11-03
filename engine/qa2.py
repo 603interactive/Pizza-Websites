@@ -54,6 +54,14 @@ async def feat_gilford(pg, r):
     await pg.click('#m-tabs button:nth-child(4)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
     await pg.fill('#m-q', 'steak'); await pg.wait_for_timeout(150); r['steak'] = await pg.inner_text('#m-count')
     await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-empty').hidden"); await pg.fill('#m-q', '')
+async def feat_jaffrey(pg, r):
+    r['flavors'] = await pg.evaluate("document.querySelectorAll('#fl-pick button').length"); r['first'] = await pg.evaluate("[...document.querySelectorAll('.fl-body:not([hidden]) .fc')].map(c=>c.innerText.replace(/\\n/g,' '))")
+    await pg.click('#fl-pick button:nth-child(5)'); r['steakBomb'] = await pg.evaluate("[...document.querySelectorAll('.fl-body:not([hidden]) .fc')].map(c=>c.innerText.replace(/\\n/g,' '))")
+    r['visibleBodies'] = await pg.evaluate("[...document.querySelectorAll('.fl-body')].filter(b=>!b.hidden).length")
+    r['doorsOpen'] = await pg.evaluate("document.querySelector('#hero').classList.contains('open')")
+    await pg.click('#m-tabs button:nth-child(4)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
+    await pg.fill('#m-q', 'haddock'); await pg.wait_for_timeout(150); r['haddock'] = await pg.inner_text('#m-count')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-none').hidden"); await pg.fill('#m-q', '')
 async def feat_enfield(pg, r):
     r['todayTab'] = await pg.evaluate("document.querySelector('#wk-rail button.today')?.dataset.dow")
     r['sel'] = await pg.evaluate("document.querySelector('#wk-rail button[aria-selected=true]').dataset.dow")
@@ -75,7 +83,7 @@ async def feat_papajays(pg, r):
     await pg.click('#m-tabs button:nth-child(2)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
     await pg.fill('#m-q', 'steak tip'); await pg.wait_for_timeout(150); r['steak'] = await pg.inner_text('#m-count')
     await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-empty').hidden"); await pg.fill('#m-q', '')
-FEATS = {'papa-jays-pizzeria': feat_papajays, 'enfield-house-of-pizza': feat_enfield, 'farmington-house-of-pizza': feat_farmington, 'gilford-house-of-pizza': feat_gilford, 'charlestown-house-of-pizza': feat_charlestown, 'uncle-joeys': feat_joeys, 'golden-acres-pizza-market': feat_acres, 'tremont-house-of-pizza': feat_tremont}
+FEATS = {'jaffrey-pizza-barn': feat_jaffrey, 'papa-jays-pizzeria': feat_papajays, 'enfield-house-of-pizza': feat_enfield, 'farmington-house-of-pizza': feat_farmington, 'gilford-house-of-pizza': feat_gilford, 'charlestown-house-of-pizza': feat_charlestown, 'uncle-joeys': feat_joeys, 'golden-acres-pizza-market': feat_acres, 'tremont-house-of-pizza': feat_tremont}
 async def main(slug):
     feat = FEATS[slug]; res = {}
     async with async_playwright() as p:

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#8E1F17">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#flavors">Skip to Same Flavor, Every Way</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Jaffrey Pizza Barn home"><img src="{{ img('logo.png') }}" width="400" height="156" alt="Jaffrey Pizza Barn"></a>
+  <nav aria-label="Main"><a href="#flavors">Flavors</a><a href="#menu">Menu</a><a href="#visit">Hours</a></nav>
+  <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a>
+</header>
+<main id="top">
+
+<section class="hero" id="hero">
+  <div class="wall" aria-hidden="true">
+    <img src="{{ img('pizza-grecian.webp') }}" width="750" height="1000" alt="" fetchpriority="high"><img src="{{ img('pizza-bigmac.webp') }}" width="750" height="1000" alt=""><img class="h3" src="{{ img('pizza-barnburner.webp') }}" width="748" height="1000" alt="">
+  </div>
+  <div class="doors" aria-hidden="true"><div class="door dl"><i></i></div><div class="door dr"><i></i></div></div>
+  <div class="hero-copy wrap">
+    <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+    <h1>Hearty pizza.<br>Since <em>1973.</em></h1>
+    <p class="sub">Superior ingredients make a superior pizza. 6 Blake Street, Jaffrey, with the best dough, zesty wings, fresh salads and hearty calzones in town.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+    <p class="mini">Takeout · Delivery available for online orders · Open Tue–Sat</p>
+  </div>
+  <div class="hay" aria-hidden="true"></div>
+</section>
+
+<section class="flip sec" id="flavors">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>Same flavor, <em>every way.</em></h2>
+    <p class="lede">The Barn builds its specialties as a pizza, a calzone, a grinder, a salad and more. Pick a flavor and see every way to order it, side by side, with the real menu prices.</p></div>
+    <div class="fl" id="fl">
+      <div class="fl-pick" id="fl-pick" role="tablist" aria-label="Flavor">{% for f in flips %}<button type="button" role="tab" data-f="{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}"><b>{{ f.name }}</b><small>{{ f.forms|length }} ways</small></button>{% endfor %}</div>
+      {% for f in flips %}<div class="fl-body" data-fb="{{ loop.index0 }}" {% if not loop.first %}hidden{% endif %}>
+        <div class="fl-head"><h3>{{ f.name }}</h3><p>{{ f.desc }}</p></div>
+        <div class="fl-grid">{% for m in f.forms %}<article class="fc{% if m.cheapest %} low{% endif %}">
+          {% if m.img %}<img src="{{ img(m.img) }}" alt="{{ f.name }} {{ m.fmt|lower }}" loading="lazy">{% else %}<div class="fc-ph" aria-hidden="true"><span>{{ m.fmt }}</span></div>{% endif %}
+          <div class="fc-b"><p class="fc-t">{{ m.fmt }}{% if m.cheapest %}<em>Lowest start</em>{% endif %}</p><h4>{{ m.name }}</h4>
+          <ul>{% for p in m.prices %}<li><span>{{ p.l or 'One size' }}</span><b>{{ p.p }}</b></li>{% endfor %}</ul></div></article>{% endfor %}</div>
+        <p class="fl-cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order {{ f.name }}</a><a class="btn btn-ghost" href="#menu">See the full menu</a></p>
+      </div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="since sec">
+  <div class="wrap since-in">
+    <div class="since-n" aria-hidden="true">1973</div>
+    <div><p class="kicker">The Barn</p><h2>Superior ingredients. Hearty portions. Bold flavors.</h2>
+    <p class="lede">That is the Barn's own promise, and it has held it down on Blake Street since 1973. Pizza with the best dough, zesty wings, fresh salads, hearty calzones, and fried seafood dinners that come with fries and homemade coleslaw.</p></div>
+    <div class="strip">
+      <figure><img src="{{ img('steakbomb.webp') }}" width="1000" height="717" alt="Steak bomb grinder cut in half" loading="lazy"><figcaption>Steak Bomb</figcaption></figure>
+      <figure><img src="{{ img('buff-wings.webp') }}" width="1000" height="1000" alt="Buffalo wings" loading="lazy"><figcaption>Buffalo Wings</figcaption></figure>
+      <figure><img src="{{ img('seafood.webp') }}" width="1000" height="1000" alt="Seafood plate with fried haddock, clams and fries" loading="lazy"><figcaption>Seafood Plate</figcaption></figure>
+      <figure><img src="{{ img('calzone.webp') }}" width="750" height="1000" alt="Calzone on paper plates in a pizza box" loading="lazy"><figcaption>Calzone</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The whole menu</p><h2>Every price, <em>right here.</em></h2>
+    <p class="lede">Pulled from the Barn's own online menu, so what you read matches what you order. Photos are the shop's.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist">{% for c in menu %}<button type="button" role="tab" data-t="{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: steak, buffalo, haddock…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for c in menu %}<section class="m-panel" data-p="{{ loop.index0 }}" {% if not loop.first %}hidden{% endif %}>
+      <div class="m-ph">{% if c.img %}<img src="{{ img(c.img) }}" alt="" loading="lazy">{% endif %}<div><h3>{{ c.cat }}</h3>{% if c.note %}<p>{{ c.note }}</p>{% endif %}</div></div>
+      <ul class="m-list">
+      {% for it in c['items'] %}{% if it.divider %}<li class="m-div"><h4>{{ it.name }}</h4></li>{% else %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc)|lower) }}">
+        <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+        <div class="m-p">{% for p in it.prices %}{% if p is not none %}<span><small>{{ c.head[loop.index0] if c.head|length > loop.index0 else '' }}</small>{{ money(p) }}</span>{% endif %}{% endfor %}</div></li>{% endif %}{% endfor %}
+      </ul></section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try “chicken” or “cheese”.</p>
+    <p class="m-fine">Topping prices for build-your-own pizza and calzones are set at the counter; call to confirm. Prices are from the shop's online menu and may change.</p>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>6 Blake Street, Jaffrey</h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <p class="mini">Delivery is available for online orders.</p></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><img src="{{ img('logo.png') }}" width="400" height="156" alt="Jaffrey Pizza Barn"><p>{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Jaffrey Pizza Barn. In business since 1973.</p></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="#flavors">Flavors</a></div>
+<script>window.__HOURS__={{ hours_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>
