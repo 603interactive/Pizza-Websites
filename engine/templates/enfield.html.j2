@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#5B2740">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#week">Skip to this week's deals</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="{{ name }} home"><img src="{{ img('logo.jpg') }}" width="180" height="180" alt=""><span><b>Enfield</b><i>House of Pizza</i></span></a>
+  <nav aria-label="Main"><a href="#week">This week</a><a href="#menu">Menu</a><a href="#party">Pizza parties</a><a href="#story">Our story</a><a href="#visit">Visit</a></nav>
+  <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a>
+</header>
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1>A different deal <em>every day</em> of the week.</h1>
+      <p class="sub">Pizza, grinders, wings and burgers made fresh in our kitchen on Route 4 since 1987. Family recipes from Greece, a kids' menu, and a deal waiting for you Tuesday through Sunday.</p>
+      <div class="cta"><a class="btn" href="#week">See today's deal</a><a class="btn btn-ghost" href="{{ order_any }}" rel="noopener">Order online</a></div>
+      <p class="mini">554 US Route 4, Enfield NH · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+    </div>
+    <div class="collage" aria-hidden="false">
+      <figure class="c1" data-depth=".04"><img src="{{ img('pizza-ehop.webp') }}" width="1000" height="750" alt="An E.H.O.P. Special pizza with pepperoni, sausage, ham, hamburg, mushrooms, onion and peppers" fetchpriority="high"></figure>
+      <figure class="c2"><img src="{{ img('pizza-pesto.webp') }}" width="1000" height="780" alt="Besto Pesto pizza with fresh pesto, tomato, spinach, broccoli and feta" loading="lazy"></figure>
+      <figure class="c3" data-depth="-.05"><img src="{{ img('burger-ehop.webp') }}" width="1000" height="1450" alt="The EHOP Burger stacked with bacon, onion rings, lettuce and tomato" loading="lazy"></figure>
+      <p class="stamp"><b>Since</b><span>1987</span></p>
+    </div>
+  </div>
+</section>
+
+<section class="week sec" id="week">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>The Week at EHOP. <em>Pick a day, see what it saves you.</em></h2><p class="lede">Every day from Tuesday to Sunday has its own deal. Choose a day and we do the math against our regular menu prices. Today is picked for you.</p></div>
+    <div class="cal">
+      <div class="rail" id="wk-rail" role="tablist" aria-label="Day of the week">
+        {% for dd in days %}<button type="button" role="tab" id="wk-t-{{ dd.dow }}" data-dow="{{ dd.dow }}" aria-selected="false"><span class="d">{{ dd.short }}</span><span class="p" data-p="{{ dd.kind }}">{{ dd.chip }}</span><i class="td">Today</i></button>{% endfor %}
+      </div>
+      <div class="sheet" id="wk-sheet" role="tabpanel" aria-live="polite">
+        <div class="binding" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+        <div class="sheet-in">
+          <div class="sheet-l"><p class="sday" id="wk-day">Tuesday</p><h3 id="wk-title">Two for Tuesday</h3><p class="line" id="wk-line"></p></div>
+          <div class="sheet-r" id="wk-ctl"></div>
+        </div>
+        <div class="sheet-out" id="wk-out"></div>
+      </div>
+    </div>
+    <p class="fine">Deals as listed on our menu page. Savings compare to regular EHOP menu prices (large cheese $12.99, small cheese $8.99, 8 wings $11.99). Add state meal tax. Offers cannot be combined; prices subject to change.</p>
+  </div>
+</section>
+
+<section class="extras sec" id="extras">
+  <div class="wrap ex-grid">
+    <article class="pie">
+      <p class="kicker">{{ feature.tag }}</p>
+      <h2>{{ feature.name }}.</h2>
+      <p>{{ feature.desc }}</p>
+      <p class="pp"><b>${{ '%.2f'|format(feature.price) }}</b><span>{{ feature.size }} · {{ feature.month }} only</span></p>
+      <a class="btn btn-gold" href="{{ order_any }}" rel="noopener">Order the {{ feature.name.replace('The ', '') }}</a>
+    </article>
+    <article class="lunch">
+      <img src="{{ img('sub-ham.webp') }}" width="1000" height="750" alt="A ham grinder piled with lettuce, tomato and pickles" loading="lazy">
+      <div><p class="kicker">Feeding the crew?</p><h3>Lunch boxes, ${{ '%.2f'|format(lunchbox.price) }} + tax</h3>
+        <p>Includes {{ lunchbox.includes }}. {{ lunchbox.note }}</p>
+        <p class="bk"><b>Bulkie choices:</b> {{ lunchbox.bulkies|join(', ') }}.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The whole menu, one page</p><h2>Pick a section, <em>or just search.</em></h2></div>
+    <div class="m-tools"><label class="sr" for="m-q">Search the menu</label><input id="m-q" type="search" placeholder="Search: gyro, pesto, shrimp, wings…" autocomplete="off"><span id="m-count" class="sr" aria-live="polite"></span></div>
+    <div class="m-grid">
+      <div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" data-t="{{ slugify(c.cat) }}" aria-selected="{{ 'true' if loop.first else 'false' }}"><img src="{{ img(c.img) }}" width="1000" height="750" alt="" loading="lazy"><span>{{ c.cat }}</span></button>{% endfor %}</div>
+      <div class="m-body">
+        {% for c in menu %}
+        <section class="m-panel" data-p="{{ slugify(c.cat) }}" {% if not loop.first %}hidden{% endif %}>
+          <img class="m-ph" src="{{ img(c.img) }}" width="1000" height="750" alt="" loading="lazy"><h3>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+          <ul class="m-list">{% for it in c['items'] %}
+            <li data-s="{{ (it.name ~ ' ' ~ it.get('desc','')) | lower | e }}"><div class="m-t"><b>{{ it.name }}</b>{% if it.desc %}<small>{{ it.desc }}</small>{% endif %}</div>{% if it.prices %}<div class="m-pr">{% for p in it.prices %}<span>{% if c.head and it.prices|length > 1 %}<i>{{ c.head[loop.index0] }}</i>{% endif %}{{ money(p) }}</span>{% endfor %}</div>{% endif %}</li>{% endfor %}
+          </ul>
+        </section>{% endfor %}
+        <p id="m-empty" class="m-empty" hidden>Nothing on the menu matches that. Call us, we may still make it.</p>
+        <p class="fine">Add state meal tax to all prices. Prices, items and offers are subject to change without notice.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="party sec" id="party">
+  <div class="wrap pt-grid">
+    <figure><img src="{{ img('party-toppings.webp') }}" width="1000" height="750" alt="A platter of pizza toppings: green peppers, black olives, shredded cheese, tomatoes and pepperoni" loading="lazy"></figure>
+    <div>
+      <p class="kicker">Fancy a pizza party?</p><h2>Kids' pizza parties. <em>Build your own.</em></h2>
+      <p class="lede">{{ party.desc }}</p>
+      <div class="pcalc"><label for="pp-n">How many kids?</label>
+        <div class="step"><button type="button" id="pp-m" aria-label="One fewer child">−</button><input id="pp-n" type="number" inputmode="numeric" min="1" max="60" value="12"><button type="button" id="pp-p" aria-label="One more child">+</button></div>
+        <p class="ptot"><span>Party total before drinks and tax</span><b id="pp-t">$120.00</b></p></div>
+      <div class="cta"><a class="btn" href="tel:{{ loc.tel }}">Call to book: {{ loc.phone }}</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="story sec" id="story">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">A family affair</p><h2>Greek family recipes, <em>an Enfield community shop.</em></h2><p class="lede">Great food, friends, family, community. “This is our community,” says owner Lori. “We love being a part of it.”</p></div>
+    <ol class="tl">{% for s in story %}<li><b>{{ s.y }}</b><p>{{ s.t }}</p></li>{% endfor %}</ol>
+    <ul class="perks" aria-label="Good to know">{% for p in perks %}<li>{{ p }}</li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Hours &amp; location</p><h2>Open Tuesday to Sunday, <em>11 to 8.</em></h2></div>
+    <div class="v-grid">
+      <div class="hrs"><ul>{% for w in week %}<li data-dow="{{ w.dow }}"><span>{{ w.day }}</span><b>{{ w.text }}</b></li>{% endfor %}</ul></div>
+      <div class="find"><p class="kicker">Find us</p>
+        <p class="addr">554 US Route 4<br>Enfield, NH 03748</p><p class="near">Next to the Northern Rail Trail, near Mascoma Valley Regional High School. Plenty of parking.</p>
+        <p class="tels"><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a> · <a class="tel" href="tel:{{ loc.tel2 }}">{{ loc.phone2 }}</a></p>
+        <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+        <p class="soc"><a href="{{ facebook }}" rel="noopener">Facebook</a> · <a href="{{ instagram }}" rel="noopener">Instagram</a> · #fuelyourcommunity</p></div>
+      <div class="join"><p class="kicker">Join our team</p><h3>Always looking for good people.</h3><p>Download the employment application, fill it out and bring it in to the shop.</p><a class="btn btn-ghost" href="{{ apply_pdf }}" rel="noopener">Employment application (PDF)</a></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><span>© {{ year }} {{ name }} · 554 US Route 4, Enfield, NH · ServSafe certified</span><span>Menu items and prices subject to change.</span></div></footer>
+<div class="dock"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-light" href="tel:{{ loc.tel }}">Call</a></div>
+<script>window.__HOURS__={{ hours_json }};window.__DAYS={{ days_json }};window.__LG={{ large_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body>
+</html>

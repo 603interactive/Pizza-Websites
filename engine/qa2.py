@@ -54,7 +54,28 @@ async def feat_gilford(pg, r):
     await pg.click('#m-tabs button:nth-child(4)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
     await pg.fill('#m-q', 'steak'); await pg.wait_for_timeout(150); r['steak'] = await pg.inner_text('#m-count')
     await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-empty').hidden"); await pg.fill('#m-q', '')
-FEATS = {'farmington-house-of-pizza': feat_farmington, 'gilford-house-of-pizza': feat_gilford, 'charlestown-house-of-pizza': feat_charlestown, 'uncle-joeys': feat_joeys, 'golden-acres-pizza-market': feat_acres, 'tremont-house-of-pizza': feat_tremont}
+async def feat_enfield(pg, r):
+    r['todayTab'] = await pg.evaluate("document.querySelector('#wk-rail button.today')?.dataset.dow")
+    r['sel'] = await pg.evaluate("document.querySelector('#wk-rail button[aria-selected=true]').dataset.dow")
+    await pg.click('#wk-rail button[data-dow="2"]'); await pg.click('[data-st="+"]'); r['tue'] = await pg.inner_text('#wk-out')
+    await pg.click('#wk-rail button[data-dow="3"]'); await pg.fill('#wk-q', '30'); await pg.wait_for_timeout(100); r['wed'] = await pg.inner_text('#wk-out')
+    await pg.click('#wk-rail button[data-dow="5"]'); r['fri'] = await pg.inner_text('#wk-out')
+    await pg.click('#wk-rail button[data-dow="0"]'); await pg.select_option('#wk-a', '8'); r['sun'] = await pg.inner_text('#wk-out')
+    await pg.click('#wk-rail button[data-dow="1"]'); r['mon'] = await pg.inner_text('#wk-ctl'); await pg.click('#wk-go'); r['afterGo'] = await pg.inner_text('#wk-day')
+    await pg.fill('#pp-n', '15'); r['party'] = await pg.inner_text('#pp-t')
+    await pg.click('#m-tabs button:nth-child(2)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
+    await pg.fill('#m-q', 'gyro'); await pg.wait_for_timeout(150); r['gyro'] = await pg.inner_text('#m-count')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-empty').hidden"); await pg.fill('#m-q', '')
+async def feat_papajays(pg, r):
+    r['init'] = [await pg.inner_text('#cp-lines'), await pg.inner_text('#cp-total'), await pg.inner_text('#cp-feeds')]
+    await pg.fill('#cp-n', '40'); await pg.wait_for_timeout(100); r['n40'] = [await pg.inner_text('#cp-lines'), await pg.inner_text('#cp-total'), await pg.inner_text('#cp-pp'), await pg.inner_text('#cp-vs')]
+    await pg.select_option('#cp-k', '0'); await pg.select_option('#cp-h', '4'); r['spec'] = [await pg.inner_text('#cp-lines'), await pg.inner_text('#cp-total')]
+    await pg.fill('#cp-r', '6'); r['slider'] = await pg.input_value('#cp-n'); r['mailto'] = (await pg.get_attribute('#cp-mail', 'href'))[:120]
+    await pg.click('[data-go="hot-subs"]'); await pg.wait_for_timeout(300); r['go'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
+    await pg.click('#m-tabs button:nth-child(2)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
+    await pg.fill('#m-q', 'steak tip'); await pg.wait_for_timeout(150); r['steak'] = await pg.inner_text('#m-count')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-empty').hidden"); await pg.fill('#m-q', '')
+FEATS = {'papa-jays-pizzeria': feat_papajays, 'enfield-house-of-pizza': feat_enfield, 'farmington-house-of-pizza': feat_farmington, 'gilford-house-of-pizza': feat_gilford, 'charlestown-house-of-pizza': feat_charlestown, 'uncle-joeys': feat_joeys, 'golden-acres-pizza-market': feat_acres, 'tremont-house-of-pizza': feat_tremont}
 async def main(slug):
     feat = FEATS[slug]; res = {}
     async with async_playwright() as p:

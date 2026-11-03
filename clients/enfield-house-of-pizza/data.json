@@ -1,0 +1,1040 @@
+{
+ "slug": "enfield-house-of-pizza",
+ "name": "Enfield House of Pizza",
+ "short": "Enfield House of Pizza",
+ "domain": "https://enfieldhouseofpizza.com",
+ "tagline": "Family-run pizza place in Enfield, NH since 1987, with a different deal every day of the week.",
+ "seo_title": "Enfield House of Pizza (EHOP) | Pizza, Grinders & Daily Deals in Enfield, NH",
+ "seo_desc": "Enfield House of Pizza has served the Upper Valley since 1987. Pizza, calzones, grinders, burgers, wings and a different deal every day, Tuesday through Sunday. 554 US Route 4, Enfield NH. Call 603-632-5800.",
+ "locations": [
+  {
+   "id": "enfield",
+   "name": "Enfield",
+   "street": "554 US Route 4",
+   "city": "Enfield",
+   "region": "NH",
+   "postal": "03748",
+   "phone": "603-632-5800",
+   "tel": "+16036325800",
+   "phone2": "603-632-7211",
+   "tel2": "+16036327211",
+   "hours": [
+    {
+     "dow": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      0
+     ],
+     "open": "11:00",
+     "close": "20:00"
+    }
+   ],
+   "order": "https://togoorder.com/web/5102",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Enfield+House+of+Pizza+554+US+Route+4+Enfield+NH+03748",
+   "geo": [
+    43.6384,
+    -72.1318
+   ]
+  }
+ ],
+ "order_any": "https://togoorder.com/web/5102",
+ "facebook": "https://www.facebook.com/EnfieldHouseofPizza",
+ "instagram": "https://www.instagram.com/enfieldhouseofpizza",
+ "apply_pdf": "https://www.enfieldhouseofpizza.com/_files/ugd/ab4307_25a6d96344344847bb79ded5f492cbe1.pdf",
+ "founded": 1987,
+ "days": [
+  {
+   "dow": 2,
+   "day": "Tuesday",
+   "short": "Tue",
+   "title": "Two for Tuesday",
+   "deal": "Two large cheese pizzas",
+   "price": 17.99,
+   "kind": "pair",
+   "reg": 12.99,
+   "regq": 2,
+   "line": "Two Large Cheese Pizzas for $17.99.",
+   "chip": "2 for $17.99"
+  },
+  {
+   "dow": 3,
+   "day": "Wednesday",
+   "short": "Wed",
+   "title": "Wing It Wednesday",
+   "deal": "Any quantity of wings",
+   "price": 0.9,
+   "kind": "wings",
+   "reg": 1.49875,
+   "line": "Any quantity of wings for $.90 per wing.",
+   "chip": "90¢ wings"
+  },
+  {
+   "dow": 4,
+   "day": "Thursday",
+   "short": "Thu",
+   "title": "Throw Back Thursday",
+   "deal": "Small cheese pizza",
+   "price": 4.5,
+   "kind": "single",
+   "reg": 8.99,
+   "line": "Small Cheese Pizza for $4.50.",
+   "chip": "$4.50 small"
+  },
+  {
+   "dow": 5,
+   "day": "Friday",
+   "short": "Fri",
+   "title": "Free 2-liter Friday",
+   "deal": "Free 2 liter with two large pizzas",
+   "price": 0,
+   "kind": "free2l",
+   "line": "Free 2 Liter with the purchase of 2 Large Pizzas.",
+   "chip": "Free 2-liter"
+  },
+  {
+   "dow": 6,
+   "day": "Saturday",
+   "short": "Sat",
+   "title": "Bud Light Saturday",
+   "deal": "$1.00 off any bottle",
+   "price": 1.0,
+   "kind": "beer",
+   "line": "$1.00 off any bottle of Budweiser or Bud Light. EHOP policy: 3 drink limit.",
+   "chip": "$1 off Bud"
+  },
+  {
+   "dow": 0,
+   "day": "Sunday",
+   "short": "Sun",
+   "title": "Sunday $10 Large Cheese",
+   "deal": "$10 large cheese with any large regular-priced pizza",
+   "price": 10.0,
+   "kind": "sunday",
+   "reg": 12.99,
+   "line": "$10 Large Cheese Pizza with purchase of any Large Regular Priced Pizza (cannot be combined with other offers).",
+   "chip": "$10 large"
+  },
+  {
+   "dow": 1,
+   "day": "Monday",
+   "short": "Mon",
+   "title": "Closed Mondays",
+   "deal": "",
+   "price": 0,
+   "kind": "closed",
+   "line": "We are closed on Mondays. See you Tuesday!",
+   "chip": "Closed"
+  }
+ ],
+ "feature": {
+  "name": "The Thanksgiving Pie",
+  "month": "November",
+  "price": 14.99,
+  "desc": "All the flavors of Thanksgiving dinner on one pizza: our homemade crust with a turkey gravy base, loaded with turkey, mashed potatoes and stuffing, topped with melted cheese and finished with a sweet cranberry drizzle.",
+  "size": "Large only",
+  "tag": "November feature pizza"
+ },
+ "lunchbox": {
+  "price": 9.5,
+  "includes": "Bulkie, chips, 12 ounce drink and a pickle",
+  "bulkies": [
+   "Tuna",
+   "Ham",
+   "Turkey",
+   "Veggie",
+   "Italian",
+   "Chicken Salad",
+   "Genoa Salami"
+  ],
+  "note": "Great for feeding large groups or treating the team."
+ },
+ "party": {
+  "per_child": 10,
+  "desc": "Kids pizza parties at Enfield House of Pizza are a build-your-own-pizza event. No room rental fee, just $10.00 per child. Drinks not included."
+ },
+ "story": [
+  {
+   "y": "1987",
+   "t": "Alex Korakas opens Enfield House of Pizza. Lori Bliss Hill becomes his first employee while still a student at Mascoma Valley Regional High School."
+  },
+  {
+   "y": "1991",
+   "t": "Lori becomes sole owner. Alex passes on his long-held secret family recipes from Greece for the special pizza dough and sauce, still made today."
+  },
+  {
+   "y": "2001",
+   "t": "Lori buys property half a mile east of the original shop. The new Enfield House of Pizza opens July 4, 2001."
+  },
+  {
+   "y": "Today",
+   "t": "A community place: Mascoma High Project Graduation, Enfield Library Summer Reading, the Enfield Family Fair, David’s House Annual Auction, Toys for Tots and town celebrations. Lifetime members of the Royals Athletic Boosters. #fuelyourcommunity"
+  }
+ ],
+ "perks": [
+  "Daily specials",
+  "$12 monthly feature pizzas",
+  "Next to the Northern Rail Trail",
+  "Close to Mascoma Valley Regional High School",
+  "Plenty of parking",
+  "Casual, kid-friendly dining",
+  "Flat-screen TVs and Wi-Fi",
+  "Open kitchen",
+  "Kids’ menu and build-your-own pizza parties",
+  "Online ordering",
+  "Made fresh in our kitchen every day",
+  "ServSafe certified"
+ ],
+ "menu": [
+  {
+   "cat": "Pizza",
+   "img": "pizza-ehop.webp",
+   "head": [
+    "Small 10\"",
+    "Large 14\""
+   ],
+   "note": "Gluten-free pizza available in a 12\" size (own pan, own cutter; shared kitchen). Choose toppings from the list below.",
+   "items": [
+    {
+     "name": "Cheese",
+     "desc": "",
+     "prices": [
+      8.99,
+      12.99
+     ]
+    },
+    {
+     "name": "One topping",
+     "desc": "",
+     "prices": [
+      9.99,
+      14.99
+     ]
+    },
+    {
+     "name": "Two toppings",
+     "desc": "",
+     "prices": [
+      10.99,
+      16.99
+     ]
+    },
+    {
+     "name": "Three toppings",
+     "desc": "",
+     "prices": [
+      11.99,
+      18.99
+     ]
+    },
+    {
+     "name": "Four toppings",
+     "desc": "",
+     "prices": [
+      12.99,
+      20.99
+     ]
+    },
+    {
+     "name": "Extra cheese",
+     "desc": "",
+     "prices": [
+      "$3.00",
+      "$4.00"
+     ]
+    },
+    {
+     "name": "Toppings",
+     "desc": "Pepperoni, sweet sausage, imported ham, hamburg, mushroom, onion, peppers, grilled chicken, garlic, eggplant, anchovies, spinach, bacon, broccoli, pineapple, black olives, feta, kalamata olives, hot chopped peppers, fresh tomato slices, jalapeño slices",
+     "prices": []
+    }
+   ]
+  },
+  {
+   "cat": "Specialty pizzas",
+   "img": "pizza-pesto.webp",
+   "head": [
+    "Small 10\"",
+    "Large 14\""
+   ],
+   "items": [
+    {
+     "name": "E.H.O.P. Special",
+     "desc": 24.99,
+     "prices": [
+      "Pepperoni, sweet sausage, imported ham, hamburg, mushrooms, onion, peppers",
+      17.99
+     ]
+    },
+    {
+     "name": "All Meat",
+     "desc": 24.99,
+     "prices": [
+      "ALL the meats: pepperoni, sweet sausage, imported ham, hamburg, bacon",
+      15.99
+     ]
+    },
+    {
+     "name": "Australian",
+     "desc": 21.99,
+     "prices": [
+      "A-1 sauce, cheese, steak, mushrooms, onions, black pepper",
+      14.99
+     ]
+    },
+    {
+     "name": "Besto Pesto",
+     "desc": 24.99,
+     "prices": [
+      "Fresh pesto, tomato slices, spinach, onion, peppers, broccoli, feta and crushed garlic (vegetarian)",
+      15.99
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": 21.99,
+     "prices": [
+      "Frank’s RedHot sauce, grilled chicken, cheese (mild available)",
+      14.99
+     ]
+    },
+    {
+     "name": "Chicken Parmesan",
+     "desc": 21.99,
+     "prices": [
+      "Pizza sauce, pizza cheese, parmesan, crispy chicken, Greek oregano",
+      14.99
+     ]
+    },
+    {
+     "name": "Chicken Teriyaki",
+     "desc": 22.99,
+     "prices": [
+      "Grilled chicken, mushrooms, onions and peppers sautéed in teriyaki, on our traditional sauce and cheese",
+      15.99
+     ]
+    },
+    {
+     "name": "Cowboy",
+     "desc": 21.99,
+     "prices": [
+      "BBQ sauce, hamburg, bacon, fresh tomato slices, pizza cheese",
+      14.99
+     ]
+    },
+    {
+     "name": "Dill Piggy",
+     "desc": 21.99,
+     "prices": [
+      "Crust covered in homemade garlic butter, pizza cheese, imported ham and dill pickle slices",
+      14.99
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": 21.99,
+     "prices": [
+      "Kalamata olives, feta, garlic, fresh tomato slices (vegetarian)",
+      14.99
+     ]
+    },
+    {
+     "name": "Gyro",
+     "desc": 21.99,
+     "prices": [
+      "Tzatziki sauce, pizza cheese, gyro meat (lamb and beef), fresh tomato slices and onion",
+      14.99
+     ]
+    },
+    {
+     "name": "Hawaiian",
+     "desc": 21.99,
+     "prices": [
+      "Imported ham, pineapple, cheese",
+      14.99
+     ]
+    },
+    {
+     "name": "Italian",
+     "desc": 21.99,
+     "prices": [
+      "Sausage, garlic, fresh tomato slices, oregano",
+      14.99
+     ]
+    },
+    {
+     "name": "Kickin’ Chicken",
+     "desc": 21.99,
+     "prices": [
+      "Ranch, crispy chicken tossed in Frank’s RedHot, bacon, pizza cheese (mild available)",
+      14.99
+     ]
+    },
+    {
+     "name": "Marguerite",
+     "desc": 21.99,
+     "prices": [
+      "Feta, black olives, onion, peppers (vegetarian)",
+      14.99
+     ]
+    },
+    {
+     "name": "Pastrami",
+     "desc": 23.99,
+     "prices": [
+      "Fresh dough drizzled with yellow mustard, warm pastrami, pizza cheese, a tad more mustard on top",
+      15.99
+     ]
+    },
+    {
+     "name": "Rodeo",
+     "desc": 21.99,
+     "prices": [
+      "Cannonball BBQ sauce, pizza cheese, ground beef and onion rings",
+      14.99
+     ]
+    },
+    {
+     "name": "Southwestern",
+     "desc": 21.99,
+     "prices": [
+      "BBQ sauce, grilled chicken, onions, pizza cheese",
+      14.99
+     ]
+    },
+    {
+     "name": "Spaghetti & Meatball",
+     "desc": 21.99,
+     "prices": [
+      "Homemade crust, sauce and almost a pound of spaghetti and meatballs, covered in pizza cheese",
+      14.99
+     ]
+    },
+    {
+     "name": "Veggie Special",
+     "desc": 24.99,
+     "prices": [
+      "Mushroom, onion, peppers, fresh tomato slices, broccoli, black olives (vegetarian)",
+      15.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "img": "calzone.webp",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "note": "Pizza dough layered with cheese and sauce, stuffed with up to two stuffings of your choice, then baked in the oven.",
+   "items": [
+    {
+     "name": "1 or 2 stuffing calzone",
+     "desc": 12.99,
+     "prices": [
+      "Pepperoni, sweet sausage, imported ham, hamburg, mushroom, onion, peppers, grilled chicken, garlic, eggplant, anchovies, spinach, bacon, broccoli, pineapple, black olives, feta, kalamata olives, hot chopped peppers, fresh tomato slices, jalapeño slices",
+      10.99
+     ]
+    },
+    {
+     "name": "Extra stuffing",
+     "desc": 2.75,
+     "prices": [
+      "",
+      1.75
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers & sides",
+   "img": "wings.webp",
+   "items": [
+    {
+     "name": "The Sampler",
+     "desc": "3 mozzarella sticks, 3 chicken fingers, 8 fried mushrooms, 3 jalapeño poppers, 4 buffalo wings",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Veggie Sampler",
+     "desc": "4 eggplant, 4 mac & cheese bites, 8 fried mushrooms, 3 jalapeño poppers, 10 onion rings (vegetarian)",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Chicken Finger Dinner",
+     "desc": "5 chicken fingers with fries",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "French fries",
+     "desc": "",
+     "prices": [
+      4.99
+     ]
+    },
+    {
+     "name": "Tater tots",
+     "desc": "",
+     "prices": [
+      5.25
+     ]
+    },
+    {
+     "name": "Onion rings",
+     "desc": "",
+     "prices": [
+      5.25
+     ]
+    },
+    {
+     "name": "Chicken fingers (5)",
+     "desc": "",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Garlic sticks with cheese",
+     "desc": "Small 10\" · Large 14\"",
+     "prices": [
+      "$11.99 small",
+      "$15.99 large"
+     ]
+    },
+    {
+     "name": "Garlic bread",
+     "desc": "",
+     "prices": [
+      3.25
+     ]
+    },
+    {
+     "name": "Garlic bread & cheese",
+     "desc": "Made with our own homemade garlic butter",
+     "prices": [
+      4.25
+     ]
+    },
+    {
+     "name": "Buffalo tenders (5)",
+     "desc": "",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Buffalo wings (8)",
+     "desc": "",
+     "prices": [
+      11.99
+     ]
+    },
+    {
+     "name": "Jalapeño poppers (5)",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Fried mushrooms (12)",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Mozzarella sticks (8)",
+     "desc": "",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Potato skins (5)",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Broccoli bites with bacon (8)",
+     "desc": "",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Fried pickles (5)",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Mac & cheese bites (8)",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Pizza fries",
+     "desc": "French fries topped with pizza cheese, oregano and pepperoni, with a side of our homemade sauce",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Bucket of wings: Good Deal (20)",
+     "desc": "",
+     "prices": [
+      30.99
+     ]
+    },
+    {
+     "name": "Bucket of wings: Better Deal (40)",
+     "desc": "Enough to share with the family!",
+     "prices": [
+      50.99
+     ]
+    },
+    {
+     "name": "Bucket of wings: Great Deal (80)",
+     "desc": "Enough to share with friends AND family!",
+     "prices": [
+      90.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Fresh salads",
+   "img": "salad-greek.webp",
+   "note": "Dressings: House, Ranch, Blue Cheese, Creamy Italian, Greek and Balsamic Vinaigrette.",
+   "items": [
+    {
+     "name": "Tossed",
+     "desc": "Field greens, tomatoes, onions, green peppers",
+     "prices": [
+      6.99
+     ]
+    },
+    {
+     "name": "Chef",
+     "desc": "Field greens, tomatoes, onions, green peppers, imported ham, Genoa salami, shredded cheese",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Field greens, tomatoes, onions, green peppers, kalamata olives, feta",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Tuna",
+     "desc": "Field greens, tomatoes, onions, green peppers, tuna",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "BBQ or Buffalo Chicken",
+     "desc": "Chicken tossed in Cannonball BBQ or Frank’s RedHot; crispy or grilled",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Seafood or Chicken Salad",
+     "desc": "Topped with seafood salad or seasoned chicken salad",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Steak",
+     "desc": "Topped with tender shaved steak",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "desc": "Topped with all white meat grilled chicken",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Chicken Finger",
+     "desc": "Topped with chopped crispy chicken",
+     "prices": [
+      8.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Grinders & wraps",
+   "img": "sub-steak.webp",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "note": "Hot and cold grinders. Wraps are available in large size only.",
+   "items": [
+    {
+     "name": "Veggie",
+     "desc": 10.99,
+     "prices": [
+      "",
+      9.99
+     ]
+    },
+    {
+     "name": "Tuna fish",
+     "desc": 10.99,
+     "prices": [
+      "",
+      9.99
+     ]
+    },
+    {
+     "name": "Chicken salad",
+     "desc": 10.99,
+     "prices": [
+      "",
+      9.99
+     ]
+    },
+    {
+     "name": "Seafood",
+     "desc": 12.99,
+     "prices": [
+      "",
+      10.99
+     ]
+    },
+    {
+     "name": "Italian club",
+     "desc": 10.99,
+     "prices": [
+      "Imported ham, Genoa salami, provolone, house-made oil dressing and veggies of your choice",
+      9.99
+     ]
+    },
+    {
+     "name": "Genoa salami",
+     "desc": 10.99,
+     "prices": [
+      "",
+      9.99
+     ]
+    },
+    {
+     "name": "Ham & cheese",
+     "desc": 10.99,
+     "prices": [
+      "",
+      9.99
+     ]
+    },
+    {
+     "name": "Smoked turkey",
+     "desc": 10.99,
+     "prices": [
+      "",
+      9.99
+     ]
+    },
+    {
+     "name": "Meatball",
+     "desc": 10.99,
+     "prices": [
+      "",
+      9.99
+     ]
+    },
+    {
+     "name": "Eggplant parm",
+     "desc": 10.99,
+     "prices": [
+      "",
+      9.99
+     ]
+    },
+    {
+     "name": "Italian sausage parm",
+     "desc": 10.99,
+     "prices": [
+      "",
+      9.99
+     ]
+    },
+    {
+     "name": "Hot pastrami",
+     "desc": 13.99,
+     "prices": [
+      "",
+      11.99
+     ]
+    },
+    {
+     "name": "Steak grinder",
+     "desc": 13.99,
+     "prices": [
+      "Tender shaved steak with your choice of mushrooms, onions or peppers, and provolone",
+      11.99
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": 13.99,
+     "prices": [
+      "",
+      11.99
+     ]
+    },
+    {
+     "name": "Chicken finger parm",
+     "desc": 12.99,
+     "prices": [
+      "",
+      10.99
+     ]
+    },
+    {
+     "name": "B.L.T.",
+     "desc": 12.99,
+     "prices": [
+      "",
+      10.99
+     ]
+    },
+    {
+     "name": "Chicken stir fry teriyaki",
+     "desc": 13.99,
+     "prices": [
+      "",
+      11.99
+     ]
+    },
+    {
+     "name": "Haddock",
+     "desc": 12.99,
+     "prices": [
+      "",
+      10.99
+     ]
+    },
+    {
+     "name": "Gyro wrap",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Chicken ranch wrap",
+     "desc": "Chicken, bacon, broccoli, cheese and ranch, all grilled together",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "RJ wrap",
+     "desc": "Ground beef, bacon, broccoli, cheese and BBQ sauce, all grilled together",
+     "prices": [
+      10.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Burgers",
+   "img": "burger-ehop.webp",
+   "items": [
+    {
+     "name": "Hamburger",
+     "desc": "",
+     "prices": [
+      7.99
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Bacon cheeseburger",
+     "desc": "",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "EHOP Burger",
+     "desc": "All-beef patty, bacon, crispy onion rings, lettuce, tomato, pickle, mayo, ketchup, American and provolone",
+     "prices": [
+      11.99
+     ]
+    },
+    {
+     "name": "Greek Burger",
+     "desc": "Tzatziki, feta, lettuce, tomato, onion",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Hawaiian Burger",
+     "desc": "Pineapple tidbits, teriyaki sauce, provolone",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Pizza Burger",
+     "desc": "Our homemade pizza sauce, pepperoni, onions, pizza cheese",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Bold and Spicy Burger",
+     "desc": "Buffalo sauce, lettuce, tomato, bleu cheese",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Mild BBQ Burger",
+     "desc": "Hickory smoked BBQ sauce, lettuce, tomato, provolone",
+     "prices": [
+      10.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Pasta & seafood",
+   "img": "pasta.webp",
+   "items": [
+    {
+     "name": "Spaghetti or ziti with sauce",
+     "desc": "Served with garlic bread",
+     "prices": [
+      9.29
+     ]
+    },
+    {
+     "name": "Spaghetti or ziti with meatball, sausage, mushrooms, chicken or eggplant",
+     "desc": "Served with garlic bread",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Gluten-free spaghetti",
+     "desc": "Available",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Clam strip dinner",
+     "desc": "With French fries or onion rings",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Fried shrimp dinner",
+     "desc": "With French fries or onion rings",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Haddock dinner",
+     "desc": "With French fries or onion rings",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Fisherman’s platter",
+     "desc": "Fried shrimp, clam strips and haddock, with French fries or onion rings",
+     "prices": [
+      18.99
+     ]
+    },
+    {
+     "name": "Side of clam strips",
+     "desc": "",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Side of fried shrimp",
+     "desc": "",
+     "prices": [
+      9.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Kids",
+   "img": "tenders.webp",
+   "note": "Every kids’ item includes a 12 oz drink and one side: French fries, onion rings, tomato slices, pineapple bites, pickles, black olives or a bag of chips. (Not included with pizza.)",
+   "items": [
+    {
+     "name": "Small cheese pizza",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Bulkie roll",
+     "desc": "Turkey, ham or tuna",
+     "prices": [
+      9.5
+     ]
+    },
+    {
+     "name": "3 mozzarella sticks",
+     "desc": "",
+     "prices": [
+      7.99
+     ]
+    },
+    {
+     "name": "3 chicken fingers",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    }
+   ]
+  }
+ ]
+}

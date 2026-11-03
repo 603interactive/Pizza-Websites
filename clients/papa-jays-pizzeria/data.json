@@ -1,0 +1,1456 @@
+{
+ "slug": "papa-jays-pizzeria",
+ "name": "Papa Jay's Pizzeria",
+ "short": "Papa Jay's",
+ "domain": "https://papajays.net",
+ "owner": "Jason Parker",
+ "email": "papajays@comcast.net",
+ "tagline": "Locally owned downtown Dover pizzeria since 2001: pizza, steak tip subs, fresh wings, delivery and catering.",
+ "seo_title": "Papa Jay's Pizzeria | Pizza, Steak Tip Subs, Wings & Catering in Downtown Dover, NH",
+ "seo_desc": "Papa Jay's Pizzeria, locally owned in downtown Dover NH since 2001. Hand-cut steak tip subs, fresh wings, 20-inch jumbo pizza, delivery to Dover, Somersworth, Madbury and Rollinsford, and catering. Call (603) 750-7272.",
+ "locations": [
+  {
+   "id": "dover",
+   "name": "Dover",
+   "street": "18 Broadway",
+   "city": "Dover",
+   "region": "NH",
+   "postal": "03820",
+   "phone": "(603) 750-7272",
+   "tel": "+16037507272",
+   "hours": [
+    {
+     "dow": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "open": "09:30",
+     "close": "23:00"
+    },
+    {
+     "dow": [
+      6,
+      0
+     ],
+     "open": "10:00",
+     "close": "23:00"
+    }
+   ],
+   "order": "https://papajay.weborder.net/ordering?store=838",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Papa+Jays+Pizzeria+18+Broadway+Dover+NH+03820",
+   "geo": [
+    43.1979,
+    -70.8737
+   ]
+  }
+ ],
+ "order_any": "https://papajay.weborder.net/ordering?store=838",
+ "facebook": "https://www.facebook.com/pages/Papa-Jays-Pizzeria/299123104617",
+ "towns": [
+  "Dover",
+  "Somersworth",
+  "Madbury",
+  "Rollinsford"
+ ],
+ "specialties": [
+  {
+   "t": "Steak tip sub",
+   "d": "Hand cut from top-of-the-line steak.",
+   "k": "Hot subs"
+  },
+  {
+   "t": "Fresh wings",
+   "d": "Fresh, not frozen, mixed in Sweet Baby Ray’s sauces. Bone-in or boneless.",
+   "k": "Wings & chicken"
+  },
+  {
+   "t": "Famous Italian sub",
+   "d": "Bread, meats and sliced veggies.",
+   "k": "Cold subs & wraps"
+  },
+  {
+   "t": "Jumbo 20\" pizza",
+   "d": "The biggest pizza in Dover.",
+   "k": "Cheese pizza"
+  }
+ ],
+ "letter": "Papa Jay's Pizzeria is a locally owned restaurant that has been open since 2001. We focus on fast service and a quality product, and we have started to offer catering for special events and family gatherings. We offer delivery to Dover, Somersworth, Madbury, and Rollinsford and catering to many other surrounding towns. Unlike chain restaurants we are locally owned, and we use a local produce company, bread company, advertising company and food vendors that employ local people. Without our customers we would not be a successful restaurant. Thank you.",
+ "sizes": [
+  {
+   "n": "Medium 12\"",
+   "d": 12,
+   "price": 12.99
+  },
+  {
+   "n": "Large",
+   "d": 14,
+   "price": 14.99,
+   "assumed": true
+  },
+  {
+   "n": "Extra large",
+   "d": 16,
+   "price": 16.99,
+   "assumed": true
+  },
+  {
+   "n": "Jumbo 20\"",
+   "d": 20,
+   "price": 27.99
+  }
+ ],
+ "specs": [
+  {
+   "name": "Meatlovers",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 27.99
+  },
+  {
+   "name": "Loaded",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 27.99
+  },
+  {
+   "name": "Pepperoni Special",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 25.99
+  },
+  {
+   "name": "Vegetarian",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 27.99
+  },
+  {
+   "name": "Greek",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 27.99
+  },
+  {
+   "name": "Spinocoli",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 25.99
+  },
+  {
+   "name": "White Pizza",
+   "M": 14.99,
+   "L": 17.99,
+   "X": 19.99
+  },
+  {
+   "name": "Buffalo Chicken",
+   "M": 17.29,
+   "L": 23.99,
+   "X": 25.99
+  },
+  {
+   "name": "White Buffalo",
+   "M": 17.29,
+   "L": 23.99,
+   "X": 25.99
+  },
+  {
+   "name": "BBQ Chicken",
+   "M": 17.29,
+   "L": 23.99,
+   "X": 25.99
+  },
+  {
+   "name": "Chicken Grill",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 25.99
+  },
+  {
+   "name": "Bacon Chicken Ranch",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 27.99
+  },
+  {
+   "name": "Chicken Alfredo (Chicken Broccoli)",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 27.99
+  },
+  {
+   "name": "Bacon Double Cheeseburger",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 25.99
+  },
+  {
+   "name": "Philly Steak Bomb",
+   "M": 19.99,
+   "L": 23.99,
+   "X": 27.99
+  }
+ ],
+ "menu": [
+  {
+   "cat": "Cheese pizza",
+   "icon": "pizza",
+   "head": [
+    "Size"
+   ],
+   "note": "Choose your toppings when you order online. Gluten-free is a 10-inch pie.",
+   "items": [
+    {
+     "name": "Medium 12\"",
+     "desc": "",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Large",
+     "desc": "",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Extra large",
+     "desc": "",
+     "prices": [
+      16.99
+     ]
+    },
+    {
+     "name": "Jumbo 20\"",
+     "desc": "Biggest pizza in Dover!",
+     "prices": [
+      27.99
+     ]
+    },
+    {
+     "name": "Gluten-free 10\"",
+     "desc": "",
+     "prices": [
+      12.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Specialty pizzas",
+   "icon": "pizza",
+   "head": [
+    "Medium",
+    "Large",
+    "X-Large"
+   ],
+   "note": "\"—\" means that size is not offered for that pizza on the online menu.",
+   "items": [
+    {
+     "name": "Meatlovers",
+     "desc": "Sausage, hamburger, ham, and pepperoni",
+     "prices": [
+      19.99,
+      23.99,
+      27.99
+     ]
+    },
+    {
+     "name": "Loaded",
+     "desc": "Pepperoni, mushrooms, onions, peppers, ham, fresh burger, sausage, and olives",
+     "prices": [
+      19.99,
+      23.99,
+      27.99
+     ]
+    },
+    {
+     "name": "Pepperoni Special",
+     "desc": "Double pepperoni, and extra cheese",
+     "prices": [
+      19.99,
+      23.99,
+      25.99
+     ]
+    },
+    {
+     "name": "Hawaiian",
+     "desc": "Ham, pineapple, and extra cheese",
+     "prices": [
+      17.99,
+      24.99,
+      21.99
+     ]
+    },
+    {
+     "name": "Vegetarian",
+     "desc": "Onion, green peppers, tomato, black olives, mushroom, broccoli, and extra cheese",
+     "prices": [
+      19.99,
+      23.99,
+      27.99
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Feta, spinach, garlic, black olives, and extra cheese",
+     "prices": [
+      19.99,
+      23.99,
+      27.99
+     ]
+    },
+    {
+     "name": "Spinocoli",
+     "desc": "Fresh tomatoes, spinach, garlic, olive oil, and extra cheese",
+     "prices": [
+      19.99,
+      23.99,
+      25.99
+     ]
+    },
+    {
+     "name": "White Pizza",
+     "desc": "Oil, garlic, with no sauce and extra cheese",
+     "prices": [
+      14.99,
+      17.99,
+      19.99
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Sliced buffalo tenders, and extra cheese",
+     "prices": [
+      17.29,
+      23.99,
+      25.99
+     ]
+    },
+    {
+     "name": "White Buffalo",
+     "desc": "No tomato sauce, blue cheese, buffalo chicken, and extra cheese",
+     "prices": [
+      17.29,
+      23.99,
+      25.99
+     ]
+    },
+    {
+     "name": "BBQ Chicken",
+     "desc": "Barbeque chicken and extra cheese",
+     "prices": [
+      17.29,
+      23.99,
+      25.99
+     ]
+    },
+    {
+     "name": "Chicken Grill",
+     "desc": "Onions, green peppers, grilled chicken, and extra cheese",
+     "prices": [
+      19.99,
+      23.99,
+      25.99
+     ]
+    },
+    {
+     "name": "Bacon Chicken Ranch",
+     "desc": "Ranch dressing, bacon, grilled chicken and a hint of garlic",
+     "prices": [
+      19.99,
+      23.99,
+      27.99
+     ]
+    },
+    {
+     "name": "Chicken Alfredo (Chicken Broccoli)",
+     "desc": "Alfredo sauce, grilled chicken, broccoli, and extra cheese",
+     "prices": [
+      19.99,
+      23.99,
+      27.99
+     ]
+    },
+    {
+     "name": "Bacon Double Cheeseburger",
+     "desc": "Bacon, hamburger, and extra cheese",
+     "prices": [
+      19.99,
+      23.99,
+      25.99
+     ]
+    },
+    {
+     "name": "Philly Steak Bomb",
+     "desc": "Onions, peppers, mushrooms and shaved steak",
+     "prices": [
+      19.99,
+      23.99,
+      27.99
+     ]
+    },
+    {
+     "name": "Big Jay Attack",
+     "desc": "Thousand Island sauce, onions, pickles tomatoes and topped with fresh hamburger and un-cooked lettuce",
+     "prices": [
+      19.99,
+      23.99,
+      "—"
+     ]
+    },
+    {
+     "name": "Gutbuster",
+     "desc": "Ham, jalapenos, onions, pepperoni, buffalo chicken and extra cheese",
+     "prices": [
+      17.99,
+      "—",
+      "—"
+     ]
+    },
+    {
+     "name": "Sweet Red Chili",
+     "desc": "Onions, green peppers, pineapple and chicken tenders mixed with Sweet Baby Rays Red chili sauce. No pizza sauce",
+     "prices": [
+      "—",
+      24.99,
+      "—"
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "icon": "calz",
+   "note": "Large specialty calzones.",
+   "items": [
+    {
+     "name": "Greek",
+     "desc": "Feta, spinach, garlic, black olives, and extra cheese",
+     "prices": [
+      17.99
+     ]
+    },
+    {
+     "name": "Spinocoli Calzone",
+     "desc": "Fresh tomatoes, spinach, garlic, and olive oil",
+     "prices": [
+      17.99
+     ]
+    },
+    {
+     "name": "Vegetarian",
+     "desc": "Onion, green peppers, tomato, black olives, mushroom, and broccoli",
+     "prices": [
+      17.99
+     ]
+    },
+    {
+     "name": "Philly Bomb Calzone",
+     "desc": "steak n cheese, onions, peppers and mushrooms",
+     "prices": [
+      20.99
+     ]
+    },
+    {
+     "name": "Loaded Calzone",
+     "desc": "Pepperoni, mushrooms, onions, peppers, ham, fresh burger, sausage, and olives",
+     "prices": [
+      19.99
+     ]
+    },
+    {
+     "name": "Bacon Double cheeseburger calzone",
+     "desc": "Bacon, hamburger, and extra cheese",
+     "prices": [
+      18.99
+     ]
+    },
+    {
+     "name": "Meatlovers",
+     "desc": "Sausage, hamburger, ham, and pepperoni",
+     "prices": [
+      15.99
+     ]
+    },
+    {
+     "name": "Barbeque Chicken",
+     "desc": "Barbeque chicken, pizza sauce base and cheese",
+     "prices": [
+      19.99
+     ]
+    },
+    {
+     "name": "Bacon Chicken Ranch Zone",
+     "desc": "Bacon, grilled chicken, ranch dressing and garlic.",
+     "prices": [
+      15.99
+     ]
+    },
+    {
+     "name": "Chicken Broccoli Zone",
+     "desc": "Alfredo sauce, broccoli and chicken",
+     "prices": [
+      19.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Wings & chicken",
+   "icon": "wing",
+   "note": "Wing flavors: Baby Ray’s Buffalo (hot), Plain, Garlic Parmesan, Sweet Teriyaki, Golden BBQ, Sweet Red Chili and Barbecue (all Sweet Baby Ray’s except plain). Wing prices by piece count are shown when you order online.",
+   "items": [
+    {
+     "name": "Fresh wings (bone-in)",
+     "desc": "Fresh, not frozen. Choose 6, 10, 15, 20 or 25 pieces.",
+     "prices": []
+    },
+    {
+     "name": "Boneless wings",
+     "desc": "Chicken tenders mixed in Sweet Baby Ray’s sauces. Choose 6, 10, 15, 20 or 25 pieces.",
+     "prices": []
+    },
+    {
+     "name": "1 lb chicken tenders & 1 lb fries",
+     "desc": "",
+     "prices": [
+      17.99
+     ]
+    },
+    {
+     "name": "Dipping sauces",
+     "desc": "Price per sauce",
+     "prices": [
+      1.69
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers",
+   "icon": "app",
+   "note": "Prices marked “from” depend on the size you choose.",
+   "items": [
+    {
+     "name": "Dill Pickle and Cream Cheese Bombs",
+     "desc": "Crispy fried bites filled with tangy dill pickles and creamy cheese, served golden brown with a side of ranch.",
+     "prices": [
+      6.99
+     ]
+    },
+    {
+     "name": "French Fries",
+     "desc": "",
+     "prices": [
+      "from $4.99"
+     ]
+    },
+    {
+     "name": "Mozzarella sticks",
+     "desc": "",
+     "prices": [
+      7.99
+     ]
+    },
+    {
+     "name": "Curly fries",
+     "desc": "",
+     "prices": [
+      3.99
+     ]
+    },
+    {
+     "name": "Cheese french fries",
+     "desc": "Fries with melted mozzarella cheese",
+     "prices": [
+      5.99
+     ]
+    },
+    {
+     "name": "Chili fries",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Onion Rings",
+     "desc": "Very yummy and popular!!",
+     "prices": [
+      4.99
+     ]
+    },
+    {
+     "name": "Cream cheese jalapeno poppers",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Cheddar cheese jalapeno poppers",
+     "desc": "",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Boneless buffalo chicken tenders",
+     "desc": "",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Boneless BBQ chicken tenders",
+     "desc": "",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Chicken Tenders",
+     "desc": "",
+     "prices": [
+      "from $10.99"
+     ]
+    },
+    {
+     "name": "Cheesey bread",
+     "desc": "4 breadsticks with melted mozzarella cheese",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Bread sticks",
+     "desc": "",
+     "prices": [
+      5.99
+     ]
+    },
+    {
+     "name": "Garlic bread",
+     "desc": "",
+     "prices": [
+      3.99
+     ]
+    },
+    {
+     "name": "Quesadilla",
+     "desc": "Choose your meat. It comes with onions, peppers, tomato, and cheese.",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Chili",
+     "desc": "16 ounces",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Fried mushrooms",
+     "desc": "Coated fried mushrooms",
+     "prices": [
+      7.99
+     ]
+    },
+    {
+     "name": "Side of meatballs and marinara sauce",
+     "desc": "",
+     "prices": [
+      6.99
+     ]
+    },
+    {
+     "name": "New*** Beer Battered chicken tenders",
+     "desc": "Made with a real pale lager for a genuine beer battered taste. This whole muscle tenderloin has a tempura coating for a crunchy exterior texture and a moist firm interior.",
+     "prices": [
+      7.49
+     ]
+    },
+    {
+     "name": "Fried Ravioli",
+     "desc": "appetizer",
+     "prices": [
+      7.49
+     ]
+    },
+    {
+     "name": "Potato Skins",
+     "desc": "Boats 5 or 10 pc Bacon and cheese",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Jalapeno mac & cheese bites",
+     "desc": "",
+     "prices": [
+      6.99
+     ]
+    },
+    {
+     "name": "Fried Cauliflower",
+     "desc": "Breaded lemon and garlic cheddar cheese. Its very tasty!!",
+     "prices": [
+      8.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Burgers & dogs",
+   "icon": "burg",
+   "note": "All burgers are 6 oz fresh beef.",
+   "items": [
+    {
+     "name": "ADD Fries to your Burger!",
+     "desc": "",
+     "prices": [
+      3.5
+     ]
+    },
+    {
+     "name": "Hamburger",
+     "desc": "6 oz Fresh Beef",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Fresh Burger 6 oz",
+     "desc": "",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Mushroom burger",
+     "desc": "choose your favorite fixings. 6 oz Fresh Beef",
+     "prices": [
+      11.99
+     ]
+    },
+    {
+     "name": "Bacon Cheese Burger",
+     "desc": "6 oz Fresh burger, your choice of fixings",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Chili Burger",
+     "desc": "Burger with cheese and chili 6 oz Fresh Burger",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Chili Dog",
+     "desc": "Jumbo hot dog with chili",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Jumbo Hot Dog",
+     "desc": "served on a brioche hot dog roll",
+     "prices": [
+      6.99
+     ]
+    },
+    {
+     "name": "Big Jay",
+     "desc": "Thousand Island sauce, lettuce, pickle, onion, and cheese 6 oz fresh burger",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Double cheese burger",
+     "desc": "12 oz Fresh Beef. 2 patties",
+     "prices": [
+      15.99
+     ]
+    },
+    {
+     "name": "Johns BBQ Burger",
+     "desc": "Red onion, barbeque sauce, bacon, and cheese. 6 oz Fresh Beef.",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Cowboy Burger",
+     "desc": "Horseradish, provolone, and onion rings on top. 6 oz Fresh beef",
+     "prices": [
+      12.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Hot subs",
+   "icon": "sub",
+   "note": "Large size. Steak tips are hand cut.",
+   "items": [
+    {
+     "name": "Sirloin Steak and American cheese",
+     "desc": "steak tips. Price of steak has risen drastically.",
+     "prices": [
+      22.5
+     ]
+    },
+    {
+     "name": "*NEW*  Ribeye shaved steak",
+     "desc": "Premium quality shaved Ribeye steak",
+     "prices": [
+      16.49
+     ]
+    },
+    {
+     "name": "Teriyaki Sirloin Steak and American Cheese",
+     "desc": "steak tips. price of steak has risen drastically!",
+     "prices": [
+      22.5
+     ]
+    },
+    {
+     "name": "Large steak tip bomb",
+     "desc": "steak tip with onion peppers and onions. Price of steak tip has risen drastically.",
+     "prices": [
+      22.5
+     ]
+    },
+    {
+     "name": "Meatball & Provolone",
+     "desc": "all beef meatballs",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Cheeseburger Sub",
+     "desc": "Pick your toppings, two six once fresh burger patties with cheese",
+     "prices": [
+      15.99
+     ]
+    },
+    {
+     "name": "Supermelt",
+     "desc": "Ham, american cheese, lettuce, and tomato",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Pastrami",
+     "desc": "with provolone cheese",
+     "prices": [
+      15.99
+     ]
+    },
+    {
+     "name": "Ballpark Sausage Sub",
+     "desc": "Onions, peppers, and cheese",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Heart Attack Steak Bomb",
+     "desc": "Onions, peppers, mushrooms,salami, bacon, ham, sausage and provolone cheese.",
+     "prices": [
+      21.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Chicken subs",
+   "icon": "sub",
+   "note": "Small size.",
+   "items": [
+    {
+     "name": "Bacon Chicken Ranch Sub",
+     "desc": "Bacon, chicken tender, american cheese, ham, ranch dressing, and lettuce",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Buffalo chicken Sub",
+     "desc": "Lettuce and blue cheese",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Chicken Tender and Cheese Sub",
+     "desc": "American cheese and your pick of veggies",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "BBQ Chicken and Cheese Sub",
+     "desc": "Chicken tenders covered in bbq sauce",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Grilled Chicken Bomb and Cheese",
+     "desc": "Onions, peppers, mushrooms, and american cheese",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Grilled Chicken and American Cheese Sub",
+     "desc": "add your favorite veggies",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Chicken Parmigiana and Provolone Sub",
+     "desc": "",
+     "prices": [
+      10.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Cold subs & wraps",
+   "icon": "sub",
+   "note": "Large size. Choose your veggies.",
+   "items": [
+    {
+     "name": "Italian sub",
+     "desc": "Ham, genoa salami, and provolone. choose your veggies.",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "BLT",
+     "desc": "bacon, lettuce and tomato",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Ham & Cheese",
+     "desc": "American cheese choose your veggies",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Vegetarian & Provolone",
+     "desc": "onions, tomatoes, lettuce, green peppers and pickles",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Tuna Sub",
+     "desc": "Starkist solid white, made fresh to order. choose your veggies",
+     "prices": [
+      11.99
+     ]
+    },
+    {
+     "name": "Chicken Caesar Wrap",
+     "desc": "chicken, romaine, parm cheese and caesar dressing",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Steak Caesar Wrap",
+     "desc": "steak, romaine, caesar dressing and shaved parm cheese",
+     "prices": [
+      15.99
+     ]
+    },
+    {
+     "name": "Spicy Italian",
+     "desc": "Pepperoni, genoa salami, and provolone. choose your veggies",
+     "prices": [
+      10.99
+     ]
+    },
+    {
+     "name": "Turkey & Cheese",
+     "desc": "choose your veggies",
+     "prices": [
+      12.5
+     ]
+    },
+    {
+     "name": "Turkey Club",
+     "desc": "Turkey, bacon, provolone, toasted. choose your veggies.",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Chicken Salad Sub",
+     "desc": "Made fresh to order. choose your veggies",
+     "prices": [
+      12.5
+     ]
+    },
+    {
+     "name": "Caesar Wrap",
+     "desc": "Romaine lettuce, parm cheese and caesar dressings.",
+     "prices": [
+      10.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "icon": "salad",
+   "items": [
+    {
+     "name": "Taco salad",
+     "desc": "Dressed as a garden salad with chili, doritos, and mozzarella cheese",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Garden salad",
+     "desc": "Made with lettuce, red onions, baby carrots, tomatoes, cucumbers, and green peppers",
+     "prices": [
+      8.99
+     ]
+    },
+    {
+     "name": "Chef salad",
+     "desc": "Made with a garden salad, with mozzarella cheese and ham, turkey, salami rolled up together and sliced",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Greek salad",
+     "desc": "Made with a garden salad with feta, black olives and pepperoncinis",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Caesar salad",
+     "desc": "Romaine, croutons, and parmesan cheese",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Steak caesar salad",
+     "desc": "Romaine, croutons, parmesan cheese and 6 ounces of steak tips.",
+     "prices": [
+      16.99
+     ]
+    },
+    {
+     "name": "Chicken caesar salad",
+     "desc": "Grilled chicken, romaine, croutons, and parmesan cheese",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Single garlic roll",
+     "desc": "",
+     "prices": [
+      1.99
+     ]
+    },
+    {
+     "name": "2 garlic rolls",
+     "desc": "",
+     "prices": [
+      3.99
+     ]
+    },
+    {
+     "name": "Buffalo Chicken Salad",
+     "desc": "A garden salad topped with buffalo chicken tenders.",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Golden Chicken Tender Salad",
+     "desc": "A garden salad topped with golden bbq sauced chicken tenders.",
+     "prices": [
+      14.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Pasta",
+   "icon": "pasta",
+   "note": "Every pasta dish is served with a garlic roll.",
+   "items": [
+    {
+     "name": "Pasta with alfredo sauce",
+     "desc": "served with a garlic roll",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Fried Cheese ravioli and marinara sauce",
+     "desc": "served with a garlic roll",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Pasta with chicken alfredo",
+     "desc": "served with a garlic roll",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Spaghetti & marinara sauce",
+     "desc": "served with a garlic roll",
+     "prices": [
+      13.99
+     ]
+    },
+    {
+     "name": "Pasta with meatballs and marinara sauce",
+     "desc": "served with a garlic roll",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Pasta with italian sausage & marinara sauce",
+     "desc": "served with a garlic roll",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Pasta with chicken parmigiana & marinara",
+     "desc": "served with a garlic roll",
+     "prices": [
+      14.99
+     ]
+    },
+    {
+     "name": "Cheese ravioli with alfredo sauce",
+     "desc": "served with a garlic roll",
+     "prices": [
+      14.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Kids menu",
+   "icon": "kids",
+   "items": [
+    {
+     "name": "Chicken tenders and french fries",
+     "desc": "3 piece chicken",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Kids hot dog and fries",
+     "desc": "jumbo hot dog served on a brioche roll",
+     "prices": [
+      9.99
+     ]
+    },
+    {
+     "name": "Kids Cheese burger and fries",
+     "desc": "Frozen 4 oz patty",
+     "prices": [
+      9.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Sweets",
+   "icon": "sweet",
+   "items": [
+    {
+     "name": "Cheese Cake",
+     "desc": "New York Cheese cake",
+     "prices": [
+      6.99
+     ]
+    },
+    {
+     "name": "Chocolate Chip Cookie",
+     "desc": "3 oz",
+     "prices": [
+      2.99
+     ]
+    },
+    {
+     "name": "Whoopie Pie",
+     "desc": "Steve’s Snacks bakery. Chocolate cake with vanilla frosting. Gourmet classic whoopie pie filled with a sweet filling.",
+     "prices": [
+      3.5
+     ]
+    },
+    {
+     "name": "M&M Chocolate Chip Cookie",
+     "desc": "3 oz",
+     "prices": [
+      2.99
+     ]
+    },
+    {
+     "name": "Fried Dough Bites",
+     "desc": "Fresh fried dough balls dipped in cinnamon butter and covered with powdered sugar. served with a side of vanilla icing. 1 Pound.",
+     "prices": [
+      12.99
+     ]
+    },
+    {
+     "name": "Fudge Brownie",
+     "desc": "David's Cookies. Best made Cookie Company. 4 oz",
+     "prices": [
+      3.99
+     ]
+    },
+    {
+     "name": "Monster Cookie",
+     "desc": "Premium cookie made with caramel pieces, butterscotch flavored confectionary pretzels and oats.",
+     "prices": [
+      3.5
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Chips & drinks",
+   "icon": "drink",
+   "note": "Soda is 20 oz.",
+   "items": [
+    {
+     "name": "Plain Potato Chips",
+     "desc": "Wachusett chips 4.5 oz",
+     "prices": [
+      3.5
+     ]
+    },
+    {
+     "name": "Salt & Vinegar Chips",
+     "desc": "Wachusett 4.5 oz",
+     "prices": [
+      3.5
+     ]
+    },
+    {
+     "name": "BBQ Chips",
+     "desc": "Wachusett 4.5 oz",
+     "prices": [
+      3.5
+     ]
+    },
+    {
+     "name": "Sour Cream & Onion Chips",
+     "desc": "Wachusett chips 4.5 oz",
+     "prices": [
+      3.5
+     ]
+    },
+    {
+     "name": "Classic Lay's",
+     "desc": "2.75 oz",
+     "prices": [
+      2.99
+     ]
+    },
+    {
+     "name": "Large bag Nacho Cheese Doritos",
+     "desc": "",
+     "prices": [
+      6.99
+     ]
+    },
+    {
+     "name": "Large bag Cool Ranch Doritos",
+     "desc": "",
+     "prices": [
+      6.99
+     ]
+    },
+    {
+     "name": "Doritos",
+     "desc": "small bag",
+     "prices": [
+      2.99
+     ]
+    },
+    {
+     "name": "20 oz soda",
+     "desc": "Pepsi, Diet Pepsi, Mountain Dew, Orange Crush, Root Beer, Ginger Ale, Starry, bottled water",
+     "prices": [
+      2.99
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Beer delivery",
+   "icon": "beer",
+   "note": "By state law, food must be ordered with beer. Delivery drivers work for tips.",
+   "items": [
+    {
+     "name": "Steel reserve",
+     "desc": "24 oz",
+     "prices": [
+      4.5
+     ]
+    },
+    {
+     "name": "Twisted Tea",
+     "desc": "25 oz Original",
+     "prices": [
+      4.5
+     ]
+    },
+    {
+     "name": "Natural Ice",
+     "desc": "25 oz",
+     "prices": [
+      3.99
+     ]
+    },
+    {
+     "name": "Natti Daddy",
+     "desc": "25 oz",
+     "prices": [
+      3.99
+     ]
+    },
+    {
+     "name": "Corona",
+     "desc": "single 12 oz",
+     "prices": [
+      5.0
+     ]
+    },
+    {
+     "name": "Founders",
+     "desc": "All Day IPA",
+     "prices": [
+      3.5
+     ]
+    },
+    {
+     "name": "Stoneface Niner",
+     "desc": "9.2%",
+     "prices": [
+      5.0
+     ]
+    },
+    {
+     "name": "20oz WHITE CLAW",
+     "desc": "Black Cherry",
+     "prices": [
+      4.99
+     ]
+    },
+    {
+     "name": "Truly Unruly",
+     "desc": "8% STRAWBERRY SMASH 16 oz Hard Seltzer",
+     "prices": [
+      3.99
+     ]
+    },
+    {
+     "name": "Tall Claw Surge Blackberry",
+     "desc": "20oz 8% blackberry surge",
+     "prices": [
+      4.99
+     ]
+    },
+    {
+     "name": "Blue Moon",
+     "desc": "",
+     "prices": [
+      3.5
+     ]
+    },
+    {
+     "name": "Truly Tropical",
+     "desc": "8% Tropical Twist 16 oz Hard Seltzer",
+     "prices": [
+      3.99
+     ]
+    },
+    {
+     "name": "Mikes Hard Lemonade",
+     "desc": "BIG 24 oz can 8%",
+     "prices": [
+      4.99
+     ]
+    },
+    {
+     "name": "Mikes Hard Cranberry",
+     "desc": "BIG 24 oz can",
+     "prices": [
+      4.99
+     ]
+    },
+    {
+     "name": "Mikes Hard Black Cherry",
+     "desc": "BIG CAN 24 oz",
+     "prices": [
+      4.99
+     ]
+    },
+    {
+     "name": "Heineken",
+     "desc": "12 oz",
+     "prices": [
+      4.0
+     ]
+    },
+    {
+     "name": "Tall White Claw Surge",
+     "desc": "Orange 8%",
+     "prices": [
+      4.99
+     ]
+    },
+    {
+     "name": "Natural Light",
+     "desc": "single 16oz",
+     "prices": [
+      3.5
+     ]
+    }
+   ]
+  }
+ ]
+}

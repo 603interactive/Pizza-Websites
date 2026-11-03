@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#15171A">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#crowd">Skip to the crowd planner</a>
+<div class="flag" aria-hidden="true"><i></i><i></i><i></i></div>
+<header class="top">
+  <a class="brand" href="#top" aria-label="{{ name }} home"><img src="{{ img('logo.png') }}" width="105" height="60" alt=""><span><b>Papa Jay’s</b><i>Pizzeria · Dover NH</i></span></a>
+  <nav aria-label="Main"><a href="#crowd">Crowd planner</a><a href="#menu">Menu</a><a href="#lines">Delivery</a><a href="#about">About</a><a href="#visit">Visit</a></nav>
+  <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order now</a>
+</header>
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1><span>Papa Jay’s</span><em>Pizzeria</em></h1>
+      <p class="sub">Locally owned in downtown Dover since 2001. Hand-cut steak tip subs, fresh wings, and the biggest pizza in town: a 20-inch jumbo. Open until 11 PM, delivered to four towns.</p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="#crowd">Feed a crowd</a></div>
+    </div>
+    <div class="board" role="group" aria-label="At a glance">
+      <p class="bh"><span>Papa Jay’s Depot</span><span>18 Broadway</span></p>
+      <dl>
+        <div><dt>Now</dt><dd data-status>Open</dd></div>
+        <div><dt>Open</dt><dd>9:30 AM – 11 PM<small>weekends from 10 AM</small></dd></div>
+        <div><dt>Delivers</dt><dd>{{ towns|join(' · ') }}</dd></div>
+        <div><dt>Biggest</dt><dd>20" jumbo pizza, $27.99</dd></div>
+        <div><dt>Catering</dt><dd>Events &amp; family gatherings</dd></div>
+      </dl>
+      <figure><img src="{{ img('pizza.webp') }}" width="590" height="300" alt="A slice lifted from a pizza topped with sausage, black olives, onions and green peppers, with melted cheese stretching" fetchpriority="high"></figure>
+    </div>
+  </div>
+  <div class="trestle" aria-hidden="true"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0 8H1200" stroke="#FFB000" stroke-width="4"/><path d="M0 52H1200" stroke="#FFB000" stroke-width="4" opacity=".5"/><path d="M0 8L40 52L80 8L120 52L160 8L200 52L240 8L280 52L320 8L360 52L400 8L440 52L480 8L520 52L560 8L600 52L640 8L680 52L720 8L760 52L800 8L840 52L880 8L920 52L960 8L1000 52L1040 8L1080 52L1120 8L1160 52L1200 8" fill="none" stroke="#FFB000" stroke-width="2.5" opacity=".7"/></svg></div>
+</section>
+
+<section class="crowd sec" id="crowd">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>The Crowd Planner. <em>How many pizzas for the office, the team or the party?</em></h2><p class="lede">Tell us how many people and how hungry. We pick the cheapest mix of Papa Jay’s real pizza sizes and prices to cover everyone, then you order or call.</p></div>
+    <div class="cp">
+      <form class="cp-in" onsubmit="return false" aria-label="Crowd planner">
+        <label for="cp-n">How many people?</label>
+        <div class="step"><button type="button" id="cp-m" aria-label="One fewer person">−</button><input id="cp-n" type="number" inputmode="numeric" min="1" max="150" value="12"><button type="button" id="cp-p" aria-label="One more person">+</button></div>
+        <input id="cp-r" class="range" type="range" min="1" max="60" value="12" aria-label="People slider">
+        <label for="cp-h">How hungry?</label>
+        <select id="cp-h"><option value="2">Light: about 2 slices each</option><option value="3" selected>Regular: about 3 slices each</option><option value="4">Hungry: about 4 slices each</option></select>
+        <label for="cp-k">Which pizza?</label>
+        <select id="cp-k"><option value="cheese" selected>Cheese</option>{% for s in specs %}<option value="{{ loop.index0 }}">{{ s.name }}</option>{% endfor %}</select>
+        <p class="assume">Rule of thumb: a slice is one eighth of a 14" pie. Large and extra-large are counted as 14" and 16" pies; Medium (12") and Jumbo (20") are from the menu.</p>
+      </form>
+      <div class="ticket" aria-live="polite">
+        <p class="th"><span>Your order</span><span id="cp-feeds">Feeds about 12</span></p>
+        <ul id="cp-lines"></ul>
+        <p class="tt"><span>Total before tax</span><b id="cp-total">$0.00</b></p>
+        <p class="tp"><span>Per person</span><b id="cp-pp">$0.00</b></p>
+        <p class="tv" id="cp-vs"></p>
+        <div class="tb"><a class="btn" id="cp-order" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a><a class="btn btn-ghost" id="cp-mail" href="mailto:{{ email }}">Email this plan</a></div>
+      </div>
+    </div>
+    <p class="fine">Plan uses the menu prices for cheese and specialty pizzas. Catering for bigger events: call or email Jay. Add NH meals tax. Prices subject to change.</p>
+  </div>
+</section>
+
+<section class="spec sec" id="specialties">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">What Papa Jay’s is known for</p><h2>Four things <em>to order first.</em></h2></div>
+    <ul class="sp">{% for s in specialties %}<li><span class="n">{{ '%02d'|format(loop.index) }}</span><h3>{{ s.t }}</h3><p>{{ s.d }}</p><button type="button" class="lnk" data-go="{{ slugify(s.k) }}">See it on the menu →</button></li>{% endfor %}</ul>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The full menu, finally on the website</p><h2>Choose your track, <em>or search.</em></h2></div>
+    <div class="m-tools"><label class="sr" for="m-q">Search the menu</label><input id="m-q" type="search" placeholder="Search: steak tip, wings, calzone…" autocomplete="off"><span id="m-count" class="sr" aria-live="polite"></span></div>
+    <div class="m-grid">
+      <div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" data-t="{{ slugify(c.cat) }}" aria-selected="{{ 'true' if loop.first else 'false' }}"><i>{{ '%02d'|format(loop.index) }}</i><span>{{ c.cat }}</span></button>{% endfor %}</div>
+      <div class="m-body">
+        {% for c in menu %}
+        <section class="m-panel" data-p="{{ slugify(c.cat) }}" {% if not loop.first %}hidden{% endif %}>
+          <h3>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+          {% if c.head and c.head|length > 1 %}<p class="m-cols" aria-hidden="true"><span></span>{% for h in c.head %}<b>{{ h }}</b>{% endfor %}</p>{% endif %}
+          <ul class="m-list">{% for it in c['items'] %}
+            <li data-s="{{ (it.name ~ ' ' ~ it.get('desc','')) | lower | e }}"><div class="m-t"><b>{{ it.name }}</b>{% if it.desc %}<small>{{ it.desc }}</small>{% endif %}</div>{% if it.prices %}<div class="m-pr">{% for p in it.prices %}<span>{{ money(p) }}</span>{% endfor %}</div>{% endif %}</li>{% endfor %}
+          </ul>
+        </section>{% endfor %}
+        <p id="m-empty" class="m-empty" hidden>Nothing on the menu matches that. Call us, we may still make it.</p>
+        <p class="fine">Add NH meals tax. Prices and items are subject to change without notice. Prices taken from Papa Jay’s online ordering menu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="lines sec" id="lines">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Delivery &amp; catering</p><h2>Four stops on <em>the Papa Jay’s line.</em></h2><p class="lede">We deliver to Dover, Somersworth, Madbury and Rollinsford, and cater events and family gatherings in many other surrounding towns. Drivers work for tips.</p></div>
+    <ol class="stops" aria-label="Delivery towns">{% for t in towns %}<li><i></i><b>{{ t }}</b></li>{% endfor %}<li class="more"><i></i><b>Catering<br><small>many nearby towns</small></b></li></ol>
+    <div class="cta"><a class="btn" href="tel:{{ loc.tel }}">Call about catering: {{ loc.phone }}</a><a class="btn btn-ghost" href="mailto:{{ email }}?subject=Catering%20question">Email Jay</a></div>
+  </div>
+</section>
+
+<section class="about sec" id="about">
+  <div class="wrap ab">
+    <div><p class="kicker">A note from the owner</p><h2>Locally owned, <em>not a chain.</em></h2></div>
+    <blockquote><p>{{ letter }}</p><footer>— {{ owner }}, owner · <a href="mailto:{{ email }}">{{ email }}</a></footer></blockquote>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Hours &amp; location</p><h2>Open late, <em>every night.</em></h2></div>
+    <div class="v-grid">
+      <div class="hrs"><ul>{% for w in week %}<li data-dow="{{ w.dow }}"><span>{{ w.day }}</span><b>{{ w.text }}</b></li>{% endfor %}</ul></div>
+      <div class="find"><p class="kicker">Find us</p>
+        <p class="addr">18 Broadway<br>Dover, NH 03820</p><p class="near">Downtown Dover, between the Red Shoe Barn and the Dover Fire Station, next to the railroad trestle.</p>
+        <p class="tels"><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a><a class="tel" href="mailto:{{ email }}">{{ email }}</a></p>
+        <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-light" href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+        <p class="soc"><a href="{{ facebook }}" rel="noopener">Facebook</a></p></div>
+      <div class="join"><p class="kicker">Now hiring</p><h3>Join the crew.</h3><p>Interested in working at Papa Jay’s? Call the shop or email Jay.</p><a class="btn btn-light" href="mailto:{{ email }}?subject=Employment">Email about a job</a></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><span>© {{ year }} {{ name }} · 18 Broadway, Dover, NH</span><span>Menu items and prices subject to change.</span></div></footer>
+<div class="dock"><a class="btn" href="{{ order_any }}" rel="noopener">Order now</a><a class="btn btn-light" href="tel:{{ loc.tel }}">Call</a></div>
+<script>window.__HOURS__={{ hours_json }};window.__SZ={{ sizes_json }};window.__SPECS={{ specs_json }};window.__EMAIL={{ email_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body>
+</html>
