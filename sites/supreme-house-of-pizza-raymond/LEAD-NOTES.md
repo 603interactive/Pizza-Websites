@@ -16,9 +16,9 @@ Built Nov 04, 2026 (colors matched to the Teddy's Lounge sign: slate-green awnin
 - Menu typos and inconsistencies (Glunten, Mozarella, Rueben, Potatos); gluten-free pizza has two prices; a Parmesan calzone add-on price is cut off.
 - No Facebook link, a fax number shown as a main contact, ordering on a separate differently-branded e-tab app.
 
-## The one big idea
+## The look
 
-Name Your Price: the hero is a budget dial. Slide to what you want to spend (out the door) and see every real menu price that fits, with the 9% NH meal tax already counted. Tap items into "My order"; the tray shows food, tax, total, what is left, and a delivery meter against the shop's own rule (evening home delivery: $25 minimum, $3 charge). "Copy my order" makes a text to read over the phone. All 223 prices come straight from the shop's menu; nothing is invented.
+Colors come from the Teddy's Lounge sign (slate-green awning, maroon lettering, cream, gold). The hero uses the shop's own line, "#1 Pizza in Town", with Order and Call buttons. (An earlier budget-finder tool was removed at the owner's request.)
 
 ## What else the new site does
 

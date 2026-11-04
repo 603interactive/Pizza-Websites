@@ -84,16 +84,6 @@ async def feat_papajays(pg, r):
     await pg.fill('#m-q', 'steak tip'); await pg.wait_for_timeout(150); r['steak'] = await pg.inner_text('#m-count')
     await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-empty').hidden"); await pg.fill('#m-q', '')
 async def feat_supreme(pg, r):
-    r['init'] = [await pg.inner_text('#bd-o'), await pg.inner_text('#fnd-count')]
-    await pg.fill('#bd', '12'); await pg.dispatch_event('#bd', 'input'); r['b12'] = [await pg.inner_text('#bd-o'), await pg.inner_text('#fnd-count')]
-    r['maxTile'] = await pg.evaluate("Math.max(...[...document.querySelectorAll('.tile .t-p')].map(e=>parseFloat(e.innerText.slice(1))))")
-    await pg.click('#bd-p'); r['plus'] = await pg.inner_text('#bd-o')
-    await pg.fill('#bd', '60'); await pg.dispatch_event('#bd', 'input')
-    await pg.click('#chips button:nth-child(4)'); r['dinnerTiles'] = await pg.evaluate("document.querySelectorAll('.tile').length")
-    await pg.click('.tile:nth-child(1) >> nth=0'); await pg.click('#tiles li:nth-child(2) .tile'); r['tray'] = [await pg.inner_text('#t-sub'), await pg.inner_text('#t-tax'), await pg.inner_text('#t-tot'), await pg.inner_text('#t-left'), await pg.inner_text('#dm-txt')]
-    await pg.click('#t-lines li:nth-child(1) button[data-d="1"]'); r['afterPlus'] = await pg.inner_text('#t-sub')
-    await pg.click('#t-clear'); r['cleared'] = await pg.inner_text('#t-sub')
-    await pg.fill('#bd', '5'); await pg.dispatch_event('#bd', 'input'); r['b5'] = await pg.inner_text('#fnd-count')
     await pg.fill('#m-q', 'gyro'); await pg.wait_for_timeout(150); r['gyro'] = await pg.inner_text('#m-count')
     await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-none').hidden"); await pg.fill('#m-q', '')
     await pg.click('#m-tabs button:nth-child(4)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).length")

@@ -1,4 +1,4 @@
-"""Supreme House of Pizza & Teddy's Lounge (Raymond): lounge-night indigo/pink site whose hero IS the budget finder (Name Your Price: every real menu price that fits, 9% meal tax included, delivery-minimum meter). usage: build_supreme.py"""
+"""Supreme House of Pizza & Teddy's Lounge (Raymond): lounge-sign slate/maroon/gold site. usage: build_supreme.py"""
 import json, sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))

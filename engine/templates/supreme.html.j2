@@ -10,53 +10,24 @@
 </head>
 <body>
 {% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
-<a class="skip" href="#finder">Skip to the budget finder</a>
+<a class="skip" href="#menu">Skip to the menu</a>
 <header class="top">
   <a class="brand" href="#top" aria-label="Supreme House of Pizza home"><b>Supreme</b><span>House of Pizza<small>&amp; Teddy's Lounge</small></span></a>
-  <nav aria-label="Main"><a href="#finder">Name your price</a><a href="#menu">Menu</a><a href="#lounge">Lounge</a><a href="#catering">Catering</a><a href="#visit">Hours</a></nav>
+  <nav aria-label="Main"><a href="#menu">Menu</a><a href="#lounge">Lounge</a><a href="#catering">Catering</a><a href="#visit">Hours</a></nav>
   <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a>
 </header>
 <main id="top">
 
-<section class="hero" id="finder">
+<section class="hero" id="top-hero">
   <div class="wrap hero-in">
     <div class="hero-copy">
       <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
-      <h1>What's your <em>budget?</em></h1>
-      <p class="sub">Slide to what you want to spend and see every real menu price that fits. Tax is already counted, and the tray tells you when you clear the delivery minimum.</p>
-      <div class="dial" role="group" aria-label="Budget">
-        <label for="bd" class="dial-l">Out-the-door budget</label>
-        <div class="dial-row"><button type="button" class="step" id="bd-m" aria-label="Lower budget by one dollar">−</button><output id="bd-o" for="bd" aria-live="polite">$25</output><button type="button" class="step" id="bd-p" aria-label="Raise budget by one dollar">+</button></div>
-        <input id="bd" type="range" min="5" max="100" step="1" value="25">
-        <div class="ticks" aria-hidden="true"><span>$5</span><span>$25 delivery min.</span><span>$100</span></div>
-      </div>
-      <p class="mini">Prices are the shop's own, plus the 9% NH meal tax they note on the menu. Takeout · Delivery · Catering</p>
+      <h1>#1 Pizza in <em>Town.</em></h1>
+      <p class="sub">Pizza, calzones, subs, dinners and catering at 68 Main Street in Downtown Raymond, with Teddy's Lounge next door. Daily lunch specials. Delivery after 4 PM, and for businesses all day.</p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+      <p class="mini">Takeout · Delivery · Catering · Gift cards</p>
     </div>
     <figure class="hero-ph"><img src="{{ img('storefront.webp') }}" width="960" height="540" alt="Supreme House of Pizza and Teddy's Lounge storefront on Main Street" fetchpriority="high"><figcaption>68 Main Street, Downtown Raymond</figcaption></figure>
-  </div>
-</section>
-
-<section class="fnd sec">
-  <div class="wrap">
-    <div class="fnd-grid">
-      <div class="fnd-main">
-        <div class="chips" id="chips" role="group" aria-label="Hungry for">
-          <button type="button" aria-pressed="true" data-g="-1">Anything</button>{% for g in groups %}<button type="button" aria-pressed="false" data-g="{{ loop.index0 }}">{{ g }}</button>{% endfor %}
-        </div>
-        <p class="fnd-count" id="fnd-count" aria-live="polite"></p>
-        <ul class="tiles" id="tiles"></ul>
-        <button type="button" class="btn btn-ghost" id="more" hidden>Show more</button>
-        <p class="fnd-none" id="fnd-none" hidden>Nothing left under that. Raise the budget or take something out of the tray.</p>
-      </div>
-      <aside class="tray" id="tray" aria-label="My order">
-        <h2>My order</h2>
-        <ul class="t-lines" id="t-lines"><li class="t-empty">Tap anything on the left to add it.</li></ul>
-        <dl class="t-sum"><div><dt>Food</dt><dd id="t-sub">$0.00</dd></div><div><dt>NH meal tax (9%)</dt><dd id="t-tax">$0.00</dd></div><div class="t-tot"><dt>Total</dt><dd id="t-tot">$0.00</dd></div><div><dt>Left in budget</dt><dd id="t-left">$25.00</dd></div></dl>
-        <div class="dm"><div class="dm-bar" aria-hidden="true"><i id="dm-fill"></i></div><p id="dm-txt" aria-live="polite"></p>
-          <p class="dm-fine">Home delivery after 4 PM: $25 minimum, $3 charge. Businesses: all day. Home delivery is within about 5 miles. The minimum is counted on food before tax; confirm with the shop.</p></div>
-        <div class="t-act"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a><button type="button" class="link" id="t-copy">Copy my order</button><button type="button" class="link" id="t-clear">Clear</button></div>
-      </aside>
-    </div>
   </div>
 </section>
 
@@ -66,7 +37,7 @@
     <figure><img src="{{ img('burger.webp') }}" width="825" height="1100" alt="Burger cut in half on checkered paper" loading="lazy"></figure>
     <figure><img src="{{ img('soup.webp') }}" width="619" height="1100" alt="Bowl of chicken noodle soup" loading="lazy"></figure>
     <figure><img src="{{ img('apps.webp') }}" width="611" height="1100" alt="Appetizer platter with wraps, vegetables and cheese pizza" loading="lazy"></figure>
-    <p class="strip-t">#1 Pizza in Town<small>That's the shop's line, printed on its menu.</small></p>
+    <p class="strip-t">Pizza, subs, dinners and more<small>From the shop's own kitchen on Main Street.</small></p>
   </div>
 </section>
 
@@ -135,7 +106,7 @@
 </section>
 </main>
 <footer class="foot"><div class="wrap"><p class="foot-b"><b>Supreme</b> House of Pizza &amp; Teddy's Lounge</p><p>{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Supreme House of Pizza. Prices subject to change without notice.</p></div></footer>
-<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="#finder">Budget</a></div>
-<script>(function(){var m=+new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'numeric'}).format(new Date());window.__SUMMER__=m>=4&&m<=9;window.__HOURS__=window.__SUMMER__?{{ summer_hours }}:{{ hours_json }};window.__ITEMS__={{ items_json }};})();</script>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="#menu">Menu</a></div>
+<script>(function(){var m=+new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'numeric'}).format(new Date());window.__SUMMER__=m>=4&&m<=9;window.__HOURS__=window.__SUMMER__?{{ summer_hours }}:{{ hours_json }};})();</script>
 {% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
 </body></html>
