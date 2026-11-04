@@ -1,0 +1,999 @@
+{
+ "slug": "upper-crust-pizzeria-tilton",
+ "name": "Upper Crust Pizzeria",
+ "short": "Upper Crust",
+ "domain": "https://www.uppercrustpizzanh.com",
+ "tagline": "Pizza, grill subs, dinners and fry bar on Laconia Road in Tilton, NH. Dough and sauce made daily.",
+ "seo_title": "Upper Crust Pizzeria | Pizza, Subs & Dinners in Tilton, NH",
+ "seo_desc": "Upper Crust Pizzeria, 65 Laconia Road, Tilton NH. Doughs and sauces made daily: specialty pizzas, grill subs, pasta, fry bar and more. See the week's hours and order online or call 603-286-3191.",
+ "locations": [
+  {
+   "id": "tilton",
+   "name": "Tilton",
+   "street": "65 Laconia Road",
+   "city": "Tilton",
+   "region": "NH",
+   "postal": "03276",
+   "phone": "603-286-3191",
+   "tel": "+16032863191",
+   "hours": [
+    {
+     "dow": [
+      2
+     ],
+     "open": "16:00",
+     "close": "20:00"
+    },
+    {
+     "dow": [
+      3,
+      4
+     ],
+     "open": "12:00",
+     "close": "14:00"
+    },
+    {
+     "dow": [
+      3,
+      4
+     ],
+     "open": "16:00",
+     "close": "20:00"
+    },
+    {
+     "dow": [
+      5,
+      6
+     ],
+     "open": "12:00",
+     "close": "21:00"
+    },
+    {
+     "dow": [
+      0
+     ],
+     "open": "12:00",
+     "close": "20:00"
+    }
+   ],
+   "order": "https://slicelife.com/restaurants/nh/tilton/03276/upper-crust-pizzeria-65-laconia-rd-tilton/menu",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Upper+Crust+Pizzeria+65+Laconia+Road+Tilton+NH+03276",
+   "geo": null
+  }
+ ],
+ "order_any": "https://slicelife.com/restaurants/nh/tilton/03276/upper-crust-pizzeria-65-laconia-rd-tilton/menu",
+ "instagram": "https://www.instagram.com/uppercrustpizzanh/",
+ "menu": [
+  {
+   "cat": "Specialty Pizzas",
+   "img": "pizza-athens.webp",
+   "note": "Our doughs and sauces are made daily in the kitchen using the finest ingredients.",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Upper House",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Pepperoni, sausage, ham, onion, mushroom, hamburg, green pepper"
+    },
+    {
+     "name": "Griffin's Choice",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Bacon, pepperoni, fresh sliced tomatoes"
+    },
+    {
+     "name": "Veggie Lovers",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Mushrooms, onion, fresh tomatoes, black olives, green peppers"
+    },
+    {
+     "name": "Meat Lovers",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Pepperoni, bacon, sausage, ham, hamburger"
+    },
+    {
+     "name": "Margherita",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "A lighter pizza topped with mozzarella and basil"
+    },
+    {
+     "name": "Prosciutto Fig",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Prosciutto, fig and red onions"
+    },
+    {
+     "name": "Athens",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Feta, spinach, red onions, tomatoes, garlic and Greek seasoning"
+    },
+    {
+     "name": "Sophie's Southern Pizza",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Barbecue chicken fingers, bacon, onions"
+    },
+    {
+     "name": "Quattro Formaggi",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Mozzarella, white cheddar, provolone, ricotta and sliced tomatoes"
+    },
+    {
+     "name": "Honey Dijon",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Grilled chicken, bacon, onions, honey Dijon sauce"
+    },
+    {
+     "name": "Grilled Chicken Bacon Ranch",
+     "prices": [
+      14.45,
+      19.45
+     ],
+     "desc": "Chicken, bacon, sliced tomatoes and drizzled with ranch"
+    },
+    {
+     "name": "Grilled Chicken Broccoli Alfredo",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Chicken, broccoli and Alfredo sauce"
+    },
+    {
+     "name": "Grilled Chicken or Chicken Tender",
+     "prices": [
+      12.75,
+      17.75
+     ],
+     "desc": "Your choice of plain, Buffalo or BBQ"
+    },
+    {
+     "name": "Hawaiian BBQ",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "BBQ ribeye, pineapple and ham"
+    },
+    {
+     "name": "Philly Cheese Steak",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Shaved seasoned ribeye"
+    },
+    {
+     "name": "Caprese",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Sliced mozzarella, tomatoes, fresh basil and drizzled with balsamic glaze"
+    },
+    {
+     "name": "Steak Bomb",
+     "prices": [
+      15.95,
+      20.95
+     ],
+     "desc": "Onions, mushrooms, peppers, pepperoni"
+    },
+    {
+     "name": "Eggplant Ricotta",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Sliced eggplant, tomatoes, mozzarella and ricotta"
+    },
+    {
+     "name": "The Godfather",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Mortadella, salami, capicola, sausage, red onions and hot pepper"
+    },
+    {
+     "name": "Pizza Bianca (White Pizza)",
+     "prices": [
+      14.95,
+      19.95
+     ],
+     "desc": "Mozzarella, white cheddar, provolone, ricotta and sliced tomatoes"
+    }
+   ]
+  },
+  {
+   "cat": "Build Your Own",
+   "img": "pizza-veggie.webp",
+   "note": "Any pizza may be ordered as a calzone. Toppings: pepperoni, green peppers, sausage, onions, ham, mushrooms, hamburg, spinach, salami, olives, bacon, fresh tomatoes, meatballs, eggplant, anchovies, pineapple, fresh garlic, broccoli, banana peppers, artichoke.",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Cheese",
+     "prices": [
+      8.95,
+      11.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "One Topping",
+     "prices": [
+      9.95,
+      13.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Two Toppings",
+     "prices": [
+      10.95,
+      14.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Three Toppings",
+     "prices": [
+      11.95,
+      15.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Four Toppings",
+     "prices": [
+      12.95,
+      16.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Extra Cheese",
+     "prices": [
+      2.5,
+      3.25
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Slices & Lunch",
+   "img": "pizza-cheese-closeup.webp",
+   "note": "Pizza by the slice.",
+   "head": [],
+   "items": [
+    {
+     "name": "Cheese Slice",
+     "prices": [
+      3.0
+     ],
+     "desc": "Add a second slice for $5.50"
+    },
+    {
+     "name": "Pepperoni Slice",
+     "prices": [
+      3.25
+     ],
+     "desc": "Add a second slice for $5.75"
+    },
+    {
+     "name": "Daily Lunch Combo: Cheese",
+     "prices": [
+      9.25
+     ],
+     "desc": "2 cheese slices, 20 oz beverage and choice of chips"
+    },
+    {
+     "name": "Daily Lunch Combo: Pepperoni",
+     "prices": [
+      9.75
+     ],
+     "desc": "2 pepperoni slices, 20 oz beverage and choice of chips"
+    }
+   ]
+  },
+  {
+   "cat": "Grill Subs",
+   "img": "steak-cheese.webp",
+   "note": "House-made subs with fresh bread, marinated and cooked on the grill. Extra cheese $1.00. Add bacon to any sub $1.50. Large price also covers a Syrian wrap.",
+   "head": [
+    "Small",
+    "Large / Syrian"
+   ],
+   "items": [
+    {
+     "name": "Sausage Bomb",
+     "prices": [
+      8.35,
+      9.75
+     ],
+     "desc": "Mushrooms, onions, green peppers, pepperoni and cheese"
+    },
+    {
+     "name": "Meatball Sub",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheeseburger Sub",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Miller's Chicken Philly",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Miller's Chicken Bomb",
+     "prices": [
+      9.5,
+      10.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak and Cheese",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": "Shaved seasoned ribeye and cheese"
+    },
+    {
+     "name": "Steak Special",
+     "prices": [
+      9.5,
+      10.5
+     ],
+     "desc": "Shaved seasoned ribeye, cheese, bacon and BBQ sauce"
+    },
+    {
+     "name": "Steak Bomb",
+     "prices": [
+      9.75,
+      10.75
+     ],
+     "desc": "Shaved seasoned ribeye, cheese, onions, green peppers, mushrooms and pepperoni"
+    },
+    {
+     "name": "Bill's Barbecue Steak",
+     "prices": [
+      9.75,
+      10.75
+     ],
+     "desc": "Bacon and barbecue sauce"
+    },
+    {
+     "name": "Pastrami",
+     "prices": [
+      9.75,
+      10.75
+     ],
+     "desc": "Pastrami, Swiss cheese, sauerkraut and 1000 Island dressing"
+    },
+    {
+     "name": "Chicken Caesar Wrap",
+     "prices": [
+      10.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Caesar Wrap",
+     "prices": [
+      13.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veggie",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": "Sauteed green peppers, onions and mushrooms"
+    },
+    {
+     "name": "Chicken Parm",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant Parm",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Cold Subs",
+   "img": "",
+   "note": "Extra cheese $2.00. Bacon $1.50. Double meat $3.50. Large price also covers a Syrian wrap.",
+   "head": [
+    "Small",
+    "Large / Syrian"
+   ],
+   "items": [
+    {
+     "name": "Ham and Cheese",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Italian",
+     "prices": [
+      7.95,
+      8.95
+     ],
+     "desc": "Mortadella, capicola, salami and provolone"
+    },
+    {
+     "name": "Meatball",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tuna Salad",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": "Chopped celery, red onions, tuna and mayo"
+    },
+    {
+     "name": "Turkey and Cheese",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Roast Beef and Cheese",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BLT",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Tender",
+     "prices": [
+      8.75,
+      9.75
+     ],
+     "desc": "American cheese, mayo, lettuce, tomatoes and pickles"
+    },
+    {
+     "name": "Buffalo or BBQ Chicken Tender",
+     "prices": [
+      8.95,
+      9.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "New Englander",
+     "prices": [
+      8.95,
+      9.95
+     ],
+     "desc": "Roast beef, James River BBQ sauce, American cheese and mayo. Horseradish optional"
+    },
+    {
+     "name": "Brian's Build Your Own",
+     "prices": [
+      8.95,
+      9.95
+     ],
+     "desc": "3 meats and 1 cheese"
+    },
+    {
+     "name": "Italian Supreme",
+     "prices": [
+      8.95,
+      9.95
+     ],
+     "desc": "Prosciutto, mortadella, capicola, salami and provolone"
+    },
+    {
+     "name": "Upper's Special",
+     "prices": [
+      8.95,
+      9.95
+     ],
+     "desc": "Roast beef, turkey, bacon and cheese"
+    }
+   ]
+  },
+  {
+   "cat": "Dinners",
+   "img": "",
+   "note": "Served with side salad and your choice of fries or rice pilaf.",
+   "head": [],
+   "items": [
+    {
+     "name": "Cheeseburger Sub Dinner",
+     "prices": [
+      11.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Wing Dings",
+     "prices": [
+      11.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Marinated Grilled Chicken or Tenders",
+     "prices": [
+      11.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ or Buffalo Chicken Tenders",
+     "prices": [
+      11.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Wing Dings",
+     "prices": [
+      12.25
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Tenders and Wings",
+     "prices": [
+      13.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Dinner",
+     "prices": [
+      15.95
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Pasta",
+   "img": "",
+   "note": "All pasta dinners served with garlic bread and house salad.",
+   "head": [],
+   "items": [
+    {
+     "name": "Penne with Marinara Sauce",
+     "prices": [
+      10.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Penne Marinara and Meatballs",
+     "prices": [
+      13.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Penne Marinara and Sweet Italian Sausage",
+     "prices": [
+      13.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Broccoli and Penne",
+     "prices": [
+      13.95
+     ],
+     "desc": "Served with homemade Alfredo sauce"
+    },
+    {
+     "name": "Chicken Parm and Penne",
+     "prices": [
+      13.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant Parm and Penne",
+     "prices": [
+      13.95
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheese Tortellini",
+     "prices": [
+      13.95
+     ],
+     "desc": "Topped with marinara sauce"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "img": "",
+   "note": "Served with homemade Syrian bread. Extra dressing $.50. Add feta $2.00. Dressings: Italian, Greek, bleu cheese, ranch, honey mustard, creamy Italian, low-cal Italian, 1000 Island, Caesar, balsamic vinaigrette.",
+   "head": [],
+   "items": [
+    {
+     "name": "House Large",
+     "prices": [
+      9.25
+     ],
+     "desc": "Lettuce, cucumbers, tomatoes, red onions, carrots and red cabbage"
+    },
+    {
+     "name": "Greek Large",
+     "prices": [
+      11.25
+     ],
+     "desc": "House salad topped with feta, Kalamata olives and pepperoncini"
+    },
+    {
+     "name": "Antipasto",
+     "prices": [
+      11.75
+     ],
+     "desc": "Mortadella, capicola, salami, prosciutto and provolone cheese"
+    },
+    {
+     "name": "Chef",
+     "prices": [
+      11.75
+     ],
+     "desc": "Ham, turkey, roast beef and provolone cheese"
+    },
+    {
+     "name": "Tuna",
+     "prices": [
+      11.75
+     ],
+     "desc": "House salad topped with tuna salad"
+    },
+    {
+     "name": "Grilled Chicken or Tender",
+     "prices": [
+      11.75
+     ],
+     "desc": "Choice of house or Caesar"
+    },
+    {
+     "name": "Buffalo Chicken Tender",
+     "prices": [
+      12.25
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip",
+     "prices": [
+      12.95
+     ],
+     "desc": "Choice of house or Caesar"
+    },
+    {
+     "name": "Caesar",
+     "prices": [
+      10.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fab Salad",
+     "prices": [
+      12.95
+     ],
+     "desc": "Marinated grilled chicken and pizza cheese"
+    },
+    {
+     "name": "Bacon Bleu",
+     "prices": [
+      9.75
+     ],
+     "desc": "Large chopped lettuce, topped with tomatoes and bacon, served with bleu cheese"
+    }
+   ]
+  },
+  {
+   "cat": "Sides",
+   "img": "",
+   "note": "",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "French Fries",
+     "prices": [
+      4.0,
+      5.0
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Onion Rings",
+     "prices": [
+      6.25
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Tenders",
+     "prices": [
+      9.75,
+      11.75
+     ],
+     "desc": "Small comes with five, large with eight"
+    },
+    {
+     "name": "Wing Dings",
+     "prices": [
+      11.25,
+      13.25
+     ],
+     "desc": "Small comes with ten, large with fifteen"
+    },
+    {
+     "name": "Buffalo Tenders",
+     "prices": [
+      10.25,
+      12.75
+     ],
+     "desc": "Small comes with five, large with eight"
+    },
+    {
+     "name": "Buffalo Wing Dings",
+     "prices": [
+      12.25,
+      15.75
+     ],
+     "desc": "Small comes with ten, large with fifteen"
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "prices": [
+      8.25,
+      12.25
+     ],
+     "desc": "Small comes with six, large with ten"
+    },
+    {
+     "name": "Meatballs",
+     "prices": [
+      8.75
+     ],
+     "desc": "Five meatballs topped with marinara sauce"
+    },
+    {
+     "name": "Garlic Cheesy Bread",
+     "prices": [
+      6.25
+     ],
+     "desc": "Served with marinara sauce"
+    },
+    {
+     "name": "Syrian Bruschetta",
+     "prices": [
+      10.25
+     ],
+     "desc": "Chopped tomatoes, garlic, basil and fresh mozzarella"
+    },
+    {
+     "name": "Fried Dough",
+     "prices": [
+      5.25,
+      6.25
+     ],
+     "desc": "Homemade dough topped with butter and powdered sugar. Cinnamon optional"
+    }
+   ]
+  },
+  {
+   "cat": "Upper's Fry Bar",
+   "img": "",
+   "note": "",
+   "head": [],
+   "items": [
+    {
+     "name": "Cheesy Fries",
+     "prices": [
+      6.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheesy Bacon Fries",
+     "prices": [
+      7.75
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Rosemary Seasoned Fries",
+     "prices": [
+      6.75
+     ],
+     "desc": "Fresh rosemary, EVOO and tossed with grated Parmesan"
+    },
+    {
+     "name": "Truffled Cheese Fries",
+     "prices": [
+      7.75
+     ],
+     "desc": "Sauteed mushrooms, melted provolone, truffle oil drizzled and tossed throughout"
+    },
+    {
+     "name": "Loaded Fries",
+     "prices": [
+      8.25
+     ],
+     "desc": "Loaded potato seasoning, bacon, cheese and topped with sour cream"
+    }
+   ]
+  },
+  {
+   "cat": "Desserts",
+   "img": "",
+   "note": "",
+   "head": [],
+   "items": [
+    {
+     "name": "Baklava",
+     "prices": [
+      3.25
+     ],
+     "desc": "Seasonal"
+    },
+    {
+     "name": "Coffee Cake",
+     "prices": [
+      3.25
+     ],
+     "desc": "Seasonal"
+    },
+    {
+     "name": "Whoopie Pie",
+     "prices": [
+      3.25
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Little's (Kids)",
+   "img": "",
+   "note": "Kid's portions.",
+   "head": [],
+   "items": [
+    {
+     "name": "Little's Chicken Tenders and Fries",
+     "prices": [
+      6.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Little's Penne and Butter Sauce",
+     "prices": [
+      6.5
+     ],
+     "desc": "Served with garlic bread"
+    },
+    {
+     "name": "Little's Penne Marinara",
+     "prices": [
+      6.5
+     ],
+     "desc": "Served with garlic bread"
+    },
+    {
+     "name": "Little's Penne Marinara and Meatballs",
+     "prices": [],
+     "desc": "Served with garlic bread. Price not listed on the current site"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "Unedited Wix restaurant template: footer reads \"(c) 2023 by The Pizza Shop. Proudly created with Wix.com\".",
+  "Menu page still shows Wix placeholder text (\"I'm a paragraph. Click here to add your own text...\").",
+  "A blank page called \"New Page\" (/blank) sits in the main navigation, plus a second menu tab named \"My New Menu\".",
+  "Homepage \"Our Story\" and \"Passion for Pizza\" headings have no actual story text.",
+  "Every image on the site is Wix stock photography; none show Upper Crust's food or building.",
+  "\"Reservations\" and \"Private Events\" sections have no details.",
+  "Hours block is misaligned, the split Wed-Thu shifts are hard to read, there is no address in the header and no map or directions; typo \"Tomatos\".",
+  "Only calls to action are a mailing-list signup and the Slice link."
+ ],
+ "questions": [
+  "Are the hours still Mon closed, Tue 4-8, Wed-Thu 12-2 and 4-8, Fri-Sat 12-9, Sun 12-8 (the site lists them this way)? Do they change seasonally?",
+  "Do you deliver? The current site does not say. What zones, fees and minimums?",
+  "Is there a story to tell (who opened it, when, who runs it)? Items like Griffin's Choice, Sophie's Southern Pizza and Miller's Chicken Philly sound like family or staff names; we did not invent any story.",
+  "What is the price of Little's Penne Marinara and Meatballs? It is blank on the current menu.",
+  "Is the Daily Lunch Combo offered every day, and during which hours?",
+  "Cheese and pepperoni slice listings read \"add a second slice for 5.50\" / \"5.75\"; is that the price for two slices? A stray $7.95 appears under Mozzarella Sticks; what is it for?",
+  "Do you take reservations or host private parties? Both headings exist with no details. What should the site say?",
+  "Is there an email address and a Facebook page to list? None found.",
+  "Please confirm the Instagram photos are yours to reuse, and send better photos of the shop and food if you have them."
+ ]
+}

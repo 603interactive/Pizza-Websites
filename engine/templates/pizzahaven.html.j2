@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#E88828">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#finder">Skip to the pizza finder</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Pizza Haven home"><img src="{{ img('logo.jpg') }}" width="222" height="108" alt="Pizza Haven, Pizza With Attitude!"></a>
+  <nav aria-label="Main"><a href="#deals">Deals</a><a href="#finder">Pizza finder</a><a href="#menu">Menu</a><a href="#visit">Hours</a></nav>
+  <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a>
+</header>
+<main id="top">
+
+<section class="hero">
+  <div class="ring" aria-hidden="true"></div>
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1>Pizza with <em>attitude.</em></h1>
+      <p class="sub">{{ npz }} pizzas, from plain cheese to cheeseburger, taco and shrimp, plus calzones, subs, wraps and dinners. 1343 NH-119 in Rindge.</p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+      <p class="mini">Daily specials on the shop's ordering site · <a href="#deals">See the deals</a></p>
+    </div>
+    <div class="hero-pics">
+      <img class="p1" src="{{ img('veggie-pizza.webp') }}" width="720" height="960" alt="Pepper, onion and mushroom pizza in a pizza box" fetchpriority="high">
+      <img class="p2" src="{{ img('sausage-pizza.webp') }}" width="938" height="960" alt="Sausage and onion pizza in a pizza box">
+      <img class="p3" src="{{ img('bbq-pizza.webp') }}" width="1200" height="1600" alt="Pulled-meat barbecue pizza on a tray">
+    </div>
+  </div>
+</section>
+
+<section class="deals sec" id="deals">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Have the best deals online</p><h2>Two pies. <em>One price.</em></h2>
+      <p class="lede">These are the coupons on the shop's own ordering site. Grab them at checkout.</p></div>
+    <div class="tix">
+      {% for c in coupons %}<article class="tix-c"><div class="tix-l"><p class="tix-k">Coupon</p><h3>{{ c.name }}</h3>
+        <p class="tix-s">{% if loop.first %}That works out to about ${{ each }} a pizza.{% else %}Adds a two liter soda for ${{ soda }} more.{% endif %}</p></div>
+        <div class="tix-r"><b>${{ '%.2f'|format(c.price) }}</b><a class="btn btn-dark" href="{{ order_any }}" rel="noopener">Use online<span class="sr">: {{ c.name }}</span></a></div></article>{% endfor %}
+    </div>
+    <p class="fine">Pizza size and coupon dates were not listed on the ordering site. Call {{ loc.phone }} to confirm what is running today.</p>
+  </div>
+</section>
+
+<section class="finder sec" id="finder">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>Pick a pizza <em>with attitude.</em></h2>
+      <p class="lede">Pizza Haven lists {{ npz }} pizzas. Tell us what you are in the mood for, or let the dice choose. Prices are the shop's own.</p></div>
+    <div class="pf-bar"><div class="pf-chips" id="pf-chips" role="group" aria-label="Filter pizzas">
+      <button type="button" data-f="all" aria-pressed="true">All</button><button type="button" data-f="classic" aria-pressed="false">Classic cheese</button><button type="button" data-f="chicken" aria-pressed="false">Chicken</button><button type="button" data-f="beef" aria-pressed="false">Steak &amp; beef</button><button type="button" data-f="pork" aria-pressed="false">Pepperoni &amp; bacon</button><button type="button" data-f="veggie" aria-pressed="false">No meat</button><button type="button" data-f="wild" aria-pressed="false">Wild cards</button></div>
+      <button type="button" class="btn btn-dark" id="pf-surprise">Surprise me</button></div>
+    <p class="pf-count" id="pf-count" aria-live="polite"></p>
+    <div class="spot" id="pf-spot" hidden aria-live="polite"><p class="spot-k">Tonight's pick</p><h3 id="sp-name"></h3><p id="sp-desc"></p><p class="spot-p"><b id="sp-price"></b><span id="sp-calz"></span></p><a class="btn" href="{{ order_any }}" rel="noopener">Order it</a></div>
+    <ul class="pf-grid">
+      {% for p in pizzas %}<li class="pf-card" data-tags="{{ p.tags|join(' ') }}" data-name="{{ esc(p.name) }}" data-desc="{{ esc(p.desc) }}" data-price="{{ money(p.price) }}" data-calz="{{ money(p.calz) if p.calz else '' }}">
+        <h3>{{ p.name }}</h3>{% if p.desc %}<p>{{ p.desc }}</p>{% endif %}
+        <p class="pf-p"><b>{{ money(p.price) }}</b>{% if p.calz %}<span>Calzone {{ money(p.calz) }}</span>{% endif %}</p></li>{% endfor %}
+    </ul>
+    <p class="fine">Filters are our reading of each pizza's listed toppings. The shop's online menu shows one price per item; ask about sizes when you order. <a href="{{ order_any }}" rel="noopener">Order online</a></p>
+  </div>
+</section>
+
+<section class="kitchen sec">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Behind the counter</p><h2>Made in <em>Rindge.</em></h2>
+      <p class="lede">Trays of sauced dough, pizzas stacked on the prep counter, salads packed for takeout. A few real shots from the shop's own Facebook page.</p></div>
+    <div class="kg">
+      <figure class="k1"><img src="{{ img('cook-trays.webp') }}" width="960" height="720" alt="A cook carrying trays of unbaked sheet pizzas in the kitchen" loading="lazy"><figcaption>Sheet pizzas on the way to the oven</figcaption></figure>
+      <figure><img src="{{ img('pizza-prep.webp') }}" width="640" height="480" alt="Pepperoni pizzas stacked on a kitchen prep counter" loading="lazy"><figcaption>Pizzas on the prep counter</figcaption></figure>
+      <figure><img src="{{ img('dough-trays.webp') }}" width="720" height="960" alt="Close-up of trays of sauced dough" loading="lazy"><figcaption>Sauced dough</figcaption></figure>
+      <figure><img src="{{ img('calzone.webp') }}" width="1200" height="1600" alt="A toasted calzone cut open on a paper plate" loading="lazy"><figcaption>Calzone</figcaption></figure>
+      <figure><img src="{{ img('salads.webp') }}" width="828" height="620" alt="Rows of fresh garden salads with tomatoes, cucumber and carrot" loading="lazy"><figcaption>Fresh garden salads</figcaption></figure>
+      <figure><img src="{{ img('dining-room.webp') }}" width="960" height="720" alt="Dining room with wooden booths and a TV" loading="lazy"><figcaption>Dining room</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The whole menu</p><h2>Every price, <em>right here.</em></h2>
+    <p class="lede">Copied from the shop's online menu, so what you read matches what you order.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="group" aria-label="Menu sections">{% for g in groups %}<button type="button" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ g.name }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: steak, gyro, haddock…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for g in groups %}<section class="m-panel" aria-label="{{ g.name }}" {% if not loop.first %}hidden{% endif %}>
+      {% if g.name == 'Pizzas' %}<div class="m-ph"><img src="{{ img('sausage-pizza.webp') }}" alt="" loading="lazy"><p>{{ npz }} pizzas. One listed price each; sizes are not on the online menu.</p></div>{% endif %}
+      {% for c in g.cats %}<div class="m-sub"><h3>{{ c.cat if g.cats|length > 1 or c.cat != g.name else g.name }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+      <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc ~ ' ' ~ c.cat)|lower) }}"><div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div><div class="m-pr">{{ money(it.prices[0]) }}</div></li>{% endfor %}</ul></div>{% endfor %}
+    </section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try “chicken” or “cheese”.</p>
+    <p class="fine">Prices are from the shop's online menu and may change. Item names and descriptions appear as the shop lists them.</p>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>1343 NH-119, Rindge</h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <figure class="front"><img src="{{ img('counter.webp') }}" width="960" height="960" alt="Inside the shop: the order counter with menu boards on the wall" loading="lazy"></figure></div>
+    <div class="hours" role="group" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td{% if r.unk %} class="unk"{% endif %}>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">Monday to Friday hours are from the shop's current site. Weekend hours are not published, so call before you drive over.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><img src="{{ img('logo.jpg') }}" width="222" height="108" alt="Pizza Haven, Pizza With Attitude!"><p>{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Pizza Haven. Pizza With Attitude!</p></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="#finder">Pick a pizza</a></div>
+<script>window.__HOURS__={{ hours_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#12141C">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Durham House of Pizza home"><img src="{{ img('logo.webp') }}" width="300" height="300" alt="Durham House of Pizza logo"><span>Durham House<br>of Pizza</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#late">The Late Shift</a><a href="#menu">Menu</a><a href="#story">Since 1976</a><a href="#visit">Visit</a><a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <div class="hero-copy wrap">
+    <p class="pill"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+    <h1>Pizza after<br><em>midnight.</em></h1>
+    <p class="sub">Durham House of Pizza has been on Main Street since 1976. Thursday through Saturday the ovens stay on until 2 AM.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+    <p class="mini">{{ loc.street }}, {{ loc.city }} · Hours may vary</p>
+  </div>
+  <figure class="hero-ph"><img src="{{ img('night-storefront.webp') }}" width="953" height="1600" alt="Durham House of Pizza storefront on a snowy night, with the lit OPEN sign, hanging sign and the chef statue by the door" fetchpriority="high"></figure>
+</section>
+
+<section class="late sec" id="late">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>The Late <em>Shift</em></h2>
+    <p class="lede">Most of Durham is closed by 9. DHOP is not. Drag the line to any time of day and see which nights the kitchen is open. Hours that run past midnight are shown on the night they start.</p></div>
+    <div class="ls" id="ls">
+      <p class="ls-read" id="ls-read" aria-live="polite"></p>
+      <div class="ls-chart">
+        <div class="ls-axis" aria-hidden="true"></div>
+        <ol class="ls-rows">{% for r in week_order %}<li data-dow="{{ r.dow }}" class="{{ 'late-night' if r.late else '' }}"><span class="ls-day">{{ r.short }}</span><span class="ls-track"><i class="ls-fill"></i></span><span class="ls-hrs">{{ r.text }}</span></li>{% endfor %}</ol>
+        <div class="ls-line" aria-hidden="true"><b></b></div>
+      </div>
+      <label class="ls-ctl"><span class="sr">Time of day</span><input id="ls-range" type="range" min="660" max="1620" step="15" value="1380" aria-describedby="ls-read"></label>
+      <div class="ls-btns"><button type="button" data-t="now">Right now</button><button type="button" data-t="1020">5 PM</button><button type="button" data-t="1320">10 PM</button><button type="button" data-t="1500">1 AM</button></div>
+      <p class="fine">Hours are from the shop's website and "may vary". Call ahead on holidays and UNH event weekends.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slice sec" aria-labelledby="sl-h">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Come grab a slice</p><h2 id="sl-h">Fresh from the <em>Main Street</em> oven</h2></div>
+    <div class="reel">
+      <figure><img src="{{ img('heart-pepperoni.webp') }}" width="1117" height="1074" alt="Heart-shaped pepperoni pizza on a white board" loading="lazy"><figcaption>Heart pepperoni</figcaption></figure>
+      <figure><img src="{{ img('margherita.webp') }}" width="1200" height="1600" alt="Margherita pizza with fresh basil and sliced tomato" loading="lazy"><figcaption>Tomato and basil</figcaption></figure>
+      <figure><img src="{{ img('stuffed-crust.webp') }}" width="720" height="960" alt="Stuffed-crust pizza with a swirl of sauce" loading="lazy"><figcaption>Stuffed crust</figcaption></figure>
+      <figure><img src="{{ img('white-pizza.webp') }}" width="1280" height="1600" alt="White cheese pizza with melted mozzarella rounds" loading="lazy"><figcaption>White pie</figcaption></figure>
+      <figure><img src="{{ img('loaded-slice.webp') }}" width="738" height="960" alt="Pepperoni and veggie pizza with a slice being lifted" loading="lazy"><figcaption>Loaded slice</figcaption></figure>
+      <figure><img src="{{ img('pineapple.webp') }}" width="1200" height="1200" alt="Pineapple and ham pizza" loading="lazy"><figcaption>Pineapple</figcaption></figure>
+      <figure><img src="{{ img('calzone.webp') }}" width="960" height="898" alt="Golden calzone with a cup of sauce" loading="lazy"><figcaption>Calzone</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The whole menu</p><h2>Every price, <em>right here</em></h2>
+    <p class="lede">Taken from the shop's own menu page, with the sizes spelled out: 10" Small, 16" Large, 20" Super.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" data-t="{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: spinach, BBQ, feta…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for c in menu %}<section class="m-panel" id="mp{{ loop.index0 }}" role="tabpanel" aria-labelledby="mt{{ loop.index0 }}" data-p="{{ loop.index0 }}" {% if not loop.first %}hidden{% endif %}>
+      <div class="m-ph"><img src="{{ img(c.img) }}" alt="" loading="lazy"><div><h3>{{ c.cat }}</h3>{% if c.note %}<p>{{ c.note }}</p>{% endif %}</div></div>
+      {% if c.head|length > 1 %}<p class="m-cols" aria-hidden="true">{% for h in c.head %}<span>{{ h }}</span>{% endfor %}</p>{% endif %}
+      <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc)|lower) }}">
+        <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+        <div class="m-p">{% for p in it.prices %}<span>{% if c.head[loop.index0] %}<small>{{ c.head[loop.index0] }}</small>{% endif %}{{ money(p) }}</span>{% endfor %}</div></li>{% endfor %}</ul></section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try "chicken" or "feta".</p>
+    <p class="fine">Prices are from the shop's menu page and may change. Beer is now served; ask at the counter for what is on.</p>
+  </div>
+</section>
+
+<section class="story sec" id="story">
+  <div class="wrap story-in">
+    <figure class="s-a"><img src="{{ img('storefront-day.webp') }}" width="750" height="734" alt="Brick building on Main Street with the Durham House of Pizza sign, awning and red umbrellas" loading="lazy"></figure>
+    <div class="s-t"><p class="kicker">Est. 1976</p><h2>Pizza for any <em>event</em></h2>
+    <p class="lede">"Here at the Durham House of Pizza we know that pizza goes well with any event. We would be happy to help you out! Give us a call anytime so we can arrange to supply your pizza needs."</p>
+    <p class="lede sm">Fancy a pizza party? Call <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a>.</p></div>
+    <figure class="s-b"><img src="{{ img('kitchen.webp') }}" width="1600" height="986" alt="Three staff in red aprons working in the open kitchen" loading="lazy"><figcaption>The open kitchen</figcaption></figure>
+    <figure class="s-c"><img src="{{ img('chef-hoco.webp') }}" width="1600" height="1600" alt="The chef statue outside the shop holding a UNH Homecoming weekend chalkboard" loading="lazy"><figcaption>Homecoming weekend, served by DHOP</figcaption></figure>
+    <figure class="s-d"><img src="{{ img('chef-beer.webp') }}" width="1086" height="1086" alt="The chef statue holding a beer can beside a Now Serving Beer sign" loading="lazy"><figcaption>Now serving beer</figcaption></figure>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>38 Main Street, <em>Durham</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <figure class="sign"><img src="{{ img('sign.webp') }}" width="1600" height="999" alt="Hanging Durham House of Pizza sign reading Pizza by the Slice" loading="lazy"></figure></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">Thursday to Saturday hours run until 2 AM the next morning. Hours may vary.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><img src="{{ img('logo.webp') }}" width="300" height="300" alt="Durham House of Pizza logo"><div><p>{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Durham House of Pizza. Serving Durham since 1976.</p></div></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="#late">Late shift</a></div>
+<script>window.__HOURS__={{ hours_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

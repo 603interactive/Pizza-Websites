@@ -1,0 +1,860 @@
+{
+ "slug": "tenney-mtn-pizza-plymouth",
+ "name": "Tenney Mountain Pizza",
+ "short": "Tenney Mountain Pizza",
+ "domain": "https://tenneymtnpizza.com",
+ "tagline": "Pizza, calzones, subs and dinner plates on Tenney Mountain Highway in Plymouth, NH. Call 603-536-3865.",
+ "seo_title": "Tenney Mountain Pizza | Pizza, Calzones & Subs in Plymouth, NH",
+ "seo_desc": "Tenney Mountain Pizza, 594 Tenney Mountain Hwy, Plymouth NH. Build-your-own pizza, special pizzas, calzones, subs, burgers and dinners. Call 603-536-3865 to order.",
+ "locations": [
+  {
+   "id": "plymouth",
+   "name": "Plymouth",
+   "street": "594 Tenney Mountain Hwy",
+   "city": "Plymouth",
+   "region": "NH",
+   "postal": "03264",
+   "phone": "603-536-3865",
+   "tel": "+16035363865",
+   "hours": [],
+   "hours_listed": "11:00 am – 08:00 pm",
+   "order": "tel:+16035363865",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Tenney+Mountain+Pizza+594+Tenney+Mountain+Hwy+Plymouth+NH+03264"
+  }
+ ],
+ "order_any": "tel:+16035363865",
+ "facebook": "https://www.facebook.com/pages/Tenney-Mountain-Pizza/126226524099214",
+ "instagram": "https://www.instagram.com/tenney.mtn.pizza/",
+ "menu": [
+  {
+   "cat": "Pizza",
+   "img": "",
+   "note": "Build your own: red or white sauce. White sauce adds $1.50 on a small and $2.25 on a large. The shop publishes no pizza prices; call for pricing.",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "pz"
+    },
+    {
+     "name": "Two Topping Pizza",
+     "prices": [],
+     "desc": "Choose any two: cheese, onion, pepper, pepperoni, sausage, hamburg, pineapple, olive, broccoli, spinach, jalapeno peppers, tomato, fresh garlic",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "pz"
+    },
+    {
+     "name": "Three Topping Pizza",
+     "prices": [],
+     "desc": "Small only on the shop menu. Same topping list as above",
+     "sizes": [
+      "Small"
+     ],
+     "sauce": "pz"
+    },
+    {
+     "name": "House Special Pizza",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "pz"
+    },
+    {
+     "name": "Hawaiian Pizza",
+     "prices": [],
+     "desc": "",
+     "sauce": "pz"
+    },
+    {
+     "name": "Additional toppings",
+     "prices": [],
+     "desc": "Cheese, anchovy, Canadian bacon, ham, meatball, eggplant, artichoke: listed at $4.00 on the shop menu"
+    }
+   ]
+  },
+  {
+   "cat": "Special Pizzas",
+   "img": "",
+   "note": "Red or white sauce. White sauce adds $2.50 on a small and $3.25 on a large. Call for pricing.",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Meat Lovers Special",
+     "prices": [],
+     "desc": "Pepperoni, sausage, ham, hamburg, salami, bacon, meatball",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Italian",
+     "prices": [],
+     "desc": "Salami, pepperoni, tomatoes, olives, garlic",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Greek",
+     "prices": [],
+     "desc": "Spinach, feta, Greek olives, tomatoes",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Spinach & Feta",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Vegetarian",
+     "prices": [],
+     "desc": "Spinach, broccoli, tomatoes, onions, mushrooms, peppers, olives",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Scallop & Shrimp",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Scallop & Bacon",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Grilled Chicken & Shrimp",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Mexican",
+     "prices": [],
+     "desc": "Hamburger, jalapeno peppers, olives, onions, tomatoes, salsa",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Chicken Fiesta",
+     "prices": [],
+     "desc": "Chicken, onions, tomatoes, peppers, jalapeno peppers, salsa",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Grilled Chicken Pizza",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "BBQ Chicken Pizza",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Buffalo Chicken Pizza",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    },
+    {
+     "name": "Steak Pizza",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "sp"
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "img": "",
+   "note": "The shop calls them \"best in town\". White sauce adds $0.95 on a small and $1.75 on a large. Build your own: each common topping adds $2.00 on a small, $3.50 on a large. Call for base pricing.",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Build Your Own Calzone",
+     "prices": [],
+     "desc": "Each common topping adds $2.00 small / $3.50 large. Tell us the toppings in the note.",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Steak & Cheese Calzone",
+     "prices": [],
+     "desc": "Choice of onion, peppers, mushrooms",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Steak & Bacon Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Ham & Pineapple Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Meatball Parmesan Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Chicken Parmesan Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Eggplant Parmesan Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Spinach & Feta Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Spinach & Ricotta Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "BBQ Chicken Tenders Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Buffalo Style Chicken Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "Vegetarian Calzone",
+     "prices": [],
+     "desc": "Spinach, olives, mushrooms, peppers, tomatoes, onions, broccoli",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    },
+    {
+     "name": "All The Cheese Calzone",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "Small",
+      "Large"
+     ],
+     "sauce": "cz"
+    }
+   ]
+  },
+  {
+   "cat": "Subs",
+   "img": "",
+   "note": "Hot or cold small subs come with your choice of cheese, lettuce, tomato, onion and pickles. Call for pricing.",
+   "head": [],
+   "items": [
+    {
+     "name": "Roast Beef",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Ham",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Italian",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Genoa Salami",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Turkey",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Tuna",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Meatless",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "BLT",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Pastrami",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Cheese Burger",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Chicken Parmesan",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Veal Cutlet",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Meatball",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Sausage",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Eggplant",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Gyro",
+     "prices": [],
+     "desc": "Small sub, hot or cold"
+    },
+    {
+     "name": "Club Sandwich",
+     "prices": [],
+     "desc": "Served with French fries. Choice of ham, turkey or roast beef"
+    }
+   ]
+  },
+  {
+   "cat": "Steak Subs",
+   "img": "",
+   "note": "Small steak subs with cheese. New subs come in 8 in or 12 in. Call for pricing.",
+   "head": [],
+   "items": [
+    {
+     "name": "Cheesesteak",
+     "prices": [],
+     "desc": "Small steak sub with cheese"
+    },
+    {
+     "name": "Pepper",
+     "prices": [],
+     "desc": "Small steak sub with cheese"
+    },
+    {
+     "name": "Onion",
+     "prices": [],
+     "desc": "Small steak sub with cheese"
+    },
+    {
+     "name": "Mushroom",
+     "prices": [],
+     "desc": "Small steak sub with cheese"
+    },
+    {
+     "name": "Teriyaki",
+     "prices": [],
+     "desc": "Small steak sub with cheese"
+    },
+    {
+     "name": "BBQ",
+     "prices": [],
+     "desc": "Small steak sub with cheese"
+    },
+    {
+     "name": "Bacon",
+     "prices": [],
+     "desc": "Small steak sub with cheese"
+    },
+    {
+     "name": "A-1",
+     "prices": [],
+     "desc": "Small steak sub with cheese"
+    },
+    {
+     "name": "Tenney Special Steak Sub",
+     "prices": [],
+     "desc": "Onion, peppers, mushrooms and pepperoni. Small steak sub with cheese"
+    },
+    {
+     "name": "Buffalo Chicken Sub",
+     "prices": [],
+     "desc": "With bleu cheese",
+     "sizes": [
+      "8 in",
+      "12 in"
+     ]
+    },
+    {
+     "name": "BBQ Chicken Sub",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "8 in",
+      "12 in"
+     ]
+    },
+    {
+     "name": "Teriyaki Chicken Sub",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "8 in",
+      "12 in"
+     ]
+    },
+    {
+     "name": "Haddock Sub",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "8 in",
+      "12 in"
+     ]
+    },
+    {
+     "name": "Ham or Turkey BLT Sub",
+     "prices": [],
+     "desc": "",
+     "sizes": [
+      "8 in",
+      "12 in"
+     ]
+    },
+    {
+     "name": "House Sub",
+     "prices": [],
+     "desc": "Ham, turkey, roast beef",
+     "sizes": [
+      "8 in",
+      "12 in"
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Burgers",
+   "img": "",
+   "note": "4 oz homemade burgers. All meats are cooked well done. Adding French fries is offered; price not listed.",
+   "head": [],
+   "items": [
+    {
+     "name": "Hamburger",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Cheeseburger",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Texasburger",
+     "prices": [],
+     "desc": "Lettuce, tomato, onion and cheese"
+    },
+    {
+     "name": "Chicken Burger",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Bacon Burger",
+     "prices": [],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Dinner Plates",
+   "img": "",
+   "note": "Italian dinners come with salad and garlic bread. The other dinners come with salad and fries. Call for pricing.",
+   "head": [],
+   "items": [
+    {
+     "name": "Italian dinner: Eggplant Parmesan",
+     "prices": [],
+     "desc": "With salad and garlic bread"
+    },
+    {
+     "name": "Italian dinner: Veal Parmesan",
+     "prices": [],
+     "desc": "With salad and garlic bread"
+    },
+    {
+     "name": "Italian dinner: Chicken Parmesan",
+     "prices": [],
+     "desc": "With salad and garlic bread"
+    },
+    {
+     "name": "Italian dinner: Spaghetti with Sauce",
+     "prices": [],
+     "desc": "With salad and garlic bread"
+    },
+    {
+     "name": "Italian dinner: Spaghetti with Meatballs",
+     "prices": [],
+     "desc": "With salad and garlic bread"
+    },
+    {
+     "name": "Italian dinner: Spaghetti with Sausage",
+     "prices": [],
+     "desc": "With salad and garlic bread"
+    },
+    {
+     "name": "Italian dinner: Manicotti",
+     "prices": [],
+     "desc": "With salad and garlic bread"
+    },
+    {
+     "name": "Italian dinner: Ravioli",
+     "prices": [],
+     "desc": "With salad and garlic bread"
+    },
+    {
+     "name": "Italian dinner: Stuffed Shells",
+     "prices": [],
+     "desc": "With salad and garlic bread"
+    },
+    {
+     "name": "Buffalo Chicken Tenders",
+     "prices": [],
+     "desc": "With salad and fries"
+    },
+    {
+     "name": "Fresh Chicken Tenders",
+     "prices": [],
+     "desc": "With salad and fries"
+    },
+    {
+     "name": "Fried Shrimp",
+     "prices": [],
+     "desc": "With salad and fries"
+    },
+    {
+     "name": "Scallops",
+     "prices": [],
+     "desc": "With salad and fries"
+    },
+    {
+     "name": "Haddock",
+     "prices": [],
+     "desc": "With salad and fries"
+    },
+    {
+     "name": "Fish & Chips",
+     "prices": [],
+     "desc": "With salad and fries"
+    },
+    {
+     "name": "Combo Plate",
+     "prices": [],
+     "desc": "Haddock, shrimp and scallops, with salad and fries"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "img": "",
+   "note": "Dressings: Italian, creamy Italian, French, ranch, Greek, bleu cheese. Call for pricing.",
+   "head": [],
+   "items": [
+    {
+     "name": "Chef Salad",
+     "prices": [],
+     "desc": "Ham, turkey, provolone and cheddar"
+    },
+    {
+     "name": "Greek Salad",
+     "prices": [],
+     "desc": "Feta, olives, pepperoncini"
+    },
+    {
+     "name": "Greek Salad with Grilled Chicken",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Tossed Salad",
+     "prices": [],
+     "desc": "Lettuce, tomato, onion, pepper, carrots, cheddar"
+    },
+    {
+     "name": "Tuna Salad",
+     "prices": [],
+     "desc": "With cheddar"
+    },
+    {
+     "name": "Antipasto",
+     "prices": [],
+     "desc": "Genoa, pepperoni, ham, provolone, tuna, cheddar"
+    },
+    {
+     "name": "Chicken Salad",
+     "prices": [],
+     "desc": "With cheddar"
+    },
+    {
+     "name": "Grilled Chicken Salad",
+     "prices": [],
+     "desc": "With cheddar"
+    },
+    {
+     "name": "Caesar Salad",
+     "prices": [],
+     "desc": "Add chicken if you like"
+    },
+    {
+     "name": "Side Salad",
+     "prices": [],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Sides",
+   "img": "",
+   "note": "Call for pricing.",
+   "head": [],
+   "items": [
+    {
+     "name": "Poppers",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "French Fries",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Spicy French Fries",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Onion Rings",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Fingers",
+     "prices": [],
+     "desc": "With bleu cheese"
+    },
+    {
+     "name": "Chicken Fingers",
+     "prices": [],
+     "desc": "With sweet & sour or BBQ"
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Fried Mushrooms",
+     "prices": [],
+     "desc": "With marinara"
+    },
+    {
+     "name": "Garlic Bread",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Garlic Cheese Bread",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Potato Skins",
+     "prices": [],
+     "desc": "With sour cream and real bacon"
+    },
+    {
+     "name": "Buffalo Wings",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Cheese Fries",
+     "prices": [],
+     "desc": ""
+    },
+    {
+     "name": "Broccoli Cheese Bites",
+     "prices": [],
+     "desc": ""
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "GoDaddy Website Builder site, copyright 2021; the shop name is written in lowercase (\"tenney mtn pizza\") and cut off in the footer.",
+  "Homepage is the same sentence repeated five times (\"Welcome to tenney mtn pizza Tenney Mtn Pizza in Plymouth\").",
+  "Menu pages list items with almost no prices, so customers cannot see what anything costs.",
+  "Builder placeholders left live: \"Add a footnote if this applies to your business\" and \"Add a description about this item\" (twice).",
+  "\"About Us\" page is completely empty; \"Photo Gallery\" and \"Social\" sections have little or nothing in them.",
+  "No online ordering; phone only. Delivery is \"subject to driver availability\".",
+  "Typos: \"Ceaser Salad\", \"Chedder\", and \"French\" listed twice in the dressings.",
+  "A spammy third-party \"Unofficial Website\" (tenneymountainpizza.com) with fake filler text and euro prices competes in search results."
+ ],
+ "questions": [
+  "What are the full weekly hours? The site only shows \"Open today 11:00 am - 08:00 pm\".",
+  "Can you send current prices for every item? The shop menu lists none, and the new site says \"call for pricing\" until we have them.",
+  "Is the $4.00 \"Additional Toppings\" price per topping, and does it apply to every topping on that list?",
+  "What are the delivery area, fee and minimum, and how should we word \"subject to driver availability\"?",
+  "Is the history of the shop something you want to tell (who started it, how long it has been open)? The About Us page is empty.",
+  "Do you want online ordering, or stay phone-only? Is there an email for the contact form?",
+  "Can you confirm we may reuse the photos from your website and Instagram? We did not use the staff photo, the signed jersey or the Halloween photo.",
+  "Is the pepperoni hero photo your own?"
+ ]
+}

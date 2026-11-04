@@ -1,0 +1,1332 @@
+{
+ "slug": "brookside-pizza-ii-belmont",
+ "name": "Brookside Pizza II & The Tap Public House",
+ "short": "Brookside Pizza II",
+ "domain": "https://www.thetappublichouseinc.com",
+ "tagline": "Fresh-dough pizza, subs and dinners from the kitchen, and a full bar until midnight, at 930 Laconia Road in Belmont, NH.",
+ "seo_title": "Brookside Pizza II | Pizza, Subs & The Tap Public House in Belmont, NH",
+ "seo_desc": "Brookside Pizza II & The Tap Public House, 930 Laconia Road, Belmont NH. Dough made fresh daily, slices until 3 PM, kitchen open to 9 or 10 PM, bar open until midnight. Call 603-267-6968.",
+ "locations": [
+  {
+   "id": "belmont",
+   "name": "Belmont",
+   "street": "930 Laconia Road",
+   "city": "Belmont",
+   "region": "NH",
+   "postal": "03220",
+   "phone": "(603) 267-6968",
+   "tel": "+16032676968",
+   "phone2": "(603) 267-7407",
+   "tel2": "+16032677407",
+   "bar_phone": "(603) 267-6869",
+   "bar_tel": "+16032676869",
+   "hours": [
+    {
+     "dow": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "dow": [
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "22:00"
+    }
+   ],
+   "order": "tel:+16032676968",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Brookside+Pizza+II+930+Laconia+Road+Belmont+NH+03220"
+  }
+ ],
+ "order_any": "tel:+16032676968",
+ "social": {
+  "facebook": "https://www.facebook.com/p/Brookside-Pizza-ll-The-Tap-Public-House-100063605979509/",
+  "instagram": "http://instagram.com/thetappublichouseinc"
+ },
+ "bar": {
+  "close": "00:00",
+  "open_known": false
+ },
+ "slices_until": "15:00",
+ "menu": [
+  {
+   "cat": "Pizza & Calzones",
+   "img": "pizza-meat.webp",
+   "note": "Our dough is made fresh daily on premises. Slices available daily until 3 PM.",
+   "head": [
+    "Small 10\"",
+    "Large 16\""
+   ],
+   "items": [
+    {
+     "name": "Cheese",
+     "prices": [
+      9.99,
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Extra cheese",
+     "prices": [
+      1.99,
+      2.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Each topping",
+     "prices": [
+      1.0,
+      1.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Gluten free 12\"",
+     "prices": [
+      14.99
+     ],
+     "desc": "One size"
+    },
+    {
+     "name": "Toppings to choose from",
+     "prices": [],
+     "desc": "Anchovies, onion, pepper, mushroom, tomatoes, garlic, kalamata olives, broccoli, eggplant, pineapple, feta, meatball, hamburg, ham, pepperoni, sausage, salami, bacon, spinach, hot peppers, ricotta"
+    }
+   ]
+  },
+  {
+   "cat": "Specialty Pizza & Calzones",
+   "img": "pizza-chicken.webp",
+   "note": "Every specialty comes as a small 10\" or large 16\".",
+   "head": [
+    "Small 10\"",
+    "Large 16\""
+   ],
+   "items": [
+    {
+     "name": "Billy Wong",
+     "prices": [
+      14.99,
+      19.99
+     ],
+     "desc": "Garlic butter spread, sliced tomatoes and oregano blend"
+    },
+    {
+     "name": "Hawaiian",
+     "prices": [
+      14.99,
+      19.99
+     ],
+     "desc": "Ham and pineapple"
+    },
+    {
+     "name": "Greek",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "Tomato, onions, peppers, kalamata olives and feta"
+    },
+    {
+     "name": "Mediterranean",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "Tomato, kalamata olives, spinach and feta"
+    },
+    {
+     "name": "Village",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "Minced garlic, tomato, red onions and spinach"
+    },
+    {
+     "name": "Tuscan",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "House marinated chicken, tomato and red onion"
+    },
+    {
+     "name": "Vegetarian",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "Mushrooms, onions, peppers, tomato"
+    },
+    {
+     "name": "Spaghetti",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "A Brookside classic: spaghetti and feta"
+    },
+    {
+     "name": "Mama Mia",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "Hamburger and ricotta"
+    },
+    {
+     "name": "House Special",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "Pepperoni, sausage, ham, hamburger, mushrooms, onions, peppers"
+    },
+    {
+     "name": "Meat Lovers",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "Pepperoni, sausage, ham, bacon, hamburger"
+    },
+    {
+     "name": "Fried Chicken",
+     "prices": [
+      14.99,
+      19.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken",
+     "prices": [
+      14.99,
+      19.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hot Chicken",
+     "prices": [
+      14.99,
+      19.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ Chicken",
+     "prices": [
+      14.99,
+      19.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Honey BBQ Chicken",
+     "prices": [
+      14.99,
+      19.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sweet & Savory Chicken",
+     "prices": [
+      14.99,
+      19.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fire House Original",
+     "prices": [
+      15.99,
+      21.99
+     ],
+     "desc": "House marinated chicken, Caesar, romaine, parmesan and croutons"
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "prices": [
+      15.99,
+      21.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Bacon Ranch",
+     "prices": [
+      15.99,
+      21.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Philly Cheese Steak",
+     "prices": [
+      15.99,
+      22.99
+     ],
+     "desc": "With nacho cheese drizzle"
+    },
+    {
+     "name": "Philly Cheese Steak Special",
+     "prices": [
+      15.99,
+      23.99
+     ],
+     "desc": "Mushrooms, onion, peppers and nacho cheese drizzle"
+    },
+    {
+     "name": "Philly Cheese Steak Bomb",
+     "prices": [
+      15.99,
+      23.99
+     ],
+     "desc": "Mushrooms, onion, peppers, salami, tomato and cheese drizzle"
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers",
+   "img": "skins.webp",
+   "note": "Wing and tender flavors: Hot, Mango Habanero, Honey BBQ, Sweet & Savory, Garlic Parmesan.",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "French fries",
+     "prices": [
+      4.99,
+      5.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheesy fries",
+     "prices": [
+      5.99,
+      7.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "French fries with chili",
+     "prices": [
+      7.99,
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Waffle fries",
+     "prices": [
+      4.99,
+      5.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Waffle fries with cheese",
+     "prices": [
+      5.99,
+      7.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Waffle fries with cheese and chili",
+     "prices": [
+      8.99,
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Loaded waffle fries",
+     "prices": [
+      13.99
+     ],
+     "desc": "Nacho cheese sauce, shredded cheese, jalapenos and bacon"
+    },
+    {
+     "name": "Nachos with cheese",
+     "prices": [
+      7.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Nachos with cheese and chili",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Onion rings",
+     "prices": [
+      4.99,
+      5.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mozzarella sticks",
+     "prices": [
+      8.99,
+      10.99
+     ],
+     "desc": "6 or 10"
+    },
+    {
+     "name": "Fried shrimp",
+     "prices": [
+      10.99
+     ],
+     "desc": "10 pieces"
+    },
+    {
+     "name": "Fried mushrooms",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried zucchini",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken fingers",
+     "prices": [
+      9.99,
+      12.99
+     ],
+     "desc": "6 or 9"
+    },
+    {
+     "name": "Flavored chicken fingers",
+     "prices": [
+      10.99,
+      13.99
+     ],
+     "desc": "6 or 9"
+    },
+    {
+     "name": "Chicken wings",
+     "prices": [
+      13.99,
+      14.99
+     ],
+     "desc": "10 or 15"
+    },
+    {
+     "name": "Flavored chicken wings",
+     "prices": [
+      13.99,
+      16.99
+     ],
+     "desc": "10 or 15"
+    },
+    {
+     "name": "Jalapeno poppers",
+     "prices": [
+      9.99
+     ],
+     "desc": "10, with cheddar cheese"
+    },
+    {
+     "name": "Potato skins",
+     "prices": [
+      10.99
+     ],
+     "desc": "With broccoli or bacon"
+    },
+    {
+     "name": "Garlic bread",
+     "prices": [
+      4.99,
+      5.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheesy garlic bread",
+     "prices": [
+      6.99,
+      7.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Signature",
+   "img": "burger-zesty.webp",
+   "note": "The kitchen's own plates, from the Tap side of the menu.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "The Tap Burger",
+     "prices": [
+      16.99
+     ],
+     "desc": "10 oz Angus beef with mushrooms, onions, peppers, bacon and Swiss, special sweet sauce, grilled brioche roll, with fries"
+    },
+    {
+     "name": "Zesty-Cheddar Burger",
+     "prices": [
+      16.99
+     ],
+     "desc": "10 oz Angus beef, lettuce, pickles, bacon, cheddar, homemade zesty sauce, brioche roll, with fries"
+    },
+    {
+     "name": "Mike's Loaded Nachos",
+     "prices": [
+      14.99,
+      17.99
+     ],
+     "desc": "Half order or full: chili, melted cheese, black olives, jalapenos, tomatoes, red onion, salsa and sour cream"
+    },
+    {
+     "name": "Quesadilla",
+     "prices": [
+      13.99
+     ],
+     "desc": "Chicken, steak or eggplant, mushrooms, onions, peppers, 2 cheeses, lettuce, salsa and sour cream"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "img": "steaktip-salad.webp",
+   "note": "",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Garden",
+     "prices": [
+      6.99,
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek",
+     "prices": [
+      8.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Antipasto",
+     "prices": [
+      9.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tuna",
+     "prices": [
+      9.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Crab meat",
+     "prices": [
+      9.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Caesar",
+     "prices": [
+      7.99,
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried shrimp",
+     "prices": [
+      9.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chef",
+     "prices": [
+      9.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried chicken",
+     "prices": [
+      9.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled chicken",
+     "prices": [
+      9.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken with sauce",
+     "prices": [
+      10.99,
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak tips",
+     "prices": [
+      12.99,
+      16.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Italian & Pasta",
+   "img": "pizza-spaghetti.webp",
+   "note": "Every plate comes with salad and garlic bread.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Cheese ravioli",
+     "prices": [
+      15.99
+     ],
+     "desc": "Italian dish"
+    },
+    {
+     "name": "Chicken parmesan",
+     "prices": [
+      15.99
+     ],
+     "desc": "Italian dish"
+    },
+    {
+     "name": "Veal cutlet parmesan",
+     "prices": [
+      15.99
+     ],
+     "desc": "Italian dish"
+    },
+    {
+     "name": "Eggplant parmesan",
+     "prices": [
+      15.99
+     ],
+     "desc": "Italian dish"
+    },
+    {
+     "name": "Manicotti with sauce",
+     "prices": [
+      10.99
+     ],
+     "desc": "Pasta dish"
+    },
+    {
+     "name": "Spaghetti with sauce",
+     "prices": [
+      10.99
+     ],
+     "desc": "Pasta dish"
+    },
+    {
+     "name": "Stuffed shells",
+     "prices": [
+      10.99
+     ],
+     "desc": "Pasta dish"
+    },
+    {
+     "name": "Extra toppings on pasta",
+     "prices": [
+      2.75
+     ],
+     "desc": "Meatballs, sausage, eggplant, chicken, veal cutlet or mushrooms"
+    }
+   ]
+  },
+  {
+   "cat": "Bulkie Roll Combos",
+   "img": "burger.webp",
+   "note": "Each combo comes with a 20 oz beverage and fries. Add bacon for 1.50.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "1. Cheeseburger",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "2. Chicken cutlet",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "3. Fried haddock",
+     "prices": [
+      14.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "4. Turkey and cheese",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "5. Ham and cheese",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "6. Roast beef",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "7. Salami",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "8. Tuna",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "9. Crab meat",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "10. Veal cutlet",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Subs & Wraps",
+   "img": "",
+   "note": "Toppings: lettuce, tomato, pickle, onion, banana pepper. Premium: bell peppers, red onion, cucumbers, black and kalamata olives, hot pepper relish, jalapenos. Add bacon 1.50, Swiss or cheddar 1.00. Gluten-free rolls available.",
+   "head": [
+    "Bulkie",
+    "Small",
+    "Large / Wrap"
+   ],
+   "items": [
+    {
+     "name": "Vegetarian",
+     "prices": [
+      6.99,
+      7.99,
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Gyro",
+     "prices": [
+      null,
+      null,
+      8.99
+     ],
+     "desc": "Beef or chicken, tzatziki, tomato, red onion"
+    },
+    {
+     "name": "Ham & cheese",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Roast turkey",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Our own \"roast beef\"",
+     "prices": [
+      8.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Italian",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "American",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Genoa salami & cheese",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Classic BLT",
+     "prices": [
+      8.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Meatball",
+     "prices": [
+      null,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veal cutlet",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Crabmeat",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tuna",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheeseburger",
+     "prices": [
+      7.99,
+      11.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hot sausage",
+     "prices": [
+      null,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pastrami (extra lean)",
+     "prices": [
+      null,
+      11.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled chicken",
+     "prices": [
+      7.99,
+      10.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken parm",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried chicken",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken bomb",
+     "prices": [
+      null,
+      12.99,
+      13.99
+     ],
+     "desc": "Hot, Mango Habanero, Honey BBQ, Sweet & Savory or Garlic Parm"
+    },
+    {
+     "name": "Steak n' cheese",
+     "prices": [
+      null,
+      11.99,
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak n' cheese special",
+     "prices": [
+      null,
+      11.99,
+      12.99
+     ],
+     "desc": "Sauteed onions, peppers and mushrooms"
+    },
+    {
+     "name": "Steak n' cheese bomb",
+     "prices": [
+      null,
+      12.99,
+      13.99
+     ],
+     "desc": "Onions, peppers, mushrooms, salami and tomato"
+    },
+    {
+     "name": "Steak tip",
+     "prices": [
+      null,
+      15.99,
+      17.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Special sub I",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": "Turkey, roast beef, bacon"
+    },
+    {
+     "name": "Special sub II",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": "Turkey, ham, roast beef"
+    },
+    {
+     "name": "Special sub III",
+     "prices": [
+      7.99,
+      10.99,
+      11.99
+     ],
+     "desc": "Turkey, ham, bacon"
+    },
+    {
+     "name": "Brookside Special",
+     "prices": [
+      null,
+      10.99,
+      12.99
+     ],
+     "desc": "Sausage, pastrami, steak and cheese"
+    },
+    {
+     "name": "Brookside Bomb",
+     "prices": [
+      null,
+      12.99,
+      13.99
+     ],
+     "desc": "Sausage, pastrami, steak, onions, peppers, mushrooms and cheese"
+    }
+   ]
+  },
+  {
+   "cat": "Dinners",
+   "img": "wings.webp",
+   "note": "Dinners come with french fries and a salad.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Chicken wings",
+     "prices": [
+      15.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken fingers",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Flavored wings",
+     "prices": [
+      16.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Flavored chicken fingers",
+     "prices": [
+      14.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheeseburger",
+     "prices": [
+      14.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Gyro",
+     "prices": [
+      14.99
+     ],
+     "desc": "Beef or chicken, tzatziki, tomato, red onion"
+    },
+    {
+     "name": "Fried shrimp",
+     "prices": [
+      15.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Combo plate I",
+     "prices": [
+      15.99
+     ],
+     "desc": "Shrimp and chicken fingers"
+    },
+    {
+     "name": "Combo plate II",
+     "prices": [
+      15.99
+     ],
+     "desc": "Shrimp and chicken wings"
+    },
+    {
+     "name": "Combo plate III",
+     "prices": [
+      15.99
+     ],
+     "desc": "Chicken fingers and wings"
+    },
+    {
+     "name": "Steak tip dinner",
+     "prices": [
+      25.99
+     ],
+     "desc": "With salad and fries"
+    }
+   ]
+  },
+  {
+   "cat": "Soup du Jour",
+   "img": "",
+   "note": "Available daily.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Corn chowder",
+     "prices": [
+      7.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chili",
+     "prices": [
+      7.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chili with cheese",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Clam chowder",
+     "prices": [
+      7.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Soup of the day",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Soup & sandwich",
+     "prices": [
+      10.99
+     ],
+     "desc": "Grilled cheese, turkey, ham, roast beef or tuna on sliced bread"
+    }
+   ]
+  },
+  {
+   "cat": "Kids",
+   "img": "",
+   "note": "Every kids plate is 8.99.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Spaghetti with sauce",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti and meatballs",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mini pizza with cheese",
+     "prices": [
+      8.99
+     ],
+     "desc": "Extra toppings +1.00"
+    },
+    {
+     "name": "Grilled cheese with fries",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mini corn dogs with tater tots",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mini corn dogs with mac n' cheese",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mac n' cheese",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken & fries basket",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Desserts",
+   "img": "",
+   "note": "Prices not listed on the paper menu; ask when you call.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Baklava twin pack",
+     "prices": [
+      null
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Baklava family pack",
+     "prices": [
+      null
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheesecake",
+     "prices": [
+      null
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Strawberry shortcake",
+     "prices": [
+      null
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Ben & Jerry's",
+     "prices": [
+      null
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Triple chocolate cake",
+     "prices": [
+      null
+     ],
+     "desc": "And many more"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "Squarespace site built about 2016-2017 under the bar's corporate name; the pizza shop has no identity of its own online.",
+  "The \"Brookside Pizza II Menu\" page contains no menu, only the address; the Tap menu page shows leftover block labels.",
+  "The only real menu is two crooked phone photos of the paper menu plus 2017 catering scans with \"to Upload\" in the file names.",
+  "Sidebar on every page says the whole business is open 11AM-12AM daily; the paper menu says the restaurant closes at 9 or 10 PM and only the bar runs to midnight.",
+  "No online ordering and three phone numbers with no clear call-to-order button.",
+  "About text has typos and reads like a 2009 update; merch and bar photos outweigh the pizza."
+ ],
+ "questions": [
+  "What time does the bar open each day? Only \"open till midnight 7 days\" is published.",
+  "Do the restaurant hours on the paper menu (Mon-Thu and Sun 11-9, Fri-Sat 11-10) match what you want shown? Does the kitchen stop at the same time?",
+  "Which phone number should be the main call-to-order number: 603-267-6968 or 603-267-7407?",
+  "What are the delivery area, fee and minimum? The menu only says \"Belmont and surrounding towns\".",
+  "Do you want online ordering? If so, which system? The site is call-to-order today.",
+  "Please send dessert prices and any menu changes since the paper menu was printed (it says prices may change).",
+  "Is the Facebook page the right social link, and is the Instagram (the Tap's account) the one to feature?",
+  "Do you own the photos and OK their reuse? They came from your website, Facebook and Instagram.",
+  "Is the story text (Christine, 1999, 2003, The Tap in 2006, 2009 reopening) right, and do you want the community section (DARE, Sportsmen's Club, TEAM FEED, police helmets) kept?",
+  "What is your domain? (domain in data.json is a placeholder.)"
+ ]
+}

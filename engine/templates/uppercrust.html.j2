@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#232C2A">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#board">Skip to the week board</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Upper Crust Pizzeria, home"><span class="b1">Upper Crust</span><span class="b2">Pizzeria · Tilton, NH</span></a>
+  <nav id="nav" aria-label="Main"><a href="#board">Hours</a><a href="#menu">Menu</a><a href="#visit">Find us</a><a class="nav-order" href="{{ order_any }}" rel="noopener">Order online</a></nav>
+  <a class="btn btn-sm top-order" href="{{ order_any }}" rel="noopener">Order</a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+</header>
+<main id="top">
+
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="status"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1>Dough and sauce, <em>made daily.</em></h1>
+      <p class="sub">That is how Upper Crust puts it on its own menu: “made daily in the kitchen using the finest ingredients.” 65 Laconia Road in Tilton, with specialty pizzas, grill subs, pasta, dinners and a fry bar.</p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+      <p class="mini">Open Tuesday to Sunday · closed Mondays · <a href="#board">see the week board</a></p>
+    </div>
+    <div class="hero-pics">
+      <img class="p1" src="{{ img('pizza-mushroom.webp') }}" width="1169" height="1154" alt="Round pizza with browned mushrooms, fresh tomato and red onion on a golden, blistered crust" fetchpriority="high">
+      <img class="p2" src="{{ img('pizza-athens.webp') }}" width="1168" height="845" alt="Athens pizza in its box, topped with feta, spinach, red onion and tomato, no red sauce" loading="lazy">
+    </div>
+  </div>
+  <div class="plaid" aria-hidden="true"></div>
+</section>
+
+<section class="board-sec sec" id="board" aria-labelledby="bh">
+  <div class="wrap">
+    <div class="sec-head"><p class="chalk-note">Only on this site</p><h2 id="bh">The Week Board</h2>
+    <p class="lede">Upper Crust opens in shifts: Wednesday and Thursday close for an afternoon break, Tuesday starts at 4, and Monday is off. Drag the slider to a time and see which days are cooking.</p></div>
+    <div class="board" id="wb" data-t0="{{ t0 }}" data-t1="{{ t1 }}">
+      <div class="wb-ctl">
+        <label for="wb-range" class="wb-l">When are you hungry?</label>
+        <div class="wb-slide"><input id="wb-range" type="range" min="{{ t0 }}" max="{{ t1 - 15 }}" step="15" value="1080" aria-describedby="wb-say"><output id="wb-time" for="wb-range" class="mono">6:00 PM</output></div>
+        <p class="wb-say" id="wb-say" aria-live="polite"></p>
+        <button type="button" class="btn btn-sm btn-chalk" id="wb-now">Use the time right now</button>
+      </div>
+      <div class="wb-grid" role="table" aria-label="Weekly hours, 11 AM to 9 PM">
+        <div class="wb-axis" role="row"><span role="columnheader" class="wb-d"><span class="sr">Day</span></span><span role="columnheader" class="wb-t"><span class="sr">Open times</span>{% for t in ticks %}<i style="left:{{ t.left }}%" aria-hidden="true">{{ t.h }}</i>{% endfor %}</span><span role="columnheader" class="wb-s sr">Status</span></div>
+        {% for r in rows %}<div class="wb-row{% if not r.bars %} off{% endif %}" role="row" data-dow="{{ r.dow }}">
+          <span role="rowheader" class="wb-d"><b>{{ r.day[:3] }}</b><small>{{ r.day }}</small></span>
+          <span role="cell" class="wb-t">{% for t in ticks %}<u style="left:{{ t.left }}%" aria-hidden="true"></u>{% endfor %}{% if r.bars %}{% for b in r.bars %}<em class="bar" style="left:{{ b.left }}%;width:{{ b.width }}%" title="{{ b.label }}"></em>{% endfor %}{% else %}<span class="wb-off">Closed all day</span>{% endif %}{% if r.gap %}<span class="wb-brk" style="left:{{ r.gap.left }}%;width:{{ r.gap.width }}%" aria-hidden="true">break</span>{% endif %}<span class="sr">{{ r.text }}</span></span>
+          <span role="cell" class="wb-s" data-st></span>
+        </div>{% endfor %}
+        <div class="wb-cur" id="wb-cur" aria-hidden="true"></div>
+      </div>
+      <ul class="wb-list" aria-label="Hours as text">{% for r in rows %}<li data-dow="{{ r.dow }}"><b>{{ r.day }}</b><span>{{ r.text }}</span></li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>
+
+<section class="photos sec" aria-label="Photos">
+  <div class="wrap">
+    <div class="sec-head"><p class="chalk-note">From the kitchen</p><h2>What comes out of the oven.</h2></div>
+    <div class="ph-row">
+      <figure><img src="{{ img('pizza-veggie.webp') }}" width="1280" height="765" alt="Pizza topped with black olives, mushrooms, onion and green pepper on a metal pan" loading="lazy"><figcaption>Veggie, on the pan</figcaption></figure>
+      <figure><img src="{{ img('steak-cheese.webp') }}" width="604" height="372" alt="Steak and cheese sub cut in half on newspaper-print paper" loading="lazy"><figcaption>Steak and cheese, off the grill</figcaption></figure>
+      <figure><img src="{{ img('pizza-cheese-closeup.webp') }}" width="882" height="825" alt="Close-up of a bubbling cheese and tomato pizza with a browned crust" loading="lazy"><figcaption>Cheese, up close</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="menu sec" id="menu" aria-labelledby="mh">
+  <div class="wrap">
+    <div class="sec-head"><p class="chalk-note">The whole board</p><h2 id="mh">Menu &amp; prices</h2>
+    <p class="lede">Every item and price from the shop’s own online menu. Small and large pizzas, subs from the grill, pasta, dinners and the fry bar.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" data-t="{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}" tabindex="{{ 0 if loop.first else -1 }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: steak, feta, fries…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" role="status"></p>
+    {% for c in menu %}<section class="m-panel" id="mp{{ loop.index0 }}" role="tabpanel" aria-labelledby="mt{{ loop.index0 }}" data-p="{{ loop.index0 }}" {% if not loop.first %}hidden{% endif %}>
+      <div class="m-ph">{% if c.img %}<img src="{{ img(c.img) }}" alt="" loading="lazy">{% endif %}<div><h3>{{ c.cat }}</h3>{% if c.note %}<p>{{ c.note }}</p>{% endif %}</div></div>
+      <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc ~ ' ' ~ c.cat)|lower) }}">
+        <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+        <div class="m-p">{% if it.prices %}{% for p in it.prices %}<span>{% if it.prices|length > 1 and c.head|length > loop.index0 %}<small>{{ c.head[loop.index0] }}</small>{% endif %}{{ money(p) }}</span>{% endfor %}{% else %}<span class="ask">Ask</span>{% endif %}</div></li>{% endfor %}</ul></section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing matches that. Try “chicken” or “cheese”.</p>
+    <p class="m-fine">Prices and items are copied from the shop’s current online menu and may change. Delivery: not stated on the shop’s site, so call to ask.</p>
+  </div>
+</section>
+
+<section class="visit sec" id="visit" aria-labelledby="vh">
+  <div class="wrap visit-in">
+    <div><p class="chalk-note">Come hungry</p><h2 id="vh">65 Laconia Road, Tilton</h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <p class="mini"><a href="{{ instagram }}" rel="noopener">@uppercrustpizzanh on Instagram</a></p></div>
+    <div class="hours" role="region" aria-label="Hours"><p class="status"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><p class="b1">Upper Crust Pizzeria</p><p>{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Upper Crust Pizzeria.</p></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="#board">Hours</a></div>
+<script>window.__HOURS__={{ hours_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

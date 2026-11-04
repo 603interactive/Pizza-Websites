@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#14234f">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#build">Skip to the order sheet and menu</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="{{ name }}, home"><span class="peak" aria-hidden="true"></span><b>Tenney Mountain</b><i>Pizza</i></a>
+  <nav aria-label="Main"><a href="#build">Build</a><a href="#menu">Menu</a><a href="#made">In the kitchen</a><a href="#visit">Visit</a></nav>
+  <a class="btn btn-sm" href="tel:{{ loc.tel }}" aria-label="Call {{ loc.phone }}">Call<span class="num"> {{ loc.phone }}</span></a>
+</header>
+<main id="top">
+
+<section class="hero">
+  <svg class="ridge" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true" focusable="false"><path d="M0 220V150L90 112 170 156 290 60 390 130 480 82 620 186 730 94 850 170 980 60 1090 142 1190 96 1300 150 1440 90V220z"/></svg>
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow">594 Tenney Mountain Hwy · Plymouth, NH</p>
+      <h1>All trails lead to <em>pizza.</em></h1>
+      <p class="sub">Build-your-own pizza, special pizzas, “best in town” calzones, subs, burgers and dinner plates. There is no online ordering, so we made the menu work like an order sheet: tap what you want, then call it in.</p>
+      <div class="cta"><a class="btn btn-big" href="tel:{{ loc.tel }}"><span aria-hidden="true">&#9742;</span> Call {{ loc.phone }}</a><a class="btn btn-ghost" href="#build">Start an order sheet</a></div>
+      <p class="mini hrs"><b>Open today {{ loc.hours_listed }}.</b> Weekly hours are not published yet: please call to confirm before you drive over. Delivery is subject to driver availability.</p>
+    </div>
+    <figure class="sign"><img src="{{ img('logo.webp') }}" width="1295" height="490" alt="The shop’s lit sign: Tenney Mountain Pizza with a blue mountain, a cartoon chef holding a pizza, “We Deliver” and the number 536-3865" fetchpriority="high"></figure>
+  </div>
+</section>
+
+<section class="trail sec" id="build">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>The trail <em>order sheet.</em></h2>
+    <p class="lede">The shop takes orders by phone, and the menu is long. Build a pizza or tap items from the full menu, and they collect on your sheet. When you are ready, call and read it off, or copy it to a text. Nothing is sent anywhere: it stays on your device.</p></div>
+    <div class="cols">
+      <div class="left">
+        <form class="builder" id="builder" aria-labelledby="b-h" onsubmit="return false">
+          <h3 id="b-h"><span class="flag" aria-hidden="true">1</span> Build your own pizza</h3>
+          <div class="row">
+            <fieldset><legend>Size</legend><label class="chip"><input type="radio" name="size" value="0" checked><span>Small</span></label><label class="chip"><input type="radio" name="size" value="1"><span>Large</span></label></fieldset>
+            <fieldset><legend>Sauce</legend><label class="chip"><input type="radio" name="sauce" value="red" checked><span>Red</span></label><label class="chip"><input type="radio" name="sauce" value="white"><span>White <small id="b-white"></small></span></label></fieldset>
+            <fieldset><legend>Style</legend><label class="chip"><input type="radio" name="kind" value="0" checked><span>Cheese</span></label><label class="chip"><input type="radio" name="kind" value="2"><span>Two topping</span></label><label class="chip" id="chip3"><input type="radio" name="kind" value="3"><span>Three topping <small>(small)</small></span></label></fieldset>
+          </div>
+          <fieldset class="tops" id="tops"><legend>Toppings <span id="b-left" aria-live="polite"></span></legend>
+            {% for t in ['cheese','onion','pepper','pepperoni','sausage','hamburg','pineapple','olive','broccoli','spinach','jalapeno peppers','tomato','fresh garlic'] %}<label class="chip tp"><input type="checkbox" name="top" value="{{ t }}"><span>{{ t }}</span></label>{% endfor %}
+          </fieldset>
+          <fieldset class="tops prem"><legend>Additional toppings <small>(shop lists these at $4.00; confirm when you call)</small></legend>
+            {% for t in ['cheese (extra)','anchovy','Canadian bacon','ham','meatball','eggplant','artichoke'] %}<label class="chip tp"><input type="checkbox" name="prem" value="{{ t }}"><span>{{ t }}</span></label>{% endfor %}
+          </fieldset>
+          <div class="b-go"><button class="btn" type="button" id="b-add">Add this pizza to my sheet</button><p class="mini" id="b-sum" aria-live="polite"></p></div>
+        </form>
+
+        <div class="menu" id="menu">
+          <div class="sec-head sm"><p class="kicker"><span class="flag" aria-hidden="true">2</span> Or pick from the whole menu</p><h2>{{ menu|length }} trails, <em>{{ total }} items.</em></h2>
+          <p class="lede">Everything the shop lists. The shop publishes no item prices, so none are shown; we only show the sauce and topping add-ons it does print.</p></div>
+          <div class="m-bar"><label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search all {{ total }} items: steak, feta, haddock…" autocomplete="off"></label>
+            <div class="m-tabs" id="m-tabs" role="group" aria-label="Menu sections"><button type="button" class="on" data-t="all" aria-pressed="true">All</button>{% for c in menu %}<button type="button" data-t="{{ loop.index0 }}" aria-pressed="false">{{ c.cat }}</button>{% endfor %}</div></div>
+          <p class="m-count" id="m-count" role="status"></p>
+          {% for c in menu %}<section class="m-cat" data-c="{{ loop.index0 }}" aria-labelledby="mc{{ loop.index0 }}">
+            <h3 id="mc{{ loop.index0 }}"><span class="diamond" aria-hidden="true">{{ loop.index }}</span>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+            <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc ~ ' ' ~ c.cat)|lower) }}">
+              <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+              <div class="m-a">{% if it.name == 'Additional toppings' %}<span class="m-p">$4.00 listed</span>{% else %}<span class="m-p">Call for pricing</span>
+                {% for s in (it.sizes or ['']) %}<button type="button" class="add" data-add data-name="{{ esc(it.name) }}" data-size="{{ s }}" data-sauce="{{ it.sauce or '' }}" data-cat="{{ esc(c.cat) }}" aria-label="Add {{ esc(it.name) }}{% if s %} ({{ s }}){% endif %} to order sheet">+ {{ s or 'Add' }}</button>{% endfor %}{% endif %}</div></li>{% endfor %}</ul></section>{% endfor %}
+          <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try “chicken” or “cheese”, or call and ask.</p>
+        </div>
+      </div>
+
+      <aside class="sheet" id="sheet" aria-labelledby="sh-h">
+        <div class="sheet-in">
+          <h3 id="sh-h">Your order sheet <span class="n" id="sh-n">0</span></h3>
+          <p class="empty" id="sh-empty">Nothing yet. Build a pizza or tap <b>+ Add</b> on any menu item.</p>
+          <ol class="lines" id="sh-lines"></ol>
+          <p class="addons" id="sh-addons" hidden></p>
+          <p class="fine">Base prices are not published: the shop will give your total when you call. Sauce add-ons above are the shop’s own printed amounts.</p>
+          <div class="sh-btns"><a class="btn btn-big" id="sh-call" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a><button class="btn btn-ghost" type="button" id="sh-copy" disabled>Copy sheet</button><button class="link" type="button" id="sh-clear" disabled>Clear</button></div>
+          <p class="mini" id="sh-msg" role="status"></p>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="made sec" id="made">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">In the kitchen</p><h2>Cheese shredded <em>in-house.</em> Dough by hand.</h2>
+    <p class="lede">Photos from the shop’s own Instagram: the in-house shredded cheese blend at the slicer, a tray of hand-made dough balls, and a slice with a Polaroid of a pie in the oven.</p></div>
+    <div class="trio">
+      <figure><img src="{{ img('cheese.webp') }}" width="1000" height="1246" alt="Shredded cheese falling from a slicer into a clear tub in the kitchen" loading="lazy"><figcaption>The in-house cheese blend</figcaption></figure>
+      <figure><img src="{{ img('dough.webp') }}" width="1000" height="1250" alt="A tray of hand-made pizza dough balls" loading="lazy"><figcaption>Hand-made dough</figcaption></figure>
+      <figure><img src="{{ img('slice.webp') }}" width="1000" height="1333" alt="A cheese slice on wax paper with a hand holding a Polaroid of a pie in the oven" loading="lazy"><figcaption>Cheese slice</figcaption></figure>
+      <figure class="wide"><img src="{{ img('pepperoni.webp') }}" width="1407" height="794" alt="Close-up of a pepperoni pizza with melted cheese and a browned crust" loading="lazy"><figcaption>Pepperoni pie</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Find us</p><h2>Up Tenney Mountain Highway</h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn btn-big" href="tel:{{ loc.tel }}">Call to order</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <p class="mini">Questions or dietary concerns? Call and ask. Follow along: <a href="{{ instagram }}" rel="noopener">Instagram</a> · <a href="{{ facebook }}" rel="noopener">Facebook</a></p></div>
+    <div class="hours-box"><h3>Hours</h3><p class="big">Open today<br><b>{{ loc.hours_listed }}</b></p>
+      <p class="mini">That is all the shop publishes right now. Weekly hours are not listed, so please call before you go.</p>
+      <p class="mini">Delivery is subject to driver availability. No online ordering: phone only.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><p><b>Tenney Mountain Pizza</b> · {{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Tenney Mountain Pizza. All prices subject to change; call for current pricing.</p></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}" class="pri">Call</a><a href="#sheet" id="dock-sheet">Order sheet (<span id="dock-n">0</span>)</a><a href="#menu">Menu</a></div>
+<div class="toast" id="toast" role="status"></div>
+<script>window.__WHITE__={"pz":[1.5,2.25],"sp":[2.5,3.25],"cz":[0.95,1.75]};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

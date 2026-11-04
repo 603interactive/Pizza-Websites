@@ -1,0 +1,431 @@
+{
+ "slug": "durham-house-of-pizza-durham",
+ "name": "Durham House of Pizza",
+ "short": "DHOP",
+ "domain": "https://www.durhamhouseofpizza.com",
+ "tagline": "Durham, NH pizza since 1976, open until 2 AM Thursday through Saturday.",
+ "seo_title": "Durham House of Pizza | Late-Night Pizza in Durham, NH Since 1976",
+ "seo_desc": "Durham House of Pizza (DHOP), 38 Main Street, Durham NH. Pizza since 1976 with a full menu and prices, open until 2 AM Thursday to Saturday. Order online or call (603) 868-2224.",
+ "locations": [
+  {
+   "id": "durham",
+   "name": "Durham",
+   "street": "38 Main Street",
+   "city": "Durham",
+   "region": "NH",
+   "postal": "03824",
+   "phone": "(603) 868-2224",
+   "tel": "+16038682224",
+   "hours": [
+    {
+     "dow": [
+      1,
+      2,
+      3
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "dow": [
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "02:00"
+    }
+   ],
+   "order": "https://www.toasttab.com/durham-house-of-pizza-38-main-street",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Durham+House+of+Pizza+38+Main+Street+Durham+NH+03824",
+   "geo": null
+  }
+ ],
+ "order_any": "https://www.toasttab.com/durham-house-of-pizza-38-main-street",
+ "menu": [
+  {
+   "cat": "Specialty Pizzas",
+   "img": "margherita.webp",
+   "note": "Small 10\", Large 16\", Super 20\". Cheese pizza is the base; build your own or pick a specialty.",
+   "head": [
+    "10\" Small",
+    "16\" Large",
+    "20\" Super"
+   ],
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "prices": [
+      10.5,
+      15,
+      25
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mediterranean",
+     "prices": [
+      12.5,
+      19.75,
+      31
+     ],
+     "desc": "Spinach, artichoke hearts, feta cheese, tomato"
+    },
+    {
+     "name": "Italian Gourmet",
+     "prices": [
+      12.5,
+      19.75,
+      31
+     ],
+     "desc": "Spinach, portabella mushrooms, roasted red peppers and artichoke hearts"
+    },
+    {
+     "name": "Greek Island",
+     "prices": [
+      12.5,
+      19.75,
+      31
+     ],
+     "desc": "Spinach, kalamata olives, feta and tomatoes"
+    },
+    {
+     "name": "Chicken Cacciatore",
+     "prices": [
+      13,
+      20.75,
+      31.25
+     ],
+     "desc": "Chicken, onion, green peppers, garlic, mushrooms topped with extra sauce"
+    },
+    {
+     "name": "Tahitian",
+     "prices": [
+      12.5,
+      19.75,
+      31
+     ],
+     "desc": "Green peppers, teriyaki chicken and pineapple"
+    },
+    {
+     "name": "Southern BBQ",
+     "prices": [
+      12.5,
+      19.75,
+      31
+     ],
+     "desc": "Pepperoni, BBQ chicken and broccoli"
+    },
+    {
+     "name": "Parmigiana",
+     "prices": [
+      12.5,
+      19.75,
+      29
+     ],
+     "desc": "Eggplant, chicken and extra cheese"
+    },
+    {
+     "name": "Hawaiian",
+     "prices": [
+      12,
+      18.75,
+      29
+     ],
+     "desc": "Ham and pineapple"
+    },
+    {
+     "name": "Fra Diablo",
+     "prices": [
+      12,
+      18.75,
+      29
+     ],
+     "desc": "Hot cherry peppers, hot sausage and black olives"
+    },
+    {
+     "name": "Four Cheese",
+     "prices": [
+      12,
+      18.75,
+      29
+     ],
+     "desc": "Pesto, garlic, ricotta, cheddar and mozzarella"
+    },
+    {
+     "name": "Chicken Roma",
+     "prices": [
+      12.5,
+      19.75,
+      31
+     ],
+     "desc": "Pesto chicken, roasted red peppers and artichoke hearts"
+    },
+    {
+     "name": "Bacon Cheeseburger",
+     "prices": [
+      12,
+      18.75,
+      29
+     ],
+     "desc": "Bacon, hamburger and extra cheese"
+    },
+    {
+     "name": "Chicken Club",
+     "prices": [
+      13,
+      20.75,
+      31.25
+     ],
+     "desc": "Spinach, chicken, bacon, onions and tomatoes"
+    },
+    {
+     "name": "Spinach Pie",
+     "prices": [
+      13,
+      20.75,
+      31.25
+     ],
+     "desc": "Ricotta cheese, spinach, onions, tomatoes and feta"
+    },
+    {
+     "name": "Athenian Chicken",
+     "prices": [
+      13,
+      20.75,
+      31.25
+     ],
+     "desc": "Chicken, onions, green peppers, tomatoes and feta"
+    },
+    {
+     "name": "American Meat Pie",
+     "prices": [
+      13,
+      20.75,
+      31.25
+     ],
+     "desc": "Pepperoni, ham, hamburger and sausage"
+    },
+    {
+     "name": "Mushroom Scampi",
+     "prices": [
+      12.5,
+      19.75,
+      31
+     ],
+     "desc": "Portabella mushrooms, ricotta cheese, parmesan cheese, garlic and mushrooms"
+    },
+    {
+     "name": "BBQ Meat Pie",
+     "prices": [
+      13.5,
+      21,
+      32
+     ],
+     "desc": "Pepperoni, ham, hamburg, sausage and BBQ chicken"
+    },
+    {
+     "name": "Veggie Al Fresco",
+     "prices": [
+      13,
+      20.75,
+      31.25
+     ],
+     "desc": "Spinach, onions, green peppers, mushrooms, tomatoes, ricotta cheese and garlic"
+    },
+    {
+     "name": "Super Veggie",
+     "prices": [
+      13,
+      19.75,
+      31.25
+     ],
+     "desc": "Spinach, onions, green peppers, mushrooms, broccoli, artichoke hearts, tomatoes and olives"
+    },
+    {
+     "name": "Roman Veggie",
+     "prices": [
+      13,
+      20.75,
+      31.25
+     ],
+     "desc": "Spinach, garlic, ricotta cheese, pesto, roasted red peppers and parmesan cheese"
+    },
+    {
+     "name": "Teriyaki Twist",
+     "prices": [
+      12.5,
+      19.75,
+      31
+     ],
+     "desc": "Green peppers, onions, teriyaki chicken and broccoli"
+    },
+    {
+     "name": "Smoke House",
+     "prices": [
+      12.5,
+      19.75,
+      31
+     ],
+     "desc": "Ham, BBQ chicken and tomatoes"
+    },
+    {
+     "name": "BBQ Special",
+     "prices": [
+      13.5,
+      19.75,
+      31
+     ],
+     "desc": "Pepperoni, BBQ chicken, bacon, jalapeño"
+    },
+    {
+     "name": "DHOP Special",
+     "prices": [
+      13.5,
+      21,
+      32
+     ],
+     "desc": "Pepperoni, ham, hamburger, sausage, onion, mushrooms, peppers, tomatoes"
+    },
+    {
+     "name": "The Santorini White",
+     "prices": [
+      12.5,
+      19.75,
+      32
+     ],
+     "desc": "Ricotta base topped with roasted garlic, onion, pesto and tomato"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "img": "salad.webp",
+   "note": "House-made dressings: Greek, ranch, Italian, balsamic, blue cheese. Add chicken for $1.75.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "House Salad",
+     "prices": [
+      11.5
+     ],
+     "desc": "Romaine, mixed greens, cucumber, tomato, red onion, green pepper, shredded carrot"
+    },
+    {
+     "name": "Greek Salad",
+     "prices": [
+      12.5
+     ],
+     "desc": "Romaine, mixed greens, cucumber, tomato, red onion, green pepper, shredded carrot, feta cheese, kalamata olives"
+    },
+    {
+     "name": "Mediterranean Salad",
+     "prices": [
+      12.5
+     ],
+     "desc": "Romaine, mixed greens, cucumber, tomato, red onion, green pepper, shredded carrot, artichokes, feta cheese"
+    }
+   ]
+  },
+  {
+   "cat": "Breadsticks",
+   "img": "stuffed-crust.webp",
+   "note": "",
+   "head": [
+    "10 piece",
+    "20 piece"
+   ],
+   "items": [
+    {
+     "name": "Cheesy Breadsticks",
+     "prices": [
+      9,
+      11
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Classic Breadsticks",
+     "prices": [
+      6,
+      8
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Calzone & Gluten Free",
+   "img": "calzone.webp",
+   "note": "Gluten free pizzas are cooked in the same oven as pizzas containing gluten.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Calzone",
+     "prices": [
+      10.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "10\" Gluten Free Pizza",
+     "prices": [
+      13
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Custom Pizza",
+     "prices": [],
+     "desc": "Customize your own with our vast selection of toppings or specialty pizzas. Ask at the counter for topping prices."
+    }
+   ]
+  },
+  {
+   "cat": "Drinks",
+   "img": "chef-beer.webp",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "12 oz Soda Cans",
+     "prices": [
+      2
+     ],
+     "desc": "Coke, Diet Coke, Coke Zero, Barq's Root Beer, Sprite, Canada Dry, Dr Pepper, Sunkist, Canada Dry Seltzer"
+    },
+    {
+     "name": "Dasani Water Bottle",
+     "prices": [
+      2
+     ],
+     "desc": ""
+    },
+    {
+     "name": "20 oz Specialty Drinks",
+     "prices": [
+      3
+     ],
+     "desc": "Powerade, Vitamin Water"
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "Wix restaurant template with placeholder headings; nothing about 1976 or late hours",
+  "Join Our Team page empty",
+  "Unofficial site dhoppizza.com lists 42 Main St and different hours",
+  "Menu typos (10\" Super on Chicken Cacciatore, \"Breatsticks\")",
+  "Hours text broken (\"9 :00P M\"), no map, no social links"
+ ],
+ "questions": [
+  "Official address is 38 Main St (site, Toast); Instagram says 40 Main St and dhoppizza.com says 42 Main St. Which is right?",
+  "Hours: official site says Sun closed, Mon-Wed 11-9, Thu-Sat 11 AM-2 AM and \"hours may vary\". The unofficial site is open Sundays. Confirm."
+ ]
+}

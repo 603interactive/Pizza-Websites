@@ -1,0 +1,1999 @@
+{
+ "slug": "pizza-haven-rindge",
+ "name": "Pizza Haven",
+ "short": "Pizza Haven",
+ "domain": "https://pizzahavenrindge.com",
+ "tagline": "Pizza With Attitude! Pizza, calzones, subs, wraps and dinners at 1343 NH-119 in Rindge, NH.",
+ "seo_title": "Pizza Haven | Pizza With Attitude in Rindge, NH",
+ "seo_desc": "Pizza Haven, 1343 NH-119, Rindge NH. Pizza, calzones, subs, wraps, dinners and daily deals. Two large cheese pizzas $24.99. Order online or call (603) 899-2828.",
+ "locations": [
+  {
+   "id": "rindge",
+   "name": "Rindge",
+   "street": "1343 NH-119",
+   "city": "Rindge",
+   "region": "NH",
+   "postal": "03461",
+   "phone": "(603) 899-2828",
+   "tel": "+16038992828",
+   "hours": [
+    {
+     "dow": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    }
+   ],
+   "order": "https://orderpizzahaven.com/",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Pizza+Haven+1343+NH-119+Rindge+NH+03461"
+  }
+ ],
+ "order_any": "https://orderpizzahaven.com/",
+ "coupons": [
+  {
+   "name": "Two Large Cheese Pizzas",
+   "price": 24.99
+  },
+  {
+   "name": "Two Large Cheese Pizzas & Two Liter Soda",
+   "price": 26.99
+  }
+ ],
+ "menu": [
+  {
+   "cat": "Pizzas",
+   "group": "Pizzas",
+   "img": "bbq-pizza.webp",
+   "note": "Prices are the single price listed on the shop's online menu. Sizes are not listed there.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "prices": [
+      7.99
+     ],
+     "desc": "Classic cheese or create your own pizza."
+    },
+    {
+     "name": "Bruschetta Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Bruschetta sauce & pizza cheese. (No pizza sauce)."
+    },
+    {
+     "name": "Hawaiian Pizza",
+     "prices": [
+      9.99
+     ],
+     "desc": "Ham & pineapple."
+    },
+    {
+     "name": "BBQ Chicken Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ Rib Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Steak Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "100% juicy shaved beef piled high from the grill."
+    },
+    {
+     "name": "Pastrami Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Beef pastrami red sliced."
+    },
+    {
+     "name": "Chicken Bacon Ranch Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Grilled chicken with bacon drizzled in ranch dressing & pizza cheese."
+    },
+    {
+     "name": "Chicken Broccoli Alfredo Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Grilled chicken, broccoli with white alfredo sauce."
+    },
+    {
+     "name": "Shawn Special Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Buffalo chicken, pepperoni, bacon."
+    },
+    {
+     "name": "Meat Lovers Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Pepperoni, sausage, hamburger, ham & bacon."
+    },
+    {
+     "name": "Chicken Delight Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Grilled chicken, bacon, ham, and pineapple."
+    },
+    {
+     "name": "Vegetarian Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Mushrooms, onions, peppers, and black olives."
+    },
+    {
+     "name": "Italian Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Meatball, black olives, and salami."
+    },
+    {
+     "name": "Greek Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Sliced tomatoes, black olives, feta cheese, and pizza sauce."
+    },
+    {
+     "name": "Mediterranean Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Our Greek style with tomato, spinach, feta cheese, black olives, garlic & pizza cheese."
+    },
+    {
+     "name": "Mexican Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Hamburger, banana peppers, and sliced tomatoes."
+    },
+    {
+     "name": "Smoke House Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Pepperoni, bacon, onions, green pepper."
+    },
+    {
+     "name": "Steak Special Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Shaved steak, grilled onions, peppers, and mushrooms."
+    },
+    {
+     "name": "Special Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Pepperoni, sausage, hamburger, onions, mushrooms, and peppers."
+    },
+    {
+     "name": "White Pizza",
+     "prices": [
+      8.99
+     ],
+     "desc": "Ricotta cheese base. No red sauce, and pizza cheese."
+    },
+    {
+     "name": "Pesto Cheese Pizza",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Polynesian Pizza",
+     "prices": [
+      10.99
+     ],
+     "desc": "Ham, pineapple & bacon."
+    },
+    {
+     "name": "Five Cheese Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Mozzarella, cheddar, provolone, parmesan and american cheese."
+    },
+    {
+     "name": "Grilled Chicken Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "BBQ, buffalo, or teriyaki."
+    },
+    {
+     "name": "Crispy Chicken Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "BBQ, buffalo, or teriyaki."
+    },
+    {
+     "name": "Chicken Parmesan Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Crispy chicken, pizza cheese, parmesan & marinara sauce."
+    },
+    {
+     "name": "Cheeseburger Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Cheeseburger, lettuce, tomato, onions, ketchup, and mustard. No sauce."
+    },
+    {
+     "name": "Mac & Cheese Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Shrimp Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Grilled shrimp, tomatoes & garlic."
+    },
+    {
+     "name": "Macaroni & Cheese Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "B.L.T. Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Bacon, lettuce, and fresh tomatoes. No pizza sauce."
+    },
+    {
+     "name": "Taco Pizza",
+     "prices": [
+      11.99
+     ],
+     "desc": "Hamburger, jalapenos, tomatoes, and olives."
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "group": "Calzones",
+   "img": "calzone.webp",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Cheese Calzone",
+     "prices": [
+      9.99
+     ],
+     "desc": "Classic cheese or create your own pizza."
+    },
+    {
+     "name": "White Calzone",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pesto Cheese Calzone",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bruschetta Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hawaiian Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Ham, pineapple."
+    },
+    {
+     "name": "BBQ Chicken Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ Rib Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pastrami Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Bacon Ranch Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Broccoli Alfredo Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Chicken, broccoli, alfredo sauce."
+    },
+    {
+     "name": "Shawn Special Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Buffalo chicken, pepperoni, bacon."
+    },
+    {
+     "name": "Meat Lovers Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Pepperoni, sausage, hamburger, ham, bacon."
+    },
+    {
+     "name": "Chicken Delight Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Chicken, bacon, ham, pineapple."
+    },
+    {
+     "name": "Vegetarian Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Onion, pepper, mushroom, black olive, tomato."
+    },
+    {
+     "name": "Italian Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Meatball, black olives, salami."
+    },
+    {
+     "name": "Greek Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Black olives. Tomatoes and feta cheese"
+    },
+    {
+     "name": "Mediterranean Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Tomatoes, spinach, feta, black olive, garlic."
+    },
+    {
+     "name": "Mexican Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Hamburger, banana peppers, tomatoes."
+    },
+    {
+     "name": "Smoke House Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Pepperoni, bacon, onions, green pepper."
+    },
+    {
+     "name": "Steak Special Calzone",
+     "prices": [
+      11.99
+     ],
+     "desc": "Steak, mushrooms, onions, peppers."
+    }
+   ]
+  },
+  {
+   "cat": "Subs Melt",
+   "group": "Subs, Grinders & Wraps",
+   "img": "",
+   "note": "Includes cheese, lettuce, tomatoes, onions, pickles & hot peppers upon request.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Tuna Fish Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Crab Meat Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Salad Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Ham, Egg & Cheese Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sausage, Egg & Cheese Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak, Egg & Cheese Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Parmesan Subs",
+   "group": "Subs, Grinders & Wraps",
+   "img": "",
+   "note": "Includes marinara sauce & cheese.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Sausage Parmesan Sub",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Meatball Parmesan Sub",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant Parmesan Sub",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veal Parmesan Sub",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Parmesan Sub",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Deli Cuts Grinder & Wraps",
+   "group": "Subs, Grinders & Wraps",
+   "img": "",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "B. L. T. Grinder",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Italian Grinder",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Ham & Cheese Grinder",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Turkey Grinder",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Roast Beef Grinder",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Super Sub",
+     "prices": [
+      11.99
+     ],
+     "desc": "Roast beef, turkey, bacon, and provolone cheese."
+    }
+   ]
+  },
+  {
+   "cat": "On The Grill",
+   "group": "Subs, Grinders & Wraps",
+   "img": "",
+   "note": "Includes mayo & cheese.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Steak & Cheese Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hot Pastrami Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Sub",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Bomb Sub",
+     "prices": [
+      11.99
+     ],
+     "desc": "Mushrooms, onions, peppers, and salami."
+    },
+    {
+     "name": "Cheeseburger Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Stir Fry Sub",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Hot Grinders",
+   "group": "Subs, Grinders & Wraps",
+   "img": "",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Turkey B.L.T. Grinder",
+     "prices": [
+      10.99
+     ],
+     "desc": "Lettuce, tomatoes, and provolone cheese."
+    },
+    {
+     "name": "Chicken Bomb Grinder",
+     "prices": [
+      10.99
+     ],
+     "desc": "Chicken, onions, mushrooms, peppers, and pepperoni."
+    },
+    {
+     "name": "Chicken Tender Grinder",
+     "prices": [
+      8.99
+     ],
+     "desc": "Lettuce, tomatoes, onions, mayo, and provolone cheese."
+    },
+    {
+     "name": "Grinder Chicken Bacon Ranch Grinder",
+     "prices": [
+      10.99
+     ],
+     "desc": "Lettuce, tomatoes, onions, mayo and provolone cheese."
+    },
+    {
+     "name": "Vegetarian Grinder",
+     "prices": [
+      8.99
+     ],
+     "desc": "Onions, mushrooms, peppers, lettuce, tomatoes, provolone cheese, and mayo."
+    },
+    {
+     "name": "Chicken Gordon Bleu Sub",
+     "prices": [
+      10.99
+     ],
+     "desc": "Grilled chicken, ham, bacon, cheese, and ranch dressing."
+    },
+    {
+     "name": "Spicy Chicken Grinder",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Grinder",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Honey Mustard Chicken Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pesto Feta & Tomatoes Sub",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Hot Wraps",
+   "group": "Subs, Grinders & Wraps",
+   "img": "",
+   "note": "White or wheat wrap.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "BBQ Rib Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": "BBQ SAUCE PROVOLONE CHEESE"
+    },
+    {
+     "name": "BLT Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": "Lettuce tomato provolone cheese"
+    },
+    {
+     "name": "Steak & Cheese Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": "High quality shave steak American cheese"
+    },
+    {
+     "name": "Pepper Steak & Cheese Wrap",
+     "prices": [
+      11.99
+     ],
+     "desc": "High quality shave steak fresh green peppers American cheese salt and pepper"
+    },
+    {
+     "name": "Onion Steak & Cheese Wrap",
+     "prices": [
+      11.99
+     ],
+     "desc": "High quality shave steak fresh onions American cheese salt and pepper"
+    },
+    {
+     "name": "Mushroom Steak & Cheese Wrap",
+     "prices": [
+      11.99
+     ],
+     "desc": "High quality shave steak fresh mushrooms American cheese salt and pepper"
+    },
+    {
+     "name": "Steak Bomb Wrap",
+     "prices": [
+      13.99
+     ],
+     "desc": "High quality shave steak fresh green pepper fresh mushrooms fresh onions American cheese salt and pepper"
+    },
+    {
+     "name": "Turkey BLT Wrap",
+     "prices": [
+      12.99
+     ],
+     "desc": "Sliced Smoked turkey Bacon lettuce tomato"
+    },
+    {
+     "name": "Meatball Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Bomb Wrap",
+     "prices": [
+      12.99
+     ],
+     "desc": "Chicken, mushroom, onion, pepper, pepperoni."
+    },
+    {
+     "name": "Chicken Parmesan Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Italian Sausage Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant Parmesan Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veal Parmesan Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Stir Fry Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Tender Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spicy Chicken Tender Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Vegetable Wrap",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Wrap",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pastrami Wrap",
+     "prices": [
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Bacon Ranch Wrap",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Vegetarian Wrap",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Haddock Wrap",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Caesar Salad Wrap",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Greek Salad Wrap",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Gyro",
+   "group": "Subs, Grinders & Wraps",
+   "img": "",
+   "note": "Served with lettuce, tomatoes, onions, and tzatziki sauce. All wrapped in a pita bread.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Chicken Gyro",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Beef Gyro",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veggie Gyro",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Gyro",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Clubs",
+   "group": "Subs, Grinders & Wraps",
+   "img": "",
+   "note": "A double-decker toasted sandwich is typically made with three sliced bread layer of meat & bacon.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Turkey Club Sandwich",
+     "prices": [
+      13.99
+     ],
+     "desc": "French fries, lettuce, tomato, bacon & mayo."
+    },
+    {
+     "name": "Tuna Club Sandwich",
+     "prices": [
+      13.99
+     ],
+     "desc": "French fries, lettuce, tomato, bacon & mayo."
+    },
+    {
+     "name": "B. L. T. Club Sandwich",
+     "prices": [
+      13.99
+     ],
+     "desc": "French fries, lettuce, tomato, bacon & mayo."
+    },
+    {
+     "name": "Roast Beef Club Sandwich",
+     "prices": [
+      13.99
+     ],
+     "desc": "French fries, lettuce, tomato, bacon & mayo."
+    },
+    {
+     "name": "Ham Club Sandwich",
+     "prices": [
+      13.99
+     ],
+     "desc": "French fries, lettuce, tomato, bacon & mayo."
+    },
+    {
+     "name": "Chicken Salad Club Sandwich",
+     "prices": [
+      13.99
+     ],
+     "desc": "French fries, lettuce, tomato, bacon & mayo."
+    },
+    {
+     "name": "Cheeseburger Club Sandwich",
+     "prices": [
+      13.99
+     ],
+     "desc": "French fries, lettuce, tomato, bacon & mayo."
+    },
+    {
+     "name": "Grilled Chicken Club Sandwich",
+     "prices": [
+      13.99
+     ],
+     "desc": "French fries, lettuce, tomato, bacon & mayo."
+    }
+   ]
+  },
+  {
+   "cat": "Burgers",
+   "group": "Burgers",
+   "img": "",
+   "note": "All burgers include American cheese, mayo, lettuce, tomato, onion & pickles. Served on a bulkie roll.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Cheeseburger Bun",
+     "prices": [
+      7.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mushroom Cheeseburger",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bacon Cheeseburger",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Double Cheeseburger Bun",
+     "prices": [
+      9.99
+     ],
+     "desc": "American cheese, lettuce, tomatoes"
+    }
+   ]
+  },
+  {
+   "cat": "Burgers Dinner",
+   "group": "Burgers",
+   "img": "",
+   "note": "All burgers include American cheese, mayo, lettuce, tomato, onion & pickles.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Cheeseburger Dinner",
+     "prices": [
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mushroom Cheeseburger Dinner",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bacon Cheeseburger Dinner",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Double cheese burger Dinner",
+     "prices": [
+      14.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers",
+   "group": "Starters & Salads",
+   "img": "",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Rice Pilaf",
+     "prices": [
+      6.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "French Fries",
+     "prices": [
+      6.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Onion Rings",
+     "prices": [
+      5.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spicy Fries",
+     "prices": [
+      5.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Fingers",
+     "prices": [
+      12.0
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Fingers",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ Chicken Fingers",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Wings",
+     "prices": [
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Wings",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ Chicken Wings",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Boneless Wings",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Boneless Wings",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ Boneless Wings",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Teriyaki Boneless Wings",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Broccoli Poppers",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Jalapeno Poppers",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Mushrooms",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheese Quesadilla",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Quesadilla",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Nuggets",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Pickles",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bread Sticks with Cheese",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bread Sticks with Cheese & Pepperoni",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Clam Strips",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Shrimp",
+     "prices": [
+      14.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Dough",
+     "prices": [
+      7.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Garlic Bread",
+     "prices": [
+      6.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bacon Cheese Fries",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Side Salad",
+     "prices": [
+      5.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chips",
+     "prices": [
+      1.25
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "group": "Starters & Salads",
+   "img": "chef-salad.webp",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Italian (Tossed) Salad",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spinach Salad",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Garden Salad",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Caesar Salad",
+     "prices": [
+      8.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Antipasto Salad",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chef Salad",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tuna Salad",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Crab Meat Salad",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Salad",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Crispy Chicken Salad",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Salad",
+     "prices": [
+      14.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek Salad",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek Salad with Grilled Chicken",
+     "prices": [
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek Salad with Chicken Tenders",
+     "prices": [
+      12.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Shrimp Salad",
+     "prices": [
+      14.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Pasta Dishes",
+   "group": "Pasta & Dinners",
+   "img": "",
+   "note": "Served with garlic bread.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Pasta with Alfredo Sauce",
+     "prices": [
+      10.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pasta with Marinara Sauce",
+     "prices": [
+      9.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pasta with Meatballs",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pasta with Sausage",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pasta with Veal",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pasta with Eggplant",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pasta with Chicken Parmesan",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pasta with Grilled Veggie",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Broccoli Alfredo Pasta",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Alfredo Pasta",
+     "prices": [
+      11.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Broccoli Alfredo Pasta",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Shrimp Broccoli Alfredo Pasta",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "American Chop Suey",
+     "prices": [
+      14.99
+     ],
+     "desc": "Hamburger, mushrooms, onions, and green peppers with marinara sauce."
+    }
+   ]
+  },
+  {
+   "cat": "Dinners",
+   "group": "Pasta & Dinners",
+   "img": "",
+   "note": "All Dinners served with French fries & salad with creamy Italian dressing.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Chicken Nuggets",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Fingers",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Fingers",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spicy Chicken Finger",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Wing Ding Dinner",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Wing Dinner",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Dinner",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mac & Cheese Bites Dinner",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Four pieces chicken",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak tip cabob dinner",
+     "prices": [
+      18.99
+     ],
+     "desc": "Grilled onions grills peppers comes with rice pilaf and small salad with creamy Italian dressing"
+    },
+    {
+     "name": "Chicken cabob dinner",
+     "prices": [
+      18.99
+     ],
+     "desc": "Grilled onions grilled peppers comes with rice pilaf and small salad with creamy Italian dressing"
+    }
+   ]
+  },
+  {
+   "cat": "Dishes From The Sea",
+   "group": "Pasta & Dinners",
+   "img": "",
+   "note": "Served with salad, French fries & tartar sauce.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Fried Haddock",
+     "prices": [
+      17.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Jumbo Shrimp",
+     "prices": [
+      21.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Clam Strips",
+     "prices": [
+      13.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fisherman's Platter",
+     "prices": [
+      27.99
+     ],
+     "desc": "Haddock, shrimp, and clam strips."
+    }
+   ]
+  },
+  {
+   "cat": "Kabob Dinner",
+   "group": "Pasta & Dinners",
+   "img": "",
+   "note": "Served with rice pilaf & salad.",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Steak Tip Kabob Dinner",
+     "prices": [
+      18.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Kabob Dinners",
+     "prices": [
+      18.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Kids Meals",
+   "group": "Kids, Sweets & Drinks",
+   "img": "",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Kid's Grilled Cheese",
+     "prices": [
+      7.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Kid's Chicken Tenders & Fries",
+     "prices": [
+      7.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Kid's Chicken Nuggets & Fries",
+     "prices": [
+      7.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Kid's Spaghetti with Sauce",
+     "prices": [
+      6.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Kid's Spaghetti with Meatballs",
+     "prices": [
+      7.5
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Desserts",
+   "group": "Kids, Sweets & Drinks",
+   "img": "",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Whoopie Pie",
+     "prices": [
+      3.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Baklava",
+     "prices": [
+      4.25
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tiramisu",
+     "prices": [
+      4.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Choco Cheese Cake",
+     "prices": [
+      6.5
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mississippi Pie",
+     "prices": [
+      4.99
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Dough",
+     "prices": [
+      7.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Beverages",
+   "group": "Kids, Sweets & Drinks",
+   "img": "",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Soda",
+     "prices": [
+      2.99
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers Catering",
+   "group": "Catering",
+   "img": "",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "French Fries Catering",
+     "prices": [
+      25.0
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spicy Fries Catering",
+     "prices": [
+      30.0
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Onion Rings Catering",
+     "prices": [
+      30.0
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mac & Cheese Bites Catering",
+     "prices": [
+      20.0
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Fingers Catering",
+     "prices": [
+      35.0
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Wings Catering",
+     "prices": [
+      30.0
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mozzarella Sticks Catering",
+     "prices": [
+      25.0
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Salad Catering",
+   "group": "Catering",
+   "img": "",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Garden Salad Catering",
+     "prices": [
+      50.0
+     ],
+     "desc": "PAN SIZE: 20.75 IN x 12.8 IN x 3.4 IN."
+    },
+    {
+     "name": "Caesar Salad Catering",
+     "prices": [
+      50.0
+     ],
+     "desc": "PAN SIZE: 20.75 IN x 12.8 IN x 3.4 IN."
+    },
+    {
+     "name": "Greek Salad Catering",
+     "prices": [
+      60.0
+     ],
+     "desc": "PAN SIZE: 20.75 IN x 12.8 IN x 3.4 IN."
+    },
+    {
+     "name": "Chef Salad Catering",
+     "prices": [
+      60.0
+     ],
+     "desc": "PAN SIZE: 20.75 IN x 12.8 IN x 3.4 IN."
+    },
+    {
+     "name": "Deli Salad Catering",
+     "prices": [
+      75.0
+     ],
+     "desc": "PAN SIZE: 20.75 IN x 12.8 IN x 3.4 IN."
+    },
+    {
+     "name": "Antipasto Salad Catering",
+     "prices": [
+      60.0
+     ],
+     "desc": "PAN SIZE: 20.75 IN x 12.8 IN x 3.4 IN."
+    },
+    {
+     "name": "Crab Meat Salad Catering",
+     "prices": [
+      60.0
+     ],
+     "desc": "PAN SIZE: 20.75 IN x 12.8 IN x 3.4 IN."
+    }
+   ]
+  },
+  {
+   "cat": "Pasta Catering",
+   "group": "Catering",
+   "img": "",
+   "note": "",
+   "head": [
+    ""
+   ],
+   "items": [
+    {
+     "name": "Chicken Parmesan Pasta Catering",
+     "prices": [
+      80.0
+     ],
+     "desc": "PAN SIZE: 20.75 IN x 12.8 IN x 3.4 IN. At least two hours before"
+    },
+    {
+     "name": "Chicken Broccoli Alfredo Pasta Catering",
+     "prices": [
+      90.0
+     ],
+     "desc": "PAN SIZE: 20.75 IN x 12.8 IN x 3.4 IN."
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "Template copied from a Massachusetts pizzeria: homepage says \"The best place to eat in Stoughton, MA!\" twice and the contact page names \"Runner Pizza Stoughton\".",
+  "A Facebook icon links to Runner Pizza Stoughton; other social icons go to generic homepages.",
+  "Unedited \"Porto\" theme demo content and stock demo photos; filler copy, typo \"costumers\".",
+  "Address typo \"51343 NH-119\", hours typo \"11:000am\", weekend hours missing.",
+  "Dead \"Latest Tweets: Please wait...\" widget and a \"Success! You've been added to our email list\" message visible by default.",
+  "Only two pages (Home, Contact); no menu on the site itself, everything is pushed to orderpizzahaven.com.",
+  "Ordering menu data errors: \"Mac & Cheese Pizza\" described as a burger pizza and \"Macaroni & Cheese Pizza\" described as spaghetti/ziti."
+ ],
+ "questions": [
+  "Confirm the address is 1343 NH-119 (the current site shows \"51343 NH-119\").",
+  "Hours: the site shows Mon-Fri 11:00 AM to 9:00 PM (typed \"11:000am\"). What are Saturday and Sunday hours?",
+  "What sizes do the pizzas, calzones and wings come in? The online menu shows one price per item.",
+  "Are the two coupons (Two Large Cheese $24.99; with a two liter soda $26.99) still running, and what are the terms and end dates? What size is \"large\"?",
+  "Is delivery offered? One customer comment on the ordering site says \"Delivery would be nice\".",
+  "Fix the Mac & Cheese Pizza and Macaroni & Cheese Pizza descriptions (we left both blank on the new site).",
+  "Menu typos to confirm: \"Chicken Gordon Bleu Sub\", \"Grinder Chicken Bacon Ranch Grinder\", \"cabob\".",
+  "Email address for orders and questions? Facebook page to keep (we link pizzahavenrindge)? Instagram account?",
+  "Are we allowed to reuse the photos taken from your Facebook page and the logo?"
+ ]
+}
