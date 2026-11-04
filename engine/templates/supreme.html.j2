@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#16103A">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#finder">Skip to the budget finder</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Supreme House of Pizza home"><b>Supreme</b><span>House of Pizza<small>&amp; Teddy's Lounge</small></span></a>
+  <nav aria-label="Main"><a href="#finder">Name your price</a><a href="#menu">Menu</a><a href="#lounge">Lounge</a><a href="#catering">Catering</a><a href="#visit">Hours</a></nav>
+  <a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a>
+</header>
+<main id="top">
+
+<section class="hero" id="finder">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1>What's your <em>budget?</em></h1>
+      <p class="sub">Slide to what you want to spend and see every real menu price that fits. Tax is already counted, and the tray tells you when you clear the delivery minimum.</p>
+      <div class="dial" role="group" aria-label="Budget">
+        <label for="bd" class="dial-l">Out-the-door budget</label>
+        <div class="dial-row"><button type="button" class="step" id="bd-m" aria-label="Lower budget by one dollar">−</button><output id="bd-o" for="bd" aria-live="polite">$25</output><button type="button" class="step" id="bd-p" aria-label="Raise budget by one dollar">+</button></div>
+        <input id="bd" type="range" min="5" max="100" step="1" value="25">
+        <div class="ticks" aria-hidden="true"><span>$5</span><span>$25 delivery min.</span><span>$100</span></div>
+      </div>
+      <p class="mini">Prices are the shop's own, plus the 9% NH meal tax they note on the menu. Takeout · Delivery · Catering</p>
+    </div>
+    <figure class="hero-ph"><img src="{{ img('storefront.webp') }}" width="960" height="540" alt="Supreme House of Pizza and Teddy's Lounge storefront on Main Street" fetchpriority="high"><figcaption>68 Main Street, Downtown Raymond</figcaption></figure>
+  </div>
+</section>
+
+<section class="fnd sec">
+  <div class="wrap">
+    <div class="fnd-grid">
+      <div class="fnd-main">
+        <div class="chips" id="chips" role="group" aria-label="Hungry for">
+          <button type="button" aria-pressed="true" data-g="-1">Anything</button>{% for g in groups %}<button type="button" aria-pressed="false" data-g="{{ loop.index0 }}">{{ g }}</button>{% endfor %}
+        </div>
+        <p class="fnd-count" id="fnd-count" aria-live="polite"></p>
+        <ul class="tiles" id="tiles"></ul>
+        <button type="button" class="btn btn-ghost" id="more" hidden>Show more</button>
+        <p class="fnd-none" id="fnd-none" hidden>Nothing left under that. Raise the budget or take something out of the tray.</p>
+      </div>
+      <aside class="tray" id="tray" aria-label="My order">
+        <h2>My order</h2>
+        <ul class="t-lines" id="t-lines"><li class="t-empty">Tap anything on the left to add it.</li></ul>
+        <dl class="t-sum"><div><dt>Food</dt><dd id="t-sub">$0.00</dd></div><div><dt>NH meal tax (9%)</dt><dd id="t-tax">$0.00</dd></div><div class="t-tot"><dt>Total</dt><dd id="t-tot">$0.00</dd></div><div><dt>Left in budget</dt><dd id="t-left">$25.00</dd></div></dl>
+        <div class="dm"><div class="dm-bar" aria-hidden="true"><i id="dm-fill"></i></div><p id="dm-txt" aria-live="polite"></p>
+          <p class="dm-fine">Home delivery after 4 PM: $25 minimum, $3 charge. Businesses: all day. Home delivery is within about 5 miles. The minimum is counted on food before tax; confirm with the shop.</p></div>
+        <div class="t-act"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a><button type="button" class="link" id="t-copy">Copy my order</button><button type="button" class="link" id="t-clear">Clear</button></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="strip-sec">
+  <div class="strip">
+    <figure><img src="{{ img('pizzas.webp') }}" width="611" height="1100" alt="Two pizzas on a booth table" loading="lazy"></figure>
+    <figure><img src="{{ img('burger.webp') }}" width="825" height="1100" alt="Burger cut in half on checkered paper" loading="lazy"></figure>
+    <figure><img src="{{ img('soup.webp') }}" width="619" height="1100" alt="Bowl of chicken noodle soup" loading="lazy"></figure>
+    <figure><img src="{{ img('apps.webp') }}" width="611" height="1100" alt="Appetizer platter with wraps, vegetables and cheese pizza" loading="lazy"></figure>
+    <p class="strip-t">#1 Pizza in Town<small>That's the shop's line, printed on its menu.</small></p>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The whole menu</p><h2>{{ n_items }} prices, <em>no mystery.</em></h2>
+    <p class="lede">Copied from the shop's own menu. Prices do not include the 9% NH meal tax and are subject to change without notice.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist">{% for c in menu %}<button type="button" role="tab" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: gyro, scampi, lasagna…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for c in menu %}<section class="m-panel" {% if not loop.first %}hidden{% endif %}>
+      <div class="m-ph">{% if c.img %}<img src="{{ img(c.img + '.webp') }}" alt="" loading="lazy">{% endif %}<div><h3>{{ c.cat }}</h3>{% if c.note %}<p>{{ c.note }}</p>{% endif %}
+      {% if c.head|length > 1 %}<p class="m-heads">{% for h in c.head %}<span>{{ h }}</span>{% endfor %}</p>{% endif %}</div></div>
+      <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc)|lower) }}">
+        <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p">{% for p in it.prices %}{% if p is not none %}<span>{{ money(p) }}</span>{% else %}{% if it.prices|length == 1 %}<span>Call</span>{% else %}<span class="na">–</span>{% endif %}{% endif %}{% endfor %}</div></li>{% endfor %}</ul></section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try “chicken” or “cheese”.</p>
+    <p class="m-fine">Gluten-free pizza is on the menu (12-inch). Seafood dinners are market price: call for today's price.</p>
+  </div>
+</section>
+
+<section class="lounge" id="lounge">
+  <div class="wrap lounge-in">
+    <div class="lounge-t"><p class="kicker">Next door, same kitchen</p><h2>Teddy's <em>Lounge</em></h2>
+      <p class="lede">The bar is part of the building. Order out, or stop by the lounge for dinner. The shop's own Facebook page says the lounge opens daily at 10:30 AM, and posts burger nights, football on the TVs and a Coors Light chalkboard.</p>
+      <p class="lede">Parking: the lot behind the shop, or along the railroad tracks by the train station. For pickup, take Epping Street to the side road.</p>
+      <p class="mini">Lounge closing time isn't posted. Call {{ loc.phone }}.</p></div>
+    <div class="lounge-ph">
+      <figure class="l1"><img src="{{ img('dining.webp') }}" width="611" height="1100" alt="Busy dining room with booths" loading="lazy"></figure>
+      <figure class="l2"><img src="{{ img('booth.webp') }}" width="611" height="1100" alt="Lounge booth with a Coors sign and a TV" loading="lazy"></figure>
+      <figure class="l3"><img src="{{ img('bloody.webp') }}" width="619" height="1100" alt="Garnished Bloody Mary at the bar" loading="lazy"></figure>
+      <figure class="l5"><img src="{{ img('dining-tv.webp') }}" width="611" height="1100" alt="Dining room with TVs and diners" loading="lazy"></figure>
+      <figure class="l4"><img src="{{ img('bikes.webp') }}" width="1100" height="619" alt="Motorcycle event on the street out front" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="cat sec" id="catering">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Catering available</p><h2>Feed the office, <em>the party, the team.</em></h2>
+    <p class="lede">The shop caters holiday office and home parties. For larger orders, call in by 10:30 AM so they can plan the travel time. Business delivery runs all day. Catering prices are by call.</p></div>
+    <div class="cat-grid"><figure><img src="{{ img('trays.webp') }}" width="1100" height="801" alt="Catering trays of baked pasta, lasagna and chicken" loading="lazy"></figure>
+      <div class="cat-list">{% for t, d in catering %}<article><h3>{{ t }}</h3><p>{{ d }}</p></article>{% endfor %}</div></div>
+    <p class="cta"><a class="btn" href="tel:{{ loc.tel }}">Call to book: {{ loc.phone }}</a></p>
+  </div>
+</section>
+
+<section class="say sec">
+  <div class="wrap say-in">
+    <blockquote><p>“Sometimes I'm craving a steak tip salad and you guys hit the mark every time! Thank you for your consistency and for caring so much about the quality of your food!”</p><cite>Jill H., shared on the shop's Facebook page</cite></blockquote>
+    <blockquote><p>“I went with a delicious pepperoni pizza and was pleasantly surprised how good it was! Definitely worth trying them out.”</p><cite>A video review of the shop, August 2026</cite></blockquote>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>68 Main Street, <em>Raymond</em></h2>
+      <p class="addr">{{ loc.street }}, Downtown<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a><a class="btn btn-ghost" href="{{ facebook }}" rel="noopener">Facebook</a></div>
+      <p class="mini">Closed Sundays. Gift cards available. Closed Thanksgiving, Labor Day, Memorial Day and July 4th.</p></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <div class="seas" data-season="winter"><h3>October 1 – March 31 <em data-now>Now</em></h3><table><tbody>{% for r in winter %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table></div>
+      <div class="seas" data-season="summer"><h3>April 1 – September 30 <em data-now>Now</em></h3><table><tbody>{% for r in summer %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table></div></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><p class="foot-b"><b>Supreme</b> House of Pizza &amp; Teddy's Lounge</p><p>{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Supreme House of Pizza. Prices subject to change without notice.</p></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="#finder">Budget</a></div>
+<script>(function(){var m=+new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'numeric'}).format(new Date());window.__SUMMER__=m>=4&&m<=9;window.__HOURS__=window.__SUMMER__?{{ summer_hours }}:{{ hours_json }};window.__ITEMS__={{ items_json }};})();</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

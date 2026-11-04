@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Supreme House of Pizza & Teddy's Lounge | Pizza, Subs & Dinners in Raymond, NH</title>
+<meta name="description" content="Supreme House of Pizza and Teddy&#x27;s Lounge, 68 Main Street, Raymond NH. Pizza, calzones, subs, dinners, catering and delivery. Call 603-895-9500 or order online.">
+<meta name="theme-color" content="#16103A">
+<meta property="og:title" content="Supreme House of Pizza &amp; Teddy&#x27;s Lounge | Pizza, Subs &amp; Dinners in Raymond, NH"><meta property="og:description" content="Supreme House of Pizza and Teddy&#x27;s Lounge, 68 Main Street, Raymond NH. Pizza, calzones, subs, dinners, catering and delivery. Call 603-895-9500 or order online."><meta property="og:type" content="restaurant.restaurant">
+<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "Supreme House of Pizza & Teddy's Lounge", "url": "https://www.raymondsupremepizza.com/", "telephone": "+16038959500", "servesCuisine": ["Pizza", "Subs", "Italian", "American"], "priceRange": "$$", "address": {"@type": "PostalAddress", "streetAddress": "68 Main Street", "addressLocality": "Raymond", "addressRegion": "NH", "postalCode": "03077", "addressCountry": "US"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"], "opens": "10:30", "closes": "20:30"}, {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday", "Saturday"], "opens": "10:30", "closes": "21:00"}], "potentialAction": {"@type": "OrderAction", "target": "https://supremehouseofpizza.e-tab.com/supremehouseofpizza#!/order-type"}}</script>
+</head>
+<body>
+
+<a class="skip" href="#finder">Skip to the budget finder</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Supreme House of Pizza home"><b>Supreme</b><span>House of Pizza<small>&amp; Teddy's Lounge</small></span></a>
+  <nav aria-label="Main"><a href="#finder">Name your price</a><a href="#menu">Menu</a><a href="#lounge">Lounge</a><a href="#catering">Catering</a><a href="#visit">Hours</a></nav>
+  <a class="btn btn-sm" href="https://supremehouseofpizza.e-tab.com/supremehouseofpizza#!/order-type" rel="noopener">Order online</a>
+</header>
+<main id="top">
+
+<section class="hero" id="finder">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1>What's your <em>budget?</em></h1>
+      <p class="sub">Slide to what you want to spend and see every real menu price that fits. Tax is already counted, and the tray tells you when you clear the delivery minimum.</p>
+      <div class="dial" role="group" aria-label="Budget">
+        <label for="bd" class="dial-l">Out-the-door budget</label>
+        <div class="dial-row"><button type="button" class="step" id="bd-m" aria-label="Lower budget by one dollar">−</button><output id="bd-o" for="bd" aria-live="polite">$25</output><button type="button" class="step" id="bd-p" aria-label="Raise budget by one dollar">+</button></div>
+        <input id="bd" type="range" min="5" max="100" step="1" value="25">
+        <div class="ticks" aria-hidden="true"><span>$5</span><span>$25 delivery min.</span><span>$100</span></div>
+      </div>
+      <p class="mini">Prices are the shop's own, plus the 9% NH meal tax they note on the menu. Takeout · Delivery · Catering</p>
+    </div>
+    <figure class="hero-ph"><img src="assets/img/storefront.webp" width="960" height="540" alt="Supreme House of Pizza and Teddy's Lounge storefront on Main Street" fetchpriority="high"><figcaption>68 Main Street, Downtown Raymond</figcaption></figure>
+  </div>
+</section>
+
+<section class="fnd sec">
+  <div class="wrap">
+    <div class="fnd-grid">
+      <div class="fnd-main">
+        <div class="chips" id="chips" role="group" aria-label="Hungry for">
+          <button type="button" aria-pressed="true" data-g="-1">Anything</button><button type="button" aria-pressed="false" data-g="0">Pizza & calzones</button><button type="button" aria-pressed="false" data-g="1">Subs & sandwiches</button><button type="button" aria-pressed="false" data-g="2">Dinners & pasta</button><button type="button" aria-pressed="false" data-g="3">Salads & sides</button><button type="button" aria-pressed="false" data-g="4">Kids & dessert</button>
+        </div>
+        <p class="fnd-count" id="fnd-count" aria-live="polite"></p>
+        <ul class="tiles" id="tiles"></ul>
+        <button type="button" class="btn btn-ghost" id="more" hidden>Show more</button>
+        <p class="fnd-none" id="fnd-none" hidden>Nothing left under that. Raise the budget or take something out of the tray.</p>
+      </div>
+      <aside class="tray" id="tray" aria-label="My order">
+        <h2>My order</h2>
+        <ul class="t-lines" id="t-lines"><li class="t-empty">Tap anything on the left to add it.</li></ul>
+        <dl class="t-sum"><div><dt>Food</dt><dd id="t-sub">$0.00</dd></div><div><dt>NH meal tax (9%)</dt><dd id="t-tax">$0.00</dd></div><div class="t-tot"><dt>Total</dt><dd id="t-tot">$0.00</dd></div><div><dt>Left in budget</dt><dd id="t-left">$25.00</dd></div></dl>
+        <div class="dm"><div class="dm-bar" aria-hidden="true"><i id="dm-fill"></i></div><p id="dm-txt" aria-live="polite"></p>
+          <p class="dm-fine">Home delivery after 4 PM: $25 minimum, $3 charge. Businesses: all day. Home delivery is within about 5 miles. The minimum is counted on food before tax; confirm with the shop.</p></div>
+        <div class="t-act"><a class="btn" href="https://supremehouseofpizza.e-tab.com/supremehouseofpizza#!/order-type" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:+16038959500">Call 603-895-9500</a><button type="button" class="link" id="t-copy">Copy my order</button><button type="button" class="link" id="t-clear">Clear</button></div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="strip-sec">
+  <div class="strip">
+    <figure><img src="assets/img/pizzas.webp" width="611" height="1100" alt="Two pizzas on a booth table" loading="lazy"></figure>
+    <figure><img src="assets/img/burger.webp" width="825" height="1100" alt="Burger cut in half on checkered paper" loading="lazy"></figure>
+    <figure><img src="assets/img/soup.webp" width="619" height="1100" alt="Bowl of chicken noodle soup" loading="lazy"></figure>
+    <figure><img src="assets/img/apps.webp" width="611" height="1100" alt="Appetizer platter with wraps, vegetables and cheese pizza" loading="lazy"></figure>
+    <p class="strip-t">#1 Pizza in Town<small>That's the shop's line, printed on its menu.</small></p>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The whole menu</p><h2>223 prices, <em>no mystery.</em></h2>
+    <p class="lede">Copied from the shop's own menu. Prices do not include the 9% NH meal tax and are subject to change without notice.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist"><button type="button" role="tab" aria-selected="true">Pizza</button><button type="button" role="tab" aria-selected="false">Specialty Pizza</button><button type="button" role="tab" aria-selected="false">Calzones</button><button type="button" role="tab" aria-selected="false">Cold Subs</button><button type="button" role="tab" aria-selected="false">Hot Subs</button><button type="button" role="tab" aria-selected="false">Steak & Chicken Subs</button><button type="button" role="tab" aria-selected="false">From the Grill</button><button type="button" role="tab" aria-selected="false">Clubs</button><button type="button" role="tab" aria-selected="false">Dinners</button><button type="button" role="tab" aria-selected="false">Italian Dinners</button><button type="button" role="tab" aria-selected="false">Seafood</button><button type="button" role="tab" aria-selected="false">Salads</button><button type="button" role="tab" aria-selected="false">Sides</button><button type="button" role="tab" aria-selected="false">Kids & Dessert</button></div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: gyro, scampi, lasagna…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    <section class="m-panel" >
+      <div class="m-ph"><img src="assets/img/pizzas.webp" alt="" loading="lazy"><div><h3>Pizza</h3><p>Toppings: onion, eggplant, salami, pepper, spinach, bacon, tomato, sausage, pepperoni, mushroom, ham, meatball, black olives, hamburg. Extra cheese $2.99 small / $3.99 large. Each added topping $1.75 small / $2.75 large. Steak tips +$4.75 small / +$6.75 large. Also available as a calzone.</p>
+      <p class="m-heads"><span>Small</span><span>Large</span></p></div></div>
+      <ul class="m-list"><li class="m-it" data-s="plain ">
+        <div class="m-n"><b>Plain</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.50</span><span>$12.50</span></div></li><li class="m-it" data-s="1-topping ">
+        <div class="m-n"><b>1-Topping</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$10.50</span><span>$14.25</span></div></li><li class="m-it" data-s="2-topping ">
+        <div class="m-n"><b>2-Topping</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.99</span><span>$15.95</span></div></li><li class="m-it" data-s="3-topping ">
+        <div class="m-n"><b>3-Topping</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.05</span><span>$16.95</span></div></li><li class="m-it" data-s="anchovy ">
+        <div class="m-n"><b>Anchovy</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.25</span><span>$16.95</span></div></li><li class="m-it" data-s="chicken ">
+        <div class="m-n"><b>Chicken</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.25</span><span>$16.95</span></div></li><li class="m-it" data-s="bacon ">
+        <div class="m-n"><b>Bacon</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.99</span><span>$16.95</span></div></li><li class="m-it" data-s="pastrami ">
+        <div class="m-n"><b>Pastrami</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$12.25</span><span>$15.95</span></div></li><li class="m-it" data-s="steak ">
+        <div class="m-n"><b>Steak</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.99</span><span>$17.95</span></div></li><li class="m-it" data-s="gluten free (12&quot;) one size. the menu also shows $12.50 for a plain gluten-free large; confirm with the shop.">
+        <div class="m-n"><b>Gluten Free (12")</b><span>One size. The menu also shows $12.50 for a plain gluten-free large; confirm with the shop.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span class="na">–</span><span>$16.95</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><img src="assets/img/storefront.webp" alt="" loading="lazy"><div><h3>Specialty Pizza</h3>
+      <p class="m-heads"><span>Small</span><span>Large</span></p></div></div>
+      <ul class="m-list"><li class="m-it" data-s="supreme special ">
+        <div class="m-n"><b>Supreme Special</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.95</span><span>$20.99</span></div></li><li class="m-it" data-s="meat lovers ">
+        <div class="m-n"><b>Meat Lovers</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.95</span><span>$20.99</span></div></li><li class="m-it" data-s="bbq chicken ">
+        <div class="m-n"><b>BBQ Chicken</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.50</span><span>$17.95</span></div></li><li class="m-it" data-s="buffalo chicken chicken with homemade buffalo sauce and blue cheese">
+        <div class="m-n"><b>Buffalo Chicken</b><span>Chicken with homemade buffalo sauce and blue cheese</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.99</span><span>$18.50</span></div></li><li class="m-it" data-s="chicken broccoli alfredo ">
+        <div class="m-n"><b>Chicken Broccoli Alfredo</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.99</span><span>$19.99</span></div></li><li class="m-it" data-s="artichoke ">
+        <div class="m-n"><b>Artichoke</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.99</span><span>$16.75</span></div></li><li class="m-it" data-s="shrimp scampi ">
+        <div class="m-n"><b>Shrimp Scampi</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$15.75</span><span>$21.99</span></div></li><li class="m-it" data-s="hawaiian ">
+        <div class="m-n"><b>Hawaiian</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.25</span><span>$17.50</span></div></li><li class="m-it" data-s="mediterranean ">
+        <div class="m-n"><b>Mediterranean</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.99</span><span>$18.99</span></div></li><li class="m-it" data-s="veggie ">
+        <div class="m-n"><b>Veggie</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.95</span><span>$19.50</span></div></li><li class="m-it" data-s="white pizza mozzarella, garlic and oregano">
+        <div class="m-n"><b>White Pizza</b><span>Mozzarella, garlic and oregano</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.50</span><span>$12.95</span></div></li><li class="m-it" data-s="house white mozzarella, feta, tomato, garlic and broccoli">
+        <div class="m-n"><b>House White</b><span>Mozzarella, feta, tomato, garlic and broccoli</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.99</span><span>$17.95</span></div></li><li class="m-it" data-s="chicken artichoke ">
+        <div class="m-n"><b>Chicken Artichoke</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.99</span><span>$19.99</span></div></li><li class="m-it" data-s="gyro pizza ">
+        <div class="m-n"><b>Gyro Pizza</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.99</span><span>$17.95</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><div><h3>Calzones</h3><p>Steak or chicken calzones come with mozzarella and American cheese. Add steak tips $4.25 small / $6.50 large. Extra cheese $2.50 to $3.99 depending on the calzone.</p>
+      <p class="m-heads"><span>Small</span><span>Large</span></p></div></div>
+      <ul class="m-list"><li class="m-it" data-s="spinach calzone feta and mozzarella">
+        <div class="m-n"><b>Spinach Calzone</b><span>Feta and mozzarella</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.25</span><span>$18.50</span></div></li><li class="m-it" data-s="vegetarian calzone provolone, mozzarella, mushrooms, onions, pepper, black olives and tomato">
+        <div class="m-n"><b>Vegetarian Calzone</b><span>Provolone, mozzarella, mushrooms, onions, pepper, black olives and tomato</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.25</span><span>$19.50</span></div></li><li class="m-it" data-s="eggplant parmesan calzone sauce, mozzarella, provolone and romano">
+        <div class="m-n"><b>Eggplant Parmesan Calzone</b><span>Sauce, mozzarella, provolone and romano</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.50</span><span>$18.25</span></div></li><li class="m-it" data-s="meatball parmesan calzone sauce, mozzarella, provolone and romano">
+        <div class="m-n"><b>Meatball Parmesan Calzone</b><span>Sauce, mozzarella, provolone and romano</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.50</span><span>$18.75</span></div></li><li class="m-it" data-s="veal cutlet parmesan calzone sauce, mozzarella, provolone and romano">
+        <div class="m-n"><b>Veal Cutlet Parmesan Calzone</b><span>Sauce, mozzarella, provolone and romano</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.50</span><span>$18.75</span></div></li><li class="m-it" data-s="real veal parmesan calzone sauce, mozzarella, provolone and romano">
+        <div class="m-n"><b>Real Veal Parmesan Calzone</b><span>Sauce, mozzarella, provolone and romano</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.99</span><span>$20.99</span></div></li><li class="m-it" data-s="chicken finger parmesan calzone sauce, mozzarella, provolone and romano">
+        <div class="m-n"><b>Chicken Finger Parmesan Calzone</b><span>Sauce, mozzarella, provolone and romano</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.50</span><span>$18.75</span></div></li><li class="m-it" data-s="steak or chicken cheese calzone ">
+        <div class="m-n"><b>Steak or Chicken Cheese Calzone</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.95</span><span>$19.99</span></div></li><li class="m-it" data-s="steak or chicken onion calzone ">
+        <div class="m-n"><b>Steak or Chicken Onion Calzone</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.95</span><span>$19.99</span></div></li><li class="m-it" data-s="steak or chicken pepper calzone ">
+        <div class="m-n"><b>Steak or Chicken Pepper Calzone</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.95</span><span>$19.99</span></div></li><li class="m-it" data-s="steak or chicken mushroom calzone ">
+        <div class="m-n"><b>Steak or Chicken Mushroom Calzone</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.95</span><span>$19.99</span></div></li><li class="m-it" data-s="steak or chicken special calzone ">
+        <div class="m-n"><b>Steak or Chicken Special Calzone</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.95</span><span>$20.25</span></div></li><li class="m-it" data-s="steak or chicken bomb calzone mushrooms, onions, peppers, tomato and salami">
+        <div class="m-n"><b>Steak or Chicken Bomb Calzone</b><span>Mushrooms, onions, peppers, tomato and salami</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$15.25</span><span>$20.99</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><div><h3>Cold Subs</h3><p>Every cold sub is also available as a wrap, on white or wheat.</p>
+      <p class="m-heads"><span>Small</span><span>Large</span></p></div></div>
+      <ul class="m-list"><li class="m-it" data-s="vegetarian ">
+        <div class="m-n"><b>Vegetarian</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$7.99</span><span>$9.50</span></div></li><li class="m-it" data-s="italian ">
+        <div class="m-n"><b>Italian</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="ham ">
+        <div class="m-n"><b>Ham</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="roast beef ">
+        <div class="m-n"><b>Roast Beef</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="tuna ">
+        <div class="m-n"><b>Tuna</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="supreme special ">
+        <div class="m-n"><b>Supreme Special</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.25</span><span>$10.75</span></div></li><li class="m-it" data-s="genoa ">
+        <div class="m-n"><b>Genoa</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="american ">
+        <div class="m-n"><b>American</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="chicken salad ">
+        <div class="m-n"><b>Chicken Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="turkey ">
+        <div class="m-n"><b>Turkey</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="salami ">
+        <div class="m-n"><b>Salami</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="crabmeat ">
+        <div class="m-n"><b>Crabmeat</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><div><h3>Hot Subs</h3>
+      <p class="m-heads"><span>Small</span><span>Large</span></p></div></div>
+      <ul class="m-list"><li class="m-it" data-s="meatball ">
+        <div class="m-n"><b>Meatball</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.95</span></div></li><li class="m-it" data-s="chicken cutlet ">
+        <div class="m-n"><b>Chicken Cutlet</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.95</span></div></li><li class="m-it" data-s="hamburger ">
+        <div class="m-n"><b>Hamburger</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.75</span><span>$10.25</span></div></li><li class="m-it" data-s="ham &amp; egg ">
+        <div class="m-n"><b>Ham & Egg</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.50</span><span>$10.25</span></div></li><li class="m-it" data-s="veal cutlet ">
+        <div class="m-n"><b>Veal Cutlet</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.50</span></div></li><li class="m-it" data-s="chicken mediterranean ">
+        <div class="m-n"><b>Chicken Mediterranean</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.99</span><span>$11.99</span></div></li><li class="m-it" data-s="sausage ">
+        <div class="m-n"><b>Sausage</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.95</span></div></li><li class="m-it" data-s="eggplant ">
+        <div class="m-n"><b>Eggplant</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.95</span></div></li><li class="m-it" data-s="b.l.t. ">
+        <div class="m-n"><b>B.L.T.</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.75</span><span>$10.25</span></div></li><li class="m-it" data-s="pastrami ">
+        <div class="m-n"><b>Pastrami</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.95</span><span>$10.25</span></div></li><li class="m-it" data-s="chicken finger ">
+        <div class="m-n"><b>Chicken Finger</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.50</span><span>$10.75</span></div></li><li class="m-it" data-s="real veal cutlet one size">
+        <div class="m-n"><b>Real Veal Cutlet</b><span>One size</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span class="na">–</span><span>$9.50</span></div></li><li class="m-it" data-s="chicken caesar wrap one size">
+        <div class="m-n"><b>Chicken Caesar Wrap</b><span>One size</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span class="na">–</span><span>$11.50</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><div><h3>Steak & Chicken Subs</h3><p>Add steak tips $2.70 small / $3.75 large.</p>
+      <p class="m-heads"><span>Small</span><span>Large</span></p></div></div>
+      <ul class="m-list"><li class="m-it" data-s="plain ">
+        <div class="m-n"><b>Plain</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span><span>$9.95</span></div></li><li class="m-it" data-s="cheese ">
+        <div class="m-n"><b>Cheese</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.25</span><span>$10.50</span></div></li><li class="m-it" data-s="pepper ">
+        <div class="m-n"><b>Pepper</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.25</span><span>$10.99</span></div></li><li class="m-it" data-s="onion ">
+        <div class="m-n"><b>Onion</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.25</span><span>$10.99</span></div></li><li class="m-it" data-s="mushroom ">
+        <div class="m-n"><b>Mushroom</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.25</span><span>$10.99</span></div></li><li class="m-it" data-s="egg ">
+        <div class="m-n"><b>Egg</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.25</span><span>$11.50</span></div></li><li class="m-it" data-s="supreme special ">
+        <div class="m-n"><b>Supreme Special</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$10.50</span><span>$11.50</span></div></li><li class="m-it" data-s="bomb ">
+        <div class="m-n"><b>Bomb</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$10.99</span><span>$11.95</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><img src="assets/img/burger.webp" alt="" loading="lazy"><div><h3>From the Grill</h3>
+      </div></div>
+      <ul class="m-list"><li class="m-it" data-s="grilled cheese ">
+        <div class="m-n"><b>Grilled Cheese</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$7.00</span></div></li><li class="m-it" data-s="hamburger ">
+        <div class="m-n"><b>Hamburger</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.99</span></div></li><li class="m-it" data-s="cheeseburger ">
+        <div class="m-n"><b>Cheeseburger</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.99</span></div></li><li class="m-it" data-s="grilled chicken ">
+        <div class="m-n"><b>Grilled Chicken</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$10.25</span></div></li><li class="m-it" data-s="meat lovers burger ">
+        <div class="m-n"><b>Meat Lovers Burger</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.99</span></div></li><li class="m-it" data-s="roast beef on onion roll ">
+        <div class="m-n"><b>Roast Beef on Onion Roll</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$10.75</span></div></li><li class="m-it" data-s="gyro ">
+        <div class="m-n"><b>Gyro</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.99</span></div></li><li class="m-it" data-s="grilled ham &amp; cheese ">
+        <div class="m-n"><b>Grilled Ham & Cheese</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span></div></li><li class="m-it" data-s="reuben sandwich ">
+        <div class="m-n"><b>Reuben Sandwich</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.95</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><div><h3>Clubs</h3>
+      </div></div>
+      <ul class="m-list"><li class="m-it" data-s="hamburger club ">
+        <div class="m-n"><b>Hamburger Club</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.95</span></div></li><li class="m-it" data-s="turkey club ">
+        <div class="m-n"><b>Turkey Club</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.95</span></div></li><li class="m-it" data-s="roast beef club ">
+        <div class="m-n"><b>Roast Beef Club</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.95</span></div></li><li class="m-it" data-s="b.l.t. club ">
+        <div class="m-n"><b>B.L.T. Club</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.95</span></div></li><li class="m-it" data-s="cheeseburger club ">
+        <div class="m-n"><b>Cheeseburger Club</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.95</span></div></li><li class="m-it" data-s="ham club ">
+        <div class="m-n"><b>Ham Club</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.95</span></div></li><li class="m-it" data-s="tuna club ">
+        <div class="m-n"><b>Tuna Club</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.95</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><div><h3>Dinners</h3><p>Served with a side salad and French fries, rice or baked potato. The stir fry comes with garlic bread only.</p>
+      </div></div>
+      <ul class="m-list"><li class="m-it" data-s="gyro dinner ">
+        <div class="m-n"><b>Gyro Dinner</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.75</span></div></li><li class="m-it" data-s="chicken wing dings dinner ">
+        <div class="m-n"><b>Chicken Wing Dings Dinner</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.99</span></div></li><li class="m-it" data-s="steak tip dinner ">
+        <div class="m-n"><b>Steak Tip Dinner</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$20.95</span></div></li><li class="m-it" data-s="chicken stir fry dinner ">
+        <div class="m-n"><b>Chicken Stir Fry Dinner</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.95</span></div></li><li class="m-it" data-s="cheeseburger dinner ">
+        <div class="m-n"><b>Cheeseburger Dinner</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.25</span></div></li><li class="m-it" data-s="homemade fresh chicken fingers dinner ">
+        <div class="m-n"><b>Homemade Fresh Chicken Fingers Dinner</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.99</span></div></li><li class="m-it" data-s="grilled chicken dinner ">
+        <div class="m-n"><b>Grilled Chicken Dinner</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$15.50</span></div></li><li class="m-it" data-s="surf &#x27;n turf market price. call.">
+        <div class="m-n"><b>Surf 'N Turf</b><span>Market price. Call.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>Call</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><img src="assets/img/trays.webp" alt="" loading="lazy"><div><h3>Italian Dinners</h3><p>Served with garlic bread. Swap in ravioli on spaghetti and ziti dishes for $1.25.</p>
+      </div></div>
+      <ul class="m-list"><li class="m-it" data-s="spaghetti with sauce ">
+        <div class="m-n"><b>Spaghetti with Sauce</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.99</span></div></li><li class="m-it" data-s="spaghetti with meatballs ">
+        <div class="m-n"><b>Spaghetti with Meatballs</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$12.99</span></div></li><li class="m-it" data-s="spaghetti with veal cutlet ">
+        <div class="m-n"><b>Spaghetti with Veal Cutlet</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$12.99</span></div></li><li class="m-it" data-s="spaghetti with mushrooms ">
+        <div class="m-n"><b>Spaghetti with Mushrooms</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$12.99</span></div></li><li class="m-it" data-s="spaghetti with sausage ">
+        <div class="m-n"><b>Spaghetti with Sausage</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$12.99</span></div></li><li class="m-it" data-s="spaghetti combo ">
+        <div class="m-n"><b>Spaghetti Combo</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.75</span></div></li><li class="m-it" data-s="baked ziti with sauce ">
+        <div class="m-n"><b>Baked Ziti with Sauce</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$10.99</span></div></li><li class="m-it" data-s="baked ziti with meatballs ">
+        <div class="m-n"><b>Baked Ziti with Meatballs</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.25</span></div></li><li class="m-it" data-s="baked ziti with veal cutlet ">
+        <div class="m-n"><b>Baked Ziti with Veal Cutlet</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.25</span></div></li><li class="m-it" data-s="baked ziti with mushrooms ">
+        <div class="m-n"><b>Baked Ziti with Mushrooms</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.25</span></div></li><li class="m-it" data-s="baked ziti with sausage ">
+        <div class="m-n"><b>Baked Ziti with Sausage</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.25</span></div></li><li class="m-it" data-s="baked ziti combo ">
+        <div class="m-n"><b>Baked Ziti Combo</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$15.25</span></div></li><li class="m-it" data-s="lasagna ">
+        <div class="m-n"><b>Lasagna</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.25</span></div></li><li class="m-it" data-s="stuffed shells ">
+        <div class="m-n"><b>Stuffed Shells</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.99</span></div></li><li class="m-it" data-s="manicotti ">
+        <div class="m-n"><b>Manicotti</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.99</span></div></li><li class="m-it" data-s="cheese ravioli ">
+        <div class="m-n"><b>Cheese Ravioli</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.99</span></div></li><li class="m-it" data-s="homemade mac &amp; cheese ">
+        <div class="m-n"><b>Homemade Mac & Cheese</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.99</span></div></li><li class="m-it" data-s="chicken parmesan ">
+        <div class="m-n"><b>Chicken Parmesan</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.50</span></div></li><li class="m-it" data-s="veal parmesan ">
+        <div class="m-n"><b>Veal Parmesan</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.50</span></div></li><li class="m-it" data-s="eggplant parmesan ">
+        <div class="m-n"><b>Eggplant Parmesan</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.50</span></div></li><li class="m-it" data-s="chicken broccoli alfredo or wine sauce ">
+        <div class="m-n"><b>Chicken Broccoli Alfredo or Wine Sauce</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$15.25</span></div></li><li class="m-it" data-s="steak tip broccoli alfredo or wine sauce ">
+        <div class="m-n"><b>Steak Tip Broccoli Alfredo or Wine Sauce</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$18.99</span></div></li><li class="m-it" data-s="shrimp broccoli alfredo ">
+        <div class="m-n"><b>Shrimp Broccoli Alfredo</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$18.99</span></div></li><li class="m-it" data-s="shrimp scampi ">
+        <div class="m-n"><b>Shrimp Scampi</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$17.99</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><div><h3>Seafood</h3><p>Served with cole slaw and French fries, rice or baked potato.</p>
+      </div></div>
+      <ul class="m-list"><li class="m-it" data-s="fried haddock market price. call.">
+        <div class="m-n"><b>Fried Haddock</b><span>Market price. Call.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>Call</span></div></li><li class="m-it" data-s="fried shrimp market price. call.">
+        <div class="m-n"><b>Fried Shrimp</b><span>Market price. Call.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>Call</span></div></li><li class="m-it" data-s="fried scallops market price. call.">
+        <div class="m-n"><b>Fried Scallops</b><span>Market price. Call.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>Call</span></div></li><li class="m-it" data-s="seafood platter market price. call.">
+        <div class="m-n"><b>Seafood Platter</b><span>Market price. Call.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>Call</span></div></li><li class="m-it" data-s="fish &#x27;n chips market price. call.">
+        <div class="m-n"><b>Fish 'N Chips</b><span>Market price. Call.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>Call</span></div></li><li class="m-it" data-s="fried clams market price. call.">
+        <div class="m-n"><b>Fried Clams</b><span>Market price. Call.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>Call</span></div></li><li class="m-it" data-s="fish sandwich market price. call.">
+        <div class="m-n"><b>Fish Sandwich</b><span>Market price. Call.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>Call</span></div></li><li class="m-it" data-s="2-way combo market price. call.">
+        <div class="m-n"><b>2-Way Combo</b><span>Market price. Call.</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>Call</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><div><h3>Salads</h3><p>Dressings: house, blue cheese, ranch, thousand island or Caesar. Add feta $1.75, black olives $1.25.</p>
+      </div></div>
+      <ul class="m-list"><li class="m-it" data-s="tossed salad ">
+        <div class="m-n"><b>Tossed Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span></div></li><li class="m-it" data-s="caesar salad ">
+        <div class="m-n"><b>Caesar Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.25</span></div></li><li class="m-it" data-s="greek salad ">
+        <div class="m-n"><b>Greek Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.95</span></div></li><li class="m-it" data-s="tuna salad ">
+        <div class="m-n"><b>Tuna Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$10.25</span></div></li><li class="m-it" data-s="crabmeat salad ">
+        <div class="m-n"><b>Crabmeat Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$10.25</span></div></li><li class="m-it" data-s="antipasto salad turkey, ham, salami, black olives and feta">
+        <div class="m-n"><b>Antipasto Salad</b><span>Turkey, ham, salami, black olives and feta</span></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$12.50</span></div></li><li class="m-it" data-s="grilled chicken salad ">
+        <div class="m-n"><b>Grilled Chicken Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$12.50</span></div></li><li class="m-it" data-s="grilled chicken caesar salad ">
+        <div class="m-n"><b>Grilled Chicken Caesar Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$12.50</span></div></li><li class="m-it" data-s="shrimp salad ">
+        <div class="m-n"><b>Shrimp Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.25</span></div></li><li class="m-it" data-s="steak tip salad ">
+        <div class="m-n"><b>Steak Tip Salad</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$14.99</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><img src="assets/img/apps.webp" alt="" loading="lazy"><div><h3>Sides</h3>
+      </div></div>
+      <ul class="m-list"><li class="m-it" data-s="spinach pita ">
+        <div class="m-n"><b>Spinach Pita</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.95</span></div></li><li class="m-it" data-s="bacon cheese fries ">
+        <div class="m-n"><b>Bacon Cheese Fries</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.75</span></div></li><li class="m-it" data-s="cheese bread sticks ">
+        <div class="m-n"><b>Cheese Bread Sticks</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.99</span></div></li><li class="m-it" data-s="onion rings ">
+        <div class="m-n"><b>Onion Rings</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$6.25</span></div></li><li class="m-it" data-s="poppers ">
+        <div class="m-n"><b>Poppers</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.50</span></div></li><li class="m-it" data-s="mozzarella sticks ">
+        <div class="m-n"><b>Mozzarella Sticks</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.50</span></div></li><li class="m-it" data-s="chicken fingers ">
+        <div class="m-n"><b>Chicken Fingers</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.99</span></div></li><li class="m-it" data-s="grilled chicken ">
+        <div class="m-n"><b>Grilled Chicken</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.50</span></div></li><li class="m-it" data-s="fresh wings ">
+        <div class="m-n"><b>Fresh Wings</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$10.95</span></div></li><li class="m-it" data-s="garlic bread with cheese ">
+        <div class="m-n"><b>Garlic Bread with Cheese</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$6.25</span></div></li><li class="m-it" data-s="french fries ">
+        <div class="m-n"><b>French Fries</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$5.25</span></div></li><li class="m-it" data-s="potato skins ">
+        <div class="m-n"><b>Potato Skins</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span></div></li><li class="m-it" data-s="nachos ">
+        <div class="m-n"><b>Nachos</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.95</span></div></li><li class="m-it" data-s="fried mushrooms ">
+        <div class="m-n"><b>Fried Mushrooms</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.50</span></div></li><li class="m-it" data-s="chicken quesadilla ">
+        <div class="m-n"><b>Chicken Quesadilla</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.99</span></div></li><li class="m-it" data-s="steak tip quesadilla ">
+        <div class="m-n"><b>Steak Tip Quesadilla</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$13.99</span></div></li><li class="m-it" data-s="12-pc chicken wing dings ">
+        <div class="m-n"><b>12-pc Chicken Wing Dings</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$11.99</span></div></li><li class="m-it" data-s="baked potato ">
+        <div class="m-n"><b>Baked Potato</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$3.75</span></div></li><li class="m-it" data-s="sweet potato or curly fries ">
+        <div class="m-n"><b>Sweet Potato or Curly Fries</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$6.25</span></div></li></ul></section><section class="m-panel" hidden>
+      <div class="m-ph"><div><h3>Kids & Dessert</h3>
+      </div></div>
+      <ul class="m-list"><li class="m-it" data-s="kids tuna sandwich ">
+        <div class="m-n"><b>Kids Tuna Sandwich</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span></div></li><li class="m-it" data-s="kids ham sandwich ">
+        <div class="m-n"><b>Kids Ham Sandwich</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span></div></li><li class="m-it" data-s="kids turkey sandwich ">
+        <div class="m-n"><b>Kids Turkey Sandwich</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.25</span></div></li><li class="m-it" data-s="kids roast beef sandwich ">
+        <div class="m-n"><b>Kids Roast Beef Sandwich</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.50</span></div></li><li class="m-it" data-s="kids chicken fingers ">
+        <div class="m-n"><b>Kids Chicken Fingers</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$8.50</span></div></li><li class="m-it" data-s="kids grilled chicken ">
+        <div class="m-n"><b>Kids Grilled Chicken</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$9.50</span></div></li><li class="m-it" data-s="cheese cake ">
+        <div class="m-n"><b>Cheese Cake</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$4.75</span></div></li><li class="m-it" data-s="carrot cake ">
+        <div class="m-n"><b>Carrot Cake</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$4.75</span></div></li><li class="m-it" data-s="baklava ">
+        <div class="m-n"><b>Baklava</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$4.75</span></div></li><li class="m-it" data-s="rice pudding ">
+        <div class="m-n"><b>Rice Pudding</b></div><i class="lead" aria-hidden="true"></i>
+        <div class="m-p"><span>$2.75</span></div></li></ul></section>
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try “chicken” or “cheese”.</p>
+    <p class="m-fine">Gluten-free pizza is on the menu (12-inch). Seafood dinners are market price: call for today's price.</p>
+  </div>
+</section>
+
+<section class="lounge" id="lounge">
+  <div class="wrap lounge-in">
+    <div class="lounge-t"><p class="kicker">Next door, same kitchen</p><h2>Teddy's <em>Lounge</em></h2>
+      <p class="lede">The bar is part of the building. Order out, or stop by the lounge for dinner. The shop's own Facebook page says the lounge opens daily at 10:30 AM, and posts burger nights, football on the TVs and a Coors Light chalkboard.</p>
+      <p class="lede">Parking: the lot behind the shop, or along the railroad tracks by the train station. For pickup, take Epping Street to the side road.</p>
+      <p class="mini">Lounge closing time isn't posted. Call 603-895-9500.</p></div>
+    <div class="lounge-ph">
+      <figure class="l1"><img src="assets/img/dining.webp" width="611" height="1100" alt="Busy dining room with booths" loading="lazy"></figure>
+      <figure class="l2"><img src="assets/img/booth.webp" width="611" height="1100" alt="Lounge booth with a Coors sign and a TV" loading="lazy"></figure>
+      <figure class="l3"><img src="assets/img/bloody.webp" width="619" height="1100" alt="Garnished Bloody Mary at the bar" loading="lazy"></figure>
+      <figure class="l5"><img src="assets/img/dining-tv.webp" width="611" height="1100" alt="Dining room with TVs and diners" loading="lazy"></figure>
+      <figure class="l4"><img src="assets/img/bikes.webp" width="1100" height="619" alt="Motorcycle event on the street out front" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="cat sec" id="catering">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Catering available</p><h2>Feed the office, <em>the party, the team.</em></h2>
+    <p class="lede">The shop caters holiday office and home parties. For larger orders, call in by 10:30 AM so they can plan the travel time. Business delivery runs all day. Catering prices are by call.</p></div>
+    <div class="cat-grid"><figure><img src="assets/img/trays.webp" width="1100" height="801" alt="Catering trays of baked pasta, lasagna and chicken" loading="lazy"></figure>
+      <div class="cat-list"><article><h3>Salads</h3><p>Tossed, Chef (ham, salami, cheese, turkey), Chicken Deluxe (marinated grilled chicken, mozzarella) and Greek. Small tray serves 6 to 10, large 12 to 15.</p></article><article><h3>Sandwich platters</h3><p>Classic (roast beef, ham, smoked turkey, American, Swiss), Italian (ham, Genoa salami, provolone), Wrap platter (chicken salad, tuna or crabmeat) and a Sandwich Sampler. Serves 10 to 15.</p></article><article><h3>Appetizer platter</h3><p>Wing dings, chicken fingers or buffalo wings and fingers, with mozzarella sticks and fried ravioli. Serves 10.</p></article><article><h3>Pasta lovers</h3><p>Chicken broccoli and ziti, cheese or meat lasagna, chicken, veal or eggplant parmesan, shrimp angelina, shrimp scampi, four-cheese manicotti, stuffed shells, baked ziti, cacciatore and a spaghetti special. Serves 10 to 15.</p></article></div></div>
+    <p class="cta"><a class="btn" href="tel:+16038959500">Call to book: 603-895-9500</a></p>
+  </div>
+</section>
+
+<section class="say sec">
+  <div class="wrap say-in">
+    <blockquote><p>“Sometimes I'm craving a steak tip salad and you guys hit the mark every time! Thank you for your consistency and for caring so much about the quality of your food!”</p><cite>Jill H., shared on the shop's Facebook page</cite></blockquote>
+    <blockquote><p>“I went with a delicious pepperoni pizza and was pleasantly surprised how good it was! Definitely worth trying them out.”</p><cite>A video review of the shop, August 2026</cite></blockquote>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>68 Main Street, <em>Raymond</em></h2>
+      <p class="addr">68 Main Street, Downtown<br>Raymond, NH 03077</p>
+      <p><a class="tel" href="tel:+16038959500">603-895-9500</a></p>
+      <div class="cta"><a class="btn" href="https://supremehouseofpizza.e-tab.com/supremehouseofpizza#!/order-type" rel="noopener">Order online</a><a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Supreme+House+of+Pizza+68+Main+Street+Raymond+NH+03077" rel="noopener">Get directions</a><a class="btn btn-ghost" href="https://www.facebook.com/p/Supreme-Pizza-Teddys-Lounge-100063781351293/" rel="noopener">Facebook</a></div>
+      <p class="mini">Closed Sundays. Gift cards available. Closed Thanksgiving, Labor Day, Memorial Day and July 4th.</p></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <div class="seas" data-season="winter"><h3>October 1 – March 31 <em data-now>Now</em></h3><table><tbody><tr data-dow="1"><th scope="row">Monday</th><td>10:30 AM – 8:30 PM</td></tr><tr data-dow="2"><th scope="row">Tuesday</th><td>10:30 AM – 8:30 PM</td></tr><tr data-dow="3"><th scope="row">Wednesday</th><td>10:30 AM – 8:30 PM</td></tr><tr data-dow="4"><th scope="row">Thursday</th><td>10:30 AM – 8:30 PM</td></tr><tr data-dow="5"><th scope="row">Friday</th><td>10:30 AM – 9 PM</td></tr><tr data-dow="6"><th scope="row">Saturday</th><td>10:30 AM – 9 PM</td></tr><tr data-dow="0"><th scope="row">Sunday</th><td>Closed</td></tr></tbody></table></div>
+      <div class="seas" data-season="summer"><h3>April 1 – September 30 <em data-now>Now</em></h3><table><tbody><tr data-dow="1"><th scope="row">Monday</th><td>10:30 AM – 9 PM</td></tr><tr data-dow="2"><th scope="row">Tuesday</th><td>10:30 AM – 9 PM</td></tr><tr data-dow="3"><th scope="row">Wednesday</th><td>10:30 AM – 9 PM</td></tr><tr data-dow="4"><th scope="row">Thursday</th><td>10:30 AM – 9 PM</td></tr><tr data-dow="5"><th scope="row">Friday</th><td>10:30 AM – 9:30 PM</td></tr><tr data-dow="6"><th scope="row">Saturday</th><td>10:30 AM – 9:30 PM</td></tr><tr data-dow="0"><th scope="row">Sunday</th><td>Closed</td></tr></tbody></table></div></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><p class="foot-b"><b>Supreme</b> House of Pizza &amp; Teddy's Lounge</p><p>68 Main Street, Raymond, NH 03077 · <a href="tel:+16038959500">603-895-9500</a></p><p class="mini">© 2026 Supreme House of Pizza. Prices subject to change without notice.</p></div></footer>
+<div class="dock"><a href="tel:+16038959500">Call</a><a class="pri" href="https://supremehouseofpizza.e-tab.com/supremehouseofpizza#!/order-type" rel="noopener">Order online</a><a href="#finder">Budget</a></div>
+<script>(function(){var m=+new Intl.DateTimeFormat('en-US',{timeZone:'America/New_York',month:'numeric'}).format(new Date());window.__SUMMER__=m>=4&&m<=9;window.__HOURS__=window.__SUMMER__?[{"dow": [1, 2, 3, 4], "open": "10:30", "close": "21:00"}, {"dow": [5, 6], "open": "10:30", "close": "21:30"}]:[{"dow": [1, 2, 3, 4], "open": "10:30", "close": "20:30"}, {"dow": [5, 6], "open": "10:30", "close": "21:00"}];window.__ITEMS__=[{"g": 0, "c": "Pizza", "n": "Plain", "s": "Small", "p": 9.5}, {"g": 0, "c": "Pizza", "n": "Plain", "s": "Large", "p": 12.5}, {"g": 0, "c": "Pizza", "n": "1-Topping", "s": "Small", "p": 10.5}, {"g": 0, "c": "Pizza", "n": "1-Topping", "s": "Large", "p": 14.25}, {"g": 0, "c": "Pizza", "n": "2-Topping", "s": "Small", "p": 11.99}, {"g": 0, "c": "Pizza", "n": "2-Topping", "s": "Large", "p": 15.95}, {"g": 0, "c": "Pizza", "n": "3-Topping", "s": "Small", "p": 13.05}, {"g": 0, "c": "Pizza", "n": "3-Topping", "s": "Large", "p": 16.95}, {"g": 0, "c": "Pizza", "n": "Anchovy", "s": "Small", "p": 13.25}, {"g": 0, "c": "Pizza", "n": "Anchovy", "s": "Large", "p": 16.95}, {"g": 0, "c": "Pizza", "n": "Chicken", "s": "Small", "p": 13.25}, {"g": 0, "c": "Pizza", "n": "Chicken", "s": "Large", "p": 16.95}, {"g": 0, "c": "Pizza", "n": "Bacon", "s": "Small", "p": 13.99}, {"g": 0, "c": "Pizza", "n": "Bacon", "s": "Large", "p": 16.95}, {"g": 0, "c": "Pizza", "n": "Pastrami", "s": "Small", "p": 12.25}, {"g": 0, "c": "Pizza", "n": "Pastrami", "s": "Large", "p": 15.95}, {"g": 0, "c": "Pizza", "n": "Steak", "s": "Small", "p": 13.99}, {"g": 0, "c": "Pizza", "n": "Steak", "s": "Large", "p": 17.95}, {"g": 0, "c": "Pizza", "n": "Gluten Free (12\")", "s": "Large", "p": 16.95}, {"g": 0, "c": "Specialty Pizza", "n": "Supreme Special", "s": "Small", "p": 14.95}, {"g": 0, "c": "Specialty Pizza", "n": "Supreme Special", "s": "Large", "p": 20.99}, {"g": 0, "c": "Specialty Pizza", "n": "Meat Lovers", "s": "Small", "p": 14.95}, {"g": 0, "c": "Specialty Pizza", "n": "Meat Lovers", "s": "Large", "p": 20.99}, {"g": 0, "c": "Specialty Pizza", "n": "BBQ Chicken", "s": "Small", "p": 13.5}, {"g": 0, "c": "Specialty Pizza", "n": "BBQ Chicken", "s": "Large", "p": 17.95}, {"g": 0, "c": "Specialty Pizza", "n": "Buffalo Chicken", "s": "Small", "p": 13.99}, {"g": 0, "c": "Specialty Pizza", "n": "Buffalo Chicken", "s": "Large", "p": 18.5}, {"g": 0, "c": "Specialty Pizza", "n": "Chicken Broccoli Alfredo", "s": "Small", "p": 13.99}, {"g": 0, "c": "Specialty Pizza", "n": "Chicken Broccoli Alfredo", "s": "Large", "p": 19.99}, {"g": 0, "c": "Specialty Pizza", "n": "Artichoke", "s": "Small", "p": 11.99}, {"g": 0, "c": "Specialty Pizza", "n": "Artichoke", "s": "Large", "p": 16.75}, {"g": 0, "c": "Specialty Pizza", "n": "Shrimp Scampi", "s": "Small", "p": 15.75}, {"g": 0, "c": "Specialty Pizza", "n": "Shrimp Scampi", "s": "Large", "p": 21.99}, {"g": 0, "c": "Specialty Pizza", "n": "Hawaiian", "s": "Small", "p": 11.25}, {"g": 0, "c": "Specialty Pizza", "n": "Hawaiian", "s": "Large", "p": 17.5}, {"g": 0, "c": "Specialty Pizza", "n": "Mediterranean", "s": "Small", "p": 13.99}, {"g": 0, "c": "Specialty Pizza", "n": "Mediterranean", "s": "Large", "p": 18.99}, {"g": 0, "c": "Specialty Pizza", "n": "Veggie", "s": "Small", "p": 13.95}, {"g": 0, "c": "Specialty Pizza", "n": "Veggie", "s": "Large", "p": 19.5}, {"g": 0, "c": "Specialty Pizza", "n": "White Pizza", "s": "Small", "p": 9.5}, {"g": 0, "c": "Specialty Pizza", "n": "White Pizza", "s": "Large", "p": 12.95}, {"g": 0, "c": "Specialty Pizza", "n": "House White", "s": "Small", "p": 13.99}, {"g": 0, "c": "Specialty Pizza", "n": "House White", "s": "Large", "p": 17.95}, {"g": 0, "c": "Specialty Pizza", "n": "Chicken Artichoke", "s": "Small", "p": 14.99}, {"g": 0, "c": "Specialty Pizza", "n": "Chicken Artichoke", "s": "Large", "p": 19.99}, {"g": 0, "c": "Specialty Pizza", "n": "Gyro Pizza", "s": "Small", "p": 13.99}, {"g": 0, "c": "Specialty Pizza", "n": "Gyro Pizza", "s": "Large", "p": 17.95}, {"g": 0, "c": "Calzones", "n": "Spinach Calzone", "s": "Small", "p": 13.25}, {"g": 0, "c": "Calzones", "n": "Spinach Calzone", "s": "Large", "p": 18.5}, {"g": 0, "c": "Calzones", "n": "Vegetarian Calzone", "s": "Small", "p": 14.25}, {"g": 0, "c": "Calzones", "n": "Vegetarian Calzone", "s": "Large", "p": 19.5}, {"g": 0, "c": "Calzones", "n": "Eggplant Parmesan Calzone", "s": "Small", "p": 13.5}, {"g": 0, "c": "Calzones", "n": "Eggplant Parmesan Calzone", "s": "Large", "p": 18.25}, {"g": 0, "c": "Calzones", "n": "Meatball Parmesan Calzone", "s": "Small", "p": 13.5}, {"g": 0, "c": "Calzones", "n": "Meatball Parmesan Calzone", "s": "Large", "p": 18.75}, {"g": 0, "c": "Calzones", "n": "Veal Cutlet Parmesan Calzone", "s": "Small", "p": 13.5}, {"g": 0, "c": "Calzones", "n": "Veal Cutlet Parmesan Calzone", "s": "Large", "p": 18.75}, {"g": 0, "c": "Calzones", "n": "Real Veal Parmesan Calzone", "s": "Small", "p": 14.99}, {"g": 0, "c": "Calzones", "n": "Real Veal Parmesan Calzone", "s": "Large", "p": 20.99}, {"g": 0, "c": "Calzones", "n": "Chicken Finger Parmesan Calzone", "s": "Small", "p": 13.5}, {"g": 0, "c": "Calzones", "n": "Chicken Finger Parmesan Calzone", "s": "Large", "p": 18.75}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Cheese Calzone", "s": "Small", "p": 14.95}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Cheese Calzone", "s": "Large", "p": 19.99}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Onion Calzone", "s": "Small", "p": 14.95}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Onion Calzone", "s": "Large", "p": 19.99}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Pepper Calzone", "s": "Small", "p": 14.95}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Pepper Calzone", "s": "Large", "p": 19.99}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Mushroom Calzone", "s": "Small", "p": 14.95}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Mushroom Calzone", "s": "Large", "p": 19.99}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Special Calzone", "s": "Small", "p": 14.95}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Special Calzone", "s": "Large", "p": 20.25}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Bomb Calzone", "s": "Small", "p": 15.25}, {"g": 0, "c": "Calzones", "n": "Steak or Chicken Bomb Calzone", "s": "Large", "p": 20.99}, {"g": 1, "c": "Cold Subs", "n": "Vegetarian", "s": "Small", "p": 7.99}, {"g": 1, "c": "Cold Subs", "n": "Vegetarian", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "Italian", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "Italian", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "Ham", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "Ham", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "Roast Beef", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "Roast Beef", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "Tuna", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "Tuna", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "Supreme Special", "s": "Small", "p": 9.25}, {"g": 1, "c": "Cold Subs", "n": "Supreme Special", "s": "Large", "p": 10.75}, {"g": 1, "c": "Cold Subs", "n": "Genoa", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "Genoa", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "American", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "American", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "Chicken Salad", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "Chicken Salad", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "Turkey", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "Turkey", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "Salami", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "Salami", "s": "Large", "p": 9.5}, {"g": 1, "c": "Cold Subs", "n": "Crabmeat", "s": "Small", "p": 8.25}, {"g": 1, "c": "Cold Subs", "n": "Crabmeat", "s": "Large", "p": 9.5}, {"g": 1, "c": "Hot Subs", "n": "Meatball", "s": "Small", "p": 8.25}, {"g": 1, "c": "Hot Subs", "n": "Meatball", "s": "Large", "p": 9.95}, {"g": 1, "c": "Hot Subs", "n": "Chicken Cutlet", "s": "Small", "p": 8.25}, {"g": 1, "c": "Hot Subs", "n": "Chicken Cutlet", "s": "Large", "p": 9.95}, {"g": 1, "c": "Hot Subs", "n": "Hamburger", "s": "Small", "p": 9.75}, {"g": 1, "c": "Hot Subs", "n": "Hamburger", "s": "Large", "p": 10.25}, {"g": 1, "c": "Hot Subs", "n": "Ham & Egg", "s": "Small", "p": 8.5}, {"g": 1, "c": "Hot Subs", "n": "Ham & Egg", "s": "Large", "p": 10.25}, {"g": 1, "c": "Hot Subs", "n": "Veal Cutlet", "s": "Small", "p": 8.25}, {"g": 1, "c": "Hot Subs", "n": "Veal Cutlet", "s": "Large", "p": 9.5}, {"g": 1, "c": "Hot Subs", "n": "Chicken Mediterranean", "s": "Small", "p": 9.99}, {"g": 1, "c": "Hot Subs", "n": "Chicken Mediterranean", "s": "Large", "p": 11.99}, {"g": 1, "c": "Hot Subs", "n": "Sausage", "s": "Small", "p": 8.25}, {"g": 1, "c": "Hot Subs", "n": "Sausage", "s": "Large", "p": 9.95}, {"g": 1, "c": "Hot Subs", "n": "Eggplant", "s": "Small", "p": 8.25}, {"g": 1, "c": "Hot Subs", "n": "Eggplant", "s": "Large", "p": 9.95}, {"g": 1, "c": "Hot Subs", "n": "B.L.T.", "s": "Small", "p": 9.75}, {"g": 1, "c": "Hot Subs", "n": "B.L.T.", "s": "Large", "p": 10.25}, {"g": 1, "c": "Hot Subs", "n": "Pastrami", "s": "Small", "p": 9.95}, {"g": 1, "c": "Hot Subs", "n": "Pastrami", "s": "Large", "p": 10.25}, {"g": 1, "c": "Hot Subs", "n": "Chicken Finger", "s": "Small", "p": 8.5}, {"g": 1, "c": "Hot Subs", "n": "Chicken Finger", "s": "Large", "p": 10.75}, {"g": 1, "c": "Hot Subs", "n": "Real Veal Cutlet", "s": "Large", "p": 9.5}, {"g": 1, "c": "Hot Subs", "n": "Chicken Caesar Wrap", "s": "Large", "p": 11.5}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Plain", "s": "Small", "p": 8.25}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Plain", "s": "Large", "p": 9.95}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Cheese", "s": "Small", "p": 9.25}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Cheese", "s": "Large", "p": 10.5}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Pepper", "s": "Small", "p": 9.25}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Pepper", "s": "Large", "p": 10.99}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Onion", "s": "Small", "p": 9.25}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Onion", "s": "Large", "p": 10.99}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Mushroom", "s": "Small", "p": 9.25}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Mushroom", "s": "Large", "p": 10.99}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Egg", "s": "Small", "p": 9.25}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Egg", "s": "Large", "p": 11.5}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Supreme Special", "s": "Small", "p": 10.5}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Supreme Special", "s": "Large", "p": 11.5}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Bomb", "s": "Small", "p": 10.99}, {"g": 1, "c": "Steak & Chicken Subs", "n": "Bomb", "s": "Large", "p": 11.95}, {"g": 1, "c": "From the Grill", "n": "Grilled Cheese", "s": "", "p": 7.0}, {"g": 1, "c": "From the Grill", "n": "Hamburger", "s": "", "p": 8.99}, {"g": 1, "c": "From the Grill", "n": "Cheeseburger", "s": "", "p": 9.99}, {"g": 1, "c": "From the Grill", "n": "Grilled Chicken", "s": "", "p": 10.25}, {"g": 1, "c": "From the Grill", "n": "Meat Lovers Burger", "s": "", "p": 11.99}, {"g": 1, "c": "From the Grill", "n": "Roast Beef on Onion Roll", "s": "", "p": 10.75}, {"g": 1, "c": "From the Grill", "n": "Gyro", "s": "", "p": 11.99}, {"g": 1, "c": "From the Grill", "n": "Grilled Ham & Cheese", "s": "", "p": 8.25}, {"g": 1, "c": "From the Grill", "n": "Reuben Sandwich", "s": "", "p": 9.95}, {"g": 1, "c": "Clubs", "n": "Hamburger Club", "s": "", "p": 11.95}, {"g": 1, "c": "Clubs", "n": "Turkey Club", "s": "", "p": 11.95}, {"g": 1, "c": "Clubs", "n": "Roast Beef Club", "s": "", "p": 11.95}, {"g": 1, "c": "Clubs", "n": "B.L.T. Club", "s": "", "p": 11.95}, {"g": 1, "c": "Clubs", "n": "Cheeseburger Club", "s": "", "p": 11.95}, {"g": 1, "c": "Clubs", "n": "Ham Club", "s": "", "p": 11.95}, {"g": 1, "c": "Clubs", "n": "Tuna Club", "s": "", "p": 11.95}, {"g": 2, "c": "Dinners", "n": "Gyro Dinner", "s": "", "p": 14.75}, {"g": 2, "c": "Dinners", "n": "Chicken Wing Dings Dinner", "s": "", "p": 14.99}, {"g": 2, "c": "Dinners", "n": "Steak Tip Dinner", "s": "", "p": 20.95}, {"g": 2, "c": "Dinners", "n": "Chicken Stir Fry Dinner", "s": "", "p": 14.95}, {"g": 2, "c": "Dinners", "n": "Cheeseburger Dinner", "s": "", "p": 13.25}, {"g": 2, "c": "Dinners", "n": "Homemade Fresh Chicken Fingers Dinner", "s": "", "p": 14.99}, {"g": 2, "c": "Dinners", "n": "Grilled Chicken Dinner", "s": "", "p": 15.5}, {"g": 2, "c": "Italian Dinners", "n": "Spaghetti with Sauce", "s": "", "p": 9.99}, {"g": 2, "c": "Italian Dinners", "n": "Spaghetti with Meatballs", "s": "", "p": 12.99}, {"g": 2, "c": "Italian Dinners", "n": "Spaghetti with Veal Cutlet", "s": "", "p": 12.99}, {"g": 2, "c": "Italian Dinners", "n": "Spaghetti with Mushrooms", "s": "", "p": 12.99}, {"g": 2, "c": "Italian Dinners", "n": "Spaghetti with Sausage", "s": "", "p": 12.99}, {"g": 2, "c": "Italian Dinners", "n": "Spaghetti Combo", "s": "", "p": 14.75}, {"g": 2, "c": "Italian Dinners", "n": "Baked Ziti with Sauce", "s": "", "p": 10.99}, {"g": 2, "c": "Italian Dinners", "n": "Baked Ziti with Meatballs", "s": "", "p": 14.25}, {"g": 2, "c": "Italian Dinners", "n": "Baked Ziti with Veal Cutlet", "s": "", "p": 14.25}, {"g": 2, "c": "Italian Dinners", "n": "Baked Ziti with Mushrooms", "s": "", "p": 14.25}, {"g": 2, "c": "Italian Dinners", "n": "Baked Ziti with Sausage", "s": "", "p": 14.25}, {"g": 2, "c": "Italian Dinners", "n": "Baked Ziti Combo", "s": "", "p": 15.25}, {"g": 2, "c": "Italian Dinners", "n": "Lasagna", "s": "", "p": 13.25}, {"g": 2, "c": "Italian Dinners", "n": "Stuffed Shells", "s": "", "p": 11.99}, {"g": 2, "c": "Italian Dinners", "n": "Manicotti", "s": "", "p": 11.99}, {"g": 2, "c": "Italian Dinners", "n": "Cheese Ravioli", "s": "", "p": 11.99}, {"g": 2, "c": "Italian Dinners", "n": "Homemade Mac & Cheese", "s": "", "p": 8.99}, {"g": 2, "c": "Italian Dinners", "n": "Chicken Parmesan", "s": "", "p": 14.5}, {"g": 2, "c": "Italian Dinners", "n": "Veal Parmesan", "s": "", "p": 14.5}, {"g": 2, "c": "Italian Dinners", "n": "Eggplant Parmesan", "s": "", "p": 14.5}, {"g": 2, "c": "Italian Dinners", "n": "Chicken Broccoli Alfredo or Wine Sauce", "s": "", "p": 15.25}, {"g": 2, "c": "Italian Dinners", "n": "Steak Tip Broccoli Alfredo or Wine Sauce", "s": "", "p": 18.99}, {"g": 2, "c": "Italian Dinners", "n": "Shrimp Broccoli Alfredo", "s": "", "p": 18.99}, {"g": 2, "c": "Italian Dinners", "n": "Shrimp Scampi", "s": "", "p": 17.99}, {"g": 3, "c": "Salads", "n": "Tossed Salad", "s": "", "p": 8.25}, {"g": 3, "c": "Salads", "n": "Caesar Salad", "s": "", "p": 9.25}, {"g": 3, "c": "Salads", "n": "Greek Salad", "s": "", "p": 9.95}, {"g": 3, "c": "Salads", "n": "Tuna Salad", "s": "", "p": 10.25}, {"g": 3, "c": "Salads", "n": "Crabmeat Salad", "s": "", "p": 10.25}, {"g": 3, "c": "Salads", "n": "Antipasto Salad", "s": "", "p": 12.5}, {"g": 3, "c": "Salads", "n": "Grilled Chicken Salad", "s": "", "p": 12.5}, {"g": 3, "c": "Salads", "n": "Grilled Chicken Caesar Salad", "s": "", "p": 12.5}, {"g": 3, "c": "Salads", "n": "Shrimp Salad", "s": "", "p": 14.25}, {"g": 3, "c": "Salads", "n": "Steak Tip Salad", "s": "", "p": 14.99}, {"g": 3, "c": "Sides", "n": "Spinach Pita", "s": "", "p": 8.95}, {"g": 3, "c": "Sides", "n": "Bacon Cheese Fries", "s": "", "p": 8.75}, {"g": 3, "c": "Sides", "n": "Cheese Bread Sticks", "s": "", "p": 8.99}, {"g": 3, "c": "Sides", "n": "Onion Rings", "s": "", "p": 6.25}, {"g": 3, "c": "Sides", "n": "Poppers", "s": "", "p": 9.5}, {"g": 3, "c": "Sides", "n": "Mozzarella Sticks", "s": "", "p": 9.5}, {"g": 3, "c": "Sides", "n": "Chicken Fingers", "s": "", "p": 9.99}, {"g": 3, "c": "Sides", "n": "Grilled Chicken", "s": "", "p": 13.5}, {"g": 3, "c": "Sides", "n": "Fresh Wings", "s": "", "p": 10.95}, {"g": 3, "c": "Sides", "n": "Garlic Bread with Cheese", "s": "", "p": 6.25}, {"g": 3, "c": "Sides", "n": "French Fries", "s": "", "p": 5.25}, {"g": 3, "c": "Sides", "n": "Potato Skins", "s": "", "p": 8.25}, {"g": 3, "c": "Sides", "n": "Nachos", "s": "", "p": 9.95}, {"g": 3, "c": "Sides", "n": "Fried Mushrooms", "s": "", "p": 9.5}, {"g": 3, "c": "Sides", "n": "Chicken Quesadilla", "s": "", "p": 11.99}, {"g": 3, "c": "Sides", "n": "Steak Tip Quesadilla", "s": "", "p": 13.99}, {"g": 3, "c": "Sides", "n": "12-pc Chicken Wing Dings", "s": "", "p": 11.99}, {"g": 3, "c": "Sides", "n": "Baked Potato", "s": "", "p": 3.75}, {"g": 3, "c": "Sides", "n": "Sweet Potato or Curly Fries", "s": "", "p": 6.25}, {"g": 4, "c": "Kids & Dessert", "n": "Kids Tuna Sandwich", "s": "", "p": 8.25}, {"g": 4, "c": "Kids & Dessert", "n": "Kids Ham Sandwich", "s": "", "p": 8.25}, {"g": 4, "c": "Kids & Dessert", "n": "Kids Turkey Sandwich", "s": "", "p": 8.25}, {"g": 4, "c": "Kids & Dessert", "n": "Kids Roast Beef Sandwich", "s": "", "p": 8.5}, {"g": 4, "c": "Kids & Dessert", "n": "Kids Chicken Fingers", "s": "", "p": 8.5}, {"g": 4, "c": "Kids & Dessert", "n": "Kids Grilled Chicken", "s": "", "p": 9.5}, {"g": 4, "c": "Kids & Dessert", "n": "Cheese Cake", "s": "", "p": 4.75}, {"g": 4, "c": "Kids & Dessert", "n": "Carrot Cake", "s": "", "p": 4.75}, {"g": 4, "c": "Kids & Dessert", "n": "Baklava", "s": "", "p": 4.75}, {"g": 4, "c": "Kids & Dessert", "n": "Rice Pudding", "s": "", "p": 2.75}];})();</script>
+<script src="assets/site.js" defer></script>
+</body></html>
