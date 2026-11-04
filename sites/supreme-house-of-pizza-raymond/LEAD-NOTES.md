@@ -1,6 +1,6 @@
 # Supreme House of Pizza & Teddy's Lounge (Raymond, NH): redesign concept
 
-Built Nov 04, 2026 by 603 Interactive from the shop's own content only (lead brief, website menu, public Facebook page). No AI-generated or stock food photos.
+Built Nov 04, 2026 (colors matched to the Teddy's Lounge sign: slate-green awning, maroon lettering, cream, gold) by 603 Interactive from the shop's own content only (lead brief, website menu, public Facebook page). No AI-generated or stock food photos.
 
 ## Files
 
