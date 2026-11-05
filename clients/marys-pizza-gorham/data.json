@@ -1,0 +1,1314 @@
+{
+ "slug": "marys-pizza-gorham",
+ "name": "Mary's Pizza",
+ "short": "Marys",
+ "domain": "https://maryspizzanh.com",
+ "tagline": "Home-style cooking in Gorham, NH since 1947.",
+ "seo_title": "Mary's Pizza | Family Pizzeria in Gorham, NH Since 1947",
+ "seo_desc": "Mary's Pizza, 9 Cascade Flats, Gorham NH. Fresh dough pizza and homemade pasta since 1947, voted Best Pizza in NH by WMUR viewers. Full menu with prices. Call (603) 752-6150.",
+ "locations": [
+  {
+   "id": "gorham",
+   "name": "Gorham",
+   "street": "9 Cascade Flats",
+   "city": "Gorham",
+   "region": "NH",
+   "postal": "03581",
+   "phone": "(603) 752-6150",
+   "tel": "+16037526150",
+   "hours": [
+    {
+     "dow": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "14:00"
+    },
+    {
+     "dow": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "16:00",
+     "close": "20:00"
+    }
+   ],
+   "order": "https://maryspizzanh.itemorder.com/",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Mary%27s+Pizza+9+Cascade+Flats+Gorham+NH+03581",
+   "geo": null
+  }
+ ],
+ "order_any": "https://maryspizzanh.itemorder.com/",
+ "facebook": "https://www.facebook.com/p/MARYS-PIZZA-100063701284845/",
+ "menu": [
+  {
+   "cat": "Specials",
+   "note": "Everyday, plus a deal on Tuesdays and Thursdays.",
+   "items": [
+    {
+     "name": "Everyday Lunch Special",
+     "desc": "1 Large Cheese Pizza",
+     "prices": [
+      {
+       "l": "",
+       "v": 10
+      }
+     ]
+    },
+    {
+     "name": "Every Tuesday",
+     "desc": "1 Large 1-Topping Pizza, 4 Breadsticks & a 2 liter of Soda",
+     "prices": [
+      {
+       "l": "",
+       "v": 19.99
+      }
+     ]
+    },
+    {
+     "name": "Every Thursday",
+     "desc": "2 Large 3-Topping Pizzas",
+     "prices": [
+      {
+       "l": "",
+       "v": 32.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Build Your Pizza",
+   "note": "Choose your crust: Thin (crispy), Regular (original), Pan (thick) or Gluten-Free (small only). Thin or regular is cooked on a screen for a soft center. Roman Pizza is thin and crispy, with a low, crunchy crust and generous toppings. Prices shown are Small / Large, then Pan or Gluten-Free Small / Large.",
+   "items": [
+    {
+     "name": "Cheese",
+     "desc": "",
+     "prices": [
+      {
+       "l": "S",
+       "v": 9.99
+      },
+      {
+       "l": "L",
+       "v": 15.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 12.99
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 16.99
+      }
+     ]
+    },
+    {
+     "name": "1 Topping",
+     "desc": "",
+     "prices": [
+      {
+       "l": "S",
+       "v": 11.64
+      },
+      {
+       "l": "L",
+       "v": 18.49
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 14.64
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 19.49
+      }
+     ]
+    },
+    {
+     "name": "2 Toppings",
+     "desc": "",
+     "prices": [
+      {
+       "l": "S",
+       "v": 13.29
+      },
+      {
+       "l": "L",
+       "v": 20.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 16.29
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 21.99
+      }
+     ]
+    },
+    {
+     "name": "3 Toppings",
+     "desc": "",
+     "prices": [
+      {
+       "l": "S",
+       "v": 14.94
+      },
+      {
+       "l": "L",
+       "v": 23.49
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 17.94
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 24.49
+      }
+     ]
+    },
+    {
+     "name": "4 Toppings",
+     "desc": "",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Extra Cheese",
+     "desc": "",
+     "prices": [
+      {
+       "l": "S",
+       "v": 2.5
+      },
+      {
+       "l": "L",
+       "v": 4
+      }
+     ]
+    },
+    {
+     "name": "Extra Sauce",
+     "desc": "",
+     "prices": [
+      {
+       "l": "S",
+       "v": 2
+      },
+      {
+       "l": "L",
+       "v": 3
+      }
+     ]
+    },
+    {
+     "name": "Additional Topping",
+     "desc": "",
+     "prices": [
+      {
+       "l": "S",
+       "v": 1.65
+      },
+      {
+       "l": "L",
+       "v": 2.5
+      }
+     ]
+    },
+    {
+     "name": "Toppings",
+     "desc": "Pepperoni, meatball, bacon, sausage, ham, grilled chicken, chicken fingers, shaved steak, anchovies, pineapple, garlic, basil, onions, mushrooms, black olives, green peppers (fresh or canned), tomatoes, broccoli, artichokes, spinach, jalapeños, banana peppers, feta",
+     "prices": []
+    }
+   ]
+  },
+  {
+   "cat": "Specialty Pizza",
+   "note": "Small / Large, then Pan or Gluten-Free Small / Large.",
+   "items": [
+    {
+     "name": "Hawaiian",
+     "desc": "Italian ham & pineapple",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Supreme",
+     "desc": "Pepperoni, sliced meatball, onions, mushrooms, peppers, bacon, sausage & black olives",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Veggie",
+     "desc": "Sliced tomatoes, onions, mushrooms, green peppers & black olives",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Meat Lover",
+     "desc": "Pepperoni, Italian ham, bacon, meatball & sausage",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Philly",
+     "desc": "Sautéed shaved steak, onions, peppers & mushrooms",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Our boneless tenders in spicy hot sauce topped with chopped celery, served with creamy ranch or blue cheese",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Barbeque Chicken",
+     "desc": "Grilled chicken & sliced onion tossed in a sweet BBQ sauce, served with cheese & sliced green onion",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Works",
+     "desc": "Pepperoni, sliced meatballs, onions, mushrooms & peppers",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Our blend of cheeses, topped with fresh spinach, sliced tomatoes & feta cheese",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Heart Healthy",
+     "desc": "Thin crust, light cheese & sauce, with sliced tomatoes, onions, mushrooms & fresh green peppers",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "GF",
+       "v": 19.59
+      }
+     ]
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "desc": "Our creamy Alfredo sauce, topped with our blend of cheeses, grilled chicken & broccoli florets",
+     "prices": [
+      {
+       "l": "S",
+       "v": 16.59
+      },
+      {
+       "l": "L",
+       "v": 25.99
+      },
+      {
+       "l": "Pan/GF S",
+       "v": 19.59
+      },
+      {
+       "l": "Pan/GF L",
+       "v": 26.99
+      }
+     ]
+    },
+    {
+     "name": "Mary's Margarita (award winning)",
+     "desc": "Our homemade thick crust pizza, topped with our pizza sauce, sausage, refried beans, jalapeños & our blend of cheeses, baked & topped with shredded crisp romaine, diced tomatoes, guacamole & sour cream",
+     "prices": [
+      {
+       "l": "S",
+       "v": 19.59
+      },
+      {
+       "l": "L",
+       "v": 26.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers",
+   "note": "For the health of you all, our food is air fried and not in oil.",
+   "items": [
+    {
+     "name": "Jumbo Bread Sticks (6)",
+     "desc": "Our garlic bread sticks baked & served with our homemade sauce. Add cheese $2.00",
+     "prices": [
+      {
+       "l": "",
+       "v": 9.99
+      }
+     ]
+    },
+    {
+     "name": "Bruschetta",
+     "desc": "Toasted bread with medley of tomatoes, garlic, olive oil & basil topped with cheese",
+     "prices": [
+      {
+       "l": "",
+       "v": 11.99
+      }
+     ]
+    },
+    {
+     "name": "Classic Meatballs (2)",
+     "desc": "Our homemade meatballs with our marinara sauce & provolone cheese",
+     "prices": [
+      {
+       "l": "",
+       "v": 7.49
+      }
+     ]
+    },
+    {
+     "name": "Baked Stuffed Clams (4)",
+     "desc": "In shells. Medley of chopped clams, onions, peppers, spices & cheese topped with sliced green onion & served with lemon",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.49
+      }
+     ]
+    },
+    {
+     "name": "Crispy Green Beans",
+     "desc": "Battered & baked, served with ranch, blue cheese or marinara sauce",
+     "prices": [
+      {
+       "l": "",
+       "v": 9.99
+      }
+     ]
+    },
+    {
+     "name": "Mozzarella Sticks (6)",
+     "desc": "Lightly breaded & served with marinara sauce",
+     "prices": [
+      {
+       "l": "",
+       "v": 9.99
+      }
+     ]
+    },
+    {
+     "name": "Boneless Tenders",
+     "desc": "Plain or Buffalo. Breaded chicken tenders or Buffalo basted tenders in spicy hot sauce, served with ranch or blue cheese",
+     "prices": [
+      {
+       "l": "",
+       "v": 12.99
+      }
+     ]
+    },
+    {
+     "name": "Wings (10)",
+     "desc": "Spicy or not spicy wings served with ranch or blue cheese",
+     "prices": [
+      {
+       "l": "",
+       "v": 13.99
+      }
+     ]
+    },
+    {
+     "name": "Italian Nachos",
+     "desc": "Tortilla chips, salsa, pepperoni, sliced meatballs, cheese, black olives & topped with sliced green onion. Mild or add for hot",
+     "prices": [
+      {
+       "l": "S",
+       "v": 10.99
+      },
+      {
+       "l": "L",
+       "v": 13.99
+      }
+     ]
+    },
+    {
+     "name": "French Fries",
+     "desc": "Basket full",
+     "prices": [
+      {
+       "l": "S",
+       "v": 4.49
+      },
+      {
+       "l": "L",
+       "v": 6.99
+      }
+     ]
+    },
+    {
+     "name": "Onion Rings",
+     "desc": "Beer battered & baked",
+     "prices": [
+      {
+       "l": "S",
+       "v": 4.79
+      },
+      {
+       "l": "L",
+       "v": 8.99
+      }
+     ]
+    },
+    {
+     "name": "Cheesy Garlic Bread",
+     "desc": "Small is four pieces, Large is eight",
+     "prices": [
+      {
+       "l": "S",
+       "v": 5.99
+      },
+      {
+       "l": "L",
+       "v": 8.99
+      }
+     ]
+    },
+    {
+     "name": "Homemade Soup",
+     "desc": "Bowl",
+     "prices": [
+      {
+       "l": "",
+       "v": 7.49
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "note": "",
+   "items": [
+    {
+     "name": "Garden Salad",
+     "desc": "Crisp romaine, onions, green bell peppers, diced tomatoes, celery & radishes",
+     "prices": [
+      {
+       "l": "S",
+       "v": 6.99
+      },
+      {
+       "l": "L",
+       "v": 9.99
+      }
+     ]
+    },
+    {
+     "name": "Sicilian Salad",
+     "desc": "Our garden salad topped with sliced ham, meatballs, pepperoni, provolone cheese & black olives",
+     "prices": [
+      {
+       "l": "S",
+       "v": 11.99
+      },
+      {
+       "l": "L",
+       "v": 13.99
+      }
+     ]
+    },
+    {
+     "name": "Classic Caesar Salad",
+     "desc": "Crisp romaine & seasoned croutons tossed in creamy Caesar dressing topped with parmesan cheese",
+     "prices": [
+      {
+       "l": "S",
+       "v": 7.99
+      },
+      {
+       "l": "L",
+       "v": 9.99
+      }
+     ]
+    },
+    {
+     "name": "Classic Caesar with Grilled Chicken",
+     "desc": "",
+     "prices": [
+      {
+       "l": "S",
+       "v": 10.99
+      },
+      {
+       "l": "L",
+       "v": 12.99
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Chicken Salad",
+     "desc": "Our fresh garden salad topped with our spicy boneless buffalo tenders, served with ranch or blue cheese",
+     "prices": [
+      {
+       "l": "S",
+       "v": 10.99
+      },
+      {
+       "l": "L",
+       "v": 13.99
+      }
+     ]
+    },
+    {
+     "name": "Dressings",
+     "desc": "Creamy Ranch, Country French, Blue Cheese, Creamy Caesar, Golden Italian, Balsamic Vinaigrette, Lite Italian, Olive Oil & Balsamic Vinegar, Greek",
+     "prices": []
+    }
+   ]
+  },
+  {
+   "cat": "Sandwiches",
+   "note": "Add a side of french fries or onion rings for $3.50.",
+   "items": [
+    {
+     "name": "Chicken Parmesan",
+     "desc": "Tender breaded Italian chicken breast, baked & topped with our homemade sauce & melted cheese",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.79
+      }
+     ]
+    },
+    {
+     "name": "Honey Mustard Melt",
+     "desc": "Chopped chicken fingers, crisp bacon & tangy honey mustard sauce topped with melted cheese",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.79
+      }
+     ]
+    },
+    {
+     "name": "Chicken Bacon Ranch Sub",
+     "desc": "Breaded chicken breast, crisp bacon with creamy ranch dressing topped with cheese, sliced tomatoes & romaine",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.79
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Spicy boneless tenders, chopped celery, topped with melted cheese & choice of blue cheese or ranch",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.79
+      }
+     ]
+    },
+    {
+     "name": "Mary's Italian",
+     "desc": "Sliced ham, pepperoni, bacon, Italian dressing, topped with melted cheese, crisp romaine, sliced tomatoes",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.79
+      }
+     ]
+    },
+    {
+     "name": "Meatball Sub",
+     "desc": "Homemade meatballs & melted cheese",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.79
+      }
+     ]
+    },
+    {
+     "name": "Steak & Cheese",
+     "desc": "Sautéed shaved steak with onions, mushrooms & peppers",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.79
+      }
+     ]
+    },
+    {
+     "name": "Classic BLT",
+     "desc": "Piled high with bacon, crisp romaine, freshly sliced tomatoes, melted cheese & mayonnaise",
+     "prices": [
+      {
+       "l": "",
+       "v": 9.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Combo Platters",
+   "note": "All served with cheese garlic bread.",
+   "items": [
+    {
+     "name": "Super Hungry Italian",
+     "desc": "Chicken & eggplant parmigiana, manicotti, lasagna and homemade spaghetti",
+     "prices": [
+      {
+       "l": "",
+       "v": 21.99
+      }
+     ]
+    },
+    {
+     "name": "Pasta for Two",
+     "desc": "Ravioli, manicotti, tortellini and homemade spaghetti & meatballs",
+     "prices": [
+      {
+       "l": "",
+       "v": 21.99
+      }
+     ]
+    },
+    {
+     "name": "Hungry Italian",
+     "desc": "Chicken parmigiana, manicotti, lasagna and homemade spaghetti",
+     "prices": [
+      {
+       "l": "",
+       "v": 19.99
+      }
+     ]
+    },
+    {
+     "name": "Tour of Italy",
+     "desc": "Chicken parmigiana, lasagna & homemade spaghetti",
+     "prices": [
+      {
+       "l": "",
+       "v": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Southern Italian",
+     "desc": "Chicken parmigiana, lasagna and manicotti",
+     "prices": [
+      {
+       "l": "",
+       "v": 16.99
+      }
+     ]
+    },
+    {
+     "name": "Pasta Combo",
+     "desc": "Lasagna, manicotti and stuffed shell & meatball",
+     "prices": [
+      {
+       "l": "",
+       "v": 16.99
+      }
+     ]
+    },
+    {
+     "name": "Italian Classic",
+     "desc": "Homemade spaghetti, chicken & eggplant parmigiana",
+     "prices": [
+      {
+       "l": "",
+       "v": 16.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Dinners",
+   "note": "All served with cheese garlic bread.",
+   "items": [
+    {
+     "name": "Chicken Parmigiana",
+     "desc": "Italian breaded chicken baked & topped with our homemade marinara sauce & cheese. Served with a side of homemade spaghetti",
+     "prices": [
+      {
+       "l": "",
+       "v": 15.99
+      }
+     ]
+    },
+    {
+     "name": "Chicken Fingers",
+     "desc": "Our breaded chicken tenders baked with side of homemade spaghetti and french fries, choice of honey mustard, sweet & sour or barbecue sauce for dipping",
+     "prices": [
+      {
+       "l": "",
+       "v": 13.99
+      }
+     ]
+    },
+    {
+     "name": "Sole Alfredo",
+     "desc": "Two filets with scallop & crab meat stuffing, topped with our creamy Alfredo sauce. Served with side of homemade spaghetti",
+     "prices": [
+      {
+       "l": "",
+       "v": 19.99
+      }
+     ]
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "desc": "Tender chicken strips sautéed with broccoli florets topped with our creamy Alfredo sauce. Served on homemade fettuccine noodles",
+     "prices": [
+      {
+       "l": "",
+       "v": 20.99
+      }
+     ]
+    },
+    {
+     "name": "Eggplant Parmigiana",
+     "desc": "Lightly breaded eggplant medallions baked to golden perfection, topped with marinara sauce & cheese. Served with side of homemade spaghetti",
+     "prices": [
+      {
+       "l": "",
+       "v": 15.99
+      }
+     ]
+    },
+    {
+     "name": "Chicken Milano",
+     "desc": "Pan-seared chicken strips sautéed in olive oil, onions, mushrooms, peppers & Italian herbs and spices in our marinara sauce. Served with side of homemade spaghetti",
+     "prices": [
+      {
+       "l": "",
+       "v": 19.99
+      }
+     ]
+    },
+    {
+     "name": "Parma Rosa",
+     "desc": "Sautéed chicken in a creamy mix of our marinara & Alfredo sauces. Served over homemade spaghetti",
+     "prices": [
+      {
+       "l": "",
+       "v": 17.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Pasta",
+   "note": "All served with cheese garlic bread.",
+   "items": [
+    {
+     "name": "Homemade Spaghetti",
+     "desc": "Our homemade noodles made from scratch using a blend of flour & eggs, served with homemade sauce, choice of meatball or hot sausage",
+     "prices": [
+      {
+       "l": "S",
+       "v": 13.99
+      },
+      {
+       "l": "L",
+       "v": 16.99
+      }
+     ]
+    },
+    {
+     "name": "Lasagna",
+     "desc": "The way Mary always made it, with layers of ricotta, marinara sauce & cheese. Large serving with choice of meatballs or sausages (2)",
+     "prices": [
+      {
+       "l": "",
+       "v": 16.99
+      }
+     ]
+    },
+    {
+     "name": "Manicotti",
+     "desc": "Stuffed with blend of cheeses, served with choice of meatball or hot sausage",
+     "prices": [
+      {
+       "l": "2",
+       "v": 11.99
+      },
+      {
+       "l": "3",
+       "v": 14.99
+      }
+     ]
+    },
+    {
+     "name": "Fettuccine Alfredo",
+     "desc": "Our homemade noodles cut fettuccine style & served with our creamy Alfredo sauce",
+     "prices": [
+      {
+       "l": "S",
+       "v": 13.99
+      },
+      {
+       "l": "L",
+       "v": 15.99
+      }
+     ]
+    },
+    {
+     "name": "Tortellini Bolognese",
+     "desc": "Ring shaped pasta, stuffed with blend of cheeses, served with our marinara sauce, choice of meatball or hot sausage",
+     "prices": [
+      {
+       "l": "",
+       "v": 14.99
+      }
+     ]
+    },
+    {
+     "name": "Gnocchi",
+     "desc": "Italian dumplings made with potato, egg & flour with marinara, choice of meatball or hot sausage",
+     "prices": [
+      {
+       "l": "",
+       "v": 14.99
+      }
+     ]
+    },
+    {
+     "name": "Ravioli (6)",
+     "desc": "Generously filled with blend of cheeses & topped with marinara, choice of meatball or hot sausage",
+     "prices": [
+      {
+       "l": "",
+       "v": 14.99
+      }
+     ]
+    },
+    {
+     "name": "Stuffed Shells",
+     "desc": "Stuffed with blend of cheeses, choice of meatball or hot sausage",
+     "prices": [
+      {
+       "l": "2",
+       "v": 11.99
+      },
+      {
+       "l": "3",
+       "v": 14.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Lighter Side",
+   "note": "Smaller portions. All pasta dishes served with cheese garlic bread.",
+   "items": [
+    {
+     "name": "Spaghetti",
+     "desc": "",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.99
+      }
+     ]
+    },
+    {
+     "name": "Lasagna",
+     "desc": "",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.99
+      }
+     ]
+    },
+    {
+     "name": "Manicotti (1)",
+     "desc": "",
+     "prices": [
+      {
+       "l": "",
+       "v": 8.99
+      }
+     ]
+    },
+    {
+     "name": "Stuffed Shell (1)",
+     "desc": "",
+     "prices": [
+      {
+       "l": "",
+       "v": 8.99
+      }
+     ]
+    },
+    {
+     "name": "Ravioli (4)",
+     "desc": "",
+     "prices": [
+      {
+       "l": "",
+       "v": 8.99
+      }
+     ]
+    },
+    {
+     "name": "Gnocchi",
+     "desc": "",
+     "prices": [
+      {
+       "l": "",
+       "v": 8.99
+      }
+     ]
+    },
+    {
+     "name": "Fettuccine Alfredo",
+     "desc": "",
+     "prices": [
+      {
+       "l": "",
+       "v": 10.99
+      }
+     ]
+    },
+    {
+     "name": "Pasta Combo (choose 2)",
+     "desc": "Lasagna, manicotti, stuffed shell or spaghetti",
+     "prices": [
+      {
+       "l": "",
+       "v": 12.99
+      }
+     ]
+    },
+    {
+     "name": "Mini Pizza",
+     "desc": "$1.00 per additional topping",
+     "prices": [
+      {
+       "l": "",
+       "v": 8.99
+      }
+     ]
+    },
+    {
+     "name": "Chicken Fingers (2)",
+     "desc": "Served with french fries",
+     "prices": [
+      {
+       "l": "",
+       "v": 9.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Drinks & Dessert",
+   "note": "",
+   "items": [
+    {
+     "name": "Soda, 12oz can",
+     "desc": "Pepsi, Diet Pepsi, Pepsi Caffeine Free, Sierra Mist, Mountain Dew, Schweppes Ginger Ale, Crush, MUG Root Beer",
+     "prices": [
+      {
+       "l": "",
+       "v": 1.99
+      }
+     ]
+    },
+    {
+     "name": "Soda, 20oz bottle",
+     "desc": "Pepsi, Diet Pepsi, Sierra Mist, Dole Lemonade, Pure Leaf Teas, Bottled Water, Shirley Temple",
+     "prices": [
+      {
+       "l": "",
+       "v": 2.49
+      }
+     ]
+    },
+    {
+     "name": "Soda, 2 liter bottle",
+     "desc": "Pepsi, Diet Pepsi, Crush, Mountain Dew",
+     "prices": [
+      {
+       "l": "",
+       "v": 3.79
+      }
+     ]
+    },
+    {
+     "name": "Coffee, Hot Tea, Hot Chocolate, Apple Juice, Milk",
+     "desc": "Milk: chocolate, strawberry or white",
+     "prices": [
+      {
+       "l": "",
+       "v": 1.99
+      }
+     ]
+    },
+    {
+     "name": "Churros",
+     "desc": "Sweet fried dough fritters sprinkled with cinnamon & sugar",
+     "prices": [
+      {
+       "l": "",
+       "v": 4.99
+      }
+     ]
+    },
+    {
+     "name": "Ice Cream",
+     "desc": "Scoops of creamy vanilla or chocolate. Add a drizzle of strawberry or chocolate syrup",
+     "prices": [
+      {
+       "l": "",
+       "v": 2.49
+      }
+     ]
+    },
+    {
+     "name": "Dessert of the Day",
+     "desc": "Price varies",
+     "prices": []
+    },
+    {
+     "name": "Bottled Beer",
+     "desc": "Budweiser, Bud Light, Michelob Light, Michelob Ultra, Coors Light, Miller Light",
+     "prices": [
+      {
+       "l": "",
+       "v": 4.49
+      }
+     ]
+    },
+    {
+     "name": "Bottled Beer (premium)",
+     "desc": "Samuel Adams Boston Lager, Samuel Adams Seasonal, Blue Moon, Corona, Angry Orchard, Twisted Tea, IPA Fiddlehead, Rockpile",
+     "prices": [
+      {
+       "l": "",
+       "v": 4.99
+      }
+     ]
+    },
+    {
+     "name": "Non-Alcoholic Beer",
+     "desc": "Heineken 0.0, Michelob Ultra Zero",
+     "prices": []
+    },
+    {
+     "name": "White Claw / High Noon Seltzer",
+     "desc": "",
+     "prices": [
+      {
+       "l": "",
+       "v": 4.89
+      }
+     ]
+    },
+    {
+     "name": "Wine",
+     "desc": "Chianti, Merlot, White Zinfandel, Pinot Grigio, Chardonnay, Pinot Noir",
+     "prices": [
+      {
+       "l": "Glass",
+       "v": 6.89
+      },
+      {
+       "l": "1/2 Carafe",
+       "v": 13.99
+      },
+      {
+       "l": "Carafe",
+       "v": 19.99
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

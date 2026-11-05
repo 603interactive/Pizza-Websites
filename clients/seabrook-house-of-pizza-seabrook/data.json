@@ -1,0 +1,131 @@
+{
+ "slug": "seabrook-house-of-pizza-seabrook",
+ "name": "Seabrook House of Pizza",
+ "short": "SHOP",
+ "domain": "https://seabrookpizza.com",
+ "tagline": "Pizza, calzones, salads, subs, seafood, roast beef and gyro. Dine in, takeout or delivery in Seabrook, NH.",
+ "seo_title": "Seabrook House of Pizza | Pizza, Subs, Seafood & Gyro in Seabrook, NH",
+ "seo_desc": "Seabrook House of Pizza, 255 Lafayette Road, Seabrook NH. Pizza, calzones, salads, subs, seafood, roast beef and gyro. Dine in, takeout or delivery. Order online or call (603) 474-7778.",
+ "locations": [
+  {
+   "id": "seabrook",
+   "name": "Seabrook",
+   "street": "255 Lafayette Road, Unit 9",
+   "city": "Seabrook",
+   "region": "NH",
+   "postal": "03874",
+   "phone": "(603) 474-7778",
+   "tel": "+16034747778",
+   "hours": [
+    {
+     "dow": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "10:00",
+     "close": "21:00"
+    }
+   ],
+   "order": "https://order.toasttab.com/online/seabrook-house-of-pizza",
+   "maps": "https://maps.app.goo.gl/CFCPXPP6UgSi2Him6",
+   "geo": null
+  }
+ ],
+ "order_any": "https://order.toasttab.com/online/seabrook-house-of-pizza",
+ "ubereats": "https://www.ubereats.com/store/seabrook-house-of-pizza/IEeeNKxATpC9-YE9qCtGbw",
+ "facebook": "https://www.facebook.com/SeabrookHousePizza",
+ "instagram": "https://www.instagram.com/seabrook_house_of_pizza/",
+ "menu": [
+  {
+   "cat": "Pizza & Calzones",
+   "img": "pizza.webp",
+   "alt": "Close-up of a pizza with melted cheese, tomato and black olives on a golden crust",
+   "note": "Small and large pizzas, small and large calzones.",
+   "items": [
+    "Small Pizzas",
+    "Large Pizzas",
+    "Small Calzones",
+    "Large Calzones"
+   ]
+  },
+  {
+   "cat": "Subs & Sandwiches",
+   "img": "roast-beef.webp",
+   "alt": "Roast beef sandwich piled high with gravy on a sesame roll",
+   "note": "Cold subs, special hot subs and wraps in two sizes, plus hot sandwiches, clubs and quesadillas.",
+   "items": [
+    "Small Cold Subs",
+    "Large Cold Subs",
+    "Small Special Hot Subs & Wraps",
+    "Large Special Hot Subs & Wraps",
+    "Hot Sandwiches",
+    "Clubs",
+    "Quesadillas"
+   ]
+  },
+  {
+   "cat": "Seafood & Dinners",
+   "img": "chicken-rice.webp",
+   "alt": "Grilled chicken over rice with sauteed vegetables in a takeout box",
+   "note": "Seafood plates, dinners, pasta dinners, mac and cheese and rice bowls.",
+   "items": [
+    "Seafood",
+    "Dinners",
+    "Pasta Dinners",
+    "Homemade Mac N Cheese",
+    "Rice Bowls"
+   ]
+  },
+  {
+   "cat": "Soups & Salads",
+   "img": "greek-salad.webp",
+   "alt": "Salad with feta, red onion, cucumber and green pepper in a takeout container",
+   "note": "Homemade soups and a salad menu.",
+   "items": [
+    "Homemade Soups",
+    "Salads"
+   ]
+  },
+  {
+   "cat": "Sides & Kids",
+   "img": "tenders.webp",
+   "alt": "Golden fried chicken tenders in a paper tray",
+   "note": "Side orders, the kids menu and chips.",
+   "items": [
+    "Side Orders",
+    "Kids Menu",
+    "Chips"
+   ]
+  },
+  {
+   "cat": "Sweets",
+   "img": "dessert.webp",
+   "alt": "Strawberry cream dessert topped with whipped cream and fresh strawberry",
+   "note": "Dessert and ice cream.",
+   "items": [
+    "Dessert",
+    "Ice Cream"
+   ]
+  },
+  {
+   "cat": "Drinks",
+   "img": "steak-caesar.webp",
+   "alt": "",
+   "note": "Soda, sports drinks, iced tea, juice, milk, flavored water, specialty drinks and smoothies.",
+   "items": [
+    "Soda",
+    "Sports Drinks",
+    "Iced Tea / Juice / Milk",
+    "Flavored Water",
+    "Specialty Drinks",
+    "Smoothies"
+   ],
+   "noimg": true
+  }
+ ]
+}

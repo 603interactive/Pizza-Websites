@@ -1,0 +1,407 @@
+{
+ "slug": "pelham-house-of-pizza-pelham",
+ "name": "Pelham House of Pizza",
+ "short": "PHOP",
+ "domain": "https://www.pelhamhouseofpizza.com",
+ "tagline": "Pizza, subs, salads and dinners at 30 Bridge Street in Pelham, NH.",
+ "seo_title": "Pelham House of Pizza | Pizza, Subs & Dinners in Pelham, NH",
+ "seo_desc": "Pelham House of Pizza, 30 Bridge St, Pelham NH. Pizza, subs, wings, salads, burgers, pasta and seafood. Open daily, order online or call (603) 635-2700.",
+ "locations": [
+  {
+   "id": "pelham",
+   "name": "Pelham",
+   "street": "30 Bridge St",
+   "city": "Pelham",
+   "region": "NH",
+   "postal": "03076",
+   "phone": "(603) 635-2700",
+   "tel": "+16036352700",
+   "hours": [
+    {
+     "dow": [
+      0,
+      1,
+      2
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "dow": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "22:00"
+    }
+   ],
+   "order": "https://online.skytab.com/b2e11351da459fc97361164c8a0d8a26",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Pelham+House+of+Pizza+30+Bridge+St+Pelham+NH+03076",
+   "geo": null
+  }
+ ],
+ "order_any": "https://online.skytab.com/b2e11351da459fc97361164c8a0d8a26",
+ "facebook": "https://www.facebook.com/p/Pelham-House-Of-Pizza-61586591077255/",
+ "menu": [
+  {
+   "cat": "Pizza",
+   "img": "pepperoni.webp",
+   "note": "Cheese pizza prices are from public listings and may have changed. Toppings, specialty pies and other sizes: call or ask at the counter.",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "desc": "",
+     "prices": [
+      11.95,
+      15.95
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Subs & Grill",
+   "img": "menu-boards.webp",
+   "note": "Served in a 9\" small or 12\" large (names as shown on the in-shop menu board; call for current prices).",
+   "head": [],
+   "items": [
+    {
+     "name": "Steak",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Steak and Cheese",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Steak Bomb",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Steak, Egg and Cheese",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Steak and Pastrami",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Grilled Chicken",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Grilled Steak Tips",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Steak Tip Bomb",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Chicken Bomb",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Steak Tip and Chicken",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Yasou Bomb",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Hamburger",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Breakfast Sub",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Gyro",
+     "desc": "",
+     "prices": []
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "img": "chicken-salad.webp",
+   "note": "Served with Syrian bread. Names from the in-shop menu board; call for current prices.",
+   "head": [],
+   "items": [
+    {
+     "name": "Garden Salad",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Caesar Salad",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Tuna or Chicken Salad",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Antipasto",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Turkey and Cheese",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Greek Salad",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Chef Salad",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Garden with Grilled Chicken",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Garden with Steak Tip",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Caesar with Grilled Chicken",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Caesar with Steak Tip",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Greek with Grilled Chicken",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Chicken Finger Salad",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Buffalo Finger Salad",
+     "desc": "",
+     "prices": []
+    }
+   ]
+  },
+  {
+   "cat": "Burgers & Clubs",
+   "img": "menu-boards.webp",
+   "note": "Names from the in-shop menu board; call for current prices.",
+   "head": [],
+   "items": [
+    {
+     "name": "Hamburger",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Texas Burger",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Fish Filet",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Club Sandwich",
+     "desc": "",
+     "prices": []
+    }
+   ]
+  },
+  {
+   "cat": "Dinners & Pasta",
+   "img": "menu-boards.webp",
+   "note": "Names from the in-shop menu board; call for current prices.",
+   "head": [],
+   "items": [
+    {
+     "name": "Chicken Tenders",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Buffalo Tenders",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Buffalo Wings",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "BBQ Tenders",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "BBQ Wings",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Teriyaki Wings",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Teriyaki Tenders",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Grilled Chicken",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Steak Tip",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Grilled Chicken Stir Fry",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Steak Tip Stir Fry",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Spaghetti or Ziti",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Cheese Lasagna",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Ravioli with Sauce",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Fried Haddock",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Baked Haddock",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Whole Fried Clams",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Fried Scallops",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Baked Scallops",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Fried Seafood Plate",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Junior, Regular and Super Roast Beef",
+     "desc": "",
+     "prices": []
+    }
+   ]
+  },
+  {
+   "cat": "Sides & Sweets",
+   "img": "pizza-chicken-bacon.webp",
+   "note": "Fries and mozzarella sticks prices are from public listings and may have changed.",
+   "head": [],
+   "items": [
+    {
+     "name": "French Fries",
+     "desc": "",
+     "prices": [
+      5.95
+     ]
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "desc": "",
+     "prices": [
+      9.95
+     ]
+    },
+    {
+     "name": "Assorted Brownies",
+     "desc": "",
+     "prices": []
+    },
+    {
+     "name": "Baklava",
+     "desc": "",
+     "prices": []
+    }
+   ]
+  }
+ ]
+}

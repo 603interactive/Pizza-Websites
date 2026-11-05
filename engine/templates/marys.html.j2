@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#B3141B">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Mary's Pizza home"><img src="{{ img('chef-logo.webp') }}" width="500" height="465" alt=""><span>Mary's Pizza<small>Gorham, NH · est. 1947</small></span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#deals">Specials</a><a href="#menu">Menu</a><a href="#build">Build a pizza</a><a href="#story">Our story</a><a href="#visit">Hours &amp; location</a><a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <div class="hero-copy">
+    <p class="pill"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+    <h1>Home-style cooking <em>since 1947.</em></h1>
+    <p class="sub">Fresh dough pizza and homemade pasta in the North Country, made the way Mary always made it. Now serving from 9 Cascade Flats in Gorham.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+    <p class="mini"><a href="#menu">See the full menu with prices</a></p>
+  </div>
+  <figure class="hero-ph"><img src="{{ img('storefront.webp') }}" width="720" height="627" alt="The white Mary's Pizza building on Cascade Flats with its red awning, chef sign and OPEN flag" fetchpriority="high"><figcaption>9 Cascade Flats, Gorham</figcaption></figure>
+</section>
+
+<section class="awards" aria-label="Awards and press">
+  <ul class="wrap">
+    <li><b>Best Pizza in NH</b><span>Voted by viewers of WMUR 9, 2016 &amp; 2018</span></li>
+    <li><b>Best Pizzeria of the Great North Woods</b><span>New Hampshire Magazine, 2018</span></li>
+    <li><b>As featured in</b><span>Viva Italia and New Hampshire To Do magazines</span></li>
+  </ul>
+</section>
+
+<section class="deals sec" id="deals">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Deals</p><h2>What's the <em>deal</em> today?</h2></div>
+    <div class="today" id="today" aria-live="polite"><p class="t-lab" id="t-lab">Today</p><p class="t-big" id="t-big"></p><p class="t-sub" id="t-sub"></p></div>
+    <ul class="dcards">
+      <li data-d="all"><span class="d-day">Every day</span><h3>Lunch Special</h3><p>1 Large Cheese Pizza</p><b class="d-pr">$10.00</b></li>
+      <li data-d="2"><span class="d-day">Every Tuesday</span><h3>Pizza &amp; Breadsticks</h3><p>1 Large 1-Topping Pizza, 4 Breadsticks &amp; a 2 liter of Soda</p><b class="d-pr">$19.99</b></li>
+      <li data-d="4"><span class="d-day">Every Thursday</span><h3>Two Large Pies</h3><p>2 Large 3-Topping Pizzas</p><b class="d-pr">$32.99</b></li>
+    </ul>
+    <p class="fine">From the July 2026 takeout menu. The lunch special's hours are not stated on the menu; ask when you call.</p>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The whole menu</p><h2>Pizza, pasta &amp; <em>everything</em> else</h2>
+    <p class="lede">Every dish and price from the shop's own July 2026 menu, readable on any phone. S is Small, L is Large.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" data-t="{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: lasagna, chicken, feta…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for c in menu %}<section class="m-panel" id="mp{{ loop.index0 }}" role="tabpanel" aria-labelledby="mt{{ loop.index0 }}" data-p="{{ loop.index0 }}" {% if not loop.first %}hidden{% endif %}>
+      <div class="m-ph"><h3>{{ c.cat }}</h3>{% if c.note %}<p>{{ c.note }}</p>{% endif %}</div>
+      <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc ~ ' ' ~ c.cat)|lower) }}">
+        <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+        {% if it.prices %}<div class="m-p">{% for p in it.prices %}<span>{% if p.l %}<small>{{ p.l }}</small>{% endif %}{{ money(p.v) }}</span>{% endfor %}</div>{% endif %}</li>{% endfor %}</ul></section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try "chicken" or "pasta".</p>
+    <p class="fine">Prices are from the shop's July 2026 takeout menu and may change. Gluten-free pizza is available in small only.</p>
+  </div>
+</section>
+
+<section class="build sec" id="build">
+  <div class="wrap build-in">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>Build a pizza, <em>see the price</em></h2>
+    <p class="lede">Pick a size, a crust and your toppings. The total uses the shop's own Create Your Own price list.</p></div>
+    <form class="bld" id="bld" onsubmit="return false">
+      <fieldset><legend>Size</legend><div class="opts" role="radiogroup"><label><input type="radio" name="size" value="S"><span>Small</span></label><label><input type="radio" name="size" value="L" checked><span>Large</span></label></div></fieldset>
+      <fieldset><legend>Crust</legend><div class="opts"><label><input type="radio" name="crust" value="reg" checked><span>Regular</span></label><label><input type="radio" name="crust" value="thin"><span>Thin</span></label><label><input type="radio" name="crust" value="pan"><span>Pan (thick)</span></label><label><input type="radio" name="crust" value="gf"><span>Gluten-free</span></label></div><p class="fine" id="crust-note">Thin and regular are cooked on a screen for a soft center.</p></fieldset>
+      <fieldset><legend>Toppings <span class="cnt" id="b-cnt">0 chosen</span></legend><div class="tops">{% for t in toppings %}<label><input type="checkbox" name="top" value="{{ t }}"><span>{{ t }}</span></label>{% endfor %}</div></fieldset>
+      <fieldset><legend>Extras</legend><div class="opts"><label><input type="checkbox" id="x-cheese"><span>Extra cheese</span></label><label><input type="checkbox" id="x-sauce"><span>Extra sauce</span></label></div></fieldset>
+    </form>
+    <aside class="ticket" aria-live="polite"><p class="tk-h">Your pizza</p><p class="tk-d" id="tk-d"></p><p class="tk-p" id="tk-p"></p><p class="tk-f">Estimate from the menu price list, before tax. Specialty pizzas are on the menu above. Call or order online to place it.</p><div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call to order</a></div></aside>
+  </div>
+</section>
+
+<section class="story sec" id="story">
+  <div class="wrap story-in">
+    <figure class="s-a"><img src="{{ img('family-1940s.webp') }}" width="720" height="547" alt="Black-and-white group photo of a large family, seated and standing, raising cups" loading="lazy"><figcaption>An old family photo from the shop's website</figcaption></figure>
+    <div class="s-t"><p class="kicker">Our story</p><h2>A family place <em>for 79 years</em></h2>
+    <p class="lede">"What started as a vision back in 1947 by Mary herself &amp; husband Camillo Ferrante, has now, even to this day, been a huge favorite amongst our customers, near &amp; far."</p>
+    <p class="lede">"Mary's prides itself on using the best ingredients sourced from premium vendors, creating all dishes with ultimate quality and putting customer service above all."</p></div>
+  </div>
+  <div class="wrap">
+    <h3 class="fam-h">Passed on through generations</h3>
+    <ol class="fam" aria-label="Families who have run Mary's Pizza">
+      <li><b>Camillo &amp; Mary</b><i>Founders, 1947</i></li><li><b>Tony &amp; Lorraine</b></li><li><b>Jim &amp; Maggie</b></li><li><b>Phil &amp; Thera</b></li>
+    </ol>
+    <p class="quote">"Whether it's been your second time this week, back visiting for the holidays, or the tourist that finds us, your support and loyalty is what continues to bring this establishment such success. We thank you immensely and look forward to serving you on your next visit. Many Thanks Today and Always, <em>Mary's Pizza Familia</em>"</p>
+    <div class="treats"><figure><img src="{{ img('pastries-tray.webp') }}" width="720" height="960" alt="Tray of glazed fruit-filled pastries on a red gingham tablecloth" loading="lazy"></figure><figure><img src="{{ img('pastry-case.webp') }}" width="720" height="960" alt="Glass pastry case with cinnamon rolls, glazed doughnuts and Danish" loading="lazy"></figure>
+      <div><p class="kicker">From the shop's Facebook page</p><p class="lede sm">Baked goods in the case and on the tray, shared by Mary's Pizza on Facebook. <a href="{{ facebook }}" rel="noopener">Follow along there</a> for what's new.</p></div></div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>9 Cascade Flats, <em>Gorham</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <p class="soc"><a href="{{ facebook }}" rel="noopener">Mary's Pizza on Facebook</a></p></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">Lunch 11 AM – 2 PM, dinner 4 PM – 8 PM, closed between. Closed Sundays. Hours are from the July 2026 menu; call ahead on holidays.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><img src="{{ img('chef-logo.webp') }}" width="500" height="465" alt=""><div><p>Mary's Pizza · {{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Mary's Pizza. Serving the North Country since 1947. Many thanks today and always, Mary's Pizza Familia.</p></div></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="#menu">Menu</a></div>
+<script>window.__HOURS__={{ hours_json }};window.__CALC__={{ calc_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

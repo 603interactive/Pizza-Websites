@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#B8201F">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Seabrook House of Pizza home"><span class="brand-m" aria-hidden="true">S</span><span class="brand-t">Seabrook<small>House of Pizza</small></span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#ways">Ways to eat</a><a href="#menu">Menu</a><a href="#inside">Inside</a><a href="#visit">Visit</a><a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <div class="hero-copy wrap">
+    <p class="pill"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+    <h1>Pizza, subs<br>&amp; <em>seafood.</em></h1>
+    <p class="sub">A family-owned spot on Lafayette Road in Seabrook, NH. Pizza, calzones, salads, subs, seafood, roast beef and gyro: dine in, take it out, or have it delivered.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+    <p class="mini">{{ loc.street }}, {{ loc.city }}, {{ loc.region }}</p>
+  </div>
+  <figure class="hero-ph"><img src="{{ img('pizza.webp') }}" width="926" height="616" alt="Close-up of a pizza with melted cheese, tomato and black olives on a golden crust" fetchpriority="high"></figure>
+</section>
+
+<section class="ways sec" id="ways">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Your call</p><h2>Three ways to <em>eat</em></h2>
+    <p class="lede">The shop does it all: dine in, takeout and delivery. Pick one and go.</p></div>
+    <div class="way-grid">
+      <article class="way"><span class="way-n" aria-hidden="true">01</span><h3>Dine in</h3><p>Pull up a table or booth at {{ loc.street }} and eat in.</p><a class="btn btn-line" href="{{ loc.maps }}" rel="noopener">Get directions</a></article>
+      <article class="way way-hot"><span class="way-n" aria-hidden="true">02</span><h3>Takeout</h3><p>Order online or call ahead and take it with you.</p><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a></article>
+      <article class="way"><span class="way-n" aria-hidden="true">03</span><h3>Delivery</h3><p>Also available through Uber Eats.</p><a class="btn btn-line" href="{{ ubereats }}" rel="noopener">Order on Uber Eats</a></article>
+    </div>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The menu</p><h2>What are you <em>craving?</em></h2>
+    <p class="lede">Pick a craving to see what the shop makes. Item names and today's prices live on the shop's online ordering page.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" data-t="{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: calzone, soup, smoothie…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for c in menu %}<section class="m-panel" id="mp{{ loop.index0 }}" role="tabpanel" aria-labelledby="mt{{ loop.index0 }}" data-p="{{ loop.index0 }}" {% if not loop.first %}hidden{% endif %}>
+      {% if not c.noimg %}<figure class="m-ph"><img src="{{ img(c.img) }}" alt="{{ esc(c.alt) }}" loading="lazy"></figure>{% endif %}
+      <div class="m-body"><h3>{{ c.cat }}</h3><p class="m-note">{{ c.note }}</p>
+      <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc(it|lower) }}"><a href="{{ order_any }}" rel="noopener"><span>{{ it }}</span><i aria-hidden="true">→</i></a></li>{% endfor %}</ul>
+      <a class="btn" href="{{ order_any }}" rel="noopener">See items &amp; prices</a></div></section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on this list matches that. Try "sub", "pizza" or "soup", or call <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a>.</p>
+    <p class="fine">Categories as listed on the shop's Uber Eats page. Order online for the current items and prices.</p>
+  </div>
+</section>
+
+<section class="inside sec" id="inside" aria-labelledby="in-h">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Straight from the shop</p><h2 id="in-h">From the <em>Seabrook</em> kitchen</h2></div>
+    <div class="reel">
+      <figure class="r-big"><img src="{{ img('interior.webp') }}" width="1440" height="958" alt="Inside the shop: booths and tables, a cooler of drinks, a chip rack and the menu screens above the counter" loading="lazy"><figcaption>Booths, a cooler full of drinks and the menu boards</figcaption></figure>
+      <figure><img src="{{ img('roast-beef.webp') }}" width="1065" height="1600" alt="Roast beef sandwich piled high with gravy on a sesame roll" loading="lazy"><figcaption>Roast beef</figcaption></figure>
+      <figure><img src="{{ img('tenders.webp') }}" width="926" height="616" alt="Golden fried chicken tenders in a paper tray" loading="lazy"><figcaption>Chicken tenders</figcaption></figure>
+      <figure><img src="{{ img('steak-caesar.webp') }}" width="926" height="616" alt="Caesar salad topped with grilled steak pieces and croutons, with dressing on the side" loading="lazy"><figcaption>Steak Caesar</figcaption></figure>
+      <figure><img src="{{ img('pizza-tall.webp') }}" width="926" height="1391" alt="Pizza topped with black olives, crumbled cheese and tomato" loading="lazy"><figcaption>Olive pizza</figcaption></figure>
+      <figure><img src="{{ img('greek-salad.webp') }}" width="926" height="616" alt="Salad with feta, red onion, cucumber and green pepper in a takeout container" loading="lazy"><figcaption>Salad with feta</figcaption></figure>
+      <figure><img src="{{ img('caesar.webp') }}" width="926" height="616" alt="Caesar salad with romaine and croutons in a takeout container" loading="lazy"><figcaption>Caesar salad</figcaption></figure>
+      <figure><img src="{{ img('chicken-rice.webp') }}" width="926" height="616" alt="Grilled chicken over rice with sauteed vegetables in a takeout box" loading="lazy"><figcaption>Chicken and rice</figcaption></figure>
+      <figure><img src="{{ img('dessert.webp') }}" width="910" height="1137" alt="Strawberry cream dessert topped with whipped cream and a fresh strawberry" loading="lazy"><figcaption>Strawberry cream dessert</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div class="v-main"><p class="kicker">Come in or call</p><h2>On Lafayette Road, <em>Seabrook</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-line" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <ul class="social"><li><a href="{{ facebook }}" rel="noopener">Facebook</a></li><li><a href="{{ instagram }}" rel="noopener">Instagram</a></li><li><a href="{{ ubereats }}" rel="noopener">Uber Eats</a></li></ul>
+      <figure class="front"><img src="{{ img('storefront.webp') }}" width="840" height="720" alt="Shop storefront with the red Seabrook House of Pizza sign, American flag, Coca-Cola umbrellas and flower planters" loading="lazy"></figure></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">Hours as listed on Uber Eats. Please call to confirm days and holiday hours.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><div><p class="foot-n">Seabrook House of Pizza</p><p>{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">Dine in · Takeout · Delivery · © {{ year }} Seabrook House of Pizza</p></div></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+<script>window.__HOURS__={{ hours_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

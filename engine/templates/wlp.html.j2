@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#0A1450">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="White Lake Pizza home"><img src="{{ img('logo.webp') }}" width="640" height="540" alt="White Lake Pizza logo, a cartoon chef tossing dough"><span class="bn">White Lake <b>Pizza</b></span></a>
+  <p class="top-st"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#menu">Menu</a><a href="#fresh">Made fresh</a><a href="#about">The shop</a><a href="#visit">Hours and directions</a><a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <figure class="hero-ph"><img src="{{ img('cheese-pull.webp') }}" width="1200" height="1200" alt="A slice of pepperoni pizza lifted from the pie with long strings of melted cheese" fetchpriority="high"></figure>
+  <div class="hero-copy wrap">
+    <p class="kicker">West Ossipee, New Hampshire</p>
+    <h1>Fresh dough.<br>Fresh sauce.<br><em>Every day.</em></h1>
+    <p class="sub">Pizza, calzones, subs and pasta at the corner of Route 16 and Route 41. Our pizza dough and sauces are made fresh daily on the premises.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+  </div>
+</section>
+
+<section class="strip" aria-label="At a glance">
+  <ul class="wrap">
+    <li><b>Open 7 days</b><span>Hours below</span></li>
+    <li><b>Slices 11 to 2</b><span>Served daily</span></li>
+    <li><b>Order online</b><span>Online ordering now available</span></li>
+    <li><b>10 NH Route 41</b><span>Corner of Rte 16 and 41</span></li>
+  </ul>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The whole menu</p><h2>Every item, <em>every price</em></h2>
+    <p class="lede">Pick a section, or search for anything: "feta", "steak", "calzone".</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" data-t="{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search the menu" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for c in menu %}<section class="m-panel" id="mp{{ loop.index0 }}" role="tabpanel" aria-labelledby="mt{{ loop.index0 }}" data-p="{{ loop.index0 }}" {% if not loop.first %}hidden{% endif %}>
+      <h3 class="m-title">{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+      {% for s in c.sections %}<div class="m-sec"><div class="m-sh"><h4>{{ s.title }}</h4>{% if s.head %}<p class="m-cols" aria-hidden="true">{% for h in s.head %}<span>{{ h }}</span>{% endfor %}</p>{% endif %}</div>
+      {% if s.note %}<p class="m-snote">{{ s.note }}</p>{% endif %}
+      <ul class="m-list">{% for it in s['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc ~ ' ' ~ s.title ~ ' ' ~ c.cat)|lower) }}">
+        <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+        <div class="m-p">{% for p in it.prices %}<span>{% if s.head and s.head[loop.index0] %}<small>{{ s.head[loop.index0] }}</small>{% endif %}{{ money(p) }}</span>{% endfor %}</div></li>{% endfor %}</ul></div>{% endfor %}
+    </section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try "chicken" or "feta".</p>
+    <div class="terms"><h3>Good to know</h3><ul>
+      <li>Please add 8.5% meals tax to all prices.</li>
+      <li>Please add 3.8% to all prices when paying by card. We accept Mastercard, Visa, American Express, Discover, Apple Pay and Google Pay. Sorry, no personal checks.</li>
+      <li>Prices are subject to change without notice. Not responsible for typographic errors.</li>
+      <li>*Consuming raw or uncooked meats, poultry, eggs or seafood may increase your risk of foodborne illness.</li></ul></div>
+  </div>
+</section>
+
+<section class="fresh sec" id="fresh">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">On the premises</p><h2>Made fresh <em>daily</em></h2>
+    <p class="lede">"Our pizza dough and sauces are made fresh daily on the premises." From dough to oven to the box, here is a look at the pie.</p></div>
+    <ol class="steps">
+      <li><figure><img src="{{ img('dough-balls.webp') }}" width="1000" height="1000" alt="Rows of fresh dough balls resting on a steel tray" loading="lazy"></figure><h3><span>1</span> Dough</h3></li>
+      <li><figure><img src="{{ img('sauce-ladle.webp') }}" width="1000" height="1000" alt="Red sauce being spread with a ladle over a stretched round of dough" loading="lazy"></figure><h3><span>2</span> Sauce</h3></li>
+      <li><figure><img src="{{ img('oven-glow.webp') }}" width="1000" height="1000" alt="A pizza and cut slices on the deck of a glowing oven, with a peel at the left" loading="lazy"></figure><h3><span>3</span> Oven</h3></li>
+      <li><figure><img src="{{ img('pizza-in-box.webp') }}" width="1000" height="1000" alt="A sliced pepperoni pizza in an open cardboard box" loading="lazy"></figure><h3><span>4</span> Box</h3></li>
+    </ol>
+    <div class="reel">
+      <figure><img src="{{ img('pepperoni-oven.webp') }}" width="1000" height="1000" alt="Pepperoni pizza coming out from under the oven hood" loading="lazy"></figure>
+      <figure><img src="{{ img('sausage-pizza.webp') }}" width="1000" height="1000" alt="Sausage pizza with browned cheese in a cardboard box" loading="lazy"></figure>
+      <figure><img src="{{ img('loaded-closeup.webp') }}" width="1000" height="1000" alt="Close-up of a loaded pizza with pepperoni, sausage, mushrooms, onions and green peppers" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="about sec" id="about">
+  <div class="wrap about-in">
+    <figure class="a-sign"><img src="{{ img('roadside-sign.webp') }}" width="700" height="620" alt="The White Lake Pizza roadside sign: Calzones, Subs and Pasta, Slices 11 to 2" loading="lazy"></figure>
+    <div class="a-t"><p class="kicker">The shop</p><h2>On the corner of <em>16 and 41</em></h2>
+      <p class="lede">White Lake Pizza is open seven days a week at 10 NH Route 41 in West Ossipee. Sit down in the dining room or take it to go, and grab a slice any day from 11 AM to 2 PM.</p>
+      <p class="lede">The menu runs from pizza and calzones to subs, pasta dinners, salads and a kids menu. Try your favorite sub as a wrap or on a bulkie roll.</p>
+      <p class="lede"><a class="tlink" href="{{ facebook }}" rel="noopener">White Lake Pizza on Facebook</a></p></div>
+    <figure class="a-d1"><img src="{{ img('dining-room.webp') }}" width="1316" height="640" alt="Dining room with wood tables, burgundy chairs, a drinks cooler and the menu boards over the counter" loading="lazy"></figure>
+    <figure class="a-d2"><img src="{{ img('dining-room-2.webp') }}" width="1316" height="640" alt="Dining room with booths and tables beside large windows looking out at the road" loading="lazy"></figure>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>10 NH Route 41, <em>West Ossipee</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}<br><span>On the corner of Route 16 and Route 41</span></p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <p class="fine">You may have to dial *82 first if your telephone number is blocked.</p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <div class="seg" role="group" aria-label="Season"><button type="button" data-season="off" aria-pressed="true">Spring, Fall, Winter</button><button type="button" data-season="summer" aria-pressed="false">Summer</button></div>
+      {% for key, rows in (('off', week_off), ('summer', week_summer)) %}<table data-season-table="{{ key }}" {% if key == 'summer' %}hidden{% endif %}><caption class="sr">{{ 'Spring, fall and winter hours' if key == 'off' else 'Summer hours' }}</caption><tbody>{% for r in rows %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}<small>{{ r.dine }}</small></td></tr>{% endfor %}</tbody></table>{% endfor %}
+      <p class="fine">Slices served daily 11 AM to 2 PM. Hours are from the shop's website; the season changeover dates are not published, so call to confirm.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><img src="{{ img('logo.webp') }}" width="640" height="540" alt="White Lake Pizza logo"><div><p>{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a> · <a href="{{ facebook }}" rel="noopener">Facebook</a></p><p class="mini">© {{ year }} White Lake Pizza. Please add 8.5% meals tax to all prices.</p></div></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+<script>window.__HOURS__={{ hours_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

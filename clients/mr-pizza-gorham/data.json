@@ -1,0 +1,502 @@
+{
+ "slug": "mr-pizza-gorham",
+ "name": "Mr. Pizza Restaurant & Tavern",
+ "short": "Mr. Pizza",
+ "domain": "https://mrpizzanh.net",
+ "tagline": "Delicious Pizza, Burgers and Family Style Lunch & Dinner.",
+ "seo_title": "Mr. Pizza Restaurant & Tavern | Pizza, Burgers & Family Style Dining in Gorham, NH",
+ "seo_desc": "Pizza, burgers, seafood and comfort food at 160 Main Street, Gorham, NH, with Hobbit's Tavern. Full menu with prices. Call (603) 915-9266.",
+ "locations": [
+  {
+   "id": "gorham",
+   "name": "Gorham",
+   "street": "160 Main Street",
+   "city": "Gorham",
+   "region": "NH",
+   "postal": "03581",
+   "phone": "(603) 915-9266",
+   "tel": "+16039159266",
+   "hours": [],
+   "order": null,
+   "maps": "https://www.google.com/maps/search/?api=1&query=Mr+Pizza+Restaurant+and+Tavern+160+Main+Street+Gorham+NH+03581",
+   "geo": null
+  }
+ ],
+ "order_any": "https://mrpizzanh.net/#build",
+ "facebook": "https://www.facebook.com/profile.php?id=61551594616788",
+ "toppings": {
+  "Veggies": [
+   "Roasted tomatoes",
+   "Roasted olives",
+   "Bell peppers",
+   "Red onion",
+   "Roasted garlic",
+   "Spinach",
+   "Broccoli",
+   "Jalapeño",
+   "Banana peppers",
+   "Artichoke hearts",
+   "Mushrooms",
+   "Pineapple"
+  ],
+  "Meats": [
+   "Burger",
+   "Meatball",
+   "Chicken",
+   "Ham",
+   "Pepperoni",
+   "Sausage",
+   "Bacon"
+  ],
+  "Cheeses": [
+   "Signature blend",
+   "Fresh mozzarella",
+   "Goat",
+   "Feta"
+  ]
+ },
+ "sauces": [
+  "House blend red",
+  "Alfredo",
+  "Garlic oil",
+  "BBQ"
+ ],
+ "menu": [
+  {
+   "cat": "Pizza",
+   "img": "pizza.webp",
+   "note": "10\" and 16\". Build your own on a cheese pie, or pick a house specialty.",
+   "head": [
+    "10\"",
+    "16\""
+   ],
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "desc": "",
+     "prices": [
+      10,
+      16
+     ],
+     "group": "The classics"
+    },
+    {
+     "name": "Each topping, add",
+     "desc": "",
+     "prices": [
+      1,
+      2
+     ]
+    },
+    {
+     "name": "Extra cheese, add",
+     "desc": "",
+     "prices": [
+      4,
+      4
+     ]
+    },
+    {
+     "name": "Queen Margherita",
+     "desc": "Base of house tomato sauce. Topped with roasted cherry tomatoes, fresh mozzarella cheese, basil leaves finished with parmesan cheese.",
+     "prices": [
+      16,
+      22
+     ],
+     "group": "House Specialty Pizzas"
+    },
+    {
+     "name": "Mighty Meaty",
+     "desc": "Base of house tomato sauce. Topped with hot Italian sausage, ground certified Angus beef, Texas thick bacon, capicola ham, pepperoni with our blend of shredded mozzarella and provolone cheese.",
+     "prices": [
+      16,
+      22
+     ]
+    },
+    {
+     "name": "Veg Out",
+     "desc": "Base of house tomato sauce. Topped with spinach, bell peppers, mushrooms, roasted cherry tomatoes, roasted garlic, artichoke hearts and our blend of shredded mozzarella and provolone cheese.",
+     "prices": [
+      16,
+      22
+     ]
+    },
+    {
+     "name": "Spicy BBQ Chicken",
+     "desc": "Base of BBQ sauce. Topped with grilled diced chicken, red onion, jalapeño and our blend of shredded mozzarella and provolone cheese.",
+     "prices": [
+      16,
+      22
+     ]
+    },
+    {
+     "name": "Pesto Chicken",
+     "desc": "Base of house tomato sauce. Topped with spinach, roasted cherry tomatoes, feta and our blend of shredded mozzarella and provolone cheese finished with pesto drizzle.",
+     "prices": [
+      16,
+      22
+     ]
+    },
+    {
+     "name": "Chicken Bacon Ranch",
+     "desc": "Base of house tomato sauce. Topped with grilled chicken, bacon and a ranch drizzle.",
+     "prices": [
+      16,
+      22
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Base of honey buffalo sauce. Topped with our cheese blend, loads of chicken and a ranch drizzle.",
+     "prices": [
+      16,
+      22
+     ]
+    },
+    {
+     "name": "Loaded",
+     "desc": "Base of house tomato sauce. Topped with bell peppers, onions, mushrooms, pepperoni, hamburg.",
+     "prices": [
+      18,
+      24
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers",
+   "head": [
+    ""
+   ],
+   "note": "",
+   "items": [
+    {
+     "name": "Pretzel Bites",
+     "desc": "Each nugget is freshly baked to a golden brown. Our nuggets may look mini, but they sure are mighty. Served with a honey mustard and a beer cheese sauce.",
+     "prices": [
+      10
+     ]
+    },
+    {
+     "name": "Chicken Wings",
+     "desc": "8 jumbo chicken wings tossed in your choice of sauce. Sauces: Sweet Chili, House Honey Buffalo, Jerk, XXXtreme, Teriyaki.",
+     "prices": [
+      15
+     ]
+    },
+    {
+     "name": "Chicken Tenders",
+     "desc": "Freshly battered in-house, your choice of sauce. Sauces: Sweet Chili, House Honey Buffalo, Jerk, XXXtreme, Teriyaki.",
+     "prices": [
+      15
+     ]
+    },
+    {
+     "name": "Poutine",
+     "desc": "Canadian style poutine featuring our house fries topped with beef gravy and cheese curds.",
+     "prices": [
+      14
+     ]
+    },
+    {
+     "name": "Crab Cakes",
+     "desc": "Maryland style crab cakes feature authentically seasoned breading and stuffing with generous portions of moist, sweet crabmeat, served with smoky chipotle aioli.",
+     "prices": [
+      15
+     ]
+    },
+    {
+     "name": "Bacon Wrapped Scallops",
+     "desc": "Scallops are delicious on their own, but when you cover them in bacon you end up with decadent little bites served with local maple syrup.",
+     "prices": [
+      14
+     ]
+    },
+    {
+     "name": "Crab Rangoon Dip",
+     "desc": "Hot, creamy, cheesy and loaded with crab, this dip is perfect! Served with fried wonton chips.",
+     "prices": [
+      14
+     ]
+    },
+    {
+     "name": "Mini Baked Brie",
+     "desc": "Cheeses topped with candied walnuts and our housemade cranberry coulis served with crostinis.",
+     "prices": [
+      15
+     ]
+    },
+    {
+     "name": "Loaded Potato Wedges",
+     "desc": "Baked until crispy and topped with cheddar, bacon, chives topped with a drizzle of sriracha sour cream sauce.",
+     "prices": [
+      12
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "head": [
+    ""
+   ],
+   "note": "Add protein: blackened salmon $12, grilled chicken $7, crab cakes $15, veggie patty $8.",
+   "items": [
+    {
+     "name": "Antipasto",
+     "desc": "An Italian salad that everyone loves! Mixed greens topped with Genoa salami, mortadella, capicola, provolone, roasted cherry tomatoes, artichoke hearts, bell peppers and olives.",
+     "prices": [
+      18
+     ]
+    },
+    {
+     "name": "Beet & Goat Cheese",
+     "desc": "Roasted beets over mixed greens topped with creamy goat cheese, pickled red onion and candied walnuts.",
+     "prices": [
+      15
+     ]
+    },
+    {
+     "name": "Classic Garden",
+     "desc": "Fresh crispy veggies served over mixed greens.",
+     "prices": [
+      12
+     ]
+    },
+    {
+     "name": "Caesar Salad",
+     "desc": "Crisp, chilled romaine lettuce tossed with croutons, parmesan cheese, and zesty Caesar dressing, topped with more parmesan cheese.",
+     "prices": [
+      12
+     ]
+    },
+    {
+     "name": "Wedge Salad",
+     "desc": "Crisp iceberg wedge topped with bacon crumbles, pickled red onion, tomatoes and a creamy blue cheese dressing and a balsamic drizzle.",
+     "prices": [
+      15
+     ]
+    },
+    {
+     "name": "Soup du Jour",
+     "desc": "",
+     "prices": [],
+     "ptxt": "Price will vary"
+    }
+   ]
+  },
+  {
+   "cat": "Sandwiches",
+   "img": "smash-burger.webp",
+   "head": [
+    ""
+   ],
+   "note": "All sandwiches come with house made chips. Upgrade your side for $4: fries, tater tots, sweet fries, onion rings, cole slaw or a side salad.",
+   "items": [
+    {
+     "name": "Steak and Cheese",
+     "desc": "Tender shredded sirloin and creamy American cheese, cooked up and loaded onto a baguette. Add peppers, onions and mushrooms for $3.",
+     "prices": [
+      18
+     ],
+     "group": "Hot sandwiches"
+    },
+    {
+     "name": "Pastrami",
+     "desc": "Black pastrami grilled up with Swiss cheese, loaded onto a baguette.",
+     "prices": [
+      18
+     ]
+    },
+    {
+     "name": "Meatball",
+     "desc": "Loaded with our house-made meatballs and sauce, topped with provolone, served on a toasted baguette.",
+     "prices": [
+      14
+     ]
+    },
+    {
+     "name": "Fried Haddock Filet",
+     "desc": "Fresh filet of haddock, lightly breaded and fried in house, served on a bun with tartar sauce.",
+     "prices": [
+      16
+     ]
+    },
+    {
+     "name": "Chicken Breast",
+     "desc": "A 6 oz. chicken breast, grilled or fried to perfection, served on a bun. Make it black and blue, +$2.",
+     "prices": [
+      16
+     ]
+    },
+    {
+     "name": "Chicken Parm Sub",
+     "desc": "Tender, juicy, crispy chicken topped with marinara sauce and mozzarella cheese, baked, served hot and saucy.",
+     "prices": [
+      18
+     ]
+    },
+    {
+     "name": "Smash Burger",
+     "desc": "Seared certified Angus beef patty, served on a bun.",
+     "prices": [],
+     "ptxt": "Single $12 · Double $14 · Triple $16"
+    },
+    {
+     "name": "Twin Hot Dogs",
+     "desc": "With choice of side.",
+     "prices": [
+      12
+     ]
+    },
+    {
+     "name": "Original Spicy Italian",
+     "desc": "Salami, pepperoni, spicy capicola and provolone cheese topped with lettuce, tomatoes, bell peppers, black olives and hot pepper relish, olive oil and red wine vinegar.",
+     "prices": [
+      15
+     ],
+     "group": "Cold sandwiches"
+    },
+    {
+     "name": "B.L.T.",
+     "desc": "Loads of thick sliced bacon, finely shredded lettuce and thinly sliced tomato with mayo, served on a baguette.",
+     "prices": [
+      14
+     ]
+    },
+    {
+     "name": "T.B.L.T.",
+     "desc": "Just like our B.L.T. with the addition of sliced turkey breast, served on a baguette.",
+     "prices": [
+      16
+     ]
+    },
+    {
+     "name": "Lobster Roll",
+     "desc": "A buttery toasted lobster roll with plump juicy lobster salad piled high. Maine lobster meat lightly tossed in mayo.",
+     "prices": [
+      30
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Entrees",
+   "head": [
+    ""
+   ],
+   "note": "Steak and seafood entrees are served with coleslaw or vegetable of the day and a choice of french fries, sweet fries, onion rings, baked potato, mashed potato or tater tots.",
+   "items": [
+    {
+     "name": "Fried Shrimp",
+     "desc": "Shrimp, shrimp, glorious, fried shrimp.",
+     "prices": [
+      22
+     ]
+    },
+    {
+     "name": "Fried Haddock",
+     "desc": "Fresh fish is always, always better, especially when you are deep-frying it in batter.",
+     "prices": [
+      24
+     ]
+    },
+    {
+     "name": "Fried Scallops",
+     "desc": "Fried sea scallops are a real treat. Most everything tastes better fried, including scallops.",
+     "prices": [
+      27
+     ]
+    },
+    {
+     "name": "Seafood Casserole",
+     "desc": "New England classic consisting of haddock, shrimp and plump scallops topped with our crab meat stuffing and our lobster sauce.",
+     "prices": [
+      32
+     ]
+    },
+    {
+     "name": "Baked Stuffed Haddock",
+     "desc": "A baked fish that has been stuffed with crabmeat, of course!",
+     "prices": [
+      26
+     ]
+    },
+    {
+     "name": "Seared Scallops",
+     "desc": "Pan-seared scallops make an elegant dinner! To finish the dish, a simple lemon-butter pan sauce.",
+     "prices": [
+      28
+     ]
+    },
+    {
+     "name": "Pan-Seared Salmon",
+     "desc": "Try it blackened! A nice hint of a charred flavor in every tender bite.",
+     "prices": [
+      24
+     ]
+    },
+    {
+     "name": "Butcher's Cut",
+     "desc": "Chargrilled to your desired temperature, richly flavored and deliciously juicy.",
+     "prices": [],
+     "ptxt": "Market price"
+    }
+   ]
+  },
+  {
+   "cat": "Comfort Food",
+   "img": "pot-roast.webp",
+   "head": [
+    ""
+   ],
+   "note": "",
+   "items": [
+    {
+     "name": "Macaroni and Cheese",
+     "desc": "A heaping bowl of pasta covered in our creamy cheese sauce. Feeling fancy? Add buffalo chicken $8. Add lobster $15.",
+     "prices": [
+      12
+     ]
+    },
+    {
+     "name": "American Chop Suey",
+     "desc": "It's a New England thing, it's pure comfort food. Served with a buttery baguette slice bursting with flavor from fresh garlic and parsley.",
+     "prices": [
+      15
+     ]
+    },
+    {
+     "name": "Spaghetti and Meatballs",
+     "desc": "A classic, family favorite meal! Tender, juicy meatballs over a bed of spaghetti with hearty marinara sauce and garlic baguette.",
+     "prices": [
+      15
+     ]
+    },
+    {
+     "name": "Chicken Parmesan",
+     "desc": "Breaded chicken that is fried and then baked with rich tomato sauce, Italian cheese, and herbs. Served over a bed of pasta and garlic bread.",
+     "prices": [
+      18
+     ]
+    },
+    {
+     "name": "Meatloaf",
+     "desc": "Tender and juicy on the inside with a sweet and tangy glaze. Served with gravy over mashed potatoes and vegetable of the day.",
+     "prices": [
+      18
+     ]
+    },
+    {
+     "name": "Pot Roast",
+     "desc": "Fall-apart-tender pot roast served with gravy over mashed potatoes and vegetable of the day.",
+     "prices": [
+      18
+     ]
+    }
+   ]
+  }
+ ],
+ "findings": [],
+ "questions": []
+}

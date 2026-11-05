@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#16335C">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Mr. Pizza Restaurant &amp; Tavern home"><img src="{{ img('logo.webp') }}" width="1024" height="614" alt="Mr. Pizza Restaurant &amp; Tavern logo"></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#menu">Menu</a><a href="#build">Build a pie</a><a href="#tavern">The Tavern</a><a href="#visit">Visit</a><a class="btn btn-sm" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <div class="hero-copy wrap">
+    <p class="pill">{{ loc.street }}, {{ loc.city }}, {{ loc.region }}</p>
+    <h1>Family style lunch <em>&amp; dinner.</em></h1>
+    <p class="sub">{{ tagline }} Takeout is a phone call away, and Hobbit's Tavern is right inside.</p>
+    <div class="cta"><a class="btn" href="tel:{{ loc.tel }}">Call to order</a><a class="btn btn-ghost" href="#menu">See the menu</a></div>
+    <p class="mini">Hours: <a href="#visit">call to confirm</a> · 3% fee on credit cards</p>
+  </div>
+  <figure class="hero-ph"><img src="{{ img('pizza.webp') }}" width="1290" height="1290" alt="Golden baked cheese pizza with chicken and bacon pieces, cut into squares" fetchpriority="high"></figure>
+</section>
+
+<section class="build sec" id="build">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Only on this site</p><h2>Build your <em>pie</em></h2>
+    <p class="lede">Pick a size, add toppings and watch the price add up, using the shop's own menu prices: a cheese pie, $1 (10") or $2 (16") per topping, $4 for extra cheese. Then call it in.</p></div>
+    <form class="bp" id="bp" onsubmit="return false">
+      <div class="bp-l">
+        <fieldset class="bp-size"><legend>1. Size</legend>
+          <label><input type="radio" name="size" value="0" checked><span><b>10"</b> cheese $10</span></label>
+          <label><input type="radio" name="size" value="1"><span><b>16"</b> cheese $16</span></label></fieldset>
+        {% for grp, items in toppings.items() %}<fieldset class="bp-top"><legend>{{ loop.index + 1 }}. {{ grp }}</legend><div class="chips">{% for t in items %}<label class="chip"><input type="checkbox" name="top" value="{{ t }}" data-k="{{ 'cheese' if grp == 'Cheeses' else 'top' }}"><span>{{ t }}</span></label>{% endfor %}</div></fieldset>{% endfor %}
+        <fieldset class="bp-top"><legend>5. Extra</legend><div class="chips"><label class="chip"><input type="checkbox" id="bp-xc"><span>Extra cheese (+$4)</span></label></div>
+          <p class="fine">Sauces on the menu: {{ sauces|join(', ') }}. Ask when you call whether a sauce changes the price.</p></fieldset>
+      </div>
+      <aside class="bp-r" aria-live="polite">
+        <p class="bp-k">Your pie</p>
+        <p class="bp-total" id="bp-total">$10</p>
+        <p class="bp-sum" id="bp-sum"></p>
+        <a class="btn" id="bp-call" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a>
+        <button class="btn btn-ghost" type="button" id="bp-reset">Start over</button>
+        <p class="fine">Price before tax and the 3% credit card processing fee. Prefer a house recipe? See the <a href="#menu">specialty pizzas</a>.</p>
+      </aside>
+    </form>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Come hungry, leave happy</p><h2>The whole <em>menu</em></h2>
+    <p class="lede">Every item and price from the shop's printed menu, now readable on a phone and searchable.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" data-t="{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: scallops, BBQ, feta…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for c in menu %}<section class="m-panel" id="mp{{ loop.index0 }}" role="tabpanel" aria-labelledby="mt{{ loop.index0 }}" data-p="{{ loop.index0 }}" {% if not loop.first %}hidden{% endif %}>
+      <div class="m-ph">{% if c.img %}<img src="{{ img(c.img) }}" alt="" loading="lazy">{% endif %}<div><h3>{{ c.cat }}</h3>{% if c.note %}<p>{{ c.note }}</p>{% endif %}</div></div>
+      {% if c.head|length > 1 %}<p class="m-cols" aria-hidden="true">{% for h in c.head %}<span>{{ h }}</span>{% endfor %}</p>{% endif %}
+      <ul class="m-list">{% for it in c['items'] %}{% if it.group %}<li class="m-g" data-g>{{ it.group }}</li>{% endif %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc ~ ' ' ~ c.cat)|lower) }}">
+        <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+        <div class="m-p">{% if it.ptxt %}<span class="tx">{{ it.ptxt }}</span>{% else %}{% for p in it.prices %}<span>{% if c.head[loop.index0] %}<small>{{ c.head[loop.index0] }}</small>{% endif %}{{ money(p) }}</span>{% endfor %}{% endif %}</div></li>{% endfor %}</ul>
+      {% if c.cat == 'Pizza' %}<div class="m-top"><h4>Toppings</h4>{% for grp, items in toppings.items() %}<p><b>{{ grp }}:</b> {{ items|join(' · ') }}</p>{% endfor %}<p><b>Sauces:</b> {{ sauces|join(' · ') }}</p></div>{% endif %}
+    </section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try "chicken" or "fried".</p>
+    <p class="fine">Prices are from the shop's printed menu and may change. There is a 3% processing fee for credit card payments. Our food may contain or have come in contact with peanuts, tree nuts, soy, eggs, wheat, fish, shellfish or dairy products; please speak to your server if you have any concerns. Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness.</p>
+  </div>
+</section>
+
+<section class="tavern sec" id="tavern">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Beyond food there's Hobbit's Tavern</p><h2>Pizza <em>&amp;</em> Tavern</h2></div>
+    <div class="t-in">
+      <div class="t-t">
+        <p class="lede">"Dining isn't just about food, it's about atmosphere. Mr. Pizza has been a staple "go to" place in the community for a long time. Incorporating the history of Mr. Pizza and Hobbit's Tavern, with a modern twist, links the past to the future of this establishment. The future is pizza and that future is now!"</p>
+        <p class="lede">"Quality fresh ingredients amongst a broad menu of dishes that will cater to all crowds. Beyond food there's Hobbit's Tavern. Vintage history welcoming today's story tellers. Hobbit's is a place to socialize, unwind, watch some sports, and make new friends. Mr. Pizza welcomes families, friends, regulars, and strangers."</p>
+        <p class="lede q">"This fun filled welcoming atmosphere will not only make sure you leave full, but you will leave happy."</p>
+        <p class="fine">From the Mr. Pizza menu.</p>
+      </div>
+      <div class="t-g">
+        <figure class="g1"><img src="{{ img('smash-burger.webp') }}" width="1000" height="1000" alt="Double smash burger with coleslaw and pulled pork on a white plate" loading="lazy"></figure>
+        <figure class="g2"><img src="{{ img('lobster-roll.webp') }}" width="1000" height="1000" alt="Lobster roll piled high beside onion rings" loading="lazy"></figure>
+        <figure class="g3"><img src="{{ img('hot-chocolate.webp') }}" width="1000" height="1000" alt="Hot chocolate with whipped cream and a candy-striped rim beside a bottle of RumChata" loading="lazy"></figure>
+        <figure class="g4"><img src="{{ img('martini.webp') }}" width="1000" height="1000" alt="Chocolate martini with a coconut rim and whipped cream on the bar" loading="lazy"></figure>
+        <figure class="g5"><img src="{{ img('cider-cocktail.webp') }}" width="1000" height="1000" alt="Cider cocktail with a cinnamon stick and sugared rim on the bar" loading="lazy"></figure>
+        <figure class="g6"><img src="{{ img('fall-drinks.webp') }}" width="1000" height="1000" alt="Chalkboard sign listing fall drinks, with an autumn leaf in the foreground" loading="lazy"></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>160 Main Street, <em>Gorham</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="tel:{{ loc.tel }}">Call to order</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <p class="fine">Takeout orders are placed by phone. Ask us about delivery when you call.</p>
+      {% if facebook %}<p><a class="fb" href="{{ facebook }}" rel="noopener">Follow Mr. Pizza on Facebook</a></p>{% endif %}</div>
+    <div class="hours" aria-label="Hours"><h3>Hours</h3>
+      <p class="hr-big">Please call <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a> to confirm today's hours.</p>
+      <p class="fine">The shop's current website lists only that it is open "today" from 11:00 am to 8:00 pm, with no weekly schedule. We will add the full week here once the shop confirms it.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><div class="flogo"><img src="{{ img('logo.webp') }}" width="1024" height="614" alt="Mr. Pizza Restaurant &amp; Tavern logo"></div><div><p>{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Mr. Pizza Restaurant &amp; Tavern.</p></div></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}" class="pri">Call</a><a href="#menu">Menu</a><a href="#build">Build a pie</a></div>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>
