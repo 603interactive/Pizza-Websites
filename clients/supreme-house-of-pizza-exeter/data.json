@@ -1,0 +1,3034 @@
+{
+ "slug": "supreme-house-of-pizza-exeter",
+ "name": "Supreme House of Pizza",
+ "short": "Supreme",
+ "domain": "https://supremepizzaexeter.net",
+ "tagline": "Pizza and seafood at 134 Front Street in Exeter, NH.",
+ "seo_title": "Supreme House of Pizza | Pizza & Seafood in Exeter, NH",
+ "seo_desc": "Supreme House of Pizza (Supreme Pizza & Seafood), 134 Front St A, Exeter NH. Pizza, calzones, subs, wings, haddock and seafood plates. Order pickup or delivery online or call 603-778-8304.",
+ "locations": [
+  {
+   "id": "exeter",
+   "name": "Exeter",
+   "street": "134 Front St A",
+   "city": "Exeter",
+   "region": "NH",
+   "postal": "03833",
+   "phone": "603-778-8304",
+   "tel": "+16037788304",
+   "hours": [
+    {
+     "dow": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "dow": [
+      0
+     ],
+     "open": "11:00",
+     "close": "20:00"
+    }
+   ],
+   "order": "https://supreme-exeter.foodtecsolutions.com",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Supreme+House+of+Pizza+134+Front+St+A+Exeter+NH+03833",
+   "geo": null
+  }
+ ],
+ "order_any": "https://supreme-exeter.foodtecsolutions.com",
+ "facebook": "https://www.facebook.com/SupremePizzaExeter/",
+ "live_site": "https://supremepizzaexeter.net/",
+ "deals": [
+  {
+   "id": "d1",
+   "name": "Two Large Cheese Pizzas",
+   "desc": "Buy 2 large pizzas for $25.99.",
+   "price": 25.99
+  },
+  {
+   "id": "d2",
+   "name": "Free Small Cheese Pizza",
+   "desc": "Buy any two large pizzas and get a small cheese pizza free.",
+   "price": null,
+   "rule": "lg2"
+  },
+  {
+   "id": "d3",
+   "name": "Free Large Cheese Pizza",
+   "desc": "Buy any four large pizzas and get a large cheese pizza free.",
+   "price": null,
+   "rule": "lg4"
+  },
+  {
+   "id": "d4",
+   "name": "Large Cheese, Fries & 2 Liter",
+   "desc": "A large cheese pizza, large fries and a two liter.",
+   "price": 23.99
+  },
+  {
+   "id": "d5",
+   "name": "Pizza, Chicken & Soda",
+   "desc": "A large cheese pizza, 6 fingers or wings and a 2 liter.",
+   "price": 29.99
+  }
+ ],
+ "menu": [
+  {
+   "id": "specials",
+   "cat": "Specials",
+   "note": "As listed on the shop's ordering menu. Free-pizza specials are not priced here; they apply when you order.",
+   "items": [
+    {
+     "name": "Two Large Cheese Pizzas",
+     "desc": "Buy 2 large pizzas for $25.99.",
+     "opts": [
+      {
+       "l": "",
+       "p": 25.99
+      }
+     ]
+    },
+    {
+     "name": "Free Small Cheese Pizza",
+     "desc": "Buy any two large pizzas and get a small cheese pizza free.",
+     "opts": []
+    },
+    {
+     "name": "Free Large Cheese Pizza",
+     "desc": "Buy any four large pizzas and get a large cheese pizza free.",
+     "opts": []
+    },
+    {
+     "name": "Large Cheese, Fries & 2 Liter",
+     "desc": "A large cheese pizza, large fries and a two liter.",
+     "opts": [
+      {
+       "l": "",
+       "p": 23.99
+      }
+     ]
+    },
+    {
+     "name": "Pizza, Chicken & Soda",
+     "desc": "A large cheese pizza, 6 fingers or wings and a 2 liter.",
+     "opts": [
+      {
+       "l": "",
+       "p": 29.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pizza",
+   "cat": "Pizza",
+   "note": "Small and large. Gluten free is offered in small only.",
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "desc": "Pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.8
+      },
+      {
+       "l": "Lg",
+       "p": 16.29
+      }
+     ]
+    },
+    {
+     "name": "Gluten Free Pizza",
+     "desc": "Pizza sauce and pizza cheese. Small only.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 13.3
+      }
+     ]
+    },
+    {
+     "name": "White",
+     "desc": "Garlic sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 16.29
+      }
+     ]
+    },
+    {
+     "name": "Hawaiian",
+     "desc": "Ham, pineapple, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 13.79
+      },
+      {
+       "l": "Lg",
+       "p": 20.29
+      }
+     ]
+    },
+    {
+     "name": "Margherita",
+     "desc": "Olive oil, tomatoes, fresh mozzarella, fresh basil, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 13.79
+      },
+      {
+       "l": "Lg",
+       "p": 20.29
+      }
+     ]
+    },
+    {
+     "name": "Veggie Delight",
+     "desc": "Tomatoes, green peppers, white onion, mushrooms, black olives, spinach, broccoli, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 16.29
+      },
+      {
+       "l": "Lg",
+       "p": 22.29
+      }
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Tomatoes, red onion, black olives, feta, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 14.79
+      },
+      {
+       "l": "Lg",
+       "p": 20.29
+      }
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "desc": "Grilled chicken, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 13.79
+      },
+      {
+       "l": "Lg",
+       "p": 20.29
+      }
+     ]
+    },
+    {
+     "name": "Meat Lovers",
+     "desc": "Pepperoni, ham, salami, bacon, meatballs, Italian sausage, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 17.29
+      },
+      {
+       "l": "Lg",
+       "p": 23.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken BBQ",
+     "desc": "Grilled chicken, BBQ sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 14.79
+      },
+      {
+       "l": "Lg",
+       "p": 20.29
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Grilled chicken, buffalo sauce, blue cheese sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 14.79
+      },
+      {
+       "l": "Lg",
+       "p": 20.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken & Broccoli",
+     "desc": "Grilled chicken, broccoli, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 14.79
+      },
+      {
+       "l": "Lg",
+       "p": 22.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken & Broccoli Alfredo",
+     "desc": "Grilled chicken, broccoli, Alfredo sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 14.79
+      },
+      {
+       "l": "Lg",
+       "p": 22.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken & Artichoke",
+     "desc": "Grilled chicken, artichoke hearts, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 14.79
+      },
+      {
+       "l": "Lg",
+       "p": 22.29
+      }
+     ]
+    },
+    {
+     "name": "Taco Chicken",
+     "desc": "Grilled chicken, black olives, jalapeno, red onion, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 14.79
+      },
+      {
+       "l": "Lg",
+       "p": 22.29
+      }
+     ]
+    },
+    {
+     "name": "Supreme Special",
+     "desc": "Pepperoni, ham, salami, Italian sausage, white onion, green peppers, mushrooms, meatballs, pizza sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 17.29
+      },
+      {
+       "l": "Lg",
+       "p": 24.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Bacon Ranch",
+     "desc": "Grilled chicken, bacon, ranch sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.05
+      },
+      {
+       "l": "Lg",
+       "p": 22.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Cordon Bleu",
+     "desc": "Ham, chicken cutlet, Alfredo sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.05
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Parmesan",
+     "desc": "Fresh mozzarella, chicken cutlet, marinara sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.05
+      },
+      {
+       "l": "Lg",
+       "p": 20.29
+      }
+     ]
+    },
+    {
+     "name": "Mac Attack",
+     "desc": "Hamburg, lettuce, pickles, red onion, thousand island and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 16.05
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Steak Alfredo",
+     "desc": "Shaved steak, mushrooms, red onion, green peppers, Alfredo sauce and pizza cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 17.29
+      },
+      {
+       "l": "Lg",
+       "p": 22.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "slices",
+   "cat": "Slices",
+   "note": "",
+   "items": [
+    {
+     "name": "Cheese Slice",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 2.8
+      }
+     ]
+    },
+    {
+     "name": "Pepperoni Slice",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 3.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "calzones",
+   "cat": "Calzones",
+   "note": "",
+   "items": [
+    {
+     "name": "Build Your Own",
+     "desc": "Side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.8
+      },
+      {
+       "l": "Lg",
+       "p": 16.29
+      }
+     ]
+    },
+    {
+     "name": "Ham & Cheese",
+     "desc": "Ham and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 14.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Meatball Parmesan",
+     "desc": "Side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Italian",
+     "desc": "Ham, salami, capicola, mortadella and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Parmesan",
+     "desc": "Chicken cutlet and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Spinach & Feta Cheese",
+     "desc": "Feta, spinach and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 14.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Eggplant Parmesan",
+     "desc": "Eggplant and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Cheese Steak",
+     "desc": "Shaved steak and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Veggie",
+     "desc": "Tomatoes, red onion, green peppers, mushrooms, black olives, spinach, broccoli and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "BBQ Chicken",
+     "desc": "BBQ chicken and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Finger",
+     "desc": "Side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 15.29
+      },
+      {
+       "l": "Lg",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Fingers",
+     "desc": "Buffalo chicken and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 16.29
+      },
+      {
+       "l": "Lg",
+       "p": 23.29
+      }
+     ]
+    },
+    {
+     "name": "Steak Bomb",
+     "desc": "Shaved steak, red onion, green peppers, salami, mushrooms and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 16.29
+      },
+      {
+       "l": "Lg",
+       "p": 23.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken & Broccoli",
+     "desc": "Broccoli, grilled chicken and side marinara sauce.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 16.29
+      },
+      {
+       "l": "Lg",
+       "p": 23.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wings",
+   "cat": "Wings & Fingers",
+   "note": "",
+   "items": [
+    {
+     "name": "BBQ Chicken Wings",
+     "desc": "",
+     "opts": [
+      {
+       "l": "6pc",
+       "p": 12.49
+      },
+      {
+       "l": "12pc",
+       "p": 23.29
+      },
+      {
+       "l": "18pc",
+       "p": 33.29
+      },
+      {
+       "l": "24pc",
+       "p": 43.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Wings",
+     "desc": "",
+     "opts": [
+      {
+       "l": "6pc",
+       "p": 11.99
+      },
+      {
+       "l": "12pc",
+       "p": 22.29
+      },
+      {
+       "l": "18pc",
+       "p": 33.49
+      },
+      {
+       "l": "24pc",
+       "p": 41.99
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Chicken Wings",
+     "desc": "Served with celery.",
+     "opts": [
+      {
+       "l": "6pc",
+       "p": 12.49
+      },
+      {
+       "l": "12pc",
+       "p": 23.29
+      },
+      {
+       "l": "18pc",
+       "p": 33.29
+      },
+      {
+       "l": "24pc",
+       "p": 43.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Fingers",
+     "desc": "",
+     "opts": [
+      {
+       "l": "6pc",
+       "p": 11.69
+      },
+      {
+       "l": "12pc",
+       "p": 21.49
+      },
+      {
+       "l": "18pc",
+       "p": 31.49
+      },
+      {
+       "l": "24pc",
+       "p": 39.99
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Chicken Fingers",
+     "desc": "",
+     "opts": [
+      {
+       "l": "6pc",
+       "p": 12.49
+      },
+      {
+       "l": "12pc",
+       "p": 22.49
+      },
+      {
+       "l": "18pc",
+       "p": 31.49
+      },
+      {
+       "l": "24pc",
+       "p": 41.99
+      }
+     ]
+    },
+    {
+     "name": "BBQ Chicken Fingers",
+     "desc": "",
+     "opts": [
+      {
+       "l": "6pc",
+       "p": 12.49
+      },
+      {
+       "l": "12pc",
+       "p": 22.49
+      },
+      {
+       "l": "18pc",
+       "p": 32.49
+      },
+      {
+       "l": "24pc",
+       "p": 41.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "salads",
+   "cat": "Salads",
+   "note": "",
+   "items": [
+    {
+     "name": "Garden",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage.",
+     "opts": [
+      {
+       "l": "",
+       "p": 11.25
+      }
+     ]
+    },
+    {
+     "name": "Caesar",
+     "desc": "Syrian bread, Caesar, romaine, Parmesan and croutons.",
+     "opts": [
+      {
+       "l": "",
+       "p": 11.25
+      }
+     ]
+    },
+    {
+     "name": "Greek",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage, feta cheese and kalamata olives.",
+     "opts": [
+      {
+       "l": "",
+       "p": 13.69
+      }
+     ]
+    },
+    {
+     "name": "Antipasto",
+     "desc": "Syrian bread, Greek dressing, provolone cheese, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini, red cabbage, ham, mortadella, capicola and salami.",
+     "opts": [
+      {
+       "l": "",
+       "p": 13.49
+      }
+     ]
+    },
+    {
+     "name": "Julienne",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage, American cheese, turkey and ham.",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.8
+      }
+     ]
+    },
+    {
+     "name": "Cranberry Walnut Chicken",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage and chicken salad.",
+     "opts": [
+      {
+       "l": "",
+       "p": 13.49
+      }
+     ]
+    },
+    {
+     "name": "Chef's",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage, American cheese, ham, turkey and roast beef.",
+     "opts": [
+      {
+       "l": "",
+       "p": 13.49
+      }
+     ]
+    },
+    {
+     "name": "Tuna",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage and tuna salad.",
+     "opts": [
+      {
+       "l": "",
+       "p": 13.95
+      }
+     ]
+    },
+    {
+     "name": "Chicken Kabob",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage and grilled chicken.",
+     "opts": [
+      {
+       "l": "",
+       "p": 15.49
+      }
+     ]
+    },
+    {
+     "name": "Chicken Finger",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage and chicken finger.",
+     "opts": [
+      {
+       "l": "",
+       "p": 14.99
+      }
+     ]
+    },
+    {
+     "name": "Caesar with Grilled Chicken",
+     "desc": "Syrian bread, Caesar, romaine, Parmesan, croutons and grilled chicken.",
+     "opts": [
+      {
+       "l": "",
+       "p": 15.49
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Chicken Fingers",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage and buffalo grilled chicken.",
+     "opts": [
+      {
+       "l": "",
+       "p": 15.99
+      }
+     ]
+    },
+    {
+     "name": "Buff Chix Fingers",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage and buffalo fingers.",
+     "opts": [
+      {
+       "l": "",
+       "p": 14.99
+      }
+     ]
+    },
+    {
+     "name": "Steak Tip",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage and steak tip.",
+     "opts": [
+      {
+       "l": "",
+       "p": 18.29
+      }
+     ]
+    },
+    {
+     "name": "Caesar with Steak Tips",
+     "desc": "Syrian bread, Caesar, romaine, Parmesan, croutons and steak tip.",
+     "opts": [
+      {
+       "l": "",
+       "p": 18.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Kabob & Steak Tip Combo",
+     "desc": "Syrian bread, Greek dressing, lettuce, tomato, cucumber, carrot, green pepper, onion, pepperoncini and red cabbage, grilled chicken and steak tip.",
+     "opts": [
+      {
+       "l": "",
+       "p": 18.29
+      }
+     ]
+    },
+    {
+     "name": "Combo Caesar",
+     "desc": "Syrian bread, Caesar, romaine, Parmesan, croutons, grilled chicken and steak tip.",
+     "opts": [
+      {
+       "l": "",
+       "p": 18.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grill",
+   "cat": "From the Grill",
+   "note": "",
+   "items": [
+    {
+     "name": "Hot Dog",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 5.29
+      }
+     ]
+    },
+    {
+     "name": "Hamburger 6oz",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.49
+      }
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "American cheese.",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.95
+      }
+     ]
+    },
+    {
+     "name": "Bacon Cheeseburger",
+     "desc": "American cheese and bacon.",
+     "opts": [
+      {
+       "l": "",
+       "p": 8.69
+      }
+     ]
+    },
+    {
+     "name": "Haddock Sandwich",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "subs-parm",
+   "cat": "Parmesan Subs",
+   "note": "",
+   "items": [
+    {
+     "name": "Meatball",
+     "desc": "Italian roll, mozzarella and marinara.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 12.49
+      }
+     ]
+    },
+    {
+     "name": "Eggplant",
+     "desc": "Italian roll, mozzarella and marinara.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.49
+      },
+      {
+       "l": "Lg",
+       "p": 12.49
+      }
+     ]
+    },
+    {
+     "name": "Chicken",
+     "desc": "Italian roll, mozzarella and marinara.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.95
+      }
+     ]
+    },
+    {
+     "name": "Sausage",
+     "desc": "Italian roll, mozzarella and marinara.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 12.49
+      }
+     ]
+    },
+    {
+     "name": "Veal",
+     "desc": "Italian roll, mozzarella and marinara.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 12.49
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "subs-steak",
+   "cat": "Steak Subs",
+   "note": "",
+   "items": [
+    {
+     "name": "Cheese Steak",
+     "desc": "Italian roll.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.25
+      },
+      {
+       "l": "Lg",
+       "p": 12.25
+      }
+     ]
+    },
+    {
+     "name": "Steak & Cheese",
+     "desc": "Italian roll and American cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.99
+      },
+      {
+       "l": "Lg",
+       "p": 12.99
+      }
+     ]
+    },
+    {
+     "name": "House Steak",
+     "desc": "Italian roll, grilled onions, grilled peppers, grilled mushrooms and American cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 11.75
+      },
+      {
+       "l": "Lg",
+       "p": 13.75
+      }
+     ]
+    },
+    {
+     "name": "Steak Bomb",
+     "desc": "Italian roll, salami, grilled onions, grilled peppers, grilled mushrooms and American cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 12.49
+      },
+      {
+       "l": "Lg",
+       "p": 14.25
+      }
+     ]
+    },
+    {
+     "name": "Steak, Egg & Cheese",
+     "desc": "Italian roll and American cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 12.75
+      },
+      {
+       "l": "Lg",
+       "p": 14.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "subs-omelette",
+   "cat": "Omelette Subs",
+   "note": "",
+   "items": [
+    {
+     "name": "Peppers & Egg",
+     "desc": "Italian roll and grilled peppers.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 11.55
+      }
+     ]
+    },
+    {
+     "name": "Egg & Cheese",
+     "desc": "Italian roll and American cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.49
+      },
+      {
+       "l": "Lg",
+       "p": 11.99
+      }
+     ]
+    },
+    {
+     "name": "Ham & Egg",
+     "desc": "Italian roll and ham.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 11.55
+      }
+     ]
+    },
+    {
+     "name": "Bacon & Egg",
+     "desc": "Italian roll and bacon.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 11.55
+      }
+     ]
+    },
+    {
+     "name": "Western",
+     "desc": "Italian roll, American cheese, ham, green peppers and onions.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 11.5
+      },
+      {
+       "l": "Lg",
+       "p": 12.95
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "subs-hot",
+   "cat": "Hot Subs",
+   "note": "",
+   "items": [
+    {
+     "name": "BLT",
+     "desc": "Italian roll, bacon, lettuce and tomato.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.79
+      },
+      {
+       "l": "Lg",
+       "p": 12.79
+      }
+     ]
+    },
+    {
+     "name": "Chicken Fingers",
+     "desc": "Italian roll.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.55
+      }
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "desc": "Italian roll.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.55
+      }
+     ]
+    },
+    {
+     "name": "BBQ Chicken Fingers",
+     "desc": "Italian roll and BBQ.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.95
+      }
+     ]
+    },
+    {
+     "name": "BBQ Grilled Chicken",
+     "desc": "Italian roll and BBQ.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.95
+      }
+     ]
+    },
+    {
+     "name": "Sausage Bomb",
+     "desc": "Italian roll, provolone, grilled mushrooms, green peppers and onions.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.49
+      }
+     ]
+    },
+    {
+     "name": "Hamburger",
+     "desc": "Italian roll.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 11.95
+      }
+     ]
+    },
+    {
+     "name": "Pastrami",
+     "desc": "Italian roll.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.95
+      }
+     ]
+    },
+    {
+     "name": "Chicken Kabob",
+     "desc": "Italian roll, feta, lettuce, tomato, onions and house dressing.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.55
+      }
+     ]
+    },
+    {
+     "name": "Chicken & Veggie Melt",
+     "desc": "Italian roll, American cheese, onions, grilled mushrooms and green peppers.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.55
+      },
+      {
+       "l": "Lg",
+       "p": 12.55
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Grilled Chicken",
+     "desc": "Italian roll, buffalo and blue cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.95
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Chicken Fingers",
+     "desc": "Italian roll, buffalo and blue cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.95
+      }
+     ]
+    },
+    {
+     "name": "Haddock",
+     "desc": "Italian roll and tartar.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 12.49
+      },
+      {
+       "l": "Lg",
+       "p": 14.49
+      }
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "Italian roll and American cheese.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      },
+      {
+       "l": "Lg",
+       "p": 12.95
+      }
+     ]
+    },
+    {
+     "name": "Steak Tip",
+     "desc": "Italian roll.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 12.99
+      },
+      {
+       "l": "Lg",
+       "p": 14.99
+      }
+     ]
+    },
+    {
+     "name": "Gyro",
+     "desc": "Italian roll, onions, tomato, lettuce, French fries and tzatziki.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      }
+     ]
+    },
+    {
+     "name": "Chicken Gyro",
+     "desc": "Italian roll, French fries, lettuce, tomato, onions and tzatziki.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.95
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "subs-cold",
+   "cat": "Cold Subs",
+   "note": "",
+   "items": [
+    {
+     "name": "Vegetarian",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 9.29
+      },
+      {
+       "l": "Lg",
+       "p": 11.3
+      }
+     ]
+    },
+    {
+     "name": "Caesar",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Lg",
+       "p": 11.3
+      }
+     ]
+    },
+    {
+     "name": "Ham & Cheese",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Genoa",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Italian Sub",
+     "desc": "Provolone, Genoa salami, mortadella and capicola.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Turkey",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Tuna",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Cranberry Chicken Salad",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 10.29
+      },
+      {
+       "l": "Lg",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Supreme Special",
+     "desc": "American cheese, roast beef, ham and turkey.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 11.29
+      },
+      {
+       "l": "Lg",
+       "p": 13.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wraps",
+   "cat": "Wraps",
+   "note": "",
+   "items": [
+    {
+     "name": "Veggie",
+     "desc": "Lettuce, tomato, onion, pickle, green peppers and olives.",
+     "opts": [
+      {
+       "l": "",
+       "p": 11.29
+      }
+     ]
+    },
+    {
+     "name": "Cordon Bleu",
+     "desc": "Swiss, bacon, chicken fingers, ham and honey mustard.",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Chicken fingers, lettuce, tomato, buffalo and blue cheese.",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Kabob",
+     "desc": "Greek dressing, feta, lettuce, tomato and onion.",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Caesar",
+     "desc": "Chicken, romaine lettuce, croutons and Caesar dressing.",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken with Hummus",
+     "desc": "Feta, chicken, hummus, lettuce, tomato and onion.",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Eggplant with Hummus",
+     "desc": "Feta, eggplant, hummus, lettuce, tomato and onion.",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Steak Tip Caesar",
+     "desc": "Steak tips, romaine lettuce, croutons and Caesar dressing.",
+     "opts": [
+      {
+       "l": "",
+       "p": 13.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "roastbeef",
+   "cat": "Roast Beef & Pastrami",
+   "note": "New on the menu. Sandwiches. Roast beef and pastrami dinners are under Dinners.",
+   "items": [
+    {
+     "name": "Junior Beef",
+     "desc": "Regular roll, toasted.",
+     "opts": [
+      {
+       "l": "",
+       "p": 8.49
+      }
+     ]
+    },
+    {
+     "name": "Regular Beef",
+     "desc": "Sesame roll, toasted.",
+     "opts": [
+      {
+       "l": "",
+       "p": 9.49
+      }
+     ]
+    },
+    {
+     "name": "Super Beef",
+     "desc": "Onion roll, toasted.",
+     "opts": [
+      {
+       "l": "",
+       "p": 10.99
+      }
+     ]
+    },
+    {
+     "name": "Regular Pastrami",
+     "desc": "Sesame roll, toasted.",
+     "opts": [
+      {
+       "l": "",
+       "p": 9.49
+      }
+     ]
+    },
+    {
+     "name": "Super Pastrami",
+     "desc": "Onion roll, toasted.",
+     "opts": [
+      {
+       "l": "",
+       "p": 10.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bowls",
+   "cat": "Rice Bowls",
+   "note": "New on the menu.",
+   "items": [
+    {
+     "name": "Veggie",
+     "desc": "Rice, peppers, mushrooms, onions and broccoli.",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.49
+      }
+     ]
+    },
+    {
+     "name": "Chicken Veggie",
+     "desc": "Rice, peppers, mushrooms, onions and broccoli.",
+     "opts": [
+      {
+       "l": "",
+       "p": 14.99
+      }
+     ]
+    },
+    {
+     "name": "Steak Tip Veggie",
+     "desc": "Rice, peppers, mushrooms, onions and broccoli.",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Combo Veggie",
+     "desc": "Rice, peppers, mushrooms, onions and broccoli.",
+     "opts": [
+      {
+       "l": "",
+       "p": 18.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pasta",
+   "cat": "Pasta",
+   "note": "",
+   "items": [
+    {
+     "name": "Spaghetti or Ziti with Sauce",
+     "desc": "Marinara and cheese. Garlic bread.",
+     "opts": [
+      {
+       "l": "",
+       "p": 14.29
+      }
+     ]
+    },
+    {
+     "name": "Spaghetti or Ziti with Veal Cutlet",
+     "desc": "Veal, marinara and cheese. Garlic bread.",
+     "opts": [
+      {
+       "l": "",
+       "p": 16.99
+      }
+     ]
+    },
+    {
+     "name": "Spaghetti or Ziti with Meatballs",
+     "desc": "Meatballs, marinara and cheese. Garlic bread.",
+     "opts": [
+      {
+       "l": "",
+       "p": 16.99
+      }
+     ]
+    },
+    {
+     "name": "Spaghetti or Ziti with Sausage",
+     "desc": "Sausage, marinara and cheese. Garlic bread.",
+     "opts": [
+      {
+       "l": "",
+       "p": 16.99
+      }
+     ]
+    },
+    {
+     "name": "Spaghetti or Ziti with Chicken Cutlet",
+     "desc": "Chicken cutlet, marinara and cheese. Garlic bread.",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.49
+      }
+     ]
+    },
+    {
+     "name": "Spaghetti or Ziti with Eggplant",
+     "desc": "Eggplant, marinara and cheese. Garlic bread.",
+     "opts": [
+      {
+       "l": "",
+       "p": 16.99
+      }
+     ]
+    },
+    {
+     "name": "Stuffed Cheese Shells & Ravioli",
+     "desc": "Marinara and cheese. Garlic bread.",
+     "opts": [
+      {
+       "l": "",
+       "p": 18.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Broccoli & Ziti",
+     "desc": "Ziti, grilled chicken, broccoli, Alfredo and cheese. Garlic bread.",
+     "opts": [
+      {
+       "l": "",
+       "p": 18.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dinners",
+   "cat": "Dinners",
+   "note": "",
+   "items": [
+    {
+     "name": "Regular Roast Beef",
+     "desc": "Roast beef. New.",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Super Roast Beef",
+     "desc": "Roast beef. New.",
+     "opts": [
+      {
+       "l": "",
+       "p": 19.5
+      }
+     ]
+    },
+    {
+     "name": "Regular Pastrami",
+     "desc": "Pastrami. New.",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Super Pastrami",
+     "desc": "Pastrami. New.",
+     "opts": [
+      {
+       "l": "",
+       "p": 19.5
+      }
+     ]
+    },
+    {
+     "name": "Hot Dog",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 12.29
+      }
+     ]
+    },
+    {
+     "name": "Hamburger",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 15.99
+      }
+     ]
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "American cheese.",
+     "opts": [
+      {
+       "l": "",
+       "p": 16.49
+      }
+     ]
+    },
+    {
+     "name": "Bacon Cheeseburger",
+     "desc": "American cheese.",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.49
+      }
+     ]
+    },
+    {
+     "name": "Chicken Finger",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.39
+      }
+     ]
+    },
+    {
+     "name": "BBQ Chicken Wing",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 19.29
+      }
+     ]
+    },
+    {
+     "name": "BBQ Chicken Finger",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 19.29
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Wings",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 19.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Wing Ding",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 18.79
+      }
+     ]
+    },
+    {
+     "name": "Gyros",
+     "desc": "Fries, lettuce, tomato, onion and tzatziki sauce.",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Gyros",
+     "desc": "Fries, lettuce, tomato, onion and tzatziki sauce.",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken Kabob",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 18.29
+      }
+     ]
+    },
+    {
+     "name": "Steak Tips",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 21.29
+      }
+     ]
+    },
+    {
+     "name": "Chicken & Tips Combo",
+     "desc": "Steak tips and grilled chicken.",
+     "opts": [
+      {
+       "l": "",
+       "p": 21.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "seafood",
+   "cat": "Seafood",
+   "note": "",
+   "items": [
+    {
+     "name": "Haddock Plate",
+     "desc": "Tartar sauce, coleslaw, lemon and french fries.",
+     "opts": [
+      {
+       "l": "",
+       "p": 23.99
+      }
+     ]
+    },
+    {
+     "name": "Shrimp Plate",
+     "desc": "Cocktail sauce, coleslaw, lemon and french fries.",
+     "opts": [
+      {
+       "l": "",
+       "p": 23.99
+      }
+     ]
+    },
+    {
+     "name": "Scallop Plate",
+     "desc": "Tartar sauce, coleslaw, lemon and french fries.",
+     "opts": [
+      {
+       "l": "",
+       "p": 28.99
+      }
+     ]
+    },
+    {
+     "name": "Clam Plate",
+     "desc": "Tartar sauce, coleslaw, lemon and french fries.",
+     "opts": [
+      {
+       "l": "",
+       "p": 39.99
+      }
+     ]
+    },
+    {
+     "name": "Seafood Plate",
+     "desc": "Tartar sauce, coleslaw, lemon and french fries.",
+     "opts": [
+      {
+       "l": "",
+       "p": 34.99
+      }
+     ]
+    },
+    {
+     "name": "Haddock Box (1 pc)",
+     "desc": "Tartar sauce and lemon.",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Shrimp Box",
+     "desc": "Cocktail sauce and lemon.",
+     "opts": [
+      {
+       "l": "",
+       "p": 17.99
+      }
+     ]
+    },
+    {
+     "name": "Scallop Box",
+     "desc": "Tartar sauce and lemon.",
+     "opts": [
+      {
+       "l": "",
+       "p": 19.99
+      }
+     ]
+    },
+    {
+     "name": "Clams Box",
+     "desc": "Tartar sauce and lemon.",
+     "opts": [
+      {
+       "l": "",
+       "p": 32.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sides",
+   "cat": "Sides",
+   "note": "",
+   "items": [
+    {
+     "name": "French Fries",
+     "desc": "Ketchup.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 5.8
+      },
+      {
+       "l": "Lg",
+       "p": 7.49
+      }
+     ]
+    },
+    {
+     "name": "Buttered Onion Rings",
+     "desc": "Ketchup.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 6.49
+      },
+      {
+       "l": "Lg",
+       "p": 7.99
+      }
+     ]
+    },
+    {
+     "name": "Homemade Onion Rings",
+     "desc": "Ketchup.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 6.99
+      },
+      {
+       "l": "Lg",
+       "p": 8.99
+      }
+     ]
+    },
+    {
+     "name": "Spicy Fries",
+     "desc": "Ketchup.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 6.99
+      },
+      {
+       "l": "Lg",
+       "p": 8.49
+      }
+     ]
+    },
+    {
+     "name": "Sweet Potato Fries",
+     "desc": "Ketchup.",
+     "opts": [
+      {
+       "l": "Sm",
+       "p": 6.99
+      },
+      {
+       "l": "Lg",
+       "p": 8.49
+      }
+     ]
+    },
+    {
+     "name": "Garlic Bread",
+     "desc": "Marinara.",
+     "opts": [
+      {
+       "l": "",
+       "p": 5.55
+      }
+     ]
+    },
+    {
+     "name": "Cole Slaw",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 5.55
+      }
+     ]
+    },
+    {
+     "name": "Side of Rice Pilaf",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 6.55
+      }
+     ]
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "desc": "Marinara.",
+     "opts": [
+      {
+       "l": "",
+       "p": 11.99
+      }
+     ]
+    },
+    {
+     "name": "Fried Mushrooms",
+     "desc": "Ranch.",
+     "opts": [
+      {
+       "l": "",
+       "p": 11.99
+      }
+     ]
+    },
+    {
+     "name": "Jalapeno Poppers",
+     "desc": "Salsa.",
+     "opts": [
+      {
+       "l": "",
+       "p": 11.99
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "kids",
+   "cat": "Kids",
+   "note": "",
+   "items": [
+    {
+     "name": "Kids Hot Dog",
+     "desc": "French fries.",
+     "opts": [
+      {
+       "l": "",
+       "p": 10.95
+      }
+     ]
+    },
+    {
+     "name": "Kids Spaghetti",
+     "desc": "Spaghetti, marinara sauce and meatballs.",
+     "opts": [
+      {
+       "l": "",
+       "p": 10.95
+      }
+     ]
+    },
+    {
+     "name": "Kids Chicken Finger",
+     "desc": "French fries.",
+     "opts": [
+      {
+       "l": "",
+       "p": 10.95
+      }
+     ]
+    },
+    {
+     "name": "Kids Hamburger",
+     "desc": "French fries.",
+     "opts": [
+      {
+       "l": "",
+       "p": 10.95
+      }
+     ]
+    },
+    {
+     "name": "Kids Cheeseburger",
+     "desc": "French fries.",
+     "opts": [
+      {
+       "l": "",
+       "p": 10.95
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "desserts",
+   "cat": "Desserts",
+   "note": "",
+   "items": [
+    {
+     "name": "Tiramisu",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.25
+      }
+     ]
+    },
+    {
+     "name": "Mississippi",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.25
+      }
+     ]
+    },
+    {
+     "name": "Chocolate Mousse",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.99
+      }
+     ]
+    },
+    {
+     "name": "Whoopie Pie",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 4.0
+      }
+     ]
+    },
+    {
+     "name": "Cheesecake",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.25
+      }
+     ]
+    },
+    {
+     "name": "Carrot Cake",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.25
+      }
+     ]
+    },
+    {
+     "name": "Limoncello",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.25
+      }
+     ]
+    },
+    {
+     "name": "Oreo Cream Pie",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.25
+      }
+     ]
+    },
+    {
+     "name": "Baklava",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.25
+      }
+     ]
+    },
+    {
+     "name": "Galaktoboureko",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.25
+      }
+     ]
+    },
+    {
+     "name": "Reese's Pie",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 7.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drinks",
+   "cat": "Drinks",
+   "note": "",
+   "items": [
+    {
+     "name": "Pepsi",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      },
+      {
+       "l": "2L",
+       "p": 4.5
+      }
+     ]
+    },
+    {
+     "name": "Diet Pepsi",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      },
+      {
+       "l": "2L",
+       "p": 4.5
+      }
+     ]
+    },
+    {
+     "name": "Pepsi Zero",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Cherry Pepsi",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      },
+      {
+       "l": "2L",
+       "p": 4.5
+      }
+     ]
+    },
+    {
+     "name": "Orange",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      },
+      {
+       "l": "2L",
+       "p": 4.5
+      }
+     ]
+    },
+    {
+     "name": "Mountain Dew",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      },
+      {
+       "l": "2L",
+       "p": 4.5
+      }
+     ]
+    },
+    {
+     "name": "Code Red Dew",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Root Beer",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Aquafina",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Starry",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Ginger Ale",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      },
+      {
+       "l": "2L",
+       "p": 4.5
+      }
+     ]
+    },
+    {
+     "name": "Lemon Lime Gatorade",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Fruit Punch Gatorade",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Cool Blue Gatorade",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Orange Gatorade Zero",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Cherry Gatorade Zero",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Apple Juice",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Cranberry Juice",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Orange Juice",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Life Water",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Orange Seltzer",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Apple Seltzer",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Grape Seltzer",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Gatorlyte Fruit Punch",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Gatorlyte Strawberry Kiwi",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Gatorlyte Berry",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Gatorlyte Glacier Freeze",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Grape Propel",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Strawberry Kiwi Propel",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Berry Propel",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    },
+    {
+     "name": "Pure Leaf Tea",
+     "desc": "",
+     "opts": [
+      {
+       "l": "20oz",
+       "p": 2.89
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "extras",
+   "cat": "Extras",
+   "note": "",
+   "items": [
+    {
+     "name": "Ranch Dressing",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 1.5
+      }
+     ]
+    },
+    {
+     "name": "Blue Cheese",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 1.5
+      }
+     ]
+    },
+    {
+     "name": "BBQ Sauce",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 1.5
+      }
+     ]
+    },
+    {
+     "name": "Buffalo Sauce",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 1.5
+      }
+     ]
+    },
+    {
+     "name": "Honey Mustard",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 1.5
+      }
+     ]
+    },
+    {
+     "name": "Marinara Sauce",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 1.5
+      }
+     ]
+    },
+    {
+     "name": "Sweet & Sour",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 1.5
+      }
+     ]
+    },
+    {
+     "name": "Teriyaki Sauce",
+     "desc": "",
+     "opts": [
+      {
+       "l": "",
+       "p": 1.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "catering",
+   "cat": "Catering",
+   "note": "",
+   "items": [
+    {
+     "name": "Garden Salad",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Half tray",
+       "p": 35.3
+      },
+      {
+       "l": "Full tray",
+       "p": 58.3
+      }
+     ]
+    },
+    {
+     "name": "Greek Salad",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Half tray",
+       "p": 40.3
+      },
+      {
+       "l": "Full tray",
+       "p": 65.3
+      }
+     ]
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Half tray",
+       "p": 55.3
+      },
+      {
+       "l": "Full tray",
+       "p": 85.3
+      }
+     ]
+    },
+    {
+     "name": "Chicken Parmesan",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Half tray",
+       "p": 49.3
+      },
+      {
+       "l": "Full tray",
+       "p": 75.3
+      }
+     ]
+    },
+    {
+     "name": "Eggplant Parmesan",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Half tray",
+       "p": 49.3
+      },
+      {
+       "l": "Full tray",
+       "p": 75.3
+      }
+     ]
+    },
+    {
+     "name": "Cold Cut Platter",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Half tray",
+       "p": 45.3
+      },
+      {
+       "l": "Full tray",
+       "p": 75.3
+      }
+     ]
+    },
+    {
+     "name": "Pasta & Sauce",
+     "desc": "",
+     "opts": [
+      {
+       "l": "Half tray",
+       "p": 40.3
+      },
+      {
+       "l": "Full tray",
+       "p": 65.3
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

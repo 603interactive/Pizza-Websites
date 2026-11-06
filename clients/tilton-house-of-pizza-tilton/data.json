@@ -1,0 +1,1315 @@
+{
+ "slug": "tilton-house-of-pizza-tilton",
+ "name": "Tilton House of Pizza",
+ "short": "THOP",
+ "domain": "https://www.thopnh.com",
+ "tagline": "Pizza, grinders, dinners and seafood at 298 Main Street in Tilton, NH.",
+ "seo_title": "Tilton House of Pizza | Pizza, Grinders & Family Dinners in Tilton, NH",
+ "seo_desc": "Tilton House of Pizza, 298 Main St, Tilton NH. Pizza, calzones, grinders, wings, seafood and spaghetti dinners. Build a call-in order and phone it in: (603) 286-3333.",
+ "locations": [
+  {
+   "id": "tilton",
+   "name": "Tilton",
+   "street": "298 Main St",
+   "city": "Tilton",
+   "region": "NH",
+   "postal": "03276",
+   "phone": "(603) 286-3333",
+   "tel": "+16032863333",
+   "phone2": "(603) 286-7181",
+   "tel2": "+16032867181",
+   "hours": [
+    {
+     "dow": [
+      3,
+      4,
+      5,
+      6,
+      0
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    }
+   ],
+   "order": "tel:+16032863333",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Tilton+House+of+Pizza+298+Main+St+Tilton+NH+03276",
+   "geo": null
+  }
+ ],
+ "order_any": "tel:+16032863333",
+ "facebook": "https://www.facebook.com/thopnh/",
+ "instagram": "https://www.instagram.com/tiltonhouseofpizza/",
+ "menu_pdf": "https://www.thopnh.com/s/THOP-2024-menu.pdf",
+ "menu": [
+  {
+   "cat": "Pizza & Calzones",
+   "img": "pizza-slice-box.webp",
+   "alt": "A hand lifting a cheesy pepperoni slice from a pizza in a takeout box",
+   "note": "Prices as listed on the shop's own menu pages. Sizes as listed for the specialty pizzas: small 10\", large 16\". Tell us at the counter which toppings you want; the \"way\" price covers the number of toppings.",
+   "head": [
+    "Small (10\")",
+    "Large (16\")"
+   ],
+   "sections": [
+    {
+     "title": "Build your own",
+     "blurb": "Toppings: Onions, peppers, fresh garlic, ham, salami, pepperoni, mushrooms, hamburger, bacon, sausage, anchovy, pineapple, jalapeño peppers, banana peppers, olives, artichokes, broccoli, tomatoes.",
+     "items": [
+      {
+       "name": "Cheese",
+       "desc": "",
+       "prices": [
+        11.45,
+        15.45
+       ]
+      },
+      {
+       "name": "1 Way",
+       "desc": "Cheese plus 1 topping",
+       "prices": [
+        12.45,
+        16.45
+       ]
+      },
+      {
+       "name": "2 Way",
+       "desc": "Cheese plus 2 toppings",
+       "prices": [
+        13.45,
+        17.45
+       ]
+      },
+      {
+       "name": "3 Way",
+       "desc": "Cheese plus 3 toppings",
+       "prices": [
+        14.45,
+        18.45
+       ]
+      },
+      {
+       "name": "4 Way",
+       "desc": "Cheese plus 4 toppings",
+       "prices": [
+        15.45,
+        19.45
+       ]
+      },
+      {
+       "name": "Each Additional Topping",
+       "desc": "",
+       "prices": [
+        2.0,
+        3.0
+       ]
+      },
+      {
+       "name": "Extra Cheese",
+       "desc": "",
+       "prices": [
+        2.45,
+        3.45
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Specialty pizzas",
+     "items": [
+      {
+       "name": "Golden BBQ Chicken",
+       "desc": "Breaded chicken tenders, bacon, caramelized onions, topped with golden honey BBQ sauce",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "BBQ Pork",
+       "desc": "Pulled BBQ pork, red onions, topped with BBQ sauce",
+       "prices": [
+        15.45,
+        21.45
+       ]
+      },
+      {
+       "name": "Fajita",
+       "desc": "Choice of pulled pork, chicken, or steak, roasted red & green peppers, onions, mushrooms, topped with carne asada sauce",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Pastrami Bomb Pizza",
+       "desc": "Pastrami, mushrooms, roasted red peppers, caramelized onions",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "White Balsamic Chicken",
+       "desc": "Alfredo sauce, marinated grilled chicken, caramelized onions, mushrooms, topped with balsamic glaze",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Tex-Mex",
+       "desc": "Salsa sauce, taco seasoned beef, black olives, tomatoes, red onions, banana peppers",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Grilled Chicken Florentine",
+       "desc": "Alfredo sauce, grilled marinated chicken, spinach, fresh garlic, mushrooms, tomatoes",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Loaded Potato",
+       "desc": "Fried potatoes, red onions, bacon, Alfredo sauce, fresh garlic",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Grilled Chicken Caesar",
+       "desc": "Alfredo sauce, marinated chicken, romaine lettuce, shaved Parmesan",
+       "prices": [
+        15.45,
+        21.45
+       ]
+      },
+      {
+       "name": "Greek",
+       "desc": "Black olives, spinach, feta, tomato, choice of red sauce or olive oil",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Grilled Chicken Broccoli Alfredo",
+       "desc": "Alfredo sauce, marinated grilled chicken, broccoli",
+       "prices": [
+        15.45,
+        21.45
+       ]
+      },
+      {
+       "name": "Bacon Cheeseburger Supreme",
+       "desc": "Bacon, hamburger, topped with lettuce, tomato, 1000 Island dressing",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Chipotle BBQ Chicken",
+       "desc": "Breaded chicken, red onions, banana peppers, topped with chipotle BBQ sauce",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Mediterranean",
+       "desc": "Alfredo sauce or olive oil, spinach, fresh garlic, roasted peppers, black olives, artichokes, tomato",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Cindy's Eggplant",
+       "desc": "Breaded eggplant, red onions, roasted peppers, fresh garlic",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "BLT",
+       "desc": "Bacon, topped with lettuce, tomato",
+       "prices": [
+        15.45,
+        21.45
+       ]
+      },
+      {
+       "name": "Chicken Tenders",
+       "desc": "Red sauce and cheese",
+       "prices": [
+        14.45,
+        20.45
+       ]
+      },
+      {
+       "name": "Flavored Chicken Tenders",
+       "desc": "Buffalo or BBQ",
+       "prices": [
+        15.45,
+        21.45
+       ]
+      },
+      {
+       "name": "House Special",
+       "desc": "Pepperoni, sausage, hamburger, onions, peppers, mushrooms",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Meat Lovers",
+       "desc": "Pepperoni, sausage, hamburger, ham, bacon",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Vegetarian",
+       "desc": "Onions, peppers, mushrooms, olives, broccoli, tomatoes",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      },
+      {
+       "name": "Margherita",
+       "desc": "Fresh mozzarella, garlic, tomato and basil",
+       "prices": [
+        13.45,
+        19.45
+       ]
+      },
+      {
+       "name": "Chicken Pesto Pizza",
+       "desc": "Diced tomatoes, grilled chicken, mozzarella cheese made with pesto sauce",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Steak or pastrami pizza & calzones",
+     "items": [
+      {
+       "name": "Steak or Pastrami & Cheese",
+       "desc": "",
+       "prices": [
+        14.45,
+        20.45
+       ]
+      },
+      {
+       "name": "Onions, Steak or Pastrami & Cheese",
+       "desc": "",
+       "prices": [
+        15.45,
+        21.45
+       ]
+      },
+      {
+       "name": "Pepper Steak or Pastrami & Cheese",
+       "desc": "",
+       "prices": [
+        15.45,
+        21.45
+       ]
+      },
+      {
+       "name": "Mushroom, Steak or Pastrami & Cheese",
+       "desc": "",
+       "prices": [
+        15.45,
+        21.45
+       ]
+      },
+      {
+       "name": "Special Steak or Pastrami & Cheese",
+       "desc": "Onions, peppers and mushrooms",
+       "prices": [
+        16.45,
+        22.45
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Grinders",
+   "img": "steak-cheese-subs.webp",
+   "alt": "Two steak and cheese grinders on a plate with pickle slices",
+   "note": "Cold or hot oven grinders. Small or large, or as a wrap.",
+   "head": [
+    "Small",
+    "Large or Wrap"
+   ],
+   "sections": [
+    {
+     "title": "",
+     "items": [
+      {
+       "name": "Meatless",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "American",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Italian",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Genoa Salami",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Salami",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Haddock",
+       "desc": "",
+       "prices": [
+        10.25,
+        11.25
+       ]
+      },
+      {
+       "name": "Tuna",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Turkey",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Bacon",
+       "desc": "",
+       "prices": [
+        10.25,
+        11.25
+       ]
+      },
+      {
+       "name": "Seafood",
+       "desc": "",
+       "prices": [
+        9.5,
+        10.5
+       ]
+      },
+      {
+       "name": "Ham & Cheese",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Roast Beef",
+       "desc": "",
+       "prices": [
+        9.5,
+        10.5
+       ]
+      },
+      {
+       "name": "Eggplant",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Veal Cutlet",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Meatball",
+       "desc": "",
+       "prices": [
+        9.3,
+        10.3
+       ]
+      },
+      {
+       "name": "Italian Sausage",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Italian Sausage Bomb",
+       "desc": "Onions, peppers, mushrooms",
+       "prices": [
+        10.25,
+        11.25
+       ]
+      },
+      {
+       "name": "House Special",
+       "desc": "Roast beef, turkey, bacon",
+       "prices": [
+        10.25,
+        11.25
+       ]
+      },
+      {
+       "name": "Pastrami",
+       "desc": "",
+       "prices": [
+        9.5,
+        10.5
+       ]
+      },
+      {
+       "name": "Pastrami Bomb",
+       "desc": "Onions, peppers, mushrooms",
+       "prices": [
+        10.25,
+        11.25
+       ]
+      },
+      {
+       "name": "Chicken Finger",
+       "desc": "",
+       "prices": [
+        10.25,
+        11.25
+       ]
+      },
+      {
+       "name": "Cheeseburger",
+       "desc": "",
+       "prices": [
+        9.5,
+        10.5
+       ]
+      },
+      {
+       "name": "Grilled Chicken Bomb",
+       "desc": "Onions, peppers, mushrooms",
+       "prices": [
+        10.25,
+        11.25
+       ]
+      },
+      {
+       "name": "Steak & Cheese",
+       "desc": "",
+       "prices": [
+        9,
+        10
+       ]
+      },
+      {
+       "name": "Pepper, Steak & Cheese",
+       "desc": "",
+       "prices": [
+        9.5,
+        10.5
+       ]
+      },
+      {
+       "name": "Onion, Steak & Cheese",
+       "desc": "",
+       "prices": [
+        9.5,
+        10.5
+       ]
+      },
+      {
+       "name": "Mushroom, Steak & Cheese",
+       "desc": "",
+       "prices": [
+        9.5,
+        10.5
+       ]
+      },
+      {
+       "name": "Special Steak & Cheese",
+       "desc": "Onions, peppers, mushrooms",
+       "prices": [
+        10.25,
+        11.25
+       ]
+      },
+      {
+       "name": "Clam Strip Sub",
+       "desc": "",
+       "prices": [
+        9.5,
+        10.5
+       ]
+      },
+      {
+       "name": "Teriyaki Steak Tip",
+       "desc": "Large or wrap. Add onions, peppers or mushrooms .75 each",
+       "prices": [
+        null,
+        12.75
+       ]
+      },
+      {
+       "name": "Teriyaki Steak Tip Bomb",
+       "desc": "Large or wrap. Onions, peppers, mushrooms",
+       "prices": [
+        null,
+        13.75
+       ]
+      },
+      {
+       "name": "Grilled Chicken Caesar",
+       "desc": "Large or wrap",
+       "prices": [
+        null,
+        11.25
+       ]
+      },
+      {
+       "name": "Chicken or Beef Gyro Sandwich on Pita",
+       "desc": "",
+       "prices": [
+        9.95,
+        null
+       ]
+      },
+      {
+       "name": "Add Bacon to any sub",
+       "desc": "",
+       "prices": [
+        2.25,
+        2.25
+       ]
+      },
+      {
+       "name": "Extra Cheese",
+       "desc": "",
+       "prices": [
+        1.75,
+        1.75
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Dinners",
+   "img": "burger-fries.webp",
+   "alt": "A bacon cheeseburger with seasoned fries and pickle slices",
+   "note": "Dinners are served with french fries and choice of salad or coleslaw. Spaghetti dinners are served with garlic bread (add a salad $2.25).",
+   "head": [],
+   "sections": [
+    {
+     "title": "Dinners",
+     "items": [
+      {
+       "name": "Chicken or Beef Gyro Plate",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Chicken Fillet Sandwich",
+       "desc": "",
+       "prices": [
+        12.95
+       ]
+      },
+      {
+       "name": "Chicken Fingers",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Grilled Chicken Tenders",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Cheeseburger",
+       "desc": "",
+       "prices": [
+        12.95
+       ]
+      },
+      {
+       "name": "Bacon Cheeseburger",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Pepper Cheeseburger",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Mushroom Cheeseburger",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Grilled Chicken Sandwich",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Teriyaki Steak Tips",
+       "desc": "",
+       "prices": [
+        19.95
+       ]
+      },
+      {
+       "name": "Mozzarella Cheese on Any Dinner",
+       "desc": "Add-on",
+       "prices": [
+        2.45
+       ]
+      },
+      {
+       "name": "Substitute Cajun Fries or Onions with Any Dinner",
+       "desc": "Add-on",
+       "prices": [
+        0.95
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Spaghetti dinners",
+     "items": [
+      {
+       "name": "Spaghetti with Sauce",
+       "desc": "",
+       "prices": [
+        10.95
+       ]
+      },
+      {
+       "name": "Spaghetti with Meatballs",
+       "desc": "",
+       "prices": [
+        11.95
+       ]
+      },
+      {
+       "name": "Spaghetti with Eggplant",
+       "desc": "",
+       "prices": [
+        11.95
+       ]
+      },
+      {
+       "name": "Spaghetti with Mushrooms",
+       "desc": "",
+       "prices": [
+        11.95
+       ]
+      },
+      {
+       "name": "Spaghetti with Sausage",
+       "desc": "",
+       "prices": [
+        11.95
+       ]
+      },
+      {
+       "name": "Spaghetti with Chicken Fingers",
+       "desc": "",
+       "prices": [
+        12.95
+       ]
+      },
+      {
+       "name": "Grilled Chicken Broccoli Alfredo Spaghetti",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Each Additional Topping",
+       "desc": "Add-on",
+       "prices": [
+        2.45
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Seafood",
+   "img": "",
+   "alt": "",
+   "note": "Seafood dinners are served with french fries and choice of salad or coleslaw.",
+   "head": [],
+   "sections": [
+    {
+     "title": "",
+     "items": [
+      {
+       "name": "Fresh Fried Haddock",
+       "desc": "",
+       "prices": [
+        19.45
+       ]
+      },
+      {
+       "name": "Shrimp Dinner",
+       "desc": "",
+       "prices": [
+        16.5
+       ]
+      },
+      {
+       "name": "Scallop Dinner",
+       "desc": "",
+       "prices": [
+        16.5
+       ]
+      },
+      {
+       "name": "Clam Strip Dinner",
+       "desc": "",
+       "prices": [
+        13.5
+       ]
+      },
+      {
+       "name": "Fish & Chips",
+       "desc": "With french fries and coleslaw",
+       "prices": [
+        16.5
+       ]
+      },
+      {
+       "name": "Seafood Platter",
+       "desc": "Haddock, scallops, shrimp and clam strips",
+       "prices": [
+        25.5
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "img": "steak-salad.webp",
+   "alt": "A steak salad with tomatoes, olives, feta and greens on an oval plate",
+   "note": "Dressings: Italian, Creamy Italian, Ranch, French, Greek, Bleu Cheese, Caesar, 1000 Island, Honey Mustard, House or Lite Italian. Extra dressing $0.75. Salads with two prices are listed that way on the shop's menu without size labels, so call to confirm which is which.",
+   "head": [],
+   "sections": [
+    {
+     "title": "",
+     "items": [
+      {
+       "name": "Garden Salad",
+       "desc": "",
+       "prices": [
+        9.45,
+        10.45
+       ]
+      },
+      {
+       "name": "Greek Salad",
+       "desc": "",
+       "prices": [
+        11.95,
+        12.95
+       ]
+      },
+      {
+       "name": "Tuna Salad",
+       "desc": "",
+       "prices": [
+        11.95,
+        12.95
+       ]
+      },
+      {
+       "name": "Ham & Cheese Salad",
+       "desc": "",
+       "prices": [
+        11.95,
+        12.95
+       ]
+      },
+      {
+       "name": "Turkey Breast Salad",
+       "desc": "",
+       "prices": [
+        11.95,
+        12.95
+       ]
+      },
+      {
+       "name": "Seafood Salad",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Chicken Finger Salad",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Grilled Chicken Caesar Salad",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Antipasto Salad",
+       "desc": "Tuna, genoa, ham, salami, cheese",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Chef's Salad",
+       "desc": "Ham, turkey, cheese",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Teriyaki Steak Tip Salad",
+       "desc": "",
+       "prices": [
+        15.95
+       ]
+      },
+      {
+       "name": "Side of Syrian Bread",
+       "desc": "",
+       "prices": [
+        0.95
+       ]
+      },
+      {
+       "name": "Add Feta to Any Salad",
+       "desc": "",
+       "prices": [
+        2.25
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Wings & Sides",
+   "img": "wings-saucy.webp",
+   "alt": "Saucy chicken wings on a plate with a cup of bleu cheese dip",
+   "note": "",
+   "head": [],
+   "sections": [
+    {
+     "title": "Wings & tenders",
+     "blurb": "Dry rub flavors: Mango Habanero, BBQ, Buffalo, Caribbean Jerk, Lemon Pepper, Sriracha, Ranch, Smoky Brown Sugar. Flavored wings and tenders: Buffalo, BBQ, Garlic Parm, Teriyaki, Sweet Thai Chili, Pineapple Habanero, Honey Garlic, Carne Asada, Sweet Bourbon, Garlic Herb, Honey Golden BBQ.",
+     "items": [
+      {
+       "name": "Crispy Mild Wings",
+       "desc": "",
+       "prices": [
+        10.45
+       ]
+      },
+      {
+       "name": "Dry Rub Crispy Wings",
+       "desc": "",
+       "prices": [
+        10.95
+       ]
+      },
+      {
+       "name": "Flavored Wings",
+       "desc": "",
+       "prices": [
+        10.95
+       ]
+      },
+      {
+       "name": "Flavored Chicken Tenders",
+       "desc": "Add a side of bleu cheese or ranch (0.75)",
+       "prices": [
+        10.95
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Side orders",
+     "items": [
+      {
+       "name": "Cheeseburger",
+       "desc": "",
+       "prices": [
+        8.95
+       ]
+      },
+      {
+       "name": "Bacon Cheeseburger",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Grilled Chicken Sandwich",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Chicken Fillet Sandwich",
+       "desc": "",
+       "prices": [
+        8.95
+       ]
+      },
+      {
+       "name": "Onion Rings",
+       "desc": "",
+       "prices": [
+        5.95
+       ]
+      },
+      {
+       "name": "French Fries",
+       "desc": "",
+       "prices": [
+        5.95
+       ]
+      },
+      {
+       "name": "Cajun Fries",
+       "desc": "",
+       "prices": [
+        7.25
+       ]
+      },
+      {
+       "name": "Cheesy Bacon Fries",
+       "desc": "",
+       "prices": [
+        10.5
+       ]
+      },
+      {
+       "name": "Sweet Potato Fries",
+       "desc": "",
+       "prices": [
+        7.95
+       ]
+      },
+      {
+       "name": "Mozzarella Sticks",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Jalapeño Poppers",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Mac & Cheese Bites",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Chicken Fingers",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Clam Strips",
+       "desc": "",
+       "prices": [
+        8.95
+       ]
+      },
+      {
+       "name": "Shrimp",
+       "desc": "",
+       "prices": [
+        12.95
+       ]
+      },
+      {
+       "name": "Scallops",
+       "desc": "",
+       "prices": [
+        12.95
+       ]
+      },
+      {
+       "name": "Haddock",
+       "desc": "",
+       "prices": [
+        13.95
+       ]
+      },
+      {
+       "name": "Zucchini Chips",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Crispy Fried Green Beans",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Boneless Honey Golden Wings",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Potato Skins",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Cheesy Bacon Tots",
+       "desc": "",
+       "prices": [
+        10.5
+       ]
+      },
+      {
+       "name": "Fried Mushrooms",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Coleslaw",
+       "desc": "",
+       "prices": [
+        4.95
+       ]
+      },
+      {
+       "name": "Garlic Bread",
+       "desc": "",
+       "prices": [
+        4.95
+       ]
+      },
+      {
+       "name": "Garlic Bread with Cheese",
+       "desc": "",
+       "prices": [
+        5.95
+       ]
+      },
+      {
+       "name": "Broccoli Cheddar Bites",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      },
+      {
+       "name": "Fried Pickles",
+       "desc": "",
+       "prices": [
+        9.95
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Kids & Desserts",
+   "img": "chicken-tenders.webp",
+   "alt": "Chicken tenders and french fries on a plate with dipping sauces",
+   "note": "",
+   "head": [],
+   "sections": [
+    {
+     "title": "Kids menu",
+     "items": [
+      {
+       "name": "Chicken Fingers & Fries",
+       "desc": "",
+       "prices": [
+        8.5
+       ]
+      },
+      {
+       "name": "Spaghetti with Marinara",
+       "desc": "Add meatballs (1.00)",
+       "prices": [
+        7.5
+       ]
+      },
+      {
+       "name": "Mini Cheese Pizza",
+       "desc": "Add topping ($1.00)",
+       "prices": [
+        5.0
+       ]
+      },
+      {
+       "name": "Mac & Cheese Bites & Fries",
+       "desc": "",
+       "prices": [
+        8.5
+       ]
+      },
+      {
+       "name": "Ham & Cheese on Roll & Fries",
+       "desc": "",
+       "prices": [
+        8.5
+       ]
+      },
+      {
+       "name": "Haddock Strips & Fries",
+       "desc": "",
+       "prices": [
+        8.95
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Desserts",
+     "items": [
+      {
+       "name": "Momma's Old Fashioned Carrot Cake",
+       "desc": "",
+       "prices": [
+        5.5
+       ]
+      },
+      {
+       "name": "Pecan Turtle Cheesecake",
+       "desc": "",
+       "prices": [
+        5.95
+       ]
+      },
+      {
+       "name": "Chocolate Overload Torte",
+       "desc": "",
+       "prices": [
+        5.95
+       ]
+      },
+      {
+       "name": "Peanut Butter Mousse Cake",
+       "desc": "",
+       "prices": [
+        6.95
+       ]
+      },
+      {
+       "name": "Fresh Baklava",
+       "desc": "",
+       "prices": [
+        4.95
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

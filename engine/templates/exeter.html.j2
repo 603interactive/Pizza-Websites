@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#b01f17">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Supreme House of Pizza, home"><img src="{{ mark }}" width="44" height="44" alt=""><span class="bn">Supreme<small>Pizza &amp; Seafood</small></span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#menu">Menu &amp; tray</a><a href="#two">Pizza &amp; sea</a><a href="#direct">Order direct</a><a href="#visit">Hours &amp; directions</a><a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <h1 class="sr">Supreme House of Pizza: pizza and seafood in Exeter, NH</h1>
+  <div class="side pz"><p class="big" aria-hidden="true">Pizza</p><p class="hp">Large cheese {{ money(pick('pizza','Cheese Pizza').opts[1].p) }}. Calzones, subs, wings and pasta too.</p></div>
+  <div class="side sf"><p class="big" aria-hidden="true">Seafood</p><p class="hp">Haddock plate {{ money(pick('seafood','Haddock Plate').opts[0].p) }}. Shrimp, scallops, clams and boxes to go.</p></div>
+  <div class="seam"><img src="{{ logo }}" width="900" height="751" alt="Supreme Pizza &amp; Seafood logo: a circle split between a red pizza slice and a blue fish" fetchpriority="high"></div>
+  <div class="hero-bar"><div class="wrap hb-in">
+    <p class="pill"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order pickup or delivery</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+    <p class="addr">{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+  </div></div>
+</section>
+
+<section class="quick" aria-label="At a glance"><div class="wrap qgrid">
+  <a href="{{ order_any }}" rel="noopener"><b>Order online</b><span>Pickup avg 15 min, delivery avg 45 min*</span></a>
+  <a href="tel:{{ loc.tel }}"><b>Call</b><span>{{ loc.phone }}</span></a>
+  <a href="{{ loc.maps }}" rel="noopener"><b>Directions</b><span>{{ loc.street }}</span></a>
+  <a href="#visit"><b>Today</b><span data-today>See hours</span></a>
+</div><p class="wrap fine">*Times as shown on the shop's current ordering site.</p></section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The whole menu, real prices</p><h2>Fill your <em>tray</em> before you order</h2>
+    <p class="lede">Tap any price to add it to your tray. You get a running total, a check on the shop's free-pizza specials, and a list you can read over the phone or paste into a text. Nothing is sent to the shop.</p></div>
+    <div class="mgrid">
+      <div class="mcol">
+        <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+          <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: haddock, gyro, steak tip…" autocomplete="off"></label></div>
+        <p class="m-count" id="m-count" aria-live="polite"></p>
+        {% for c in menu %}{% set ci = loop.index0 %}<section class="m-panel" id="mp{{ ci }}" data-p="{{ c.id }}" role="tabpanel" aria-labelledby="mt{{ ci }}" {% if not loop.first %}hidden{% endif %}>
+          <h3>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+          <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc ~ ' ' ~ c.cat)|lower) }}">
+            <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+            <div class="m-p">{% for o in it.opts %}<button type="button" class="chip" data-c="{{ c.id }}" data-n="{{ esc(it.name) }}" data-l="{{ o.l }}" data-p="{{ o.p }}" aria-label="Add {{ esc(it.name) }}{% if o.l %}, {{ o.l }}{% endif %}, {{ money(o.p) }} to tray">{% if o.l %}<small>{{ o.l }}</small>{% endif %}{{ money(o.p) }}</button>{% else %}<span class="ask">Applies when you order</span>{% endfor %}</div></li>{% endfor %}</ul></section>{% endfor %}
+        <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try "chicken" or "steak".</p>
+        <p class="fine">Prices are from the shop's ordering menu as of this concept. Check them at checkout, and ask about allergens before you order.</p>
+      </div>
+      <aside class="tray" id="tray" aria-labelledby="tray-h" tabindex="-1">
+        <div class="tray-head"><h3 id="tray-h">Your tray</h3><button type="button" class="tray-x" id="tray-x" aria-label="Close tray">×</button></div>
+        <p class="tray-empty" id="tray-empty">Empty. Tap a price on the menu to start.</p>
+        <ul class="tray-list" id="tray-list" aria-live="polite"></ul>
+        <dl class="tray-sum" id="tray-sum" hidden>
+          <div><dt>Estimated subtotal</dt><dd id="t-total">$0.00</dd></div>
+          <div class="muted"><dt>Before tax and fees</dt><dd id="t-count">0 items</dd></div>
+        </dl>
+        <div class="tray-deals" id="t-deals" hidden><b>Specials check</b><p id="t-deals-txt"></p></div>
+        <p class="tray-pts" id="t-pts" hidden></p>
+        <div class="tray-act" id="tray-act" hidden>
+          <a class="btn" href="{{ order_any }}" rel="noopener">Order this online</a>
+          <button type="button" class="btn btn-ghost" id="t-copy">Copy my list</button>
+          <button type="button" class="link" id="t-clear">Clear tray</button>
+        </div>
+        <p class="fine">The tray is an estimate to help you decide. To order, use the shop's online ordering or call {{ loc.phone }}.</p>
+      </aside>
+    </div>
+  </div>
+  <button type="button" class="fab" id="fab" hidden aria-controls="tray" aria-expanded="false"><span>Tray</span><b id="fab-n">0</b><i id="fab-t">$0.00</i></button>
+</section>
+
+<section class="two sec" id="two" aria-labelledby="two-h">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">One shop, two kitchens</p><h2 id="two-h">The pizza side. The <em>sea</em> side.</h2></div>
+    <div class="two-grid">
+      <article class="card cp">
+        <h3>Pizza side</h3>
+        <ul>
+          <li><b>Supreme Special</b><span>Pepperoni, ham, salami, Italian sausage, white onion, green peppers, mushrooms and meatballs.</span><i>{{ money(pick('pizza','Supreme Special').opts[0].p) }} / {{ money(pick('pizza','Supreme Special').opts[1].p) }}</i></li>
+          <li><b>Margherita</b><span>Olive oil, tomatoes, fresh mozzarella and fresh basil.</span><i>{{ money(pick('pizza','Margherita').opts[0].p) }} / {{ money(pick('pizza','Margherita').opts[1].p) }}</i></li>
+          <li><b>Chicken Cordon Bleu</b><span>Ham, chicken cutlet and Alfredo sauce.</span><i>{{ money(pick('pizza','Chicken Cordon Bleu').opts[0].p) }} / {{ money(pick('pizza','Chicken Cordon Bleu').opts[1].p) }}</i></li>
+        </ul>
+        <p class="fine">Small / large. Gluten free pizza is available in small.</p>
+      </article>
+      <article class="card cs">
+        <h3>Sea side</h3>
+        <ul>
+          <li><b>Haddock Plate</b><span>Tartar sauce, coleslaw, lemon and French fries.</span><i>{{ money(pick('seafood','Haddock Plate').opts[0].p) }}</i></li>
+          <li><b>Scallop Plate</b><span>Tartar sauce, coleslaw, lemon and French fries.</span><i>{{ money(pick('seafood','Scallop Plate').opts[0].p) }}</i></li>
+          <li><b>Shrimp Box</b><span>Cocktail sauce and lemon.</span><i>{{ money(pick('seafood','Shrimp Box').opts[0].p) }}</i></li>
+        </ul>
+        <p class="fine">Also clam and mixed seafood plates, and a haddock sandwich and sub.</p>
+      </article>
+    </div>
+    <p class="cta"><button type="button" class="btn" data-go="seafood">See all seafood</button><button type="button" class="btn btn-ghost" data-go="pizza">See all pizza</button></p>
+  </div>
+</section>
+
+<section class="direct sec" id="direct" aria-labelledby="dir-h">
+  <div class="wrap dir-in">
+    <div><p class="kicker">Order direct</p><h2 id="dir-h">Order from the shop, <em>skip the middleman</em></h2>
+    <p class="lede">"Thank you for ordering directly from our website which helps us to provide the best service with a focus on top-quality ingredients."</p>
+    <p class="by">From the shop's About page</p></div>
+    <ul class="perks">
+      <li><b>10% off</b><span>your first online order when you register, per the shop's site.</span></li>
+      <li><b>$1 = 1 point</b><span>100 points is $5 off. Double points every Tuesday.</span></li>
+      <li><b>No-contact delivery</b><span>available, per the shop's site.</span></li>
+    </ul>
+  </div>
+  <div class="wrap about"><p class="lede sm">"We use the freshest, locally-sourced ingredients and promise to give your taste buds something to be excited about." <span class="by">The shop's own words, About Us.</span></p></div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>134 Front Street, <em>Exeter</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <p class="fine"><a href="{{ facebook }}" rel="noopener">Supreme Pizza &amp; Seafood on Facebook</a></p></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">Hours match the shop's own hours table and public listings. Holidays may differ, so call to confirm.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><p><b>Supreme House of Pizza</b> (Supreme Pizza &amp; Seafood) · {{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Supreme House of Pizza.</p></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+<script>window.__HOURS__={{ hours_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

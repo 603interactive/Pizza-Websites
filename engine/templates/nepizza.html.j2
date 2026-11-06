@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#173F2E">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body id="top">
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="New England Pizza home"><img src="{{ img('logo.webp') }}" width="54" height="39" alt=""><span class="bn">New England Pizza</span></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#menu">Menu</a><a href="#visit">Hours &amp; Directions</a><a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a></nav>
+</header>
+<main id="main">
+<section class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-t">
+      <p class="pill"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1><span>New</span><span>England</span><span class="r">Pizza</span></h1>
+      <p class="sub">“We pride ourselves on offering a consistently exceptional product at a reasonable price.” Find us at {{ loc.street }}, {{ loc.city }}, {{ loc.region }}.</p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+    </div>
+    <div class="hero-s">
+      <figure class="sticker"><img src="{{ img('logo.webp') }}" width="181" height="132" alt="New England Pizza Restaurant logo: a red and green banner around an illustration of the storefront" fetchpriority="high"></figure>
+      <div class="ticket" aria-label="Hours at a glance">
+        <p class="t-k">Today</p><p class="t-v" data-today>See hours</p>
+        <p class="t-k">Closed</p><p class="t-v">Tuesdays</p>
+        <p class="t-k">Where</p><p class="t-v sm">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="check" aria-hidden="true"></div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The menu</p><h2>What are you <em>craving?</em></h2>
+    <p class="lede">Pick what you are in the mood for and the whole menu narrows down, from pizza to subs to dinners.</p></div>
+
+    <div class="alert" role="note"><b>Prices are unverified.</b> The shop's own online menu was not readable when this site was built. Names, descriptions and prices below come from a third-party menu listing and may be out of date. Confirm on the <a href="{{ order_any }}" rel="noopener">online ordering page</a> or call <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a>.</div>
+
+    <div class="finder" id="finder">
+      <p class="f-h" id="f-h">Craving finder <span>pick one or more; items must match all</span></p>
+      <div class="chips" role="group" aria-labelledby="f-h" id="chips">
+        <button type="button" aria-pressed="false" data-k="chicken">Chicken</button>
+        <button type="button" aria-pressed="false" data-k="beef">Steak &amp; beef</button>
+        <button type="button" aria-pressed="false" data-k="pork">Ham, bacon &amp; pepperoni</button>
+        <button type="button" aria-pressed="false" data-k="sea">Tuna &amp; seafood</button>
+        <button type="button" aria-pressed="false" data-k="veg">Veggies</button>
+        <button type="button" aria-pressed="false" data-k="feta">Feta &amp; Greek</button>
+        <button type="button" aria-pressed="false" data-k="sauce">Buffalo &amp; BBQ</button>
+        <button type="button" aria-pressed="false" data-k="nomeat">No meat listed</button>
+      </div>
+      <div class="f-row">
+        <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Or search: lasagna, gyro, haddock…" autocomplete="off"></label>
+        <label class="tg"><input type="checkbox" id="m-px" checked><span>Show unverified prices</span></label>
+        <button type="button" class="link" id="m-clear" hidden>Clear filters</button>
+      </div>
+      <p class="m-count" id="m-count" aria-live="polite">146 items across 12 sections</p>
+      <p class="fine" id="f-nm" hidden>“No meat listed” only means the item's description names no meat or fish. Sauces and fillings can differ, so ask the shop about allergies and diets.</p>
+    </div>
+
+    <div class="mgrid">
+      <nav class="rail chips" aria-label="Menu sections" id="rail">{% for c in menu %}<a href="#s-{{ c.id }}" data-s="{{ c.id }}">{{ c.cat }}</a>{% endfor %}</nav>
+      <div class="lists" id="lists">
+      {% for c in menu %}<section class="m-sec" id="s-{{ c.id }}" data-c="{{ c.id }}" aria-labelledby="h-{{ c.id }}">
+        <h3 id="h-{{ c.id }}">{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+        <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-t="{{ esc((it.name ~ ' ' ~ it.desc)|lower) }}">
+          <div class="m-row"><b class="m-n">{{ it.name }}</b><span class="lead" aria-hidden="true"></span>
+          <span class="m-p">{% if it.prices %}{% if it.range %}<span class="px">{{ money(it.prices[0][1]) }}–{{ money(it.prices[1][1]) }}<i class="dag" title="Unverified price">†</i></span>{% else %}{% for l, v in it.prices %}<span class="px">{% if l %}<small>{{ l }}</small>{% endif %}{{ money(v) }}<i class="dag" title="Unverified price">†</i></span>{% endfor %}{% endif %}{% endif %}<span class="ask">Call for price</span></span></div>
+          {% if it.desc %}<p class="m-d">{{ it.desc }}</p>{% endif %}</li>{% endfor %}</ul></section>{% endfor %}
+      <p class="m-none" id="m-none" hidden>Nothing on the menu matches all of that. Try removing a filter.</p>
+      </div>
+    </div>
+    <p class="fine">† Unverified price from a third-party menu listing. The shop's current menu is on the <a href="{{ order_any }}" rel="noopener">online ordering page</a>.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">See the current menu &amp; order</a></div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>92 Portsmouth Ave, <em>Exeter</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">Hours are from the shop's website. Call to confirm, especially on holidays.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><p><b>New England Pizza</b> · {{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} New England Pizza.</p></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+<script>window.__HOURS__={{ hours_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

@@ -1,0 +1,1008 @@
+{
+ "slug": "newport-village-pizza-newport",
+ "name": "Newport Village Pizza",
+ "short": "Village Pizza",
+ "domain": "https://www.newportvillagepizza.com",
+ "tagline": "Pizza, calzones and grinders at 7 South Main St in Newport, NH.",
+ "seo_title": "Newport Village Pizza | Pizza, Calzones & Grinders in Newport, NH",
+ "seo_desc": "Newport Village Pizza, 7 South Main St, Newport NH. Pizza, calzones, grinders, pasta and salads with the full menu and prices. Order online or call (603) 863-2900.",
+ "locations": [
+  {
+   "id": "newport",
+   "name": "Newport",
+   "street": "7 South Main St",
+   "city": "Newport",
+   "region": "NH",
+   "postal": "03773",
+   "phone": "(603) 863-2900",
+   "tel": "+16038632900",
+   "phone2": "(603) 863-3400",
+   "tel2": "+16038633400",
+   "hours": [
+    {
+     "dow": [
+      0
+     ],
+     "open": "11:00",
+     "close": "19:00"
+    },
+    {
+     "dow": [
+      1,
+      4,
+      5
+     ],
+     "open": "11:00",
+     "close": "20:00"
+    },
+    {
+     "dow": [
+      6
+     ],
+     "open": "12:00",
+     "close": "20:00"
+    }
+   ],
+   "order": "https://order.online/store/village-pizza-of-newport-newport-27698645/",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Newport+Village+Pizza+7+South+Main+St+Newport+NH+03773",
+   "geo": null
+  }
+ ],
+ "order_any": "https://order.online/store/village-pizza-of-newport-newport-27698645/",
+ "facebook": "https://www.facebook.com/newportvillagepizza",
+ "menu": [
+  {
+   "cat": "Pizza & Calzones",
+   "key": "pizza",
+   "img": "cheese-pizza.webp",
+   "alt": "A cheese pizza fresh out of the oven",
+   "note": "Every pizza and calzone comes in the same three sizes. Gluten-free or cauliflower crust is +$7.",
+   "sizes": [
+    [
+     "Mini",
+     7
+    ],
+    [
+     "Small",
+     11
+    ],
+    [
+     "Large",
+     14
+    ]
+   ],
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "desc": "Stick to the basics, or jazz it up with some toppings!",
+     "prices": [],
+     "img": "cheese-pizza.webp",
+     "alt": "Cheese pizza in a take-out box"
+    },
+    {
+     "name": "Cheese Calzone",
+     "desc": "Stick to the basics, or jazz it up with some toppings!",
+     "prices": [],
+     "img": "calzone.webp",
+     "alt": "A cheese calzone in a take-out box with a side cup"
+    },
+    {
+     "name": "Toppings",
+     "desc": "Pepperoni, onion, pepper, mushroom, sausage, hamburg, anchovy, bacon, meatball, ham, pineapple, olive, feta, tomato, artichoke, spinach, eggplant, pastrami, chicken, steak. $1 to $2 each.",
+     "prices": []
+    }
+   ]
+  },
+  {
+   "cat": "Gourmet Pizzas",
+   "key": "gourmet",
+   "img": "village-special.webp",
+   "alt": "The Village Special pizza",
+   "note": "All gourmet pizzas can be made as calzones. Gluten-free or cauliflower crust is +$7.",
+   "sizes": [
+    [
+     "Mini",
+     12
+    ],
+    [
+     "Small",
+     18
+    ],
+    [
+     "Large",
+     22
+    ]
+   ],
+   "items": [
+    {
+     "name": "Greek",
+     "desc": "Spinach, feta, tomato, onion, olive. Red sauce base.",
+     "prices": [],
+     "img": "greek-pizza.webp",
+     "alt": "Greek pizza with olives, feta and spinach"
+    },
+    {
+     "name": "Mexican",
+     "desc": "Chicken, onion, jalapeño, olive, tomato. Red sauce base.",
+     "prices": []
+    },
+    {
+     "name": "Vegetarian",
+     "desc": "Mushroom, olives, onion, green pepper, tomato. Red sauce base.",
+     "prices": []
+    },
+    {
+     "name": "All Meat",
+     "desc": "Bacon, ham, sausage, hamburger, pastrami. Red sauce base.",
+     "prices": []
+    },
+    {
+     "name": "Chicken Cordon Bleu",
+     "desc": "Chicken, ham, artichoke, onion, mushroom.",
+     "prices": []
+    },
+    {
+     "name": "Village Special",
+     "desc": "Mushroom, onion, green pepper, pepperoni, hamburger, sausage. Red sauce base.",
+     "prices": [],
+     "img": "village-special-2.webp",
+     "alt": "The Village Special pizza with peppers, sausage and mushrooms"
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Your choice of grilled or breaded chicken with a buffalo sauce base.",
+     "prices": []
+    },
+    {
+     "name": "BBQ Chicken",
+     "desc": "Your choice of grilled or breaded chicken with a BBQ sauce base.",
+     "prices": []
+    },
+    {
+     "name": "Chicken Bacon Ranch",
+     "desc": "Your choice of grilled or breaded chicken with a ranch base.",
+     "prices": [],
+     "img": "chicken-pizza.webp",
+     "alt": "Chicken pizza with pepperoni and melted cheese"
+    },
+    {
+     "name": "Cheeseburger Pizza",
+     "desc": "Ground beef, cheese, pickles and onions.",
+     "prices": []
+    },
+    {
+     "name": "White Pie",
+     "desc": "Garlic oil blended with ricotta and our very own cheese blend.",
+     "prices": [
+      [
+       "Small",
+       17
+      ],
+      [
+       "Large",
+       20
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Sides",
+   "key": "sides",
+   "img": "wings.webp",
+   "alt": "Wings with dipping sauces",
+   "note": "Our sumptuous appetizers are the perfect way to nibble between slices or start your meal.",
+   "sizes": [],
+   "items": [
+    {
+     "name": "5 Pc Chicken Tenders",
+     "desc": "Choice of BBQ, buffalo, ranch, honey mustard or sweet & sour on the side.",
+     "prices": [
+      [
+       "",
+       9
+      ]
+     ],
+     "img": "tenders.webp",
+     "alt": "Chicken tenders with a dipping cup"
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "desc": "Served with homemade meat sauce.",
+     "prices": [
+      [
+       "",
+       8
+      ]
+     ],
+     "img": "mozz-sticks.webp",
+     "alt": "Mozzarella sticks with meat sauce"
+    },
+    {
+     "name": "Garlic Bread with Cheese",
+     "desc": "Served with homemade meat sauce.",
+     "prices": [
+      [
+       "",
+       6
+      ]
+     ],
+     "img": "garlic-bread.webp",
+     "alt": "Garlic bread with cheese and a cup of meat sauce"
+    },
+    {
+     "name": "Bread Sticks with Meat Sauce",
+     "desc": "Soft breadsticks served with a savory meat sauce.",
+     "prices": [
+      [
+       "",
+       6
+      ]
+     ],
+     "img": "bread-sticks.webp",
+     "alt": "A soft bread stick in a basket"
+    },
+    {
+     "name": "Fries",
+     "desc": "Crispy potato fries.",
+     "prices": [
+      [
+       "Side",
+       3
+      ],
+      [
+       "Small",
+       5
+      ],
+      [
+       "Large",
+       7
+      ]
+     ]
+    },
+    {
+     "name": "Onion Rings",
+     "desc": "Golden, crispy onion rings.",
+     "prices": [
+      [
+       "Side",
+       3
+      ],
+      [
+       "Small",
+       5
+      ],
+      [
+       "Large",
+       7
+      ]
+     ],
+     "img": "onion-rings.webp",
+     "alt": "Golden onion rings"
+    },
+    {
+     "name": "Wings",
+     "desc": "Chicken wings coated in your choice of sauce: Buffalo, BBQ, Sweet Chili or Plain.",
+     "prices": [
+      [
+       "Small",
+       10.99
+      ],
+      [
+       "Large",
+       17.99
+      ]
+     ],
+     "img": "wings.webp",
+     "alt": "Wings with buffalo and ranch dipping sauces"
+    },
+    {
+     "name": "Jalapeños Poppers",
+     "desc": "Spicy jalapeños filled with rich, melted cheese.",
+     "prices": [
+      [
+       "",
+       10
+      ]
+     ]
+    },
+    {
+     "name": "Broccoli Cheddar Bites",
+     "desc": "Crispy broccoli cheddar bites with a cheesy center.",
+     "prices": [
+      [
+       "",
+       10
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Pasta",
+   "key": "pasta",
+   "img": "lasagna.webp",
+   "alt": "A dish of lasagna",
+   "note": "All pasta dishes are served with bread & butter and a side salad.",
+   "sizes": [],
+   "items": [
+    {
+     "name": "Meat Sauce w/ Cheese",
+     "desc": "Spaghetti with our very own homemade meat sauce.",
+     "prices": [
+      [
+       "",
+       11
+      ]
+     ]
+    },
+    {
+     "name": "Meatball w/ Cheese",
+     "desc": "Spaghetti with homemade meat sauce and a generous portion of meatballs.",
+     "prices": [
+      [
+       "",
+       14
+      ]
+     ],
+     "img": "spaghetti-meatballs.webp",
+     "alt": "Spaghetti and meatballs under melted cheese"
+    },
+    {
+     "name": "Sausage w/ Cheese",
+     "desc": "Spaghetti with homemade meat sauce and a generous portion of sausage.",
+     "prices": [
+      [
+       "",
+       14
+      ]
+     ]
+    },
+    {
+     "name": "Mushroom w/ Cheese",
+     "desc": "Spaghetti with homemade meat sauce and generous portions of mushrooms.",
+     "prices": [
+      [
+       "",
+       14
+      ]
+     ]
+    },
+    {
+     "name": "Lasagna",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       15
+      ]
+     ],
+     "img": "lasagna.webp",
+     "alt": "Lasagna in a baking dish"
+    },
+    {
+     "name": "Manicotti",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       15
+      ]
+     ],
+     "img": "manicotti.webp",
+     "alt": "Baked manicotti with melted cheese"
+    },
+    {
+     "name": "Eggplant w/ Spaghetti",
+     "desc": "Spaghetti with homemade meat sauce and a generous portion of breaded eggplant.",
+     "prices": [
+      [
+       "",
+       15
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Parmesan w/ Spaghetti",
+     "desc": "Spaghetti with homemade meat sauce and a generous portion of breaded chicken and cheese.",
+     "prices": [
+      [
+       "",
+       15
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "desc": "Tender chicken and fresh broccoli tossed in a creamy Alfredo sauce over pasta.",
+     "prices": [
+      [
+       "",
+       17
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "key": "salads",
+   "img": "greek-salad.webp",
+   "alt": "A Greek salad with feta and olives",
+   "note": "Unless noted, salads come with iceberg lettuce, tomatoes, cucumbers, green pepper, onion, Greek olives, shredded carrots and shredded cabbage.",
+   "sizes": [],
+   "items": [
+    {
+     "name": "Garden Salad",
+     "desc": "Our standard salad.",
+     "prices": [
+      [
+       "",
+       10
+      ]
+     ],
+     "img": "salad.webp",
+     "alt": "A garden salad on a glass plate"
+    },
+    {
+     "name": "Greek Salad",
+     "desc": "With feta cheese.",
+     "prices": [
+      [
+       "",
+       11.5
+      ]
+     ],
+     "img": "greek-salad.webp",
+     "alt": "A Greek salad with feta and olives"
+    },
+    {
+     "name": "Cheese Salad",
+     "desc": "With shredded cheese.",
+     "prices": [
+      [
+       "",
+       10.5
+      ]
+     ]
+    },
+    {
+     "name": "Chef Salad",
+     "desc": "With ham, cooked salami and shredded cheese.",
+     "prices": [
+      [
+       "",
+       11.5
+      ]
+     ]
+    },
+    {
+     "name": "Crab Meat & Cheese Salad",
+     "desc": "With crab meat salad and shredded cheese.",
+     "prices": [
+      [
+       "",
+       11.5
+      ]
+     ]
+    },
+    {
+     "name": "Tuna & Cheese",
+     "desc": "With tuna salad and shredded cheese.",
+     "prices": [
+      [
+       "",
+       11.5
+      ]
+     ]
+    },
+    {
+     "name": "Turkey & Cheese",
+     "desc": "With deli turkey and shredded cheese.",
+     "prices": [
+      [
+       "",
+       11.5
+      ]
+     ]
+    },
+    {
+     "name": "Ham & Cheese",
+     "desc": "With deli ham and shredded cheese.",
+     "prices": [
+      [
+       "",
+       11.5
+      ]
+     ]
+    },
+    {
+     "name": "Grilled Chicken",
+     "desc": "With grilled chicken and shredded cheese.",
+     "prices": [
+      [
+       "",
+       11.5
+      ]
+     ]
+    },
+    {
+     "name": "Antipasto",
+     "desc": "With pepperoni, genoa salami, jalapeños and shredded cheese.",
+     "prices": [
+      [
+       "",
+       12
+      ]
+     ],
+     "img": "antipasto.webp",
+     "alt": "An antipasto salad with salami and onion rings"
+    },
+    {
+     "name": "Caesar",
+     "desc": "Romaine lettuce, shredded parm cheese and croutons.",
+     "prices": [
+      [
+       "",
+       9.5
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Caesar",
+     "desc": "Romaine lettuce, shredded parmesan, croutons and grilled chicken.",
+     "prices": [
+      [
+       "",
+       11.5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Cold Grinders",
+   "key": "cold",
+   "img": "italian-grinder.webp",
+   "alt": "An Italian grinder with ham, salami and pickles",
+   "note": "Every grinder comes with lettuce, tomatoes, onions, pickles & cheese, unless noted.",
+   "sizes": [
+    [
+     "Small",
+     8.75
+    ],
+    [
+     "Syrian (pita)",
+     10.75
+    ],
+    [
+     "Large or wrap",
+     11.75
+    ]
+   ],
+   "items": [
+    {
+     "name": "Roast Beef",
+     "desc": "Cheese options: Provolone or American.",
+     "prices": []
+    },
+    {
+     "name": "Vegetarian (w/ Green Peppers)",
+     "desc": "Lettuce, tomato, onion, pickles and green peppers. Choice of provolone.",
+     "prices": [
+      [
+       "Small",
+       8.5
+      ],
+      [
+       "Syrian (pita)",
+       10
+      ],
+      [
+       "Large or wrap",
+       11
+      ]
+     ]
+    },
+    {
+     "name": "Ham",
+     "desc": "Ham with your choice of provolone or American cheese.",
+     "prices": []
+    },
+    {
+     "name": "Salami & Bologna",
+     "desc": "Salami and bologna with your choice of provolone or American cheese.",
+     "prices": []
+    },
+    {
+     "name": "Genoa Salami",
+     "desc": "Genoa salami with your choice of provolone or American cheese.",
+     "prices": []
+    },
+    {
+     "name": "Italian",
+     "desc": "Ham and salami with your choice of provolone or American cheese.",
+     "prices": [],
+     "img": "italian-grinder.webp",
+     "alt": "An Italian grinder with ham, salami, tomato and pickles"
+    },
+    {
+     "name": "Tuna",
+     "desc": "Tuna salad with your choice of provolone or American cheese.",
+     "prices": []
+    },
+    {
+     "name": "Crabmeat",
+     "desc": "Crabmeat salad with your choice of provolone or American cheese.",
+     "prices": []
+    },
+    {
+     "name": "Turkey",
+     "desc": "Turkey with your choice of provolone or American cheese.",
+     "prices": []
+    }
+   ]
+  },
+  {
+   "cat": "Hot Grinders",
+   "key": "hot",
+   "img": "chicken-parm.webp",
+   "alt": "A chicken parm grinder",
+   "note": "Hot grinders are priced as shown below unless noted.",
+   "sizes": [
+    [
+     "Small",
+     8.75
+    ],
+    [
+     "Syrian (pita)",
+     10.75
+    ],
+    [
+     "Large or wrap",
+     11.75
+    ]
+   ],
+   "items": [
+    {
+     "name": "Meatball Parm",
+     "desc": "Homemade meatballs with provolone cheese, grilled onions & peppers.",
+     "prices": []
+    },
+    {
+     "name": "Chicken Parm",
+     "desc": "Your choice of grilled chicken, chicken tenders or chicken cutlet with provolone cheese.",
+     "prices": [],
+     "img": "chicken-parm.webp",
+     "alt": "A chicken parm grinder"
+    },
+    {
+     "name": "Sausage Parm",
+     "desc": "Sausage with homemade meat sauce, provolone cheese, grilled onion & peppers.",
+     "prices": []
+    },
+    {
+     "name": "Eggplant Parm",
+     "desc": "Breaded eggplant with homemade meat sauce, provolone cheese, grilled onion & peppers.",
+     "prices": []
+    },
+    {
+     "name": "Pepperoni Parm",
+     "desc": "Pepperoni with homemade meat sauce, provolone cheese, grilled onion & peppers.",
+     "prices": []
+    },
+    {
+     "name": "Pastrami",
+     "desc": "Hot pastrami with your choice of veggies, cheese & toppings.",
+     "prices": []
+    },
+    {
+     "name": "Steak and Cheese",
+     "desc": "Add grilled onion, mushroom or green peppers for an additional charge.",
+     "prices": [
+      [
+       "Small",
+       9
+      ],
+      [
+       "Syrian (pita)",
+       11
+      ],
+      [
+       "Large or wrap",
+       12
+      ]
+     ]
+    },
+    {
+     "name": "Chicken Combo",
+     "desc": "Grilled onion, mushroom, green peppers and American cheese.",
+     "prices": [
+      [
+       "Small",
+       10.5
+      ],
+      [
+       "Syrian (pita)",
+       12.5
+      ],
+      [
+       "Large or wrap",
+       13.5
+      ]
+     ]
+    },
+    {
+     "name": "BLT",
+     "desc": "Bacon, lettuce and tomato with your choice of veggies, cheese & toppings.",
+     "prices": []
+    },
+    {
+     "name": "Cheeseburger Grinder",
+     "desc": "Cheeseburger with your choice of veggies, cheese & toppings.",
+     "prices": [
+      [
+       "Small",
+       9.5
+      ],
+      [
+       "Syrian (pita)",
+       11.5
+      ],
+      [
+       "Large or wrap",
+       12.5
+      ]
+     ]
+    },
+    {
+     "name": "Grilled Chicken Breast Sandwich",
+     "desc": "Grilled chicken breast with your choice of veggies, cheese & toppings.",
+     "prices": [
+      [
+       "",
+       10
+      ]
+     ]
+    },
+    {
+     "name": "Village Burger",
+     "desc": "Burger with your choice of veggies, cheese & toppings.",
+     "prices": [
+      [
+       "",
+       10
+      ]
+     ]
+    },
+    {
+     "name": "Gyro",
+     "desc": "Your choice of beef or chicken with tzatziki sauce, lettuce, tomato and onion.",
+     "prices": [
+      [
+       "",
+       9
+      ]
+     ],
+     "img": "gyro.webp",
+     "alt": "A beef gyro wrapped in pita"
+    }
+   ]
+  },
+  {
+   "cat": "Kids",
+   "key": "kids",
+   "img": null,
+   "alt": "",
+   "note": "All kids meals come with a small fountain soda.",
+   "sizes": [],
+   "items": [
+    {
+     "name": "Kids Cheese Pizza",
+     "desc": "A kid-sized cheese pizza.",
+     "prices": [
+      [
+       "",
+       7
+      ]
+     ]
+    },
+    {
+     "name": "Kids Pizza w/ One Topping",
+     "desc": "A kid-sized pizza with one topping.",
+     "prices": [
+      [
+       "",
+       8
+      ]
+     ]
+    },
+    {
+     "name": "Kids Mac w/ Fries",
+     "desc": "Macaroni and cheese with a side of french fries.",
+     "prices": [
+      [
+       "",
+       8
+      ]
+     ]
+    },
+    {
+     "name": "Kids Mac w/ Tenders",
+     "desc": "Macaroni and cheese with a side of chicken tenders.",
+     "prices": [
+      [
+       "",
+       9
+      ]
+     ]
+    },
+    {
+     "name": "Kids Spaghetti w/ Butter or Sauce",
+     "desc": "Kid-sized spaghetti tossed in butter or pasta sauce.",
+     "prices": [
+      [
+       "",
+       8
+      ]
+     ]
+    },
+    {
+     "name": "Kids Spaghetti w/ Meatballs",
+     "desc": "Kid-sized spaghetti with meatballs.",
+     "prices": [
+      [
+       "",
+       8
+      ]
+     ]
+    },
+    {
+     "name": "Kids Salad",
+     "desc": "A kid-sized salad.",
+     "prices": [
+      [
+       "",
+       5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "cat": "Desserts",
+   "key": "desserts",
+   "img": null,
+   "alt": "",
+   "note": "",
+   "sizes": [],
+   "items": [
+    {
+     "name": "Tiramisu",
+     "desc": "Ladyfingers soaked in coffee, layered with mascarpone cheese and dusted with cocoa.",
+     "prices": [
+      [
+       "",
+       6.99
+      ]
+     ]
+    },
+    {
+     "name": "Baklava",
+     "desc": "Sweet and flaky pastry filled with nuts, honey and aromatic spices.",
+     "prices": [
+      [
+       "",
+       3
+      ]
+     ]
+    },
+    {
+     "name": "Carrot Cake",
+     "desc": "Classic moist cake made with fresh carrots, cream cheese frosting and a hint of spice.",
+     "prices": [
+      [
+       "",
+       6.99
+      ]
+     ]
+    },
+    {
+     "name": "White Chocolate Raspberry Brule Cheesecake",
+     "desc": "Creamy cheesecake with a white chocolate & raspberry brule topping.",
+     "prices": [
+      [
+       "",
+       6.99
+      ]
+     ]
+    }
+   ]
+  }
+ ],
+ "planner": {
+  "toppings": [
+   "Pepperoni",
+   "Onion",
+   "Pepper",
+   "Mushroom",
+   "Sausage",
+   "Hamburg",
+   "Anchovy",
+   "Bacon",
+   "Meatball",
+   "Ham",
+   "Pineapple",
+   "Olive",
+   "Feta",
+   "Tomato",
+   "Artichoke",
+   "Spinach",
+   "Eggplant",
+   "Pastrami",
+   "Chicken",
+   "Steak"
+  ],
+  "gourmet": [
+   "Greek",
+   "Mexican",
+   "Vegetarian",
+   "All Meat",
+   "Chicken Cordon Bleu",
+   "Village Special",
+   "Buffalo Chicken",
+   "BBQ Chicken",
+   "Chicken Bacon Ranch",
+   "Cheeseburger Pizza"
+  ],
+  "gourmet_desc": {
+   "Greek": "Spinach, feta, tomato, onion, olive. Red sauce base.",
+   "Mexican": "Chicken, onion, jalapeño, olive, tomato. Red sauce base.",
+   "Vegetarian": "Mushroom, olives, onion, green pepper, tomato. Red sauce base.",
+   "All Meat": "Bacon, ham, sausage, hamburger, pastrami. Red sauce base.",
+   "Chicken Cordon Bleu": "Chicken, ham, artichoke, onion, mushroom.",
+   "Village Special": "Mushroom, onion, green pepper, pepperoni, hamburger, sausage. Red sauce base.",
+   "Buffalo Chicken": "Your choice of grilled or breaded chicken with a buffalo sauce base.",
+   "BBQ Chicken": "Your choice of grilled or breaded chicken with a BBQ sauce base.",
+   "Chicken Bacon Ranch": "Your choice of grilled or breaded chicken with a ranch base.",
+   "Cheeseburger Pizza": "Ground beef, cheese, pickles and onions.",
+   "White Pie": "Garlic oil blended with ricotta and our very own cheese blend."
+  },
+  "sizes": {
+   "cheese": {
+    "Mini": 7,
+    "Small": 11,
+    "Large": 14
+   },
+   "gourmet": {
+    "Mini": 12,
+    "Small": 18,
+    "Large": 22
+   },
+   "white": {
+    "Small": 17,
+    "Large": 20
+   }
+  },
+  "crust_up": 7,
+  "top_lo": 1,
+  "top_hi": 2,
+  "feast": {
+   "price": 25,
+   "parts": [
+    [
+     "Large cheese pizza",
+     14
+    ],
+    [
+     "Mozzarella sticks",
+     8
+    ],
+    [
+     "Bread sticks",
+     6
+    ]
+   ]
+  }
+ }
+}

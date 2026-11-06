@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#0E5A60">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Newport Village Pizza home"><img src="{{ img('logo.webp') }}" width="617" height="339" alt="Newport Village Pizza"></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#pie-math">Pie Math</a><a href="#menu">Menu</a><a href="#gameday">Game Day</a><a href="#visit">Hours &amp; Directions</a><a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <div class="awning" aria-hidden="true"></div>
+  <div class="hero-in wrap">
+    <div class="hero-copy">
+      <p class="pill"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1>Pizza, calzones &amp; grinders on <em>South Main.</em></h1>
+      <p class="sub">Over 100 dishes at {{ loc.street }}, {{ loc.city }}. Take-out and dine-in, with pickup or delivery through online ordering.</p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+      <ul class="facts"><li><b>Mini $7</b><span>cheese pizza</span></li><li><b>Large $14</b><span>cheese pizza</span></li><li><b>$8.75</b><span>grinders from</span></li></ul>
+    </div>
+    <figure class="hero-ph"><img src="{{ img('hero.webp') }}" width="1280" height="1547" alt="A cheese pizza with golden browned cheese in an open take-out box" fetchpriority="high"></figure>
+  </div>
+</section>
+
+<section class="quick" aria-label="At a glance"><div class="wrap qgrid">
+  <a href="{{ order_any }}" rel="noopener"><b>Order online</b><span>Pickup or delivery</span></a>
+  <a href="tel:{{ loc.tel }}"><b>Call</b><span>{{ loc.phone }}</span></a>
+  <a href="{{ loc.maps }}" rel="noopener"><b>Directions</b><span>{{ loc.street }}, {{ loc.city }}</span></a>
+  <a href="#visit"><b>Today</b><span data-today>See hours</span></a>
+</div></section>
+
+<section class="pm sec" id="pie-math" aria-labelledby="pm-h">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Pie Math</p><h2 id="pm-h">Price your pie <em>before you call</em></h2>
+    <p class="lede">Pick a style, size and crust, tick your toppings, and watch the tape add up. Prices come straight from the shop's menu; toppings are $1 to $2 each, so you see a range.</p></div>
+    <div class="pm-grid">
+      <form class="pm-form" id="pm-form" onsubmit="return false">
+        <fieldset><legend>1. Style</legend><div class="chips" id="pm-style">
+          <label><input type="radio" name="style" value="cheese-pizza" checked><span>Cheese pizza</span></label>
+          <label><input type="radio" name="style" value="cheese-calzone"><span>Cheese calzone</span></label>
+          <label><input type="radio" name="style" value="gourmet-pizza"><span>Gourmet pizza</span></label>
+          <label><input type="radio" name="style" value="gourmet-calzone"><span>Gourmet calzone</span></label>
+          <label><input type="radio" name="style" value="white"><span>White pie</span></label></div></fieldset>
+        <div class="pm-gourmet" id="pm-gwrap" hidden><label for="pm-g">Which gourmet pie?</label><select id="pm-g">{% for g in planner.gourmet %}<option>{{ g }}</option>{% endfor %}</select><p class="fine" id="pm-gd"></p></div>
+        <fieldset><legend>2. Size</legend><div class="chips" id="pm-size"></div></fieldset>
+        <fieldset><legend>3. Crust</legend><div class="chips" id="pm-crust">
+          <label><input type="radio" name="crust" value="0" checked><span>Regular</span></label>
+          <label><input type="radio" name="crust" value="gf"><span>Gluten-free +$7</span></label>
+          <label><input type="radio" name="crust" value="cf"><span>Cauliflower +$7</span></label></div></fieldset>
+        <fieldset id="pm-tops"><legend>4. Toppings <small id="pm-tcount">none</small></legend><div class="chips tops">{% for t in planner.toppings %}<label><input type="checkbox" name="top" value="{{ t }}"><span>{{ t }}</span></label>{% endfor %}</div></fieldset>
+        <p class="fine" id="pm-hint">Gourmet pies come as listed on the menu, so toppings are for cheese pizzas and calzones.</p>
+        <div class="pm-actions"><label class="qty"><span>How many?</span><button type="button" id="pm-minus" aria-label="One fewer">−</button><output id="pm-qty">1</output><button type="button" id="pm-plus" aria-label="One more">+</button></label>
+          <button class="btn" type="button" id="pm-add">Add to the tape</button></div>
+      </form>
+      <aside class="tape-wrap" aria-label="Your order tape">
+        <div class="tape" id="tape"><p class="tape-h">NEWPORT VILLAGE PIZZA<br><small>7 SOUTH MAIN ST · NEWPORT NH</small></p>
+          <ul id="tape-lines" aria-live="polite"><li class="empty">Nothing on the tape yet.</li></ul>
+          <div class="tape-sum"><span>TOTAL</span><b id="tape-total">$0</b></div>
+          <p class="tape-note" id="tape-note"></p></div>
+        <div class="tape-btns"><button class="btn btn-sm" type="button" id="tape-feast">+ Game Day Feast $25</button><button class="btn btn-ghost btn-sm" type="button" id="tape-clear">Clear</button></div>
+        <div class="tape-btns"><button class="btn btn-sm" type="button" id="tape-copy">Copy my order</button><a class="btn btn-ghost btn-sm" href="tel:{{ loc.tel }}">Call the shop</a></div>
+        <p class="fine" id="tape-msg" aria-live="polite">Pricing is for planning only. Tax, soda and any online-ordering fees are not included; confirm when you order.</p>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="gd sec" id="gameday" aria-labelledby="gd-h">
+  <div class="wrap gd-in">
+    <figure class="gd-ph"><img src="{{ img('gameday.webp') }}" width="1400" height="863" alt="Game Day Feast poster: large cheese pizza, mozzarella sticks, bread sticks and a 2 liter soda for $25, available Sunday only" loading="lazy"></figure>
+    <div class="gd-t"><p class="kicker">New · Sunday only</p><h2 id="gd-h">The Game Day <em>Feast</em></h2>
+      <p class="lede">A large cheese pizza, mozzarella sticks, bread sticks and a 2 liter soda for {{ money(planner.feast.price) }}.</p>
+      <table class="gd-math" aria-label="Game Day Feast compared with ordering the same items separately"><tbody>
+      {% for n, p in planner.feast.parts %}<tr><th scope="row">{{ n }}</th><td>{{ money(p) }}</td></tr>{% endfor %}
+      <tr><th scope="row">2 liter soda</th><td>not on the menu</td></tr>
+      <tr class="sub"><th scope="row">Menu prices before the soda</th><td>$28</td></tr>
+      <tr class="tot"><th scope="row">Game Day Feast, with the soda</th><td>$25</td></tr></tbody></table>
+      <p class="fine">So the Feast costs $3 less than the three food items alone, and the soda comes with it. Sunday hours are listed below; call to confirm the Feast is on.</p></div>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The full menu</p><h2>Every dish, <em>every price</em></h2>
+    <p class="lede">Copied from the shop's own menu page, with the duplicate entries cleaned out. Tap a heading or search.</p></div>
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: gyro, lasagna, wings…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for c in menu %}<section class="m-panel" id="mp{{ loop.index0 }}" role="tabpanel" aria-labelledby="mt{{ loop.index0 }}" {% if not loop.first %}hidden{% endif %}>
+      <header class="m-ph">{% if c.img %}<img src="{{ img(c.img) }}" width="856" height="468" alt="{{ esc(c.alt) }}" loading="lazy">{% endif %}<div><h3>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+        {% if c.sizes %}<p class="m-sizes">{% for l, p in c.sizes %}<span><small>{{ l }}</small>{{ money(p) }}</span>{% endfor %}</p>{% endif %}</div></header>
+      <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc)|lower) }}">
+        {% if it.img %}<img class="m-th" src="{{ img(it.img) }}" width="856" height="468" alt="{{ esc(it.alt) }}" loading="lazy">{% endif %}
+        <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+        {% if it.prices %}<div class="m-p">{% for l, p in it.prices %}<span>{% if l %}<small>{{ l }}</small>{% endif %}{{ money(p) }}</span>{% endfor %}</div>{% endif %}</li>{% endfor %}</ul></section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try "chicken" or "salad".</p>
+    <p class="fine">Prices are as published on the shop's menu page. Grinders: Syrian means pita bread. Prices on third-party ordering sites may differ, so check when you order.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+  </div>
+</section>
+
+<section class="photos sec" id="photos" aria-labelledby="ph-h">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">From the kitchen</p><h2 id="ph-h">Out of the <em>oven</em></h2></div>
+    <div class="reel">
+      <figure><img src="{{ img('village-special.webp') }}" width="900" height="1088" alt="The Village Special pizza with peppers, mushrooms, sausage and pepperoni" loading="lazy"></figure>
+      <figure><img src="{{ img('calzone.webp') }}" width="900" height="1088" alt="A golden calzone in an open box with a cup of sauce" loading="lazy"></figure>
+      <figure class="wide"><img src="{{ img('chicken-pizza.webp') }}" width="856" height="468" alt="A chicken pizza with pepperoni and melted cheese" loading="lazy"></figure>
+      <figure class="wide"><img src="{{ img('meat-pizza.webp') }}" width="856" height="468" alt="A pizza with olives, tomato, sausage and cheese" loading="lazy"></figure>
+    </div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>7 South Main St, <em>Newport</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p class="phones"><a class="tel" href="tel:{{ loc.tel }}"><small>Line 1</small>{{ loc.phone }}</a><a class="tel" href="tel:{{ loc.tel2 }}"><small>Line 2</small>{{ loc.phone2 }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <p class="fine"><a href="{{ facebook }}" rel="noopener">Newport Village Pizza on Facebook</a></p></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">These are the shop's newest announced hours (open Sundays, closed Tuesday and Wednesday). Please call to confirm before you drive over.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><p><b>Newport Village Pizza</b> · {{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a> · <a href="tel:{{ loc.tel2 }}">{{ loc.phone2 }}</a></p><p class="mini">© {{ year }} Newport Village Pizza.</p></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+<script>window.__HOURS__={{ hours_json }};window.__PLAN__={{ planner_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

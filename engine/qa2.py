@@ -88,7 +88,69 @@ async def feat_supreme(pg, r):
     await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-none').hidden"); await pg.fill('#m-q', '')
     await pg.click('#m-tabs button:nth-child(4)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).length")
     r['season'] = await pg.evaluate("document.querySelector('.seas.cur').dataset.season")
-FEATS = {'supreme-house-of-pizza-raymond': feat_supreme, 'jaffrey-pizza-barn': feat_jaffrey, 'papa-jays-pizzeria': feat_papajays, 'enfield-house-of-pizza': feat_enfield, 'farmington-house-of-pizza': feat_farmington, 'gilford-house-of-pizza': feat_gilford, 'charlestown-house-of-pizza': feat_charlestown, 'uncle-joeys': feat_joeys, 'golden-acres-pizza-market': feat_acres, 'tremont-house-of-pizza': feat_tremont}
+async def feat_nepizza(pg, r):
+    r['total'] = await pg.inner_text('#m-count')
+    await pg.click('#chips button[data-k="chicken"]'); await pg.click('#chips button[data-k="veg"]'); r['chickenVeg'] = await pg.inner_text('#m-count')
+    r['chickenVegItems'] = await pg.evaluate("[...document.querySelectorAll('.m-it:not([hidden]) .m-n')].map(e=>e.innerText)")
+    await pg.click('#m-clear'); await pg.click('#chips button[data-k="nomeat"]'); r['nomeat'] = await pg.inner_text('#m-count'); r['nomeatNote'] = await pg.evaluate("!document.querySelector('#f-nm').hidden")
+    r['nomeatHasMeat'] = await pg.evaluate("[...document.querySelectorAll('.m-it:not([hidden]) .m-n')].map(e=>e.innerText).filter(t=>/chicken|steak|ham|bacon|beef|sausage|veal|meatball|pepperoni|tuna|haddock/i.test(t))")
+    await pg.click('#m-clear'); await pg.uncheck('#m-px'); r['pxHidden'] = await pg.evaluate("getComputedStyle(document.querySelector('.px')).display"); await pg.check('#m-px')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-none').hidden"); await pg.fill('#m-q', '')
+    r['dagger'] = await pg.evaluate("document.querySelectorAll('.px .dag').length>0")
+async def feat_alton(pg, r):
+    r['init'] = await pg.inner_text('#pc-total')
+    await pg.click('#pc .chips label:nth-child(1)'); r['one'] = await pg.inner_text('#pc-total')
+    await pg.click('#pc label:has(input[name=size][value="1"])'); r['oneLarge'] = await pg.inner_text('#pc-total')
+    for n in ('Tomatoes', 'Fresh Mushrooms', 'Broccoli', 'Black Olives', 'Pepper'): await pg.click(f'#pc .chips label:has(input[value="{n}"])')
+    r['six'] = [await pg.inner_text('#pc-total'), await pg.inner_text('#pc-tip')]
+    await pg.click('#pc .chips label:has(input[value="Pepperoni"])'); await pg.click('#pc .chips label:has(input[value="Sausage"])'); await pg.click('#pc .chips label:has(input[value="Garlic"])')
+    r['nine'] = [await pg.inner_text('#pc-total'), await pg.inner_text('#pc-tip')]
+    await pg.click('#pc-copy'); r['copy'] = await pg.inner_text('#pc-copy'); r['rows'] = await pg.inner_text('#pc-rows')
+    await pg.click('#pc-clear'); r['cleared'] = await pg.inner_text('#pc-total')
+    await pg.click('#m-tabs button:nth-child(7)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.id)")
+    await pg.fill('#m-q', 'baklava'); await pg.wait_for_timeout(150); r['baklava'] = await pg.inner_text('#m-count')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-none').hidden"); await pg.fill('#m-q', '')
+async def feat_tilton(pg, r):
+    vis = await pg.evaluate("getComputedStyle(document.querySelector('.dock')).display !== 'none'")
+    if vis: await pg.click('#dock-check'); r['sheetOpen'] = await pg.evaluate("document.querySelector('#check').classList.contains('open')"); await pg.click('#ck-close')
+    await pg.click('#mp0 .m-it:nth-child(1) .add:nth-child(2)'); await pg.click('#mp0 .m-it:nth-child(1) .add:nth-child(2)')
+    r['total1'] = await pg.inner_text('#ck-total')
+    if vis: await pg.click('#dock-check')
+    await pg.click('#ck-lines button[data-d="-1"]'); r['total2'] = await pg.inner_text('#ck-total')
+    if vis: await pg.click('#ck-close')
+    await pg.click('#mt1'); await pg.click('#mp1 .m-it:nth-child(1) .add:nth-child(1)'); r['total3'] = await pg.inner_text('#ck-total'); r['lines'] = await pg.evaluate("document.querySelectorAll('#ck-lines li').length")
+    r['copy'] = None
+    await pg.fill('#m-q', 'haddock'); await pg.wait_for_timeout(150); r['haddock'] = await pg.inner_text('#m-count')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-none').hidden"); await pg.fill('#m-q', '')
+    await pg.evaluate("document.querySelector('#ck-clear').click()"); r['cleared'] = await pg.inner_text('#ck-total')
+FEATS = {'tilton-house-of-pizza-tilton': feat_tilton,'alton-village-pizza-alton': feat_alton, 'new-england-pizza-exeter': feat_nepizza, 'supreme-house-of-pizza-raymond': feat_supreme, 'jaffrey-pizza-barn': feat_jaffrey, 'papa-jays-pizzeria': feat_papajays, 'enfield-house-of-pizza': feat_enfield, 'farmington-house-of-pizza': feat_farmington, 'gilford-house-of-pizza': feat_gilford, 'charlestown-house-of-pizza': feat_charlestown, 'uncle-joeys': feat_joeys, 'golden-acres-pizza-market': feat_acres, 'tremont-house-of-pizza': feat_tremont}
+async def feat_newport(pg, r):
+    await pg.click('#pm-style label:nth-child(1) input'); await pg.click('#pm-size label:nth-child(3) input')
+    for n in ('Pepperoni', 'Mushroom'): await pg.click(f'input[name=top][value="{n}"]')
+    await pg.click('#pm-add'); r['line1'] = await pg.inner_text('#tape-lines'); r['total1'] = await pg.inner_text('#tape-total')
+    await pg.click('#pm-style label:nth-child(3) input'); r['gourmetSizes'] = await pg.evaluate("[...document.querySelectorAll('#pm-size span')].map(s=>s.innerText)"); r['topsDisabled'] = await pg.evaluate("document.querySelector('input[name=top]').disabled")
+    await pg.click('#pm-style label:nth-child(5) input'); r['whiteSizes'] = await pg.evaluate("[...document.querySelectorAll('#pm-size span')].map(s=>s.innerText)")
+    await pg.click('#pm-crust label:nth-child(2) input'); await pg.click('#pm-plus'); await pg.click('#pm-add'); r['total2'] = await pg.inner_text('#tape-total')
+    await pg.click('#tape-feast'); r['total3'] = await pg.inner_text('#tape-total')
+    await pg.click('#tape-lines li:nth-child(1) .x'); r['afterRemove'] = await pg.inner_text('#tape-total')
+    await pg.click('#tape-clear'); r['cleared'] = await pg.inner_text('#tape-total')
+    await pg.fill('#m-q', 'gyro'); await pg.wait_for_timeout(150); r['gyro'] = await pg.inner_text('#m-count')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-none').hidden"); await pg.fill('#m-q', '')
+    await pg.click('#m-tabs button:nth-child(7)'); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).length")
+FEATS['newport-village-pizza-newport'] = feat_newport
+async def feat_exeter(pg, r):
+    await pg.click('#m-tabs button:nth-child(2)'); await pg.wait_for_timeout(100); r['panel'] = await pg.evaluate("[...document.querySelectorAll('.m-panel')].filter(p=>!p.hidden).map(p=>p.dataset.p)")
+    await pg.click('#mp1 .m-it:nth-child(1) .chip:nth-child(2)'); await pg.click('#mp1 .m-it:nth-child(1) .chip:nth-child(2)'); await pg.click('#mp1 .m-it:nth-child(3) .chip:nth-child(2)')
+    r['total'] = await pg.inner_text('#t-total'); r['count'] = await pg.inner_text('#t-count'); r['deals'] = (await pg.inner_text('#t-deals-txt'))[:90]
+    r['trayLines'] = await pg.evaluate("document.querySelectorAll('#tray-list li').length")
+    fab = await pg.evaluate("getComputedStyle(document.querySelector('#fab')).display!=='none'"); r['fabShown'] = fab
+    if fab:
+        await pg.click('#fab'); await pg.wait_for_timeout(400); r['sheetOpen'] = await pg.evaluate("document.querySelector('#tray').classList.contains('open')")
+    await pg.click('#t-copy'); r['copyLabel'] = await pg.inner_text('#t-copy')
+    await pg.click('#t-clear'); r['cleared'] = await pg.evaluate("document.querySelector('#tray-empty').hidden===false")
+    await pg.fill('#m-q', 'haddock'); await pg.wait_for_timeout(150); r['haddock'] = await pg.inner_text('#m-count')
+    await pg.fill('#m-q', 'zzzz'); r['emptyMsg'] = await pg.evaluate("!document.querySelector('#m-none').hidden"); await pg.fill('#m-q', '')
+FEATS['supreme-house-of-pizza-exeter'] = feat_exeter
 async def main(slug):
     feat = FEATS[slug]; res = {}
     async with async_playwright() as p:

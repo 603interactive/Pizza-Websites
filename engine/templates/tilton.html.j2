@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#7F2A2B">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Tilton House of Pizza home"><img src="{{ img('logo.webp') }}" width="670" height="412" alt="Tilton House of Pizza logo"></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#menu">Menu &amp; call-in check</a><a href="#photos">Photos</a><a href="#visit">Hours &amp; Directions</a><a class="btn btn-sm" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <p class="pill"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <h1>Pizza, grinders &amp; family dinners on <em>Main Street.</em></h1>
+      <p class="sub">{{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }}. Build your order below, then call it in. Open Wednesday through Sunday.</p>
+      <div class="cta"><a class="btn" href="#menu">Build a call-in order</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+    </div>
+    <figure class="hero-oval"><img src="{{ img('hero.webp') }}" width="1500" height="1000" alt="A whole pepperoni pizza with a thick, golden crust edge on a gray counter" fetchpriority="high"></figure>
+  </div>
+</section>
+
+<section class="quick" aria-label="At a glance"><div class="wrap qgrid">
+  <a href="tel:{{ loc.tel }}"><b>Call to order</b><span>{{ loc.phone }}</span></a>
+  <a href="{{ loc.maps }}" rel="noopener"><b>Directions</b><span>{{ loc.street }}, {{ loc.city }}</span></a>
+  <a href="#visit"><b>Today</b><span data-today>See hours</span></a>
+  <a href="{{ menu_pdf }}" rel="noopener"><b>Printable menu</b><span>The shop's PDF</span></a>
+</div></section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The menu</p><h2>Tap a price to start your <em>guest check</em></h2>
+    <p class="lede">Ordering here is by phone. Add what you want, see a running total, then call {{ loc.phone }} and read your check to us. Nothing is sent from this page.</p></div>
+    <div class="layout">
+    <div class="board">
+      <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+        <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: steak, haddock, wings…" autocomplete="off"></label></div>
+      <p class="m-count" id="m-count" aria-live="polite"></p>
+      {% for c in menu %}{% set ci = loop.index0 %}<section class="m-panel" id="mp{{ ci }}" role="tabpanel" aria-labelledby="mt{{ ci }}" {% if not loop.first %}hidden{% endif %}>
+        <div class="p-head">{% if c.img %}<img src="{{ img(c.img) }}" width="900" height="559" alt="{{ esc(c.alt) }}" loading="lazy">{% endif %}<div><h3>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}</div></div>
+        {% for s in c.sections %}<div class="m-sec">{% if s.title %}<h4>{{ s.title }}</h4>{% endif %}{% if s.blurb %}<p class="m-note">{{ s.blurb }}</p>{% endif %}
+        <ul class="m-list">{% for it in s['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc ~ ' ' ~ c.cat)|lower) }}">
+          <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+          <div class="m-p">{% for p in it.prices %}{% if p is not none %}{% set lab = c.head[loop.index0] if c.head|length > 1 else '' %}<button type="button" class="add" data-n="{{ esc(it.name) }}" data-l="{{ esc(lab) }}" data-p="{{ p }}" aria-label="Add {{ esc(it.name) }}{% if lab %}, {{ esc(lab) }}{% endif %}, {{ money(p) }}, to your check">{% if lab %}<small>{{ lab.split(' (')[0].split(' or')[0] }}</small>{% endif %}<span>{{ money(p) }}</span><i aria-hidden="true">+</i></button>{% else %}<span class="na" aria-hidden="true"></span>{% endif %}{% endfor %}</div></li>{% endfor %}</ul></div>{% endfor %}
+      </section>{% endfor %}
+      <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try "chicken" or "steak".</p>
+      <p class="fine">Prices are as listed on thopnh.com and the shop's PDF menu (named 2024) and may have changed. Totals here are estimates before tax. Confirm everything when you call.</p>
+    </div>
+
+    <aside class="check" id="check" aria-labelledby="ck-h">
+      <div class="slip">
+        <button type="button" class="ck-x" id="ck-close" aria-label="Close your check">×</button>
+        <p class="ck-brand">Tilton House of Pizza</p>
+        <h3 id="ck-h">Guest check</h3>
+        <p class="ck-sub">298 Main St · Call-in order</p>
+        <ul class="ck-lines" id="ck-lines" aria-live="polite"></ul>
+        <p class="ck-empty" id="ck-empty">Nothing on your check yet. Tap any price in the menu to add it.</p>
+        <dl class="ck-tot"><div><dt>Subtotal <small>(before tax)</small></dt><dd id="ck-total">$0.00</dd></div></dl>
+        <label class="ck-note"><span>Toppings and notes for the counter</span><textarea id="ck-notes" rows="3" placeholder="e.g. 2 Way: pepperoni and onions. Pickup at 6."></textarea></label>
+        <div class="ck-act">
+          <a class="btn" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a>
+          <button type="button" class="btn btn-ghost" id="ck-copy">Copy my check</button>
+          <button type="button" class="link" id="ck-clear">Start over</button>
+        </div>
+        <p class="ck-fine">A list to read to us over the phone. It is an estimate, not an order, and nothing is sent or paid here.</p>
+      </div>
+    </aside>
+    </div>
+  </div>
+</section>
+
+<section class="photos sec" id="photos" aria-labelledby="ph-h">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">From the kitchen</p><h2 id="ph-h">Plates from <em>our counter</em></h2></div>
+    <div class="reel">
+      {% set ph = [('pepperoni-pizza','A small pepperoni pizza with a thick golden crust',715,900),('chicken-tenders','Chicken tenders and french fries with dipping sauces',900,559),('wings-plate','A plate of crispy chicken wings with a glass behind it',900,559),('burger-fries','A bacon cheeseburger with seasoned fries and pickle slices',715,900),('spaghetti-meatballs','Spaghetti and meatballs with two slices of garlic bread',900,559),('steak-tips','Glazed grilled steak tips on a plate with fries and salad',715,900),('wrap','A roast beef wrap cut in half beside a side salad',900,559),('pizza-roasted-peppers','A pizza topped with roasted red peppers and melted cheese',900,559),('chicken-sandwich','A chicken sandwich with lettuce, tomato and onion, and fries',715,900),('grinders','Two grinders with lettuce and tomato on a plate',900,559),('fried-basket','A basket of crispy fried sticks with a creamy dip',715,900),('cheesy-bread','A baked, cheese-topped flatbread with a cup of marinara',900,559),('tender-dip','A hand dipping a chicken tender into ketchup',715,900),('wings-saucy','Saucy chicken wings with a cup of bleu cheese dip',900,559),('bacon-burger','A bacon cheeseburger with fries and pickles',900,559)] %}
+      {% for n, a, w, h in ph %}<figure><img src="{{ img(n ~ '.webp') }}" width="{{ w }}" height="{{ h }}" alt="{{ esc(a) }}" loading="lazy"></figure>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap vgrid">
+    <div class="v-a"><p class="kicker">Come by or call</p><h2>Find us on <em>Main Street</em></h2>
+      <address><b>{{ name }}</b><br>{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</address>
+      <p class="phones"><a class="big" href="tel:{{ loc.tel }}">{{ loc.phone }}</a><span>Two numbers are listed for the shop. Also listed: <a href="tel:{{ loc.tel2 }}">{{ loc.phone2 }}</a>.</span></p>
+      <div class="cta"><a class="btn" href="{{ loc.maps }}" rel="noopener">Get directions</a><a class="btn btn-ghost" href="{{ menu_pdf }}" rel="noopener">Printable menu (PDF)</a></div>
+      <p class="social"><a href="{{ facebook }}" rel="noopener">Facebook</a><a href="{{ instagram }}" rel="noopener">Instagram</a></p>
+    </div>
+    <div class="v-b"><h3>Hours</h3>
+      <table class="hours"><tbody>{% for w in week %}<tr data-dow="{{ w.dow }}"><th scope="row">{{ w.day }}</th><td>{{ w.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">Closing time is 9 PM on the shop's website; some public listings show 10 PM. Call if you are coming in late.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><p><b>{{ name }}</b> · {{ loc.street }}, {{ loc.city }}, {{ loc.region }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p>© {{ year }} Tilton House of Pizza. Website concept by 603 Interactive.</p></div></footer>
+
+<div class="dock"><button type="button" id="dock-check" aria-expanded="false" aria-controls="check"><b id="dock-n">Your check</b><span id="dock-t">$0.00</span></button><a class="btn" href="tel:{{ loc.tel }}">Call</a></div>
+<script>window.__HOURS__={{ hours_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js"></script>{% endif %}
+</body>
+</html>

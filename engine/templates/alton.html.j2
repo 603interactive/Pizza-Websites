@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ esc(seo_desc) }}">
+<meta name="theme-color" content="#B3261E">
+<meta property="og:title" content="{{ esc(seo_title) }}"><meta property="og:description" content="{{ esc(seo_desc) }}"><meta property="og:type" content="restaurant.restaurant">
+{% if preview %}<style>{{ css }}</style>{% else %}<link rel="stylesheet" href="assets/site.css"><script type="application/ld+json">{{ jsonld }}</script>{% endif %}
+</head>
+<body>
+{% if preview %}<div class="ribbon"><span>{{ ribbon }}</span><button type="button" data-ribbon-x aria-label="Dismiss">×</button></div>{% endif %}
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <a class="brand" href="#top" aria-label="Alton Village Pizza home"><b>Alton Village</b><small>Pizza</small></a>
+  <button class="burger" type="button" aria-expanded="false" aria-controls="nav"><span class="sr">Menu</span><i></i><i></i><i></i></button>
+  <nav id="nav" aria-label="Main"><a href="#check">Price check</a><a href="#menu">Menu</a><a href="#story">Our story</a><a href="#visit">Hours &amp; Directions</a><a class="btn btn-sm" href="{{ order_any }}" rel="noopener">Order online</a></nav>
+</header>
+<main id="main">
+<section class="hero" id="top">
+  <div class="hero-copy wrap">
+    <p class="pill"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+    <h1>An Alton <em>original.</em></h1>
+    <p class="sub">Not a chain pizza store. Our own dough, our own sauce, our own shredded cheese blend, for 31 years at {{ loc.street }}, {{ loc.city }}.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+  </div>
+  <figure class="hero-ph"><img src="{{ img('village-special.webp') }}" width="720" height="841" alt="The Village Special pizza on a gingham tablecloth, with a bottle of olive oil, a green pepper and tomatoes behind it" fetchpriority="high"><figcaption>The Village Special</figcaption></figure>
+</section>
+
+<section class="quick" aria-label="At a glance"><div class="wrap qgrid">
+  <a href="{{ order_any }}" rel="noopener"><b>Order online</b><span>Through Big Holler</span></a>
+  <a href="tel:{{ loc.tel }}"><b>Call</b><span>{{ loc.phone }}</span></a>
+  <a href="{{ loc.maps }}" rel="noopener"><b>Directions</b><span>{{ loc.street }}, {{ loc.city }}</span></a>
+  <a href="#visit"><b>Today</b><span data-today>See hours</span></a>
+</div></section>
+
+<section class="made sec" aria-labelledby="mk-h"><div class="wrap">
+  <h2 id="mk-h" class="sr">Made here</h2>
+  <ul class="made-l"><li><b>Our own dough</b><span>Made in the shop</span></li><li><b>Our own sauce</b><span>No preservatives, no fillers</span></li><li><b>Our own cheese blend</b><span>Shredded here, no trans fats</span></li></ul>
+</div></section>
+
+<section class="check sec" id="check">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">Pizza price check</p><h2>Build it, or <em>order the special?</em></h2>
+    <p class="lede">Pick a size and toppings and see the price from our menu. If one of our specialty pizzas would cost less for the same idea, we will tell you.</p></div>
+    <div class="pc">
+      <form class="pc-form" id="pc" onsubmit="return false">
+        <fieldset class="pc-size"><legend>Size</legend>
+          <label><input type="radio" name="size" value="0" checked><span>Small</span></label><label><input type="radio" name="size" value="1"><span>Large</span></label></fieldset>
+        <fieldset class="pc-tops"><legend>Toppings <small id="pc-n">none picked</small></legend>
+          <div class="chips">{% for t in toppings %}<label><input type="checkbox" name="top" value="{{ t }}"><span>{{ t }}</span></label>{% endfor %}</div></fieldset>
+        <fieldset class="pc-ex"><legend>Extras</legend>
+          <label class="ex"><input type="checkbox" name="xc"><span>Extra cheese</span></label><label class="ex"><input type="checkbox" name="xs"><span>Extra sauce</span></label><label class="ex"><input type="checkbox" name="gf"><span>Gluten free option</span></label></fieldset>
+      </form>
+      <aside class="pc-out" aria-live="polite">
+        <p class="pc-k">Your pizza</p>
+        <p class="pc-total" id="pc-total">$0.00</p>
+        <ul class="pc-lines" id="pc-lines"></ul>
+        <p class="pc-tip" id="pc-tip" hidden></p>
+        <div class="pc-btns"><button type="button" class="btn btn-ghost" id="pc-copy">Copy my pizza</button><button type="button" class="pc-clear" id="pc-clear">Clear</button></div>
+        <p class="pc-fine">Menu prices before tax, as listed on the shop's website. Prices can change: confirm when you order. Copy the text to read it out when you call, or to paste into your online order notes.</p>
+      </aside>
+    </div>
+    <div class="pc-table" aria-labelledby="pt-h"><h3 id="pt-h">The math on our two bigger specials</h3>
+      <div class="tbl-w"><table><thead><tr><th scope="col">Pizza</th><th scope="col">Small</th><th scope="col">Large</th></tr></thead><tbody id="pc-rows"></tbody></table></div>
+      <p class="fine">"Built" means cheese pizza plus the same number of toppings, at topping prices from our menu.</p></div>
+  </div>
+</section>
+
+<section class="menu sec" id="menu">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">The menu</p><h2>Everything on <em>the board</em></h2>
+    <p class="lede">The full menu, with prices from the shop's website. Tap a section or search for what you want.</p></div>
+    <div class="board">
+    <div class="m-bar"><div class="m-tabs" id="m-tabs" role="tablist" aria-label="Menu sections">{% for c in menu %}<button type="button" role="tab" id="mt{{ loop.index0 }}" aria-controls="mp{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ c.cat }}</button>{% endfor %}</div>
+      <label class="m-q"><span class="sr">Search the menu</span><input id="m-q" type="search" placeholder="Search: steak, gyro, baklava…" autocomplete="off"></label></div>
+    <p class="m-count" id="m-count" aria-live="polite"></p>
+    {% for c in menu %}<section class="m-panel" id="mp{{ loop.index0 }}" role="tabpanel" aria-labelledby="mt{{ loop.index0 }}" tabindex="0" {% if not loop.first %}hidden{% endif %}>
+      <h3>{{ c.cat }}</h3>{% if c.note %}<p class="m-note">{{ c.note }}</p>{% endif %}
+      {% if c.head|length > 1 %}<p class="m-cols" aria-hidden="true">{% for h in c.head %}<span>{{ h }}</span>{% endfor %}</p>{% endif %}
+      <ul class="m-list">{% for it in c['items'] %}<li class="m-it" data-s="{{ esc((it.name ~ ' ' ~ it.desc)|lower) }}">
+        <div class="m-n"><b>{{ it.name }}</b>{% if it.desc %}<span>{{ it.desc }}</span>{% endif %}</div>
+        <div class="m-p">{% if it.prices|length == 0 %}<span class="ask">Free</span>{% elif c.head|length > 1 and not it.only %}{% for p in it.prices %}<span><small>{{ c.head[loop.index0] }}</small>{{ money(p) }}</span>{% endfor %}{% else %}{% for p in it.prices %}<span>{{ money(p) }}</span>{% endfor %}{% endif %}</div></li>{% endfor %}</ul></section>{% endfor %}
+    <p class="m-none" id="m-none" hidden>Nothing on the menu matches that. Try "chicken" or "steak".</p>
+    </div>
+    <p class="fine">Prices are from the shop's website menu and may have changed; please confirm when you order. Delivery details were not listed, so call to ask.</p>
+    <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></div>
+  </div>
+</section>
+
+<section class="photos sec" id="photos" aria-labelledby="ph-h">
+  <div class="wrap">
+    <div class="sec-head"><p class="kicker">From the kitchen</p><h2 id="ph-h">Fresh out of the <em>oven</em></h2></div>
+    <div class="reel">
+      <figure class="w2"><img src="{{ img('greek-pizza.webp') }}" width="1440" height="1231" alt="Greek pizza with spinach, tomato and feta in a pizza box" loading="lazy"><figcaption>Greek</figcaption></figure>
+      <figure><img src="{{ img('loaded-steak-pizza.webp') }}" width="720" height="567" alt="Loaded steak pizza on a gingham tablecloth" loading="lazy"><figcaption>Loaded Steak</figcaption></figure>
+      <figure><img src="{{ img('veggie-pizza.webp') }}" width="720" height="482" alt="Vegetarian pizza with broccoli, black olives, peppers and tomato" loading="lazy"><figcaption>Vegetarian</figcaption></figure>
+      <figure><img src="{{ img('steak-bomb.webp') }}" width="720" height="517" alt="A steak bomb sub on a paper plate" loading="lazy"><figcaption>Steak Bomb</figcaption></figure>
+      <figure><img src="{{ img('calzone.webp') }}" width="720" height="482" alt="A cut-open calzone with a cup of marinara sauce" loading="lazy"><figcaption>Calzone with marinara</figcaption></figure>
+      <figure><img src="{{ img('alfredo-pizza.webp') }}" width="900" height="675" alt="Alfredo pizza with grilled chicken and broccoli in a pizza box" loading="lazy"><figcaption>Alfredo</figcaption></figure>
+      <figure><img src="{{ img('cheeseburger.webp') }}" width="900" height="900" alt="A cheeseburger with lettuce and tomato on a ciabatta-style roll" loading="lazy"><figcaption>Cheeseburger</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="story sec" id="story">
+  <div class="wrap story-in">
+    <figure class="s-a"><img src="{{ img('dining-room.webp') }}" width="612" height="612" alt="The dining room with a painted Tuscan arch mural and a sky ceiling" loading="lazy"><figcaption>The dining room</figcaption></figure>
+    <div class="s-t"><p class="kicker">Our story</p><h2>31 years, <em>one family</em></h2>
+    <p class="lede">"Locally owned and operated for over 31 years, making and serving the best pizza has been a family tradition for us internationally since 1965."</p>
+    <p class="lede sm">"With an award winning pizzeria in Greece for years, we have established our motto as being 'Quality.'" That Greek side shows up on the menu: gyros, feta, Greek olives and imported baklava.</p></div>
+  </div>
+</section>
+
+<section class="visit sec" id="visit">
+  <div class="wrap visit-in">
+    <div><p class="kicker">Come in or call</p><h2>132 Main Street, <em>Alton</em></h2>
+      <p class="addr">{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+      <p><a class="tel" href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p>
+      <div class="cta"><a class="btn" href="{{ order_any }}" rel="noopener">Order online</a><a class="btn btn-ghost" href="{{ loc.maps }}" rel="noopener">Get directions</a></div>
+      <p class="fine"><a href="{{ facebook }}" rel="noopener">Facebook</a> · <a href="{{ instagram }}" rel="noopener">Instagram</a></p></div>
+    <div class="hours" aria-label="Hours"><p class="pl-head"><span class="dot" aria-hidden="true"></span><span data-status>Checking hours…</span></p>
+      <table><tbody>{% for r in week %}<tr data-dow="{{ r.dow }}"><th scope="row">{{ r.day }}</th><td>{{ r.text }}</td></tr>{% endfor %}</tbody></table>
+      <p class="fine">Fall / winter hours, as posted on the shop's website. Call to confirm, especially on holidays.</p></div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div class="wrap"><p><b>Alton Village Pizza</b> · {{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }} · <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a></p><p class="mini">© {{ year }} Alton Village Pizza.</p></div></footer>
+<div class="dock"><a href="tel:{{ loc.tel }}">Call</a><a class="pri" href="{{ order_any }}" rel="noopener">Order online</a><a href="{{ loc.maps }}" rel="noopener">Directions</a></div>
+<script>window.__HOURS__={{ hours_json }};window.__CALC__={{ calc_json }};window.__TOPS__={{ tops_json }};</script>
+{% if preview %}<script>{{ js }}</script>{% else %}<script src="assets/site.js" defer></script>{% endif %}
+</body></html>

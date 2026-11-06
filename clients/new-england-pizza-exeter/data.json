@@ -1,0 +1,2000 @@
+{
+ "slug": "new-england-pizza-exeter",
+ "name": "New England Pizza",
+ "short": "NE Pizza",
+ "domain": "https://www.nepizzaexeter.com",
+ "tagline": "Pizza, calzones, subs, salads and dinners at 92 Portsmouth Ave in Exeter, NH.",
+ "seo_title": "New England Pizza | Pizza, Subs & Calzones in Exeter, NH",
+ "seo_desc": "New England Pizza, 92 Portsmouth Ave, Exeter NH. Pizza, calzones, hot and cold subs, salads, pasta and dinners. Order online or call 603-778-9800.",
+ "locations": [
+  {
+   "id": "exeter",
+   "name": "Exeter",
+   "street": "92 Portsmouth Ave",
+   "city": "Exeter",
+   "region": "NH",
+   "postal": "03833",
+   "phone": "603-778-9800",
+   "tel": "+16037789800",
+   "hours": [
+    {
+     "dow": [
+      1,
+      3,
+      4
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    },
+    {
+     "dow": [
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "22:00"
+    },
+    {
+     "dow": [
+      0
+     ],
+     "open": "12:00",
+     "close": "21:00"
+    }
+   ],
+   "order": "https://newengland-exeter.foodtecsolutions.com/",
+   "maps": "https://www.google.com/maps/search/?api=1&query=New+England+Pizza+92+Portsmouth+Ave+Exeter+NH+03833",
+   "geo": null
+  }
+ ],
+ "order_any": "https://newengland-exeter.foodtecsolutions.com/",
+ "facebook": null,
+ "menu": [
+  {
+   "cat": "Pizza",
+   "id": "pizza",
+   "note": "Sizes shown as listed on the third-party mirror. A range means the small-to-large price.",
+   "items": [
+    {
+     "name": "Cheese Pizza",
+     "desc": "Pizza sauce and blended cheese.",
+     "prices": [
+      [
+       "",
+       9.5
+      ],
+      [
+       "",
+       13.95
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "White Pizza",
+     "desc": "Garlic butter and blended cheese.",
+     "prices": [
+      [
+       "",
+       9.5
+      ],
+      [
+       "",
+       13.95
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Cheese Mini Pizza",
+     "desc": "Pizza sauce and blended cheese.",
+     "prices": [
+      [
+       "",
+       4.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Hawaiian Pizza",
+     "desc": "Pizza sauce, blended cheese, honey ham and pineapple.",
+     "prices": [
+      [
+       "Small",
+       12.0
+      ],
+      [
+       "Large",
+       17.45
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Vegetarian Pizza",
+     "desc": "Pizza sauce, blended cheese, green peppers, mushrooms, onion, black olives, tomatoes, and broccoli.",
+     "prices": [
+      [
+       "",
+       13.25
+      ],
+      [
+       "",
+       19.5
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Chicken Pesto Pizza",
+     "desc": "Blended cheese, pesto sauce, tomatoes, feta cheese, and chicken.",
+     "prices": [
+      [
+       "Small",
+       13.75
+      ],
+      [
+       "Large",
+       19.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "BBQ Chicken Pizza",
+     "desc": "Blended cheese, BBQ sauce and chicken.",
+     "prices": [
+      [
+       "Small",
+       12.95
+      ],
+      [
+       "Large",
+       19.0
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "N Englander Pizza",
+     "desc": "Pizza sauce, blended cheese, pepperoni, green peppers, black olives, tomatoes, and bacon.",
+     "prices": [
+      [
+       "Small",
+       13.25
+      ],
+      [
+       "Large",
+       19.5
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Loaded Pizza",
+     "desc": "Pizza sauce, blended cheese, honey ham, salami, pepperoni, sausages, green peppers, onion, black olives and mushrooms.",
+     "prices": [
+      [
+       "Small",
+       13.5
+      ],
+      [
+       "Large",
+       19.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Broccoli Alfredo Pizza",
+     "desc": "Alfredo sauce, blended cheese, chicken and broccoli.",
+     "prices": [
+      [
+       "Small",
+       13.25
+      ],
+      [
+       "Large",
+       19.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Artichoke Pizza",
+     "desc": "Garlic butter, blended cheese, tomatoes, feta cheese, chicken and artichokes.",
+     "prices": [
+      [
+       "",
+       13.75
+      ],
+      [
+       "",
+       19.95
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Meat Lovers Pizza",
+     "desc": "Pizza sauce, blended cheese, pepperoni, sausages, hamburger, honey ham and bacon.",
+     "prices": [
+      [
+       "",
+       13.5
+      ],
+      [
+       "",
+       19.75
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Buffalo Chicken Pizza",
+     "desc": "Buffalo sauce, blended cheese and chicken.",
+     "prices": [
+      [
+       "",
+       12.95
+      ],
+      [
+       "",
+       20.75
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Cordon Bleu Pizza",
+     "desc": "Garlic butter, blended cheese, honey ham, tomatoes, scallions, and chicken.",
+     "prices": [
+      [
+       "Small",
+       12.95
+      ],
+      [
+       "Large",
+       20.75
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "id": "calzones",
+   "note": "Listed as a price range, small to large.",
+   "items": [
+    {
+     "name": "Cheese Calzone",
+     "desc": "Cheese blend.",
+     "prices": [
+      [
+       "",
+       6.75
+      ],
+      [
+       "",
+       10.5
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Ham & Cheese Calzone",
+     "desc": "Cheese blend and honey ham.",
+     "prices": [
+      [
+       "",
+       7.5
+      ],
+      [
+       "",
+       11.25
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Pepperoni & Cheese Calzone",
+     "desc": "Cheese blend and pepperoni.",
+     "prices": [
+      [
+       "",
+       7.5
+      ],
+      [
+       "",
+       11.25
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Chicken Parm Calzone",
+     "desc": "The sauce inside, mozzarella and chicken.",
+     "prices": [
+      [
+       "",
+       8.0
+      ],
+      [
+       "",
+       12.0
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Sausage Parm Calzone",
+     "desc": "The sauce inside, mozzarella and sausages.",
+     "prices": [
+      [
+       "",
+       8.0
+      ],
+      [
+       "",
+       12.0
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Eggplant Parm Calzone",
+     "desc": "The sauce inside, mozzarella and eggplant.",
+     "prices": [
+      [
+       "",
+       8.0
+      ],
+      [
+       "",
+       12.0
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Veal Parm Calzone",
+     "desc": "The sauce inside, mozzarella and veal.",
+     "prices": [
+      [
+       "",
+       8.5
+      ],
+      [
+       "",
+       12.5
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Steak & Cheese Calzone",
+     "desc": "Cheese blend and steak.",
+     "prices": [
+      [
+       "",
+       8.0
+      ],
+      [
+       "",
+       12.0
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Steak Bomb Calzone",
+     "desc": "Cheese blend, steak, mortadella, salami, mushrooms, green peppers, and onion.",
+     "prices": [
+      [
+       "",
+       8.75
+      ],
+      [
+       "",
+       13.25
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Meatball Parm Calzone",
+     "desc": "Sauce inside, mozzarella and meatballs.",
+     "prices": [
+      [
+       "",
+       8.0
+      ],
+      [
+       "",
+       12.0
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Vegetarian Calzone",
+     "desc": "Cheese blend, green peppers, mushrooms, onion, black olives, tomatoes, and broccoli.",
+     "prices": [
+      [
+       "",
+       8.0
+      ],
+      [
+       "",
+       12.0
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Spinach & Cheese Calzone",
+     "desc": "Cheese blend and spinach.",
+     "prices": [
+      [
+       "",
+       7.5
+      ],
+      [
+       "",
+       11.25
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Spinach & Feta Calzone",
+     "desc": "Cheese blend, spinach and feta cheese.",
+     "prices": [
+      [
+       "",
+       8.0
+      ],
+      [
+       "",
+       12.0
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Broccoli & Cheese Calzone",
+     "desc": "Cheese blend and broccoli.",
+     "prices": [
+      [
+       "",
+       7.5
+      ],
+      [
+       "",
+       11.25
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Roast Beef BBQ Calzone",
+     "desc": "Cheese blend, roast beef and BBQ sauce.",
+     "prices": [
+      [
+       "",
+       8.5
+      ],
+      [
+       "",
+       12.5
+      ]
+     ],
+     "range": true
+    }
+   ]
+  },
+  {
+   "cat": "Hot Subs",
+   "id": "hot-subs",
+   "note": "Small, large and wrap prices as listed.",
+   "items": [
+    {
+     "name": "Steak Bomb",
+     "desc": "Sub roll, American, mushrooms, grilled onions, grilled peppers, steak, cooked salami and mortadella.",
+     "prices": [
+      [
+       "Small",
+       8.75
+      ],
+      [
+       "Large",
+       9.75
+      ],
+      [
+       "Wrap",
+       9.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Steak & Cheese",
+     "desc": "Sub roll, American and steak.",
+     "prices": [
+      [
+       "Large",
+       8.75
+      ],
+      [
+       "Wrap",
+       8.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Pastrami & Cheese",
+     "desc": "Sub roll, provolone, and pastrami.",
+     "prices": [
+      [
+       "Small",
+       8.0
+      ],
+      [
+       "Large",
+       9.0
+      ],
+      [
+       "Wrap",
+       9.0
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Meatball Parm",
+     "desc": "Sub roll, mozzarella, meatball, and meat sauce.",
+     "prices": [
+      [
+       "Small",
+       7.75
+      ],
+      [
+       "Large",
+       8.75
+      ],
+      [
+       "Wrap",
+       8.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Sausage Parm",
+     "desc": "Sub roll, mozzarella, sausage and meat sauce.",
+     "prices": [
+      [
+       "Small",
+       7.75
+      ],
+      [
+       "Large",
+       8.75
+      ],
+      [
+       "Wrap",
+       8.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Parm",
+     "desc": "Sub roll, mozzarella, chicken cutlet and meat sauce.",
+     "prices": [
+      [
+       "Small",
+       8.0
+      ],
+      [
+       "Large",
+       9.0
+      ],
+      [
+       "Wrap",
+       9.0
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Veal Parm",
+     "desc": "Sub roll, mozzarella, veal cutlet and meat sauce.",
+     "prices": [
+      [
+       "Small",
+       8.0
+      ],
+      [
+       "Large",
+       9.0
+      ],
+      [
+       "Wrap",
+       9.0
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Eggplant Parm",
+     "desc": "Sub roll, mozzarella, breaded eggplant and marinara.",
+     "prices": [
+      [
+       "Small",
+       7.25
+      ],
+      [
+       "Large",
+       8.25
+      ],
+      [
+       "Wrap",
+       8.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Fingers",
+     "desc": "Sub roll, provolone and chicken fingers.",
+     "prices": [
+      [
+       "Small",
+       7.5
+      ],
+      [
+       "Large",
+       8.5
+      ],
+      [
+       "Wrap",
+       8.5
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "Sub roll, American and hamburger.",
+     "prices": [
+      [
+       "Small",
+       6.5
+      ],
+      [
+       "Large",
+       9.95
+      ],
+      [
+       "Wrap",
+       9.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Buffalo Chicken",
+     "desc": "Sub roll and chicken fingers.",
+     "prices": [
+      [
+       "Small",
+       8.0
+      ],
+      [
+       "Large",
+       9.0
+      ],
+      [
+       "Wrap",
+       9.0
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Gyro Wrap",
+     "desc": "Pita bread, tomato, onions, gyro beef, and tzatziki.",
+     "prices": [
+      [
+       "",
+       7.5
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Cold Subs",
+   "id": "cold-subs",
+   "note": "Listed as a price range, small to large.",
+   "items": [
+    {
+     "name": "Ham & Cheese",
+     "desc": "Sub roll, provolone and ham.",
+     "prices": [
+      [
+       "",
+       7.25
+      ],
+      [
+       "",
+       8.25
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Salami & Cheese",
+     "desc": "Sub roll, provolone and genoa salami.",
+     "prices": [
+      [
+       "",
+       7.25
+      ],
+      [
+       "",
+       8.25
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Italian",
+     "desc": "Sub roll, provolone, capicola, mortadella, cooked salami and genoa.",
+     "prices": [
+      [
+       "",
+       7.25
+      ],
+      [
+       "",
+       8.25
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Turkey",
+     "desc": "Sub roll, provolone and turkey.",
+     "prices": [
+      [
+       "",
+       7.5
+      ],
+      [
+       "",
+       8.5
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Turkey Club",
+     "desc": "Sub roll, provolone, lettuce, tomato, turkey and bacon.",
+     "prices": [
+      [
+       "",
+       8.0
+      ],
+      [
+       "",
+       9.0
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "BLT & Cheese",
+     "desc": "Sub roll, provolone, lettuce, tomato and bacon.",
+     "prices": [
+      [
+       "",
+       7.5
+      ],
+      [
+       "",
+       8.5
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Vegetarian",
+     "desc": "Sub roll, provolone, sliced olives, green peppers, onions, lettuce, tomato and pickles.",
+     "prices": [
+      [
+       "",
+       5.75
+      ],
+      [
+       "",
+       6.75
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Tuna",
+     "desc": "Sub roll and tuna salad.",
+     "prices": [
+      [
+       "",
+       7.5
+      ],
+      [
+       "",
+       8.5
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Seafood",
+     "desc": "Sub roll and seafood salad.",
+     "prices": [
+      [
+       "",
+       7.5
+      ],
+      [
+       "",
+       8.5
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Roast Beef",
+     "desc": "Sub roll and roast beef.",
+     "prices": [
+      [
+       "",
+       7.5
+      ],
+      [
+       "",
+       8.5
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Grilled Chicken",
+     "desc": "Sub roll and grilled chicken.",
+     "prices": [
+      [
+       "",
+       7.95
+      ],
+      [
+       "",
+       8.95
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "American",
+     "desc": "Sub roll, American, ham and cooked salami.",
+     "prices": [
+      [
+       "",
+       7.25
+      ],
+      [
+       "",
+       8.25
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Chicken Caesar Wrap",
+     "desc": "Parmesan, lettuce, grilled chicken and caesar.",
+     "prices": [
+      [
+       "",
+       8.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Caesar Wrap",
+     "desc": "Parmesan, lettuce and caesar.",
+     "prices": [
+      [
+       "",
+       7.25
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Burgers",
+   "id": "burgers",
+   "note": "",
+   "items": [
+    {
+     "name": "Hamburger",
+     "desc": "Bulkie roll.",
+     "prices": [
+      [
+       "",
+       5.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Cheeseburger",
+     "desc": "Bulkie roll and American.",
+     "prices": [
+      [
+       "",
+       6.5
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Bacon Burger",
+     "desc": "Bulkie roll, hamburger, and bacon.",
+     "prices": [
+      [
+       "",
+       7.05
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Cheeseburger with Fries",
+     "desc": "French fries, bulkie roll, and American.",
+     "prices": [
+      [
+       "",
+       9.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Double Cheeseburger with Fries",
+     "desc": "French fries, bulkie roll, American and double hamburger.",
+     "prices": [
+      [
+       "",
+       12.5
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Sandwiches",
+   "id": "sandwiches",
+   "note": "",
+   "items": [
+    {
+     "name": "BLT with Fries",
+     "desc": "French fries, bulkie roll, provolone, lettuce, tomato and bacon.",
+     "prices": [
+      [
+       "",
+       9.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Tuna Sandwich",
+     "desc": "French fries, bulkie roll and tuna salad.",
+     "prices": [
+      [
+       "",
+       9.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Seafood Sandwich",
+     "desc": "French fries, bulkie roll and seafood salad.",
+     "prices": [
+      [
+       "",
+       9.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Breast Sandwich",
+     "desc": "French fries, bulkie roll and chicken breast.",
+     "prices": [
+      [
+       "",
+       9.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Haddock Sandwich",
+     "desc": "French fries, bulkie roll, and battered haddock.",
+     "prices": [
+      [
+       "",
+       10.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Ham & Swiss Sandwich",
+     "desc": "French fries, bulkie roll, swiss and ham.",
+     "prices": [
+      [
+       "",
+       9.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Turkey & Swiss Sandwich",
+     "desc": "French fries, bulkie roll, swiss and turkey.",
+     "prices": [
+      [
+       "",
+       9.25
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "id": "salads",
+   "note": "",
+   "items": [
+    {
+     "name": "Garden Salad",
+     "desc": "Syrian bread, salad greens, tomato, red onions, carrots and green peppers.",
+     "prices": [
+      [
+       "Small",
+       5.95
+      ],
+      [
+       "Large",
+       7.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Greek Salad",
+     "desc": "Syrian bread, greek, salad greens, tomato, red onions, carrots, green peppers, kalamata olives and feta cheese.",
+     "prices": [
+      [
+       "Small",
+       6.95
+      ],
+      [
+       "Large",
+       8.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Antipasto Salad",
+     "desc": "Syrian bread, Italian, salad greens, tomato, red onions, carrots, green peppers, Italian salami, imported ham, pepperoni, and provolone cheese.",
+     "prices": [
+      [
+       "",
+       9.5
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Tuna Salad",
+     "desc": "Syrian bread, salad greens, tomato, red onions, carrots, green peppers and tuna.",
+     "prices": [
+      [
+       "",
+       9.5
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Seafood Salad",
+     "desc": "Syrian bread, salad greens, tomato, red onions, carrots, green peppers, and crabmeat.",
+     "prices": [
+      [
+       "",
+       9.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chef Salad",
+     "desc": "Syrian bread, salad greens, tomato, red onions, carrots, green peppers, roast beef, turkey breast and american cheese.",
+     "prices": [
+      [
+       "",
+       9.5
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Grilled Chicken Salad",
+     "desc": "Syrian bread, salad greens, tomato, red onions, carrots, green peppers and grilled chicken.",
+     "prices": [
+      [
+       "",
+       10.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Buffalo Chicken Salad",
+     "desc": "Syrian bread, bleu cheese, salad greens, tomato, red onions, carrots, green peppers and buffalo chicken.",
+     "prices": [
+      [
+       "",
+       10.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Mandarin Salad",
+     "desc": "Syrian bread, oriental, salad greens, tomato, red onions, carrots, green peppers and crunchy noodles.",
+     "prices": [
+      [
+       "",
+       8.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Hawaiian Salad",
+     "desc": "Syrian bread, balsamic, salad greens, tomato, red onions, carrots, green peppers, pineapple and honey-baked ham.",
+     "prices": [
+      [
+       "",
+       8.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Caesar Salad",
+     "desc": "Syrian bread, caesar, romaine lettuce, croutons and parmesan.",
+     "prices": [
+      [
+       "",
+       8.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Mediterranean Salad",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       11.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Side Salad",
+     "desc": "Syrian bread, salad greens, tomato, red onions, carrots and green peppers.",
+     "prices": [
+      [
+       "",
+       3.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Garden Salad for 10",
+     "desc": "Syrian bread, salad greens, tomato, red onions, carrots and green peppers (serves 10 people).",
+     "prices": [
+      [
+       "",
+       29.5
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Greek Salad for 10",
+     "desc": "Syrian bread, greek, salad greens, tomato, red onions, carrots, green peppers, kalamata olives and feta cheese (serves 10 people).",
+     "prices": [
+      [
+       "",
+       34.5
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Pastas",
+   "id": "pastas",
+   "note": "",
+   "items": [
+    {
+     "name": "Spaghetti",
+     "desc": "Garlic bread.",
+     "prices": [
+      [
+       "",
+       8.2
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Ziti",
+     "desc": "Garlic bread.",
+     "prices": [
+      [
+       "",
+       8.2
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Veal Parm",
+     "desc": "Garlic bread, veal cutlet, and melted mozzarella.",
+     "prices": [
+      [
+       "",
+       13.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Parm",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       13.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Eggplant Parm",
+     "desc": "Garlic bread, breaded eggplant, and melted mozzarella.",
+     "prices": [
+      [
+       "",
+       13.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Fettuccine Alfredo",
+     "desc": "Garlic bread and fettuccini.",
+     "prices": [
+      [
+       "",
+       13.5
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Lasagna",
+     "desc": "Garlic bread and melted cheeses.",
+     "prices": [
+      [
+       "",
+       11.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Cheese Ravioli",
+     "desc": "Garlic bread.",
+     "prices": [
+      [
+       "",
+       13.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Stuffed Shells",
+     "desc": "Garlic bread.",
+     "prices": [
+      [
+       "",
+       14.25
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Dinners",
+   "id": "dinners",
+   "note": "",
+   "items": [
+    {
+     "name": "Gyros Dinner",
+     "desc": "French fries, cole slaw, pita bread, tomato, onions, beef gyro and tzatziki.",
+     "prices": [
+      [
+       "",
+       9.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Wings Dinner",
+     "desc": "French fries, cole slaw and sweet & sour.",
+     "prices": [
+      [
+       "",
+       11.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Fingers Dinner",
+     "desc": "French fries and cole slaw.",
+     "prices": [
+      [
+       "",
+       11.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "3 Piece Chicken Dinner",
+     "desc": "French fries and cole slaw.",
+     "prices": [
+      [
+       "",
+       12.25
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Haddock Dinner",
+     "desc": "French fries, coleslaw and tartar sauce.",
+     "prices": [
+      [
+       "",
+       14.95
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers",
+   "id": "appetizers",
+   "note": "",
+   "items": [
+    {
+     "name": "French Fries",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       4.25
+      ],
+      [
+       "",
+       5.75
+      ]
+     ],
+     "range": true
+    },
+    {
+     "name": "Onion Rings",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       5.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Spicy Fries",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       5.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Sweet Potato Fries",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       6.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Garlic Bread",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       3.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Cheese Garlic Bread",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       4.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Fingers",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       8.5
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Buffalo Fingers",
+     "desc": "Blue cheese.",
+     "prices": [
+      [
+       "",
+       8.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       7.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chicken Wings",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       9.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Buffalo Wings",
+     "desc": "Blue cheese.",
+     "prices": [
+      [
+       "",
+       8.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Jalapeno Poppers",
+     "desc": "Ranch.",
+     "prices": [
+      [
+       "",
+       7.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Mushroom Caps",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       7.95
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Sides",
+   "id": "sides",
+   "note": "",
+   "items": [
+    {
+     "name": "Side Meatball",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       4.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Side Sausage",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       4.95
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Side Coleslaw",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.75
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "BBQ Chips",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       1.0
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Regular Chips",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       1.0
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Sour Cream & Onion Chips",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       1.0
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Doritos",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       1.0
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Cape Cod Chips",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       1.0
+      ]
+     ],
+     "range": false
+    }
+   ]
+  },
+  {
+   "cat": "Drinks",
+   "id": "drinks",
+   "note": "",
+   "items": [
+    {
+     "name": "Coke",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Diet Coke",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Sprite",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Diet Sprite",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Root Beer",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Ginger Ale",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Fresca",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Lemonade",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Dr Pepper",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Diet Dr Pepper",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Caffeine-Free Diet Coke",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Cherry Coke",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Sunkist",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Diet Sunkist",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.29
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Coke 1 Liter",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.69
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Diet Coke 1 Liter",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.69
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Iced Tea",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.49
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Diet Iced Tea",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.49
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Green Tea",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.49
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Orangina",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.49
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Orange Juice",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.59
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Apple Juice",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.59
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Cran-Grape",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.59
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Cran-Apple",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.59
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Chocolate Milk",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.59
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Vitamin Water",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.59
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Powerade",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.59
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Milk",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       2.19
+      ]
+     ],
+     "range": false
+    },
+    {
+     "name": "Water",
+     "desc": "",
+     "prices": [
+      [
+       "",
+       1.89
+      ]
+     ],
+     "range": false
+    }
+   ]
+  }
+ ]
+}
