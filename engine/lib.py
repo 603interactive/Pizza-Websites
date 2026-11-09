@@ -58,3 +58,14 @@ def build(slug, tpl, css_tpl, js_files, fonts, cuisines, ribbon, extra=None, cop
         for p in sorted(site.rglob('*')):
             if p.is_file(): zf.write(p, p.relative_to(site))
     print('built', slug, round((out / 'preview.html').stat().st_size / 1e6, 2), 'MB preview;', round(z.stat().st_size / 1e6, 2), 'MB zip')
+def strip_jsonld(slug, drop=('priceRange', 'potentialAction')):
+    """Remove structured-data claims we cannot support (phone-only shops: no OrderAction/priceRange), then re-zip the site."""
+    out = ROOT / 'dist' / slug; idx = out / 'site' / 'index.html'
+    def fix(m):
+        ld = json.loads(m.group(1).replace('<\\/', '</'))
+        for k in drop: ld.pop(k, None)
+        return '<script type="application/ld+json">' + json.dumps(ld).replace('</', '<\\/') + '</script>'
+    idx.write_text(re.sub(r'<script type="application/ld\+json">(.*?)</script>', fix, idx.read_text(), flags=re.S))
+    with zipfile.ZipFile(out / f'{slug}-netlify-site.zip', 'w', zipfile.ZIP_DEFLATED) as zf:
+        for p in sorted((out / 'site').rglob('*')):
+            if p.is_file(): zf.write(p, p.relative_to(out / 'site'))

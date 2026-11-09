@@ -1,0 +1,841 @@
+{
+ "slug": "cantores-pizza-west-lebanon",
+ "name": "Cantore's Pizza",
+ "short": "Cantore's Pizza",
+ "domain": "https://www.cantorespizza.com",
+ "tagline": "Hand-tossed pies, dough made fresh every day. Dine in, take out or delivery in West Lebanon, NH.",
+ "seo_title": "Cantore's Pizza | Hand-Tossed Pizza in West Lebanon, NH",
+ "seo_desc": "Cantore's Pizza, 1 Glen Road Plaza Suite 14, West Lebanon NH. Fresh dough made daily, calzones, stromboli, subs and salads. Dine in, take out or delivery. Call 603-298-7775.",
+ "theme": {
+  "bg": "#1d1b1a",
+  "surface": "#292625",
+  "ink": "#f6efe6",
+  "muted": "#c9bdb0",
+  "accent": "#e5381f",
+  "accent2": "#f26d21",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans"
+ },
+ "facebook": "https://www.facebook.com/pages/Cantores-Pizza/168951146501622",
+ "instagram": "",
+ "order_any": "tel:+16032987775",
+ "about": [
+  "After many years of working and eating all over New England, Cantore's Pizza has opened here in the Upper Valley. Vinnie Cantore's family is from the area. Vinnie's father is one of the original owners of the Dirt Cowboy Café in Hanover, NH, and Vinnie has lived most of his life in the Upper Valley.",
+  "Our pies are hand tossed and our dough is made fresh on premise every day. We use only the highest quality cheese; our mozzarella contains buffalo milk, delivering a creamy, delicious, melted topping. One of Vinnie's biggest fans is his brother, Jim Cantore of The Weather Channel."
+ ],
+ "extras": [
+  "Gluten free pizza, offered in 12\" pies from a local NH 100% gluten free bakery.",
+  "Daiya vegan cheese as a gourmet topping on any of our pizzas.",
+  "Beer and wine available when dining in."
+ ],
+ "specials": [
+  "Tuesdays all day: 2 large cheese pies for $26",
+  "Wings Wednesdays: free fountain soda plus $3 off XL or $1 off 8 wings",
+  "Lasagna Thursdays: free fountain soda plus $2 off your order"
+ ],
+ "delivery": "Delivering to Lebanon and surrounding areas. Delivery orders taken right up to closing time; $5.00 delivery charge. Orders $100 or more include 10% gratuity; orders $300 or more include 20% gratuity.",
+ "gallery": [
+  "pizza.webp",
+  "wings.webp",
+  "calzone.webp",
+  "stromboli-calzone.webp",
+  "pasta.webp",
+  "salad.webp",
+  "sub.webp"
+ ],
+ "hero_img": "",
+ "logo": "logo.png",
+ "locations": [
+  {
+   "id": "west-lebanon",
+   "name": "West Lebanon",
+   "street": "1 Glen Road Plaza Suite 14",
+   "city": "West Lebanon",
+   "region": "NH",
+   "postal": "03784",
+   "phone": "603-298-7775",
+   "tel": "+16032987775",
+   "hours": [
+    {
+     "dow": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "20:00"
+    },
+    {
+     "dow": [
+      0
+     ],
+     "open": "13:00",
+     "close": "19:00"
+    }
+   ],
+   "order": "tel:+16032987775",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Cantore%27s+Pizza+1+Glen+Road+Plaza+Suite+14+West+Lebanon+NH+03784"
+  }
+ ],
+ "menu": [
+  {
+   "cat": "Pre-Game Bites",
+   "img": "wings.webp",
+   "note": "Wing sauces: BBQ, Buffalo, Honey Mustard BBQ, KISS, Teriyaki, Sweet Thai Chili, Wicked Hot. Served with blue cheese or ranch.",
+   "head": [],
+   "items": [
+    {
+     "name": "Wings",
+     "prices": [
+      "8 piece $13.99",
+      "16 piece $24.99"
+     ],
+     "desc": "Plain, or tossed in one of our great wing sauces"
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "prices": [
+      "$9.49"
+     ],
+     "desc": "Served with Sunday sauce"
+    },
+    {
+     "name": "Garlic Knots",
+     "prices": [
+      "1/2 Dozen $5.49",
+      "Dozen $9.49"
+     ],
+     "desc": "Fresh daily, while they last!"
+    },
+    {
+     "name": "Cheesy Flatbread",
+     "prices": [
+      "$10.99"
+     ],
+     "desc": "Our take on garlic bread, served with Sunday sauce"
+    },
+    {
+     "name": "Pig Pile Sidewinder Fries",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Topped with bacon, cheddar, mozzarella & scallions. Served with ranch"
+    },
+    {
+     "name": "Boneless Chicken Tenders",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Plain, or tossed in one of our great wing sauces"
+    },
+    {
+     "name": "Sweet Potato Fries",
+     "prices": [
+      "Side $5.99",
+      "Basket $9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "French Fries",
+     "prices": [
+      "Side $3.99",
+      "Basket $6.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fresh Loaves of Bread",
+     "prices": [
+      "$4 or 4 for $12"
+     ],
+     "desc": "Our homemade bread from our pizza dough"
+    },
+    {
+     "name": "Empanadas",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Deep fried pastries filled with chocolate & hazelnut topped with cinnamon & sugar"
+    },
+    {
+     "name": "Boneless Tender Basket w/ Fries",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": "Plain, or tossed in one of our great wing sauces"
+    },
+    {
+     "name": "Arancini Balls",
+     "prices": [
+      "$8.99"
+     ],
+     "desc": "Italian rice balls served with sunday sauce"
+    },
+    {
+     "name": "Breaded Onion Rings",
+     "prices": [
+      "Side $5.49",
+      "Basket $9.49"
+     ],
+     "desc": "Served with honey dijon mustard"
+    },
+    {
+     "name": "Sidewinder Fries",
+     "prices": [
+      "Side $5.49",
+      "Basket $9.99"
+     ],
+     "desc": "Fun, curvy, awesome"
+    },
+    {
+     "name": "Deep-Fried Oreos",
+     "prices": [
+      "$8.99"
+     ],
+     "desc": "The American classic of deliciousness & even better DEEP FRIED!"
+    },
+    {
+     "name": "Jalapeño Bites",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": "Diced jalapeños & cheddar wrapped in a delicious breading & deep fried"
+    },
+    {
+     "name": "Fried Dough Bites",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": "Made from our pizza dough & an amazing twist on the classic, served with Mae's maple syrup"
+    }
+   ]
+  },
+  {
+   "cat": "Good Lookin' Greens",
+   "img": "salad.webp",
+   "note": "It comes with bread! Add grilled chicken for $3.99. Dressings: House Italian, Balsamic Vinaigrette, Dijon Honey Mustard, Ranch, Avocado Ranch, Blue Cheese, Caesar, Thousand Island, Greek.",
+   "head": [],
+   "items": [
+    {
+     "name": "House Salad",
+     "prices": [
+      "1/2 $6.49",
+      "Whole $11.49"
+     ],
+     "desc": "Mixed fresh greens, cucumbers, tomatoes, red onion, carrots & croutons"
+    },
+    {
+     "name": "Caesar-Licious*",
+     "prices": [
+      "1/2 $7.49",
+      "Whole $12.49"
+     ],
+     "desc": "Crisp romaine, fresh parm, toasted pine nuts, caesar dressing on side, lemon slice, croutons"
+    },
+    {
+     "name": "American Chef",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": "Our house salad, topped with cheddar, thick-cut bacon, ham & turkey"
+    },
+    {
+     "name": "Italian Chef Salad",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": "Greens with roasted reds, artichokes, banana peppers, salami, capicola, provolone & parmesan cheese, and fried eggplant. Served with balsamic vinaigrette dressing"
+    },
+    {
+     "name": "Crispy Tender Salad",
+     "prices": [
+      "$14.49"
+     ],
+     "desc": "Our house salad, roasted red peppers, cheddar, & crunchy tenders tossed in your choice of wing sauces"
+    },
+    {
+     "name": "Caprese Stack House Salad",
+     "prices": [
+      "$14.49"
+     ],
+     "desc": "A great stack of fresh mozzarella & sliced tomatoes topped with fresh parmesan cheese & basil, served over a bed of fresh spinach with an olive oil and balsamic glaze drizzle"
+    },
+    {
+     "name": "Greek Salad",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": "Our house salad, topped with black olives, artichokes, banana peppers, feta cheese & roasted red peppers"
+    },
+    {
+     "name": "California Cobb Salad",
+     "prices": [
+      "$15.99"
+     ],
+     "desc": "Fresh greens, cucumbers, tomatoes, cheddar, bacon, egg, avocado and chopped chicken, served over a tortilla crisp with avocado ranch dressing"
+    },
+    {
+     "name": "Tarragon Chicken Salad*",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": "Cucumbers, roasted red peppers, red onion & shaved almonds over romaine with a scoop of our homemade tarragon chicken salad"
+    }
+   ]
+  },
+  {
+   "cat": "Burgers, Subs, Sandwiches & Wraps",
+   "img": "sub.webp",
+   "note": "All served with homemade chips; upgrade to fries, sweet fries, onion rings, or side salad. Prices do not include NH/VT Meals Tax. * Item contains nuts. Extras are $ EXTRA.",
+   "head": [],
+   "items": [
+    {
+     "name": "The Philly Sub",
+     "prices": [
+      "$14.49"
+     ],
+     "desc": "Grilled steak, onions, mushrooms & peppers with American cheese & mayo"
+    },
+    {
+     "name": "Grilled or Cold Italian Stallion*",
+     "prices": [
+      "$13.49"
+     ],
+     "desc": "Grilled mortadella, salami & capicola with melted provolone & topped with a balsamic glaze, lettuce, tomatoes, & banana peppers served on a toasted sub roll"
+    },
+    {
+     "name": "Buffalo Chicken Wrap",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Crispy tenders tossed in our homemade buffalo sauce, lettuce, tomato, cheddar & blue cheese dressing"
+    },
+    {
+     "name": "Veggie Burger",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Served up on ciabatta bread with fresh spinach, red onion, and ranch dressing, cheese extra"
+    },
+    {
+     "name": "Poor Man's BBQ",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Our hoagie stuffed with kielbasa, caramelized onions, VT Cabot cheddar & BBQ sauce"
+    },
+    {
+     "name": "Crispy Chicken",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Served on ciabatta bread with lettuce, tomato, bacon, American cheese & mayo"
+    },
+    {
+     "name": "Ciabatta Honey Club Sandwich",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Thin sliced smoked turkey, honey dijon mustard, thick cut bacon, American cheese, lettuce, & tomatoes served on ciabatta bread"
+    },
+    {
+     "name": "Chicken Caesar Wrap",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Crisp romaine, grilled chicken, fresh parmesan, diced tomatoes & caesar dressing"
+    },
+    {
+     "name": "Cold/Hot Ham or Turkey Sub",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Lettuce, tomato, & mayo, choice of cheese"
+    },
+    {
+     "name": "BLT",
+     "prices": [
+      "$10.99"
+     ],
+     "desc": "'nuff said... served on our Texas toast with Bacon, Lettuce and Tomato"
+    },
+    {
+     "name": "Chicken, Eggplant, Meatball or Sausage Parm",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Topped with Sunday sauce, mozzarella & fresh parmesan"
+    },
+    {
+     "name": "Tarragon Chicken Sandwich",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "With mayonnaise, shredded lettuce, tomato on ciabatta bread"
+    },
+    {
+     "name": "Hurricane Wrap",
+     "prices": [
+      "$12.49"
+     ],
+     "desc": "Ham, turkey, salami, lettuce, tomatoes, banana peppers, provolone, honey dijon mustard"
+    },
+    {
+     "name": "Cheeseburger Club",
+     "prices": [
+      "$13.49"
+     ],
+     "desc": "Our 6 oz patty served on Texas toast with American cheese, bacon, lettuce, tomato & mayo"
+    },
+    {
+     "name": "Yawkey Way",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Our hoagie stuffed with sweet sausage, red onion pepper blend & yellow mustard"
+    },
+    {
+     "name": "The $11 Burger & Fries",
+     "prices": [
+      "$11.00"
+     ],
+     "desc": "No frills...it's simple, it's good: lettuce, tomato, onions, pickles"
+    },
+    {
+     "name": "BBQ Cheddar Burger",
+     "prices": [
+      "$13.49"
+     ],
+     "desc": "Our 6 oz patty served on a brioche bun with bacon, caramelized onions, Vermont Cabot cheddar & BBQ sauce"
+    },
+    {
+     "name": "Grownup Grilled Cheese",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Served on our Texas toast with ham, bacon, tomato & lots of VT Cabot cheddar"
+    }
+   ]
+  },
+  {
+   "cat": "Pizza",
+   "img": "pizza.webp",
+   "note": "Family Feast: 16\" cheese pizza, 2-liter & 12 garlic knots, $22.99 (upgrades available). 12-inch or 16-inch Garlic Knot Crust or Sicilian add $4.00. 12-inch Gluten Free add $4.00. * Item contains nuts. Create your own pie, calzone or stromboli with our premium toppings: The Minors (12-inch $2.25, 16-inch $3.00): extra cheese, onions, peppers, tomatoes, black olives, banana peppers, shrooms, broccoli, ham, pineapple, sweet sausage, meatball, pickles, bacon, anchovies, basil, spinach, summer squash, fresh garlic, jalapenos, roni. The Bigs (12-inch $3.25, 16-inch $4.00): crispy chicken, eggplant, fresh mozzarella, kielbasa, artichokes, roasted red peppers, caramelized onions, ricotta cheese, feta, grilled chicken, mortadella, maple fennel sausage, Daiya vegan cheese, salami, steak.",
+   "head": [
+    "12-inch",
+    "16-inch"
+   ],
+   "items": [
+    {
+     "name": "NY Style Cheese",
+     "prices": [
+      "$11.49",
+      "$16.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "The Fresh Veg!",
+     "prices": [
+      "$17.49",
+      "$24.99"
+     ],
+     "desc": "Onions, peppers, shrooms, black olives, tomatoes, mozzarella & garlic"
+    },
+    {
+     "name": "Deluxe Combo",
+     "prices": [
+      "$19.49",
+      "$26.99"
+     ],
+     "desc": "Roni, sausage, black olives, onions, peppers, shrooms, garlic, mozzarella & parmesan"
+    },
+    {
+     "name": "Chicken Florentine Pie",
+     "prices": [
+      "$18.49",
+      "$25.99"
+     ],
+     "desc": "Three cheese white pie with spinach, tomatoes, garlic, grilled chicken & mozzarella"
+    },
+    {
+     "name": "The \"Upper Crust\" Veggie",
+     "prices": [
+      "$19.49",
+      "$26.99"
+     ],
+     "desc": "Three cheese white pie with roasted red peppers, artichokes, broccoli, red onions, summer squash, garlic & mozzarella"
+    },
+    {
+     "name": "Italian Stallion Pie",
+     "prices": [
+      "$19.49",
+      "$26.99"
+     ],
+     "desc": "Salami, mortadella, capicola, red peppers, marinated tomatoes, red onions, provolone & mozzarella"
+    },
+    {
+     "name": "Pigs In Paradise",
+     "prices": [
+      "$16.49",
+      "$22.99"
+     ],
+     "desc": "BBQ sauce, ham, bacon, pineapple & mozzarella"
+    },
+    {
+     "name": "The White-Out",
+     "prices": [
+      "$13.99",
+      "$19.99"
+     ],
+     "desc": "Olive oil, garlic, ricotta, mozz & parmesan"
+    },
+    {
+     "name": "Mac & Cheese Pie",
+     "prices": [
+      "$19.49",
+      "$26.99"
+     ],
+     "desc": "Macaroni and 3-cheese pie with bacon & cheddar on our \"White Out\" pie"
+    },
+    {
+     "name": "Lots of Meatza Pizza",
+     "prices": [
+      "$19.49",
+      "$26.99"
+     ],
+     "desc": "Roni, meatball, sweet sausage, ham & mozzarella"
+    },
+    {
+     "name": "The Queen Margherita",
+     "prices": [
+      "$17.49",
+      "$24.99"
+     ],
+     "desc": "Red sauce, sliced tomatoes, fresh basil, fresh mozzarella & parmesan"
+    },
+    {
+     "name": "Cantore's Pick A Pepper",
+     "prices": [
+      "$18.49",
+      "$25.99"
+     ],
+     "desc": "Roni, bell, roasted red & banana peppers with fresh parmesan, mozzarella & garlic"
+    },
+    {
+     "name": "Be \"Olympic\"",
+     "prices": [
+      "$17.49",
+      "$24.99"
+     ],
+     "desc": "Black olives, feta, artichokes, marinated tomatoes, red onions & mozzarella"
+    },
+    {
+     "name": "Papa Cantore's (Jim's) Fave!",
+     "prices": [
+      "$15.49",
+      "$22.99"
+     ],
+     "desc": "Red sauce, sweet sausage, roni, crushed red pepper & mozzarella"
+    },
+    {
+     "name": "Pesto Pie*",
+     "prices": [
+      "$13.99",
+      "$19.99"
+     ],
+     "desc": "Fresh pesto sauce, mozzarella & parmesan"
+    },
+    {
+     "name": "\"Old School\" Combo",
+     "prices": [
+      "$16.49",
+      "$23.99"
+     ],
+     "desc": "Onions, peppers, roni, sweet sausage & mozzarella"
+    },
+    {
+     "name": "Wild Bill's Buffalo Pie",
+     "prices": [
+      "$17.49",
+      "$24.99"
+     ],
+     "desc": "Buffalo sauce, chicken, onions, peppers, blue cheese or ranch & mozzarella"
+    },
+    {
+     "name": "The Gronk",
+     "prices": [
+      "$18.99",
+      "$25.99"
+     ],
+     "desc": "Kielbasa, BBQ sauce, caramelized onions, scallions, bacon, cheddar & mozzarella"
+    },
+    {
+     "name": "Pollo Pesto Pie*",
+     "prices": [
+      "$19.49",
+      "$26.99"
+     ],
+     "desc": "Pesto sauce, chicken, marinated tomatoes, ricotta, mozzarella & basil"
+    },
+    {
+     "name": "BBQ Chicken",
+     "prices": [
+      "$17.99",
+      "$24.99"
+     ],
+     "desc": "BBQ sauce, mozzarella, cheddar, chicken, caramelized onions & bacon"
+    },
+    {
+     "name": "\"New School\" Combo",
+     "prices": [
+      "$17.99",
+      "$24.99"
+     ],
+     "desc": "Mozzarella, roni, bacon, banana peppers & red onions"
+    },
+    {
+     "name": "Bacon Ranch Chicken Cheddar",
+     "prices": [
+      "$19.49",
+      "$26.99"
+     ],
+     "desc": "Broccoli, Carmies, Ranch, bacon, chicken, tomatoes, mozzarella & cheddar"
+    },
+    {
+     "name": "Loaded Philly Steak & Cheese",
+     "prices": [
+      "$19.49",
+      "$26.99"
+     ],
+     "desc": "Garlic oil, steak, onions, peppers, American cheese & mozzarella"
+    },
+    {
+     "name": "Kris' Maple Fennel Sausage Pie",
+     "prices": [
+      "$18.99",
+      "$25.99"
+     ],
+     "desc": "Three cheese white pie, homemade maple fennel sausage, caramelized onions & crushed red pepper for a little zip!"
+    },
+    {
+     "name": "Stormtracker",
+     "prices": [
+      "$19.49",
+      "$26.99"
+     ],
+     "desc": "Chipotle ranch sauce, chicken, our onion pepper blend, roasted red and banana peppers & mozzarella"
+    }
+   ]
+  },
+  {
+   "cat": "Calzones & Stromboli",
+   "img": "calzone.webp",
+   "note": "Calzones come with sunday sauce on the side, two sizes available, glazed with garlic oil, herbs and romano cheese. Our stromboli have mozzarella & pizza sauce inside, glazed with garlic oil, herbs and romano cheese.",
+   "head": [
+    "Small",
+    "Large"
+   ],
+   "items": [
+    {
+     "name": "Cheese Calzone",
+     "prices": [
+      "$11.99",
+      "$16.99"
+     ],
+     "desc": "With ricotta. Build your own combo with the toppings above!"
+    },
+    {
+     "name": "Meat Eater's Calzone",
+     "prices": [
+      "$18.99",
+      "$25.99"
+     ],
+     "desc": "Roni, meatball, sweet sausage, ham, mozzarella & ricotta cheese"
+    },
+    {
+     "name": "Philly Bomb Calzone",
+     "prices": [
+      "$18.99",
+      "$25.99"
+     ],
+     "desc": "Grilled steak, onions, peppers, mozzarella & American cheese"
+    },
+    {
+     "name": "Buffalo Chicken Calzone",
+     "prices": [
+      "$17.49",
+      "$24.99"
+     ],
+     "desc": "Buffalo sauce, grilled chicken, onions, peppers, & mozzarella with blue cheese dressing on the side"
+    },
+    {
+     "name": "Veggie Calzone",
+     "prices": [
+      "$17.49",
+      "$24.99"
+     ],
+     "desc": "Onions, peppers, shrooms, black olives, tomatoes, garlic, mozzarella & ricotta cheese"
+    },
+    {
+     "name": "\"Old School\" Combo Calzone",
+     "prices": [
+      "$17.49",
+      "$24.99"
+     ],
+     "desc": "Onions, peppers, roni, sweet sausage, mozzarella and ricotta cheese"
+    },
+    {
+     "name": "Deluxe Combo Calzone",
+     "prices": [
+      "$18.99",
+      "$25.99"
+     ],
+     "desc": "Roni, sausage, black olives, onions, peppers, shrooms, garlic, mozzarella and ricotta cheese"
+    },
+    {
+     "name": "Mozzarella Stromboli",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": "Make it your own with our delicious toppings listed above"
+    },
+    {
+     "name": "Cheesy Chicken & Broccoli Stromboli",
+     "prices": [
+      "$21.99"
+     ],
+     "desc": "Grilled chicken, broccoli and cheddar, no sauce inside"
+    },
+    {
+     "name": "Roni Rage Stromboli",
+     "prices": [
+      "$17.99"
+     ],
+     "desc": "Double deep fried pepperoni & mozzarella"
+    },
+    {
+     "name": "Italian Deli Stromboli",
+     "prices": [
+      "$21.99"
+     ],
+     "desc": "Salami, mortadella, capicola, provolone & mozzarella"
+    }
+   ]
+  },
+  {
+   "cat": "Suppa Time",
+   "img": "pasta.webp",
+   "note": "We offer the classics & when we say it's homemade, it's REALLY homemade. Served with side salad.",
+   "head": [],
+   "items": [
+    {
+     "name": "Spaghetti & Meatballs",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": "Homemade meatballs & sunday sauce over spaghetti with grated romano. Served with side salad"
+    },
+    {
+     "name": "Chicken/Eggplant Parm",
+     "prices": [
+      "$16.99"
+     ],
+     "desc": "Crispy Italian breaded fillets, served over fettuccine and topped with sunday sauce. Served with side salad"
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "prices": [
+      "$17.99"
+     ],
+     "desc": "Thick, rich and creamy. From scratch over fettuccine and it's fresh. Served with side salad"
+    },
+    {
+     "name": "4-Cheese Ravioli",
+     "prices": [
+      "$15.99"
+     ],
+     "desc": "Sunday sauce, sausage, onion & pepper. Served with side salad"
+    },
+    {
+     "name": "GAGA'S Baked Mac & Three-Cheese",
+     "prices": [
+      "$15.99"
+     ],
+     "desc": "Macaroni smothered & baked in our homemade cheese sauce topped with cracker crumbs, served with side salad"
+    },
+    {
+     "name": "Mama Cantore's Lasagna",
+     "prices": [
+      "$18.99"
+     ],
+     "desc": "Homemade layers of meat lasagna, made with fresh Italian cheeses & sunday sauce. Served with side salad"
+    }
+   ]
+  },
+  {
+   "cat": "Little Leaguers & Desserts",
+   "img": "",
+   "note": "Little Leaguers: under 12, all meals served with apple juice or fountain soda. Desserts: ice cream, PB pie, deep-fried cheesecake, Brooklyn Blackout cake, NY cheesecake with strawberries, seasonal cheesecakes.",
+   "head": [],
+   "items": [
+    {
+     "name": "Chicken Tenders and Fries",
+     "prices": [
+      "$6.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheese Quesadilla",
+     "prices": [
+      "$6.49"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti & Meatballs (kids)",
+     "prices": [
+      "$7.49"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Cheese and Chips",
+     "prices": [
+      "$5.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti and Sauce",
+     "prices": [
+      "$5.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Kid's Salad",
+     "prices": [
+      "$4.49"
+     ],
+     "desc": ""
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "Menu was three PNG images; transcribed here to live text. Prices may have changed since the 2026 PNGs.",
+  "Homepage promises online ordering but links to a page with only address and phone; menu PNG shows a QR code for ordering. No ordering URL could be verified, so the site is phone-order only."
+ ],
+ "questions": [
+  "Specials page says the Family Feast is a large cheese pizza, a dozen garlic knots and a 2-liter for $19.99; the menu PNG says 16\" cheese, 2-liter & 12 garlic knots for $22.99. Which is current?",
+  "Which online-ordering link should the Order button use?",
+  "May we use the photo tiles cropped from your menu, and the logo?",
+  "Send full-size food photos and we will replace the small crops."
+ ]
+}

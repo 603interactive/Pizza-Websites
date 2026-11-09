@@ -1,0 +1,1060 @@
+{
+ "slug": "peterborough-pizza-barn",
+ "name": "Peterborough Pizza Barn",
+ "short": "Peterborough Pizza Barn",
+ "domain": "https://peterboroughpizzabarn.com",
+ "tagline": "Serving the Monadnock Region since 1974. Pizza, subs, fried dinners and more on Route 202 in Peterborough, NH.",
+ "seo_title": "Peterborough Pizza Barn | Pizza, Subs & Fried Dinners in Peterborough, NH Since 1974",
+ "seo_desc": "Peterborough Pizza Barn, 71 US-202, Peterborough NH. Serving the Monadnock Region since 1974: pizza, subs, pasta, fried dinners. Open Thursday to Saturday. Call (603) 924-7119.",
+ "theme": {
+  "bg": "#fbf6e9",
+  "surface": "#ffffff",
+  "ink": "#241a17",
+  "muted": "#6a5a52",
+  "accent": "#c8102e",
+  "accent2": "#f2c200",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "accent_text": "#a80d26"
+ },
+ "facebook": "https://www.facebook.com/peterboroughpizzabarn/",
+ "instagram": "",
+ "order_any": "tel:+16039247119",
+ "about": [
+  "Peterborough Pizza Barn has been serving the Monadnock Region since 1974.",
+  "Not to be confused with the Jaffrey Pizza Barn: we are the Peterborough shop, at 71 US-202."
+ ],
+ "extras": [],
+ "specials": [
+  "3 large cheese pizzas for $39.00",
+  "Gluten-free pizza now available"
+ ],
+ "delivery": "Delivery is through SweenEats: call 603-554-0506 or email Sweeneatsfooddeliveryservices@gmail.com. Call us for more details.",
+ "delivery_link": "tel:+16035540506",
+ "delivery_label": "Call SweenEats 603-554-0506",
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "peterborough",
+   "name": "Peterborough",
+   "street": "71 US-202",
+   "city": "Peterborough",
+   "region": "NH",
+   "postal": "03458",
+   "phone": "(603) 924-7119",
+   "tel": "+16039247119",
+   "hours": [
+    {
+     "dow": [
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    }
+   ],
+   "order": "tel:+16039247119",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Peterborough+Pizza+Barn+71+US-202+Peterborough+NH+03458"
+  }
+ ],
+ "menu": [
+  {
+   "cat": "Pizza",
+   "img": "",
+   "note": "Hand-picked toppings priced by size. Alfredo sauce available! NEW: gluten-free pizza (ask for details). *Special: 3 large cheese pizzas, $39.00.",
+   "head": [
+    "Personal 7\"",
+    "Small 10\"",
+    "Large 15\""
+   ],
+   "items": [
+    {
+     "name": "Tomato & Cheese",
+     "prices": [
+      "$5.00",
+      "$10.00",
+      "$15.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Extra Cheese",
+     "prices": [
+      "$5.75",
+      "$11.25",
+      "$17.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Feta Cheese",
+     "prices": [
+      "$5.75",
+      "$11.25",
+      "$17.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pineapple",
+     "prices": [
+      "$5.75",
+      "$11.00",
+      "$17.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fresh Garlic",
+     "prices": [
+      "$5.75",
+      "$10.75",
+      "$16.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tomatoes",
+     "prices": [
+      "$5.75",
+      "$10.75",
+      "$16.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Onion",
+     "prices": [
+      "$5.75",
+      "$11.00",
+      "$17.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pepper",
+     "prices": [
+      "$5.75",
+      "$11.00",
+      "$17.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pepper & Onion",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mushroom",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Black Olive",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Broccoli",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spinach",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Any Chicken, Any Sauce!",
+     "prices": [
+      "$7.00",
+      "$14.00",
+      "$22.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sausage",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pepperoni",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hamburg",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Salami",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pastrami",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Anchovy",
+     "prices": [
+      "$5.75",
+      "$11.75",
+      "$18.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Imported Ham",
+     "prices": [
+      "$5.75",
+      "$12.00",
+      "$19.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Canadian Bacon",
+     "prices": [
+      "$5.75",
+      "$12.00",
+      "$19.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak",
+     "prices": [
+      "$5.75",
+      "$12.50",
+      "$19.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bacon",
+     "prices": [
+      "$5.75",
+      "$12.50",
+      "$19.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mexican",
+     "prices": [
+      "$7.00",
+      "$14.75",
+      "$22.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Special",
+     "prices": [
+      "$6.75",
+      "$14.50",
+      "$22.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "3 Large Cheese Pizza Special",
+     "prices": [
+      "$39.00"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Combinations",
+   "img": "",
+   "note": "Alfredo sauce available!",
+   "head": [
+    "Personal 7\"",
+    "Small 10\"",
+    "Large 15\""
+   ],
+   "items": [
+    {
+     "name": "2 Way",
+     "prices": [
+      "$6.00",
+      "$12.25",
+      "$19.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "3 Way",
+     "prices": [
+      "$6.25",
+      "$12.75",
+      "$20.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "4 Way",
+     "prices": [
+      "$6.25",
+      "$13.25",
+      "$21.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "5 Way",
+     "prices": [
+      "$6.50",
+      "$13.75",
+      "$21.75"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Sandwiches",
+   "img": "",
+   "note": "Wraps & pockets and small subs are the same price.",
+   "head": [
+    "Wrap / Pocket",
+    "Small Sub",
+    "Large Sub"
+   ],
+   "items": [
+    {
+     "name": "Cheese",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "American",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Genoa Salami",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cooked Salami",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Italian",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Ham & Cheese",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Turkey Breast",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Salad",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tuna",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Roast Beef",
+     "prices": [
+      "$9.50",
+      "$9.50",
+      "$12.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Canadian Bacon",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "CrabMeat",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Vegetarian",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BLT & Cheese",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pepperoni",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Meatball",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sausage",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pastrami & Cheese",
+     "prices": [
+      "$9.50",
+      "$9.50",
+      "$12.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Barbecue Rib",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Haddock",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Parmesan",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken & Veggie",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant Parmesan",
+     "prices": [
+      "$9.00",
+      "$9.00",
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken",
+     "prices": [
+      "$9.25",
+      "$9.25",
+      "$12.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Tender",
+     "prices": [
+      "$9.25",
+      "$9.25",
+      "$12.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Tender",
+     "prices": [
+      "$9.25",
+      "$9.25",
+      "$12.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Barn Burner",
+     "prices": [
+      "$9.25",
+      "$9.25",
+      "$12.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak & Cheese",
+     "prices": [
+      "$9.75",
+      "$9.75",
+      "$12.95"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Pasta & Salads",
+   "img": "",
+   "note": "",
+   "head": [],
+   "items": [
+    {
+     "name": "Lasagna",
+     "prices": [
+      "$8.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti with sauce",
+     "prices": [
+      "$8.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti with Meatballs",
+     "prices": [
+      "$10.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti with Sausage",
+     "prices": [
+      "$10.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti with Eggplant",
+     "prices": [
+      "$10.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti with Chicken",
+     "prices": [
+      "$10.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tossed Salad",
+     "prices": [
+      "$5.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek Salad",
+     "prices": [
+      "$8.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Salad",
+     "prices": [
+      "$8.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chef Salad",
+     "prices": [
+      "$8.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Antipasto",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Fried Dinners",
+   "img": "",
+   "note": "All dinners are served with fries. 50¢ to add spicy fries. No fries, deduct 75¢.",
+   "head": [],
+   "items": [
+    {
+     "name": "Chicken Nuggets 8 pc",
+     "prices": [
+      "$7.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Nuggets 12 pc",
+     "prices": [
+      "$9.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Clam Strips",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Shrimp",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Tenders",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Barn Burners",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Tenders",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hot Wings",
+     "prices": [
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Wings",
+     "prices": [
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cod 4 pc",
+     "prices": [
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Haddock",
+     "prices": [
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Scallops",
+     "prices": [
+      "$13.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Seafood Plate",
+     "prices": [
+      "$14.95"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Fried Sides & Sides",
+   "img": "",
+   "note": "",
+   "head": [],
+   "items": [
+    {
+     "name": "French Fries",
+     "prices": [
+      "Small $3.75",
+      "Large $6.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spicy Fries",
+     "prices": [
+      "Small $4.75",
+      "Large $7.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Onion Rings",
+     "prices": [
+      "Small $5.00",
+      "Large $8.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Mushrooms",
+     "prices": [
+      "Small $5.00",
+      "Large $8.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Cauliflower",
+     "prices": [
+      "Small $5.00",
+      "Large $8.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Broccoli Poppers",
+     "prices": [
+      "$8.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Jalapeno Poppers",
+     "prices": [
+      "$8.75"
+     ],
+     "desc": "Cheddar or cream cheese"
+    },
+    {
+     "name": "Cheese Sticks",
+     "prices": [
+      "$8.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Pickles",
+     "prices": [
+      "$8.75"
+     ],
+     "desc": "Chips or spears"
+    },
+    {
+     "name": "Fried Mac & Cheese Bites",
+     "prices": [
+      "$8.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Ravioli",
+     "prices": [
+      "$8.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Dough",
+     "prices": [
+      "$4.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bread Sticks",
+     "prices": [
+      "$3.75",
+      "w/ cheese $4.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Garlic Bread, Small",
+     "prices": [
+      "$1.00",
+      "w/ cheese $1.70"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Garlic Bread, Large",
+     "prices": [
+      "$1.95",
+      "w/ cheese $2.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cole Slaw",
+     "prices": [
+      "$1.25"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Drinks, Chips & Dessert",
+   "img": "",
+   "note": "Drink and chip price lists are shown as published on the shop's site.",
+   "head": [],
+   "items": [
+    {
+     "name": "Canned Soda",
+     "prices": [
+      "$1.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bottled Water",
+     "prices": [
+      "$1.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "AJ, Sunny D",
+     "prices": [
+      "$1.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Gatorade",
+     "prices": [
+      "$2.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pure Leaf Unsweetened",
+     "prices": [
+      "$2.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Lemonade, Fruit Punch, Ice Tea",
+     "prices": [
+      "75¢",
+      "95¢",
+      "$1.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Milk",
+     "prices": [
+      "$1.00",
+      "$1.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chocolate Milk",
+     "prices": [
+      "$1.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chips",
+     "prices": [
+      "75¢",
+      "$3.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Ice Cream",
+     "prices": [
+      ""
+     ],
+     "desc": "Ask for flavors"
+    },
+    {
+     "name": "Fried Dough",
+     "prices": [
+      "$4.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Yaya's Famous Baklava",
+     "prices": [
+      "$2.50"
+     ],
+     "desc": ""
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "One-page WordPress site with a single 2016 text banner, no food photos; menu links point to /menu/ which redirects to the homepage.",
+  "Delivery only by calling or emailing the separate SweenEats service; no online ordering exists, so the site is phone-order only.",
+  "Source menu lists \"Clam Strips\" twice at $11.50 (shown once) and the Eggplant price lacked a $ sign ($11.75 assumed)."
+ ],
+ "questions": [
+  "Is the menu current? Prices were copied from the live site.",
+  "Do you have food or shop photos we may use? None were on the site.",
+  "What does the unlabeled Milk / Chips / Lemonade multi-price list mean (sizes)?",
+  "Is the gluten-free pizza priced differently?",
+  "Which flavors of ice cream are served?"
+ ]
+}

@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Peterborough Pizza Barn | Pizza, Subs &amp; Fried Dinners in Peterborough, NH Since 1974</title>
+<meta name="description" content="Peterborough Pizza Barn, 71 US-202, Peterborough NH. Serving the Monadnock Region since 1974: pizza, subs, pasta, fried dinners. Open Thursday to Saturday. Call (603) 924-7119.">
+<meta name="theme-color" content="#fbf6e9">
+<meta property="og:title" content="Peterborough Pizza Barn | Pizza, Subs &amp; Fried Dinners in Peterborough, NH Since 1974"><meta property="og:description" content="Peterborough Pizza Barn, 71 US-202, Peterborough NH. Serving the Monadnock Region since 1974: pizza, subs, pasta, fried dinners. Open Thursday to Saturday. Call (603) 924-7119."><meta property="og:type" content="restaurant">
+<style>@font-face{font-family:'Big Shoulders Display';src:url(fonts/BigShoulders-Bold.woff) format('woff');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Work Sans';src:url(fonts/WorkSans-Regular.woff) format('woff');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Work Sans';src:url(fonts/WorkSans-Bold.woff) format('woff');font-weight:700;font-style:normal;font-display:swap}:root{--bg:#fbf6e9;--surface:#ffffff;--ink:#241a17;--muted:#6a5a52;--accent:#c8102e;--accent2:#f2c200;--atext:#a80d26;--on:#ffffff;--head:'Big Shoulders Display',Impact,sans-serif;--body:'Work Sans',system-ui,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 var(--body)}
+img{max-width:100%;display:block}a{color:var(--atext)}
+.wrap{width:min(1120px,100% - 32px);margin:auto}
+.sr,.skip:not(:focus){position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.skip:focus{position:fixed;top:8px;left:8px;z-index:99;background:var(--accent);color:var(--on);padding:8px 12px}
+.ribbon{background:var(--accent2);color:#111;text-align:center;font-size:13px;padding:6px 12px}
+.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:2px solid var(--accent)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font:700 26px/1 var(--head);text-transform:uppercase;letter-spacing:.02em}
+nav{display:flex;align-items:center;gap:20px}nav a{color:var(--ink);text-decoration:none;font-weight:700}nav a:hover{color:var(--atext)}
+.btn{display:inline-block;background:var(--accent);color:var(--on);font:700 17px/1 var(--body);padding:15px 22px;border-radius:6px;text-decoration:none;border:2px solid var(--accent);min-height:48px}
+.btn:hover{filter:brightness(1.1)}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}.btn.sm{padding:11px 16px;min-height:44px;color:var(--on)}
+nav a.btn{color:var(--on)}
+.burger{display:none;background:none;color:var(--ink);border:2px solid var(--ink);border-radius:6px;padding:10px 14px;font:700 15px var(--body);min-height:44px}
+.hero{padding:56px 0 48px;background:linear-gradient(135deg,var(--surface),var(--bg))}
+.hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.kicker{display:inline-block;margin:0 0 12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--atext);font-size:14px}
+h1,h2,h3{font-family:var(--head);text-transform:uppercase;line-height:1;margin:0 0 .4em;letter-spacing:.01em}
+h1{font-size:clamp(46px,8vw,92px)}h2{font-size:clamp(34px,5vw,52px)}h3{font-size:28px}
+.lede{font-size:20px;max-width:34ch;color:var(--muted)}.cta{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 12px}.fine{color:var(--muted);font-size:15px;margin:0}
+.mosaic{display:grid;grid-template-columns:1fr 1fr;gap:10px}.mosaic img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:10px;border:3px solid var(--accent)}
+.mosaic img:first-child{grid-column:span 2;aspect-ratio:16/10}
+.badge{aspect-ratio:1;max-width:340px;justify-self:center;width:100%;border-radius:50%;background:var(--accent);color:var(--on);display:grid;place-content:center;text-align:center;border:10px solid var(--accent2);box-shadow:0 0 0 6px var(--accent)}
+.badge b{font:700 96px/1 var(--head)}.badge span{text-transform:uppercase;letter-spacing:.14em;font-weight:700;font-size:14px}
+.sec{padding:64px 0}.alt{background:var(--surface)}.sec-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:16px;margin-bottom:12px}.sec-h h2{margin:0}
+.search input{font:inherit;padding:13px 16px;border-radius:6px;border:2px solid var(--muted);background:var(--surface);color:var(--ink);width:min(360px,100%);min-height:48px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:8px 0 16px;scrollbar-width:thin}
+.tabs button{flex:none;font:700 16px var(--body);padding:11px 16px;border-radius:999px;border:2px solid var(--muted);background:transparent;color:var(--ink);cursor:pointer;min-height:44px}
+.tabs button[aria-selected=true]{background:var(--accent);border-color:var(--accent);color:var(--on)}
+.ph{display:flex;gap:20px;align-items:center;margin:8px 0 12px}.ph img{width:150px;height:150px;object-fit:cover;border-radius:12px;border:3px solid var(--accent);flex:none}
+.note{color:var(--muted);margin:.2em 0}.small{font-size:14px;margin-top:20px}
+.cols{display:flex;gap:16px;justify-content:flex-end;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--atext);font-weight:700;margin:10px 0 0}
+.items{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.items li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid color-mix(in srgb,var(--muted) 40%,transparent)}
+.nm b{font-size:18px}.nm small{display:block;color:var(--muted);font-size:15px;line-height:1.4;margin-top:2px}
+.pr{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end;text-align:right;font-weight:700;white-space:nowrap;align-content:start}
+.pr span{min-width:58px}.pr span:only-child{min-width:0}
+.spec{list-style:none;padding:0;margin:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.spec li{background:var(--bg);border-left:6px solid var(--accent);padding:18px 20px;font-weight:700;border-radius:4px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px}.plain{padding-left:20px}
+.hrs{border-collapse:collapse;width:100%;max-width:420px}.hrs th,.hrs td{text-align:left;padding:10px 0;border-bottom:1px solid color-mix(in srgb,var(--muted) 40%,transparent)}.hrs tr.today{color:var(--atext);font-weight:700}
+address{font-style:normal;font-size:20px;margin-bottom:16px}
+.strip{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px}.strip img{height:200px;width:auto;border-radius:10px;border:3px solid var(--accent)}
+footer{padding:28px 0 90px;border-top:2px solid var(--accent);color:var(--muted);font-size:15px}footer a{color:var(--ink)}
+.callbar{display:none}
+:focus-visible{outline:3px solid var(--accent2);outline-offset:2px}
+@media (max-width:820px){
+ .hero-in,.two,.items{grid-template-columns:1fr}.hero{padding:36px 0}.badge{max-width:240px}.badge b{font-size:64px}
+ .burger{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg);flex-direction:column;align-items:stretch;padding:16px;gap:4px;border-bottom:2px solid var(--accent)}
+ nav.open{display:flex}nav a{padding:12px 4px}.brand{font-size:22px}.brand img{height:32px;width:auto}
+ .ph{flex-direction:column;align-items:flex-start}.ph img{width:100%;height:180px}.cols{justify-content:flex-start}
+ .callbar{display:block;position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--accent);color:var(--on);text-align:center;padding:16px;font-weight:700;text-decoration:none;min-height:56px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}</style>
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "Peterborough Pizza Barn", "url": "https://peterboroughpizzabarn.com/", "telephone": "+16039247119", "servesCuisine": ["Pizza", "Subs", "American"], "address": {"@type": "PostalAddress", "streetAddress": "71 US-202", "addressLocality": "Peterborough", "addressRegion": "NH", "postalCode": "03458", "addressCountry": "US"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Thursday", "Friday", "Saturday"], "opens": "11:00", "closes": "21:00"}]}</script>
+</head>
+<body>
+
+<a class="skip" href="#menu">Skip to menu</a>
+<header class="top"><div class="wrap bar">
+  <a class="brand" href="#top"><span>Peterborough Pizza Barn</span></a>
+  <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav"><a href="#menu">Menu</a><a href="#specials">Specials</a><a href="#about">About</a><a href="#visit">Hours &amp; Directions</a><a class="btn sm" href="tel:+16039247119">Call (603) 924-7119</a></nav>
+</div></header>
+<main id="top">
+<section class="hero"><div class="wrap hero-in">
+  <div>
+    <p class="kicker" id="status" data-hours='[{"dow": [4, 5, 6], "open": "11:00", "close": "21:00"}]'>Peterborough, NH</p>
+    <h1>Peterborough Pizza Barn</h1>
+    <p class="lede">Serving the Monadnock Region since 1974. Pizza, subs, fried dinners and more on Route 202 in Peterborough, NH.</p>
+    <div class="cta"><a class="btn" href="tel:+16039247119">Call to order (603) 924-7119</a><a class="btn ghost" href="#menu">See the menu</a></div>
+    <p class="fine">Order by phone. 71 US-202, Peterborough, NH 03458</p>
+  </div>
+  <div class="badge" aria-hidden="true"><span>Since</span><b>1974</b><span>Monadnock Region</span></div>
+</div></section>
+
+<section id="menu" class="sec"><div class="wrap">
+  <div class="sec-h"><h2>Menu</h2><label class="search"><span class="sr">Search the menu</span><input id="q" type="search" placeholder="Search the menu (try &quot;steak&quot;)" autocomplete="off"></label></div>
+  <div class="tabs" role="tablist"><button role="tab" data-t="0" aria-selected="true">Pizza</button><button role="tab" data-t="1" aria-selected="false">Combinations</button><button role="tab" data-t="2" aria-selected="false">Sandwiches</button><button role="tab" data-t="3" aria-selected="false">Pasta &amp; Salads</button><button role="tab" data-t="4" aria-selected="false">Fried Dinners</button><button role="tab" data-t="5" aria-selected="false">Fried Sides &amp; Sides</button><button role="tab" data-t="6" aria-selected="false">Drinks, Chips &amp; Dessert</button></div>
+  
+  <div class="panel" data-p="0" >
+    <div class="ph"><div><h3>Pizza</h3><p class="note">Hand-picked toppings priced by size. Alfredo sauce available! NEW: gluten-free pizza (ask for details). *Special: 3 large cheese pizzas, $39.00.</p><p class="cols"><span>Personal 7&quot;</span><span>Small 10&quot;</span><span>Large 15&quot;</span></p></div></div>
+    <ul class="items">
+      <li data-s="tomato &amp; cheese  pizza"><div class="nm"><b>Tomato &amp; Cheese</b></div>
+      <div class="pr"><span>$5.00</span><span>$10.00</span><span>$15.00</span></div></li>
+      <li data-s="extra cheese  pizza"><div class="nm"><b>Extra Cheese</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.25</span><span>$17.50</span></div></li>
+      <li data-s="feta cheese  pizza"><div class="nm"><b>Feta Cheese</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.25</span><span>$17.50</span></div></li>
+      <li data-s="pineapple  pizza"><div class="nm"><b>Pineapple</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.00</span><span>$17.00</span></div></li>
+      <li data-s="fresh garlic  pizza"><div class="nm"><b>Fresh Garlic</b></div>
+      <div class="pr"><span>$5.75</span><span>$10.75</span><span>$16.50</span></div></li>
+      <li data-s="tomatoes  pizza"><div class="nm"><b>Tomatoes</b></div>
+      <div class="pr"><span>$5.75</span><span>$10.75</span><span>$16.50</span></div></li>
+      <li data-s="onion  pizza"><div class="nm"><b>Onion</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.00</span><span>$17.25</span></div></li>
+      <li data-s="pepper  pizza"><div class="nm"><b>Pepper</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.00</span><span>$17.25</span></div></li>
+      <li data-s="pepper &amp; onion  pizza"><div class="nm"><b>Pepper &amp; Onion</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="mushroom  pizza"><div class="nm"><b>Mushroom</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="black olive  pizza"><div class="nm"><b>Black Olive</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="broccoli  pizza"><div class="nm"><b>Broccoli</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="spinach  pizza"><div class="nm"><b>Spinach</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="eggplant  pizza"><div class="nm"><b>Eggplant</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="any chicken, any sauce!  pizza"><div class="nm"><b>Any Chicken, Any Sauce!</b></div>
+      <div class="pr"><span>$7.00</span><span>$14.00</span><span>$22.00</span></div></li>
+      <li data-s="sausage  pizza"><div class="nm"><b>Sausage</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="pepperoni  pizza"><div class="nm"><b>Pepperoni</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="hamburg  pizza"><div class="nm"><b>Hamburg</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="salami  pizza"><div class="nm"><b>Salami</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="pastrami  pizza"><div class="nm"><b>Pastrami</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="anchovy  pizza"><div class="nm"><b>Anchovy</b></div>
+      <div class="pr"><span>$5.75</span><span>$11.75</span><span>$18.75</span></div></li>
+      <li data-s="imported ham  pizza"><div class="nm"><b>Imported Ham</b></div>
+      <div class="pr"><span>$5.75</span><span>$12.00</span><span>$19.25</span></div></li>
+      <li data-s="canadian bacon  pizza"><div class="nm"><b>Canadian Bacon</b></div>
+      <div class="pr"><span>$5.75</span><span>$12.00</span><span>$19.25</span></div></li>
+      <li data-s="steak  pizza"><div class="nm"><b>Steak</b></div>
+      <div class="pr"><span>$5.75</span><span>$12.50</span><span>$19.75</span></div></li>
+      <li data-s="bacon  pizza"><div class="nm"><b>Bacon</b></div>
+      <div class="pr"><span>$5.75</span><span>$12.50</span><span>$19.75</span></div></li>
+      <li data-s="mexican  pizza"><div class="nm"><b>Mexican</b></div>
+      <div class="pr"><span>$7.00</span><span>$14.75</span><span>$22.75</span></div></li>
+      <li data-s="special  pizza"><div class="nm"><b>Special</b></div>
+      <div class="pr"><span>$6.75</span><span>$14.50</span><span>$22.00</span></div></li>
+      <li data-s="3 large cheese pizza special  pizza"><div class="nm"><b>3 Large Cheese Pizza Special</b></div>
+      <div class="pr"><span>$39.00</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="1" hidden>
+    <div class="ph"><div><h3>Combinations</h3><p class="note">Alfredo sauce available!</p><p class="cols"><span>Personal 7&quot;</span><span>Small 10&quot;</span><span>Large 15&quot;</span></p></div></div>
+    <ul class="items">
+      <li data-s="2 way  combinations"><div class="nm"><b>2 Way</b></div>
+      <div class="pr"><span>$6.00</span><span>$12.25</span><span>$19.75</span></div></li>
+      <li data-s="3 way  combinations"><div class="nm"><b>3 Way</b></div>
+      <div class="pr"><span>$6.25</span><span>$12.75</span><span>$20.50</span></div></li>
+      <li data-s="4 way  combinations"><div class="nm"><b>4 Way</b></div>
+      <div class="pr"><span>$6.25</span><span>$13.25</span><span>$21.25</span></div></li>
+      <li data-s="5 way  combinations"><div class="nm"><b>5 Way</b></div>
+      <div class="pr"><span>$6.50</span><span>$13.75</span><span>$21.75</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="2" hidden>
+    <div class="ph"><div><h3>Sandwiches</h3><p class="note">Wraps &amp; pockets and small subs are the same price.</p><p class="cols"><span>Wrap / Pocket</span><span>Small Sub</span><span>Large Sub</span></p></div></div>
+    <ul class="items">
+      <li data-s="cheese  sandwiches"><div class="nm"><b>Cheese</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="american  sandwiches"><div class="nm"><b>American</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="genoa salami  sandwiches"><div class="nm"><b>Genoa Salami</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="cooked salami  sandwiches"><div class="nm"><b>Cooked Salami</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="italian  sandwiches"><div class="nm"><b>Italian</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="ham &amp; cheese  sandwiches"><div class="nm"><b>Ham &amp; Cheese</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="turkey breast  sandwiches"><div class="nm"><b>Turkey Breast</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="chicken salad  sandwiches"><div class="nm"><b>Chicken Salad</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="tuna  sandwiches"><div class="nm"><b>Tuna</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="roast beef  sandwiches"><div class="nm"><b>Roast Beef</b></div>
+      <div class="pr"><span>$9.50</span><span>$9.50</span><span>$12.75</span></div></li>
+      <li data-s="canadian bacon  sandwiches"><div class="nm"><b>Canadian Bacon</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="crabmeat  sandwiches"><div class="nm"><b>CrabMeat</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="vegetarian  sandwiches"><div class="nm"><b>Vegetarian</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="blt &amp; cheese  sandwiches"><div class="nm"><b>BLT &amp; Cheese</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="pepperoni  sandwiches"><div class="nm"><b>Pepperoni</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="meatball  sandwiches"><div class="nm"><b>Meatball</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="sausage  sandwiches"><div class="nm"><b>Sausage</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="pastrami &amp; cheese  sandwiches"><div class="nm"><b>Pastrami &amp; Cheese</b></div>
+      <div class="pr"><span>$9.50</span><span>$9.50</span><span>$12.75</span></div></li>
+      <li data-s="barbecue rib  sandwiches"><div class="nm"><b>Barbecue Rib</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="haddock  sandwiches"><div class="nm"><b>Haddock</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="chicken parmesan  sandwiches"><div class="nm"><b>Chicken Parmesan</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="chicken &amp; veggie  sandwiches"><div class="nm"><b>Chicken &amp; Veggie</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="eggplant parmesan  sandwiches"><div class="nm"><b>Eggplant Parmesan</b></div>
+      <div class="pr"><span>$9.00</span><span>$9.00</span><span>$11.95</span></div></li>
+      <li data-s="grilled chicken  sandwiches"><div class="nm"><b>Grilled Chicken</b></div>
+      <div class="pr"><span>$9.25</span><span>$9.25</span><span>$12.25</span></div></li>
+      <li data-s="chicken tender  sandwiches"><div class="nm"><b>Chicken Tender</b></div>
+      <div class="pr"><span>$9.25</span><span>$9.25</span><span>$12.25</span></div></li>
+      <li data-s="buffalo tender  sandwiches"><div class="nm"><b>Buffalo Tender</b></div>
+      <div class="pr"><span>$9.25</span><span>$9.25</span><span>$12.25</span></div></li>
+      <li data-s="barn burner  sandwiches"><div class="nm"><b>Barn Burner</b></div>
+      <div class="pr"><span>$9.25</span><span>$9.25</span><span>$12.25</span></div></li>
+      <li data-s="steak &amp; cheese  sandwiches"><div class="nm"><b>Steak &amp; Cheese</b></div>
+      <div class="pr"><span>$9.75</span><span>$9.75</span><span>$12.95</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="3" hidden>
+    <div class="ph"><div><h3>Pasta &amp; Salads</h3></div></div>
+    <ul class="items">
+      <li data-s="lasagna  pasta &amp; salads"><div class="nm"><b>Lasagna</b></div>
+      <div class="pr"><span>$8.95</span></div></li>
+      <li data-s="spaghetti with sauce  pasta &amp; salads"><div class="nm"><b>Spaghetti with sauce</b></div>
+      <div class="pr"><span>$8.95</span></div></li>
+      <li data-s="spaghetti with meatballs  pasta &amp; salads"><div class="nm"><b>Spaghetti with Meatballs</b></div>
+      <div class="pr"><span>$10.95</span></div></li>
+      <li data-s="spaghetti with sausage  pasta &amp; salads"><div class="nm"><b>Spaghetti with Sausage</b></div>
+      <div class="pr"><span>$10.95</span></div></li>
+      <li data-s="spaghetti with eggplant  pasta &amp; salads"><div class="nm"><b>Spaghetti with Eggplant</b></div>
+      <div class="pr"><span>$10.95</span></div></li>
+      <li data-s="spaghetti with chicken  pasta &amp; salads"><div class="nm"><b>Spaghetti with Chicken</b></div>
+      <div class="pr"><span>$10.95</span></div></li>
+      <li data-s="tossed salad  pasta &amp; salads"><div class="nm"><b>Tossed Salad</b></div>
+      <div class="pr"><span>$5.95</span></div></li>
+      <li data-s="greek salad  pasta &amp; salads"><div class="nm"><b>Greek Salad</b></div>
+      <div class="pr"><span>$8.95</span></div></li>
+      <li data-s="grilled chicken salad  pasta &amp; salads"><div class="nm"><b>Grilled Chicken Salad</b></div>
+      <div class="pr"><span>$8.95</span></div></li>
+      <li data-s="chef salad  pasta &amp; salads"><div class="nm"><b>Chef Salad</b></div>
+      <div class="pr"><span>$8.95</span></div></li>
+      <li data-s="antipasto  pasta &amp; salads"><div class="nm"><b>Antipasto</b></div>
+      <div class="pr"><span>$9.95</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="4" hidden>
+    <div class="ph"><div><h3>Fried Dinners</h3><p class="note">All dinners are served with fries. 50¢ to add spicy fries. No fries, deduct 75¢.</p></div></div>
+    <ul class="items">
+      <li data-s="chicken nuggets 8 pc  fried dinners"><div class="nm"><b>Chicken Nuggets 8 pc</b></div>
+      <div class="pr"><span>$7.50</span></div></li>
+      <li data-s="chicken nuggets 12 pc  fried dinners"><div class="nm"><b>Chicken Nuggets 12 pc</b></div>
+      <div class="pr"><span>$9.00</span></div></li>
+      <li data-s="clam strips  fried dinners"><div class="nm"><b>Clam Strips</b></div>
+      <div class="pr"><span>$11.50</span></div></li>
+      <li data-s="fried shrimp  fried dinners"><div class="nm"><b>Fried Shrimp</b></div>
+      <div class="pr"><span>$11.50</span></div></li>
+      <li data-s="chicken tenders  fried dinners"><div class="nm"><b>Chicken Tenders</b></div>
+      <div class="pr"><span>$11.50</span></div></li>
+      <li data-s="barn burners  fried dinners"><div class="nm"><b>Barn Burners</b></div>
+      <div class="pr"><span>$11.50</span></div></li>
+      <li data-s="buffalo tenders  fried dinners"><div class="nm"><b>Buffalo Tenders</b></div>
+      <div class="pr"><span>$11.50</span></div></li>
+      <li data-s="hot wings  fried dinners"><div class="nm"><b>Hot Wings</b></div>
+      <div class="pr"><span>$11.95</span></div></li>
+      <li data-s="chicken wings  fried dinners"><div class="nm"><b>Chicken Wings</b></div>
+      <div class="pr"><span>$11.95</span></div></li>
+      <li data-s="cod 4 pc  fried dinners"><div class="nm"><b>Cod 4 pc</b></div>
+      <div class="pr"><span>$11.95</span></div></li>
+      <li data-s="haddock  fried dinners"><div class="nm"><b>Haddock</b></div>
+      <div class="pr"><span>$11.95</span></div></li>
+      <li data-s="scallops  fried dinners"><div class="nm"><b>Scallops</b></div>
+      <div class="pr"><span>$13.95</span></div></li>
+      <li data-s="seafood plate  fried dinners"><div class="nm"><b>Seafood Plate</b></div>
+      <div class="pr"><span>$14.95</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="5" hidden>
+    <div class="ph"><div><h3>Fried Sides &amp; Sides</h3></div></div>
+    <ul class="items">
+      <li data-s="french fries  fried sides &amp; sides"><div class="nm"><b>French Fries</b></div>
+      <div class="pr"><span>Small $3.75</span><span>Large $6.50</span></div></li>
+      <li data-s="spicy fries  fried sides &amp; sides"><div class="nm"><b>Spicy Fries</b></div>
+      <div class="pr"><span>Small $4.75</span><span>Large $7.75</span></div></li>
+      <li data-s="onion rings  fried sides &amp; sides"><div class="nm"><b>Onion Rings</b></div>
+      <div class="pr"><span>Small $5.00</span><span>Large $8.75</span></div></li>
+      <li data-s="fried mushrooms  fried sides &amp; sides"><div class="nm"><b>Fried Mushrooms</b></div>
+      <div class="pr"><span>Small $5.00</span><span>Large $8.75</span></div></li>
+      <li data-s="fried cauliflower  fried sides &amp; sides"><div class="nm"><b>Fried Cauliflower</b></div>
+      <div class="pr"><span>Small $5.00</span><span>Large $8.75</span></div></li>
+      <li data-s="broccoli poppers  fried sides &amp; sides"><div class="nm"><b>Broccoli Poppers</b></div>
+      <div class="pr"><span>$8.75</span></div></li>
+      <li data-s="jalapeno poppers cheddar or cream cheese fried sides &amp; sides"><div class="nm"><b>Jalapeno Poppers</b><small>Cheddar or cream cheese</small></div>
+      <div class="pr"><span>$8.75</span></div></li>
+      <li data-s="cheese sticks  fried sides &amp; sides"><div class="nm"><b>Cheese Sticks</b></div>
+      <div class="pr"><span>$8.75</span></div></li>
+      <li data-s="fried pickles chips or spears fried sides &amp; sides"><div class="nm"><b>Fried Pickles</b><small>Chips or spears</small></div>
+      <div class="pr"><span>$8.75</span></div></li>
+      <li data-s="fried mac &amp; cheese bites  fried sides &amp; sides"><div class="nm"><b>Fried Mac &amp; Cheese Bites</b></div>
+      <div class="pr"><span>$8.75</span></div></li>
+      <li data-s="fried ravioli  fried sides &amp; sides"><div class="nm"><b>Fried Ravioli</b></div>
+      <div class="pr"><span>$8.75</span></div></li>
+      <li data-s="fried dough  fried sides &amp; sides"><div class="nm"><b>Fried Dough</b></div>
+      <div class="pr"><span>$4.75</span></div></li>
+      <li data-s="bread sticks  fried sides &amp; sides"><div class="nm"><b>Bread Sticks</b></div>
+      <div class="pr"><span>$3.75</span><span>w/ cheese $4.75</span></div></li>
+      <li data-s="garlic bread, small  fried sides &amp; sides"><div class="nm"><b>Garlic Bread, Small</b></div>
+      <div class="pr"><span>$1.00</span><span>w/ cheese $1.70</span></div></li>
+      <li data-s="garlic bread, large  fried sides &amp; sides"><div class="nm"><b>Garlic Bread, Large</b></div>
+      <div class="pr"><span>$1.95</span><span>w/ cheese $2.95</span></div></li>
+      <li data-s="cole slaw  fried sides &amp; sides"><div class="nm"><b>Cole Slaw</b></div>
+      <div class="pr"><span>$1.25</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="6" hidden>
+    <div class="ph"><div><h3>Drinks, Chips &amp; Dessert</h3><p class="note">Drink and chip price lists are shown as published on the shop&#x27;s site.</p></div></div>
+    <ul class="items">
+      <li data-s="canned soda  drinks, chips &amp; dessert"><div class="nm"><b>Canned Soda</b></div>
+      <div class="pr"><span>$1.25</span></div></li>
+      <li data-s="bottled water  drinks, chips &amp; dessert"><div class="nm"><b>Bottled Water</b></div>
+      <div class="pr"><span>$1.00</span></div></li>
+      <li data-s="aj, sunny d  drinks, chips &amp; dessert"><div class="nm"><b>AJ, Sunny D</b></div>
+      <div class="pr"><span>$1.50</span></div></li>
+      <li data-s="gatorade  drinks, chips &amp; dessert"><div class="nm"><b>Gatorade</b></div>
+      <div class="pr"><span>$2.00</span></div></li>
+      <li data-s="pure leaf unsweetened  drinks, chips &amp; dessert"><div class="nm"><b>Pure Leaf Unsweetened</b></div>
+      <div class="pr"><span>$2.00</span></div></li>
+      <li data-s="lemonade, fruit punch, ice tea  drinks, chips &amp; dessert"><div class="nm"><b>Lemonade, Fruit Punch, Ice Tea</b></div>
+      <div class="pr"><span>75¢</span><span>95¢</span><span>$1.25</span></div></li>
+      <li data-s="milk  drinks, chips &amp; dessert"><div class="nm"><b>Milk</b></div>
+      <div class="pr"><span>$1.00</span><span>$1.50</span></div></li>
+      <li data-s="chocolate milk  drinks, chips &amp; dessert"><div class="nm"><b>Chocolate Milk</b></div>
+      <div class="pr"><span>$1.50</span></div></li>
+      <li data-s="chips  drinks, chips &amp; dessert"><div class="nm"><b>Chips</b></div>
+      <div class="pr"><span>75¢</span><span>$3.50</span></div></li>
+      <li data-s="ice cream ask for flavors drinks, chips &amp; dessert"><div class="nm"><b>Ice Cream</b><small>Ask for flavors</small></div>
+      <div class="pr"></div></li>
+      <li data-s="fried dough  drinks, chips &amp; dessert"><div class="nm"><b>Fried Dough</b></div>
+      <div class="pr"><span>$4.75</span></div></li>
+      <li data-s="yaya&#x27;s famous baklava  drinks, chips &amp; dessert"><div class="nm"><b>Yaya&#x27;s Famous Baklava</b></div>
+      <div class="pr"><span>$2.50</span></div></li>
+    </ul>
+  </div>
+  
+  <p id="none" class="note" hidden>No menu items match. Try another word, or call (603) 924-7119.</p>
+  <p class="note small">Prices and items are as published on the shop's own menu and may change; call (603) 924-7119 to confirm.</p>
+</div></section>
+
+<section id="specials" class="sec alt"><div class="wrap"><h2>Specials</h2><ul class="spec"><li>3 large cheese pizzas for $39.00</li><li>Gluten-free pizza now available</li></ul></div></section>
+
+<section id="about" class="sec"><div class="wrap two"><div><h2>About</h2><p>Peterborough Pizza Barn has been serving the Monadnock Region since 1974.</p><p>Not to be confused with the Jaffrey Pizza Barn: we are the Peterborough shop, at 71 US-202.</p></div>
+ <div><h3>Delivery</h3><p>Delivery is through SweenEats: call 603-554-0506 or email Sweeneatsfooddeliveryservices@gmail.com. Call us for more details.</p><p><a class="btn ghost" href="tel:+16035540506">Call SweenEats 603-554-0506</a></p></div></div></section>
+
+
+
+<section id="visit" class="sec"><div class="wrap two"><div><h2>Hours</h2>
+ <table class="hrs"><tr data-dow="1"><th scope="row">Monday</th><td>Closed</td></tr><tr data-dow="2"><th scope="row">Tuesday</th><td>Closed</td></tr><tr data-dow="3"><th scope="row">Wednesday</th><td>Closed</td></tr><tr data-dow="4"><th scope="row">Thursday</th><td>11 AM – 9 PM</td></tr><tr data-dow="5"><th scope="row">Friday</th><td>11 AM – 9 PM</td></tr><tr data-dow="6"><th scope="row">Saturday</th><td>11 AM – 9 PM</td></tr><tr data-dow="0"><th scope="row">Sunday</th><td>Closed</td></tr></table></div>
+ <div><h2>Find us</h2><address>71 US-202<br>Peterborough, NH 03458</address>
+ <p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Peterborough+Pizza+Barn+71+US-202+Peterborough+NH+03458" rel="noopener">Get directions</a> <a class="btn ghost" href="tel:+16039247119">Call (603) 924-7119</a></p>
+ <p><a href="https://www.facebook.com/peterboroughpizzabarn/" rel="noopener">Find us on Facebook</a></p></div></div></section>
+</main>
+<footer><div class="wrap"><p>&copy; 2026 Peterborough Pizza Barn &middot; 71 US-202, Peterborough, NH 03458 &middot; <a href="tel:+16039247119">(603) 924-7119</a></p></div></footer>
+<a class="callbar" href="tel:+16039247119">Call (603) 924-7119</a>
+<script>(function(){
+var $=function(s,r){return(r||document).querySelector(s)},$$=function(s,r){return[].slice.call((r||document).querySelectorAll(s))};
+var bg=$('.burger'),nav=$('#nav');bg.addEventListener('click',function(){var o=nav.classList.toggle('open');bg.setAttribute('aria-expanded',o)});
+$$('#nav a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');bg.setAttribute('aria-expanded',false)})});
+var tabs=$$('.tabs button'),panels=$$('.panel'),q=$('#q'),none=$('#none');
+function show(i){tabs.forEach(function(b,k){b.setAttribute('aria-selected',k==i)});panels.forEach(function(p,k){p.hidden=k!=i})}
+tabs.forEach(function(b){b.addEventListener('click',function(){q.value='';filter();show(+b.dataset.t)})});
+function filter(){var v=q.value.trim().toLowerCase(),n=0;
+ if(!v){$$('.items li').forEach(function(l){l.hidden=false});none.hidden=true;var a=tabs.filter(function(b){return b.getAttribute('aria-selected')=='true'})[0];show(a?+a.dataset.t:0);return}
+ panels.forEach(function(p){var c=0;$$('li',p).forEach(function(l){var m=l.dataset.s.indexOf(v)>-1;l.hidden=!m;if(m)c++});p.hidden=!c;n+=c});none.hidden=n>0}
+q.addEventListener('input',filter);
+var st=$('#status'),H=JSON.parse(st.dataset.hours||'[]');
+function f(t){var p=t.split(':'),h=+p[0],m=+p[1],ap=h>=12?'PM':'AM';h=h%12||12;return h+(m?':'+('0'+m).slice(-2):'')+' '+ap}
+try{var d=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'})),dow=d.getDay(),mins=d.getHours()*60+d.getMinutes(),msg='',
+ row=$('.hrs tr[data-dow="'+dow+'"]');if(row)row.className='today';
+ var today=H.filter(function(h){return h.dow.indexOf(dow)>-1})[0];
+ if(today){var o=+today.open.split(':')[0]*60+ +today.open.split(':')[1],c=+today.close.split(':')[0]*60+ +today.close.split(':')[1];
+  msg=mins>=o&&mins<c?'Open now · until '+f(today.close):mins<o?'Closed · opens today at '+f(today.open):'Closed now'}else msg='Closed today';
+ if(msg)st.textContent=msg}catch(e){}
+})();
+</script>
+</body>
+</html>
