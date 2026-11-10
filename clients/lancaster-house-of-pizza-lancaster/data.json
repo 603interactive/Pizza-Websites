@@ -1,0 +1,219 @@
+{
+ "slug": "lancaster-house-of-pizza-lancaster",
+ "name": "Lancaster House of Pizza",
+ "short": "Lancaster House of Pizza",
+ "domain": "https://www.lancasterhouseofpizza.com",
+ "tagline": "Classic and specialty pizzas, calzones, grinders, wraps and more on Summer Street in Lancaster, NH. Pickup or delivery.",
+ "seo_title": "Lancaster House of Pizza | Pizza, Grinders & Wraps in Lancaster, NH",
+ "seo_desc": "Lancaster House of Pizza, 281 Summer St, Lancaster NH. Specialty pizzas, calzones, grinders, wraps, pasta and more. Pickup or delivery. Call (603) 788-0964.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#f6f3e8",
+  "ink": "#1b2a22",
+  "muted": "#55645b",
+  "accent": "#1f6045",
+  "accent2": "#8a5a00"
+ },
+ "facebook": "",
+ "instagram": "",
+ "order_any": "https://www.lancasterhouseofpizza.com/2wctw8mc/lancaster-house-of-pizza-lancaster-03584/order-online",
+ "about": [
+  "The menu at Lancaster House of Pizza is full of flavorful pizza dishes, from classic favorites to more adventurous options like Mediterranean, Greek, Seafood Lovers and Chicken Fiesta.",
+  "Stop by in the Lancaster area, or order online for pickup or delivery."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "Pickup and delivery are both available. Order online or call.",
+ "order_url": "https://www.lancasterhouseofpizza.com/2wctw8mc/lancaster-house-of-pizza-lancaster-03584/order-online",
+ "order_label": "Order online",
+ "menu_note": "",
+ "badge": [
+  "Pickup &",
+  "Delivery",
+  "Lancaster, NH"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "lancaster-house-of-pizza-lancaster",
+   "name": "Lancaster",
+   "street": "281 Summer St",
+   "city": "Lancaster",
+   "region": "NH",
+   "postal": "03584",
+   "phone": "(603) 788-0964",
+   "tel": "+16037880964",
+   "hours": [
+    {
+     "dow": [
+      1,
+      2,
+      3,
+      4
+     ],
+     "open": "11:00",
+     "close": "20:00"
+    },
+    {
+     "dow": [
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    }
+   ],
+   "order": "https://www.lancasterhouseofpizza.com/2wctw8mc/lancaster-house-of-pizza-lancaster-03584/order-online",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Lancaster+House+of+Pizza+281+Summer+St+Lancaster+NH+03584"
+  }
+ ],
+ "menu": [
+  {
+   "cat": "Pizza",
+   "img": "",
+   "note": "",
+   "head": [],
+   "items": [
+    {
+     "name": "Plain Cheese Pizza",
+     "prices": [
+      "$8.99"
+     ],
+     "desc": "Classic cheese or create your own pizza."
+    }
+   ]
+  },
+  {
+   "cat": "Specialty Pizza",
+   "img": "",
+   "note": "",
+   "head": [],
+   "items": [
+    {
+     "name": "White Pizza",
+     "prices": [
+      "$10.99"
+     ],
+     "desc": "Feta, garlic, virgin olive oil, cheddar, mozzarella & oregano."
+    },
+    {
+     "name": "Grilled Chicken Pizza",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Grilled chicken, tomato sauce, cheddar & mozzarella."
+    },
+    {
+     "name": "BBQ Chicken Pizza",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "BBQ sauce & chicken, served with blue cheese."
+    },
+    {
+     "name": "Buffalo Pizza",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "Buffalo sauce & chicken, served with blue cheese."
+    },
+    {
+     "name": "Mediterranean Pizza",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Ricotta, feta, mozzarella, cheddar, garlic, spinach & olives with virgin olive oil."
+    },
+    {
+     "name": "Greek Pizza",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Tomato sauce, spinach, feta, olives, tomatoes, garlic & oregano."
+    },
+    {
+     "name": "Italian Pizza",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Pepperoni, salami, black olives, onions, tomatoes, garlic."
+    },
+    {
+     "name": "Meat Lovers Pizza",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": "Hamburger, sausage, pepperoni, ham, meatball & bacon."
+    },
+    {
+     "name": "House Pizza",
+     "prices": [
+      "$14.50"
+     ],
+     "desc": "Pepperoni, hamburg, sausage, mushrooms, onions, peppers, bacon."
+    },
+    {
+     "name": "Hawaiian Pizza",
+     "prices": [
+      "$10.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veggie Pizza",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Mushrooms, onions, peppers, broccoli, black olives, tomatoes."
+    },
+    {
+     "name": "Chicken Bacon Ranch Pizza",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": "Chicken, bacon, ranch dressing."
+    },
+    {
+     "name": "Mexican Pizza",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": "Peppers, jalapeños, black olives, tomatoes, tortilla chips, salsa."
+    },
+    {
+     "name": "Chicken Fiesta Pizza",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": "Grilled chicken, onions, peppers, tomatoes, banana peppers, black olives, tortilla chips, salsa."
+    },
+    {
+     "name": "Seafood Lovers Pizza",
+     "prices": [
+      "$14.50"
+     ],
+     "desc": "Shrimp, scallops, mussels."
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "Auto-generated Beyond Menu site; About text is generic and there are no photos of the shop.",
+  "Only pizza and specialty pizza items were readable on the menu page we could fetch; appetizers, salads, calzones, subs, grinders, wraps, burgers, pasta, kids and desserts appear as headings only.",
+  "A separate, unofficial site (orderlancasterhouseofpizza.com) lists a Vermont phone number; the new site links only to the shop's own order page and (603) 788-0964.",
+  "No photos were published: the only images on the site are vendor stock paths."
+ ],
+ "questions": [
+  "Please send the full menu: only pizza was readable online, so other sections are not shown.",
+  "Hours: the order page showed Mon-Thu 11-8, Fri-Sat 11-9, Sun closed. Are those current?",
+  "Is the online-order link above the one you want customers to use?",
+  "Do you have photos of your food and shop we may use?",
+  "Do you have a Facebook page we should link?",
+  "Can the unofficial order site with the Vermont phone number be taken down?"
+ ]
+}

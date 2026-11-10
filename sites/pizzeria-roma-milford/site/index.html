@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Pizzeria Roma | Italian Hand-Tossed Pizza, Subs &amp; Dinners in Milford, NH</title>
+<meta name="description" content="Pizzeria Roma, 586 Nashua Street, Lordens Plaza, Milford NH. Italian hand-tossed pizza, subs, wraps, salads and homemade dinners. Open Monday to Saturday 11am to 9pm. Call 603-672-2333.">
+<meta name="theme-color" content="#fbf6ec">
+<meta property="og:title" content="Pizzeria Roma | Italian Hand-Tossed Pizza, Subs &amp; Dinners in Milford, NH"><meta property="og:description" content="Pizzeria Roma, 586 Nashua Street, Lordens Plaza, Milford NH. Italian hand-tossed pizza, subs, wraps, salads and homemade dinners. Open Monday to Saturday 11am to 9pm. Call 603-672-2333."><meta property="og:type" content="restaurant">
+<style>@font-face{font-family:'Big Shoulders Display';src:url(fonts/BigShoulders-Bold.woff) format('woff');font-weight:700;font-style:normal;font-display:swap}@font-face{font-family:'Work Sans';src:url(fonts/WorkSans-Regular.woff) format('woff');font-weight:400;font-style:normal;font-display:swap}@font-face{font-family:'Work Sans';src:url(fonts/WorkSans-Bold.woff) format('woff');font-weight:700;font-style:normal;font-display:swap}:root{--bg:#fbf6ec;--surface:#ffffff;--ink:#241812;--muted:#66564a;--accent:#a3151b;--accent2:#2f6e3f;--atext:#2f6e3f;--on:#ffffff;--head:'Big Shoulders Display',Impact,sans-serif;--body:'Work Sans',system-ui,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.55 var(--body)}
+img{max-width:100%;display:block}a{color:var(--atext)}
+.wrap{width:min(1120px,100% - 32px);margin:auto}
+.sr,.skip:not(:focus){position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.skip:focus{position:fixed;top:8px;left:8px;z-index:99;background:var(--accent);color:var(--on);padding:8px 12px}
+.ribbon{background:var(--accent2);color:#111;text-align:center;font-size:13px;padding:6px 12px}
+.top{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:2px solid var(--accent)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font:700 26px/1 var(--head);text-transform:uppercase;letter-spacing:.02em}
+nav{display:flex;align-items:center;gap:20px}nav a{color:var(--ink);text-decoration:none;font-weight:700}nav a:hover{color:var(--atext)}
+.btn{display:inline-block;background:var(--accent);color:var(--on);font:700 17px/1 var(--body);padding:15px 22px;border-radius:6px;text-decoration:none;border:2px solid var(--accent);min-height:48px}
+.btn:hover{filter:brightness(1.1)}.btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}.btn.sm{padding:11px 16px;min-height:44px;color:var(--on)}
+nav a.btn{color:var(--on)}
+.burger{display:none;background:none;color:var(--ink);border:2px solid var(--ink);border-radius:6px;padding:10px 14px;font:700 15px var(--body);min-height:44px}
+.hero{padding:56px 0 48px;background:linear-gradient(135deg,var(--surface),var(--bg))}
+.hero-in{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.kicker{display:inline-block;margin:0 0 12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--atext);font-size:14px}
+h1,h2,h3{font-family:var(--head);text-transform:uppercase;line-height:1;margin:0 0 .4em;letter-spacing:.01em}
+h1{font-size:clamp(46px,8vw,92px)}h2{font-size:clamp(34px,5vw,52px)}h3{font-size:28px}
+.lede{font-size:20px;max-width:34ch;color:var(--muted)}.cta{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 12px}.fine{color:var(--muted);font-size:15px;margin:0}
+.mosaic{display:grid;grid-template-columns:1fr 1fr;gap:10px}.mosaic img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:10px;border:3px solid var(--accent)}
+.mosaic img:first-child{grid-column:span 2;aspect-ratio:16/10}
+.badge{aspect-ratio:1;max-width:340px;justify-self:center;width:100%;border-radius:50%;background:var(--accent);color:var(--on);display:grid;place-content:center;text-align:center;border:10px solid var(--accent2);box-shadow:0 0 0 6px var(--accent)}
+.badge b{font:700 96px/1 var(--head)}.badge span{text-transform:uppercase;letter-spacing:.14em;font-weight:700;font-size:14px}
+.sec{padding:64px 0}.alt{background:var(--surface)}.sec-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:16px;margin-bottom:12px}.sec-h h2{margin:0}
+.search input{font:inherit;padding:13px 16px;border-radius:6px;border:2px solid var(--muted);background:var(--surface);color:var(--ink);width:min(360px,100%);min-height:48px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding:8px 0 16px;scrollbar-width:thin}
+.tabs button{flex:none;font:700 16px var(--body);padding:11px 16px;border-radius:999px;border:2px solid var(--muted);background:transparent;color:var(--ink);cursor:pointer;min-height:44px}
+.tabs button[aria-selected=true]{background:var(--accent);border-color:var(--accent);color:var(--on)}
+.ph{display:flex;gap:20px;align-items:center;margin:8px 0 12px}.ph img{width:150px;height:150px;object-fit:cover;border-radius:12px;border:3px solid var(--accent);flex:none}
+.note{color:var(--muted);margin:.2em 0}.small{font-size:14px;margin-top:20px}
+.cols{display:flex;gap:16px;justify-content:flex-end;font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--atext);font-weight:700;margin:10px 0 0}
+.items{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.items li{display:flex;justify-content:space-between;gap:16px;padding:14px 0;border-bottom:1px solid color-mix(in srgb,var(--muted) 40%,transparent)}
+.nm b{font-size:18px}.nm small{display:block;color:var(--muted);font-size:15px;line-height:1.4;margin-top:2px}
+.pr{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end;text-align:right;font-weight:700;white-space:nowrap;align-content:start}
+.pr span{min-width:58px}.pr span:only-child{min-width:0}
+.spec{list-style:none;padding:0;margin:0;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.spec li{background:var(--bg);border-left:6px solid var(--accent);padding:18px 20px;font-weight:700;border-radius:4px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:48px}.plain{padding-left:20px}
+.hrs{border-collapse:collapse;width:100%;max-width:420px}.hrs th,.hrs td{text-align:left;padding:10px 0;border-bottom:1px solid color-mix(in srgb,var(--muted) 40%,transparent)}.hrs tr.today{color:var(--atext);font-weight:700}
+address{font-style:normal;font-size:20px;margin-bottom:16px}
+.strip{display:flex;gap:12px;overflow-x:auto;padding-bottom:8px}.strip img{height:200px;width:auto;border-radius:10px;border:3px solid var(--accent)}
+footer{padding:28px 0 90px;border-top:2px solid var(--accent);color:var(--muted);font-size:15px}footer a{color:var(--ink)}
+.callbar{display:none}
+:focus-visible{outline:3px solid var(--accent2);outline-offset:2px}
+@media (max-width:820px){
+ .hero-in,.two,.items{grid-template-columns:1fr}.hero{padding:36px 0}.badge{max-width:240px}.badge b{font-size:64px}
+ .burger{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg);flex-direction:column;align-items:stretch;padding:16px;gap:4px;border-bottom:2px solid var(--accent)}
+ nav.open{display:flex}nav a{padding:12px 4px}.brand{font-size:22px}.brand img{height:32px;width:auto}
+ .ph{flex-direction:column;align-items:flex-start}.ph img{width:100%;height:180px}.cols{justify-content:flex-start}
+ .callbar{display:block;position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--accent);color:var(--on);text-align:center;padding:16px;font-weight:700;text-decoration:none;min-height:56px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}</style>
+<link rel="stylesheet" href="assets/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Restaurant", "name": "Pizzeria Roma", "url": "https://www.pizzeriaromanh.com/", "telephone": "+16036722333", "servesCuisine": ["Pizza", "Italian", "Subs"], "address": {"@type": "PostalAddress", "streetAddress": "586 Nashua Street, Lordens Plaza", "addressLocality": "Milford", "addressRegion": "NH", "postalCode": "03055", "addressCountry": "US"}, "openingHoursSpecification": [{"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "11:00", "closes": "21:00"}]}</script>
+</head>
+<body>
+
+<a class="skip" href="#about">Skip to content</a>
+<header class="top"><div class="wrap bar">
+  <a class="brand" href="#top"><span>Pizzeria Roma</span></a>
+  <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav">Menu</button>
+  <nav id="nav"><a href="#menu">Menu</a><a href="#about">About</a><a href="#visit">Hours &amp; Directions</a><a class="btn sm" href="tel:+16036722333">Call 603-672-2333</a></nav>
+</div></header>
+<main id="top">
+<section class="hero"><div class="wrap hero-in">
+  <div>
+    <p class="kicker" id="status" data-hours='[{"dow": [1, 2, 3, 4, 5, 6], "open": "11:00", "close": "21:00"}]'>Milford, NH</p>
+    <h1>Pizzeria Roma</h1>
+    <p class="lede">Italian hand-tossed pizza, subs, wraps, salads and homemade dinners in Lordens Plaza, Milford, NH.</p>
+    <div class="cta"><a class="btn" href="tel:+16036722333">Call to order 603-672-2333</a><a class="btn ghost" href="#menu">See the menu</a></div>
+    <p class="fine">Order by phone. 586 Nashua Street, Lordens Plaza, Milford, NH 03055</p>
+  </div>
+  <div class="badge" aria-hidden="true"><span>Hand-tossed</span><b>Pizza</b><span>Milford, NH</span></div>
+</div></section>
+
+<section id="menu" class="sec"><div class="wrap">
+  
+  <div class="sec-h"><h2>Menu</h2><label class="search"><span class="sr">Search the menu</span><input id="q" type="search" placeholder="Search the menu (try &quot;steak&quot;)" autocomplete="off"></label></div>
+  <div class="tabs" role="tablist"><button role="tab" data-t="0" aria-selected="true">Pizza</button><button role="tab" data-t="1" aria-selected="false">Specialty Pizza</button><button role="tab" data-t="2" aria-selected="false">Subs</button><button role="tab" data-t="3" aria-selected="false">Calzones &amp; Wraps</button><button role="tab" data-t="4" aria-selected="false">Dinners</button><button role="tab" data-t="5" aria-selected="false">Salads</button><button role="tab" data-t="6" aria-selected="false">Sides &amp; Kids</button></div>
+  
+  <div class="panel" data-p="0" >
+    <div class="ph"><div><h3>Pizza</h3><p class="note">Sizes as printed on the shop menu: 12&quot; Small, 16&quot; Large, 18&quot; X-Large.</p><p class="cols"><span>12&quot;</span><span>16&quot;</span><span>18&quot;</span></p></div></div>
+    <ul class="items">
+      <li data-s="cheese  pizza"><div class="nm"><b>Cheese</b></div>
+      <div class="pr"><span>$9.99</span><span>$12.99</span><span>$18.99</span></div></li>
+      <li data-s="each additional topping  pizza"><div class="nm"><b>Each additional topping</b></div>
+      <div class="pr"><span>$1.50</span><span>$2.00</span><span>$2.50</span></div></li>
+      <li data-s="extra cheese  pizza"><div class="nm"><b>Extra cheese</b></div>
+      <div class="pr"><span>$2.25</span><span>$3.25</span><span>$3.99</span></div></li>
+      <li data-s="sicilian pizza 16&quot; pizza"><div class="nm"><b>Sicilian Pizza</b><small>16&quot;</small></div>
+      <div class="pr"><span>$17.99</span></div></li>
+      <li data-s="gluten free pizza 12&quot; pizza"><div class="nm"><b>Gluten Free Pizza</b><small>12&quot;</small></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="meat toppings pepperoni, sausage, hamburger, bacon, meatballs, grilled chicken, anchovies, ham, salami pizza"><div class="nm"><b>Meat toppings</b><small>Pepperoni, sausage, hamburger, bacon, meatballs, grilled chicken, anchovies, ham, salami</small></div>
+      <div class="pr"></div></li>
+      <li data-s="veggie toppings black olives, onions, mushrooms, tomatoes, eggplant, broccoli, spinach, pineapple, baby spinach, garlic, banana peppers, jalapeños, kalamata olives, fresh basil, fresh mozzarella pizza"><div class="nm"><b>Veggie toppings</b><small>Black olives, onions, mushrooms, tomatoes, eggplant, broccoli, spinach, pineapple, baby spinach, garlic, banana peppers, jalapeños, kalamata olives, fresh basil, fresh mozzarella</small></div>
+      <div class="pr"></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="1" hidden>
+    <div class="ph"><div><h3>Specialty Pizza</h3><p class="cols"><span>12&quot;</span><span>16&quot;</span><span>18&quot;</span></p></div></div>
+    <ul class="items">
+      <li data-s="bbq chicken  specialty pizza"><div class="nm"><b>BBQ Chicken</b></div>
+      <div class="pr"><span>$13.99</span><span>$19.99</span><span>$24.99</span></div></li>
+      <li data-s="chicken bacon ranch  specialty pizza"><div class="nm"><b>Chicken Bacon Ranch</b></div>
+      <div class="pr"><span>$13.99</span><span>$19.99</span><span>$24.99</span></div></li>
+      <li data-s="meat lovers  specialty pizza"><div class="nm"><b>Meat Lovers</b></div>
+      <div class="pr"><span>$14.99</span><span>$20.99</span><span>$25.99</span></div></li>
+      <li data-s="italian combo  specialty pizza"><div class="nm"><b>Italian Combo</b></div>
+      <div class="pr"><span>$14.99</span><span>$20.99</span><span>$25.99</span></div></li>
+      <li data-s="vegetarian  specialty pizza"><div class="nm"><b>Vegetarian</b></div>
+      <div class="pr"><span>$13.99</span><span>$19.99</span><span>$24.99</span></div></li>
+      <li data-s="white pizza spinach &amp; feta  specialty pizza"><div class="nm"><b>White Pizza Spinach &amp; Feta</b></div>
+      <div class="pr"><span>$12.99</span><span>$18.99</span><span>$23.99</span></div></li>
+      <li data-s="buffalo chicken  specialty pizza"><div class="nm"><b>Buffalo Chicken</b></div>
+      <div class="pr"><span>$13.99</span><span>$19.99</span><span>$24.99</span></div></li>
+      <li data-s="grecian delight  specialty pizza"><div class="nm"><b>Grecian Delight</b></div>
+      <div class="pr"><span>$13.99</span><span>$19.99</span><span>$24.99</span></div></li>
+      <li data-s="philly steak &amp; cheese  specialty pizza"><div class="nm"><b>Philly Steak &amp; Cheese</b></div>
+      <div class="pr"><span>$14.99</span><span>$20.99</span><span>$25.99</span></div></li>
+      <li data-s="the roma special  specialty pizza"><div class="nm"><b>The Roma Special</b></div>
+      <div class="pr"><span>$14.99</span><span>$20.99</span><span>$25.99</span></div></li>
+      <li data-s="margherita  specialty pizza"><div class="nm"><b>Margherita</b></div>
+      <div class="pr"><span>$12.99</span><span>$18.99</span><span>$23.99</span></div></li>
+      <li data-s="hawaiian  specialty pizza"><div class="nm"><b>Hawaiian</b></div>
+      <div class="pr"><span>$12.99</span><span>$18.99</span><span>$23.99</span></div></li>
+      <li data-s="big mac pizza  specialty pizza"><div class="nm"><b>Big Mac Pizza</b></div>
+      <div class="pr"><span>$14.99</span><span>$19.99</span><span>$24.99</span></div></li>
+      <li data-s="melzane  specialty pizza"><div class="nm"><b>Melzane</b></div>
+      <div class="pr"><span>$13.99</span><span>$19.99</span><span>$24.99</span></div></li>
+      <li data-s="hawaiian bbq  specialty pizza"><div class="nm"><b>Hawaiian BBQ</b></div>
+      <div class="pr"><span>$14.99</span><span>$20.99</span><span>$25.99</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="2" hidden>
+    <div class="ph"><div><h3>Subs</h3><p class="note">Two prices are listed for most subs, as on the shop menu (small and large). Extra cheese: add $0.75 small or $1.00 large.</p></div></div>
+    <ul class="items">
+      <li data-s="steak tip hot sub subs"><div class="nm"><b>Steak Tip</b><small>Hot sub</small></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="steak and cheese  subs"><div class="nm"><b>Steak and Cheese</b></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="roma steak bomb  subs"><div class="nm"><b>Roma Steak Bomb</b></div>
+      <div class="pr"><span>$9.99</span><span>$11.99</span></div></li>
+      <li data-s="chicken cordon bleu  subs"><div class="nm"><b>Chicken Cordon Bleu</b></div>
+      <div class="pr"><span>$9.99</span><span>$11.99</span></div></li>
+      <li data-s="chicken tender  subs"><div class="nm"><b>Chicken Tender</b></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="sausage, pepper &amp; onions  subs"><div class="nm"><b>Sausage, Pepper &amp; Onions</b></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="pastrami  subs"><div class="nm"><b>Pastrami</b></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="b.l.t.  subs"><div class="nm"><b>B.L.T.</b></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="cheeseburger (homemade)  subs"><div class="nm"><b>Cheeseburger (Homemade)</b></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="grilled chicken  subs"><div class="nm"><b>Grilled Chicken</b></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="grilled chicken teriyaki  subs"><div class="nm"><b>Grilled Chicken Teriyaki</b></div>
+      <div class="pr"><span>$9.99</span><span>$11.99</span></div></li>
+      <li data-s="buffalo chicken tender  subs"><div class="nm"><b>Buffalo Chicken Tender</b></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="grilled chicken bomb  subs"><div class="nm"><b>Grilled Chicken Bomb</b></div>
+      <div class="pr"><span>$9.99</span><span>$11.99</span></div></li>
+      <li data-s="italian cold sub, also on a wrap subs"><div class="nm"><b>Italian</b><small>Cold sub, also on a wrap</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="roast beef cold sub, also on a wrap subs"><div class="nm"><b>Roast Beef</b><small>Cold sub, also on a wrap</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="turkey cold sub, also on a wrap subs"><div class="nm"><b>Turkey</b><small>Cold sub, also on a wrap</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="tuna fish cold sub, also on a wrap subs"><div class="nm"><b>Tuna Fish</b><small>Cold sub, also on a wrap</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="chicken salad cold sub, also on a wrap subs"><div class="nm"><b>Chicken Salad</b><small>Cold sub, also on a wrap</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="ham &amp; cheese cold sub, also on a wrap subs"><div class="nm"><b>Ham &amp; Cheese</b><small>Cold sub, also on a wrap</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="salami cold sub, also on a wrap subs"><div class="nm"><b>Salami</b><small>Cold sub, also on a wrap</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="vegetarian cold sub, also on a wrap subs"><div class="nm"><b>Vegetarian</b><small>Cold sub, also on a wrap</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="chicken cutlet (homemade) parmigiana sub subs"><div class="nm"><b>Chicken Cutlet (Homemade)</b><small>Parmigiana sub</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="veal cutlet parmigiana sub subs"><div class="nm"><b>Veal Cutlet</b><small>Parmigiana sub</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="meatball (homemade) parmigiana sub subs"><div class="nm"><b>Meatball (Homemade)</b><small>Parmigiana sub</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="eggplant parmigiana (homemade) parmigiana sub subs"><div class="nm"><b>Eggplant Parmigiana (Homemade)</b><small>Parmigiana sub</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+      <li data-s="chicken tender (homemade) parmigiana sub subs"><div class="nm"><b>Chicken Tender (Homemade)</b><small>Parmigiana sub</small></div>
+      <div class="pr"><span>$9.25</span><span>$11.25</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="3" hidden>
+    <div class="ph"><div><h3>Calzones &amp; Wraps</h3><p class="note">Calzone toppings or ricotta: +$1.50 each. Wraps come on white, wheat, spinach or tomato.</p></div></div>
+    <ul class="items">
+      <li data-s="cheese calzone  calzones &amp; wraps"><div class="nm"><b>Cheese Calzone</b></div>
+      <div class="pr"><span>$10.99</span></div></li>
+      <li data-s="buffalo chicken calzone  calzones &amp; wraps"><div class="nm"><b>Buffalo Chicken Calzone</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="meatball parmigiana calzone  calzones &amp; wraps"><div class="nm"><b>Meatball Parmigiana Calzone</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="sausage, peppers &amp; onions calzone  calzones &amp; wraps"><div class="nm"><b>Sausage, Peppers &amp; Onions Calzone</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="eggplant parmigiana calzone  calzones &amp; wraps"><div class="nm"><b>Eggplant Parmigiana Calzone</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="spinach ricotta calzone  calzones &amp; wraps"><div class="nm"><b>Spinach Ricotta Calzone</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="steak &amp; cheese calzone  calzones &amp; wraps"><div class="nm"><b>Steak &amp; Cheese Calzone</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="chicken cutlet parmigiana calzone  calzones &amp; wraps"><div class="nm"><b>Chicken Cutlet Parmigiana Calzone</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="veggie calzone  calzones &amp; wraps"><div class="nm"><b>Veggie Calzone</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="pepperoni calzone  calzones &amp; wraps"><div class="nm"><b>Pepperoni Calzone</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="chicken teriyaki with onions &amp; peppers calzone  calzones &amp; wraps"><div class="nm"><b>Chicken Teriyaki with Onions &amp; Peppers Calzone</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="steak bomb calzone  calzones &amp; wraps"><div class="nm"><b>Steak Bomb Calzone</b></div>
+      <div class="pr"><span>$15.99</span></div></li>
+      <li data-s="chicken mania wrap  calzones &amp; wraps"><div class="nm"><b>Chicken Mania Wrap</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="mediterranean chicken wrap  calzones &amp; wraps"><div class="nm"><b>Mediterranean Chicken Wrap</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="chicken caesar wrap  calzones &amp; wraps"><div class="nm"><b>Chicken Caesar Wrap</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="chicken cordon bleu wrap  calzones &amp; wraps"><div class="nm"><b>Chicken Cordon Bleu Wrap</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="buffalo sizzler wrap  calzones &amp; wraps"><div class="nm"><b>Buffalo Sizzler Wrap</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="grilled veggie wrap  calzones &amp; wraps"><div class="nm"><b>Grilled Veggie Wrap</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="grilled chicken teriyaki wrap  calzones &amp; wraps"><div class="nm"><b>Grilled Chicken Teriyaki Wrap</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="hawaiian bbq chicken wrap  calzones &amp; wraps"><div class="nm"><b>Hawaiian BBQ Chicken Wrap</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="spicy tropical wrap  calzones &amp; wraps"><div class="nm"><b>Spicy Tropical Wrap</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="steak tip caesar wrap  calzones &amp; wraps"><div class="nm"><b>Steak Tip Caesar Wrap</b></div>
+      <div class="pr"><span>$12.99</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="4" hidden>
+    <div class="ph"><div><h3>Dinners</h3><p class="note">Pasta dinners come with garlic bread and salad. Dinner plates come with french fries, onion rings or rice pilaf, and salad. Make it a double: +$2.00.</p></div></div>
+    <ul class="items">
+      <li data-s="veal parmigiana  dinners"><div class="nm"><b>Veal Parmigiana</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="eggplant parmigiana  dinners"><div class="nm"><b>Eggplant Parmigiana</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="chicken parmigiana  dinners"><div class="nm"><b>Chicken Parmigiana</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="lasagna (meatless)  dinners"><div class="nm"><b>Lasagna (meatless)</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="ravioli with meatballs or sausage  dinners"><div class="nm"><b>Ravioli with meatballs or sausage</b></div>
+      <div class="pr"><span>$12.99</span></div></li>
+      <li data-s="spaghetti with marinara  dinners"><div class="nm"><b>Spaghetti with marinara</b></div>
+      <div class="pr"><span>$12.99</span></div></li>
+      <li data-s="spaghetti with meatballs or sausage  dinners"><div class="nm"><b>Spaghetti with meatballs or sausage</b></div>
+      <div class="pr"><span>$13.99</span></div></li>
+      <li data-s="spaghetti combo meatballs and sausage dinners"><div class="nm"><b>Spaghetti Combo</b><small>Meatballs and sausage</small></div>
+      <div class="pr"><span>$14.49</span></div></li>
+      <li data-s="chicken tenders plate  dinners"><div class="nm"><b>Chicken Tenders Plate</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="buffalo chicken tenders plate  dinners"><div class="nm"><b>Buffalo Chicken Tenders Plate</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="chicken wings plate  dinners"><div class="nm"><b>Chicken Wings Plate</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="buffalo chicken wings plate  dinners"><div class="nm"><b>Buffalo Chicken Wings Plate</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="grilled chicken plate  dinners"><div class="nm"><b>Grilled Chicken Plate</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="steak tips plate  dinners"><div class="nm"><b>Steak Tips Plate</b></div>
+      <div class="pr"><span>$16.99</span></div></li>
+      <li data-s="grilled chicken teriyaki plate  dinners"><div class="nm"><b>Grilled Chicken Teriyaki Plate</b></div>
+      <div class="pr"><span>$15.49</span></div></li>
+      <li data-s="cheeseburger plate 6 oz patty dinners"><div class="nm"><b>Cheeseburger Plate</b><small>6 oz patty</small></div>
+      <div class="pr"><span>$11.99</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="5" hidden>
+    <div class="ph"><div><h3>Salads</h3><p class="note">Greek salad: add chicken $3.99 or steak tips $6.99. Extra dressing $0.75, feta $1.75.</p></div></div>
+    <ul class="items">
+      <li data-s="tossed salad  salads"><div class="nm"><b>Tossed Salad</b></div>
+      <div class="pr"><span>$8.99</span></div></li>
+      <li data-s="caesar salad  salads"><div class="nm"><b>Caesar Salad</b></div>
+      <div class="pr"><span>$8.99</span></div></li>
+      <li data-s="antipasto salad  salads"><div class="nm"><b>Antipasto Salad</b></div>
+      <div class="pr"><span>$10.99</span></div></li>
+      <li data-s="chicken caesar salad  salads"><div class="nm"><b>Chicken Caesar Salad</b></div>
+      <div class="pr"><span>$11.99</span></div></li>
+      <li data-s="greek salad  salads"><div class="nm"><b>Greek Salad</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="chef salad  salads"><div class="nm"><b>Chef Salad</b></div>
+      <div class="pr"><span>$10.99</span></div></li>
+      <li data-s="chicken salad  salads"><div class="nm"><b>Chicken Salad</b></div>
+      <div class="pr"><span>$10.99</span></div></li>
+      <li data-s="tuna salad  salads"><div class="nm"><b>Tuna Salad</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="grilled chicken salad  salads"><div class="nm"><b>Grilled Chicken Salad</b></div>
+      <div class="pr"><span>$11.99</span></div></li>
+      <li data-s="steak tip salad  salads"><div class="nm"><b>Steak Tip Salad</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="steak tip caesar salad  salads"><div class="nm"><b>Steak Tip Caesar Salad</b></div>
+      <div class="pr"><span>$14.99</span></div></li>
+      <li data-s="buffalo chicken tender salad  salads"><div class="nm"><b>Buffalo Chicken Tender Salad</b></div>
+      <div class="pr"><span>$11.99</span></div></li>
+    </ul>
+  </div>
+  
+  <div class="panel" data-p="6" hidden>
+    <div class="ph"><div><h3>Sides &amp; Kids</h3></div></div>
+    <ul class="items">
+      <li data-s="onion rings  sides &amp; kids"><div class="nm"><b>Onion Rings</b></div>
+      <div class="pr"><span>Sm $4.99</span><span>Lg $6.99</span></div></li>
+      <li data-s="french fries  sides &amp; kids"><div class="nm"><b>French Fries</b></div>
+      <div class="pr"><span>Sm $4.99</span><span>Lg $6.99</span></div></li>
+      <li data-s="spicy fries  sides &amp; kids"><div class="nm"><b>Spicy Fries</b></div>
+      <div class="pr"><span>Sm $5.25</span><span>Lg $7.25</span></div></li>
+      <li data-s="sweet potato fries  sides &amp; kids"><div class="nm"><b>Sweet Potato Fries</b></div>
+      <div class="pr"><span>Sm $5.25</span><span>Lg $7.25</span></div></li>
+      <li data-s="cheesy fries add bacon +$1.25 sides &amp; kids"><div class="nm"><b>Cheesy Fries</b><small>Add bacon +$1.25</small></div>
+      <div class="pr"><span>$7.99</span></div></li>
+      <li data-s="chicken tenders  sides &amp; kids"><div class="nm"><b>Chicken Tenders</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="buffalo chicken tenders  sides &amp; kids"><div class="nm"><b>Buffalo Chicken Tenders</b></div>
+      <div class="pr"><span>$10.49</span></div></li>
+      <li data-s="mozzarella sticks  sides &amp; kids"><div class="nm"><b>Mozzarella Sticks</b></div>
+      <div class="pr"><span>$8.99</span></div></li>
+      <li data-s="soup of the day  sides &amp; kids"><div class="nm"><b>Soup of the Day</b></div>
+      <div class="pr"><span>$6.99</span></div></li>
+      <li data-s="fried ravioli  sides &amp; kids"><div class="nm"><b>Fried Ravioli</b></div>
+      <div class="pr"><span>$8.99</span></div></li>
+      <li data-s="jalapeño poppers  sides &amp; kids"><div class="nm"><b>Jalapeño Poppers</b></div>
+      <div class="pr"><span>$8.99</span></div></li>
+      <li data-s="chicken wings  sides &amp; kids"><div class="nm"><b>Chicken Wings</b></div>
+      <div class="pr"><span>$9.99</span></div></li>
+      <li data-s="buffalo chicken wings  sides &amp; kids"><div class="nm"><b>Buffalo Chicken Wings</b></div>
+      <div class="pr"><span>$10.49</span></div></li>
+      <li data-s="cheesy garlic bread add pepperoni or bacon +$1.50 sides &amp; kids"><div class="nm"><b>Cheesy Garlic Bread</b><small>Add pepperoni or bacon +$1.50</small></div>
+      <div class="pr"><span>$4.99</span></div></li>
+      <li data-s="kids: chicken tenders &amp; fries  sides &amp; kids"><div class="nm"><b>Kids: Chicken Tenders &amp; Fries</b></div>
+      <div class="pr"><span>$6.99</span></div></li>
+      <li data-s="kids: hot dogs &amp; fries  sides &amp; kids"><div class="nm"><b>Kids: Hot Dogs &amp; Fries</b></div>
+      <div class="pr"><span>$5.99</span></div></li>
+      <li data-s="kids: spaghetti &amp; meatballs  sides &amp; kids"><div class="nm"><b>Kids: Spaghetti &amp; Meatballs</b></div>
+      <div class="pr"><span>$5.99</span></div></li>
+      <li data-s="kids: slice of pizza &amp; fries  sides &amp; kids"><div class="nm"><b>Kids: Slice of Pizza &amp; Fries</b></div>
+      <div class="pr"><span>$5.99</span></div></li>
+    </ul>
+  </div>
+  
+  <p id="none" class="note" hidden>No menu items match. Try another word, or call 603-672-2333.</p>
+  <p class="note small">Prices and items are as published on the shop's own menu and may change; call 603-672-2333 to confirm.</p>
+</div></section>
+
+
+
+<section id="about" class="sec"><div class="wrap two"><div><h2>About</h2><p>Pizzeria Roma makes Italian hand-tossed pizza with fresh dough and high-quality ingredients. The menu also has subs, wraps, salads and homemade dinners.</p><p>Ask about the daily specials.</p></div>
+ <div><h3>Delivery</h3><p>The shop lists takeout and delivery. Call to ask about delivery to your address.</p></div></div></section>
+
+
+
+<section id="visit" class="sec"><div class="wrap two"><div><h2>Hours</h2>
+ <table class="hrs"><tr data-dow="1"><th scope="row">Monday</th><td>11 AM – 9 PM</td></tr><tr data-dow="2"><th scope="row">Tuesday</th><td>11 AM – 9 PM</td></tr><tr data-dow="3"><th scope="row">Wednesday</th><td>11 AM – 9 PM</td></tr><tr data-dow="4"><th scope="row">Thursday</th><td>11 AM – 9 PM</td></tr><tr data-dow="5"><th scope="row">Friday</th><td>11 AM – 9 PM</td></tr><tr data-dow="6"><th scope="row">Saturday</th><td>11 AM – 9 PM</td></tr><tr data-dow="0"><th scope="row">Sunday</th><td>Closed</td></tr></table></div>
+ <div><h2>Find us</h2><address>586 Nashua Street, Lordens Plaza<br>Milford, NH 03055</address>
+ <p><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Pizzeria+Roma+586+Nashua+Street+Milford+NH+03055" rel="noopener">Get directions</a> <a class="btn ghost" href="tel:+16036722333">Call 603-672-2333</a></p>
+ </div></div></section>
+</main>
+<footer><div class="wrap"><p>&copy; 2026 Pizzeria Roma &middot; 586 Nashua Street, Lordens Plaza, Milford, NH 03055 &middot; <a href="tel:+16036722333">603-672-2333</a></p></div></footer>
+<a class="callbar" href="tel:+16036722333">Call 603-672-2333</a>
+<script>(function(){
+var $=function(s,r){return(r||document).querySelector(s)},$$=function(s,r){return[].slice.call((r||document).querySelectorAll(s))};
+var bg=$('.burger'),nav=$('#nav');bg.addEventListener('click',function(){var o=nav.classList.toggle('open');bg.setAttribute('aria-expanded',o)});
+$$('#nav a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');bg.setAttribute('aria-expanded',false)})});
+var tabs=$$('.tabs button'),panels=$$('.panel'),q=$('#q'),none=$('#none');
+function show(i){tabs.forEach(function(b,k){b.setAttribute('aria-selected',k==i)});panels.forEach(function(p,k){p.hidden=k!=i})}
+if($('#q')){tabs.forEach(function(b){b.addEventListener('click',function(){q.value='';filter();show(+b.dataset.t)})});
+function filter(){var v=q.value.trim().toLowerCase(),n=0;
+ if(!v){$$('.items li').forEach(function(l){l.hidden=false});none.hidden=true;var a=tabs.filter(function(b){return b.getAttribute('aria-selected')=='true'})[0];show(a?+a.dataset.t:0);return}
+ panels.forEach(function(p){var c=0;$$('li',p).forEach(function(l){var m=l.dataset.s.indexOf(v)>-1;l.hidden=!m;if(m)c++});p.hidden=!c;n+=c});none.hidden=n>0}
+q.addEventListener('input',filter)}
+var st=$('#status'),H=JSON.parse(st.dataset.hours||'[]');
+function f(t){var p=t.split(':'),h=+p[0],m=+p[1],ap=h>=12?'PM':'AM';h=h%12||12;return h+(m?':'+('0'+m).slice(-2):'')+' '+ap}
+try{var d=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'})),dow=d.getDay(),mins=d.getHours()*60+d.getMinutes(),msg='',
+ row=$('.hrs tr[data-dow="'+dow+'"]');if(row)row.className='today';
+ var today=H.filter(function(h){return h.dow.indexOf(dow)>-1})[0];
+ if(!H.length){}else if(today){var o=+today.open.split(':')[0]*60+ +today.open.split(':')[1],c=+today.close.split(':')[0]*60+ +today.close.split(':')[1];
+  msg=mins>=o&&mins<c?'Open now · until '+f(today.close):mins<o?'Closed · opens today at '+f(today.open):'Closed now'}else msg='Closed today';
+ if(msg)st.textContent=msg}catch(e){}
+})();
+</script>
+</body>
+</html>

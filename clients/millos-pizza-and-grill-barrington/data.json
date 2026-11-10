@@ -1,0 +1,1142 @@
+{
+ "slug": "millos-pizza-and-grill-barrington",
+ "name": "Millo's Pizza & Grill",
+ "short": "Millo's",
+ "domain": "https://millospizza.com",
+ "tagline": "Brick oven pizza, calzones, subs, burgers and Greek favorites on Franklin Pierce Highway in Barrington, NH.",
+ "seo_title": "Millo's Pizza & Grill | Brick Oven Pizza, Subs & Greek Favorites in Barrington, NH",
+ "seo_desc": "Millo's Pizza & Grill, 575 Franklin Pierce Highway, Barrington NH. Brick oven pizza, calzones, subs, burgers, pasta and Greek favorites. Open daily 11am to 9pm. Call (603) 664-8871.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#fff7ec",
+  "ink": "#2a1a12",
+  "muted": "#6b5648",
+  "accent": "#b3321a",
+  "accent2": "#9a5b0c"
+ },
+ "facebook": "",
+ "instagram": "",
+ "order_any": "tel:+16036648871",
+ "about": [
+  "Millo's Pizza & Grill is on Franklin Pierce Highway in Barrington, NH. The kitchen makes brick oven pizza (thin crust available), calzones, subs, burgers, pasta dinners and Greek favorites such as gyros and Athenian pizza.",
+  "The whole menu is below as live text so you can read it on your phone. For orders and delivery questions, call the shop."
+ ],
+ "extras": [],
+ "specials": [
+  "Large Cheese Pizza $10.00",
+  "Small Cheese Pizza $6.95",
+  "Large Athenian Pizza $16.95",
+  "Classic Italian Sub or Chicken Rancho Sub $8.95",
+  "Chicken Parm Dinner or Mix Chicken Grill Dinner $14.95"
+ ],
+ "delivery": "The shop offers delivery. Call to ask whether your address is covered.",
+ "order_url": "",
+ "order_label": "",
+ "menu_note": "",
+ "badge": [
+  "Brick oven",
+  "Pizza",
+  "Barrington, NH"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "millos-pizza-and-grill-barrington",
+   "name": "Barrington",
+   "street": "575 Franklin Pierce Highway",
+   "city": "Barrington",
+   "region": "NH",
+   "postal": "03825",
+   "phone": "(603) 664-8871",
+   "tel": "+16036648871",
+   "hours": [
+    {
+     "dow": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    }
+   ],
+   "order": "tel:+16036648871",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Millo's+Pizza+%26+Grill+575+Franklin+Pierce+Highway+Barrington+NH+03825"
+  }
+ ],
+ "menu": [
+  {
+   "cat": "Specials",
+   "img": "",
+   "note": "As listed on the shop's Specials page (no dates given).",
+   "head": [],
+   "items": [
+    {
+     "name": "Large Cheese Pizza",
+     "prices": [
+      "$10.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Small Cheese Pizza",
+     "prices": [
+      "$6.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Large Athenian Pizza",
+     "prices": [
+      "$16.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Classic Italian Sub",
+     "prices": [
+      "$8.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Rancho Sub",
+     "prices": [
+      "$8.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Parm Dinner",
+     "prices": [
+      "$14.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mix Chicken Grill Dinner",
+     "prices": [
+      "$14.95"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Pizza",
+   "img": "",
+   "note": "Brick oven pizza, thin crust available. Two prices are listed for each pizza, as on the shop menu.",
+   "head": [],
+   "items": [
+    {
+     "name": "Cheese",
+     "prices": [
+      "$7.95",
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "1 Topping",
+     "prices": [
+      "$10.50",
+      "$14.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "2 Toppings",
+     "prices": [
+      "$11.25",
+      "$15.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "3 Toppings",
+     "prices": [
+      "$12.95",
+      "$16.75"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "4 Toppings",
+     "prices": [
+      "$13.25",
+      "$17.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Extra Cheese",
+     "prices": [
+      "$2.50",
+      "$4.25"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Specialty Pizza",
+   "img": "",
+   "note": "Brick oven, thin crust available. Two prices are listed for most pizzas, as on the shop menu.",
+   "head": [],
+   "items": [
+    {
+     "name": "Millo's Choice",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Neapolitan",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "New Englander",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Millo's Special",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ Chicken Pizza",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Vegetarian Pizza",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pesto Chicken Pizza",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mediterranean Pizza",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hawaiian Pizza",
+     "prices": [
+      "$12.95",
+      "$14.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek Pie",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Shrimp Scampi",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "White Greek Pizza",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Millo's Meat Lovers",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Carbonara",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Feta Bruchetta",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Picante (Spicy Pizza)",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bianca",
+     "prices": [
+      "$9.50",
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Shrimp Saganaki",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Bruschetta",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Athenian",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Taco Pizza",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mediterranean Veggie",
+     "prices": [],
+     "desc": "Onions, peppers, broccoli, tomatoes, black olives, spinach, extra virgin olive oil, feta, no red sauce. Price not shown on the shop menu: call to ask."
+    },
+    {
+     "name": "Chicken Artichoke",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pizza Artichoke",
+     "prices": [
+      "$13.95",
+      "$18.95"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Calzones",
+   "img": "",
+   "note": "All with red sauce except the Alfredo calzones.",
+   "head": [],
+   "items": [
+    {
+     "name": "Ham",
+     "prices": [
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Italian",
+     "prices": [
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veggie",
+     "prices": [
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Meatball",
+     "prices": [
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sausage",
+     "prices": [
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fresh Grilled Chicken",
+     "prices": [
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Parmesan",
+     "prices": [
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken & Broccoli Alfredo",
+     "prices": [
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spinach & Feta Cheese",
+     "prices": [
+      "$13.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak",
+     "prices": [
+      "$15.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Create Your Own Calzone",
+     "prices": [
+      "$15.25"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Subs",
+   "img": "",
+   "note": "12\" subs, hot or cold, with mayo or oil, tomatoes, onions, pickles and lettuce. Steak and specialty subs are listed after the classics.",
+   "head": [],
+   "items": [
+    {
+     "name": "Italian",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Ham",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Turkey",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veggie",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Roast Beef",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tuna",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Fingers",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "B.L.T.",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Meatball",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sausage",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hot Pastrami",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Haddock",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip",
+     "prices": [
+      "$14.50"
+     ],
+     "desc": "Steak sub"
+    },
+    {
+     "name": "Cheese Steak",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pepper Steak",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Onion Steak",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mushroom Steak",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Deluxe Steak",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Bomb",
+     "prices": [
+      "$12.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Rancho",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ Roast Beef",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheeseburger Deluxe",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Millo's Steak Tip",
+     "prices": [
+      "$14.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Gyro",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Gyro",
+     "prices": [
+      "$14.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Santorini",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek Supreme",
+     "prices": [
+      "$11.50"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Dinners & Pasta",
+   "img": "",
+   "note": "Dinners come with a side garden or Caesar salad, except Chicken Fingers. Pasta is ziti or linguini.",
+   "head": [],
+   "items": [
+    {
+     "name": "Chicken Mediterranean",
+     "prices": [
+      "$18.95"
+     ],
+     "desc": "With ziti and garlic bread"
+    },
+    {
+     "name": "Mixed Chicken Grille",
+     "prices": [
+      "$17.95"
+     ],
+     "desc": "With rice"
+    },
+    {
+     "name": "Chicken Fingers",
+     "prices": [
+      "$15.95"
+     ],
+     "desc": "6 pieces with fries"
+    },
+    {
+     "name": "Steak Tip",
+     "prices": [
+      "$19.95"
+     ],
+     "desc": "With rice or fries"
+    },
+    {
+     "name": "Gyro Platter",
+     "prices": [
+      "$15.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grecian Delight",
+     "prices": [
+      "$18.95"
+     ],
+     "desc": "With rice"
+    },
+    {
+     "name": "Shrimp Mediterranean",
+     "prices": [
+      "$18.95"
+     ],
+     "desc": "With rice"
+    },
+    {
+     "name": "Pasta with sauce",
+     "prices": [
+      "$11.95"
+     ],
+     "desc": "Ziti or linguini, garlic bread"
+    },
+    {
+     "name": "Pasta with meatballs or sausage",
+     "prices": [
+      "$14.95"
+     ],
+     "desc": "Ziti or linguini, garlic bread"
+    },
+    {
+     "name": "Baked Spaghetti",
+     "prices": [
+      "$16.50"
+     ],
+     "desc": "Meatballs or sausage, mozzarella, garlic bread"
+    },
+    {
+     "name": "Chicken Broccoli Alfredo",
+     "prices": [
+      "$17.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Spinach Alfredo",
+     "prices": [
+      "$17.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veal Parmigiana",
+     "prices": [
+      "$17.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Parmigiana",
+     "prices": [
+      "$17.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant Parmigiana",
+     "prices": [
+      "$17.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Scampi",
+     "prices": [
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Shrimp Scampi",
+     "prices": [
+      "$18.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Shrimp Alfredo",
+     "prices": [
+      "$18.95"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Burgers & Kids",
+   "img": "",
+   "note": "Fresh Angus burgers come with fries or onion rings. Kids menu is for ages 12 and under, dine in only, and includes a fountain drink.",
+   "head": [],
+   "items": [
+    {
+     "name": "Classic American",
+     "prices": [
+      "$12.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Millo's Burger",
+     "prices": [
+      "$12.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "BBQ Burger",
+     "prices": [
+      "$12.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Bacon Blue Burger",
+     "prices": [
+      "$12.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Fingers",
+     "prices": [
+      "$8.25"
+     ],
+     "desc": "With fries"
+    },
+    {
+     "name": "Spaghetti & Meatballs",
+     "prices": [
+      "$8.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheeseburger",
+     "prices": [
+      "$8.25"
+     ],
+     "desc": "With fries"
+    }
+   ]
+  },
+  {
+   "cat": "Appetizers & Sides",
+   "img": "",
+   "note": "",
+   "head": [],
+   "items": [
+    {
+     "name": "Garlic Bread",
+     "prices": [
+      "$4.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Garlic Bread With Cheese",
+     "prices": [
+      "$7.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Nachos",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": "Add chicken or ground beef +$3.95"
+    },
+    {
+     "name": "Fried Mushrooms",
+     "prices": [
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "prices": [
+      "$9.50"
+     ],
+     "desc": "8 pieces"
+    },
+    {
+     "name": "Cheese Fries",
+     "prices": [
+      "$12.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek Style Fries",
+     "prices": [
+      "$9.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Tenders",
+     "prices": [
+      "$10.95"
+     ],
+     "desc": "6 pieces"
+    },
+    {
+     "name": "Chicken Buffalo Fingers",
+     "prices": [
+      "$10.95"
+     ],
+     "desc": "6 pieces"
+    },
+    {
+     "name": "Chicken Wings",
+     "prices": [
+      "$13.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Buffalo Wings",
+     "prices": [
+      "$13.00"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "The Sampler Plate",
+     "prices": [
+      "$16.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sweet Potato Fries",
+     "prices": [
+      "$8.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Angus Side Burger",
+     "prices": [
+      "$10.50"
+     ],
+     "desc": "8 oz"
+    },
+    {
+     "name": "French Fries",
+     "prices": [
+      "$5.50",
+      "$7.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Onion Rings",
+     "prices": [
+      "$7.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Burger",
+     "prices": [
+      "$8.95"
+     ],
+     "desc": "Fried or grilled"
+    },
+    {
+     "name": "Jalapeño Poppers",
+     "prices": [
+      "$9.95"
+     ],
+     "desc": "8 pieces"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "img": "",
+   "note": "",
+   "head": [],
+   "items": [
+    {
+     "name": "Tossed Salad",
+     "prices": [
+      "$3.99",
+      "$7.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek Salad",
+     "prices": [
+      "$6.50",
+      "$10.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chef Salad",
+     "prices": [
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Salad",
+     "prices": [
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tuna Salad",
+     "prices": [
+      "$11.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Salad",
+     "prices": [
+      "$16.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mediterranean Salad",
+     "prices": [
+      "$12.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Shrimp Salad",
+     "prices": [
+      "$14.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Caesar Salad",
+     "prices": [
+      "$6.90"
+     ],
+     "desc": "Add chicken for $11.95"
+    },
+    {
+     "name": "Buffalo Chicken Salad",
+     "prices": [
+      "$12.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Taco Salad",
+     "prices": [
+      "$12.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Monterey Rancho",
+     "prices": [
+      "$12.95"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Caprese Salad",
+     "prices": [
+      "$12.95"
+     ],
+     "desc": ""
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "GoDaddy Website Builder site; homepage was nearly empty (one \"A Few Of Our Dishes\" caption, address and hours).",
+  "No online ordering and no social links on the site.",
+  "Menu and Specials pages were long plain price lists; typos in the source (\"Caeser\", \"cucumberes\") were not carried over.",
+  "No food or shop photos could be collected and cleared: the homepage photo was not retrievable, so this concept is typographic. No photos were published."
+ ],
+ "questions": [
+  "Do you have photos of your food and shop we may use? None were published in this concept.",
+  "The menu prints two prices for most pizzas with no size labels: which sizes are they (e.g. small/large)?",
+  "Mediterranean Veggie pizza shows a check mark instead of a price: what is the price?",
+  "Do you want an online-ordering link? None exists, so the site is phone-order only.",
+  "Closing time: the homepage says \"Open til 9:00pm\". Is that every day?",
+  "What areas do you deliver to?",
+  "Do you have an About story or an owner name you want shown?"
+ ]
+}

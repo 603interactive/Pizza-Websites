@@ -1,0 +1,88 @@
+{
+ "slug": "family-pizza-pittsfield",
+ "name": "Family Pizza Pittsfield",
+ "short": "Family Pizza",
+ "domain": "https://familypizzapittsfield.com",
+ "tagline": "Oven-hot pizza, great subs, fresh salads and dinners on Elm Street in Pittsfield, NH. Family owned and operated.",
+ "seo_title": "Family Pizza Pittsfield | Pizza, Subs, Salads & Dinners in Pittsfield, NH",
+ "seo_desc": "Family Pizza Pittsfield, 16 Elm St, Pittsfield NH. Family owned and operated: oven-hot pizza, subs, calzones, salads and dinners. Open daily 10:30am to 10pm. Call (603) 435-0009.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#fff9ec",
+  "ink": "#1d2433",
+  "muted": "#5a6272",
+  "accent": "#1f56a5",
+  "accent2": "#7d5a00"
+ },
+ "facebook": "https://www.facebook.com/FamilyPizzaPittsfield",
+ "instagram": "",
+ "order_any": "https://www.24seveneatsonline.com/api/fb/_m_o7_vp",
+ "about": [
+  "Family Pizza Pittsfield is a family owned and operated pizzeria with the goal of providing customers with excellent service and superior quality.",
+  "The shop serves oven-hot pizza, subs, wings, huge calzones, fresh salads and dinners, including pasta dishes like Alfredo with chicken, spaghetti with meat sauce and meatball, penne marinara and ravioli marinara, served with salad and garlic bread."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://www.24seveneatsonline.com/api/fb/_m_o7_vp",
+ "order_label": "Order online",
+ "menu_note": "The shop's menu with prices lives on its online ordering page. Open it there, or call to ask about today's items.",
+ "badge": [
+  "Family owned",
+  "& operated",
+  "Pittsfield, NH"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "family-pizza-pittsfield",
+   "name": "Pittsfield",
+   "street": "16 Elm St",
+   "city": "Pittsfield",
+   "region": "NH",
+   "postal": "03263",
+   "phone": "(603) 435-0009",
+   "tel": "+16034350009",
+   "hours": [
+    {
+     "dow": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "10:30",
+     "close": "22:00"
+    }
+   ],
+   "order": "https://www.24seveneatsonline.com/api/fb/_m_o7_vp",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Family+Pizza+16+Elm+St+Pittsfield+NH+03263"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Stock \"demo-restaurant\" theme: the hero slides, section images and gallery are the theme's demo files, not the shop's food, so none were used.",
+  "Listed email info@melodypicture.com belongs to the theme vendor, not the shop; it is not published on the new site.",
+  "Instagram and Twitter icons point at the bare instagram.com / twitter.com homepages; only the shop's Facebook page is linked.",
+  "Menu sections (\"View More\") are dead links; no menu prices are published on the site itself, so none are shown.",
+  "\"Latest Tweets\" widget never loads.",
+  "Ordering link comes from the Order online button on the contact page (24seveneatsonline); it was not tested by placing an order."
+ ],
+ "questions": [
+  "Do you have photos of your food and shop we may use? The old site shows only theme demo images.",
+  "Can you send your menu with prices? None is published on the site, so the new site links to your ordering page.",
+  "Is the 24seveneatsonline link the right ordering page?",
+  "What email address should customers use?",
+  "Do you have Instagram or other social pages to link?",
+  "Hours show 10:30am to 10pm every day: are those current?",
+  "Do you offer delivery?"
+ ]
+}

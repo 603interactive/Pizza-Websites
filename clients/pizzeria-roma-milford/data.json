@@ -1,0 +1,1026 @@
+{
+ "slug": "pizzeria-roma-milford",
+ "name": "Pizzeria Roma",
+ "short": "Pizzeria Roma",
+ "domain": "https://www.pizzeriaromanh.com",
+ "tagline": "Italian hand-tossed pizza, subs, wraps, salads and homemade dinners in Lordens Plaza, Milford, NH.",
+ "seo_title": "Pizzeria Roma | Italian Hand-Tossed Pizza, Subs & Dinners in Milford, NH",
+ "seo_desc": "Pizzeria Roma, 586 Nashua Street, Lordens Plaza, Milford NH. Italian hand-tossed pizza, subs, wraps, salads and homemade dinners. Open Monday to Saturday 11am to 9pm. Call 603-672-2333.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#fbf6ec",
+  "ink": "#241812",
+  "muted": "#66564a",
+  "accent": "#a3151b",
+  "accent2": "#2f6e3f"
+ },
+ "facebook": "",
+ "instagram": "",
+ "order_any": "tel:+16036722333",
+ "about": [
+  "Pizzeria Roma makes Italian hand-tossed pizza with fresh dough and high-quality ingredients. The menu also has subs, wraps, salads and homemade dinners.",
+  "Ask about the daily specials."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "The shop lists takeout and delivery. Call to ask about delivery to your address.",
+ "order_url": "",
+ "order_label": "",
+ "menu_note": "",
+ "badge": [
+  "Hand-tossed",
+  "Pizza",
+  "Milford, NH"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "pizzeria-roma-milford",
+   "name": "Milford",
+   "street": "586 Nashua Street, Lordens Plaza",
+   "city": "Milford",
+   "region": "NH",
+   "postal": "03055",
+   "phone": "603-672-2333",
+   "tel": "+16036722333",
+   "hours": [
+    {
+     "dow": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "open": "11:00",
+     "close": "21:00"
+    }
+   ],
+   "order": "tel:+16036722333",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Pizzeria+Roma+586+Nashua+Street+Milford+NH+03055"
+  }
+ ],
+ "menu": [
+  {
+   "cat": "Pizza",
+   "img": "",
+   "note": "Sizes as printed on the shop menu: 12\" Small, 16\" Large, 18\" X-Large.",
+   "head": [
+    "12\"",
+    "16\"",
+    "18\""
+   ],
+   "items": [
+    {
+     "name": "Cheese",
+     "prices": [
+      "$9.99",
+      "$12.99",
+      "$18.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Each additional topping",
+     "prices": [
+      "$1.50",
+      "$2.00",
+      "$2.50"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Extra cheese",
+     "prices": [
+      "$2.25",
+      "$3.25",
+      "$3.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sicilian Pizza",
+     "prices": [
+      "$17.99"
+     ],
+     "desc": "16\""
+    },
+    {
+     "name": "Gluten Free Pizza",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": "12\""
+    },
+    {
+     "name": "Meat toppings",
+     "prices": [],
+     "desc": "Pepperoni, sausage, hamburger, bacon, meatballs, grilled chicken, anchovies, ham, salami"
+    },
+    {
+     "name": "Veggie toppings",
+     "prices": [],
+     "desc": "Black olives, onions, mushrooms, tomatoes, eggplant, broccoli, spinach, pineapple, baby spinach, garlic, banana peppers, jalapeños, kalamata olives, fresh basil, fresh mozzarella"
+    }
+   ]
+  },
+  {
+   "cat": "Specialty Pizza",
+   "img": "",
+   "note": "",
+   "head": [
+    "12\"",
+    "16\"",
+    "18\""
+   ],
+   "items": [
+    {
+     "name": "BBQ Chicken",
+     "prices": [
+      "$13.99",
+      "$19.99",
+      "$24.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Bacon Ranch",
+     "prices": [
+      "$13.99",
+      "$19.99",
+      "$24.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Meat Lovers",
+     "prices": [
+      "$14.99",
+      "$20.99",
+      "$25.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Italian Combo",
+     "prices": [
+      "$14.99",
+      "$20.99",
+      "$25.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Vegetarian",
+     "prices": [
+      "$13.99",
+      "$19.99",
+      "$24.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "White Pizza Spinach & Feta",
+     "prices": [
+      "$12.99",
+      "$18.99",
+      "$23.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken",
+     "prices": [
+      "$13.99",
+      "$19.99",
+      "$24.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grecian Delight",
+     "prices": [
+      "$13.99",
+      "$19.99",
+      "$24.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Philly Steak & Cheese",
+     "prices": [
+      "$14.99",
+      "$20.99",
+      "$25.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "The Roma Special",
+     "prices": [
+      "$14.99",
+      "$20.99",
+      "$25.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Margherita",
+     "prices": [
+      "$12.99",
+      "$18.99",
+      "$23.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hawaiian",
+     "prices": [
+      "$12.99",
+      "$18.99",
+      "$23.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Big Mac Pizza",
+     "prices": [
+      "$14.99",
+      "$19.99",
+      "$24.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Melzane",
+     "prices": [
+      "$13.99",
+      "$19.99",
+      "$24.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hawaiian BBQ",
+     "prices": [
+      "$14.99",
+      "$20.99",
+      "$25.99"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Subs",
+   "img": "",
+   "note": "Two prices are listed for most subs, as on the shop menu (small and large). Extra cheese: add $0.75 small or $1.00 large.",
+   "head": [],
+   "items": [
+    {
+     "name": "Steak Tip",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": "Hot sub"
+    },
+    {
+     "name": "Steak and Cheese",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Roma Steak Bomb",
+     "prices": [
+      "$9.99",
+      "$11.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Cordon Bleu",
+     "prices": [
+      "$9.99",
+      "$11.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Tender",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sausage, Pepper & Onions",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pastrami",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "B.L.T.",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheeseburger (Homemade)",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Teriyaki",
+     "prices": [
+      "$9.99",
+      "$11.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Tender",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Bomb",
+     "prices": [
+      "$9.99",
+      "$11.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Italian",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Cold sub, also on a wrap"
+    },
+    {
+     "name": "Roast Beef",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Cold sub, also on a wrap"
+    },
+    {
+     "name": "Turkey",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Cold sub, also on a wrap"
+    },
+    {
+     "name": "Tuna Fish",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Cold sub, also on a wrap"
+    },
+    {
+     "name": "Chicken Salad",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Cold sub, also on a wrap"
+    },
+    {
+     "name": "Ham & Cheese",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Cold sub, also on a wrap"
+    },
+    {
+     "name": "Salami",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Cold sub, also on a wrap"
+    },
+    {
+     "name": "Vegetarian",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Cold sub, also on a wrap"
+    },
+    {
+     "name": "Chicken Cutlet (Homemade)",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Parmigiana sub"
+    },
+    {
+     "name": "Veal Cutlet",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Parmigiana sub"
+    },
+    {
+     "name": "Meatball (Homemade)",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Parmigiana sub"
+    },
+    {
+     "name": "Eggplant Parmigiana (Homemade)",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Parmigiana sub"
+    },
+    {
+     "name": "Chicken Tender (Homemade)",
+     "prices": [
+      "$9.25",
+      "$11.25"
+     ],
+     "desc": "Parmigiana sub"
+    }
+   ]
+  },
+  {
+   "cat": "Calzones & Wraps",
+   "img": "",
+   "note": "Calzone toppings or ricotta: +$1.50 each. Wraps come on white, wheat, spinach or tomato.",
+   "head": [],
+   "items": [
+    {
+     "name": "Cheese Calzone",
+     "prices": [
+      "$10.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Calzone",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Meatball Parmigiana Calzone",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sausage, Peppers & Onions Calzone",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant Parmigiana Calzone",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spinach Ricotta Calzone",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak & Cheese Calzone",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Cutlet Parmigiana Calzone",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Veggie Calzone",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Pepperoni Calzone",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Teriyaki with Onions & Peppers Calzone",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Bomb Calzone",
+     "prices": [
+      "$15.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Mania Wrap",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mediterranean Chicken Wrap",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Caesar Wrap",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Cordon Bleu Wrap",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Sizzler Wrap",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Veggie Wrap",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Teriyaki Wrap",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Hawaiian BBQ Chicken Wrap",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spicy Tropical Wrap",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Caesar Wrap",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Dinners",
+   "img": "",
+   "note": "Pasta dinners come with garlic bread and salad. Dinner plates come with french fries, onion rings or rice pilaf, and salad. Make it a double: +$2.00.",
+   "head": [],
+   "items": [
+    {
+     "name": "Veal Parmigiana",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Eggplant Parmigiana",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Parmigiana",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Lasagna (meatless)",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Ravioli with meatballs or sausage",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti with marinara",
+     "prices": [
+      "$12.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti with meatballs or sausage",
+     "prices": [
+      "$13.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spaghetti Combo",
+     "prices": [
+      "$14.49"
+     ],
+     "desc": "Meatballs and sausage"
+    },
+    {
+     "name": "Chicken Tenders Plate",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Tenders Plate",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Wings Plate",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Wings Plate",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Plate",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tips Plate",
+     "prices": [
+      "$16.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Teriyaki Plate",
+     "prices": [
+      "$15.49"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheeseburger Plate",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": "6 oz patty"
+    }
+   ]
+  },
+  {
+   "cat": "Salads",
+   "img": "",
+   "note": "Greek salad: add chicken $3.99 or steak tips $6.99. Extra dressing $0.75, feta $1.75.",
+   "head": [],
+   "items": [
+    {
+     "name": "Tossed Salad",
+     "prices": [
+      "$8.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Caesar Salad",
+     "prices": [
+      "$8.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Antipasto Salad",
+     "prices": [
+      "$10.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Caesar Salad",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Greek Salad",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chef Salad",
+     "prices": [
+      "$10.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Salad",
+     "prices": [
+      "$10.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Tuna Salad",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Grilled Chicken Salad",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Salad",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Steak Tip Caesar Salad",
+     "prices": [
+      "$14.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Tender Salad",
+     "prices": [
+      "$11.99"
+     ],
+     "desc": ""
+    }
+   ]
+  },
+  {
+   "cat": "Sides & Kids",
+   "img": "",
+   "note": "",
+   "head": [],
+   "items": [
+    {
+     "name": "Onion Rings",
+     "prices": [
+      "Sm $4.99",
+      "Lg $6.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "French Fries",
+     "prices": [
+      "Sm $4.99",
+      "Lg $6.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Spicy Fries",
+     "prices": [
+      "Sm $5.25",
+      "Lg $7.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Sweet Potato Fries",
+     "prices": [
+      "Sm $5.25",
+      "Lg $7.25"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheesy Fries",
+     "prices": [
+      "$7.99"
+     ],
+     "desc": "Add bacon +$1.25"
+    },
+    {
+     "name": "Chicken Tenders",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Tenders",
+     "prices": [
+      "$10.49"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Mozzarella Sticks",
+     "prices": [
+      "$8.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Soup of the Day",
+     "prices": [
+      "$6.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Fried Ravioli",
+     "prices": [
+      "$8.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Jalapeño Poppers",
+     "prices": [
+      "$8.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Chicken Wings",
+     "prices": [
+      "$9.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Buffalo Chicken Wings",
+     "prices": [
+      "$10.49"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Cheesy Garlic Bread",
+     "prices": [
+      "$4.99"
+     ],
+     "desc": "Add pepperoni or bacon +$1.50"
+    },
+    {
+     "name": "Kids: Chicken Tenders & Fries",
+     "prices": [
+      "$6.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Kids: Hot Dogs & Fries",
+     "prices": [
+      "$5.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Kids: Spaghetti & Meatballs",
+     "prices": [
+      "$5.99"
+     ],
+     "desc": ""
+    },
+    {
+     "name": "Kids: Slice of Pizza & Fries",
+     "prices": [
+      "$5.99"
+     ],
+     "desc": ""
+    }
+   ]
+  }
+ ],
+ "findings": [
+  "Old Community Communications vendor template; homepage is a single paragraph and the menu is a plain text price table.",
+  "No online ordering and no social links on the site.",
+  "Pinch-zoom is blocked on the old site; the new site allows zoom.",
+  "Only a logo and one homepage image were on the site and neither could be confirmed as the shop's own cleared photography, so none were published.",
+  "Source typos (\"Terriyaki\", \"Jalepeno\") were corrected.",
+  "Gallery, Hours and Contact pages were not read: hours come from the homepage text."
+ ],
+ "questions": [
+  "Do you have photos of your food and shop we may use? None are published in this concept.",
+  "Pizza sizes were read as 12\", 16\" and 18\" (Small / Large / X-Large). Please confirm.",
+  "Subs list two prices with no size labels; we show them as listed. Are they small and large?",
+  "Is the menu current? Prices were copied from the live site.",
+  "Do you want online ordering? None exists, so the site is phone-order only.",
+  "Confirm hours: Monday to Saturday 11am to 9pm, closed Sunday.",
+  "Do you have a Facebook or Instagram page to link?",
+  "Which delivery area do you cover?"
+ ]
+}

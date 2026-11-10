@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fire21pizza.com/sitemap.xml

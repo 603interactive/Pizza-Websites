@@ -13,11 +13,11 @@
 </head>
 <body>
 {% if preview %}<div class="ribbon">{{ ribbon }}</div>{% endif %}
-<a class="skip" href="#menu">Skip to menu</a>
+<a class="skip" href="#about">Skip to content</a>
 <header class="top"><div class="wrap bar">
   <a class="brand" href="#top">{% if logo %}<img src="{{ img(logo) }}" alt="" height="40">{% endif %}<span>{{ name }}</span></a>
   <button class="burger" aria-label="Menu" aria-expanded="false" aria-controls="nav">Menu</button>
-  <nav id="nav"><a href="#menu">Menu</a>{% if specials %}<a href="#specials">Specials</a>{% endif %}<a href="#about">About</a><a href="#visit">Hours &amp; Directions</a><a class="btn sm" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></nav>
+  <nav id="nav">{% if menu or order_url %}<a href="#menu">Menu</a>{% endif %}{% if specials %}<a href="#specials">Specials</a>{% endif %}<a href="#about">About</a><a href="#visit">Hours &amp; Directions</a><a class="btn sm" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></nav>
 </div></header>
 <main id="top">
 <section class="hero"><div class="wrap hero-in">
@@ -25,14 +25,15 @@
     <p class="kicker" id="status" data-hours='{{ hours_json }}'>{{ loc.city }}, {{ loc.region }}</p>
     <h1>{{ name }}</h1>
     <p class="lede">{{ tagline }}</p>
-    <div class="cta"><a class="btn" href="tel:{{ loc.tel }}">Call to order {{ loc.phone }}</a><a class="btn ghost" href="#menu">See the menu</a></div>
-    <p class="fine">Order by phone. {{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
+    <div class="cta">{% if order_url %}<a class="btn" href="{{ order_url }}" rel="noopener">{{ esc(order_label or 'Order online') }}</a><a class="btn ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a>{% else %}<a class="btn" href="tel:{{ loc.tel }}">Call to order {{ loc.phone }}</a>{% endif %}{% if menu %}<a class="btn ghost" href="#menu">See the menu</a>{% endif %}</div>
+    <p class="fine">{{ 'Order online or by phone.' if order_url else 'Order by phone.' }} {{ loc.street }}, {{ loc.city }}, {{ loc.region }} {{ loc.postal }}</p>
   </div>
   {% if gallery %}<div class="mosaic">{% for g in gallery[:4] %}<img src="{{ img(g) }}" alt="{{ name }} {{ g.split('.')[0].replace('-', ' ') }}" loading="{{ 'eager' if loop.first else 'lazy' }}">{% endfor %}</div>
-  {% else %}<div class="badge" aria-hidden="true"><span>Since</span><b>1974</b><span>Monadnock Region</span></div>{% endif %}
+  {% elif badge %}<div class="badge" aria-hidden="true"><span>{{ badge[0] }}</span><b>{{ badge[1] }}</b><span>{{ badge[2] }}</span></div>{% endif %}
 </div></section>
 
 <section id="menu" class="sec"><div class="wrap">
+  {% if not menu %}<h2>Menu</h2><p class="note">{{ esc(menu_note) }}</p><p>{% if order_url %}<a class="btn" href="{{ order_url }}" rel="noopener">{{ esc(order_label or 'Order online') }}</a> {% endif %}<a class="btn ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></p></div></section>{% else %}
   <div class="sec-h"><h2>Menu</h2><label class="search"><span class="sr">Search the menu</span><input id="q" type="search" placeholder="Search the menu (try &quot;steak&quot;)" autocomplete="off"></label></div>
   <div class="tabs" role="tablist">{% for c in menu %}<button role="tab" data-t="{{ loop.index0 }}" aria-selected="{{ 'true' if loop.first else 'false' }}">{{ esc(c.cat) }}</button>{% endfor %}</div>
   {% for c in menu %}
@@ -46,17 +47,17 @@
   {% endfor %}
   <p id="none" class="note" hidden>No menu items match. Try another word, or call {{ loc.phone }}.</p>
   <p class="note small">Prices and items are as published on the shop's own menu and may change; call {{ loc.phone }} to confirm.</p>
-</div></section>
+</div></section>{% endif %}
 
 {% if specials %}<section id="specials" class="sec alt"><div class="wrap"><h2>Specials</h2><ul class="spec">{% for s in specials %}<li>{{ esc(s) }}</li>{% endfor %}</ul></div></section>{% endif %}
 
 <section id="about" class="sec"><div class="wrap two"><div><h2>About</h2>{% for p in about %}<p>{{ esc(p) }}</p>{% endfor %}</div>
- <div>{% if extras %}<h3>Also on the menu</h3><ul class="plain">{% for e in extras %}<li>{{ esc(e) }}</li>{% endfor %}</ul>{% endif %}<h3>Delivery</h3><p>{{ esc(delivery) }}</p>{% if delivery_link %}<p><a class="btn ghost" href="{{ delivery_link }}">{{ esc(delivery_label) }}</a></p>{% endif %}</div></div></section>
+ <div>{% if extras %}<h3>Also on the menu</h3><ul class="plain">{% for e in extras %}<li>{{ esc(e) }}</li>{% endfor %}</ul>{% endif %}{% if delivery %}<h3>Delivery</h3><p>{{ esc(delivery) }}</p>{% endif %}{% if delivery_link %}<p><a class="btn ghost" href="{{ delivery_link }}">{{ esc(delivery_label) }}</a></p>{% endif %}</div></div></section>
 
 {% if gallery|length > 4 %}<section class="sec alt"><div class="wrap"><h2>From the kitchen</h2><div class="strip">{% for g in gallery %}<img src="{{ img(g) }}" alt="{{ name }} {{ g.split('.')[0].replace('-', ' ') }}" loading="lazy">{% endfor %}</div></div></section>{% endif %}
 
 <section id="visit" class="sec"><div class="wrap two"><div><h2>Hours</h2>
- <table class="hrs">{% for w in week %}<tr data-dow="{{ w.dow }}"><th scope="row">{{ w.day }}</th><td>{{ w.text }}</td></tr>{% endfor %}</table></div>
+ {% if loc.hours %}<table class="hrs">{% for w in week %}<tr data-dow="{{ w.dow }}"><th scope="row">{{ w.day }}</th><td>{{ w.text }}</td></tr>{% endfor %}</table>{% else %}<p>Hours are not published on the shop's current site. Call <a href="tel:{{ loc.tel }}">{{ loc.phone }}</a> to confirm before you visit.</p>{% endif %}</div>
  <div><h2>Find us</h2><address>{{ loc.street }}<br>{{ loc.city }}, {{ loc.region }} {{ loc.postal }}</address>
  <p><a class="btn" href="{{ loc.maps }}" rel="noopener">Get directions</a> <a class="btn ghost" href="tel:{{ loc.tel }}">Call {{ loc.phone }}</a></p>
  {% if facebook %}<p><a href="{{ facebook }}" rel="noopener">Find us on Facebook</a></p>{% endif %}</div></div></section>
