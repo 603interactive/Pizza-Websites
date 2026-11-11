@@ -1,0 +1,74 @@
+{
+ "slug": "jimmys-hometown-pizzeria",
+ "name": "Jimmy's Hometown Pizzeria",
+ "short": "Jimmy's",
+ "domain": "https://www.jimmyshometownpizza.com",
+ "tagline": "A slice of home on West Swanzey Road in West Swanzey, NH.",
+ "seo_title": "Jimmy's Hometown Pizzeria | West Swanzey, NH",
+ "seo_desc": "Jimmy's Hometown Pizzeria, 920 West Swanzey Road, West Swanzey NH. A slice of home. Call (603) 903-0200 or (603) 903-0201.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#fbf4e6",
+  "ink": "#2a1f1a",
+  "muted": "#6a5a50",
+  "accent": "#b3261e",
+  "accent2": "#6b4a00"
+ },
+ "facebook": "https://www.facebook.com/profile.php?id=61581956020174",
+ "instagram": "",
+ "order_any": "tel:+16039030200",
+ "about": [
+  "Jimmy's Hometown Pizzeria is a pizzeria at 920 West Swanzey Road in West Swanzey, NH. Its own website greets visitors with \"A Slice of Home.\"",
+  "Call the shop on (603) 903-0200 or (603) 903-0201 to ask about today's menu."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "",
+ "order_label": "",
+ "menu_note": "The shop's menu is published only as images on its own website, so it is not shown here. Call (603) 903-0200 for items and prices.",
+ "badge": [
+  "A slice",
+  "of home",
+  "West Swanzey, NH"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "jimmys-hometown-pizzeria",
+   "name": "West Swanzey",
+   "street": "920 West Swanzey Road",
+   "city": "West Swanzey",
+   "region": "NH",
+   "postal": "",
+   "phone": "(603) 903-0200",
+   "tel": "+16039030200",
+   "hours": [],
+   "order": "tel:+16039030200",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Jimmy%27s+Hometown+Pizzeria+920+West+Swanzey+Road+West+Swanzey+NH"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Squarespace site: the homepage is just \"A Slice of Home\", the address, phone numbers and hours; no description of the shop or food.",
+  "The Menu page is images only, with no text, so it cannot be searched or read easily on a phone.",
+  "The Delivery page has no content beyond the shared header and footer.",
+  "The only store is a merch shop (cap, tee, hoodie); there is no online food ordering.",
+  "A scrolling hours banner repeats the same line four times.",
+  "Two phone numbers are listed: (603) 903-0200 and (603) 903-0201. The first is used for the call button."
+ ],
+ "questions": [
+  "Can you send your menu with prices as text? The current menu is images only, so none is shown.",
+  "What are your current hours? They were not available to us in readable form, so none are shown.",
+  "Do you have photos of your food and shop we may use?",
+  "Do you want online ordering, and if so through which service? Is delivery offered?",
+  "Which of the two phone numbers should customers call?",
+  "Is the Facebook page linked the shop's page? Do you have Instagram?",
+  "What is the ZIP code you want shown in the address?"
+ ]
+}

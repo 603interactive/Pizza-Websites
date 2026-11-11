@@ -1,0 +1,70 @@
+{
+ "slug": "morrisville-house-of-pizza-vt",
+ "name": "Morrisville House of Pizza",
+ "short": "House of Pizza",
+ "domain": "https://www.morrisvillehouseofpizza.com",
+ "tagline": "Family-owned pizza in Mountain View Plaza, Morrisville, VT. Serving the area for about 30 years.",
+ "seo_title": "Morrisville House of Pizza | Family-Owned Pizza in Morrisville, VT",
+ "seo_desc": "Morrisville House of Pizza, Mountain View Plaza, Morrisville VT. Family-owned for about 30 years. Open Tuesday to Saturday. Call (802) 888-5200.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#fbf6ea",
+  "ink": "#2a1d17",
+  "muted": "#6a5a50",
+  "accent": "#b3261e",
+  "accent2": "#2f6b3a"
+ },
+ "facebook": "https://www.facebook.com/pages/House-of-Pizza/119648414768703",
+ "instagram": "",
+ "order_any": "tel:+18028885200",
+ "about": [
+  "Morrisville House of Pizza is a family-owned pizza shop in Mountain View Plaza in Morrisville, Vermont, serving the community for about 30 years.",
+  "The shop takes orders by phone. Call (802) 888-5200 to order."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "",
+ "order_label": "",
+ "menu_note": "The shop's full menu with prices is on its own website. This concept does not reproduce it: call (802) 888-5200 to order or to ask about items and prices.",
+ "badge": ["Family owned", "about 30 years", "Morrisville, VT"],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "morrisville-house-of-pizza-vt",
+   "name": "Morrisville",
+   "street": "Mountain View Plaza",
+   "city": "Morrisville",
+   "region": "VT",
+   "postal": "05661",
+   "phone": "(802) 888-5200",
+   "tel": "+18028885200",
+   "hours": [{"dow": [2,3,4,5,6], "open": "11:00", "close": "20:00"}],
+   "order": "tel:+18028885200",
+   "maps": "https://www.google.com/maps/search/?api=1&query=House+of+Pizza+Mountain+View+Plaza+Morrisville+VT+05661"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Ziplocal/Divi template (\"Powered by Ziplocal\", \"Designed by Elegant Themes\") with only three pages.",
+  "Homepage is one paragraph and a Menu button; the only images are the logo and one 2017 cover photo.",
+  "Header \"Order Now\" is plain text beside the phone number: there is no online ordering, only calling.",
+  "Menu is a long text-only price list with no photos.",
+  "Page titles are keyword-stuffed and do not match the pages (e.g. \"Cheese Calzones in Morrisville, VT\" on the Menu page).",
+  "Hours (Tue-Sat 11-8) appear only on the Contact page, and the address wording differs between footer (\"30 Mountain Plaza\") and Contact page (\"30 Mountain View Plaza\").",
+  "No social links on the site; a Facebook page named \"House of Pizza\" with a matching Morrisville address was found in a public listing."
+ ],
+ "questions": [
+  "Do you have photos of your food and shop we may use? The old site has only a logo and one 2017 cover photo.",
+  "Can you confirm the correct street address: 30 Mountain Plaza or 30 Mountain View Plaza?",
+  "Can you confirm hours: Tuesday to Saturday, 11am to 8pm, closed Sunday and Monday?",
+  "Is https://www.facebook.com/pages/House-of-Pizza/119648414768703 your Facebook page? Do you have Instagram?",
+  "Would you like online ordering, or phone only? Can you send your current menu with prices?",
+  "Do you offer delivery?"
+ ]
+}

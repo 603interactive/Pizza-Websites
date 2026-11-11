@@ -1,0 +1,75 @@
+{
+ "slug": "plymouth-house-of-pizza-ma",
+ "name": "Plymouth House of Pizza and Pub",
+ "short": "Plymouth House of Pizza",
+ "domain": "https://plymouthhouseofpizza.com",
+ "tagline": "Pizza and pub food with authentic Greek flavors, serving Plymouth, Massachusetts since 1997.",
+ "seo_title": "Plymouth House of Pizza and Pub | Pizza & Greek Flavors in Plymouth, MA",
+ "seo_desc": "Plymouth House of Pizza and Pub, 50 Long Pond Rd, Plymouth MA. Pizza with authentic Greek flavors, serving Plymouth since 1997. Call (508) 746-0444 or order online.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#f6f9fc",
+  "ink": "#14233a",
+  "muted": "#55617a",
+  "accent": "#1c4f9c",
+  "accent2": "#8a5a00"
+ },
+ "facebook": "https://www.facebook.com/p/Plymouth-House-of-Pizza-pizzeria-and-pub-100063676027932/",
+ "instagram": "https://www.instagram.com/plymouthhouseofpizza",
+ "order_any": "https://online.skytab.com/829b61af479ffd363dfe7bf38f076c64/order-settings",
+ "about": [
+  "Plymouth House of Pizza and Pub is a pizzeria and pub at 50 Long Pond Rd, serving the town of Plymouth, Massachusetts since 1997.",
+  "The kitchen is known for authentic Greek flavors alongside pizza. See the full menu and place a pickup order on the shop's online ordering page, or call the shop."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://online.skytab.com/829b61af479ffd363dfe7bf38f076c64/order-settings",
+ "order_label": "Order online",
+ "menu_note": "The shop's menu with prices lives on its online ordering page. Open it there, or call to ask about today's items.",
+ "badge": [
+  "Serving Plymouth",
+  "since 1997",
+  "Pizza & Pub"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "plymouth-house-of-pizza-ma",
+   "name": "Plymouth",
+   "street": "50 Long Pond Rd",
+   "city": "Plymouth",
+   "region": "MA",
+   "postal": "02360",
+   "phone": "(508) 746-0444",
+   "tel": "+15087460444",
+   "hours": [],
+   "order": "https://online.skytab.com/829b61af479ffd363dfe7bf38f076c64/order-settings",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Plymouth+House+of+Pizza+50+Long+Pond+Rd+Plymouth+MA"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Built on the GoDaddy Website Builder with a stock layout.",
+  "The shop name and \"Authentic Greek Flavors\" headline repeat over and over in the page copy; the new copy says each once.",
+  "Phone number shown unformatted as 5087460444; now (508) 746-0444 with a tap-to-call link.",
+  "Homepage leads with a notice about dropping in-house delivery instead of the food; the new site leads with the food and ordering, and makes no delivery claim.",
+  "Stray punctuation error in the copy (\"Plymouth,. Massachusetts since 1997\"); fixed.",
+  "Ordering link (SkyTab) taken from the lead file; not tested by placing an order.",
+  "The shop's website could not be fetched while building (fetch was blocked), so menu, prices and hours were NOT collected; only facts from the lead file are used."
+ ],
+ "questions": [
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your menu with prices? The new site links to your SkyTab ordering page instead.",
+  "Is the SkyTab link the right ordering page?",
+  "What are your current hours? None are shown on the concept.",
+  "Please confirm the ZIP code (02360 used) and that delivery is no longer offered.",
+  "Do you want the Greek dishes highlighted on the menu?",
+  "What email address should customers use?"
+ ]
+}

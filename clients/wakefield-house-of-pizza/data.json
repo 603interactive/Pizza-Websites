@@ -1,0 +1,45 @@
+{
+ "slug": "wakefield-house-of-pizza",
+ "name": "Wakefield House of Pizza",
+ "short": "Wakefield House of Pizza",
+ "domain": "https://wakefieldhouseofpizza.com",
+ "tagline": "Pizza, appetizers, dinners, subs, burgers, salads and party platters on Wakefield Road in Sanbornville, NH.",
+ "seo_title": "Wakefield House of Pizza | Pizza, Subs & Dinners in Sanbornville, NH",
+ "seo_desc": "Wakefield House of Pizza, 2076 Wakefield Road, Sanbornville NH. Pizza, appetizers, dinners, subs, burgers, salads, kids menu and party platters. Call (603) 522-3500.",
+ "theme": {"surface": "#ffffff", "on_accent": "#ffffff", "head": "Big Shoulders Display", "body": "Work Sans", "bg": "#fbf6ec", "ink": "#2a1d17", "muted": "#675a52", "accent": "#b3261e", "accent2": "#2f5d3a"},
+ "facebook": "https://www.facebook.com/whopthereitis/",
+ "instagram": "",
+ "order_any": "tel:+16035223500",
+ "about": [],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "",
+ "order_label": "",
+ "menu_note": "The shop's menu covers pizza, appetizers, dinners, subs, burgers, salads, a kids menu and party platters. Call for items and today's prices.",
+ "badge": ["Sanbornville", "Wakefield, NH"],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {"id": "wakefield-house-of-pizza", "name": "Sanbornville", "street": "2076 Wakefield Road", "city": "Sanbornville", "region": "NH", "postal": "03872", "phone": "(603) 522-3500", "tel": "+16035223500", "hours": [], "order": "tel:+16035223500", "maps": "https://www.google.com/maps/search/?api=1&query=Wakefield+House+of+Pizza+2076+Wakefield+Road+Sanbornville+NH+03872"}
+ ],
+ "menu": [],
+ "findings": [
+  "The whole site is one long Squarespace page that is just a text price list (pizza, appetizers, dinners, subs, burgers, salads, kids, party platters).",
+  "The only image on the page is the logo; no food or shop photos.",
+  "There is no online ordering, only a phone number, so the new site is phone-order only and no ordering link was invented.",
+  "Opening hours are not shown on the page (they exist only in hidden page data), so none are shown on the new site.",
+  "No About section or story about the shop.",
+  "Our fetch of the live page was blocked, so menu items and prices were not copied; the new site lists the menu categories from the lead research and tells customers to call."
+ ],
+ "questions": [
+  "Do you have photos of your food and shop we may use? The current site has only the logo.",
+  "Can you send your current menu with prices so we can list it on the new site?",
+  "What are your opening hours, and are they the same every day?",
+  "Do you want online ordering? If you already use an ordering service, please send the link.",
+  "Do you offer delivery?",
+  "Would you like a short About section (your story, how long you have been open)?",
+  "Is the Facebook page (facebook.com/whopthereitis) the right social page, and do you have Instagram?"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "slug": "village-pizza-woodsville",
+ "name": "Village Pizza Woodsville",
+ "short": "Village Pizza",
+ "domain": "https://villagepizzawoodsville.com",
+ "tagline": "Village Pizza at 179 Central St in Woodsville, NH. Order online for pickup or call the shop.",
+ "seo_title": "Village Pizza Woodsville | Pizza in Woodsville (Haverhill), NH",
+ "seo_desc": "Village Pizza, 179 Central St, Woodsville NH. Order online or call (603) 747-8111.",
+ "theme": {"surface": "#ffffff", "on_accent": "#ffffff", "head": "Big Shoulders Display", "body": "Work Sans", "bg": "#fbf6ec", "ink": "#232019", "muted": "#5d584c", "accent": "#a8261d", "accent2": "#2f5d3a"},
+ "facebook": "",
+ "instagram": "",
+ "order_any": "https://village-woodsville.foodtecsolutions.com",
+ "about": ["Village Pizza is a pizza shop at 179 Central St in Woodsville, a village of Haverhill, NH.", "Browse the menu and order online, or call the shop at (603) 747-8111."],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://village-woodsville.foodtecsolutions.com",
+ "order_label": "Order online",
+ "menu_note": "The shop's full menu with prices lives on its online ordering page. Open it there, or call (603) 747-8111.",
+ "badge": ["Pizza", "Central St", "Woodsville, NH"],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [{"id": "village-pizza-woodsville", "name": "Woodsville", "street": "179 Central St", "city": "Woodsville", "region": "NH", "postal": "03785", "phone": "(603) 747-8111", "tel": "+16037478111", "hours": [], "order": "https://village-woodsville.foodtecsolutions.com", "maps": "https://www.google.com/maps/search/?api=1&query=Village+Pizza+179+Central+St+Woodsville+NH+03785"}],
+ "menu": [],
+ "findings": [
+  "Generic FoodTec ordering template; the slider uses stock photos (file names still show: pizza-1344720_960_720, america-1238743_1920, salad-g21ef69fd2_1280), so none were used.",
+  "Tagline is vague (\"The best pizza experience in town\"); replaced with plain, factual wording.",
+  "Testimonials block is empty (\"There are no featured comments yet\").",
+  "Footer address is only \"Central St, Haverhill\" with no street number; the street number 179 comes from the lead research.",
+  "No social links anywhere on the site; only an unofficial auto-generated Facebook page exists, which is not linked.",
+  "Ordering link is the FoodTec page listed on the shop's site; it was not tested by placing an order."
+ ],
+ "questions": [
+  "Do you have photos of your food and shop we may use? The current site shows only stock photos.",
+  "Can you send your menu with prices and hours? Our tool could not read them, so the new site links to your ordering page and shows no hours.",
+  "Is the FoodTec link the right ordering page?",
+  "What email address should customers use?",
+  "Do you have Facebook, Instagram or other social pages to link?",
+  "Do you offer delivery?"
+ ]
+}
