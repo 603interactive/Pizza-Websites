@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nikoswatervillehouseofpizza.com/sitemap.xml

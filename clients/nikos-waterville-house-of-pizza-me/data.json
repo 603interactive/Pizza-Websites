@@ -1,0 +1,71 @@
+{
+ "slug": "nikos-waterville-house-of-pizza-me",
+ "name": "Nikos Waterville House of Pizza",
+ "short": "Nikos Waterville House of Pizza",
+ "domain": "https://nikoswatervillehouseofpizza.com",
+ "tagline": "Pizza, wraps, salads and steaks on Main Street in Waterville, Maine, near Colby College.",
+ "seo_title": "Nikos Waterville House of Pizza | Pizza in Waterville, ME",
+ "seo_desc": "Nikos Waterville House of Pizza, 145 Main St, Waterville ME. Pizza, wraps, salads and steaks. Call (207) 873-4300.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#fbf5ea",
+  "ink": "#241a14",
+  "muted": "#65564c",
+  "accent": "#a8261d",
+  "accent2": "#1f5a6b"
+ },
+ "facebook": "https://www.facebook.com/people/Nikos-Waterville-House-of-Pizza/100088980399017/",
+ "instagram": "",
+ "order_any": "tel:+12078734300",
+ "about": [
+  "Nikos Waterville House of Pizza is a pizza shop at 145 Main St in Waterville, Maine, near Colby College."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "",
+ "order_label": "",
+ "menu_note": "The shop's menu includes wraps, salads, steaks and pizza. Call (207) 873-4300 for items and today's prices.",
+ "badge": [
+  "Waterville, ME",
+  "145 Main St"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "nikos-waterville-house-of-pizza-me",
+   "name": "Waterville",
+   "street": "145 Main St",
+   "city": "Waterville",
+   "region": "ME",
+   "postal": "04901",
+   "phone": "(207) 873-4300",
+   "tel": "+12078734300",
+   "hours": [],
+   "order": "tel:+12078734300",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Nikos+Waterville+House+of+Pizza+145+Main+St+Waterville+ME+04901"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "The homepage is generic SEO filler copy with no real shop story, food photos or hours.",
+  "The Menu page has no menu, only a category list and a button to a PDF dated January 2023.",
+  "The Order Now link (watervillepizza.foodtecsolutions.com) failed to connect with a TLS error when the lead was researched, so it is not used here.",
+  "The site says 'over 45 years' while the shop's Facebook says '30+ years'; the new site makes no age claim.",
+  "The old site blocks pinch-zoom on phones (user-scalable=no); the new site does not."
+ ],
+ "questions": [
+  "Is your online ordering page (watervillepizza.foodtecsolutions.com) working? If so, send us the link to use.",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu with prices so we can list it?",
+  "What are your opening hours?",
+  "How long has the shop been open: 30+ years or over 45?",
+  "Do you offer delivery?",
+  "Do you have Instagram?"
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "slug": "brattleboro-house-of-pizza-vt",
+ "name": "Brattleboro House of Pizza",
+ "short": "Brattleboro House of Pizza",
+ "domain": "https://www.brattleboropizza.com",
+ "tagline": "Family pizza shop on Canal Street in Brattleboro, Vermont, serving the town since 1985.",
+ "seo_title": "Brattleboro House of Pizza | Pizza in Brattleboro, VT",
+ "seo_desc": "Brattleboro House of Pizza, 419 Canal Street, Brattleboro VT. Family shop since 1985. Order online or call (802) 254-3700.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#faf5eb",
+  "ink": "#251c16",
+  "muted": "#645850",
+  "accent": "#a82a1c",
+  "accent2": "#35553a"
+ },
+ "facebook": "https://www.facebook.com/Brattleboro-House-of-Pizza-381775075318277/",
+ "instagram": "",
+ "order_any": "https://order.online/business/house-of-pizza-260353",
+ "about": [
+  "Brattleboro House of Pizza is a family pizza shop at 419 Canal Street in Brattleboro, Vermont, serving the town since 1985.",
+  "Order online or call (802) 254-3700."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://order.online/business/house-of-pizza-260353",
+ "order_label": "Order online",
+ "menu_note": "The shop's current menu is a PDF on its own website (brattleboropizza.com). This concept does not reproduce it: order online or call (802) 254-3700 for items and prices.",
+ "badge": [
+  "Family owned",
+  "Since 1985",
+  "Brattleboro, VT"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "brattleboro-house-of-pizza-vt",
+   "name": "Brattleboro",
+   "street": "419 Canal Street",
+   "city": "Brattleboro",
+   "region": "VT",
+   "postal": "05301",
+   "phone": "(802) 254-3700",
+   "tel": "+18022543700",
+   "hours": [],
+   "order": "https://order.online/business/house-of-pizza-260353",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Brattleboro+House+of+Pizza+419+Canal+Street+Brattleboro+VT+05301"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Single-page WordPress site on an old 'Tomato' theme, with a short About blurb, three testimonials, hours and contact.",
+  "The only menu is a 4.7 MB PDF; there is no readable or searchable menu on the site.",
+  "Footer reads 'Copyright ® 2018'; images load over plain http:// with generic or missing alt text.",
+  "The copy says to download DoorDash for delivery while the nav's Order Online goes to order.online; the new site links only the order.online page from the lead.",
+  "Only three small 2021 photos on the whole site."
+ ],
+ "questions": [
+  "Is the order.online link correct and current? Do you deliver through DoorDash too?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?",
+  "Do you have Instagram?",
+  "Do the testimonials on your old site come from real customers we may quote (with their OK)?"
+ ]
+}

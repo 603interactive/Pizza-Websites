@@ -1,0 +1,72 @@
+{
+ "slug": "st-johnsbury-house-of-pizza-vt",
+ "name": "St. Johnsbury House of Pizza",
+ "short": "St. Johnsbury House of Pizza",
+ "domain": "https://www.houseofpizzavt.com",
+ "tagline": "Family pizzeria on Portland Street in St. Johnsbury, Vermont, in business since 1979.",
+ "seo_title": "St. Johnsbury House of Pizza | Pizza in St. Johnsbury, VT",
+ "seo_desc": "St. Johnsbury House of Pizza, 287 Portland Street, St. Johnsbury VT. Family pizzeria since 1979. Call 802-748-5144 or 802-748-5145.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#faf4e8",
+  "ink": "#26201a",
+  "muted": "#665a4e",
+  "accent": "#b0301f",
+  "accent2": "#254a6b"
+ },
+ "facebook": "https://www.facebook.com/stjhouseofpizzavt",
+ "instagram": "https://www.instagram.com/houseofpizzavt",
+ "order_any": "tel:+18027485144",
+ "about": [
+  "St. Johnsbury House of Pizza is a family pizzeria at 287 Portland Street in St. Johnsbury, Vermont, in business since 1979.",
+  "Call 802-748-5144 or 802-748-5145 to order."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "",
+ "order_label": "",
+ "menu_note": "The shop's menu is currently published as photos on its own website. This concept does not reproduce it: call 802-748-5144 for items and prices.",
+ "badge": [
+  "Family owned",
+  "Since 1979",
+  "St. Johnsbury, VT"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "st-johnsbury-house-of-pizza-vt",
+   "name": "St. Johnsbury",
+   "street": "287 Portland Street",
+   "city": "St. Johnsbury",
+   "region": "VT",
+   "postal": "05819",
+   "phone": "802-748-5144",
+   "tel": "+18027485144",
+   "hours": [],
+   "order": "tel:+18027485144",
+   "maps": "https://www.google.com/maps/search/?api=1&query=St.+Johnsbury+House+of+Pizza+287+Portland+Street+St.+Johnsbury+VT+05819"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Single-page Wix site; the page title is cut off as 'HOME | St Johnsbury House o' and is reused as the share title.",
+  "The menu is only a few photo images, with no text, prices or searchable content.",
+  "No online ordering and no Order or Call button, only two phone numbers in the Contact block.",
+  "The hero is a Wix library image, not a shop photo, and images have no alt text.",
+  "Almost nothing about the family history beyond one sentence on being open since 1979."
+ ],
+ "questions": [
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your menu as text with prices so we can list it?",
+  "What are your opening hours?",
+  "Do you want online ordering or phone only?",
+  "Do you offer delivery?",
+  "Would you like a short story section about the family and the shop since 1979?"
+ ]
+}

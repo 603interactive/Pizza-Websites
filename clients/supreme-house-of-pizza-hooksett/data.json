@@ -1,0 +1,71 @@
+{
+ "slug": "supreme-house-of-pizza-hooksett",
+ "name": "Supreme House of Pizza",
+ "short": "Supreme House of Pizza",
+ "domain": "https://www.supremepizza.net",
+ "tagline": "Family pizza shop on Hooksett Road in Hooksett, New Hampshire, in business since 1984.",
+ "seo_title": "Supreme House of Pizza | Pizza in Hooksett, NH",
+ "seo_desc": "Supreme House of Pizza, 1261 Hooksett Rd, Hooksett NH. Family shop since 1984. Order online or call (603) 669-0072.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#fbf6ec",
+  "ink": "#231a17",
+  "muted": "#665850",
+  "accent": "#b3261e",
+  "accent2": "#2b5b3b"
+ },
+ "facebook": "https://www.facebook.com/SupremeHouseofPizza/",
+ "instagram": "",
+ "order_any": "https://online.skytab.com/s/supremehouseofpizza",
+ "about": [
+  "Supreme House of Pizza is a family pizza shop at 1261 Hooksett Rd in Hooksett, New Hampshire, in business since 1984.",
+  "Order online or call (603) 669-0072."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://online.skytab.com/s/supremehouseofpizza",
+ "order_label": "Order online",
+ "menu_note": "The shop's menu is available through its online ordering page. This concept does not reproduce it: order online or call (603) 669-0072 for items and prices.",
+ "badge": [
+  "Family owned",
+  "Since 1984",
+  "Hooksett, NH"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "supreme-house-of-pizza-hooksett",
+   "name": "Hooksett",
+   "street": "1261 Hooksett Rd",
+   "city": "Hooksett",
+   "region": "NH",
+   "postal": "03106",
+   "phone": "(603) 669-0072",
+   "tel": "+16036690072",
+   "hours": [],
+   "order": "https://online.skytab.com/s/supremehouseofpizza",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Supreme+House+of+Pizza+1261+Hooksett+Rd+Hooksett+NH+03106"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Generic Shift4 SkyTab template with boilerplate copy; every food and gallery photo is Unsplash stock, so none are used.",
+  "The social icons link to the generic facebook.com, instagram.com and tiktok.com homepages; the new site links only the shop's own Facebook page from the lead.",
+  "A footer link has no https:// and 404s; the old /menu.html now returns 404.",
+  "No menu on the site itself; the family story since 1984 is buried in generic text."
+ ],
+ "questions": [
+  "Is the SkyTab ordering link correct and current?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your menu with prices so we can list it?",
+  "What are your opening hours?",
+  "Do you offer delivery?",
+  "Do you have Instagram or TikTok pages to link?"
+ ]
+}

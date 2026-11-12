@@ -1,0 +1,72 @@
+{
+ "slug": "princeton-house-of-pizza-ma",
+ "name": "Princeton House of Pizza",
+ "short": "Princeton House of Pizza",
+ "domain": "https://princetonpizzaria.com",
+ "tagline": "A family pizza shop on Route 62 in Princeton, Massachusetts. Order online or call.",
+ "seo_title": "Princeton House of Pizza | Pizza in Princeton, MA",
+ "seo_desc": "Princeton House of Pizza, 25 Hubbardston Road (Route 62), Princeton MA. Call (978) 464-5858 or (978) 464-5856, or order online.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#f8f3e9",
+  "ink": "#1f1c18",
+  "muted": "#615a50",
+  "accent": "#9c2a1a",
+  "accent2": "#2d5a3d"
+ },
+ "facebook": "https://www.facebook.com/Princetonhouseofpizza/",
+ "instagram": "",
+ "order_any": "https://slicelife.com/restaurants/ma/princeton/01541/princeton-house-of-pizza-princeton/menu",
+ "about": [
+  "Princeton House of Pizza is a family pizza shop at 25 Hubbardston Road (Route 62) in Princeton, Massachusetts.",
+  "Call (978) 464-5858 or (978) 464-5856, or order online."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://slicelife.com/restaurants/ma/princeton/01541/princeton-house-of-pizza-princeton/menu",
+ "order_label": "Order online",
+ "menu_note": "The shop's full menu with prices is on its own website (princetonpizzaria.com/menu). This concept does not reproduce it: order online or call (978) 464-5858 for items and prices.",
+ "badge": [
+  "Family run",
+  "Princeton, MA"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "princeton-house-of-pizza-ma",
+   "name": "Princeton",
+   "street": "25 Hubbardston Road (Route 62)",
+   "city": "Princeton",
+   "region": "MA",
+   "postal": "01541",
+   "phone": "(978) 464-5858",
+   "tel": "+19784645858",
+   "hours": [],
+   "order": "https://slicelife.com/restaurants/ma/princeton/01541/princeton-house-of-pizza-princeton/menu",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Princeton+House+of+Pizza+25+Hubbardston+Road+%28Route+62%29+Princeton+MA+01541"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Stock WordPress 'Flash' theme with a homepage of stacked text blocks.",
+  "The Breakfast Menu page is empty, and the only online ordering link (Slice) is hidden on it.",
+  "The founding date conflicts across the site and Facebook (1960s, 2009, 1991); the new site makes no founding claim.",
+  "Menu typos and inconsistencies on the old site: missing $ signs, 10\"/15\" sizes vs a 16\" thin-crust upcharge.",
+  "No social links on the old site, though the shop is active on Facebook."
+ ],
+ "questions": [
+  "Is the Slice ordering link correct and current?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu with prices so we can list it?",
+  "What are your opening hours, including breakfast?",
+  "What year did the shop open, and who owns it?",
+  "Do you offer delivery?",
+  "Do you have Instagram or TikTok pages to link?"
+ ]
+}
