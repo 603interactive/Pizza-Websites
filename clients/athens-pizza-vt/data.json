@@ -1,0 +1,69 @@
+{
+ "slug": "athens-pizza-vt",
+ "name": "Athen's Pizza",
+ "short": "Athen's Pizza",
+ "domain": "https://www.athenspizzaonline.com",
+ "tagline": "Athen's Pizza on Westminster Street in Bellows Falls, Vermont. Order online or call ahead.",
+ "seo_title": "Athen's Pizza | Pizza in Bellows Falls, VT",
+ "seo_desc": "Athen's Pizza, 83 Westminster St., Bellows Falls VT. Order online or call 802-463-9777.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#f6f1e6",
+  "ink": "#1d2a2f",
+  "muted": "#55636a",
+  "accent": "#1d5c8f",
+  "accent2": "#c0392b"
+ },
+ "facebook": "https://www.facebook.com/AthensPizzaBellowFalls/",
+ "instagram": "",
+ "order_any": "https://athenspizza.hungerrush.com",
+ "about": [
+  "Athen's Pizza is a family restaurant at 83 Westminster St. in Bellows Falls, Vermont.",
+  "Order online or call 802-463-9777."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://athenspizza.hungerrush.com",
+ "order_label": "Order online",
+ "menu_note": "The shop's current menu and prices are on its own website (athenspizzaonline.com). This concept does not reproduce them: call 802-463-9777 for items and prices.",
+ "badge": [
+  "Family restaurant",
+  "Bellows Falls, VT"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "athens-pizza-vt",
+   "name": "Bellows Falls",
+   "street": "83 Westminster St.",
+   "city": "Bellows Falls",
+   "region": "VT",
+   "postal": "05101",
+   "phone": "802-463-9777",
+   "tel": "+18024639777",
+   "hours": [],
+   "order": "https://athenspizza.hungerrush.com",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Athen%27s+Pizza+83+Westminster+St.+Bellows+Falls+VT+05101"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "No menu page on the site; nav is Home, Story, Gallery, Order Online and Apply Now, so the menu is only visible inside the ordering system.",
+  "Stale pandemic-era copy ('now open for dining in!'), odd leftover 'from a Dorm' ordering instructions and a capitalized VPN warning dominate the homepage.",
+  "A scrolling 'now hiring' banner repeats three times.",
+  "No social links on the site."
+ ],
+ "questions": [
+  "Are you hiring? We can add an Apply link.",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?",
+  "Is the HungerRush ordering link correct and current?"
+ ]
+}

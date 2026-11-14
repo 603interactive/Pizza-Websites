@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lewistonhouseofpizza.net/sitemap.xml

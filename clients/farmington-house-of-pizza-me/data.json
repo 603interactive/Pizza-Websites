@@ -1,0 +1,71 @@
+{
+ "slug": "farmington-house-of-pizza-me",
+ "name": "Farmington House of Pizza",
+ "short": "Farmington House of Pizza",
+ "domain": "https://farmingtonhouseofpizza.net",
+ "tagline": "Family pizzeria on Broadway in Farmington, Maine, open since 1988. Dine in, take out or call ahead.",
+ "seo_title": "Farmington House of Pizza | Pizza in Farmington, ME",
+ "seo_desc": "Farmington House of Pizza, 195 Broadway, Farmington ME. A family pizzeria open since 1988. Call (207) 778-6867.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#fbf4e6",
+  "ink": "#2a1d14",
+  "muted": "#66584c",
+  "accent": "#b3261e",
+  "accent2": "#2f5233"
+ },
+ "facebook": "https://www.facebook.com/Farmington-House-of-Pizza-116622451717027",
+ "instagram": "",
+ "order_any": "tel:+12077786867",
+ "about": [
+  "Farmington House of Pizza is a family pizzeria at 195 Broadway in Farmington, Maine, open since 1988.",
+  "Call (207) 778-6867 to order."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "",
+ "order_label": "Call to order",
+ "menu_note": "The shop's current menu and prices are on its own website (farmingtonhouseofpizza.net). This concept does not reproduce them: call (207) 778-6867 for items and prices.",
+ "badge": [
+  "Family pizzeria",
+  "Since 1988",
+  "Farmington, ME"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "farmington-house-of-pizza-me",
+   "name": "Farmington",
+   "street": "195 Broadway",
+   "city": "Farmington",
+   "region": "ME",
+   "postal": "04938",
+   "phone": "(207) 778-6867",
+   "tel": "+12077786867",
+   "hours": [],
+   "order": "tel:+12077786867",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Farmington+House+of+Pizza+195+Broadway+Farmington+ME+04938"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "One-page vendor template (footer credit to eztouse.com, uploads dated 2018) with a footer still reading ©2022.",
+  "The header 'Order Now!' is only the phone number; there is no online ordering.",
+  "The menu is a long text-only price list with no photos next to items.",
+  "Generic SEO filler copy ('Pizza & More For Take-Out & Delivery in farmington, ME', lowercase town).",
+  "Every image has an empty alt attribute; the only real nav item is Home."
+ ],
+ "questions": [
+  "Would you like online ordering? If so, through which service?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?",
+  "Is the Instagram account fhopmaine yours to link?"
+ ]
+}

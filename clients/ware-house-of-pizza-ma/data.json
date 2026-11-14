@@ -1,0 +1,72 @@
+{
+ "slug": "ware-house-of-pizza-ma",
+ "name": "Ware House of Pizza",
+ "short": "Ware House of Pizza",
+ "domain": "https://www.warehouseofpizza.com",
+ "tagline": "Pizza shop at 197 West Street in Ware, Massachusetts. Order online or call ahead.",
+ "seo_title": "Ware House of Pizza | Pizza in Ware, MA",
+ "seo_desc": "Ware House of Pizza, 197 West St Unit A, Ware MA. Order online or call (413) 544-1083.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#faf4e8",
+  "ink": "#26201a",
+  "muted": "#625648",
+  "accent": "#b8321f",
+  "accent2": "#2e5b3c"
+ },
+ "facebook": "https://www.facebook.com/profile.php?id=61553245817064",
+ "instagram": "",
+ "order_any": "https://www.warehouseofpizza.com/order",
+ "about": [
+  "Ware House of Pizza is a pizza shop at 197 West Street, Unit A, in Ware, Massachusetts.",
+  "Order online or call (413) 544-1083."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://www.warehouseofpizza.com/order",
+ "order_label": "Order online",
+ "menu_note": "The shop's current menu and prices are on its own website (warehouseofpizza.com). This concept does not reproduce them: call (413) 544-1083 for items and prices.",
+ "badge": [
+  "Pizza shop",
+  "Online ordering",
+  "Ware, MA"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "ware-house-of-pizza-ma",
+   "name": "Ware",
+   "street": "197 West St, Unit A",
+   "city": "Ware",
+   "region": "MA",
+   "postal": "01082",
+   "phone": "(413) 544-1083",
+   "tel": "+14135441083",
+   "hours": [],
+   "order": "https://www.warehouseofpizza.com/order",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Ware+House+of+Pizza+197+West+St%2C+Unit+A+Ware+MA+01082"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Stock Menufy ordering template; the only homepage image is the logo.",
+  "Vague copy ('Delicious Slices of Happiness!') with no story about the shop.",
+  "A 'Contact Form' heading appears but no form exists; boilerplate listing fields ('Atmosphere: Chill') appear as content.",
+  "The same hours are repeated three times.",
+  "A second domain, warepizza.com, still appears in search results but opens a blank web-host page."
+ ],
+ "questions": [
+  "Is the Facebook page found in public search (profile id 61553245817064) really yours?",
+  "Do you want warepizza.com pointed at the new site?",
+  "Do you have a logo file we may use?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?"
+ ]
+}

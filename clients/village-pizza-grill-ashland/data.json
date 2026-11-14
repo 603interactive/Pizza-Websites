@@ -1,0 +1,71 @@
+{
+ "slug": "village-pizza-grill-ashland",
+ "name": "Village Pizza & Grill",
+ "short": "Village Pizza & Grill",
+ "domain": "https://www.villagepizzaashland.com",
+ "tagline": "Greek and Italian family restaurant on Main Street in Ashland, New Hampshire.",
+ "seo_title": "Village Pizza & Grill | Pizza in Ashland, NH",
+ "seo_desc": "Village Pizza & Grill, 116 Main Street, Ashland NH. Greek and Italian family restaurant. Call (603) 968-9689.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#f8f2e4",
+  "ink": "#2a2118",
+  "muted": "#625549",
+  "accent": "#9c2a1a",
+  "accent2": "#2d5a45"
+ },
+ "facebook": "https://www.facebook.com/Village-Pizza-Grill-Ashland-473081259402420/",
+ "instagram": "",
+ "order_any": "tel:+16039689689",
+ "about": [
+  "Village Pizza & Grill is a family Greek and Italian restaurant at 116 Main Street in Ashland, New Hampshire.",
+  "Call (603) 968-9689 to order."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "",
+ "order_label": "Call to order",
+ "menu_note": "The shop's takeout menu is a PDF on its own website (villagepizzaashland.com). This concept does not reproduce it: call (603) 968-9689 for items and prices.",
+ "badge": [
+  "Greek & Italian",
+  "Family restaurant",
+  "Ashland, NH"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "village-pizza-grill-ashland",
+   "name": "Ashland",
+   "street": "116 Main Street",
+   "city": "Ashland",
+   "region": "NH",
+   "postal": "03217",
+   "phone": "(603) 968-9689",
+   "tel": "+16039689689",
+   "hours": [],
+   "order": "tel:+16039689689",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Village+Pizza+%26+Grill+116+Main+Street+Ashland+NH+03217"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Hand-built one-page site from about 2019 (footer '© Parkview Pizza LLC', designer credit mjcamara.com).",
+  "About text is out of date ('over 13 years', new owners 'as of December 2018'); this concept does not repeat it.",
+  "No online ordering, only a phone number, shown as 1-603-968-9689.",
+  "Long text-only menu; the printable PDF menu was last modified May 2023.",
+  "Photo carousel images use placeholder alt text ('img 1') and raw camera file names."
+ ],
+ "questions": [
+  "Would you like online ordering? If so, through which service?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?",
+  "Is the printable PDF menu (May 2023) still current?"
+ ]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.athenspizzaonline.com/sitemap.xml

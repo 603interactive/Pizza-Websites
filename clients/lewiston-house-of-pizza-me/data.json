@@ -1,0 +1,72 @@
+{
+ "slug": "lewiston-house-of-pizza-me",
+ "name": "Lewiston House of Pizza",
+ "short": "Lewiston House of Pizza",
+ "domain": "https://lewistonhouseofpizza.net",
+ "tagline": "Pizza and Greek restaurant at 95 Lincoln Street in Lewiston, Maine, with catering and banquet rooms.",
+ "seo_title": "Lewiston House of Pizza | Pizza in Lewiston, ME",
+ "seo_desc": "Lewiston House of Pizza, 95 Lincoln Street, Lewiston ME. Pizza, Greek food, catering and banquet rooms. Order online or call (207) 786-2020.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#f7f3ea",
+  "ink": "#1f2a30",
+  "muted": "#56626a",
+  "accent": "#1c4f8a",
+  "accent2": "#b5301f"
+ },
+ "facebook": "https://www.facebook.com/Lewiston-House-of-Pizza-115140705164095/",
+ "instagram": "",
+ "order_any": "https://slicelife.com/restaurants/me/lewiston/04240/lewiston-house-of-pizza/menu",
+ "about": [
+  "Lewiston House of Pizza is a family pizza and Greek restaurant at 95 Lincoln Street in Lewiston, Maine, with catering and banquet rooms.",
+  "Order online or call (207) 786-2020."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://slicelife.com/restaurants/me/lewiston/04240/lewiston-house-of-pizza/menu",
+ "order_label": "Order online",
+ "menu_note": "The shop's current menu and prices are on its own website (lewistonhouseofpizza.net). This concept does not reproduce them: call (207) 786-2020 for items and prices.",
+ "badge": [
+  "Pizza & Greek",
+  "Catering",
+  "Lewiston, ME"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "lewiston-house-of-pizza-me",
+   "name": "Lewiston",
+   "street": "95 Lincoln Street",
+   "city": "Lewiston",
+   "region": "ME",
+   "postal": "04240",
+   "phone": "(207) 786-2020",
+   "tel": "+12077862020",
+   "hours": [],
+   "order": "https://slicelife.com/restaurants/me/lewiston/04240/lewiston-house-of-pizza/menu",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Lewiston+House+of+Pizza+95+Lincoln+Street+Lewiston+ME+04240"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "One-page vendor template (footer credit to eztouse.com) with a footer still reading ©2022.",
+  "Only nav items are Home and Privacy Notice; catering, banquet rooms and the menu have no pages of their own.",
+  "Confusing history: the page title says 'Best Pizza Since 2002' while the copy says 'Since 1998'. This concept states neither year.",
+  "Ordering is split between an unlabeled Slice icon and a Google Play link to a ChowNow app, with no single Order button.",
+  "Every image has an empty alt attribute; daily specials say 'Fries of O-Rings'."
+ ],
+ "questions": [
+  "Which year did the shop open, 1998 or 2002?",
+  "Is the Slice link the one ordering path you want customers to use?",
+  "What do you offer for catering and what size are the banquet rooms?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?"
+ ]
+}
