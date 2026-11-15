@@ -1,0 +1,70 @@
+{
+ "slug": "cleghorn-house-of-pizza-ma",
+ "name": "Cleghorn House of Pizza",
+ "short": "Cleghorn House of Pizza",
+ "domain": "https://www.cleghornpizza.com",
+ "tagline": "Pizza shop at 416 Franklin Road in Fitchburg, Massachusetts. Call ahead to order.",
+ "seo_title": "Cleghorn House of Pizza | Pizza in Fitchburg, MA",
+ "seo_desc": "Cleghorn House of Pizza, 416 Franklin Rd., Fitchburg MA. Call 978-345-7558 or 978-345-7559.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#faf3e6",
+  "ink": "#2a1f18",
+  "muted": "#64564a",
+  "accent": "#a82a1c",
+  "accent2": "#2c5a3a"
+ },
+ "facebook": "https://www.facebook.com/CleghornPizza/",
+ "instagram": "",
+ "order_any": "tel:+19783457558",
+ "about": [
+  "Cleghorn House of Pizza is a pizza shop at 416 Franklin Rd. in Fitchburg, Massachusetts.",
+  "Call 978-345-7558 or 978-345-7559 to order."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "",
+ "order_label": "Call to order",
+ "menu_note": "The shop's current menu and prices are on its own website (cleghornpizza.com). This concept does not reproduce them: call 978-345-7558 for items and prices.",
+ "badge": [
+  "Pizza shop",
+  "Fitchburg, MA"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "cleghorn-house-of-pizza-ma",
+   "name": "Fitchburg",
+   "street": "416 Franklin Rd.",
+   "city": "Fitchburg",
+   "region": "MA",
+   "postal": "01420",
+   "phone": "978-345-7558",
+   "tel": "+19783457558",
+   "hours": [],
+   "order": "tel:+19783457558",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Cleghorn+House+of+Pizza+416+Franklin+Rd.+Fitchburg+MA+01420"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Homepage still shows an out-of-date notice: 'We will be closed Aug. 16 - Sep 16. Reopening Sep 17, 2025.' This concept does not repeat it.",
+  "No online ordering anywhere on the site; customers have to call.",
+  "Homepage is very thin: a two-sentence welcome, the address and phone numbers.",
+  "Menu is a long text page plus a printable PDF, with no food photos."
+ ],
+ "questions": [
+  "Would you like online ordering? If so, through which service?",
+  "Is the shop open now, and what are the hours?",
+  "How many years has the shop been open (the lead notes say 30+)?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?"
+ ]
+}

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://camdenmainepizza.com/sitemap.xml

@@ -1,0 +1,70 @@
+{
+ "slug": "leominster-house-of-pizza-ma",
+ "name": "Leominster House of Pizza",
+ "short": "Leominster House of Pizza",
+ "domain": "https://leominsterhouseofpizza.com",
+ "tagline": "Pizza shop at 753 Central Street in Leominster, Massachusetts. Order online or call ahead.",
+ "seo_title": "Leominster House of Pizza | Pizza in Leominster, MA",
+ "seo_desc": "Leominster House of Pizza, 753 Central Street, Leominster MA. Order online or call (978) 534-4222.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#f8f2e4",
+  "ink": "#231d1a",
+  "muted": "#5f5650",
+  "accent": "#a3291d",
+  "accent2": "#2a5640"
+ },
+ "facebook": "https://facebook.com/121303407885354",
+ "instagram": "",
+ "order_any": "https://leominsterhouseofpizza.foodtecsolutions.com/ordering/intro",
+ "about": [
+  "Leominster House of Pizza is a pizza shop at 753 Central Street in Leominster, Massachusetts.",
+  "Order online or call (978) 534-4222."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://leominsterhouseofpizza.foodtecsolutions.com/ordering/intro",
+ "order_label": "Order online",
+ "menu_note": "The shop's current menu and prices are on its own website (leominsterhouseofpizza.com). This concept does not reproduce them: call (978) 534-4222 for items and prices.",
+ "badge": [
+  "Pizza shop",
+  "Online ordering",
+  "Leominster, MA"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "leominster-house-of-pizza-ma",
+   "name": "Leominster",
+   "street": "753 Central Street",
+   "city": "Leominster",
+   "region": "MA",
+   "postal": "01453",
+   "phone": "(978) 534-4222",
+   "tel": "+19785344222",
+   "hours": [],
+   "order": "https://leominsterhouseofpizza.foodtecsolutions.com/ordering/intro",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Leominster+House+of+Pizza+753+Central+Street+Leominster+MA+01453"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Web presence is split across two sites: a stock FoodTec ordering template on its own domain and a separate free GoDaddy subdomain site.",
+  "The GoDaddy homepage is one line of welcome text with a single image and GoDaddy's default app logo.",
+  "The own-domain site lists the address as just 'Central St' with no street number, and its main pitch is a FoodTec 'Register' signup box.",
+  "Neither site has an about story, photos of the food, or social links."
+ ],
+ "questions": [
+  "Do you want the GoDaddy site retired in favor of one site on leominsterhouseofpizza.com?",
+  "Is the FoodTec ordering link current?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?"
+ ]
+}

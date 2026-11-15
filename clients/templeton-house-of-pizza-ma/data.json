@@ -1,0 +1,69 @@
+{
+ "slug": "templeton-house-of-pizza-ma",
+ "name": "Templeton House of Pizza",
+ "short": "Templeton House of Pizza",
+ "domain": "https://templetonhouseofpizza.com",
+ "tagline": "Pizza shop at 5 Elm Street in Baldwinville (Templeton), Massachusetts. Order online or call ahead.",
+ "seo_title": "Templeton House of Pizza | Pizza in Baldwinville, MA",
+ "seo_desc": "Templeton House of Pizza, 5 Elm St, Baldwinville MA. Order online or call (978) 652-5114.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#f9f3e5",
+  "ink": "#27201a",
+  "muted": "#625649",
+  "accent": "#b0301e",
+  "accent2": "#2d5a42"
+ },
+ "facebook": "https://www.facebook.com/profile.php?id=61585594960564",
+ "instagram": "",
+ "order_any": "https://templetonpizza.24seveneats.com/",
+ "about": [
+  "Templeton House of Pizza is a pizza shop at 5 Elm St in Baldwinville, part of Templeton, Massachusetts.",
+  "Order online or call (978) 652-5114."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://templetonpizza.24seveneats.com/",
+ "order_label": "Order online",
+ "menu_note": "The shop's current menu and prices are on its own website (templetonhouseofpizza.com). This concept does not reproduce them: call (978) 652-5114 for items and prices.",
+ "badge": [
+  "Pizza shop",
+  "Baldwinville, MA"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "templeton-house-of-pizza-ma",
+   "name": "Baldwinville",
+   "street": "5 Elm St",
+   "city": "Baldwinville",
+   "region": "MA",
+   "postal": "01436",
+   "phone": "(978) 652-5114",
+   "tel": "+19786525114",
+   "hours": [],
+   "order": "https://templetonpizza.24seveneats.com/",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Templeton+House+of+Pizza+5+Elm+St+Baldwinville+MA+01436"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "Generic vendor template (credited to 24SevenEats) with copy shared almost word for word with another shop's site.",
+  "Leftover filler copy that does not fit a pizza shop (a 'robust sandwiches menu' line about feeding a crowd).",
+  "Character-encoding glitch on the homepage ('weâ€™re' instead of 'we're').",
+  "Several homepage links go nowhere (href='#') and images use stock template file names."
+ ],
+ "questions": [
+  "How long has the shop served Templeton and Baldwinville?",
+  "Is the 24SevenEats ordering link the one you want customers to use?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?"
+ ]
+}

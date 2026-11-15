@@ -1,0 +1,70 @@
+{
+ "slug": "camden-house-of-pizza-me",
+ "name": "Camden House of Pizza",
+ "short": "Camden House of Pizza",
+ "domain": "https://camdenmainepizza.com",
+ "tagline": "Pizza shop at 12 Mechanic Street in Camden, Maine. Order online or call ahead.",
+ "seo_title": "Camden House of Pizza | Pizza in Camden, ME",
+ "seo_desc": "Camden House of Pizza, 12 Mechanic Street, Camden ME. Order online or call 207-230-2464.",
+ "theme": {
+  "surface": "#ffffff",
+  "on_accent": "#ffffff",
+  "head": "Big Shoulders Display",
+  "body": "Work Sans",
+  "bg": "#f6f1e6",
+  "ink": "#1e2a33",
+  "muted": "#55616a",
+  "accent": "#1f5a7a",
+  "accent2": "#b8402a"
+ },
+ "facebook": "https://www.facebook.com/517253391795633",
+ "instagram": "",
+ "order_any": "https://order.online/store/26344237",
+ "about": [
+  "Camden House of Pizza is a pizza shop at 12 Mechanic Street in Camden, Maine.",
+  "Order online or call 207-230-2464."
+ ],
+ "extras": [],
+ "specials": [],
+ "delivery": "",
+ "order_url": "https://order.online/store/26344237",
+ "order_label": "Order online",
+ "menu_note": "The shop's current menu and prices are on its own website (camdenmainepizza.com). This concept does not reproduce them: call 207-230-2464 for items and prices.",
+ "badge": [
+  "Pizza shop",
+  "Camden, ME"
+ ],
+ "gallery": [],
+ "hero_img": "",
+ "logo": "",
+ "locations": [
+  {
+   "id": "camden-house-of-pizza-me",
+   "name": "Camden",
+   "street": "12 Mechanic Street",
+   "city": "Camden",
+   "region": "ME",
+   "postal": "04843",
+   "phone": "207-230-2464",
+   "tel": "+12072302464",
+   "hours": [],
+   "order": "https://order.online/store/26344237",
+   "maps": "https://www.google.com/maps/search/?api=1&query=Camden+House+of+Pizza+12+Mechanic+Street+Camden+ME+04843"
+  }
+ ],
+ "menu": [],
+ "findings": [
+  "The menu page is a single phone photo of the paper menu, hard to read, search or zoom on a phone.",
+  "Stock WordPress default theme: footer still shows placeholder items (Blog, About, FAQs, Authors, Events) and 'Twenty Twenty-Five' appears in page text.",
+  "Site icon is a cropped 2019 screenshot file.",
+  "Homepage slideshow says 'This slideshow requires JavaScript' and the page has only two images.",
+  "A public review says the customer 'tried ordering online but the website would not cooperate'."
+ ],
+ "questions": [
+  "Is the order.online link the one ordering path you want customers to use?",
+  "Do you have photos of your food and shop we may use?",
+  "Can you send your current menu as text with prices so we can list it?",
+  "What are your opening hours?",
+  "The shop is on a side street: what landmark should directions mention?"
+ ]
+}
